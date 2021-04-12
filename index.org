@@ -10,6 +10,11 @@ These are my notes about a game i hope to live to see thrive and bestow
 riches upon riches upon its creator. It does everything roguelikes could have
 done but never did; and I've played them all.
 
+I'm hosting these as a [[https://fara-pug.github.io/fara-pug/][web-page at github]] now, but that looks really lame. But
+fear not! With [[https://github.com/fara-pug/fara-pug/blob/main/index.md][github stylesheets]] they are quite nice looking already. For the
+full crazy, take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some vids]] then grab the source document [[https://github.com/fara-pug/fara-pug][from the
+repo]].
+
 ** Note
 The is the 2nd release, incorporating more things learned on the journey
 toward my first win. Grossly obsolete notes about old versions and system
@@ -90,9 +95,9 @@ Everywhere else kinda looks like this
 
 *** Warehousing
 
-Unlock this Builging ASAP!
+Unlock this Building ASAP!
 
-"There is nothing in any of my warehouses .. except in relica." - pug.
+"There is nothing in any of my warehouses .. except in Relica's." - pug.
 
 First off, I don't really like the slow interaction with the storage bins in the
 warehouse. But I use them. I dont use scrolls but I keep them in a bin next to
@@ -294,9 +299,7 @@ likely to fade into the void again!
 - */split* operates on the selected item, give it a parm for how many items you
   want in a new pile
 
-When in doubt about equipment, /compare
-
-*If you happen to be on fire, (stop, drop and) /roll*
+- *If you happen to be on fire, (stop, drop and) /roll*
 
 ** KEYS!
 - read the bottom of */keybinds* aka "*K*"
@@ -319,15 +322,16 @@ suggestions:
   and exhibit to impress your npc buddies.
 
 
-- *z* is really cool for /place ing items into containers /give ing items and
+- *z* is really cool for */place* ing items into containers */give* ing items and
   many more things. you can press it multiple times before the game reacts and
   it will do the right thing.
 
 But, *be careful when using the /z shortcut!!!*
 
-- It repeats an unknown set of 'last typed (not shortcut) commands'.
-  It /may/ behave unexpectedly.
-  - If you're not sure what you typed last, type / + up arrow
+It repeats only most 'last typed (not shortcut) commands' which gives it the
+ability to surprise you in unexpected ways!. If you're not sure what you typed
+last, type / then press "up arrow". Not that that would save you from surprises
+though.
 
 ** Things to */say* or */shout*
 
@@ -381,7 +385,7 @@ effects (a lot of people died researching this. a moment of silence please!):
 Each of these blights decreases your chances of resurrecting again. Exactly what
 that means is unclear.. except that it will prevent you from cultivating your follies.
 
-** Character Stats
+**
 - see /define for great upto-date info
 - includes info from discord and https://fara.fandom.com/wiki/Character_Stats
 - If you have high health and high resilience then you are probably good at tanking
@@ -588,17 +592,58 @@ they should join right away.
   attackers. after */exit* they come back. fun during the early days.
 
 ** Runes
-There are effect and elemental runes. Okay, there are 'spell-type' runes too, but i
-dont have enough of what i call 'named runes' yet to have a good picture.
+
+Three kinds..
+| Effect    |
+| Status    |
+| Elemental |
 
 Pick a number for the elemental runes you want to keep today and */salvage* the
-rest to turn them into shards/dust. Rune shards and Medals in this game.
+rest to turn them into shards/dust. Rune shards and Medals are 'currency' in
+this game.
 
 See [[Obelisk]] for Spell-levels and leveling
 
 *** Runes I've seen
-|   |
-|   |
+
+| Rune of      | Class | Type   | Effect                                                   |
+|--------------+-------+--------+----------------------------------------------------------|
+| Arrows       | s     | once   | Bypass Elemental Resistances                             |
+| Blades       | s     | once   | +Crit%                                                   |
+| Fonts        | s     | once   | entities in area add elemental component to their attack |
+| Hammers      | s     | Malus  | Daze                                                     |
+| Meteors      | s     | AOE    | Impact                                                   |
+| Spears       | s     | once   | Damage+ with Range+                                      |
+|--------------+-------+--------+----------------------------------------------------------|
+| Burning      | e     | DOT    | Fire                                                     |
+| Glamour      | e     | Stat   | +[[Charm][Charisma]]                                                |
+| Slowness     | e     | Stat   | -[[Finesse][Finesse]]                                                 |
+| Sickness     | e     | DOT    |                                                          |
+| Intoxication | e     | DOT    | -[[Finesse][Finesse]] +Stumble%                                       |
+| Bleeding     | e     | DOT    |                                                          |
+|--------------+-------+--------+----------------------------------------------------------|
+| Rejuvenation |       | Status | Healing over Time                                        |
+| Shield       |       |        |                                                          |
+| Beam         |       |        |                                                          |
+| Meteor       |       |        |                                                          |
+| Barrage      |       |        |                                                          |
+|--------------+-------+--------+----------------------------------------------------------|
+
+*** Mixing Elemental Runes and the names for what you get
+The words in the grid show up in the spell name.
+https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
+
+| /Elements/ | Water   | Earth   | Fire      | Air       | Light   | Dark   |
+|------------+---------+---------+-----------+-----------+---------+--------|
+| *Water*    | *Water* | Tide    | Steam     | Ice       | ?       | ?      |
+| *Earth*    | Tide    | *Earth* | Magma     | ?         | ?       | ?      |
+| *Fire*     | Steam   | Magma   | *Fire*    | Lightning | Radiant | ?      |
+| *Air*      | Ice     | ?       | Lightning | *Air*     | ?       | Night  |
+| *Light*    | ?       | ?       | Radiant   | ?         | *Light* | Dusk   |
+| *Dark*     | ?       | ?       | ?         | Night     | Dusk    | *Dark* |
+|------------+---------+---------+-----------+-----------+---------+--------|
+
+- i just copied the spreadsheet, added bold and magma, but no idea what goes into the missing slots
 
 *** digging them up
 - at a beach
@@ -608,32 +653,19 @@ See [[Obelisk]] for Spell-levels and leveling
 - should be possible once you get the tool recipes from the first other settlement you visit.
 - oh, have a rope on you anytime you dig, just in case you slip and fall.
 - must-read: [[Degritone's Guide to 100k Points]]
-
-
-*** Mixing Elemental Runes and the names for what you get
-The words in the grid show up in the spell name.
-https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
-
-| /Elements/ | Water   | Earth   | Fire      | Air       | Light   | Dark   |
-|----------+---------+---------+-----------+-----------+---------+--------|
-| *Water*  | *Water* | Tide    | Steam     | Ice       | ?       | ?      |
-| *Earth*  | Tide    | *Earth* | Magma     | ?         | ?       | ?      |
-| *Fire*   | Steam   | Magma   | *Fire*    | Lightning | Radiant | ?      |
-| *Air*    | Ice     | ?       | Lightning | *Air*     | ?       | Night  |
-| *Light*  | ?       | ?       | Radiant   | ?         | *Light* | Dusk   |
-| *Dark*   | ?       | ?       | ?         | Night     | Dusk    | *Dark* |
-
-
-- i just copied the spreadsheet, added bold and magma, but no idea what goes into the missing slots
+- see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
 
 ** Spells/Spell-tombs
 
-Basically, you chose an elemental rune to determine what type of damage and what
-elemental effect it does, a “stabilizer” to determine what type of spell it is
-(long range, AoE, etc) and an effector rune to apply additional effects when you
-cast it (like blinding enemies, getting buffs on yourself, etc(
+Basically, you
+- chose an elemental rune to determine what type of damage and what elemental
+  effect it does,
+- a “stabilizer” to determine what type of spell it is (long range, AoE, etc)
+  and
+- an effector rune to apply additional effects when you cast it (like blinding
+  enemies, getting buffs on yourself, etc
 
-
+More:
 - Spell type + 2 elements + effect  adds random stabilizer
 - If you don't use any elemental runes, only a stabilizer and affector, you get an arcane spell
 - You can put 2 spells on weapons and armor.  (scrolls /use
@@ -654,8 +686,6 @@ cast it (like blinding enemies, getting buffs on yourself, etc(
 :ID:       9af345c8-2a4b-4c50-94df-a5d239bed24c
 :END:
 ...Except beam, meteor, and barrage spells
-
-- Spear spells have pretty long range and do more damage the further away you are from the target
 
 *** You must have a healing spell
 :PROPERTIES:
@@ -721,6 +751,14 @@ are probably hugely important for spellcasters in dire situations, but I'd need
 an expert to chime in with their experience as I'm just guessing here.
 
 *** Ingredients
+**** Drinks
+| Bottle of | Meal   | Buff | Attribute  |
+|-----------+--------+------+------------|
+| Rum       | Hearty | ++   | Resilience |
+| Bourbon   |        |      |            |
+| Whiskey   |        |      |            |
+| Moonshine |        |      |            |
+| Wine      |        |      |            |
 **** Meat
 | Meat     | Meal    | Buff | Attribute |
 |----------+---------+------+-----------|
@@ -772,12 +810,6 @@ Yes, I know about Tomatoes..
 | Pea       |      |      |           |
 | Potato    |      |      |           |
 
-**** Drinks
-| Bottle of | Meal   | Buff | Attribute  |
-|-----------+--------+------+------------|
-| Rum       | Hearty | ++   | Resilience |
-
-
 **** Plants
 Herbs, Spices and Flowers
 | Plant         | Meal | Buff | Attribute |
@@ -796,7 +828,8 @@ Herbs, Spices and Flowers
 | Primrose      |      |      |           |
 | Sunflower     |      |      |           |
 
-*** Elements (++)
+*** Elementally Flamed (++)
+By the power of magic..
 | Element | Meal |
 |---------+------|
 | Earth   | Rich |
@@ -806,7 +839,7 @@ Herbs, Spices and Flowers
 | Light   |      |
 | Dark    |      |
 
-** Sleeping/resting
+** Resting
 I read that you can rest on mats. that's not true.
 
 You need/want
@@ -872,7 +905,7 @@ if you can fill in the details!
   largely cosmetic/flair items.
 
 
-** Crafting/ Materials/ Resources
+** Materials
 
 *** Wiki preamble
 I sooo hope that the wiki/source is more than mostly right on this info
@@ -901,93 +934,77 @@ between +7 and +10, etc.)
 
 *** Wood, Bone, Scale, Glass, and Minerals
 
-| Name       | STR | FIN | RES | INS | CHA |
-| adamantine | >>> | >>  | >>> |     |     |
-| arcanium   |     | >>  |     | >>> | >>> |
-| bone       |     |     | >>  |     |     |
-| brass      |     |     | >>> | >>  |     |
-| clay       |     |     |     |     |     |
-| copper     | >>  |     | >>  |     |     |
-| crystal    |     |     |     | >>> | >>  |
-| diamond    | >>  |     | >>  |     |     |
-| glass      |     |     |     | >>  | >>  |
-| fortrium   | >>  |     | >>> | >>> |     |
-| iron       | >>  |     | >>> |     |     |
-| ivory      |     |     | >>  | >>  |     |
-| jade       | >>> |     | >>> |     |     |
-| obsidian   |     |     |     | >>> | >>> |
-| silver     | >   |     | >   |     |     |
-| steel      | >>> |     | >>> |     |     |
-| tin        | >   |     | >   |     |     |
-| titanium   |     |     | >>> | >>> |     |
-| wood       | >>  |     |     |     |     |
+|----------------+------------------+-------------|
+| Sand           |                  | /dig        |
+| Stone          |                  | find        |
+| Birds          | Tuft of Feathers | drops       |
+| Mounds of Clay | Lumps            |             |
+| Ceramic Plates | Clay             | /dig?       |
+| Logs           | Wooden Planks    | /harvest    |
+| Logs           | Wooden Blocks    | /harvest    |
+| Burlap         | 2 Plant Fibers   | Very Common |
+|----------------+------------------+-------------|
+
+
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
+| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
+| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
+| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
+| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
+| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
+| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
+| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 2 Ore           |
+| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | 2 Ore           |
+| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
+| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
+| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
+| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
+| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+
 
 *** Cloths and Furs
-| Name       | STR | FIN | RES | INS | CHA |
-| burlap     |     |     |     |     |     |
-| cotton     |     |     |     | >>  | >>  |
-| fur        | >>  | >>> |     |     |     |
-| ghostweave | >>> | >>> | >>  |     |     |
-| hide       | >>  | >>  |     |     |     |
-| lace       |     | >>  |     |     | >>> |
-| leather    |     | >>  |     |     |     |
-| linen      |     |     |     |     | >>  |
-| silk       |     | >>  |     |     | >>  |
-| starcloth  |     | >>> |     | >>  | >>> |
-| velvet     |     | >>> |     |     | >>> |
-| wool       | >>  | >>  |     |     |     |
+Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
+| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
+| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
+| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
+| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
+| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
+| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
-*** Certain resources don't match up exactly with their resource
-(from discord)
-
-- Wood has wooden blocks instead of ingots
-- Clay has lumps of clay
-- Bone is animal bones
-- Bronze ingots are crafted with 2 copper ore and 1 zinc ore
-
-- Burlap & Leather - Very common
-- Silk & Wool - Common
-- Lace & Fur - Uncommon
-- Starcloth, Hide, & Velvet - Rare
-- Ghostweave - Very rare
-
-- Ghostweave's direct item (basically, ingot but not)
-- Is ghostfibers
-
-- Diamond is on par with steel and titanium
-
-*** There's 4 solid resources for every rarity
-:PROPERTIES:
-:ID:       bec38c60-7800-4bbe-9a2a-be7db0607320
-:END:
-- Common has copper, ivory, and I can't remember the other 2
-- Uncommon has bronze, iron, crystal, and another one that I can't remember
-- Rare has titanium, obsidian, steel, and one I can't remember
-- And very rare has Fortrium, arcanium, jade, and adamantine
-
-
-*** Close to Relica, you'll only find stuff like zinc, copper, and tin ores
-:PROPERTIES:
-:ID:       d2d86713-a84e-4ce4-b2c0-ac94751c081c
-:END:
-Further from Relica you find coolerererer ores,
-Also
-You have to have either salvaged something made of an ingot
-and received at least 1 ingot /inspect -ed an ingot
-Or came into possession of an ingot
-To know that ingot's crafting recipe
-So if you get something made of bronze
-And you salvage it
-And get a bronze ingot
-You learn how to make a bronze ingot
-(2 copper 1 zinc)
-
-
-
-*** crafting notes
+** Containers
 :PROPERTIES:
 :ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
 :END:
+
+- Carts, draggable on the local map
+- Storage Bins, installable
+- Storage Bins, upgraded.
+
 (from discord)
 - The first recipe you have is for a burlap satchel
 - Crafting a burlap satchel unlocks a handful of different satchel materials, and the recipe for bags with different materials
@@ -1000,7 +1017,6 @@ You learn how to make a bronze ingot
 - Making it refined, artisan, or masterwork further increases capacity
 - The Merchant class has significantly increased inventory capacity from the beginning
 - And the Hauler trait increases your inventory capacity passively
-
 
 * Quests
 You can figure these out by your self, don't sweat them. If there's trouble you
@@ -1027,19 +1043,19 @@ Wait with the scary quests until you have legendary stats and artisan equipment,
 or something close to that. Or wait until you are already thriving at a place
 even further from Relica than where you first got the suicide invitations.
 
-If you rush yourself, you'll die. Farawella!
+If you rush yourself, [[Blights][you'll die]]. Farawella!
 
 ** Missing Kid Quests
 (from the notes of earlier pug.)
 
-Stupid Kids! First you can never find them, then they do find one, and when you
+Stupid Kids! First you can never find them, then you do find one, and when you
 bring them home in the middle of the night they want to play hide and seek and
-have you find them in 15 minutes or so. Totally Bogus! aaaargh.
+you have to find them in 15 minutes or so. Totally Bogus! aaaargh.
 
 Yet again you need to build a shelter. And you need search. At least without
 either I've not found a single kid yet. Then you need to rest until morning so
 you don't need to make light to find them again whence back in town and they
-start playing their games. For that you need to have local waypoints by which to
+start playing their games. For that you need to have [[Trick out your map!][local waypoints]] by which to
 move yourself through the settlement without going nuts. Do you have those?
 
 And then you learn about how to make Burlap Dolls. Or perhaps they have that
@@ -1059,8 +1075,8 @@ for things you've never seen.
 
 Needy as they are, they want foods that noone in their right mind would care to
 eat, Weapons and other items you have never heard of. And they send you to
-unknown places too. Always they have needs in places you've never been, make you
-deliver the weirdest trinkets and their oddest friends to hard to find people
+[[In the Crucible][unknown places]] too. Always they have needs in places you've never been, make you
+deliver the weirdest trinkets or their odd selves to hard to find people
 and places. The heirlooms from their illustrious ancestors, those medals,
 just like their inane request never seem to run out.
 
@@ -1089,8 +1105,8 @@ services.
     profit to travel at night for what seems is a greater chance at getting
     ambushed)
 - tbd if escortees tolerate detours and or 'excessive' camping out.
-- apparently they are a source of infinte custom/random weapons and gear
-  - atm the wh crucible seems like a good place to keep them.
+- apparently they are a source of infinite custom/random weapons and gear
+  - atm the wh crucible seems like a good place to keep those.
 
 
 * Locations
@@ -1245,7 +1261,7 @@ grindy, very medal-expensive!
 
 Afterwards he wanted bones again..
 
-Anyway, now i can consult [[Crafting/ Materials/ Resources]] and better versions
+Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
 of his more sensible items. neat!
 
 - Keeping these prototypes makes sense to me right now.
@@ -2340,7 +2356,7 @@ What useful info there for 2021 has been incorporated above.
 Its most function page: https://fara.fandom.com/wiki/Special:Categories
 
 * Release Notes
-Here are *ALL* FARA Patch and Release Notes as of 2019.04.09.
+Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 
 - source: https://brianiscreative.itch.io/fara/devlog
 - compiled by pug since facts are not subject to copyright
@@ -4094,15 +4110,20 @@ For more on electron apps, check out!
 
 
 * Requirements
-Pugs experiments suggest:
-- 2+ ghz,
-- 4ish gb ram for chrome/electron/fara (at most!?)
-- anything but a dual-core cpu. fara needs at least three concurrent threads to
-  be performant and having just a dual-core cpu will ~half the game's speed
-- optimal? anything quad-core with ddr-4 ram; ddr-3 will do.
-- disk seems not important.
+Pug's experiments suggest:
+- 2+ GHZ,
+- 4ish GB ram for chrome/electron/fara (at most!?)
+- Anything but not a dual-core cpu!
+- FARA needs at least three concurrent threads to be performant and having just
+  a dual-core cpu will ~half the game's speed
+- Optimal? anything quad-core with DDR-4 ram; DDR-3 will do.
+- Disk seems not important.
 
-* Disclaimer/Versions/Obtaining.
-This document was produced in emacs/org-mode and last updated Mon, 12Apr21.
-It is hereby released without any claim on anything. I'm reachable through
-the fara discord for the time being.
+* Notice
+This document is hereby released without any claim of ownership on other
+people's content and without claims of copyright by compilation or any or other
+claims I could make to keep you from contributing to the game.
+
+I'm reachable through the FARA discord for the time being and will gladly
+incorporate even your smallest observations, insights and corrections for others
+to enjoy!
