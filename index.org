@@ -10,18 +10,24 @@ These are my notes about a game i hope to live to see thrive and bestow
 riches upon riches upon its creator. It does everything roguelikes could have
 done but never did; and I've played them all.
 
-I'm hosting these as a [[https://fara-pug.github.io/fara-pug/][web-page at github]] now, but that looks really lame. But
-fear not! With [[https://github.com/fara-pug/fara-pug/blob/main/index.md][github stylesheets]] the notes look quite nice already. For the
-full crazy, take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some vids]] then grab the source document [[https://github.com/fara-pug/fara-pug][from the
-repo]].
+If you don't know what I'm talking about, visit ![[https://brianiscreative.itch.io/fara][FARA's Homepage]]! and take a look
+at these [[https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video][game-play vids]].
 
 ** Note
 The is the start of 'rolling unannounced updates' via Github hosting.
+
+I'm hosting these notes as a [[https://fara-pug.github.io/fara-pug/][web-page at github]] now, but that looks really lame. But
+fear not! With [[https://github.com/fara-pug/fara-pug/blob/main/index.md][github stylesheets]] the notes look quite nice already. For the
+full crazy, take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some vids]] then grab the source document [[https://github.com/fara-pug/fara-pug][from the
+repo]].
 
 To stay totally informed of my very random comings and going, enter
 [[https://github.com/fara-pug.atom]] into your rss-feed reader. I like the [[https://www.startpage.com/do/search?query=Feedbro+Reader][Feedbro
 Reader]]. Set the update interval to weekly so that you catch changes I make out
 of the blue after having not been seen. (Also set "maximum items to keep" to 1)
+
+Make sure you also subscribe to [[https://brianiscreative.itch.io/fara/devlog.rss][Brian's FARA RSS feed]] to stay in touch with the
+game's development! If you haven't, do it now!
 
 As I'm incorporating more things gleaned and learned on the journey toward my
 first win there's no need to announce anything on the Discord except your
@@ -32,6 +38,9 @@ things and make a 'new release'.
 click the *bold* title of the entries you see for the geeky details.  If you
 just want to see when new pages went live, [[https://github.com/fara-pug/fara-pug/deployments/activity_log?environment=github-pages][there's a list for that too]].
 
+(If you must, but can't reach me via discord, make a quick account on github and
+post a comment there. Thats no bother and will reach me via email most
+weeks. Enjoy!)
 
 ** Thanks
 There are many voices here from the discord, reddit, wiki that use "I", but
@@ -1169,8 +1178,10 @@ How!?@?#
 - 5 wooden buckets (got recipe after opening refinery)
 
 ***** Benefit
+Aha's from looking at my first Stables.
+Yours will be similar I'd think. So.. Oh!
 
-- its a farm with spice and tree plots! it has
+- its a farm with spice and tree plots! 
   - a garlic and a fennel plot
   - a lemon and a maple tree plot
 - farmer and stablemaster work here
@@ -4147,6 +4158,3 @@ claims I could make to keep you from contributing to the game.
 I'm reachable through the FARA discord for the time being and will gladly
 incorporate even your smallest observations, insights and corrections for others
 to enjoy!
-
-(If you must, but can't reach me via discord, make a quick account on github and
-post a comment there. That will reach me via email most weeks. Enjoy!) 
