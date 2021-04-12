@@ -282,9 +282,12 @@ Some curios are craftable, but only the ones that boost one of the 5 main stats.
 * Game Play
 ** /COMMANDS
 
+*If you find that your game slows down when moving around, issue /clearlog* 
+
 - */help* gives most of them
 - */settings* gives more of them
-- [[Release Notes]] offers some more
+- The [[Release Notes]] give insights into and context for additional commands.
+  Click the link and search for "*/*"
 
 The discord's spoiler channel denizens often refer to 'creative mode' and yet
 more */commands* but i haven't had the patience or desire to slug through the
@@ -312,6 +315,7 @@ suggestions:
 | /setkey : layout3     |
 | /setkey , autoloot    |
 | /setkey < climb       |
+| /setkey k clearlog    |
 
 - layout3 is like turbo mode for moving in the game; i love it. switch back to
   layout1 or layout2, whatever you like best, as needed using the non-shifted
