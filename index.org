@@ -335,8 +335,6 @@ A few things regarding charged rift particles:
 
 ** what classes do yall like the most
 - Pugilist > Viking > Soldier
-** Curios are a thing
-
 
 * Game Play
 ** /COMMANDS
@@ -652,6 +650,9 @@ maybe i should complete the key first and see what revelations that brings.
 decisions. decisions. /end crazy math
 
 * Need to know
+
+OVERKILL IS UNDERRATED.
+
 ** Party
 
 - Press "*p*" for party details. It will show you have many followers you have and
@@ -680,43 +681,121 @@ with right where you left them!
 
 ** Runes
 
-Three kinds..
-| Effect    |
-| Status    |
-| Elemental |
+You need these things to create your own [[Spells][spells]].
+
+Lots to fill in from the tooltips. I hope the lists are complete for now.
+
+*** Effector Runes
+
+If they are suffering from an effect, the caster is cleansed from these effects
+when they cast the spell causing it. To make this work, casting Silencing is
+possible even when you are silenced.
+
+If you are burning, and don't have that spell, stop, drop and /roll.
+
+**** Conditions
+|--------------+---------------------------------------|
+| Rune of      | Effect                                |
+|--------------+---------------------------------------|
+| Blinding     | Decrease Vision radius                |
+| Burning      | Fire/Burning                          |
+| Fury         | Raises Critical Damage made           |
+| Illumination | Receive more% Crit Hits, deny Stealth |
+| Silencing    | Prevents casting                      |
+|--------------+---------------------------------------|
+
+**** Affecting Health & Stamina
+|--------------+----------------------------|
+| Rune of      | Effect                     |
+|--------------+----------------------------|
+| Rejuvenation | Supply %s Health           |
+| Bleeding     | Drain %s Health            |
+| Poison       | Drain %s Health            |
+| Sickness     | Drain Stamina              |
+|--------------+----------------------------|
+
+**** Affecting Attributes
+|------------+---------------+---------------|
+| Attribute  | Raise         | Lower         |
+|------------+---------------+---------------|
+| [[Charm][Charisma]]   | Charm         | Uglyness      |
+| [[Finesse][Finesse]]    | Quickness     | Slowness      |
+| [[Insight][Insight]]    | Enlightenment | Stupidity     |
+| [[Resilience][Resilience]] | Fortification | Vulnerability |
+| [[Strength][Strength]]   | Rage          | Weakness      |
+|------------+---------------+---------------|
+
+Additionally,
+
+|--------------+------------------------------------------------------|
+| Rune of      | Effect                                               |
+|--------------+------------------------------------------------------|
+| Intoxication | Lowers [[Finesse][Finesse]], Raise chance to Stumble |
+|--------------+------------------------------------------------------|
+
+*** Stabilizer Runes
+
+|------------+---------------+---------------------------------------------------|
+| Rune of    | Type          | Effect                                            |
+|------------+---------------+---------------------------------------------------|
+| Barriers   | Buff Area     | moderate elemental resistance for those near      |
+| Shields    | Buff Target   | high elemental resistance                         |
+| Wards      |               |                                                   |
+|------------+---------------+---------------------------------------------------|
+| Fields     | Amplify       | Ups all elem dmg taken?/made? in an area          |
+| Blessings  | Amplify       | Ups damage output of spell's element              |
+| Curses     | Amplify       | Ups target vulnerability to spell's element       |
+|------------+---------------+---------------------------------------------------|
+| Fonts      | Buff Area     | add elemental component to attacks of those near  |
+|------------+---------------+---------------------------------------------------|
+| Chains     | Single Status | Immobilize                                        |
+| Hammers    | Single status | Daze                                              |
+| Forces     | Single Status | Pushes target away, stuns them if they hit a wall |
+| Gales      | Single Target | Interrupt actions and drain stamina               |
+|------------+---------------+---------------------------------------------------|
+| Barrages   | DOT Area      | Damages all targets in the area                   |
+| Blades     | Direct Damage | Greater chace for Critical Hits                   |
+| Elementals | Summons       | Summons Elementals to aid the caster              |
+| Plagues    | DOT Target    | Damages the target over time                      |
+| Whips      | Direct Damage | Damages the target and their armor                |
+|------------+---------------+---------------------------------------------------|
+| Spears     | Direct Damage | Damage goes up as with distance to target         |
+| Arrows     | Direct Damage | Bypass Elemental Resistances                      |
+| Beams      | Direct Damage | Hits all targets in a straight line               |
+|------------+---------------+---------------------------------------------------|
+| Blasts     | AOE           | Damages the target and *everyone* nearby          |
+| Meteors    | AOE           | Impacts all targets in an area after short delay  |
+| Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                |
+|------------+---------------+---------------------------------------------------|
+
+
+**** All spells are created equal...
+...Except beam, meteor, and barrage spells
+
+*** Elemental Runes
 
 Pick a number for the elemental runes you want to keep today and */salvage* the
 rest to turn them into shards/dust. Rune shards and Medals are 'currency' in
-this game.
+this game. What you do with the "named runes" above is up to you. Salvage them I
+would not.
 
-See [[Obelisk]] for Spell-levels and leveling
+|---------+------------------------------------|
+| Element | Heavy Attacks with Infused Weapons |
+|---------+------------------------------------|
+| Air     | Quickens Attacker/ +Finesse        |
+| Dark    | Darkens Target Mood/ -Stats        |
+| Earth   | Poison DOT, denies Healing         |
+| Fire    | Armor Damage                       |
+| Light   | Illumes Target/ +Crits             |
+| Water   | Heal Attacker                      |
+|---------+------------------------------------|
 
-*** Runes I've seen
+If you infuse 2 runes into your weapon the effects alternate, halving your
+healing potential.
 
-| Rune of      | Class | Type   | Effect                                                   |
-|--------------+-------+--------+----------------------------------------------------------|
-| Arrows       | s     | once   | Bypass Elemental Resistances                             |
-| Blades       | s     | once   | +Crit%                                                   |
-| Fonts        | s     | once   | entities in area add elemental component to their attack |
-| Hammers      | s     | Malus  | Daze                                                     |
-| Meteors      | s     | AOE    | Impact                                                   |
-| Spears       | s     | once   | Damage+ with Range+                                      |
-|--------------+-------+--------+----------------------------------------------------------|
-| Burning      | e     | DOT    | Fire                                                     |
-| Glamour      | e     | Stat   | +[[Charm][Charisma]]                                                |
-| Slowness     | e     | Stat   | -[[Finesse][Finesse]]                                                 |
-| Sickness     | e     | DOT    |                                                          |
-| Intoxication | e     | DOT    | -[[Finesse][Finesse]] +Stumble%                                       |
-| Bleeding     | e     | DOT    |                                                          |
-|--------------+-------+--------+----------------------------------------------------------|
-| Rejuvenation |       | Status | Healing over Time                                        |
-| Shield       |       |        |                                                          |
-| Beam         |       |        |                                                          |
-| Meteor       |       |        |                                                          |
-| Barrage      |       |        |                                                          |
-|--------------+-------+--------+----------------------------------------------------------|
+See [[Damage types][Damage types]], Elemental, Attunement
 
-*** digging them up
+*** Farming Runes
 - at a beach
 - setup a building to rest for buffs
 - what would be the ideal food/drink to take?
@@ -725,6 +804,8 @@ See [[Obelisk]] for Spell-levels and leveling
 - oh, have a rope on you anytime you dig, just in case you slip and fall.
 - must-read: [[Degritone's Guide to 100k Points]]
 - see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
+
+Dig and or Fish.. seem rather alike, no? 
 
 ** Damage types
 
@@ -787,6 +868,9 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 - still need the names for seven more combos.
 
 ** Spells
+(expert info is on the way)
+
+- See [[Obelisk]] for Spell-levels and leveling
 
 Basically, you
 - chose an elemental rune to determine what type of damage and what elemental
@@ -803,36 +887,30 @@ More:
 - Curse spell + any damaging spell is a really good combo to get
 - in case you want to know spear and blade are generally considered good spells
 
+Shielding:
 - Two elements (preferably including water)
   + rune of shields + rune of rejuvenation gives what I consider the best spell in the game.
 - Because shield increases attunement to all elements, but does so more so for
   the elements included in its spell. This makes it so you can max an attunement
   with a shield of that element + 3(? 2? it's been a while since I played) runes
   on Masterwork equipment.
-- More water attunement = more healing on water-infused-weapon heavies
-
-
-*** All spells are created equal...
-:PROPERTIES:
-:ID:       9af345c8-2a4b-4c50-94df-a5d239bed24c
-:END:
-...Except beam, meteor, and barrage spells
 
 *** You must have a healing spell
 :PROPERTIES:
 :ID:       b415a4ef-fd87-4008-9164-340d308713ad
 :END:
 - It's recommended to use a Rune of Rejuvenation
+- More water attunement = more healing on water-infused-weapon heavies
 - Rejuvenation is very powerful and you only seem to need a single rune to make
-  a spell from it.
+  a spell from it. (powerful subject to ..insert yeah long disclaimer here <g>)
 
 **** Water Chain of Rejuvenation
 I wound up making a "Water Chain of Rejuvenation" and upgraded it using Obelisk
-Shard until it became "Flawless". Its not that great with my stats yet but it
+Shards until it became "Flawless". Its not that great with my stats yet but it
 doubles as an offensive spell which keeps enemies where they are while i heal a
 little every turn for a few turns. It might be awesomer for a ranged class to
 use chain spells, but its good enough to keep melee guys from ganging up on me
-to badly.
+too badly.
 
 I know you experts out there are saying to yourselves.. what an idiot, doesn't
 he know.. and I want to stop you right there! I know its not perfect, but its
@@ -847,7 +925,7 @@ beach. I will ;)
 
 ** Scrolls
 
-If I was an [[ARTIFICER]] I might know something about them. But I'm not. At this
+If I was an [[ARTIFICER][Artificer]] I might know something about them. But I'm not. At this
 point I just just them into a waterproof container in the warehouse for use in
 Dungeons later on.
 
@@ -896,7 +974,7 @@ happen?
 - Cooked foods provide much more stamina and restore a fixed health%.
 - Its not clear if or how the health boost varies.
 - They are 1u small.
-- Buffs from food replace each other.
+- Buffs from food *replace* each other.
 
 [[ALCHEMIST][Alchemist]]'s *Mixtures* provide higher stat bonuses for fewer ingredients and can
 be consumed much faster. Throwing Mixtures at enemies will lower the relevant
@@ -913,96 +991,200 @@ are probably hugely important for spellcasters in dire situations, but I'd need
 an expert to chime in with their experience as I'm just guessing here.
 
 *** Ingredients
-**** Drinks
+I don't feel the urge to cook all my stuff right now. Perhaps you could help out
+here with some insights from your own notes?
+
+- Whats missing?
+- Is someone tracking the biomes for these things?
+
+**** Alcohol
+..is flammable.
+|-----------+--------+------+------------|
 | Bottle of | Meal   | Buff | Attribute  |
 |-----------+--------+------+------------|
-| Rum       | Hearty | ++   | Resilience |
-| Bourbon   |        |      |            |
-| Whiskey   |        |      |            |
-| Moonshine |        |      |            |
-| Wine      |        |      |            |
+| [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]]   |        |      |            |
+| [[https://en.wikipedia.com/wiki/Gin][Gin]]       |        |      |            |
+| [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]] |        |      |            |
+| [[https://en.wikipedia.com/wiki/Rum][Rum]]       | Hearty | ++   | Resilience |
+| [[https://en.wikipedia.com/wiki/Vodka][Vodka]]     |        |      |            |
+| [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]]   |        |      |            |
+| [[https://en.wikipedia.com/wiki/Wine][Wine]]      |        |      |            |
+|-----------+--------+------+------------|
+
+**** Drinkable
+Strange when you state the obvious, isn't it?
+|-------+-------------------------------|
+| Name  | Note                          |
+|-------+-------------------------------|
+| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code! |
+| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | ..think about it              |
+| [[https://en.wikipedia.com/wiki/Venom][Venom]] | who's been poisoning you?     |
+|-------+-------------------------------|
+
 **** Meat
+I'm so glad this isn't Dwarf fortress!
+|----------+---------+------+-----------|
 | Meat     | Meal    | Buff | Attribute |
 |----------+---------+------+-----------|
 | Raw Meat | Complex | ++   | Insight   |
+|----------+---------+------+-----------|
 
 **** Tree-Seeds
+Definitely need biome info!
+|------------+--------+------+-----------|
 | Tree       | Meal   | Buff | Attribute |
 |------------+--------+------+-----------|
-| Ash        |        |      |           |
-| Aspen      |        |      |           |
-| Birch      |        |      |           |
-| Buckthorn  |        |      |           |
-| Catalpa    |        |      |           |
-| Chestnut   |        |      |           |
-| Chinkapin  |        |      |           |
-| Cottonwood |        |      |           |
-| Cypress    |        |      |           |
-| Dogwood    |        |      |           |
-| Elm        |        |      |           |
-| Fir        |        |      |           |
-| Juniper    |        |      |           |
-| Maple      |        |      |           |
-| Oak        |        |      |           |
-| Poplar     | Robust | ++   | Strength  |
-| Redwood    |        |      |           |
-| Spruce     |        |      |           |
+| [[https://en.wikipedia.com/wiki/Alder][Alder]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Ash][Ash]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Aspen][Aspen]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Birch][Birch]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Buckeye][Buckeye]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]]  |        |      |           |
+| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cedar][Cedar]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Chestnut][Chestnut]]   |        |      |           |
+| [[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]]  |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]] |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cypress][Cypress]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Dogwood][Dogwood]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Elm][Elm]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Fir][Fir]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Holly][Holly]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Juniper][Juniper]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Maple][Maple]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Oak][Oak]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Pine][Pine]]       |        |      |           |
+| [[https://en.wikipedia.com/wiki/Poplar][Poplar]]     | Robust | ++   | Strength  |
+| [[https://en.wikipedia.com/wiki/Redwood][Redwood]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Spruce][Spruce]]     |        |      |           |
+| [[https://en.wikipedia.com/wiki/Sycamore][Sycamore]]   |        |      |           |
+| [[https://en.wikipedia.com/wiki/Willow][Willow]]     |        |      |           |
+|------------+--------+------+-----------|
+
 
 **** Fruits
+Some of these are very common
+|------------+-------+------+-----------|
 | Fruit      | Meal  | Buff | Attribute |
 |------------+-------+------+-----------|
-| Apple      |       |      |           |
-| Blackberry |       |      |           |
-| Coconut    |       |      |           |
-| Lemon      |       |      |           |
-| Lime       |       |      |           |
-| Mango      |       |      |           |
-| Orange     |       |      |           |
-| Pear       |       |      |           |
-| Pineapple  |       |      |           |
-| Strawberry | Zesty | ++   | Finesse   |
+| [[https://en.wikipedia.com/wiki/Apple][Apple]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Avocado][Avocado]]    |       |      |           |
+| [[https://en.wikipedia.com/wiki/Banana][Banana]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Blackberry][Blackberry]] |       |      |           |
+| [[https://en.wikipedia.com/wiki/Blueberry][Blueberry]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Cherry][Cherry]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Coconut][Coconut]]    |       |      |           |
+| [[https://en.wikipedia.com/wiki/Grape][Grape]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Kiwi][Kiwi]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Lemon][Lemon]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Lime][Lime]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Mango][Mango]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Orange][Orange]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Peach][Peach]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Pear][Pear]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Pineapple][Pineapple]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Raspberry][Raspberry]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] | Zesty | ++   | Finesse   |
+| [[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] |       |      |           |
+|------------+-------+------+-----------|
+
 
 **** Vegetables
 Yes, I know about Tomatoes..
-| Vegetable | Meal | Buff | Attribute |
-|-----------+------+------+-----------|
-| Artichoke |      |      |           |
-| Kale      |      |      |           |
-| Okra      |      |      |           |
-| Onion     |      |      |           |
-| Pea       |      |      |           |
-| Potato    |      |      |           |
-| Tomato    |      |      |           |
+|--------------+------+------+-----------|
+| Vegetable    | Meal | Buff | Attribute |
+|--------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Artichoke][Artichoke]]    |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cabbage][Cabbage]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Carrot][Carrot]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]]   |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chili][Chili]] Pepper |      |      |           |
+| [[https://en.wikipedia.com/wiki/Corn][Corn]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cucumber][Cucumber]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Eggplant][Eggplant]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Garlic][Garlic]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Kale][Kale]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Lettuce][Lettuce]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Okra][Okra]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Onion][Onion]]        |      |      |           |
+| [[https://en.wikipedia.com/wiki/Peas][Peas]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Potato][Potato]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Radish][Radish]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Red][Red]] Pepper   |      |      |           |
+| [[https://en.wikipedia.com/wiki/Spinach][Spinach]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Tomato][Tomato]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Turnip][Turnip]]       |      |      |           |
+|--------------+------+------+-----------|
+
+**** Flowers]]
+Rose & Chrysanthemum Salad!
+|---------------+------+------+-----------|
+| Flower        | Meal | Buff | Attribute |
+|---------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Anemone][Anemone]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Begonina][Begonina]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Bergamot][Bergamot]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Bluebell][Bluebell]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Buttercups][Buttercups]]    |      |      |           |
+| [[https://en.wikipedia.com/wiki/Carnation][Carnation]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]] |      |      |           |
+| [[https://en.wikipedia.com/wiki/Daffodil][Daffodil]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Foxglove][Foxglove]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Holly][Holly]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Lavender][Lavender]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Orchid][Orchid]]        |      |      |           |
+| [[https://en.wikipedia.com/wiki/Primrose][Primrose]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Rose][Rose]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Thistle][Thistle]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Tulip][Tulip]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Violet][Violet]]        |      |      |           |
+|---------------+------+------+-----------|
 
 **** Plants
-Herbs, Spices and Flowers
-| Plant         | Meal | Buff | Attribute |
-|---------------+------+------+-----------|
-| Amaryllis     |      |      |           |
-| Begina        |      |      |           |
-| Bluebell      |      |      |           |
-| Buttercups    |      |      |           |
-| Carnation     |      |      |           |
-| Chrysanthemum |      |      |           |
-| Daffodil      |      |      |           |
-| Foxglove      |      |      |           |
-| Hyacinth      |      |      |           |
-| Lavender      |      |      |           |
-| Marjoram      |      |      |           |
-| Orchid        |      |      |           |
-| Primrose      |      |      |           |
-| Sunflower     |      |      |           |
+Herbs, Spices
+|------------------+------+------+-----------|
+| Plant            | Meal | Buff | Attribute |
+|------------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Amaranth][Amaranth]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chives][Chives]]           |      |      |           |
+| [[https://en.wikipedia.com/wiki/Parsley][Parsley]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Basil][Basil]]            |      |      |           |
+| [[https://en.wikipedia.com/wiki/Rosemary][Rosemary]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Thyme][Thyme]]            |      |      |           |
+| [[https://en.wikipedia.com/wiki/Oregano][Oregano]]          |      |      |           |
+| [[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Marjoram][Marjoram]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Mint][Mint]]             |      |      |           |
+| [[https://en.wikipedia.com/wiki/Dill][Dill]]             |      |      |           |
+| [[https://en.wikipedia.com/wiki/Ginger][Ginger]]           |      |      |           |
+| [[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]] |      |      |           |
+| [[https://en.wikipedia.com/wiki/Fennel][Fennel]]           |      |      |           |
+| [[https://en.wikipedia.com/wiki/Mustard][Mustard]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Peppermint][Peppermint]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Saffron][Saffron]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Paprika][Paprika]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Hemp][Hemp]]             |      |      |           |
+|------------------+------+------+-----------|
 
-*** Elementally Flamed (++)
+
+
+*** When Elementally Flamed (++)
 By the power of magic..
+|---------+------|
 | Element | Meal |
 |---------+------|
-| Earth   | Rich |
-| Water   |      |
-| Air     |      |
-| Fire    |      |
-| Light   |      |
-| Dark    |      |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     |      |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    |      |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   |      |
+| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |      |
+| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |      |
+|---------+------|
 
 ** Resting
 I read that you can rest on mats. that's not true.
@@ -1159,22 +1341,32 @@ them to a piece of equipment, you can't get rid of them again. Some of these are
 really rare and I can't quite judge which those are, so .. Please don't cry if
 you misapply!
 
-| Athletic Band   |
-| Balanced Weight |
-| Clever Widget   |
-| Durable Patch   |
-| Hardened Tack   |
-| Heavy Clasp     |
-| Hidden Pocket   |
-| Hilt Chain      |
-| Nimble Wrap     |
-| Shiny Charm     |
-| Sturdy Plates   |
-| Thick Padding   |
-| [Throw Dist]    |
-
 Curios can be found and some of the curios that boost one of the 5 main stats
 are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on the local madman.)
+
+*** Never Craftable
+|-----------------+--------+----------------------------------|
+| Curio           | Rarity | Effect                           |
+|-----------------+--------+----------------------------------|
+| Athletic Band   |        | Increase throwing distance       |
+| Balanced Weight |        | Lessen chance to stumble (drunk) |
+| Durable Patch   |        | Less wear and tear on item       |
+| Hardened Tack   |        | Increase critial damage          |
+| Hidden Pocket   |        | +5 Inventory capacity            |
+| Hilt Chain      |        | Thrown Item returns              |
+| Thick Padding   |        | Runic effects amplified          |
+|-----------------+--------+----------------------------------|
+
+*** Eventually Craftable
+|---------------+--------|
+| Curio         | Effect |
+|---------------+--------|
+| Heavy Clasp   | +str   |
+| Shiny Charm   | +cha   |
+| Sturdy Plates | +res   |
+| Clever Widget | +ins   |
+| Nimble Wrap   | +fin   |
+|---------------+--------|
 
 ** Materials
 Trying to pack all the info and stats about the things you craft with in here.
@@ -1633,11 +1825,14 @@ Inside here you can find a champion to challenge. You have to enter alone, and
 earn reputation and a lot of treasure if you can defeat the champion.
 
 probably requires several pieces of masterwork equipment and some godlike stats
-*** Dens/Lairs
+*** Dens
 Inside you can find a legendary beast to fight.
 
-- i think these are called dens now
-- they are dark, denizens have darkvision
+- Unlit.
+- Denizens have darkvision and, likely posess means to immobilize you.
+- Crazy scout by 'move forward, throw lit torch and retreat' might let you
+  trade a blight for a newly scouted monster. is that worth it?
+
 *** Dungeon
 A series of corridors and rooms, guarded by traps, ancient guardians and many
 horrors lurking in the dark. In the first room there's an altar with a rune of
@@ -1646,6 +1841,10 @@ to light the way ahead and /mark the ground to not get lost.
 
 - the ultimate adventure experience. these are why you invest time into the game
 - waypoint outside and make camp there, bring foods, buffs, companions and rest well.
+
+- You can peek in relative safety, remember though what killed the cat!
+- Good help is hard to find, so don't judge the boss by his minions; 
+
 *** Encampments
 - Faction camps
 - clearing them seems to not hurt your rep with anyone.
@@ -1728,9 +1927,12 @@ of friends to stealthy groups of casters you find here.
 
 
 *** Scouts
-- found in the wilderness
-- belong to a faction
-- give waypoints to settlements
+What are these called again?
+- Found in the wilderness.
+- Belong to a faction. Are they all Will of the Wild?
+- Scouts give waypoints to settlements
+  within a range they know about
+  All scouts within, say, 50km? 75..100km? around Relica seem to know the same thing.
 
 *** Shrines
 A powerful artifact of one of the gods rests behind the locked door which you
