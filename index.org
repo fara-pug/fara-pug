@@ -169,8 +169,9 @@ the next house at the new locale's spawn already in the crucible.
 
 ** Upgrades
 
-Each new settlement you reach will give you tools to enhance your equipment's
-performance.. Search them enough and you shall find these craftable gems.
+In each new settlement you reach you will find a set of tools to enhance your
+equipment's performance.. Search for them and you shall find these craftable
+gems.
 
 But don't rush. Form a party, discover things and get settled and strong-ish.
 
@@ -180,8 +181,9 @@ eager to see you killed while you escort them there. When you are ready to look
 for those tools and recipes accept the escort and delivery quests to that new
 locale and leave right after waking up from resting.
 
-Once you found them and are done marveling at your good luck from getting a
-unique item and the tools, /inspect, don't /salvage them.
+Once you found them and are done marveling at your good luck from arriving
+alive, getting a unique item and finding the tools, make sure to /inspect, not
+/salvage them.
 
 You can enhance the equipment of the proper type for your class which
 you will have discovered, equipped and understood by now, or ..
@@ -207,6 +209,9 @@ snacks! Oh, and have a rope on you, just in case.
 I've heard that noone will mind if you dig up a graveyard from end to end dolled
 up in your finest charisma boosting gear either. But I'll let you try it first!
 Maybe after your next escort quest?
+
+Shovel or Fishing rod, what do i know. Plus I'm [[Charm][dubious about iron]] as
+a [[Materials][material]] for either!
 
 
 ** Exploring
@@ -905,6 +910,7 @@ out of their trees, well, kindof. Now I have my pillows!
 
 
 ** Traits
+(Technote: this table garbles in the .md view but correct via [[https://fara-pug.github.io/fara-pug/][html]].)
 
 You have one unchangeable trait and get to pickup and repeatedly change two more
 traits via faction affiliations..... or....
