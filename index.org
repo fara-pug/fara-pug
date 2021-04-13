@@ -795,6 +795,7 @@ healing potential.
 
 See [[Damage types][Damage types]], Elemental, Attunement
 
+
 *** Farming Runes
 - at a beach
 - setup a building to rest for buffs
@@ -854,9 +855,9 @@ names - which show up in the spell name.
 | *Water*    | *Water* |         |           |       |         |        |
 | *Earth*    | Tide    | *Earth* |           |       |         |        |
 | *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
-| *Air*      | Ice     | ?       | Lightning | *Air* |         |        |
-| *Light*    | ?       | ?       | Radiant   | ?     | *Light* |        |
-| *Dark*     | ?       | ?       | ?         | Night | Dusk    | *Dark* |
+| *Air*      | Ice     | Thunder | Lightning | *Air* |         |        |
+| *Light*    | Divine  | Sun     | Radiant   | ?     | *Light* |        |
+| *Dark*     | Abyssal | Moon    | ?         | Night | Dusk    | *Dark* |
 |------------+---------+---------+-----------+-------+---------+--------|
 
 (orig)
@@ -894,6 +895,16 @@ Shielding:
   the elements included in its spell. This makes it so you can max an attunement
   with a shield of that element + 3(? 2? it's been a while since I played) runes
   on Masterwork equipment.
+
+New:
+- Okay, something I did discover is that you can make randomized spells with
+  just elemental runes
+- Think you can add a thing to document that?
+- for ex:
+  - Dark + earth rune 
+    - example: "moon force - cast a force of earth and darkness to damage the target"
+  - Two earth gave me a tome of earth shield, then an earth chain
+
 
 *** You must have a healing spell
 :PROPERTIES:
