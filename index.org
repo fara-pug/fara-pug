@@ -822,6 +822,8 @@ your Insight? and a shield spell. Did I get that right?
 
 + Elemental Effects on hard-attacks.
 - melee
+  - slashing, bludgeoning, and piercing,
+  - (see Radiant hand trait if you're looking for physical resistances)
 - ranged 
 
 Elemental runes on your weapon give you a bonus and weaken your target.
@@ -838,6 +840,9 @@ foe's water/healing attunement as well.
 .. and then there is Arcane, an untyped damage belonging to no element at all.
 Mobs don't seem to use it nor do they appear to have resistance against it.
 If you feel like doing without the elemental effects, think 'arcane'.
+
+if you use an arcane shield or other rare arcane infused elements you do more
+damage and resist arcane spells
 
 *** Elemental
 
@@ -856,8 +861,8 @@ names - which show up in the spell name.
 | *Earth*    | Tide    | *Earth* |           |       |         |        |
 | *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
 | *Air*      | Ice     | Thunder | Lightning | *Air* |         |        |
-| *Light*    | Divine  | Sun     | Radiant   | ?     | *Light* |        |
-| *Dark*     | Abyssal | Moon    | ?         | Night | Dusk    | *Dark* |
+| *Light*    | Divine  | Sun     | Radiant   | Day   | *Light* |        |
+| *Dark*     | Abyssal | Moon    | Brutal    | Night | Dusk    | *Dark* |
 |------------+---------+---------+-----------+-------+---------+--------|
 
 (orig)
@@ -1100,6 +1105,7 @@ Some of these are very common
 | [[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] |       |      |           |
 |------------+-------+------+-----------|
 
+- likely that they are all called zesty
 
 **** Vegetables
 Yes, I know about Tomatoes..
@@ -1129,7 +1135,9 @@ Yes, I know about Tomatoes..
 | [[https://en.wikipedia.com/wiki/Turnip][Turnip]]       |      |      |           |
 |--------------+------+------+-----------|
 
-**** Flowers]]
+- likely that all vegies buff str
+
+**** Flowers
 Rose & Chrysanthemum Salad!
 |---------------+------+------+-----------|
 | Flower        | Meal | Buff | Attribute |
@@ -1155,6 +1163,8 @@ Rose & Chrysanthemum Salad!
 | [[https://en.wikipedia.com/wiki/Tulip][Tulip]]         |      |      |           |
 | [[https://en.wikipedia.com/wiki/Violet][Violet]]        |      |      |           |
 |---------------+------+------+-----------|
+
+- likely that all flowers buff charm
 
 **** Plants
 Herbs, Spices
@@ -1186,16 +1196,16 @@ Herbs, Spices
 
 *** When Elementally Flamed (++)
 By the power of magic..
-|---------+------|
-| Element | Meal |
-|---------+------|
-| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     |      |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    |      |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   |      |
-| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |      |
-| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |      |
-|---------+------|
+|---------+--------|
+| Element | Meal   |
+|---------+--------|
+| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Lite?  |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    |        |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender |
+| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |        |
+| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |        |
+|---------+--------|
 
 ** Resting
 I read that you can rest on mats. that's not true.
