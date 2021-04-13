@@ -6,12 +6,15 @@ Its brilliant and innovative like a rogue done right!
   -- pug.
 #+end_quote
 
-These are my notes about a game i hope to live to see thrive and bestow
-riches upon riches upon its creator. It does everything roguelikes could have
-done but never did; and I've played them all.
+FARA does everything roguelikes could have done but never did; and I've played
+them all. If you don't know what I'm talking about, visit ![[https://brianiscreative.itch.io/fara][FARA's Homepage]]! and
+take a look at these [[https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video][game-play vids]].
 
-If you don't know what I'm talking about, visit ![[https://brianiscreative.itch.io/fara][FARA's Homepage]]! and take a look
-at these [[https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video][game-play vids]].
+This page has my notes about a game I hope to live to see thrive and bestow
+riches upon riches upon its creator. 
+
+You have made it past the table of contents. Congratz! Now scroll, and use
+Control-F in your browser to find what you're looking for.
 
 ** Note
 The is the start of 'rolling unannounced updates' via Github hosting.
@@ -213,6 +216,22 @@ Maybe after your next escort quest?
 Shovel or Fishing rod, what do i know. Plus I'm [[Charm][dubious about iron]] as
 a [[Materials][material]] for either!
 
+** Traveling
+
+We all know your avatar's a bit sensitive and often drops down to the local
+level because they sensed danger or spotted some cockroach fight or the other.
+
+If the circle is blank of enemies, or you can make it so with a few steps away
+from the fight, do that! more often than not "*X*" */exit* or clicking on your
+waypoint will take you out and put you back on the road!
+
+And hey, if "*X*" fails, it will have moved you to the action without you having
+to look for it. This is really helpful if you cast a shield on yourself before
+doing do, esp. if your're traveling at night, yet again without a light.
+
+As you're travelling you'll find more info about [[Enemy Skill Brackets]]. Please
+share.
+
 
 ** Exploring
 
@@ -232,21 +251,24 @@ I'm just starting, know nothing, have yet to win the game and go beyond iron
 equipment and a single godlike attribute. This game has great depth and
 complexity.
 
-** Traveling
+** Difficulty
 
-We all know your avatar's a bit sensitive and often drops down to the local
-level because they sensed danger or spotted some cockroach fight or the other.
+FARA's difficulty is a gem. Yes, really. I don't know the formula, but like you,
+I appreciate that the things you encounter in your travels seem to slowly get
+harder 
 
-If the circle is blank of enemies, or you can make it so with a few steps away
-from the fight, do that! more often than not "*X*" */exit* or clicking on your
-waypoint will take you out and put you back on the road!
+- the further away you have been
+- the more challenging the enemies you have ended
+- the better equipped/longer you have been in game
+- the more titles (achievments?) you have.
 
-And hey, if "*X*" fails, it will have moved you to the action without you having
-to look for it. This is really helpful if you cast a shield on yourself before
-doing do, esp. if your're traveling at night, yet again without a light.
+But unlike most games, FARA doesn't actually seem to be out to kill you as it
+did in (what to me were) 'the nightmare versions' released some years ago.
 
-As you're travelling you'll find more info about [[Enemy Skill Brackets]]. Please
-share.
+Combat in FARA can be freaky cool, and as long as you prioritize survival over
+your macho, you'll manage to escape and appreciate the insurance that having
+even a single gulp of [[Liquids][water]] with you for that one time where its quicker to
+drink and dash than it is to walk. But there's always [[The Burning House][this]].
 
 ** Finding things in daylight vision
 
@@ -281,6 +303,15 @@ waypoints, instead of only grabbing all the loot, place 4 markers inside the
 houses that leave 3 spaces between them and the walls. this makes it easy to
 remember that you only have to step on each of them once to have scanned
 everything. (you can can optimize that a bit, but this is good enough.)
+** Climbing
+I'm pre-repeating myself here so we are clear that */climb* lets you */dance/*
+on that table you just dragged to the middle of town. It's a good thing you
+should use to get a view from the trees you */harvest* and it might even let you
+see a little further. But I don't think it helps you find small lost objects or
+those hard to find small rare species you'll inevitably be tasked with
+researching. Then again I'd not thought about planting trees in strategic
+locations around town.. until now :)
+
 * Random Notes from Discord
 The first batch swiped 2021.04.06ish by scrolling backward in time a few months
 is mostly distributed into this document already.
@@ -306,10 +337,7 @@ A few things regarding charged rift particles:
 - Pugilist > Viking > Soldier
 ** Curios are a thing
 
-For example, "Hidden pockets" are a curio,
-They can be found and one can be put on each wearable item.
 
-Some curios are craftable, but only the ones that boost one of the 5 main stats.
 * Game Play
 ** /COMMANDS
 
@@ -368,22 +396,25 @@ ability to surprise you in unexpected ways!. If you're not sure what you typed
 last, type / then press "up arrow". Not that that would save you from surprises
 though.
 
-** Things to */say* or */shout*
+** Talking
 
 You can't talk to your pets and expect them to listen unless they are cats and
 you are a [[CAT WHISPERER]], but Mercs will listen to and obey you.
 
-- use */shout come here* when searching for people.
-  ("*z*" to repeat as you walk around)
 - use */say wait here* and */say follow me* to control your party members. you
   don't have to ask them to come along when you leave the map, they will do that
-  by themselves. Also:
+  by themselves.
+
+- Also:
   - /say stow your X
   - /say draw your X
   - /say take that X
   - /say stand by that X
 
 - An exclamation mark turns /say into /shout
+
+- use */shout come here* when searching for people.
+  (repeat with "*z*" as you walk around.)
 
 There's probably some (much?) more to say and other banter to be had. Many of
 the dialogue options seem to make the most sense for a [[POLITICIAN]].
@@ -392,6 +423,7 @@ Weird fact: Mercs will sometimes say things and other NPC not in your party will
 speak back to them. Thats freaky cool.
 
 Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
+
 * About You and "Them"
 ** Blights
 
@@ -620,12 +652,17 @@ maybe i should complete the key first and see what revelations that brings.
 decisions. decisions. /end crazy math
 
 * Need to know
-** Pets
+** Party
 
-- Press "*p*" for party details. it will show you have many followers you have and
-  can have. Charisma determines the limit but i dont know the rule for max party
-  size. (Except that it doesnt matter when yu do escort quests.)
-- I like travelling alone in other games, in fara i dont - yet.
+- Press "*p*" for party details. It will show you have many followers you have and
+  can have. 
+- Max party size might be class dependent.
+- Escort quests' escortees don't count against your party-size-limit.
+- I like travelling alone in other games, in FARA i dont - yet.
+- [[Talking][Talk]] to your pals to chat and control how they contribute in combat; at least
+  a little bit.
+
+** Pets
 
 Pet animals till they get ecstatic, then feed some stuff. If there's room in your party
 they should join right away.
@@ -634,6 +671,12 @@ they should join right away.
 - Replace them with Grizzlies asap and upgrade from there
 - Other bears are timid, they run away scared and sometimes pull animal
   attackers. after */exit* they come back. fun during the early days.
+
+If you want to, say, have a private chat with the local nobles or hunt the
+wumpus, i mean minotaur, then its good to know that you can dismiss your animal
+pals from the party without them holding a grudge against you. If you want them
+to rejoin you later you'll wish you had already dropped some food to bribe them
+with right where you left them!
 
 ** Runes
 
@@ -673,22 +716,6 @@ See [[Obelisk]] for Spell-levels and leveling
 | Barrage      |       |        |                                                          |
 |--------------+-------+--------+----------------------------------------------------------|
 
-*** Mixing Elemental Runes and the names for what you get
-The words in the grid show up in the spell name.
-https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
-
-| /Elements/ | Water   | Earth   | Fire      | Air       | Light   | Dark   |
-|------------+---------+---------+-----------+-----------+---------+--------|
-| *Water*    | *Water* | Tide    | Steam     | Ice       | ?       | ?      |
-| *Earth*    | Tide    | *Earth* | Magma     | ?         | ?       | ?      |
-| *Fire*     | Steam   | Magma   | *Fire*    | Lightning | Radiant | ?      |
-| *Air*      | Ice     | ?       | Lightning | *Air*     | ?       | Night  |
-| *Light*    | ?       | ?       | Radiant   | ?         | *Light* | Dusk   |
-| *Dark*     | ?       | ?       | ?         | Night     | Dusk    | *Dark* |
-|------------+---------+---------+-----------+-----------+---------+--------|
-
-- i just copied the spreadsheet, added bold and magma, but no idea what goes into the missing slots
-
 *** digging them up
 - at a beach
 - setup a building to rest for buffs
@@ -699,7 +726,67 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 - must-read: [[Degritone's Guide to 100k Points]]
 - see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
 
-** Spells/Spell-tombs
+** Damage types
+
+There are eight types of damage in FARA.
+
+Physical attacks are countered by "Damage Reduction" provided those held shield
+items in combination with Resilience and Strength, i suppose.
+
+Magical attacks are countered by your elemental attunement which is enhanced by
+your Insight? and a shield spell. Did I get that right?
+
+*** Physical
+
++ Elemental Effects on hard-attacks.
+- melee
+- ranged 
+
+Elemental runes on your weapon give you a bonus and weaken your target.
+
+If you have more than one elemental rune on your weapon, then they will
+alternate with each hard attack you make.
+
+FARA canon seems to be to use a single water-rune on your weapon and nothing
+else since a little bit of extra water-attunement will make your rejuvenating
+healing spell work ever so much better for you -- and of course weaken your
+foe's water/healing attunement as well.
+
+*** Magical
+.. and then there is Arcane, an untyped damage belonging to no element at all.
+Mobs don't seem to use it nor do they appear to have resistance against it.
+If you feel like doing without the elemental effects, think 'arcane'.
+
+*** Elemental
+
+- 6 pure
+  - (+ arcane in the absence of elements, right? makes it 7 pure types.)
+- 15 (16) dual/combo types
+- 21 (22) magial means to confuse your self with while learning to play!
+
+Combine two elemental runes into a spell to deliver both types under these
+names - which show up in the spell name.
+
+|------------+---------+---------+-----------+-------+---------+--------|
+| /Elements/ |         |         |           |       |         |        |
+|------------+---------+---------+-----------+-------+---------+--------|
+| *Water*    | *Water* |         |           |       |         |        |
+| *Earth*    | Tide    | *Earth* |           |       |         |        |
+| *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
+| *Air*      | Ice     | ?       | Lightning | *Air* |         |        |
+| *Light*    | ?       | ?       | Radiant   | ?     | *Light* |        |
+| *Dark*     | ?       | ?       | ?         | Night | Dusk    | *Dark* |
+|------------+---------+---------+-----------+-------+---------+--------|
+
+(orig)
+https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
+
+- i copied the spreadsheet
+- zapped the mirrored half because confusing
+- added bold and magma
+- still need the names for seven more combos.
+
+** Spells
 
 Basically, you
 - chose an elemental rune to determine what type of damage and what elemental
@@ -711,7 +798,7 @@ Basically, you
 
 More:
 - Spell type + 2 elements + effect  adds random stabilizer
-- If you don't use any elemental runes, only a stabilizer and affector, you get an arcane spell
+- If you don't use any elemental runes, only a stabilizer and effector, you get an arcane spell
 - You can put 2 spells on weapons and armor.  (scrolls /use
 - Curse spell + any damaging spell is a really good combo to get
 - in case you want to know spear and blade are generally considered good spells
@@ -736,21 +823,52 @@ More:
 :ID:       b415a4ef-fd87-4008-9164-340d308713ad
 :END:
 - It's recommended to use a Rune of Rejuvenation
-- Rejuvenation is very powerful and you only seem to need a single rune to make a spell from it.
+- Rejuvenation is very powerful and you only seem to need a single rune to make
+  a spell from it.
 
+**** Water Chain of Rejuvenation
 I wound up making a "Water Chain of Rejuvenation" and upgraded it using Obelisk
-Shard until it became "Flawless". Its not that great but its a good effensive
-spell that keeps enemies where they are while i heal a little every turn for a
-few turns. Perhaps a 'pure' Rejuvenation spell will be much better.
+Shard until it became "Flawless". Its not that great with my stats yet but it
+doubles as an offensive spell which keeps enemies where they are while i heal a
+little every turn for a few turns. It might be awesomer for a ranged class to
+use chain spells, but its good enough to keep melee guys from ganging up on me
+to badly.
+
+I know you experts out there are saying to yourselves.. what an idiot, doesn't
+he know.. and I want to stop you right there! I know its not perfect, but its
+fine to have to drop an item from your pack if there's not anything else in
+range for you to cast the chain on.
+
+Anyway.. I had no shield runes when I made the spell 50 days ago. And I still
+don't have one, nor did I get another rejuvenation rune since. So if you like
+hoarding to figure things out, try not to be stupid about it, these things are
+meant to be used .. and you can always spend a week fishing and digging at a
+beach. I will ;)
 
 ** Scrolls
+
 If I was an [[ARTIFICER]] I might know something about them. But I'm not. At this
 point I just just them into a waterproof container in the warehouse for use in
 Dungeons later on.
 
+Doing that I've learned that there are scrolls that do and scrolls that teach.
+
+Here's what I know about these
+
+*** Spell-tombs
+The second kind of is obviously better and rarer and I get the sense that the
+someone who makes them was more likely to use his or her rarest runes on them so
+that they could learn their complicated spells at will in the future. But as all
+of the uncommon runes seem rarest to me at this point, I can't judge that right.
+
+One day I'll crack the secret of that secret organization connecting the elders,
+nobles and the shaded figure who at least saved my life if he didn't outright
+summon me into this world..
+
 ** Lights
-- Climbing does not extend the light's circle.
+
 - Lanterns seem to burn forever
+- Climbing does not extend the light's circle. 
 
 | Candle  |   | More of an oddity                               |
 | Torch   |   | Easy to make but first you have to find one     |
@@ -977,11 +1095,18 @@ who's ultimate intentions you can't ever be sure about anyway.
 | [[WRESTLER][Wrestler]]       | Muscle Spirit         |
 |----------------+-----------------------|
 
-See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]
+See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check
+traits [[Factions][Factions]] offer through the */factions* (aka "*F*") window by clicking on
+for a menu showing you what they teach.
 
+*** Trait Manuals
 Now, if only we had a list of those damn manuals! You could be planning instead
 of risking [[Blights][Anihilation]] by actually playing the game!
 
+| Manual of |
+|-----------|
+| Fishing   |
+| ...       |
 
 ** Weaponry
 
@@ -1026,7 +1151,33 @@ if you can fill in the details!
   largely cosmetic/flair items.
 
 
+** Curios
+(wip)
+
+Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
+them to a piece of equipment, you can't get rid of them again. Some of these are
+really rare and I can't quite judge which those are, so .. Please don't cry if
+you misapply!
+
+| Athletic Band   |
+| Balanced Weight |
+| Clever Widget   |
+| Durable Patch   |
+| Hardened Tack   |
+| Heavy Clasp     |
+| Hidden Pocket   |
+| Hilt Chain      |
+| Nimble Wrap     |
+| Shiny Charm     |
+| Sturdy Plates   |
+| Thick Padding   |
+| [Throw Dist]    |
+
+Curios can be found and some of the curios that boost one of the 5 main stats
+are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on the local madman.)
+
 ** Materials
+Trying to pack all the info and stats about the things you craft with in here.
 
 *** Wiki preamble
 I sooo hope that the wiki/source is more than mostly right on this info
@@ -1053,7 +1204,9 @@ has.
 Each additional nth arrow gives an additional n possible boosts (4 arrows giving
 between +7 and +10, etc.)
 
-*** Wood, Bone, Scale, Glass, and Minerals
+
+*** Everyday materials
+Very common items that won't boost your stats.
 
 |----------------+------------------+-------------|
 | Sand           |                  | /dig        |
@@ -1061,12 +1214,9 @@ between +7 and +10, etc.)
 | Birds          | Tuft of Feathers | drops       |
 | Mounds of Clay | Lumps            |             |
 | Ceramic Plates | Clay             | /dig?       |
-| Logs           | Wooden Planks    | /harvest    |
-| Logs           | Wooden Blocks    | /harvest    |
 | Burlap         | 2 Plant Fibers   | Very Common |
 |----------------+------------------+-------------|
-
-
+*** Natural Resources
 |------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
 | Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
 |------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
@@ -1122,10 +1272,12 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 :ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
 :END:
 
+*** Fixed-ish
 - Carts, draggable on the local map
 - Storage Bins, installable
 - Storage Bins, upgraded.
 
+*** Solids
 (from discord)
 - The first recipe you have is for a burlap satchel
 - Crafting a burlap satchel unlocks a handful of different satchel materials, and the recipe for bags with different materials
@@ -1139,8 +1291,13 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 - The Merchant class has significantly increased inventory capacity from the beginning
 - And the Hauler trait increases your inventory capacity passively
 
+*** Liquids
 - Vial, Flask, Mug, Waterskin..
 
+*** Party
+I may be dreaming but were there no saddle-bags in that old version? Can my pet
+and merc help me carry things? So much to determine yet. I should probably look
+into simply equipping my new merc first.
 
 * Quests
 You can figure these out by your self, don't sweat them. If there's trouble you
@@ -1403,6 +1560,21 @@ of his more sensible items. neat!
 
 - inital text stolen, probably from the outdated wiki
 - the incompleteness marks my ignorance
+*** The Burning House
+*Danger Will Robinson*
+
+The Burning House can be a real oh-sh*t experience. It could be on any tile that
+you stumble on pyromanic imps that shoot you with magma right when you land. I
+didn't find any until I had complete all the buildings in Relica and it may be
+ok to save your paranoia until then.
+
+Extrapolating from my random encouter I suspect the imps were not really
+malicious, simply driven to madness by the music made by the guy living in the
+woods. I mean, why would he live there with his huge piano if people had
+appreciated his music?
+
+I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
+of the map to get him looked at in town.
 
 *** Caravan
 (old info)
