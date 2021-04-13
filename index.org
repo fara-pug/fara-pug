@@ -39,7 +39,7 @@ click the *bold* title of the entries you see for the geeky details.  If you
 just want to see when new pages went live, [[https://github.com/fara-pug/fara-pug/deployments/activity_log?environment=github-pages][there's a list for that too]].
 
 (If you must, but can't reach me via discord, make a quick account on github and
-post a comment there. Thats no bother and will reach me via email most
+post a comment there. That's no bother and will reach me via email most
 weeks. Enjoy!)
 
 ** Thanks
@@ -52,7 +52,6 @@ of the questions I'd left in places!
 
 * Pug's Notes
 Look, I wrote this!
-
 
 ** Trick out your map!
 Use */setlocalwaypoint* aka */slw* at your spawn, at every house, donation
@@ -70,12 +69,17 @@ but "*W*" is a huge help. Use */slw* until it becomes a habit.
 
 ** Item Management
 
-Where you keep your stuff is up to you.
+Where you keep your stuff is up to you!
 
-I'm still learning to play the game and I have yet to win. But this is my second
-run at the game and I find that starting as a horder with a base in Relica is
-simultaneously teaching me what I don't need or want, and how to deal with
-everything else.
+But there's one thing you have to know: *WARNING* NEVER LEAVE ANYTHING ON THE
+SPAWN tile! FARA's advanced teleportation mechanism creates an intense rush of
+air as your body materializes -- and that scatters anything you might have left
+there through the immediate area. Try it out.
+
+Anyway, I'm still learning to play the game and I have yet to win. But this is
+my second run at it in 3 years and I find that starting as a horder with a base
+in Relica is again teaching me what I don't need or want, and how to deal with
+everything else. Here's the scoop on what works for me.
 
 *** InShelter
 
@@ -411,10 +415,66 @@ effects (a lot of people died researching this. a moment of silence please!):
 Each of these blights decreases your chances of resurrecting again. Exactly what
 that means is unclear.. except that it will prevent you from cultivating your follies.
 
-**
+** Character Stats
 - see /define for great upto-date info
 - includes info from discord and https://fara.fandom.com/wiki/Character_Stats
 - If you have high health and high resilience then you are probably good at tanking
+
+*** Details
+**** Strength
+
+- Increases damage dealt with melee weaponry
+- Increases damage dealt through unarmed strikes
+- Decreases stamina spent pushing large objects.
+- Increases your chances of succeeding at a */grab*
+
+STR weapons should do the most damage per hit in close quarters.
+(Weapon damage is not depended on weapon size, but refinement and materials)
+
+**** Finesse
+
+- Increases damage dealt with range weaponry
+- Increases chance to disarm traps,
+- Increases stealth ability
+- Increases your */dash* distance and (maybe?) decreases its stamina cost
+- Decreases reload time of ranged weapons
+- Decreases stamina used by jumping and stealth.
+
+Makes you good at hiding, attacking from range, with daggers and  other finesse weaponry
+
+**** Resilience
+
+- Reduces physical damage taken,
+- Reduces duration of negative effects,
+- Increases stamina regeneration rate.
+
+**** Insight
+
+Makes you good with spells, staff, foci, wands and scepters
+- Increases damage of spells,
+- Increases search ability,
+- Decreases stamina cost of spells
+
+**** Charm
+
+- Increases the duration of buffs/positive effects
+- Increases odds of favorable outcomes (such as?)
+- Does it Decreases the duration of mali/negative effects??
+
+Your charm doesn't increase your ability to lead a party and it does
+not affect your party's maximum size. (max party size may be class dependent)
+
+Charm does make it easier to form good relationships with NPCs, meaning that
+with more charm */joke*, */gossip*, etc. will be better received and they
+will think you more of a friend for doing quests for them.
+
+Unsure how that matters. Will they remember your birthday? Give more loot?
+
+More important.. If charm is luck and insight searching, then why isn't everyone
+talking about making shovels and fishing-rods from crystal or even obsidian?
+I think some testing is in order.. Can it be that people don't like setting up
+house on the beach? Whats going on there..
+
 
 *** Health Brackets
 :PROPERTIES:
@@ -458,50 +518,6 @@ If you start as a Gamehunter with
 -  or +1 INT to go from average (0) to above average (1).
 
 To achieve GODLIKE DEX you'd need +16 DEX.
-*** Details
-**** Strength
-
-- Increases damage dealt with melee weaponry
-- Increases damage dealt through unarmed strikes
-- Decreases stamina spent pushing large objects.
-- Increases your chances of succeeding at a */grab*
-
-STR weapons should do the most damage per hit in close quarters.
-(Weapon damage is not depended on weapon size, but refinement and materials)
-
-**** Finesse
-
-- Increases damage dealt with range weaponry
-- Increases chance to disarm traps,
-- Increases stealth ability
-- Increases your */dash* distance and (maybe?) decreases its stamina cost
-- Decreases reload time of ranged weapons
-- Decreases stamina used by jumping and stealth.
-
-Makes you good at hiding, attacking from range, with daggers and  other finesse weaponry
-
-**** Resilience
-- Reduces physical damage taken,
-- Reduces duration of negative effects,
-- Increases stamina regeneration rate.
-**** Insight
-Makes you good with spells, staff, foci, wands and scepters
-- Increases damage of spells,
-- Increases search ability,
-- Decreases stamina cost of spells
-**** Charm
-- Increases the duration of buffs/positive effects
-- Increases odds of favorable outcomes (such as?)
-- Does it Decreases the duration of mali/negative effects??
-
-Your charm doesn't increase your ability to lead a party and it does
-not affect your party's maximum size. (max party size may be class dependent)
-
-Charm does make it easier to form good relationships with NPCs, meaning that
-with more charm */joke*, */gossip*, etc. will be better received and they
-will think you more of a friend for doing quests for them.
-
-Unsure how that matters. Will they remember your birthday? give more loot?
 
 *** Damage reduction
 :PROPERTIES:
@@ -541,9 +557,6 @@ Fortresses are ok, just not castles
 When you get enough faction reputation by, for example bribing one of their
 officers with 10..100 medals, you get access to their theme of traits, which
 give some very good bonuses.
-
-You have one unchangeable trait and get to pickup and change two more traits via
-faction affiliations.
 
 It is technically possible to get traits from multiple factions, but it requires
 some grind as each medal given to a faction will decrease your reputation with
@@ -790,7 +803,7 @@ an expert to chime in with their experience as I'm just guessing here.
 |----------+---------+------+-----------|
 | Raw Meat | Complex | ++   | Insight   |
 
-**** Seeds
+**** Tree-Seeds
 | Tree       | Meal   | Buff | Attribute |
 |------------+--------+------+-----------|
 | Ash        |        |      |           |
@@ -805,6 +818,7 @@ an expert to chime in with their experience as I'm just guessing here.
 | Dogwood    |        |      |           |
 | Elm        |        |      |           |
 | Fir        |        |      |           |
+| Juniper    |        |      |           |
 | Maple      |        |      |           |
 | Oak        |        |      |           |
 | Poplar     | Robust | ++   | Strength  |
@@ -830,11 +844,12 @@ Yes, I know about Tomatoes..
 | Vegetable | Meal | Buff | Attribute |
 |-----------+------+------+-----------|
 | Artichoke |      |      |           |
-| Tomato    |      |      |           |
+| Kale      |      |      |           |
 | Okra      |      |      |           |
 | Onion     |      |      |           |
 | Pea       |      |      |           |
 | Potato    |      |      |           |
+| Tomato    |      |      |           |
 
 **** Plants
 Herbs, Spices and Flowers
@@ -842,6 +857,7 @@ Herbs, Spices and Flowers
 |---------------+------+------+-----------|
 | Amaryllis     |      |      |           |
 | Begina        |      |      |           |
+| Bluebell      |      |      |           |
 | Buttercups    |      |      |           |
 | Carnation     |      |      |           |
 | Chrysanthemum |      |      |           |
@@ -886,6 +902,79 @@ the three easy things you want to do to get buffed sleeping: bed/heat/door.
 
 In the end i got so mad at the useless nests however that I started kicking them
 out of their trees, well, kindof. Now I have my pillows!
+
+
+** Traits
+
+You have one unchangeable trait and get to pickup and repeatedly change two more
+traits via faction affiliations..... or....
+
+#+begin_quote
+On your labyrinthine journeys you're likely to find Manuals that bestow Traits
+upon you. Thus there's no need to rush headlong into alliances with [[Factions][Factions]]
+who's ultimate intentions you can't ever be sure about anyway.
+#+end_quote
+
+... or what my imaginary friend just said  :)
+
+|----------------+-----------------------|
+| Class          | Class-Trait           |
+|----------------+-----------------------|
+| [[ADVENTURER][Adventurer]]     | Onward!               |
+| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |
+| [[ARTIFICER][Artificer]]      | Spellgrafting         |
+| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |
+| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |
+| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |
+| [[BOTANIST][Botanist]]       | Familiar Phytology    |
+| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |
+| [[CHEF][Chef]]           | Gastromancy           |
+| [[COMMANDER][Commander]]      | Galvanizer            |
+| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |
+| [[DERVISH][Dervish]]        | Dangerous Dance       |
+| [[DUELIST][Duelist]]        | En Garde              |
+| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |
+| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |
+| [[ENGINEER][Engineer]]       | Fixer Upper           |
+| [[EQUESTRIAN][Equestrian]]     | Brawler               |
+| [[EXECUTIONER][Executioner]]    | Soothslayer           |
+| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |
+| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |
+| [[GAMBLER][Gambler]]        | Luck of the Draw      |
+| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |
+| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |
+| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |
+| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |
+| [[HOMESTEADER][Homesteader]]    | Sunriser              |
+| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |
+| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |
+| [[KENSAI][Kensai]]         | Samurai Showdown      |
+| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |
+| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |
+| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |
+| [[POLITICIAN][Politician]]     | Polarize              |
+| [[POTTER][Potter]]         | Earthen Bond          |
+| [[PUGILIST][Pugilist]]       | The Greatest          |
+| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |
+| [[REAPER][Reaper]]         | Last Harvest          |
+| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo |
+| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |
+| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |
+| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |
+| [[SOLDIER][Soldier]]        | Dogged March          |
+| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |
+| [[TOURIST][Tourist]]        | Sightseer             |
+| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |
+| [[VIKING][Viking]]         | Thunderous Resilience |
+| [[WILDHEART][Wildheart]]      | Killer Instincts      |
+| [[WITCH][Witch]]          | Wicked Form           |
+| [[WRESTLER][Wrestler]]       | Muscle Spirit         |
+|----------------+-----------------------|
+
+See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]
+
+Now, if only we had a list of those damn manuals! You could be planning instead
+of risking [[Blights][Anihilation]] by actually playing the game!
 
 
 ** Weaponry
@@ -1301,7 +1390,7 @@ of his more sensible items. neat!
   they have a discoverable function..
 
 - I guess I have to keep feeding him till he comes up with a pickaxe for mining!
-** List
+** Location List
 - special location are *often* adjecent (direct or very near) to quest sites so
   you can just do quests and you be guaranteed to find enough fascinating places
   of interest closeby to keep you busy, interested and making great profits!
@@ -1423,9 +1512,31 @@ They are a challenge for any type of character, so being prepared is very import
 *** Labyrinth
 
 - Suposedly safe and super high rewards
-- Dont go exploring it in the dead of night without a light!
+- Dont go exploring them in the dead of night without a light!
 
-will try one once bump-to-swap-places-with-your-pals is ingame.
+Here's a thought..
+
+| setkey 1 mark red   |
+| setkey 2 mark green |
+| setkey 3 mark blue  |
+| setkey 4 clearmark  |
+
+- There is a labyrinth, i go in
+- at a junction, i mark
+- green from whence i came
+- blue everywhere i'm not going yet
+- i reach a dead-end and retrace my step
+- at the junction from whence i came
+- i mark the dead-end path red, and clear a blue
+- and on i go.
+- when i reach a blue, i mark it red & *retrace my step.*
+- when i reach i a green and blue i red my step and clear a blue.
+
+And working out the little nuances that make this actually work is, as they used
+to say back when books were a thing.. "left as an exercise for the reader."
+
+-- the Mintaur
+
 *** Ruins
 frequent and ruinous but doable if you manage to dash to the egde on entry and place the
 occasional extra wall or building to beef up your position against the inevitable arrival
