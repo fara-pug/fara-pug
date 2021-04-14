@@ -1,3 +1,14 @@
+#+TITLE:      Pug's FARA Notes
+#+AUTHOR:     Pug the Rift Mage
+#+EMAIL:      Pug on the FARA Discord
+#+SUBTITLE:   Everything I'll need in my next game.
+#+STARTUP:    content
+#+STARTUP:    inlineimages
+#+STARTUP:    hidestars
+# +INFOJS_OPT: path:lib/org-info.js mouse:underline
+# +INFOJS_OPT: view:info toc:t tdepth:1 ltoc:nil sdepth:1
+#+HTML_HEAD: <link rel="stylesheet" href="lib/tufte.css" type="text/css" />
+
 * FARA - an adventure game unlike any other
 
 #+begin_quote
@@ -321,8 +332,6 @@ As you're travelling you'll find more info about [[Enemy Skill Brackets]]. Pleas
 share.
 
 
-
-
 ** Exploring
 
 Besides doing quests, I attempt to explore in a circle of ever greater distance
@@ -447,7 +456,7 @@ and Pug survives
 
 - */help* gives most of them
 - */settings* gives more of them
-- The [[Release Notes]] give insights into and context for additional commands.
+- The [[Release Notes][Release Notes]] give insights into and context for additional commands.
   Click the link and search for "*/*"
 
 The discord's spoiler channel denizens often refer to 'creative mode' and yet
@@ -1852,8 +1861,13 @@ names - which show up in the spell name.
 
 The exact word used might vary between the spells and gear, for example:
  
-- Silver Axe of Divinity
-- Divine Ward of Fury
+|------------+-------------------+----------------------+---------|
+| Combo-Name | Example Equipment | Example Spell        | Why not |
+|------------+-------------------+----------------------+---------|
+| Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
+| Abyssal    | Axe of Depth      | Abyssal Ward of Fury |         |
+| Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
+|------------+-------------------+----------------------+---------|
 
 (orig)
 https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
@@ -2344,7 +2358,7 @@ of friends to stealthy groups of casters you find here.
 
 
 *** Scouts
-What are these called again?
+What are these locations called again?
 - Found in the wilderness.
 - Belong to a faction. Are they all Will of the Wild?
 - Scouts give waypoints to settlements
@@ -2379,7 +2393,10 @@ Obelisk building let's you upgrade spells
 - these let you upgrade a (refined) and <artisan>'d item once more.
 
 ** Just plain cool
-Random places I'll never see again..
+Random things and places one might never see again..
+
+*** An Equestrian NPC riding a Gryphon
+But I doubt they have the ability to fly haha
 *** Cow pasture
 Found a serene pasture with a cow, a little lake, lots of flowers, and a
 BigChest. I petted the cow a zillion times, fed her a flower and took her to
