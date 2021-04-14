@@ -30,10 +30,11 @@ Control-F in your browser to find what you're looking for.
 ** Note
 The is the start of 'rolling unannounced updates' via Github hosting.
 
-I'm hosting these notes as a [[https://fara-pug.github.io/fara-pug/][web-page at github]] now, but that looks really lame. But
-fear not! With [[https://github.com/fara-pug/fara-pug/blob/main/index.md][github stylesheets]] the notes look quite nice already. For the
-full crazy, take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some vids]] then grab the source document [[https://github.com/fara-pug/fara-pug][from the
-repo]].
+I'm hosting these notes as a [[https://fara-pug.github.io/fara-pug/][web-page at github]].
+
+With [[https://github.com/fara-pug/fara-pug/blob/main/index.md][github stylesheets]] the notes also look quite nice. For the
+full view, take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some vids]] about my tools, then grab the source document [[https://github.com/fara-pug/fara-pug][from the
+repo]], or better yet, go there and click the .org file
 
 To stay totally informed of my very random comings and going, enter
 [[https://github.com/fara-pug.atom]] into your rss-feed reader. I like the [[https://www.startpage.com/do/search?query=Feedbro+Reader][Feedbro
@@ -71,7 +72,7 @@ of the questions I'd left in places!
 I'll be happy to honor your contributions in bold in this section, but forget
 it, I can not possibly have a life and maintain this assemblage of points of
 views, voices, random facts and thoughtful contributions and give credit to
-everyone for their unique genius!
+everyone for their unique genius on every fact or line they've contributed to'!
 
 So what I'll do, say for spell-concepts, best weapons classes etc, is to present
 insightful player's points of view into whatever the want to enrich this monster
