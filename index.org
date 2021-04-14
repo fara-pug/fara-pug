@@ -50,8 +50,30 @@ There are many voices here from the discord, reddit, wiki that use "I", but
 some of the sections are now entirely my own.  Thus if you think 'you said
 that', you probably did - and have my thanks for it!
 
-Thanks Mantecarl for helping me fill in several blanks and resolving many
+*Thanks Mantecarl* for helping me fill in several blanks and resolving many
 of the questions I'd left in places!
+
+*Thanks Mishaal* for a ton of tips and a spreadsheet full of detail!
+
+*** p.s.
+
+I'll be happy to honor your contributions in bold in this section, but forget
+it, I can not possibly have a life and maintain this assemblage of points of
+views, voices, random facts and thoughtful contributions and give credit to
+everyone for their unique genius!
+
+So what I'll do, say for spell-concepts, best weapons classes etc, is to present
+insightful player's points of view into whatever the want to enrich this monster
+of a document with. 
+
+The only place where I think putting your names in isn't just appropriate but
+important ad proper is in the list of [[Playable classes in FARA][Playable classes in FARA]] and in the
+section on [[what classes do yall like the most][What classes do y'all like the most]].
+
+I just want to make a decent guide to the meat of the game that I can use
+as a reference in years to come, not pretend that I am more than a beginner,
+know-it-all or that I had done more than scratched the surface of this thing.
+
 
 * Pug's Notes
 Look, I wrote this!
@@ -122,6 +144,24 @@ Everywhere else kinda looks like this
 - Buffy for looted Meals and Mixtures
 - 2Relica holds everything that wants to drift back to Relica.
 
+**** Feedback on the home office
+This can be condensed quite a bit
+I'd say first of all that it should be simple things
+
+"Misc" "Materials" "Equipment" "Food" "Runes" "Valuable"
+
+That condenses Woody + Clothy + Metally and Buffy + Booze + Fruits + Seeds + Flowers
+
+Second of all, the brazier layout is bad (I think) because last I checked
+brazier light is blocked by item piles (which sucks)
+
+<quoth my thoughts on layout>
+There's a LOT of problems here
+the slow interaction with the storage bins
+
+
+
+
 *** Warehousing
 
 Unlock this Building ASAP!
@@ -129,20 +169,51 @@ Unlock this Building ASAP!
 "There is nothing in any of my warehouses .. except in Relica's." - pug.
 
 First off, I don't really like the slow interaction with the storage bins in the
-warehouse. But I use them. I dont use scrolls but I keep them in a bin next to
-the crucible because I already know that I will be desperate for them when I'm strong
-enough to get myself into the best part of the game I know, dungeons!
+warehouse. 
 
-I also don't need kites, beehives, birds-nests, folded notes, toyswords and other things
-like that, but these too find their way into the warehouse. Out of sight, not out of mind.
+Instead of holding an item-stack to put it into the the number 1 position and 
+typing */giveall*, I */give #x* if its a single item and drop whatever stacked
+item right on top of the bins.
+
+I dont use scrolls but I keep them in a bin next to the crucible because I
+already know that I will be desperate for them when I'm strong enough to get
+myself into the best part of the game I know, dungeons! (Please don't read that
+to mean that my avatar is mindless about hoarding. After all, some scrolls were
+meant to be /salvaged and he's read enough of this guide to know that!)
+
+Sure, as player, I could */salvage* everything, but my avatar isn't wired like
+that. He keeps fancy but not the fanciest kites, beehives, birds-nests, folded
+notes, toyswords and other things like that for flavour. Once in the warehouse,
+but these things are out of sight, not out of mind.
 
 After opening up the (Refinery) I wound up with oddities like Tin Fiddles and
 Organs, Bone Spears and Goggles. I love the recipes, but instead of salvaging
-them right away stash them in Relica's warehouse in a 3rd chest.
+them right I stash away the Smith's output in the warehouse get an insight into
+what he's doing, knowing full well that the stash doubles as a rune-shard hoard.
 
-Ammo. I got tons of ammo of all kinds. Sometimes I use a ranged weapon and when
-I'm done playing with them I keep one foe each ammo-type in a Storage box, Dumping the
-ammo on the floor at that location.
+Ammo. I got tons of ammo of all kinds. When I get a new ranged weapon I try them out
+and keep the nicest ones in a Storage box on which i all dump all spare ammo. I find
+that much easier than placing stacks into the box.
+
+But listen, before you stash anything you find or loot, beat-up and or salvage
+the whatever because especially among the items you find on trees, surprises await!
+
+**** People who have seen more of the game know better things than dungeons!
+How cool is that?
+
+Check out this feedback: Dungeons! It's anything but "best"; It's an hour spent
+fumbling around in a dark maze trying to find a key and a door, dealing with
+stealthed enemies, and hidden traps! Dungeons are not the best part of the
+game. At all.
+
+To a long-time player of rogue-likes, that's an endorsement! and a promise for
+even better! <g>
+
+**** Thanks for paying attention!
+If you did, you will enjoy this random secret!
+
+- Peacocks drop an item that gives you *FIN>>*
+- Its kinda like the one with the milk :)
 
 *** In the Crucible
 For taking with me when traveling to a new settlement:
@@ -151,16 +222,33 @@ For taking with me when traveling to a new settlement:
 For setting up the next house:
 | 4 wooden logs | building planks and door        |
 | 8 rocks       | i like my braziers made of rock |
-For the next house, but also trips to the beach:
+For the next house, but also trips to the beach/lake/graveyard:
 | 1 bed       |
 | 1 workbench |
 Always in the Crucible
-| Buffy Meals      |
-| Buffy Mixtures   |
+| Dishes           |
+| Meals            |
+| Mixtures         |
 | Sensible Uniques |
 
 Once */place* takes a count we'll all be able to do a whole lot more with that
 ingenious invention!
+
+*** In General
+
+- consider carrying a container with water so you can boost your stamina
+  in an emergency.
+
+- consider carrying a rope or a kite whenever you take a shovel out for a dig
+  to avoid getting hurt should the ground give way under your feet.
+
+- lights are useful to trigger encounters at night, insure that you the full
+  attention of legendary beasts living in dens, lighting your way in that
+  labyrinth you are too proud to exit, and for finding out "what's down there"
+  when you eventually lie, legs broken, in that cave you dug into.
+
+As with backups of your computer, there are two kinds of people in the world,
+people who carry backups, and people who will.
 
 ** Moving out and on
 Again, complete the warehouse before you change settlement or do escort quests.
@@ -219,7 +307,7 @@ a [[Materials][material]] for either!
 ** Traveling
 
 We all know your avatar's a bit sensitive and often drops down to the local
-level because they sensed danger or spotted some cockroach fight or the other.
+level because they sensed danger or spotted some cockroaches fight one another.
 
 If the circle is blank of enemies, or you can make it so with a few steps away
 from the fight, do that! more often than not "*X*" */exit* or clicking on your
@@ -231,6 +319,8 @@ doing do, esp. if your're traveling at night, yet again without a light.
 
 As you're travelling you'll find more info about [[Enemy Skill Brackets]]. Please
 share.
+
+
 
 
 ** Exploring
@@ -257,10 +347,12 @@ FARA's difficulty is a gem. Yes, really. I don't know the formula, but like you,
 I appreciate that the things you encounter in your travels seem to slowly get
 harder 
 
-- the further away you have been
-- the more challenging the enemies you have ended
-- the better equipped/longer you have been in game
+- the further from Relica you are,
+- the further away you have been,
+- the more challenging the enemies you have ended,
+- the better equipped/longer you have been in game,
 - the more titles (achievments?) you have.
+- WHAT ELSE?
 
 But unlike most games, FARA doesn't actually seem to be out to kill you as it
 did in (what to me were) 'the nightmare versions' released some years ago.
@@ -334,7 +426,19 @@ A few things regarding charged rift particles:
 - Maybe take 3 CRPs to a Summoning Circle?
 
 ** what classes do yall like the most
-- Pugilist > Viking > Soldier
+
+*Ent, twice more* prefers
+  - Pugilist > Viking > Soldier.                        
+
+*Mantecar* likes to say
+  - For me, it's Swiftshade/Merchant.
+    
+*Mishaal* decided
+  - Scholar's very versatile
+  - I've only played with a limited number, but for me its the scholar!
+
+and Pug survives
+  - as a Gatekeeper.
 
 * Game Play
 ** /COMMANDS
@@ -396,8 +500,12 @@ though.
 
 ** Talking
 
-You can't talk to your pets and expect them to listen unless they are cats and
-you are a [[CAT WHISPERER]], but Mercs will listen to and obey you.
+Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
+it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
+and have managed to recruit on of these marvels.
+
+Normal people however can only talk to other people, and it's only the Mercs 
+you've recruited into your party that will listen to and obey you.
 
 - use */say wait here* and */say follow me* to control your party members. you
   don't have to ask them to come along when you leave the map, they will do that
@@ -415,14 +523,14 @@ you are a [[CAT WHISPERER]], but Mercs will listen to and obey you.
   (repeat with "*z*" as you walk around.)
 
 There's probably some (much?) more to say and other banter to be had. Many of
-the dialogue options seem to make the most sense for a [[POLITICIAN]].
+the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
 
 Weird fact: Mercs will sometimes say things and other NPC not in your party will
 speak back to them. Thats freaky cool.
 
 Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
 
-* About You and "Them"
+* About You
 ** Blights
 
 Instead of simply dying and dumbfoundedly staring at your screen, the whatever
@@ -450,10 +558,27 @@ effects (a lot of people died researching this. a moment of silence please!):
 Each of these blights decreases your chances of resurrecting again. Exactly what
 that means is unclear.. except that it will prevent you from cultivating your follies.
 
+Feedback:
+- I got 4 blights once. I never got more than 4, though this doesn't necessarily
+  mean its impossible. It would require a lot of testing to be sure.
+- Taking the first blight is a guaranteed success I think? I never had it fail,
+  and it does make sense.
+- Do not attack Relica's elder. He will end your run, and no amount of blights
+  will ever save you from his unending wrath.
+- I think you might have an increased chance of levelling up a blight instead of
+  getting a new one if you already have it.
+
+My testing was not extensive, I only kept going until I was pretty sure I'd seen
+all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
+sure.
+
 ** Character Stats
 - see /define for great upto-date info
 - includes info from discord and https://fara.fandom.com/wiki/Character_Stats
 - If you have high health and high resilience then you are probably good at tanking
+- Moods affect your stats positively as well as negatively.
+- Being sleepy or well rested affects your stats as well
+- "c" shows your stats of the moment, moods, tiredness & equipment included.
 
 *** Details
 **** Strength
@@ -482,13 +607,15 @@ Makes you good at hiding, attacking from range, with daggers and  other finesse 
 - Reduces physical damage taken,
 - Reduces duration of negative effects,
 - Increases stamina regeneration rate.
+- Warhammer heavies do more damage based on RES
 
 **** Insight
 
-Makes you good with spells, staff, foci, wands and scepters
-- Increases damage of spells,
-- Increases search ability,
-- Decreases stamina cost of spells
+Makes you good with Spells, Staves, Focuses, Wands and Scepters.
+
+- Increases the damage of spells,
+- Increases your search ability,
+- Decreases the stamina cost of spells.
 
 **** Charm
 
@@ -575,15 +702,282 @@ We need a table of Item characteristics!
   details in the recipes they've collected somewhere?
 - perhaps the brain will give us a button to export such a list for things known
   inside a game!
+** Key fragments
+
+- One for every 10 unknown monsters you inspect. 
+- It is possible to win just by inspecting monsters.
+  - Winning isn't the end.
+  - I think its after you do that the real game starts.
+- One for reaching max renown with a faction.
+- Rarely and randomly, from fishing or digging.
+- At the end of Dungeons.
+- By ending Nobles, even Village Elders.
+- Check your */spells* spell-list for emergency and post-win uses.
+
+*** Meta
+I read that each new shard contibutes more points to your score than the previous one.
+
+Thus if you aim to level up your stats by putting shards into them you should do
+it with the 9th shard so that you collect the most unlock points for doing that.
+
+Go to relica and spend an IRL day farming nothing but 'find monster' quests and
+tell me how far you get and how long it takes.
+
+**** crazy math
+If you're strong enough to move to another settlement, can you turn your naked
+self into a being with godlike stats while unlocking all the classes playing the
+meta-game of animal researcher?
+
+there are 5 primary stats. lets say they average '10 of 20'. you'd need 50 9th
+shards to become a god. that's 500 new animal species discovered, and maybe 500
+days spent in game.
+
+hmm, lol, i wonder how long brute-forcing 10 find-animal quests would take and
+if i could resist the urge to just complete the key to be done with the game.
+
+maybe i should complete the key first and see what revelations that brings.
+decisions. decisions. /end crazy math
+** Resting
+I read that you can rest on mats. that's not true.
+
+You need/want
+- a whatever bed, unsure that materials provide boni to sleep
+- to be within the glow of a brazier (what else works?)
+- to be behind any kind of door.
+
+Now... if you find a blanket or a pillow count yourself lucky!
+
+Pillows need feathers.. and the only way i can imagine getting any feathers is
+from a bird joining battle, angered by my taking their nest of of their tree.
+i've been collecting nests, but so far no angry birds.
+
+I found the pillow recipe, so those exists; atm blankets may or may not exist,
+speculating that they do because coolness. i dont really expect the buffs to get
+stronger with pillow and blanket, but this was just an excuse to remind you of
+the three easy things you want to do to get buffed sleeping: bed/heat/door.
+
+In the end i got so mad at the useless nests however that I started kicking them
+out of their trees, well, kindof. Now I have my pillows!
+
+** Party
+- Press "*p*" for party details. It will show you have many followers you have and
+  can have. 
+- Max party size appears to be class dependent.
+- Make music to cheer up your party-member if they have a dark mood
+  - Musical instruments much bigger than yourself can be held 
+    to cheer up your party. It may be how how you look, or that you used */play*.
+- Dancing is also a mood-booster. In some locations it winds up killing
+  otherwise friendly NPC's who arn't [[FISHMONGER][Fishmongers]]. You'll know it when you see it.
+- Escort quests' escortees don't count against your party-size-limit.
+- I like travelling alone in other games, in FARA i dont - yet.
+- [[Talking][Talk]] to your pals to chat and control how they contribute in combat; at least
+  a little bit.
+** Pets
+Pet animals till they get ecstatic, then feed some stuff. If there's room in your party
+they should join right away.
+
+- Wild boars can be found in forests and they're absolute chads in combat
+- Replace them with Grizzlies asap and upgrade from there
+- Other bears are timid, they run away scared and sometimes pull animal
+  attackers. after */exit* they come back. fun during the early days.
+
+If you want to, say, have a private chat with the local nobles or hunt the
+wumpus, i mean minotaur, then its good to know that you can dismiss your animal
+pals from the party without them holding a grudge against you. If you want them
+to rejoin you later you'll wish you had already dropped some food to bribe them
+with right where you left them!
+
+** Traits
+You have three changeable trait slots! In addition to your unchangeable class
+trait, you have two minor trait slots and one major trait slot you get to pickup
+and repeatedly change out through study and with the help of your Faction.
+
+#+begin_quote
+On your labyrinthine journeys you're likely to find Manuals that bestow Traits
+upon you. Thus there's no need to rush headlong into alliances with [[Factions][Factions]]
+who's ultimate intentions you can't ever be sure about anyway.
+#+end_quote
+
+*I think I'll drop this alphabetical list for the one sorted by #Spells.*
+
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| Class          | Class-Trait           | Spells |                                                                  |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[ADVENTURER][Adventurer]]     | Onward!               |      3 | "Normal"                                                         |
+| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | Good Insight, Avg+ Resilience, Avg- Finesse                      |
+| [[ARTIFICER][Artificer]]      | Spellgrafting         |   None | Good Resilience, Avg+ Insight, Avg- Strength                     |
+| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |      2 | Good Resilience, Avg+ Insight, Avg- Strength                     |
+| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |      2 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
+| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |      2 | Avg+ Health, Good Charm, Avg+ Strength, Avg- Insight             |
+| [[BOTANIST][Botanist]]       | Familiar Phytology    |      2 | Avg- Health, Good Insight, Avg+ Strength, Avg- Resilience        |
+| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |      3 | Avg- Health, Good Finesse, Avg+ Resilience, Avg- Charm           |
+| [[CHEF][Chef]]           | Gastromancy           |      5 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
+| [[COMMANDER][Commander]]      | Galvanizer            |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
+| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |      2 | Low Health, Good Wisdom, Avg+ Strength, Avg- Charisma            |
+| [[DERVISH][Dervish]]        | Dangerous Dance       |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Intelligence     |
+| [[DUELIST][Duelist]]        | En Garde              |      2 | Good Dexterity, Avg+ Charisma, Avg- Constitution                 |
+| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Strength            |
+| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |      2 | Avg+ Health, Good Constitution, Avg+ Wisdom, Avg- Dexterity      |
+| [[ENGINEER][Engineer]]       | Fixer Upper           |      1 | Good Intelligence, Avg+ Dexterity, Avg- Charisma                 |
+| [[EQUESTRIAN][Equestrian]]     | Brawler               |      3 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
+| [[EXECUTIONER][Executioner]]    | Soothslayer           |      2 | Good Strength, Avg+ Constitution, Avg- Dexterity                 |
+| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |      2 | Avg- Health, Good Wisdom, Avg+ Intelligence, Avg- Dexterity      |
+| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Constitution        |
+| [[GAMBLER][Gambler]]        | Luck of the Draw      |      2 | High Health, Good Charisma, Avg+ Dexterity, Avg- Strength        |
+| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Charisma         |
+| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |      2 | High Health, Good Constitution, Avg+ Intelligence, Avg- Charisma |
+| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |      2 | Low Health, Good Dexterity, Avg+ Intelligence, Avg- Wisdom       |
+| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |      3 | Good Charisma, Avg+ Intelligence, Avg- Strength                  |
+| [[HOMESTEADER][Homesteader]]    | Sunriser              |      2 | Low Health, Good Constitution, Avg+ Strength, Avg- Charisma      |
+| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |      2 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
+| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |      2 | Good Constitution, Avg+ Dexterity, Avg- Intelligence             |
+| [[JESTER][Jester]]         | Comedic Balance       |      3 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Intelligence     |
+| [[KENSAI][Kensai]]         | Samurai Showdown      |      2 | Good Dexterity, Avg+ Wisdom, Avg- Intelligence                   |
+| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |      2 | Avg- Health, Good Dexterity, Avg+ Strength, Avg- Constitution    |
+| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |      2 | Low Health, Good Intelligence, Avg+ Charisma, Avg- Wisdom        |
+| [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
+| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | Good Wisdom, Avg+ Strength, Avg- Strength                        |
+| [[POLITICIAN][Politician]]     | Polarize              |      3 | High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom       |
+| [[POTTER][Potter]]         | Earthen Bond          |      1 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Dexterity    |
+| [[PUGILIST][Pugilist]]       | The Greatest          |      1 | Avg+ Health, Good Strength, Avg+ Dexterity, Avg- Wisdom          |
+| [[PIT FIGHTER][Pit Fighter]]    | Brawler               |      2 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Intelligence |
+| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |      2 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
+| [[REAPER][Reaper]]         | Last Harvest          |      2 | Low Health, Good Dexterity, Avg+ Wisdom, Avg- Strength           |
+| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo |   None | Avg+ Health, Good Charisma, Avg+ Wisdom, Avg- Constitution       |
+| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |      1 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
+| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      5 | Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength        |
+| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | Good Intelligence, Avg+ Charisma, Avg- Constitution              |
+| [[SOLDIER][Soldier]]        | Dogged March          |      1 | High Health, Good Strength, Avg+ Constitution, Avg- Wisdom       |
+| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength          |
+| [[TOURIST][Tourist]]        | Sightseer             |   None | Low Health                                                       |
+| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |   None | "Normal"                                                         |
+| [[VIKING][Viking]]         | Thunderous Resilience |      1 | Good Strength, Avg+ Constitution, Avg- Intelligence              |
+| [[WILDHEART][Wildheart]]      | Killer Instincts      |      2 | Good Wisdom, Avg+ Dexterity, Avg- Intelligence                   |
+| [[WITCH][Witch]]          | Wicked Form           |      3 | Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength        |
+| [[WRESTLER][Wrestler]]       | Muscle Spirit         |      1 | Avg+ Health, Good Strength, Avg+ Charisma, Avg- Intelligence     |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+
+52 Classes with Unique Traits. But what about Peasants? 
+
+Key:
+|-------------+--------------------------------------|
+| Avg+ / Avg- | Above/Below Average in that Stat     |
+| "Normal"    | Totally regular average in all Stats |
+|-------------+--------------------------------------|
+
+See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check
+traits [[Factions][Factions]] offer through the */factions* (aka "*F*") window by clicking on
+for a menu showing you what they teach.
+
+*** Sorted by # of Spellslots
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| Class          | Class-Trait           | Spells |                                                                  |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[CHEF][Chef]]           | Gastromancy           |      5 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
+| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      5 | Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength        |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | Good Insight, Avg+ Resilience, Avg- Finesse                      |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[ADVENTURER][Adventurer]]     | Onward!               |      3 | "Normal"                                                         |
+| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |      3 | Avg- Health, Good Finesse, Avg+ Resilience, Avg- Charm           |
+| [[COMMANDER][Commander]]      | Galvanizer            |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
+| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Strength            |
+| [[EQUESTRIAN][Equestrian]]     | Brawler               |      3 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
+| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Constitution        |
+| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |      3 | Good Charisma, Avg+ Intelligence, Avg- Strength                  |
+| [[JESTER][Jester]]         | Comedic Balance       |      3 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Intelligence     |
+| [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
+| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | Good Wisdom, Avg+ Strength, Avg- Strength                        |
+| [[POLITICIAN][Politician]]     | Polarize              |      3 | High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom       |
+| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | Good Intelligence, Avg+ Charisma, Avg- Constitution              |
+| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength          |
+| [[WITCH][Witch]]          | Wicked Form           |      3 | Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength        |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |      2 | Good Resilience, Avg+ Insight, Avg- Strength                     |
+| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |      2 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
+| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |      2 | Avg+ Health, Good Charm, Avg+ Strength, Avg- Insight             |
+| [[BOTANIST][Botanist]]       | Familiar Phytology    |      2 | Avg- Health, Good Insight, Avg+ Strength, Avg- Resilience        |
+| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |      2 | Low Health, Good Wisdom, Avg+ Strength, Avg- Charisma            |
+| [[DERVISH][Dervish]]        | Dangerous Dance       |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Intelligence     |
+| [[DUELIST][Duelist]]        | En Garde              |      2 | Good Dexterity, Avg+ Charisma, Avg- Constitution                 |
+| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |      2 | Avg+ Health, Good Constitution, Avg+ Wisdom, Avg- Dexterity      |
+| [[EXECUTIONER][Executioner]]    | Soothslayer           |      2 | Good Strength, Avg+ Constitution, Avg- Dexterity                 |
+| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |      2 | Avg- Health, Good Wisdom, Avg+ Intelligence, Avg- Dexterity      |
+| [[GAMBLER][Gambler]]        | Luck of the Draw      |      2 | High Health, Good Charisma, Avg+ Dexterity, Avg- Strength        |
+| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Charisma         |
+| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |      2 | High Health, Good Constitution, Avg+ Intelligence, Avg- Charisma |
+| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |      2 | Low Health, Good Dexterity, Avg+ Intelligence, Avg- Wisdom       |
+| [[HOMESTEADER][Homesteader]]    | Sunriser              |      2 | Low Health, Good Constitution, Avg+ Strength, Avg- Charisma      |
+| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |      2 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
+| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |      2 | Good Constitution, Avg+ Dexterity, Avg- Intelligence             |
+| [[KENSAI][Kensai]]         | Samurai Showdown      |      2 | Good Dexterity, Avg+ Wisdom, Avg- Intelligence                   |
+| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |      2 | Avg- Health, Good Dexterity, Avg+ Strength, Avg- Constitution    |
+| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |      2 | Low Health, Good Intelligence, Avg+ Charisma, Avg- Wisdom        |
+| [[PIT FIGHTER][Pit Fighter]]    | Brawler               |      2 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Intelligence |
+| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |      2 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
+| [[REAPER][Reaper]]         | Last Harvest          |      2 | Low Health, Good Dexterity, Avg+ Wisdom, Avg- Strength           |
+| [[WILDHEART][Wildheart]]      | Killer Instincts      |      2 | Good Wisdom, Avg+ Dexterity, Avg- Intelligence                   |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[ENGINEER][Engineer]]       | Fixer Upper           |      1 | Good Intelligence, Avg+ Dexterity, Avg- Charisma                 |
+| [[POTTER][Potter]]         | Earthen Bond          |      1 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Dexterity    |
+| [[PUGILIST][Pugilist]]       | The Greatest          |      1 | Avg+ Health, Good Strength, Avg+ Dexterity, Avg- Wisdom          |
+| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |      1 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
+| [[SOLDIER][Soldier]]        | Dogged March          |      1 | High Health, Good Strength, Avg+ Constitution, Avg- Wisdom       |
+| [[VIKING][Viking]]         | Thunderous Resilience |      1 | Good Strength, Avg+ Constitution, Avg- Intelligence              |
+| [[WRESTLER][Wrestler]]       | Muscle Spirit         |      1 | Avg+ Health, Good Strength, Avg+ Charisma, Avg- Intelligence     |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+| [[ARTIFICER][Artificer]]      | Spellgrafting         |   None | Good Resilience, Avg+ Insight, Avg- Strength                     |
+| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo |   None | Avg+ Health, Good Charisma, Avg+ Wisdom, Avg- Constitution       |
+| [[TOURIST][Tourist]]        | Sightseer             |   None | Low Health                                                       |
+| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |   None | "Normal"                                                         |
+|----------------+-----------------------+--------+------------------------------------------------------------------|
+
+*** Trait Manuals
+Now, if only we had a list of those damn manuals! You could be planning instead
+of risking [[Blights][Anihilation]] by actually playing the game!
+
+| Manual of |
+|-----------|
+| Fishing   |
+| ...       |
+
+
+* About Them
 ** Enemy Skill Brackets
 
-| Dummies | Animals |
-|---------+---------|
-| Amateur | Young   |
-| Skilled |         |
-| Tough   |         |
-| Veteran | Stout   |
-|         |         |
+I have this notion that it might be possible to make a table that presents the
+words indicating enemy strength.. but I dont know. So I'm collecting the word I
+find along the way in this table.
+
+
+*TOTALLY GUESSING ATM!*
+- Just a scratchpad to make word and number guesses
+
+| Player Equiv  | Level | NPC's/Dummies | Animals | Plants   |
+|---------------+-------+---------------+---------+----------|
+| TRAGIC        |   -20 |               |         |          |
+| Dreadful      |   -16 |               |         |          |
+| Terrible      |   -12 |               |         |          |
+|---------------+-------+---------------+---------+----------|
+| Aweful        |    -8 |               |         |          |
+| Poor          |    -4 |               |         |          |
+|---------------+-------+---------------+---------+----------|
+| Below Average |    -1 | Amateur       |         | Baby     |
+| Average       |     0 | (no prefix)   |         |          |
+| Above Average |     1 | Skilled       |         |          |
+|---------------+-------+---------------+---------+----------|
+| Good          |     4 | Tough         | Young   | Kid      |
+| Good+         |     6 |               |         | Beast    |
+|---------------+-------+---------------+---------+----------|
+| Excellent     |     8 | Veteran       | Mature  |          |
+| Excellent+    |    10 |               |         | Behemoth |
+|---------------+-------+---------------+---------+----------|
+| Legendary     |    12 |               | Stout   |          |
+| Legendary+    |    16 | Legendary?    |         | Beasts   |
+| GODLIKE       |    20 |               |         |          |
+|---------------+-------+---------------+---------+----------|
+
+
 
 ** Factions
 Don’t enter castles of the factions that don’t like you.
@@ -617,67 +1011,491 @@ Traits will give you options in crafting such as:
 Focusing on Strength? go for the hand!
 
 The three first radiant hand traits give you DR against piercing, slashing or bludgeoning damage
-** Key fragments
 
-- For every 10 unknown monsters you inspect. It is possible to win just by inspecting monsters.
-- Reaching max renown with a faction
-- Randomly, from fishing or digging
-- At the end of Dungeons
-- By ending Nobles, even Village Elders.
+* About Things
+** Containers
+:PROPERTIES:
+:ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
+:END:
 
-*** Meta
-I read that each new shard contibutes more points to your score than the previous one.
+*** Fixed-ish
+- Carts, draggable on the local map
+- Storage Bins, installable
+- Storage Bins, upgraded.
 
-Thus if you aim to level up your stats by putting shards into them you should do
-it with the 9th shard so that you collect the most unlock points for doing that.
+*** Solids
+(from discord)
+- The first recipe you have is for a burlap satchel
+- Crafting a burlap satchel unlocks a handful of different satchel materials, and the recipe for bags with different materials
+- Crafting a bag unlocks backpacks
+- Crafting a backpack unlocks sacks
+- Sacks are the best storage item to wear
+- Followed by backpacks, then bags, then satchels
+- Every rarity tier is +5 storage
+- Every bag tier is another +5 storage I think
+- Making it refined, artisan, or masterwork further increases capacity
+- The Merchant class has significantly increased inventory capacity from the beginning
+- And the Hauler trait increases your inventory capacity passively
 
-Go to relica and spend an IRL day farming nothing but 'find monster' quests and
-tell me how far you get and how long it takes.
+*** Liquids
+- Vial, Flask, Mug, Waterskin..
 
-**** crazy math
-If you're strong enough to move to another settlement, can you turn your naked
-self into a being with godlike stats while unlocking all the classes playing the
-meta-game of animal researcher?
+*** Party
+I may be dreaming but were there no saddle-bags in that old version? Can my pet
+and merc help me carry things? So much to determine yet. I should probably look
+into simply equipping my new merc first.
 
-there are 5 primary stats. lets say they average '10 of 20'. you'd need 50 9th
-shards to become a god. that's 500 new animal species discovered, and maybe 500
-days spent in game.
+** Curios
+(wip)
 
-hmm, lol, i wonder how long brute-forcing 10 find-animal quests would take and
-if i could resist the urge to just complete the key to be done with the game.
+Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
+them to a piece of equipment, you can't get rid of them again. Some of these are
+really rare and I can't quite judge which those are, so .. Please don't cry if
+you misapply!
 
-maybe i should complete the key first and see what revelations that brings.
-decisions. decisions. /end crazy math
+Curios can be found and some of the curios, and all of those that boost one of
+the 5 main stats are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on
+the local madman.)
 
-* Need to know
+*** Never Craftable
+|------------------+----------------------------------+--------|
+| Curio            | Effect                           | Rarity |
+|------------------+----------------------------------+--------|
+| Athletic Band    |                                  |        |
+| Balanced Weight  | Lessen chance to stumble (drunk) |        |
+| Hardened Tack    | Increase critial damage          |        |
+| Hidden Pocket    | +5 Inventory capacity            |        |
+| Thick Padding    | Runic effects amplified          |        |
+|------------------+----------------------------------+--------|
+| Hilt Chain       | Thrown Item returns              |        |
+| Metalic Bullseye | Increase throwing distance       |        |
+|------------------+----------------------------------+--------|
 
-OVERKILL IS UNDERRATED.
+*** Eventually Craftable
+|---------------+----------------------------|
+| Curio         | Effect                     |
+|---------------+----------------------------|
+| Durable Patch | Less wear and tear on item |
+|---------------+----------------------------|
+| Heavy Clasp   | +str                       |
+| Shiny Charm   | +cha                       |
+| Sturdy Plates | +res                       |
+| Clever Widget | +ins                       |
+| Nimble Wrap   | +fin                       |
+|---------------+----------------------------|
+** Food
+- Raw food provides some stamina but no healing.
+- Cooked foods provide much more stamina and restore a fixed health%.
+- Its not clear if or how the health boost varies.
+- They are 1u small.
+- Buffs from food *replace* each other.
+- mixtures, dishes and booze can drop from mobs and crates.
 
-** Party
+[[ALCHEMIST][Alchemist]]'s *Mixtures* provide higher stat bonuses for fewer ingredients and can
+be consumed much faster. Throwing Mixtures at enemies will lower the relevant
+stats, and throwing Mixtures at other entities will raise the relevant stats.
 
-- Press "*p*" for party details. It will show you have many followers you have and
-  can have. 
-- Max party size might be class dependent.
-- Escort quests' escortees don't count against your party-size-limit.
-- I like travelling alone in other games, in FARA i dont - yet.
-- [[Talking][Talk]] to your pals to chat and control how they contribute in combat; at least
-  a little bit.
+[[BOTANIST][Botanists]] can do all sorts of magic by feeding their babies just about anything.
+Their babies evolve when they feed them. Your pets wont.
 
-** Pets
+[[CHEF][Chef]]'s *Dishes* provide stat bonuses for four times the duration of Meals, and
+grant an effect which fixes the eater's mood to max for an extended period.
 
-Pet animals till they get ecstatic, then feed some stuff. If there's room in your party
-they should join right away.
+Eating and drinking (*/eat*, */drink*) take time. *Water* and *Mixtures*
+are probably hugely important for spellcasters in dire situations, but I'd need
+an expert to chime in with their experience as I'm just guessing here.
 
-- Wild boars can be found in forests and they're absolute chads in combat
-- Replace them with Grizzlies asap and upgrade from there
-- Other bears are timid, they run away scared and sometimes pull animal
-  attackers. after */exit* they come back. fun during the early days.
+*** Cooking
+Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
+single [[Ingredients][Ingredients]] in Campfires and Firepits to restore stamina and heal
+themselves and their allies. The real freaks improve on that like so:
 
-If you want to, say, have a private chat with the local nobles or hunt the
-wumpus, i mean minotaur, then its good to know that you can dismiss your animal
-pals from the party without them holding a grudge against you. If you want them
-to rejoin you later you'll wish you had already dropped some food to bribe them
-with right where you left them!
+- [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
+- [[CHEF][Chefs]] produce *Dishes* instead of *Meals* when cooking.
+
+I suppose Campfires and Firepits differ in cooking speed/capacity.
+- Campfires are destroyed by immolation more quickly
+
+*** Ingredients
+I don't feel the urge to cook all my stuff right now. Perhaps you could help out
+here with some insights from your own notes?
+
+- Whats missing?
+- Is someone tracking the biomes for these things?
+
+**** Alcohol
+..is flammable.
+|-----------+--------+------+------------|
+| Bottle of | Meal   | Buff | Attribute  |
+|-----------+--------+------+------------|
+| [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]]   |        |      |            |
+| [[https://en.wikipedia.com/wiki/Gin][Gin]]       |        |      |            |
+| [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]] |        |      |            |
+| [[https://en.wikipedia.com/wiki/Rum][Rum]]       | Hearty | ++   | Resilience |
+| [[https://en.wikipedia.com/wiki/Vodka][Vodka]]     |        |      |            |
+| [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]]   |        |      |            |
+| [[https://en.wikipedia.com/wiki/Wine][Wine]]      |        |      |            |
+|-----------+--------+------+------------|
+
+**** Drinkable
+Strange when you state the obvious, isn't it?
+|-------+-------------------------------|
+| Name  | Note                          |
+|-------+-------------------------------|
+| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code! |
+| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | ..think about it              |
+| [[https://en.wikipedia.com/wiki/Venom][Venom]] | who's been poisoning you?     |
+|-------+-------------------------------|
+
+**** Meat
+|----------+---------+------+-----------|
+| Meat     | Meal    | Buff | Attribute |
+|----------+---------+------+-----------|
+| Raw Meat | Complex | ++   | Insight   |
+|----------+---------+------+-----------|
+
+- Venom Sacks; not sure that they are cookable.
+- Salted Meat exists as well, not sure that its cookable.
+
+**** Tree-Seeds
+Would love biome info on all this stuff!
+|------------+--------+------+-----------|
+| Tree       | Meal   | Buff | Attribute |
+|------------+--------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Alder][Alder]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Ash][Ash]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Aspen][Aspen]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Birch][Birch]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Buckeye][Buckeye]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]]  |        |      |           |
+| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cedar][Cedar]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Chestnut][Chestnut]]   |        |      |           |
+| [[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]]  |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]] |        |      |           |
+| [[https://en.wikipedia.com/wiki/Cypress][Cypress]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Dogwood][Dogwood]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Elm][Elm]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Fir][Fir]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Holly][Holly]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Juniper][Juniper]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Maple][Maple]]      |        |      |           |
+| [[https://en.wikipedia.com/wiki/Oak][Oak]]        |        |      |           |
+| [[https://en.wikipedia.com/wiki/Pine][Pine]]       |        |      |           |
+| [[https://en.wikipedia.com/wiki/Poplar][Poplar]]     | Robust | ++   | Strength  |
+| [[https://en.wikipedia.com/wiki/Redwood][Redwood]]    |        |      |           |
+| [[https://en.wikipedia.com/wiki/Spruce][Spruce]]     |        |      |           |
+| [[https://en.wikipedia.com/wiki/Sycamore][Sycamore]]   |        |      |           |
+| [[https://en.wikipedia.com/wiki/Willow][Willow]]     |        |      |           |
+|------------+--------+------+-----------|
+
+- All seeds give ++STR 
+
+**** Fruits
+Some of these are very common
+|------------+-------+------+-----------|
+| Fruit      | Meal  | Buff | Attribute |
+|------------+-------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Apple][Apple]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Avocado][Avocado]]    |       |      |           |
+| [[https://en.wikipedia.com/wiki/Banana][Banana]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Blackberry][Blackberry]] |       |      |           |
+| [[https://en.wikipedia.com/wiki/Blueberry][Blueberry]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Cherry][Cherry]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Coconut][Coconut]]    |       |      |           |
+| [[https://en.wikipedia.com/wiki/Grape][Grape]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Kiwi][Kiwi]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Lemon][Lemon]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Lime][Lime]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Mango][Mango]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Orange][Orange]]     |       |      |           |
+| [[https://en.wikipedia.com/wiki/Peach][Peach]]      |       |      |           |
+| [[https://en.wikipedia.com/wiki/Pear][Pear]]       |       |      |           |
+| [[https://en.wikipedia.com/wiki/Pineapple][Pineapple]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Raspberry][Raspberry]]  |       |      |           |
+| [[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] | Zesty | ++   | Finesse   |
+| [[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] |       |      |           |
+|------------+-------+------+-----------|
+
+- All fruits give ++FIN
+- Likely that they are all called zesty
+
+**** Vegetables
+Yes, I know about Tomatoes..
+|--------------+------+------+-----------|
+| Vegetable    | Meal | Buff | Attribute |
+|--------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Artichoke][Artichoke]]    |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cabbage][Cabbage]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Carrot][Carrot]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]]   |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chili][Chili]] Pepper |      |      |           |
+| [[https://en.wikipedia.com/wiki/Corn][Corn]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Cucumber][Cucumber]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Eggplant][Eggplant]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Garlic][Garlic]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Kale][Kale]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Lettuce][Lettuce]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Okra][Okra]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Onion][Onion]]        |      |      |           |
+| [[https://en.wikipedia.com/wiki/Peas][Peas]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Potato][Potato]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Radish][Radish]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Red][Red]] Pepper   |      |      |           |
+| [[https://en.wikipedia.com/wiki/Spinach][Spinach]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Tomato][Tomato]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Turnip][Turnip]]       |      |      |           |
+|--------------+------+------+-----------|
+
+- likely that all vegies buff str
+
+**** Flowers
+Rose & Chrysanthemum Salad!
+|---------------+------+------+-----------|
+| Flower        | Meal | Buff | Attribute |
+|---------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Anemone][Anemone]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Begonina][Begonina]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Bergamot][Bergamot]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Bluebell][Bluebell]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Buttercups][Buttercups]]    |      |      |           |
+| [[https://en.wikipedia.com/wiki/Carnation][Carnation]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]] |      |      |           |
+| [[https://en.wikipedia.com/wiki/Daffodil][Daffodil]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Foxglove][Foxglove]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Holly][Holly]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Lavender][Lavender]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Orchid][Orchid]]        |      |      |           |
+| [[https://en.wikipedia.com/wiki/Primrose][Primrose]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Rose][Rose]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]]     |      |      |           |
+| [[https://en.wikipedia.com/wiki/Thistle][Thistle]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Tulip][Tulip]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Violet][Violet]]        |      |      |           |
+|---------------+------+------+-----------|
+
+- likely that all flowers buff charm
+
+**** Plants
+Herbs, Spices
+|------------------+------+------+-----------|
+| Plant            | Meal | Buff | Attribute |
+|------------------+------+------+-----------|
+| [[https://en.wikipedia.com/wiki/Amaranth][Amaranth]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Chives][Chives]]           |      |      |           |
+| [[https://en.wikipedia.com/wiki/Parsley][Parsley]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Basil][Basil]]            |      |      |           |
+| [[https://en.wikipedia.com/wiki/Rosemary][Rosemary]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Thyme][Thyme]]            |      |      |           |
+| [[https://en.wikipedia.com/wiki/Oregano][Oregano]]          |      |      |           |
+| [[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]]      |      |      |           |
+| [[https://en.wikipedia.com/wiki/Marjoram][Marjoram]]         |      |      |           |
+| [[https://en.wikipedia.com/wiki/Mint][Mint]]             |      |      |           |
+| [[https://en.wikipedia.com/wiki/Dill][Dill]]             |      |      |           |
+| [[https://en.wikipedia.com/wiki/Ginger][Ginger]]           |      |      |           |
+| [[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]] |      |      |           |
+| [[https://en.wikipedia.com/wiki/Fennel][Fennel]]           |      |      |           |
+| [[https://en.wikipedia.com/wiki/Mustard][Mustard]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Peppermint][Peppermint]]       |      |      |           |
+| [[https://en.wikipedia.com/wiki/Saffron][Saffron]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Paprika][Paprika]]          |      |      |           |
+| [[https://en.wikipedia.com/wiki/Hemp][Hemp]]             |      |      |           |
+|------------------+------+------+-----------|
+*** When Elementally Flamed (++)
+By the power of magic..
+|---------+--------|
+| Element | Meal   |
+|---------+--------|
+| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Lite?  |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    | Spicy  |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender |
+| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |        |
+| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |  Sinister?     |
+|---------+--------|
+
+*** Fireworks!
+
+As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
+up a storm, why not try frying up some runes? What's the worst that could
+happen?
+
+
+** Lights
+
+- Lanterns seem to burn forever.. but they dont.
+  - They'll have plenty of life left in them when yellow.
+- Climbing does not extend the light's circle. 
+
+|---------+---+--------------------------------------------------------|
+| Candle  |   | More of an oddity, rather ordinary, burns a few hours. |
+| Torch   |   | Easy to make, you were born knowing how to make them.  |
+| Lantern | 6 | Got the Recipe after 'feeding the smith' a lot.        |
+|---------+---+--------------------------------------------------------|
+
+** Materials
+Trying to pack all the info and stats about the things you craft with in here.
+
+*** Wiki preamble
+I sooo hope that the wiki/source is more than mostly right on this info
+- source: https://fara.fandom.com/wiki/Crafting_Materials
+
+There is an abundance of different materials and most of them seem to be
+associated with some kind of stat altering capabilities, that you can gain by
+wearing or holding the item. In addition to the material you use when crafting,
+the item you are crafting itself may have some base properties making up the
+total attribute impact.
+
+Weaponry, jewellery, and armour is made from wood, bone, scale, glass, and
+minerals, while clothing items are made from cloths and furs - with a few
+overlaps such as boots.
+
+Note that at this time the precise number of stat pluses given by each material
+is unknown, as it is not equivalent to the number of arrows a piece of equipment
+has.
+
+- (stat)> gives +1
+- (stat)>> gives +2 or +3
+- (stat)>>> gives +4, +5, or +6
+
+Each additional nth arrow gives an additional n possible boosts (4 arrows giving
+between +7 and +10, etc.)
+
+
+*** Everyday materials
+
+Useful Materials without effects on your stats.
+
+|------------------+-----------------+---------------+-------------|
+| Material         | Components      | Source        | Rarity      |
+|------------------+-----------------+---------------+-------------|
+| Ceramic Plates   | 2 Mound of Clay | Craft,drops   | Uncommon    |
+| Burlap           | 2 Plant Fibers  | Craft,drops   | Very common |
+|------------------+-----------------+---------------+-------------|
+| Mound of Clay    |                 | /dig          | Very common |
+| Sand             |                 | /dig          | Very common |
+| Soil             |                 | /dig          | Very common |
+|------------------+-----------------+---------------+-------------|
+| Plant Fibers     |                 | Trees, Bushes | Very common |
+| Stone            |                 | Ground, drops | Very common |
+| Tuft of Feathers |                 | Birds drop    | Very common |
+|------------------+-----------------+---------------+-------------|
+*** Natural Resources
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
+| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
+| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
+| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
+| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
+| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
+| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
+| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 3 Ore           |
+| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
+| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
+| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
+| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
+| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
+| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+
+
+*** Cloths and Furs
+Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
+| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
+| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
+| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
+| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
+| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
+| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+* About Combat
+** Weaponry
+
+See Mishaal's FARA Compendium for weapon details
+and his growing Item list!
+https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing
+
+- The main difference between weapons is only in their heavy attack and the stat
+  they scale with.
+
+- Most combat RNG was removed (anything that says "chance to..." is probably no
+  longer a thing).
+
+- Need to identify/doc/present by primary attribute instead of presenting it
+  like this.
+
+- Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
+
+I've seen some talk about stats that track well-used and newly-used weapons
+being different somehow somewhere, the info being in a hidden stat. Please write
+if you can fill in the details!
+
+
+*** Melee
+|-------------------+----------------------------|
+| Axes              | may cleave                 |
+| Bladed weapons    | may cause bleeding         |
+| Blunt weapons     | may cause dazed            |
+| Spears and chains | have increased range       |
+| Spears and pikes  | have higher chance to crit |
+|-------------------+----------------------------|
+
+*** Magical
+|----------------------------+--------------------|
+| Foci/wands/staffs/scepters | halve casting time |
+|----------------------------+--------------------|
+
+- Focus HeavyAttack? causes the wielder to phase backwards
+- Foci/wands/staffs/scepters are ranged weapons with 6 range. In addition to
+  reducing stamina costs of spells, their heavy attacks all have unique effects
+- Scepter reduces direct spell damage taken during the attack
+- Staff reduces target's attunement
+- Wand causes the weapon to inherit elements from incoming spells
+
+*** Ranged
+
+|----------------+------------------------------------------------------------------|
+| Bows           | have a chance to not break stealth                               |
+| Crossbows      | bolts pass through targets, potentially hitting several targets. |
+| Firearms       | possibly interrupts casters; indoors less than outdoors.         |
+| Nets           | (may) immobilize when thrown                                     |
+| Thrown weapons | do extra damage, and may take damage.                            |
+|----------------+------------------------------------------------------------------|
+
+- Also shortbow causes the wielder to leap backwards after firing
+
+- The material used for ammo contributes to damage and the chance for it to
+  break on impact.
+
+- Attack speed was removed, now each attack takes one turn regardless of
+  weapon - likely making quivers and bandoliers (which gave the speed boni)
+  largely cosmetic/flair items.
 
 ** Runes
 
@@ -697,7 +1515,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
 |--------------+---------------------------------------|
 | Rune of      | Effect                                |
 |--------------+---------------------------------------|
-| Blinding     | Decrease Vision radius                |
+| Blinding     | Makes you blind and appear stealthed  |
 | Burning      | Fire/Burning                          |
 | Fury         | Raises Critical Damage made           |
 | Illumination | Receive more% Crit Hits, deny Stealth |
@@ -705,68 +1523,82 @@ If you are burning, and don't have that spell, stop, drop and /roll.
 |--------------+---------------------------------------|
 
 **** Affecting Health & Stamina
-|--------------+----------------------------|
-| Rune of      | Effect                     |
-|--------------+----------------------------|
-| Rejuvenation | Supply %s Health           |
-| Bleeding     | Drain %s Health            |
-| Poison       | Drain %s Health            |
-| Sickness     | Drain Stamina              |
-|--------------+----------------------------|
-
-**** Affecting Attributes
-|------------+---------------+---------------|
-| Attribute  | Raise         | Lower         |
-|------------+---------------+---------------|
-| [[Charm][Charisma]]   | Charm         | Uglyness      |
-| [[Finesse][Finesse]]    | Quickness     | Slowness      |
-| [[Insight][Insight]]    | Enlightenment | Stupidity     |
-| [[Resilience][Resilience]] | Fortification | Vulnerability |
-| [[Strength][Strength]]   | Rage          | Weakness      |
-|------------+---------------+---------------|
-
-Additionally,
-
 |--------------+------------------------------------------------------|
 | Rune of      | Effect                                               |
 |--------------+------------------------------------------------------|
-| Intoxication | Lowers [[Finesse][Finesse]], Raise chance to Stumble |
+| Rejuvenation | Supply %s Health                                     |
+| Bleeding     | Drain %s Health                                      |
+| Poison       | Stopd and prevents Healing while it drains %s Health |
+| Sickness     | Drain Stamina                                        |
 |--------------+------------------------------------------------------|
+
+**** Affecting Attributes
+|------------------------+---------------+---------------|
+| Attribute              | Raise         | Lower         |
+|------------------------+---------------+---------------|
+| [[Charm][Charisma]]               | Charm         | Uglyness      |
+| [[Finesse][Finesse]], dash distance | Quickness     | Slowness      |
+| [[Insight][Insight]]                | Enlightenment | Stupidity     |
+| [[Resilience][Resilience]]             | Fortification | Vulnerability |
+| [[Strength][Strength]]               | Rage          | Weakness      |
+|------------------------+---------------+---------------|
+
+Additionally,
+
+|--------------+-----------------------------------------|
+| Rune of      | Effect                                  |
+|--------------+-----------------------------------------|
+| Intoxication | Lowers [[Finesse][Finesse]], Raise chance to Stumble |
+|--------------+-----------------------------------------|
+
+**** Notes
+
+- Forces are hugely useful, especially compared to other spells
+  - I had a Thunder Force of Quickness in one run from a labyrinth
+  - knocking people back 3 tiles for a relatively small stamina cost
+    If you get rejuve on that, you're VERY good off
+
 
 *** Stabilizer Runes
 
-|------------+---------------+---------------------------------------------------|
-| Rune of    | Type          | Effect                                            |
-|------------+---------------+---------------------------------------------------|
-| Barriers   | Buff Area     | moderate elemental resistance for those near      |
-| Shields    | Buff Target   | high elemental resistance                         |
-| Wards      |               |                                                   |
-|------------+---------------+---------------------------------------------------|
-| Fields     | Amplify       | Ups all elem dmg taken?/made? in an area          |
-| Blessings  | Amplify       | Ups damage output of spell's element              |
-| Curses     | Amplify       | Ups target vulnerability to spell's element       |
-|------------+---------------+---------------------------------------------------|
-| Fonts      | Buff Area     | add elemental component to attacks of those near  |
-|------------+---------------+---------------------------------------------------|
-| Chains     | Single Status | Immobilize                                        |
-| Hammers    | Single status | Daze                                              |
-| Forces     | Single Status | Pushes target away, stuns them if they hit a wall |
-| Gales      | Single Target | Interrupt actions and drain stamina               |
-|------------+---------------+---------------------------------------------------|
-| Barrages   | DOT Area      | Damages all targets in the area                   |
-| Blades     | Direct Damage | Greater chace for Critical Hits                   |
-| Elementals | Summons       | Summons Elementals to aid the caster              |
-| Plagues    | DOT Target    | Damages the target over time                      |
-| Whips      | Direct Damage | Damages the target and their armor                |
-|------------+---------------+---------------------------------------------------|
-| Spears     | Direct Damage | Damage goes up as with distance to target         |
-| Arrows     | Direct Damage | Bypass Elemental Resistances                      |
-| Beams      | Direct Damage | Hits all targets in a straight line               |
-|------------+---------------+---------------------------------------------------|
-| Blasts     | AOE           | Damages the target and *everyone* nearby          |
-| Meteors    | AOE           | Impacts all targets in an area after short delay  |
-| Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                |
-|------------+---------------+---------------------------------------------------|
+|------------+---------------+----------------------------------------------------|
+| Rune of    | Type          | Effect                                             |
+|------------+---------------+----------------------------------------------------|
+| Barriers   | Buff Area     | moderate elemental resistance for those near       |
+| Shields    | Buff Target   | high elemental resistance                          |
+| Wards      |               | damages anyone that attacks the affected target ^1 |
+|------------+---------------+----------------------------------------------------|
+| Fields     | Amplify       | Ups all elem dmg taken?/made? in an area           |
+| Blessings  | Amplify       | Ups damage output of spell's element               |
+| Curses     | Amplify       | Ups target vulnerability to spell's element        |
+|------------+---------------+----------------------------------------------------|
+| Fonts      | Buff Area     | add elemental component to attacks of those near   |
+|------------+---------------+----------------------------------------------------|
+| Chains     | Single Status | Immobilize                                         |
+| Hammers    | Single status | Daze                                               |
+| Forces     | Single Status | Pushes target away, stuns them if they hit a wall  |
+| Gales      | Single Target | Interrupt actions and drain stamina                |
+|------------+---------------+----------------------------------------------------|
+| Barrages   | DOT Area      | Damages all targets in the area                    |
+| Blades     | Direct Damage | Greater chace for Critical Hits                    |
+| Elementals | Summons       | Summons Elementals to aid the caster               |
+| Plagues    | DOT Target    | Damages the target over time                       |
+| Whips      | Direct Damage | Damages the target and their armor                 |
+|------------+---------------+----------------------------------------------------|
+| Spears     | Direct Damage | Damage goes up as with distance to target          |
+| Arrows     | Direct Damage | Bypass Elemental Resistances                       |
+| Beams      | Direct Damage | Hits all targets in a straight line                |
+|------------+---------------+----------------------------------------------------|
+| Blasts     | AOE           | Damages the target and *everyone* nearby           |
+| Meteors    | AOE           | Impacts all targets in an area after short delay   |
+| Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                 |
+|------------+---------------+----------------------------------------------------|
+
+
+- ^1 description says "against all attackers", implying Melee, Magical and Ranged
+  damage reflection even at high stats is said to not be all that great, but if 
+  you can spare the spell slot, why not give it a go via an unelemental arcane 
+  combined with Fury, Rejuvenation or an Attribute Effect.
 
 
 **** All spells are created equal...
@@ -779,16 +1611,18 @@ rest to turn them into shards/dust. Rune shards and Medals are 'currency' in
 this game. What you do with the "named runes" above is up to you. Salvage them I
 would not.
 
-|---------+------------------------------------|
-| Element | Heavy Attacks with Infused Weapons |
-|---------+------------------------------------|
-| Air     | Quickens Attacker/ +Finesse        |
-| Dark    | Darkens Target Mood/ -Stats        |
-| Earth   | Poison DOT, denies Healing         |
-| Fire    | Armor Damage                       |
-| Light   | Illumes Target/ +Crits             |
-| Water   | Heal Attacker                      |
-|---------+------------------------------------|
+|---------+-------------------------------------------------|
+| Element | Heavy Attacks with Infused Weapons              |
+|---------+-------------------------------------------------|
+| Air     | Quickens Attacker/ +Finesse                     |
+| Dark    | Darkens Target Mood/ -Stats                     |
+| Earth   | Poison DOT, denies Healing, applies slowness ^1 |
+| Fire    | Armor Damage                                    |
+| Light   | Illumes Target/ +Crits                          |
+| Water   | Heal Attacker                                   |
+|---------+-------------------------------------------------|
+
+- ^1 can/might/does also inflict bleeding.
 
 If you infuse 2 runes into your weapon the effects alternate, halving your
 healing potential.
@@ -797,81 +1631,80 @@ See [[Damage types][Damage types]], Elemental, Attunement
 
 
 *** Farming Runes
-- at a beach
+
+| /setkey 0 dig
+| /setkey 9 takeall
+| /setkey 8 craft crystal ingot
+
+- at a beach. easy.
+  - grants lot of crystal with the above keybinds
 - setup a building to rest for buffs
+  - because you will want to probably do this for a while
+    and are likely to make several trips to Relica unless
+    your inventory space is huge 
 - what would be the ideal food/drink to take?
 - enhanced iron shovel and workbench in inventory
 - should be possible once you get the tool recipes from the first other settlement you visit.
-- oh, have a rope on you anytime you dig, just in case you slip and fall.
+- oh, have a rope on you while getting used to digging, just in case you slip and fall.
 - must-read: [[Degritone's Guide to 100k Points]]
 - see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
 
-Dig and or Fish.. seem rather alike, no? 
+**** Dig and or Fish.. rather alike, no?
+- haven't fished yet, so i can't quite compare
 
-** Damage types
+- Fishing with an iron fishing rod used to be viable for Fishmonger, but I spent
+  an entire artisan iron fishing rod with Fishmonger and didn't get a single
+  rune
 
-There are eight types of damage in FARA.
+**** Experiments
+As a reality check on digging, I performed these experiments at a nice looking
+beach 25km from home. The shack came in really handy during my travels since I
+wound up with quite a few ingots and wound up sleeping there several times.
 
-Physical attacks are countered by "Damage Reduction" provided those held shield
-items in combination with Resilience and Strength, i suppose.
+The results of my first/only two test runs are shown below.
+The results surprised badly!
 
-Magical attacks are countered by your elemental attunement which is enhanced by
-your Insight? and a shield spell. Did I get that right?
 
-*** Physical
+- counter-intuitive
+- this trashes my understanding of the defintion of the stats
+  - ought to determine the role of finesse in this if there is to be any hope of
+    salvaging it
 
-+ Elemental Effects on hard-attacks.
-- melee
-  - slashing, bludgeoning, and piercing,
-  - (see Radiant hand trait if you're looking for physical resistances)
-- ranged 
+|------------+---------------+------------------|
+| Both Digs  | <Iron Shovel> | <Crystal Shovel> |
+|------------+---------------+------------------|
+| Strength   | Good+         |                  |
+| Finesse    | Good          | Average          |
+| Resilience | Legendary+    |                  |
+| Insight    | Good+         | Great            |
+| Charm      | Good+         | Great            |
+| Repairs    | 1             | 1                |
+|------------+---------------+------------------|
 
-Elemental runes on your weapon give you a bonus and weaken your target.
+The rejuv/arrow rune numbers.. meaningless, let someone who knows their stuff
+and can rebalance their stats or keep them godlike rerun this.
 
-If you have more than one elemental rune on your weapon, then they will
-alternate with each hard attack you make.
+|---------------------+---------------+------------------|
+| DIG #1              | <Iron Shovel> | <Crystal Shovel> |
+|---------------------+---------------+------------------|
+| Crystal Ingots Made |            83 |               83 |
+| *Total Runes*       |            50 |               26 |
+| Elemental Runes     |             4 |                0 |
+| Rejuvenation Runes  |             1 |                4 |
+| Arrow Runes         |             0 |                2 |
+|---------------------+---------------+------------------|
+| DIG #2              | <Iron Shovel> | <Crystal Shovel> |
+|---------------------+---------------+------------------|
+| Crystal Ingots Made |            83 |               83 |
+| *Total Runes*       |            26 |               33 |
+| Elemental Runes     |             4 |                6 |
+| Rejuvenation Runes  |             0 |                0 |
+| Arrow Runes         |             0 |                0 |
+|---------------------+---------------+------------------|
 
-FARA canon seems to be to use a single water-rune on your weapon and nothing
-else since a little bit of extra water-attunement will make your rejuvenating
-healing spell work ever so much better for you -- and of course weaken your
-foe's water/healing attunement as well.
+- 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
+- without notes and interruptions these numbers might take ~90mins?
 
-*** Magical
-.. and then there is Arcane, an untyped damage belonging to no element at all.
-Mobs don't seem to use it nor do they appear to have resistance against it.
-If you feel like doing without the elemental effects, think 'arcane'.
-
-if you use an arcane shield or other rare arcane infused elements you do more
-damage and resist arcane spells
-
-*** Elemental
-
-- 6 pure
-  - (+ arcane in the absence of elements, right? makes it 7 pure types.)
-- 15 (16) dual/combo types
-- 21 (22) magial means to confuse your self with while learning to play!
-
-Combine two elemental runes into a spell to deliver both types under these
-names - which show up in the spell name.
-
-|------------+---------+---------+-----------+-------+---------+--------|
-| /Elements/ |         |         |           |       |         |        |
-|------------+---------+---------+-----------+-------+---------+--------|
-| *Water*    | *Water* |         |           |       |         |        |
-| *Earth*    | Tide    | *Earth* |           |       |         |        |
-| *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
-| *Air*      | Ice     | Thunder | Lightning | *Air* |         |        |
-| *Light*    | Divine  | Sun     | Radiant   | Day   | *Light* |        |
-| *Dark*     | Abyssal | Moon    | Brutal    | Night | Dusk    | *Dark* |
-|------------+---------+---------+-----------+-------+---------+--------|
-
-(orig)
-https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
-
-- i copied the spreadsheet
-- zapped the mirrored half because confusing
-- added bold and magma
-- still need the names for seven more combos.
 
 ** Spells
 (expert info is on the way)
@@ -959,558 +1792,74 @@ One day I'll crack the secret of that secret organization connecting the elders,
 nobles and the shaded figure who at least saved my life if he didn't outright
 summon me into this world..
 
-** Lights
 
-- Lanterns seem to burn forever
-- Climbing does not extend the light's circle. 
+** Damage types
 
-| Candle  |   | More of an oddity                               |
-| Torch   |   | Easy to make but first you have to find one     |
-| Lantern | 6 | Got the Recipe after 'feeding the smith' a lot. |
+There are eight types of damage in FARA.
 
+Physical attacks are countered by "Damage Reduction" provided those held shield
+items in combination with Resilience and Strength, i suppose.
 
-** Cooking
-Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
-single [[Ingredients][Ingredients]] in Campfires and Firepits to restore stamina and heal
-themselves and their allies. The real freaks improve on that like so:
+Magical attacks are countered by your elemental attunement which is enhanced by
+your Insight? and a shield spell. Did I get that right?
 
-- [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
-- [[CHEF][Chefs]] produce *Dishes* instead of *Meals* when cooking.
+*** Physical
 
-I suppose Campfires and Firepits differ in cooking speed/capacity.
++ Elemental Effects on hard-attacks.
+- melee
+  - slashing, bludgeoning, and piercing,
+  - (see Radiant hand trait if you're looking for physical resistances)
+- ranged 
 
-*** Fireworks!
+Elemental runes on your weapon give you a bonus and weaken your target.
 
-As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
-up a storm, why not try frying up some runes? What's the worst that could
-happen?
+If you have more than one elemental rune on your weapon, then they will
+alternate with each hard attack you make.
 
-** Foods
-- Raw food provides some stamina but no healing.
-- Cooked foods provide much more stamina and restore a fixed health%.
-- Its not clear if or how the health boost varies.
-- They are 1u small.
-- Buffs from food *replace* each other.
+FARA canon seems to be to use a single water-rune on your weapon and nothing
+else since a little bit of extra water-attunement will make your rejuvenating
+healing spell work ever so much better for you -- and of course weaken your
+foe's water/healing attunement as well.
 
-[[ALCHEMIST][Alchemist]]'s *Mixtures* provide higher stat bonuses for fewer ingredients and can
-be consumed much faster. Throwing Mixtures at enemies will lower the relevant
-stats, and throwing Mixtures at other entities will raise the relevant stats.
+*** Magical
+.. and then there is Arcane, an untyped damage belonging to no element at all.
+Mobs don't seem to use it nor do they appear to have resistance against it.
+If you feel like doing without the elemental effects, think 'arcane'.
 
-[[BOTANIST][Botanists]] can do all sorts of magic by feeding their babies just about anything.
-Their babies evolve when they feed them. Your pets wont.
+if you use an arcane shield or other rare arcane infused elements you do more
+damage and resist arcane spells
 
-[[CHEF][Chef]]'s *Dishes* provide stat bonuses for four times the duration of Meals, and
-grant an effect which fixes the eater's mood to max for an extended period.
+*** Elemental
 
-Eating and drinking (*/eat*, */drink*) take time. *Water* and *Mixtures*
-are probably hugely important for spellcasters in dire situations, but I'd need
-an expert to chime in with their experience as I'm just guessing here.
+- 6 pure
+  - (+ arcane in the absence of elements, right? makes it 7 pure types.)
+- 15 (16) dual/combo types
+- 21 (22) magial means to confuse your self with while learning to play!
 
-*** Ingredients
-I don't feel the urge to cook all my stuff right now. Perhaps you could help out
-here with some insights from your own notes?
+Combine two elemental runes into a spell to deliver both types under these
+names - which show up in the spell name.
 
-- Whats missing?
-- Is someone tracking the biomes for these things?
+|------------+---------+---------+-----------+-------+---------+--------|
+| /Elements/ |         |         |           |       |         |        |
+|------------+---------+---------+-----------+-------+---------+--------|
+| *Water*    | *Water* |         |           |       |         |        |
+| *Earth*    | Tide    | *Earth* |           |       |         |        |
+| *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
+| *Air*      | Ice     | Thunder | Lightning | *Air* |         |        |
+| *Light*    | Divine  | Sun     | Radiant   | Day   | *Light* |        |
+| *Dark*     | Abyssal | Moon    | Brutal    | Night | Dusk    | *Dark* |
+|------------+---------+---------+-----------+-------+---------+--------|
 
-**** Alcohol
-..is flammable.
-|-----------+--------+------+------------|
-| Bottle of | Meal   | Buff | Attribute  |
-|-----------+--------+------+------------|
-| [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]]   |        |      |            |
-| [[https://en.wikipedia.com/wiki/Gin][Gin]]       |        |      |            |
-| [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]] |        |      |            |
-| [[https://en.wikipedia.com/wiki/Rum][Rum]]       | Hearty | ++   | Resilience |
-| [[https://en.wikipedia.com/wiki/Vodka][Vodka]]     |        |      |            |
-| [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]]   |        |      |            |
-| [[https://en.wikipedia.com/wiki/Wine][Wine]]      |        |      |            |
-|-----------+--------+------+------------|
+The exact word used might vary between the spells and gear, for example:
+ 
+- Silver Axe of Divinity
+- Divine Ward of Fury
 
-**** Drinkable
-Strange when you state the obvious, isn't it?
-|-------+-------------------------------|
-| Name  | Note                          |
-|-------+-------------------------------|
-| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code! |
-| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | ..think about it              |
-| [[https://en.wikipedia.com/wiki/Venom][Venom]] | who's been poisoning you?     |
-|-------+-------------------------------|
+(orig)
+https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
 
-**** Meat
-I'm so glad this isn't Dwarf fortress!
-|----------+---------+------+-----------|
-| Meat     | Meal    | Buff | Attribute |
-|----------+---------+------+-----------|
-| Raw Meat | Complex | ++   | Insight   |
-|----------+---------+------+-----------|
-
-**** Tree-Seeds
-Definitely need biome info!
-|------------+--------+------+-----------|
-| Tree       | Meal   | Buff | Attribute |
-|------------+--------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Alder][Alder]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Ash][Ash]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Aspen][Aspen]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Birch][Birch]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Buckeye][Buckeye]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]]  |        |      |           |
-| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cedar][Cedar]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Chestnut][Chestnut]]   |        |      |           |
-| [[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]]  |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]] |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cypress][Cypress]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Dogwood][Dogwood]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Elm][Elm]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Fir][Fir]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Holly][Holly]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Juniper][Juniper]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Maple][Maple]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Oak][Oak]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Pine][Pine]]       |        |      |           |
-| [[https://en.wikipedia.com/wiki/Poplar][Poplar]]     | Robust | ++   | Strength  |
-| [[https://en.wikipedia.com/wiki/Redwood][Redwood]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Spruce][Spruce]]     |        |      |           |
-| [[https://en.wikipedia.com/wiki/Sycamore][Sycamore]]   |        |      |           |
-| [[https://en.wikipedia.com/wiki/Willow][Willow]]     |        |      |           |
-|------------+--------+------+-----------|
-
-
-**** Fruits
-Some of these are very common
-|------------+-------+------+-----------|
-| Fruit      | Meal  | Buff | Attribute |
-|------------+-------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Apple][Apple]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Avocado][Avocado]]    |       |      |           |
-| [[https://en.wikipedia.com/wiki/Banana][Banana]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Blackberry][Blackberry]] |       |      |           |
-| [[https://en.wikipedia.com/wiki/Blueberry][Blueberry]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Cherry][Cherry]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Coconut][Coconut]]    |       |      |           |
-| [[https://en.wikipedia.com/wiki/Grape][Grape]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Kiwi][Kiwi]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Lemon][Lemon]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Lime][Lime]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Mango][Mango]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Orange][Orange]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Peach][Peach]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Pear][Pear]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Pineapple][Pineapple]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Raspberry][Raspberry]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] | Zesty | ++   | Finesse   |
-| [[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] |       |      |           |
-|------------+-------+------+-----------|
-
-- likely that they are all called zesty
-
-**** Vegetables
-Yes, I know about Tomatoes..
-|--------------+------+------+-----------|
-| Vegetable    | Meal | Buff | Attribute |
-|--------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Artichoke][Artichoke]]    |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cabbage][Cabbage]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Carrot][Carrot]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]]   |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chili][Chili]] Pepper |      |      |           |
-| [[https://en.wikipedia.com/wiki/Corn][Corn]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cucumber][Cucumber]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Eggplant][Eggplant]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Garlic][Garlic]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Kale][Kale]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Lettuce][Lettuce]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Okra][Okra]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Onion][Onion]]        |      |      |           |
-| [[https://en.wikipedia.com/wiki/Peas][Peas]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Potato][Potato]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Radish][Radish]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Red][Red]] Pepper   |      |      |           |
-| [[https://en.wikipedia.com/wiki/Spinach][Spinach]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Tomato][Tomato]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Turnip][Turnip]]       |      |      |           |
-|--------------+------+------+-----------|
-
-- likely that all vegies buff str
-
-**** Flowers
-Rose & Chrysanthemum Salad!
-|---------------+------+------+-----------|
-| Flower        | Meal | Buff | Attribute |
-|---------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Anemone][Anemone]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Begonina][Begonina]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Bergamot][Bergamot]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Bluebell][Bluebell]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Buttercups][Buttercups]]    |      |      |           |
-| [[https://en.wikipedia.com/wiki/Carnation][Carnation]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]] |      |      |           |
-| [[https://en.wikipedia.com/wiki/Daffodil][Daffodil]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Foxglove][Foxglove]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Holly][Holly]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Lavender][Lavender]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Orchid][Orchid]]        |      |      |           |
-| [[https://en.wikipedia.com/wiki/Primrose][Primrose]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Rose][Rose]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Thistle][Thistle]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Tulip][Tulip]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Violet][Violet]]        |      |      |           |
-|---------------+------+------+-----------|
-
-- likely that all flowers buff charm
-
-**** Plants
-Herbs, Spices
-|------------------+------+------+-----------|
-| Plant            | Meal | Buff | Attribute |
-|------------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Amaranth][Amaranth]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chives][Chives]]           |      |      |           |
-| [[https://en.wikipedia.com/wiki/Parsley][Parsley]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Basil][Basil]]            |      |      |           |
-| [[https://en.wikipedia.com/wiki/Rosemary][Rosemary]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Thyme][Thyme]]            |      |      |           |
-| [[https://en.wikipedia.com/wiki/Oregano][Oregano]]          |      |      |           |
-| [[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Marjoram][Marjoram]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Mint][Mint]]             |      |      |           |
-| [[https://en.wikipedia.com/wiki/Dill][Dill]]             |      |      |           |
-| [[https://en.wikipedia.com/wiki/Ginger][Ginger]]           |      |      |           |
-| [[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]] |      |      |           |
-| [[https://en.wikipedia.com/wiki/Fennel][Fennel]]           |      |      |           |
-| [[https://en.wikipedia.com/wiki/Mustard][Mustard]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Peppermint][Peppermint]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Saffron][Saffron]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Paprika][Paprika]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Hemp][Hemp]]             |      |      |           |
-|------------------+------+------+-----------|
-
-
-
-*** When Elementally Flamed (++)
-By the power of magic..
-|---------+--------|
-| Element | Meal   |
-|---------+--------|
-| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Lite?  |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich   |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    |        |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender |
-| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |        |
-| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |        |
-|---------+--------|
-
-** Resting
-I read that you can rest on mats. that's not true.
-
-You need/want
-- a whatever bed, unsure that materials provide boni to sleep
-- to be within the glow of a brazier (what else works?)
-- to be behind any kind of door.
-
-Now... if you find a blanket or a pillow count yourself lucky!
-
-Pillows need feathers.. and the only way i can imagine getting any feathers is
-from a bird joining battle, angered by my taking their nest of of their tree.
-i've been collecting nests, but so far no angry birds.
-
-I found the pillow recipe, so those exists; atm blankets may or may not exist,
-speculating that they do because coolness. i dont really expect the buffs to get
-stronger with pillow and blanket, but this was just an excuse to remind you of
-the three easy things you want to do to get buffed sleeping: bed/heat/door.
-
-In the end i got so mad at the useless nests however that I started kicking them
-out of their trees, well, kindof. Now I have my pillows!
-
-
-** Traits
-(Technote: this table garbles in the .md view but correct via [[https://fara-pug.github.io/fara-pug/][html]].)
-
-You have one unchangeable trait and get to pickup and repeatedly change two more
-traits via faction affiliations..... or....
-
-#+begin_quote
-On your labyrinthine journeys you're likely to find Manuals that bestow Traits
-upon you. Thus there's no need to rush headlong into alliances with [[Factions][Factions]]
-who's ultimate intentions you can't ever be sure about anyway.
-#+end_quote
-
-... or what my imaginary friend just said  :)
-
-|----------------+-----------------------|
-| Class          | Class-Trait           |
-|----------------+-----------------------|
-| [[ADVENTURER][Adventurer]]     | Onward!               |
-| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |
-| [[ARTIFICER][Artificer]]      | Spellgrafting         |
-| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |
-| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |
-| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |
-| [[BOTANIST][Botanist]]       | Familiar Phytology    |
-| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |
-| [[CHEF][Chef]]           | Gastromancy           |
-| [[COMMANDER][Commander]]      | Galvanizer            |
-| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |
-| [[DERVISH][Dervish]]        | Dangerous Dance       |
-| [[DUELIST][Duelist]]        | En Garde              |
-| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |
-| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |
-| [[ENGINEER][Engineer]]       | Fixer Upper           |
-| [[EQUESTRIAN][Equestrian]]     | Brawler               |
-| [[EXECUTIONER][Executioner]]    | Soothslayer           |
-| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |
-| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |
-| [[GAMBLER][Gambler]]        | Luck of the Draw      |
-| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |
-| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |
-| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |
-| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |
-| [[HOMESTEADER][Homesteader]]    | Sunriser              |
-| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |
-| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |
-| [[KENSAI][Kensai]]         | Samurai Showdown      |
-| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |
-| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |
-| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |
-| [[POLITICIAN][Politician]]     | Polarize              |
-| [[POTTER][Potter]]         | Earthen Bond          |
-| [[PUGILIST][Pugilist]]       | The Greatest          |
-| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |
-| [[REAPER][Reaper]]         | Last Harvest          |
-| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo |
-| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |
-| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |
-| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |
-| [[SOLDIER][Soldier]]        | Dogged March          |
-| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |
-| [[TOURIST][Tourist]]        | Sightseer             |
-| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |
-| [[VIKING][Viking]]         | Thunderous Resilience |
-| [[WILDHEART][Wildheart]]      | Killer Instincts      |
-| [[WITCH][Witch]]          | Wicked Form           |
-| [[WRESTLER][Wrestler]]       | Muscle Spirit         |
-|----------------+-----------------------|
-
-See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check
-traits [[Factions][Factions]] offer through the */factions* (aka "*F*") window by clicking on
-for a menu showing you what they teach.
-
-*** Trait Manuals
-Now, if only we had a list of those damn manuals! You could be planning instead
-of risking [[Blights][Anihilation]] by actually playing the game!
-
-| Manual of |
-|-----------|
-| Fishing   |
-| ...       |
-
-** Weaponry
-
-- The main difference between weapons is only in their heavy attack and the stat
-  they scale with.
-
-- Most combat RNG was removed (anything that says "chance to..." is probably no
-  longer a thing).
-
-- Need to identify/doc/present by primary attribute instead of presenting it
-  like this.
-
-I've seen some talk about stats that track well-used and newly-used weapons
-being different somehow somewhere, the info being in a hidden stat. Please write
-if you can fill in the details!
-
-*** Melee
-|----------------------------+------------------------------------------------------------------|
-| Axes                       | may cleave                                                       |
-| Bladed weapons             | may cause bleeding                                               |
-| Blunt weapons              | may cause dazed                                                  |
-| Spears and chains          | have increased range                                             |
-| Spears and pikes           | have higher chance to crit                                       |
-| Foci/wands/staffs/scepters | halve casting time                                               |
-|----------------------------+------------------------------------------------------------------|
-
-*** Ranged
-
-|----------------------------+------------------------------------------------------------------|
-| Bows                       | have a chance to not break stealth                               |
-| Crossbows                  | bolts pass through targets, potentially hitting several targets. |
-| Firearms                   | possibly interrupts casters; indoors less than outdoors.         |
-| Nets                       | (may) immobilize when thrown                                     |
-| Thrown weapons             | do extra damage, and may take damage.                            |
-|----------------------------+------------------------------------------------------------------|
-
-- The material used for ammo contributes to damage and the chance for it to
-  break on impact.
-
-- Attack speed was removed, now each attack takes one turn regardless of
-  weapon - likely making quivers and bandoliers (which gave the speed boni)
-  largely cosmetic/flair items.
-
-
-** Curios
-(wip)
-
-Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
-them to a piece of equipment, you can't get rid of them again. Some of these are
-really rare and I can't quite judge which those are, so .. Please don't cry if
-you misapply!
-
-Curios can be found and some of the curios that boost one of the 5 main stats
-are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on the local madman.)
-
-*** Never Craftable
-|-----------------+--------+----------------------------------|
-| Curio           | Rarity | Effect                           |
-|-----------------+--------+----------------------------------|
-| Athletic Band   |        | Increase throwing distance       |
-| Balanced Weight |        | Lessen chance to stumble (drunk) |
-| Durable Patch   |        | Less wear and tear on item       |
-| Hardened Tack   |        | Increase critial damage          |
-| Hidden Pocket   |        | +5 Inventory capacity            |
-| Hilt Chain      |        | Thrown Item returns              |
-| Thick Padding   |        | Runic effects amplified          |
-|-----------------+--------+----------------------------------|
-
-*** Eventually Craftable
-|---------------+--------|
-| Curio         | Effect |
-|---------------+--------|
-| Heavy Clasp   | +str   |
-| Shiny Charm   | +cha   |
-| Sturdy Plates | +res   |
-| Clever Widget | +ins   |
-| Nimble Wrap   | +fin   |
-|---------------+--------|
-
-** Materials
-Trying to pack all the info and stats about the things you craft with in here.
-
-*** Wiki preamble
-I sooo hope that the wiki/source is more than mostly right on this info
-- source: https://fara.fandom.com/wiki/Crafting_Materials
-
-There is an abundance of different materials and most of them seem to be
-associated with some kind of stat altering capabilities, that you can gain by
-wearing or holding the item. In addition to the material you use when crafting,
-the item you are crafting itself may have some base properties making up the
-total attribute impact.
-
-Weaponry, jewellery, and armour is made from wood, bone, scale, glass, and
-minerals, while clothing items are made from cloths and furs - with a few
-overlaps such as boots.
-
-Note that at this time the precise number of stat pluses given by each material
-is unknown, as it is not equivalent to the number of arrows a piece of equipment
-has.
-
-- (stat)> gives +1
-- (stat)>> gives +2 or +3
-- (stat)>>> gives +4, +5, or +6
-
-Each additional nth arrow gives an additional n possible boosts (4 arrows giving
-between +7 and +10, etc.)
-
-
-*** Everyday materials
-Very common items that won't boost your stats.
-
-|----------------+------------------+-------------|
-| Sand           |                  | /dig        |
-| Stone          |                  | find        |
-| Birds          | Tuft of Feathers | drops       |
-| Mounds of Clay | Lumps            |             |
-| Ceramic Plates | Clay             | /dig?       |
-| Burlap         | 2 Plant Fibers   | Very Common |
-|----------------+------------------+-------------|
-*** Natural Resources
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
-| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
-| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
-| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
-| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
-| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
-| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
-| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 3 Ore           |
-| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
-| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
-| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
-| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
-| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
-| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-
-
-*** Cloths and Furs
-Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
-| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
-| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
-| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
-| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
-| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
-| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-
-** Containers
-:PROPERTIES:
-:ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
-:END:
-
-*** Fixed-ish
-- Carts, draggable on the local map
-- Storage Bins, installable
-- Storage Bins, upgraded.
-
-*** Solids
-(from discord)
-- The first recipe you have is for a burlap satchel
-- Crafting a burlap satchel unlocks a handful of different satchel materials, and the recipe for bags with different materials
-- Crafting a bag unlocks backpacks
-- Crafting a backpack unlocks sacks
-- Sacks are the best storage item to wear
-- Followed by backpacks, then bags, then satchels
-- Every rarity tier is +5 storage
-- Every bag tier is another +5 storage I think
-- Making it refined, artisan, or masterwork further increases capacity
-- The Merchant class has significantly increased inventory capacity from the beginning
-- And the Hauler trait increases your inventory capacity passively
-
-*** Liquids
-- Vial, Flask, Mug, Waterskin..
-
-*** Party
-I may be dreaming but were there no saddle-bags in that old version? Can my pet
-and merc help me carry things? So much to determine yet. I should probably look
-into simply equipping my new merc first.
+- zapped the mirrored half because confusing
+- i copied the spreadsheet, completed with the aid of the good people on discord.
 
 * Quests
 You can figure these out by your self, don't sweat them. If there's trouble you
@@ -1613,7 +1962,21 @@ services.
 - Fire Pit
 
 *** Smuggler
-I wish I knew
+Insight Good+, Charm Average:
+#+begin_example
+"You give 27 Crystal Ingots to Cheeky Smuggler. 
+..A Cheeky Smuggler nods and casually places 13 Iron Ingots on the ground."
+#+end_example
+Insight Good+, Charm Good+:
+#+begin_example
+"You give 27 Crystal Ingots to Cheeky Smuggler. 
+..A Cheeky Smuggler nods and casually places 13 Iron Ingots on the ground."
+#+end_example
+
+Iron and Crystal are both uncommon. He gave back half of the same rarity,
+rounded down, Charm doesnt matter to him it seems, would have seen it round
+differently..
+
 *** Buildings & Staff
 - transcribed from Relica by pug
 - reminder, you only *need* the Warehouse at the start.
@@ -1767,12 +2130,26 @@ of his more sensible items. neat!
 
 - I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 ** Location List
-- special location are *often* adjecent (direct or very near) to quest sites so
-  you can just do quests and you be guaranteed to find enough fascinating places
-  of interest closeby to keep you busy, interested and making great profits!
+Due to the presence of rift-energies in the land, its important that you
+bookmark locations your're engaged with. Leaving them unobserved will not be
+enough to keep them from drifting away from where you thought they were.
+
+The attention bound by personal and quest bookmarks appears to attract these
+drifters while the content of the world around you reorganizes itself when you
+sleep. None of the citizens in your world, except perhaps elder and nobles would
+appear to be aware of this.
+
+Practically this means that special location like the ones listed here can
+*often* be found in areas adjecent to or in the immediate vicinity of the sites
+you have bookmarked. Settlements with their histories and many minds appear less
+volatile.
+
+All said, a good observer will often find fascinating places, as if by accident,
+when they wake up after resting (well sheltered one hopes) in the woods!
 
 - inital text stolen, probably from the outdated wiki
-- the incompleteness marks my ignorance
+- ty discord denizens for your insights and feedback!
+
 *** The Burning House
 *Danger Will Robinson*
 
@@ -1872,6 +2249,19 @@ to light the way ahead and /mark the ground to not get lost.
   maybe once you have rep that changes.
 - offer 3+ random pieces of furniture
 - its probably where you'll find your first benches
+*** The Farm
+A real *<Gem>* from Discord!
+
+"It was a random encounter, there was 1 small building, 2 commoners, and 1 farmer
+NPC. The farmer NPC only gave quests to collect and return 2-3 crops (items)
+from around the map, rewarding a tool chest or small check for each completed
+quest.
+
+I could repeat these indefinitely, and after a while, the chests became refined,
+and then artisan. The artisan small chests gave artisan items, which I mostly
+salvaged, giving me runic shards.  Basically, the farmer is a safe and infinite
+(albeit a little tedious) source of runic shards."
+
 *** Fortress
 - safe to salvage the doors for 6? ot 8? iron until you have picked a faction
 - this is where you donate medals in exchange for reputation and access to traits
@@ -1909,15 +2299,21 @@ They are a challenge for any type of character, so being prepared is very import
 
 *** Labyrinth
 
-- Suposedly safe and super high rewards
-- Dont go exploring them in the dead of night without a light!
+Dont go exploring them in the dead of night without a [[Lights][light]]!
 
-Here's a thought..
+Safe and super high rewards and likely to confuse the hell out out of you for
+longer than you might have patience for. Be prepared for {Masterwork} items and
+other items of awe .. in 90..120 minutes.
 
+These scribbles might help you to mark up the laby while you're doing so that
+you can leave and come back without loosing the place you were last exploring!
+
+|---------------------|
 | setkey 1 mark red   |
 | setkey 2 mark green |
 | setkey 3 mark blue  |
 | setkey 4 clearmark  |
+|---------------------|
 
 - There is a labyrinth, i go in
 - at a junction, i mark
@@ -1964,13 +2360,19 @@ statues is probably in disrepair.
 *** Summoning Circle
 - Rift beasts
 - Maybe take 3 CRPs to a Summoning Circle?
+*** Trader
+Also another random encounter is a trader.
+- Though AFAIK no one actually knows what to do with them.
 ** Buffy
 *** Arcane Obelisk
 Obelisk building let's you upgrade spells
 
-- Costly upgrades for spells you learned from tombs
-- Might be cheaper to hunt for [[Ruins][ruinous ruins]] since they are the only place i've
-  ever found obelisk shards which do the spell upgrades for free
+- Costly upgrades for spells you've learned.
+- More expensive than unlocking the one in Relica.
+- Cheapest and most thrilling to hunt for [[Ruins][ruinous ruins]] since you'll likely
+  alway find an obelisk shard there that's just large enough to upgrades one
+  spell for free. Just be clear about what you're getting into and read the
+  notes for the [[Location List][Location List]] to tweak the [[Difficulty][Difficulty]].
 
 *** Masterwork forge
 - i remember hunting for these in the nightmare versions of 2019.
@@ -2340,10 +2742,7 @@ Basically after using the "Enrich Plant" skill of the botanist on trees or
 bushes will turn them into an ally plant baby. An allied plan has a total of 4
 stages.
 
-Plant baby
-Plant kid
-Plant beast
-Plant behemoth
+- Plant baby, Plant kid, Plant beast, Plant behemoth
 
 As you may have read earlier plant allies can be evolved by being hand fed
 anything that is edible. You will need a total of 55 food to max out the
@@ -2356,31 +2755,16 @@ variants the farther we go, for now I will show the stats of an amateur ones
 below.
 
 Number of how many you have to feed before evolving along with stats and skills
-Plant baby	5
-Str-average
-Fin-average
-Res-average
-Ins-average
-Cha-average
-No skills available
 
-
-Plant kid	15
-Str-above average
-Fin-above average
-Res-above average
-Ins-above average
-Cha-above average
-No skills available
-
-
-Plant beast	35
-Str-good
-Fin-good
-Res-good
-Ins-good
-Cha-good
-Thorn volley
+|----------+----------+---------------+--------------|
+| Plant    | Feedings | Stats         | Skills       |
+|----------+----------+---------------+--------------|
+| Baby     |        5 | average       | None         |
+| Kid      |       15 | above average | None         |
+| Beast    |       35 | good          | Thorn volley |
+| Behemoth |        ? | ?             | ?            |
+| Beasts   |        ? | ?             | ?            |
+|----------+----------+---------------+--------------|
 
 Plant Behemoth	max	Will depend on what kind of behemoth you make
 Will also depend on what kind you make
@@ -2391,12 +2775,9 @@ chest reward when you get to Relica. The stats will go up as you make plant
 allies when you are farther Relica, and also another good thing is it will not
 cost you anything other than some few seeds and berries here and there.
 
-I am not finished with this blog yet since I myself have not seen everything the
-behemoths have to offer! Sorry if I have some grammatical errors and other
-things since English is not my mother tongue. I'm sure there are other people
-who knows more than me so if you guys have some spare time you can add your own
-knowledge here, I only saw 3 behemoths so far so I cannot post everything for
-behemoths yet
+ and their type (which determines attunement,
+ spells, and stats) is based on what you feed them.
+ Fruit = tropical, for one example.
 
 
 
@@ -2443,7 +2824,7 @@ its potency level. Casting Blood Pact on target while affected by Sigil of Blood
 will transfer the existing sigil to the target. Only one Sigil of Blood may be
 active at a time.
 
-Bloodweavers have Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 2 Spell Slots.
+Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 2 Spell Slots.
 
 Points required: 10,000
 *** POLITICIAN
@@ -2512,7 +2893,8 @@ target to the ground, they will instantly steal and don any headwear the target
 had. Haberdashers will also fly into a rage if a hat they possess is destroyed.
 
 Average Health, Good Charisma, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
-20,000
+
+Points required: 20,000
 *** ENGINEER
 :PROPERTIES:
 :ID:       8f9cd97f-409f-4647-aa3b-58caae096b77
@@ -2524,7 +2906,8 @@ usable once triggered. Engineers may also step on active traps they can see
 without triggering them.
 
 Average Health, Good Intelligence, Above Average Dexterity, Below Average Charisma, and 1 Spell Slot.
-25,000
+
+Points required: 25,000
 *** KUNG FU MASTER
 :PROPERTIES:
 :ID:       5c76d473-3bc6-49eb-a9cd-48e40befeacc
@@ -4670,3 +5053,4 @@ claims I could make to keep you from contributing to the game.
 I'm reachable through the FARA discord for the time being and will gladly
 incorporate even your smallest observations, insights and corrections for others
 to enjoy!
+
