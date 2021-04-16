@@ -120,12 +120,12 @@ everything else. Here's the scoop on what works for me.
 
 *** InShelter
 
-I build a 7x7 house around the elder and the spawn point, use */dropall* where i
-land and to be right next to a bed, a brazier and the door for the most restful
-healing sleep in every settlement I open.
+I build a 7x7 house around the elder and the spawn point, so i'm close to my
+piles, quests and right next to a bed, a brazier and the door for the most
+restful healing sleep in every settlement I open.
 
 *THIS* is incredibly useful with local waypoints and I get a lot of mileage out
-of it! The base layout takes 23 planks, 4 braziers and a door (2
+of it! The base layout takes 23 planks, 4 braziers (8 rocks) and a door (2
 wooden blocks)
 
 In Relica I use this arrangement:
@@ -137,9 +137,12 @@ In Relica I use this arrangement:
 | Brazier | Bed         | -     | Storage | Brazier |
 
 - A workbench to the left of the spawn
-- Meat with the Seeds
+- Clothy has all the animal parts as well
 - In the Storage: Alternate items of awesomeness, a spare sack.
 - Under the Storage: Ammunition, Lockpicks, Ropes, Medals, Shards
+
+I have a /setkey for "/drop 8" and find using that and moving around quite effective
+to get the excess out of my inventory most of the time. 
 
 - Runy has a storage for named runes and is a dump for elemental runes
 - The bed still needs a blanket and a pillow.
@@ -156,6 +159,14 @@ Everywhere else kinda looks like this
 - Buffy for looted Meals and Mixtures
 - 2Relica holds everything that wants to drift back to Relica.
 
+p.s. I suggest giving the elder as many sticks as he's willing to hold,
+following that up with ligher things such as rings, folded notes etc so that
+he's unable to take things you might otherwise accidently loose to him. load up
+everyone you escort to relica in the same way since you'll have them living with
+you for a while before one day they'll have moved themselves out of your
+shack. Please don't fight in there, the last thing you want it to burn the place
+down.
+
 **** Feedback on the home office
 This can be condensed quite a bit
 I'd say first of all that it should be simple things
@@ -166,13 +177,6 @@ That condenses Woody + Clothy + Metally and Buffy + Booze + Fruits + Seeds + Flo
 
 Second of all, the brazier layout is bad (I think) because last I checked
 brazier light is blocked by item piles (which sucks)
-
-<quoth my thoughts on layout>
-There's a LOT of problems here
-the slow interaction with the storage bins
-
-
-
 
 *** Warehousing
 
@@ -512,7 +516,7 @@ though.
 
 Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
 it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
-and have managed to recruit on of these marvels.
+and have managed to recruit one of these marvels.
 
 Normal people however can only talk to other people, and it's only the Mercs 
 you've recruited into your party that will listen to and obey you.
@@ -872,7 +876,7 @@ who's ultimate intentions you can't ever be sure about anyway.
 Key:
 |-------------+--------------------------------------|
 | Avg+ / Avg- | Above/Below Average in that Stat     |
-| "Normal"    | Totally regular average in all Stats |
+| "Normal"    | Totally regular guy, average in all Stats |
 |-------------+--------------------------------------|
 
 See also Class-traits info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check
@@ -943,13 +947,9 @@ for a menu showing you what they teach.
 |----------------+-----------------------+--------+------------------------------------------------------------------|
 
 *** Trait Manuals
-Now, if only we had a list of those damn manuals! You could be planning instead
-of risking [[Blights][Anihilation]] by actually playing the game!
 
-| Manual of |
-|-----------|
-| Fishing   |
-| ...       |
+There are manuals for all Faction specific traits waiting to be found ingame.
+I suppose the higher ranked manuals are less frequent.
 
 
 * About Them
@@ -982,29 +982,45 @@ find along the way in this table.
 | Excellent     |     8 | Veteran       | Mature  |          |
 | Excellent+    |    10 |               |         | Behemoth |
 |---------------+-------+---------------+---------+----------|
-| Legendary     |    12 |               | Stout   |          |
-| Legendary+    |    16 | Legendary?    |         | Beasts   |
-| GODLIKE       |    20 |               |         |          |
+| Legendary     |    12 | Legendary     | Stout   |          |
+| Legendary+    |    16 | Mythical      |         | Beasts   |
+| GODLIKE       |    20 | Ascended      |         |          |
 |---------------+-------+---------------+---------+----------|
 
+Feedback:
+For NPC skill tiers, I've seen mercenaries with "mythical" and "ascended"
+Not sure where that would fit in with legendary
+- added the words, the guessing game continues.
 
 
 ** Factions
 Don’t enter castles of the factions that don’t like you.
 Fortresses are ok, just not castles
 
-When you get enough faction reputation by, for example bribing one of their
-officers with 10..100 medals, you get access to their theme of traits, which
-give some very good bonuses.
+When you rank up in a faction, by for example bribing one of their officers with
+10..100 medals, you get access to their traits, which give some very good
+bonuses.
 
 It is technically possible to get traits from multiple factions, but it requires
-some grind as each medal given to a faction will decrease your reputation with
-the other two. You can also try to do some Reputation juggling by getting the
-Diplomat trait and/or being the Politician class to max rep on more than one
-faction at a time
+some grinding as each medal given to a faction will decrease your reputation
+with the other two. You can also try to do some Reputation juggling by getting
+the Diplomat trait and/or being the Politician class to obtain maximum rep with
+more than one faction at a time.
 
-Check Faction trait lists through the */factions* (aka "*F*") window by clicking on the
-faction to get a menu to show you the available traits and their cost in shards.
+
+|---------------+---------+------|
+| Faction Ranks | Traits  | Cost |
+|---------------+---------+------|
+| Recruit       | 3 Minor |   10 |
+| Squire        | 5 Minor |   15 |
+| Knight        | 2 Minor |   20 |
+| Champion      | 2 Minor |   25 |
+| Commander     | 2 Minor |   30 |
+| Legend        | 1 Major |   35 |
+|---------------+---------+------|
+
+Check the Faction trait lists through the */factions* window, click a faction
+and choose to see the list of traits and their cost in shards from the menu.
 
 *** Jade circle: Social/stealth
 Is a really good faction for stealthy characters
@@ -1071,11 +1087,11 @@ the local madman.)
 |------------------+----------------------------------+--------|
 | Curio            | Effect                           | Rarity |
 |------------------+----------------------------------+--------|
-| Athletic Band    |                                  |        |
+| Athletic Band    | Increase Jump distance           |        |
 | Balanced Weight  | Lessen chance to stumble (drunk) |        |
 | Hardened Tack    | Increase critial damage          |        |
 | Hidden Pocket    | +5 Inventory capacity            |        |
-| Thick Padding    | Runic effects amplified          |        |
+| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
 |------------------+----------------------------------+--------|
 | Hilt Chain       | Thrown Item returns              |        |
 | Metalic Bullseye | Increase throwing distance       |        |
@@ -1127,25 +1143,9 @@ I suppose Campfires and Firepits differ in cooking speed/capacity.
 - Campfires are destroyed by immolation more quickly
 
 *** Ingredients
-I don't feel the urge to cook all my stuff right now. Perhaps you could help out
-here with some insights from your own notes?
 
 - Whats missing?
 - Is someone tracking the biomes for these things?
-
-**** Alcohol
-..is flammable.
-|-----------+--------+------+------------|
-| Bottle of | Meal   | Buff | Attribute  |
-|-----------+--------+------+------------|
-| [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]]   |        |      |            |
-| [[https://en.wikipedia.com/wiki/Gin][Gin]]       |        |      |            |
-| [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]] |        |      |            |
-| [[https://en.wikipedia.com/wiki/Rum][Rum]]       | Hearty | ++   | Resilience |
-| [[https://en.wikipedia.com/wiki/Vodka][Vodka]]     |        |      |            |
-| [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]]   |        |      |            |
-| [[https://en.wikipedia.com/wiki/Wine][Wine]]      |        |      |            |
-|-----------+--------+------+------------|
 
 **** Drinkable
 Strange when you state the obvious, isn't it?
@@ -1154,18 +1154,29 @@ Strange when you state the obvious, isn't it?
 |-------+-------------------------------|
 | [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code! |
 | [[https://en.wikipedia.com/wiki/Milk][Milk]]  | ..think about it              |
-| [[https://en.wikipedia.com/wiki/Venom][Venom]] | who's been poisoning you?     |
+| [[https://en.wikipedia.com/wiki/Venom][Venom]] | Who's been poisoning you?     |
 |-------+-------------------------------|
 
-**** Meat
-|----------+---------+------+-----------|
-| Meat     | Meal    | Buff | Attribute |
-|----------+---------+------+-----------|
-| Raw Meat | Complex | ++   | Insight   |
-|----------+---------+------+-----------|
+**** Alcohol
+..is flammable and becomes a *Hearty Meal* boosting *++Resilience* when you cook it,
+makes total sense to me.
 
-- Venom Sacks; not sure that they are cookable.
+| Bottle of | [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]], [[https://en.wikipedia.com/wiki/Gin][Gin]], [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]], [[https://en.wikipedia.com/wiki/Rum][Rum]], [[https://en.wikipedia.com/wiki/Vodka][Vodka]], [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]], [[https://en.wikipedia.com/wiki/Wine][Wine]] |
+
+
+**** Animal Products
+|----------+---------+------+-----------+-----|
+| Item     | Meal    | Buff | Attribute |     |
+|----------+---------+------+-----------+-----|
+| Raw Meat | Complex | ++   | Insight   | 1.0 |
+| Eggs     |         |      |           | 0.1 |
+| Honey    |         |      |           | 0.1 |
+|----------+---------+------+-----------+-----|
+
+- Venom Sacks; not sure if they are cookable.
 - Salted Meat exists as well, not sure that its cookable.
+
+Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road
 
 **** Tree-Seeds
 Would love biome info on all this stuff!
@@ -1317,16 +1328,20 @@ Herbs, Spices
 |------------------+------+------+-----------|
 *** When Elementally Flamed (++)
 By the power of magic..
-|---------+--------|
-| Element | Meal   |
-|---------+--------|
-| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Lite?  |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich   |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    | Spicy  |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender |
-| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   |        |
-| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    |  Sinister?     |
-|---------+--------|
+|---------+---------|
+| Element | Meal    |
+|---------+---------|
+| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Light   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich    |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    | Spicy   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender  |
+| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   | Vibrant |
+| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    | Heavy   |
+|---------+---------|
+
+if you infuse multiple runes into a firepit you'll get the wonderful combo names
+used for [[Elemental][Elemental Combos]] applied to your foodstuffs, with the last infused element
+determining the elemental attunement your food will provide.
 
 *** Fireworks!
 
@@ -1444,6 +1459,17 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 |------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 | Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
 |------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+** Qualities
+|--------------+------------+-------------------------------------|
+| Quality      | Durability | Note                                |
+|--------------+------------+-------------------------------------|
+| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
+| (Refined)    | 2x         | Material/stat bonus %+              |
+| <Artisan>    | 3x?        | Material/stat bonus %++             |
+| {Masterwork} | 4x?        | Material/stat bonus %+++            |
+| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
+|--------------+------------+-------------------------------------|
+
 * About Combat
 ** Weaponry
 
@@ -1582,6 +1608,7 @@ Additionally,
 | Blessings  | Amplify       | Ups damage output of spell's element               |
 | Curses     | Amplify       | Ups target vulnerability to spell's element        |
 |------------+---------------+----------------------------------------------------|
+| Auras      | Buff Area     | add elemental component to target
 | Fonts      | Buff Area     | add elemental component to attacks of those near   |
 |------------+---------------+----------------------------------------------------|
 | Chains     | Single Status | Immobilize                                         |
@@ -1868,6 +1895,7 @@ The exact word used might vary between the spells and gear, for example:
 | Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
 | Abyssal    | Axe of Depth      | Abyssal Ward of Fury |         |
 | Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
+| Moon       | Axe of Moonlight  | Moon Ward of Fury    | "Lunar" |
 |------------+-------------------+----------------------+---------|
 
 (orig)
@@ -1886,45 +1914,16 @@ Here are some really dumb observations about quests:
 
 There are more types tied to specific locations. I need to add more info here.
 
-** Suicide Quests
-(excerpt from a letter by future pug.)
+** Beastslayer you!
+Listen man, I know you want to make a name for yourself, impress the Elder and
+all that; Don't deny it, we've all been there. But let me give me you a hint
+about this thing you dont want to ask about ... Those tracks you're looking for,
+they have the beast's name in it and 9 out of ten times you find them in one of
+the 8 directions just a single step away from the settlement. That other time,
+you'll to take two steps to find them. 
 
-When you get to a new settlement a cheeky elder there is likely to invite you,
-the stranger, to suicide by quest.
-
-Accept then drop any kill-a-champion and other suspicious sounding quests after
-visiting their locations without entering. Turn their game against them by going
-there to scout for landmarks of interrest in the general area. Enter a few
-random tiles nearby to look for 'who knows what' that spawned there!
-
-Wait with the scary quests until you have legendary stats and artisan equipment,
-or something close to that. Or wait until you are already thriving at a place
-even further from Relica than where you first got the suicide invitations.
-
-If you rush yourself, [[Blights][you'll die]]. Farawella!
-
-** Missing Kid Quests
-(from the notes of earlier pug.)
-
-Stupid Kids! First you can never find them, then you do find one, and when you
-bring them home in the middle of the night they want to play hide and seek and
-you have to find them in 15 minutes or so. Totally Bogus! aaaargh.
-
-Yet again you need to build a shelter. And you need search. At least without
-either I've not found a single kid yet. Then you need to rest until morning so
-you don't need to make light to find them again whence back in town and they
-start playing their games. For that you need to have [[Trick out your map!][local waypoints]] by which to
-move yourself through the settlement without going nuts. Do you have those?
-
-And then you learn about how to make Burlap Dolls. Or perhaps they have that
-very last exclusive item elite tier BP you had forgotten you wanted. I might
-never learn what they are about cause I can't find the buggers!
-
-Sometimes I find tracks leading to unknown dens instead of children. Are these
-really just another type of innvitation to suicide myself?  Do i really need to
-press "s" so that I */search* every square inch of the site? Or should I stop
-being of attracting attention and just run around the location and */shout come
-here*? Probably.
+See, I saw you pondering. Yep, that's why you couldn't find that monster the
+other day. Now be careful reading the tracks!
 
 ** Desperate Times
 You know that times are desperate when almost overyone, no, make that everyone
@@ -1965,6 +1964,45 @@ services.
 - tbd if escortees tolerate detours and or 'excessive' camping out.
 - apparently they are a source of infinite custom/random weapons and gear
   - atm the wh crucible seems like a good place to keep those.
+** Missing Kid Quests
+(from the notes of earlier pug.)
+
+Stupid Kids! First you can never find them, then you do find one, and when you
+bring them home in the middle of the night they want to play hide and seek and
+you have to find them in 15 minutes or so. Totally Bogus! aaaargh.
+
+Yet again you need to build a shelter. And you need search. At least without
+either I've not found a single kid yet. Then you need to rest until morning so
+you don't need to make light to find them again whence back in town and they
+start playing their games. For that you need to have [[Trick out your map!][local waypoints]] by which to
+move yourself through the settlement without going nuts. Do you have those?
+
+And then you learn about how to make Burlap Dolls. Or perhaps they have that
+very last exclusive item elite tier BP you had forgotten you wanted. I might
+never learn what they are about cause I can't find the buggers!
+
+Sometimes I find tracks leading to unknown dens instead of children. Are these
+really just another type of innvitation to suicide myself?  Do i really need to
+press "s" so that I */search* every square inch of the site? Or should I stop
+being of attracting attention and just run around the location and */shout come
+here*? Probably.
+
+** Suicide Quests
+(excerpt from a letter by future pug.)
+
+When you get to a new settlement a cheeky elder there is likely to invite you,
+the stranger, to suicide by quest.
+
+Accept then drop any kill-a-champion and other suspicious sounding quests after
+visiting their locations without entering. Turn their game against them by going
+there to scout for landmarks of interrest in the general area. Enter a few
+random tiles nearby to look for 'who knows what' that spawned there!
+
+Wait with the scary quests until you have legendary stats and artisan equipment,
+or something close to that. Or wait until you are already thriving at a place
+even further from Relica than where you first got the suicide invitations.
+
+If you rush yourself, [[Blights][you'll die]]. Farawella!
 
 
 * Locations
@@ -2041,7 +2079,7 @@ Yours will be similar I'd think. So.. Oh!
 - 5 glass mugs
 
 ***** Benefit
-- A Gambler that gives you 25% odd on scoring..
+- A Gambler that gives you 25% odds on scoring..
   - well.. so far all i got was this blue print
 - A High level merc that wouldn't even talk to me yet
 - A Well skilled merc that can hold his own
@@ -2066,14 +2104,45 @@ that offer runes for sale and who keeps the rock polished.
 - Single level upgrade obtained via Ruins become less attractice once you have
   this, but its hard to beat 'free and scary'.
 
+***** Staff
+The Arcane Researcher employed here, psychic and creative as he appears to be
+gives you following 5 options to obtain a rune of "Something" from him for a
+number of shards. These somethings could be:
+
+|--------------+------+---------------------------------------|
+| Something    | Cost |                                       |
+|--------------+------+---------------------------------------|
+| Destructive  |    3 | well, that's clear                    |
+| Protective   |    3 | i can imagine that too                |
+| Primordial   |    3 | that would have to be elemental runes |
+| Supplemental |    2 | decide what that could be later       |
+| Unknown      |    2 | <- But look at that!                   |
+|--------------+------+---------------------------------------|
+
+The first interaction I had with him was to buy something unknown of course. And
+what I got wasn't a random thing, but a rune I had never seen before! Trying again
+of course I got a very highly rated rune, the rune of spears. But I already had one
+of thos in inventory. 
+
+So I don't know. Did his psychic let him give me one kind of rune that I had never had
+before then picking something destructive randomly? I'll have to solicit and wait for
+feedback to get clear on that, or try it again in the next game. Respect!
+
+
 ***** Prices
 
 ****** Spell upgrades
-| shards | upgrade to |
-|      5 | improved   |
-|        |            |
-|        | superior   |
-|     20 | flawless   |
+|--------+------------|
+| Shards | upgrade to |
+|--------+------------|
+|      5 | Improved   |
+|     10 | Greater    |
+|     15 | Superior   |
+|     20 | Flawless   |
+|--------+------------|
+|     50 | new > max  |
+|--------+------------|
+
 
 ****** Custom Runes
 
@@ -2162,9 +2231,35 @@ volatile.
 All said, a good observer will often find fascinating places, as if by accident,
 when they wake up after resting (well sheltered one hopes) in the woods!
 
+tl;dr? Peek into the 8 immediate neighbors of the bookmarks you're given and
+possibly walk through the 16 surrounding squares to see what's out there!
+
+Indoor locations such as Castles and Fortresses offer free and secure overnight
+lodgings.
+
+- need more data! and stories from others!
+
 - inital text stolen, probably from the outdated wiki
 - ty discord denizens for your insights and feedback!
 
+*** Abandoned Shack
+Single Building in the woods, no hostiles, tool-chest .. and a single powerful trap.
+- need more data
+*** Ambushes
+Going somewhere new you spy a Big Chest out in the open.. just a dash away and
+noone's here.. you search, and seing nothing you dash.. into your doom.
+
+Careful with the greed man, if it looks to good to be true, it is.
+
+You've been warned, not that it matters. Good luck getting out ouf there!
+
+Note: I've had a BigChest appear out of the blue the moment i found my first
+young cat while on a woodcutting trip in the nearby woods. I wonder if that was
+some kind of nod to potential cat-lovers, but i definitely made sure to search
+on almost every step on the way to pick up that loot.
+
+There were no hostiles on the map, and the cat and cow seem to have become fast
+friends down at the stables. (file under 'ambushed by cats')
 *** The Burning House
 *Danger Will Robinson*
 
@@ -2174,53 +2269,21 @@ didn't find any until I had complete all the buildings in Relica and it may be
 ok to save your paranoia until then.
 
 Extrapolating from my random encouter I suspect the imps were not really
-malicious, simply driven to madness by the music made by the guy living in the
-woods. I mean, why would he live there with his huge piano if people had
-appreciated his music?
+malicious, simply driven to madness by the guy making horrible music. I mean,
+wouldn't he live in town with his <random instrument> if people appreciated his
+music?
+
 
 I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
-of the map to get him looked at in town.
+of the map to get him looked after.
+*** Campsite
+Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
+other. Some are trying to leave their prior associates behind and change their
+ways, others are just looking to hole up until the heat passes down. Too bad for
+them that they see you as the threat to their lives that you are. I mean, you
+would have talked to them first if they hadn't gone all hostile on you, right?
 
-*** Caravan
-(old info)
-
-These travelers seem to have a traitor between them.
-- Talk to them to figure out who it is!
-
-As you traverse the world of FARA you might come upon caravans along your way. A
-caravan consist of 5 travellers and talking to any of them you'll find out that
-they have recently been attacked. They suspect one of their own, and this gives
-you the chance to play detective.
-
-Each person will list how long they've been with the group, their personal
-reason for travelling, as well as a good and bad thing to do at their
-destination. These are the clues to identify the odd one out.
-
-As a reward for solving the mystery you gain the following:
-
-- 1x big chest,
-- 1x artisan tool kit,
-- 2x randomized tools,
-- 1x iron shiv,
-- 1x lockpick
-
-**** Tips for solving the mystery
-Typically the activities mentioned fall into the following categories [study],
-[trade], [relaxing], [family], and [entertainment]. You will need to talk to all
-the travellers and figure out which one they report as the absolute worst to do
-at the destination. If two activities are tied, one of them is unlikely to be
-used as an alibi by anyone. Confronting and accusing the traveller who says
-they're going there for this purpose will unlock a fight. The culprit will turn
-hostile and try to kill you. Two ambushers will show up and assault the culprit
-first, and you second. After winning the fight you can peacefully collect the
-rewards.
-
-At the type of writing, it is unclear if telling on the culprit will just fail
-the event.
-
-Once the event is over all travellers that have not been accused (you could
-accuse the wrong one and fail the event) will offer a quest, similar to
-commoners in towns.
+Poor Sobs, usually don't even have furniture where they sleep.
 
 *** Castle
 A noble of one of the factions lives inside here, protected by many guards and
@@ -2228,7 +2291,7 @@ assassins. You can /interact with the noble and complete missions to earn you
 reputation with the faction they belong to. Rumour has it there might be
 valuables if you should dare fight the whole castle.
 
-- so far its been safe to salvage the throne for 1 iron.
+- So far its been safe to salvage the throne for 1 iron.
 - Don’t enter castles of the factions that don’t like you
   - seems like one wants to turn off the lights in there, perhaps even
     dismanteling the braziers and go in with dark-vision companions before
@@ -2258,13 +2321,22 @@ to light the way ahead and /mark the ground to not get lost.
 - You can peek in relative safety, remember though what killed the cat!
 - Good help is hard to find, so don't judge the boss by his minions; 
 
-*** Encampments
-- Faction camps
+I used to do /mark in dungeons before we had a local map, and before local
+waypoints were a thing It was very very easy to get lost in there, and no way to
+quickly exit
+
+*** Encampment
+- single building
+*** Unknown Camp
+- Faction camps with
+  - 5ish assorted opponents of the same level in the open
+  - 3ish leader types, same lvl in a house
+  - wanted postet, big-chest
 - clearing them seems to not hurt your rep with anyone.
   maybe once you have rep that changes.
-- offer 3+ random pieces of furniture
+- 5ish buildings offer 3+ random pieces of furniture
 - its probably where you'll find your first benches
-*** The Farm
+*** The Farmer
 A real *<Gem>* from Discord!
 
 "It was a random encounter, there was 1 small building, 2 commoners, and 1 farmer
@@ -2346,12 +2418,19 @@ to say back when books were a thing.. "left as an exercise for the reader."
 
 -- the Mintaur
 
+
+Mantecarl chimes in with this incredible paint saving measure:
+- I've been doing this thing in labyrinths were I set a local waypoint in all 4
+  clearings, so that I can get to them if I ever ran into a corridor with no
+  exits -- saves a lot of time!
+
 *** Ruins
 frequent and ruinous but doable if you manage to dash to the egde on entry and place the
 occasional extra wall or building to beef up your position against the inevitable arrival
 of friends to stealthy groups of casters you find here.
 
 - stealth-clustered magic attackers and friends all appear to use the same element!
+- bring some [[When Elementally Flamed (++)][elemental foods]] for yourself and your team, and of course a beverage!
 - getting the Big Chest from the local mini boss doesnt mean you're safe!
 - move to the edge if dashing to the next blg will leave you exhausted!
 - use stealth, enter, drop building, move to cover!
@@ -2378,16 +2457,85 @@ statues is probably in disrepair.
 *** Trader
 Also another random encounter is a trader.
 - Though AFAIK no one actually knows what to do with them.
+
+TRADER... He said he had nothing to trade, so i gave him some loot, left the map
+to get some more, came back, he was gone .. but had left me a BigChest.  Please
+try that if you see one and confirm!
+*** Travelers/Caravan
+(old info)
+
+These travelers seem to have a traitor between them.
+- Talk to them to figure out who it is!
+
+As you traverse the world of FARA you might come upon caravans along your way. A
+caravan consist of 5 travellers and talking to any of them you'll find out that
+they have recently been attacked. They suspect one of their own, and this gives
+you the chance to play detective.
+
+Each person will list how long they've been with the group, their personal
+reason for travelling, as well as a good and bad thing to do at their
+destination. These are the clues to identify the odd one out.
+
+As a reward for solving the mystery you gain the following:
+
+- 1x big chest,
+- 1x artisan tool kit,
+- 2x randomized tools,
+- 1x iron shiv,
+- 1x lockpick
+
+**** Tips for solving the mystery
+Typically the activities mentioned fall into the following categories [study],
+[trade], [relaxing], [family], and [entertainment]. You will need to talk to all
+the travellers and figure out which one they report as the absolute worst to do
+at the destination. If two activities are tied, one of them is unlikely to be
+used as an alibi by anyone. Confronting and accusing the traveller who says
+they're going there for this purpose will unlock a fight. The culprit will turn
+hostile and try to kill you. Two ambushers will show up and assault the culprit
+first, and you second. After winning the fight you can peacefully collect the
+rewards.
+
+At the type of writing, it is unclear if telling on the culprit will just fail
+the event.
+
+Once the event is over all travellers that have not been accused (you could
+accuse the wrong one and fail the event) will offer a quest, similar to
+commoners in towns.
+
+**** Dude!
+
+I wound up accusing someone based on nothing more than them saying they
+wanted peace and quiet and were going to a place for the entertainment.
+
+Mayhem ensued, loot dropped and in the end only the guy sitting the furthest
+away from the action survived the assault by the accused's pals. three dead
+to solve a robbery. wth! 
+
+now the shivering sole survivor and inheritor of all the trashy loot i can't
+haul away want to make funeral music with a clay triangle. a clay triangle!
+one moment while i get him one..
+
+wait! one body is missing. ah! one more survivor after all. he freaked out and
+ran away.  good for him.
+
+*** Unconscious Adventurer
+- some are fakers,
+- the others..
 ** Buffy
 *** Arcane Obelisk
+
+"Powerful Magic"
+
 Obelisk building let's you upgrade spells
 
 - Costly upgrades for spells you've learned.
-- More expensive than unlocking the one in Relica.
-- Cheapest and most thrilling to hunt for [[Ruins][ruinous ruins]] since you'll likely
-  alway find an obelisk shard there that's just large enough to upgrades one
-  spell for free. Just be clear about what you're getting into and read the
-  notes for the [[Location List][Location List]] to tweak the [[Difficulty][Difficulty]].
+- Costs the same as if you had unlocked an Obelisk in your settlement!
+- The cheapest and most thrilling way to upgrade your spells is to hunt for
+  [[Ruins][ruinous ruins]] since you'll always? find an obelisk shard among the loot there.
+  A shards is just large enough power a single upgrades so perhaps save it for
+  the last upgrade or two to save 20 or 35 shard, paying for it with the risk
+  you're taking on. Just be clear about what you're getting into and read the
+  notes for the [[Location List][Location List]] to tweak the ruin's [[Difficulty][Difficulty]].
 
 *** Masterwork forge
 - i remember hunting for these in the nightmare versions of 2019.
@@ -2405,8 +2553,8 @@ the nearest settlement.
 *** A shrouded figure
 Just that. Empty woods, Orange Square. Hollow eyes look at me and the figure
 vanishes before I can inspect them. Spooky. Is he the guy taking all the kids I
-can't find? Was he in one of the graves I dug? What did I stumble on? I just
-needed a wooden log! Should I dig there? /pug wonders on
+can't find? Was he in one of the graves I dug up? What did I stumble on? I just
+needed a wooden log! Should I dig there? /pug wonders on, then, wait! ..
 
 Awakening as from a dream, he recalls the moment his memories began. There he
 had seen that figure loitering over one of the bandits that keep coming after
@@ -5040,7 +5188,7 @@ symlinking that path to a place thats backed-up once a day, not hourly.
 
 - the game plays well under X
 
- and since the only time it really need the disk is
+ and since the only time it really needs the disk is
   for saving, you can run it from a NAS or server without troubles.
 
  /uianimation and screen-shaking should be disabled under X
