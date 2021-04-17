@@ -9,6 +9,8 @@
 # +INFOJS_OPT: view:info toc:t tdepth:1 ltoc:nil sdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="lib/tufte.css" type="text/css" />
 
+[[2021.04.16 0.0.16.5 Patch Notes][2021.04.16 0.0.16.5 Patch Notes]]
+
 * Intro
 
 I love the depth and variety in this game. The encounters can be short and
@@ -675,10 +677,10 @@ what abilities/skills they have. Casting Enrich Plant while already having a
 plant familiar will kill the older familiar.
 
 Basically after using the "Enrich Plant" skill of the botanist on trees or
-bushes will turn them into an ally plant baby. An allied plan has a total of 4
+bushes will turn them into an ally plant baby. An allied plant has a total of 4
 stages.
 
-- Plant baby, Plant kid, Plant beast, Plant behemoth
+- Baby, Kid, Beast, Behemoth
 
 As you may have read earlier plant allies can be evolved by being hand fed
 anything that is edible. You will need a total of 55 food to max out the
@@ -701,9 +703,6 @@ Number of how many you have to feed before evolving along with stats and skills
 | Behemoth |        ? | ?             | ?            |
 | Beasts   |        ? | ?             | ?            |
 |----------+----------+---------------+--------------|
-
-Plant Behemoth	max	Will depend on what kind of behemoth you make
-Will also depend on what kind you make
 
 This may help you in the early run if you can get them into a behemoth fast
 since you may also get a mercenary as another companion with your first battle
@@ -2179,6 +2178,16 @@ rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
 *** Trader
 A bug was fixed. TBD.
+*** Thief
+You forgot to close the door one night and now there's that shifty looking
+fellow standing right next to you, decked out in your newly upgraded gear,
+asking for assistance.
+
+Hmm.. somehow you learn that 
+- crafting takes about 105 moments.
+- unconscious people don't drown in wells.
+- its morning, daylight. you're going to loose rep or your gear no matter what
+
 ** Party
 - Press "*p*" for party details. It will show you have many followers you have and
   can have. 
@@ -2744,7 +2753,7 @@ collecting the word I find along the way in this table.
 | Excellent+    |    10 | Wayward?      |             | Behemoth |
 |---------------+-------+---------------+-------------+----------|
 | Legendary     |    12 | Legendary?    | Stout       |          |
-| Legendary+    |    16 | Mythical      |             | Beasts   |
+| Legendary+    |    16 | Mythical      |             | Beasts?  |
 | GODLIKE       |    20 | Ascended      |             |          |
 |---------------+-------+---------------+-------------+----------|
 
@@ -3564,6 +3573,65 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 
 
 *** Alpha 16 Mar'21..
+
+**** 2021.04.16 0.0.16.5 Patch Notes
+
+- Started another pass on the scoring system. The most notable difference is
+  that activities and feats are worth more the further from Relica you are.
+- Started updating */help* with some of the recently added commands. There are
+  still quite a few missing.
+- Added some Hot New Content at varying levels of completion
+- Added a confirmation window for forgetting spells
+- Added a few new quality of life commands:
+  - */loglength (number)* which to control the number of older messages kept in
+    the game log. The default is 50, and setting a lower value could improve
+    game performance.
+  - */sortcontainer* sorts the contents of a targeted container alphabetically.
+  - */sortcontainers* sorts the contents of all containers on the map
+    alphabetically.
+  - */sorthere* sorts the contents of the tile where you stand alphabetically.
+  - */sortall* executes all of the above sort commands in addition to */sort* which
+    sorts your inventory alphabetically. It should be noted that the target list
+    will still prioritize distance over alphabetical sorting.
+  - */dropsame* which will drop all items in your inventory that have a matching
+    item on the same tile. If you are standing on an empty tile, this command
+    will do nothing. Can also be done with */ds* and */dropalike*.
+- Animals can now be tracked over water.
+- Workbenches now repair party members items in addition to your own.
+- Handing items to NPCs will now place the items in their inventories if their
+  hands are full.
+- Bumping into party members will now interrupt their action and cause them to
+  switch places with you.
+- Local waypoints now have letters which can be used to reference them in
+  commands
+- Number *keys 1-9 now execute* the corresponding entries when viewing /spells and
+  /waypoints.
+- Upon taking an item, the game will now attempt to target whatever new item is
+  at the same index instead of resetting to the first item on the Nearby Targets
+  list.
+- Clicking party members on the */party* window now brings up the same options as
+  clicking them them on the Targets list
+- Reordered some mouse meu items in order to lower the chances of accidentally
+  performing some detrimental actions
+- Fixed a bug with traders not working as intended
+- Fixed a longstanding issue with autocomplete unexpectedly inserting undesired
+  commands when typing quickly
+- Fixed an issue with minions of NPC allies not properly re-partying with the
+  NPC if the NPC was dismissed by the player
+- Fixed a bug with the */throw* command which often caused thrown items to hit the
+  wrong target
+- Fixed a crash caused by ascending staircases
+- Fixed a bug which prevented Bleeding from working as intended on dashing and
+  jumping entities
+- Fixed a bug which allowed dashing while exhausted
+- Fixed an issue with the */approach* command not keeping the same target under
+  certain circumstances
+- Fixed an issue with certain NPCs having more weapons in their inventories than
+  intended
+- Fixed a few recipes with deprecated ingredients
+- Mostly fixed the broken */borderlesstiles* command
+- Optimizations
+
 **** 2021.04.01 Patch Notes
 - The Distance Traveled stat is now based on your furthest distance traveled from Relica
 
