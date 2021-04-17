@@ -1421,7 +1421,7 @@ Makes total sense to me.
 [[https://en.wikipedia.com/wiki/Grouper][Grouper]],
 [[https://en.wikipedia.com/wiki/Sturgeon][Sturgeon]],
 [[https://en.wikipedia.com/wiki/Swordfish][Swordfish]] &
-[[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce ... Meals.
+[[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce *... Meals boosting ++*.
 
 **** Tree-Seeds
 
@@ -1475,7 +1475,7 @@ Makes total sense to me.
 [[https://en.wikipedia.com/wiki/Pineapple][Pineapple]], 
 [[https://en.wikipedia.com/wiki/Raspberry][Raspberry]], 
 [[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] &
-[[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] produce Zesty ++Finesse Meals.
+[[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] produce *Zesty ++Finesse Meals*.
 
 **** Vegetables
 
@@ -1499,7 +1499,7 @@ Makes total sense to me.
 [[https://en.wikipedia.com/wiki/Red][Red Pepper]], 
 [[https://en.wikipedia.com/wiki/Spinach][Spinach]], 
 [[https://en.wikipedia.com/wiki/Tomato][Tomato]] & 
-[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce xx ++Strength Meals.
+[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce *xx ++Strength Meals*.
 
 **** Flowers
 
@@ -2209,9 +2209,18 @@ Hmm.. somehow you learn that
 - crafting takes about 105 moments.
 - unconscious people don't drown in wells.
 - its morning, daylight. you're going to loose rep or your gear no matter what
-- /grab /choke  zesty-dish/meal, fin-gear  rob them blind.
+- /grab /choke  zesty-dish/meal, fin-gear  rob them blind all cost you faction rep!
 
-and then mustardfiend — Today at 11:18 PM
+and then /mustardfiend/ chimes in thus:
+
+#+begin_quote
+I had something similar happen to me in a past run, where I rested
+overnight at a castle. WOke up, had a bunch of good stuff swiped, and there was
+a random commoner just standing there with those very items. Tried stealing them
+back, which didn't work, and they started running away. Out of desperation, I
+yelled at them, hoping the guards would dogpile the thief. They dropped the
+items and ran off. Guards just sat there.
+#+end_quote
 
 */say thief* gets them to drop everything they stole and act embarrassed.
 
