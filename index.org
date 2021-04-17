@@ -1110,11 +1110,12 @@ You have one unchangeable class trait. This is a list of them.
 Also see the info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check [[Factions][Faction]]
 Traits through the */factions* (aka "*F*") window.
 
-There are 52 Classes with Unique Traits.
+- There are 52 Classes with Unique Traits.
+
+- Commanders can support three party members, all other classes can manage just two.
 
 To Come: 
-- Another table with Party-Size & Unlock Cost instead of stats
-- or a rework of this table to with those columns and columns for each stat.
+- Another column with Unlock Cost instead of stats.
 
 *** Class Traits by # Spells
 
@@ -1122,7 +1123,6 @@ To Come:
 | Class          | Class-Trait           | Spells | Stat Summary                                                     |
 |----------------+-----------------------+--------+------------------------------------------------------------------|
 | [[CHEF][Chef]]           | Gastromancy           |      5 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
-| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      5 | Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength        |
 |----------------+-----------------------+--------+------------------------------------------------------------------|
 | [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | Good Insight, Avg+ Resilience, Avg- Finesse                      |
 |----------------+-----------------------+--------+------------------------------------------------------------------|
@@ -1137,6 +1137,7 @@ To Come:
 | [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
 | [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | Good Wisdom, Avg+ Strength, Avg- Strength                        |
 | [[POLITICIAN][Politician]]     | Polarize              |      3 | High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom       |
+| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      3 | Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength        |
 | [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | Good Intelligence, Avg+ Charisma, Avg- Constitution              |
 | [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength          |
 | [[WITCH][Witch]]          | Wicked Form           |      3 | Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength        |
@@ -1179,6 +1180,7 @@ To Come:
 | [[TOURIST][Tourist]]        | Sightseer             |   None | Low Health                                                       |
 | [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |   None | "Normal"                                                         |
 |----------------+-----------------------+--------+------------------------------------------------------------------|
+
 
 *** Key:
 |-------------+-------------------------------------|
@@ -2187,6 +2189,10 @@ Hmm.. somehow you learn that
 - crafting takes about 105 moments.
 - unconscious people don't drown in wells.
 - its morning, daylight. you're going to loose rep or your gear no matter what
+
+I just tested this and you have to /say "give me that [item name]"
+
+- /grab /choke  zesty-dish/meal, fin-gear  rob them blind.
 
 ** Party
 - Press "*p*" for party details. It will show you have many followers you have and
@@ -3573,6 +3579,10 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 
 
 *** Alpha 16 Mar'21..
+
+**** 2021.04.16 0.0.16.5 Hotfix
+
+- Fixed a game crash caused by certain quest turn-ins.
 
 **** 2021.04.16 0.0.16.5 Patch Notes
 
