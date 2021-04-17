@@ -97,505 +97,6 @@ Mishaal too contributed insights and tips and maintains a spreadsheet full of
 detail on weapons and armors! Ent's feedback helped clarify several bits of text
 considerably.
 
-
-* Pug's Notes
-Look, I wrote this!
-
-** The Ages
-
-As you will see later in this guide there are several tiers of materials in
-FARA. And for argument's sake lets call the main material you're using and
-finding, equivalent to being in an age.
-
-You'll be able to survive many if not most of the random encounters near Relica
-with relative ease since the Amateur opponents you meet so close to the hub of
-lowest difficulty don't have equipment better than yours.
-
-Spending time near Relica allows you to not just learn the game but collect any
-number of recipes for later use since your ability to re-craft anything you find
-using materials is unmatched. Getting these materials, learning the nuances of
-your gear and how to enhance it properly lets you you advance advancing to
-somet like a later age.
-
-** The Magic
-
-As you find your basic stats and damage resistance risen to something like 'the
-iron' age Magic, that is elemental attacks become more of an issue for you.
-
-Enter the elemental resistance which you now learn to give to your gear by
-applying runes to it. Letting these get to average and better is quite a 
-challenge and a profound mystery at first.
-
-You have access to elemental runes that you can apply to your gear, situational
-food and drink providing buffs, even a Commander Level Faction Trait to help
-resist the most devious of enemies!
-
-** Trick out your map!
-Use */setlocalwaypoint* aka */slw* at your spawn, at every house, donation
-chest, and every last npc on the map. Greet NPC's and put their names into the
-waypoint name. You'll be glad you did!
-
-There are several buildings of which you'll want to expand at least the
-warehouse within the first few weeks game-time. It offers a way to access quite
-a bit of stuff from elsewhere. A local waypoint at the spawn and on the
-warehouse donation chest will save you a lot of time.
-
-"*W*" makes zooming around the local map quick and convenient. That is unless
-there are doors, pets, npc, or even the well along the path. Its not perfect yet
-but "*W*" is a huge help. Use */slw* until it becomes a habit.
-
-** Item Management
-
-Where you keep your stuff is up to you!
-
-But there's one thing you have to know: *WARNING* NEVER LEAVE ANYTHING ON THE
-SPAWN tile! FARA's advanced teleportation mechanism creates an intense rush of
-air as your body materializes -- and that scatters anything you might have left
-there through the immediate area. Try it out.
-
-Anyway, I'm still learning to play the game and I have yet to win. But this is
-my second run at it in 3 years and I find that starting as a horder with a base
-in Relica is again teaching me what I don't need or want, and how to deal with
-everything else. Here's the scoop on what works for me.
-
-*** InShelter
-
-**** Update!
-
-After thriving for 132 days I'm ready to leave this layout behind.
-
-I worked beautifully. I used just two storages and was able to do get in 
-and out very quickly. But now that I *want* storages I'm make the warehouse
-into Pug's house and place 8 storages around the crucible. This frees up a
-workbench and allow the main problem with this layout -- the escortees that
-I wound up bringing into relica to no longer cramp my style. Mind you, they
-go their own way after you're not in town for a while, but its better this
-lest I give another precious item to them or the elder by accident.
-
-So as last night, this is the concept:
-
-| Woody     | Clothy     | Foody  |
-| Metally   | *Crucible* | Tooly+ |
-| Undecided | Beddy      | Runy   |
-
-- Woody/Clothy/Metally play together really well because of the number of items
-  that wind up in these storages.
-
-- Foods has the Booze, Honey, Eggs, Meats, Venoms, Feathers, Nests and Beehives.
-- Tooly all my "{<(Equipment)>}", all Shards, Medals, Lights, Lockpicks &
-  Elemental Runes.
-- Runy all the Effect and Stabilizer runes
-- Beddy, a bed and useless flavor trinkets such as towel, blanket, pillow,
-  a stuffed fuzzy doll, and all the Balls of wax and yarn a real hero needs.
-- Undecided holds Gear and ammo for what will be my mercs. I'm still happy
-  with my grizzly atm.
-
-This leaves huge piles of crystals & leather and the problem of cooked foods.
-
-I've not worked it out, but there will be 8 firepits and some kind of sensible
-way of dealing with buff/food preparation further south in the warehose.
-
-Remains to be seen what if any kinds of walls I wind up putting in there and
-if I'm not going to play house some more by putting bed and brazier by the 
-door in the south, as in:
-
-| warehouse |                                                   |
-| top 3rd   | Piles and items of usefulness around the crucible |
-| middle 3d | "The Kitchen" - Fires, piles                      |
-| bottom 3d | "Living area" with Crystal+ Furniture             |
-
-with the top looking like so:
-
-| Clothy     | Woody      | Metally     |
-| NamedRunes | *Crucible* | Tooly+Elems |
-| StatFood   | ElemFood   | OtherFood   |
-
-TBD. I already have more functional ideas..
-
-- also colors..
-
-**** Initially
-
-I build a 7x7 house around the elder and the spawn point, so i'm close to my
-piles, quests and right next to a bed, a brazier and the door for the most
-restful healing sleep in every settlement I open.
-
-*THIS* is incredibly useful with local waypoints and I get a lot of mileage out
-of it! The base layout takes 23 planks, 4 braziers (8 rocks) and a door (2
-wooden blocks)
-
-In Relica I use this arrangement:
-
-| Brazier | Runy        | -     | Booze   | Brazier |
-| -       | *The Elder* | -     | -       | Fruits  |
-| Woody   | Clothy      | Buffy | -       | Seeds   |
-| Metally | *Spawn*     | -     | -       | Flowers |
-| Brazier | Bed         | -     | Storage | Brazier |
-
-- A workbench to the left of the spawn
-- Clothy has all the animal parts as well
-- In the Storage: Alternate items of awesomeness, a spare sack.
-- Under the Storage: Ammunition, Lockpicks, Ropes, Medals, Shards
-
-I have a /setkey for "/drop 8" and find using that and moving around quite effective
-to get the excess out of my inventory most of the time. 
-
-- Runy has a storage for named runes and is a dump for elemental runes
-- The bed still needs a blanket and a pillow.
-
-I started replicating this elsewhere but wound up just sleeping in the house
-(useful!) and dumping things around the outpost warehouse crucibles.
-
-***** Feedback on the home office
-This can be condensed quite a bit
-I'd say first of all that it should be simple things
-
-"Misc" "Materials" "Equipment" "Food" "Runes" "Valuable"
-
-That condenses Woody + Clothy + Metally and Buffy + Booze + Fruits + Seeds + Flowers
-
-Second of all, the brazier layout is bad (I think) because last I checked
-brazier light is blocked by item piles (which sucks)
-
-*** Warehousing
-
-Unlock this Building ASAP!
-
-"There is nothing in any of my warehouses .. except in Relica's." - pug.
-
-First off, I don't really like the slow interaction with the storage bins in the
-warehouse. 
-
-Instead of holding an item-stack to put it into the the number 1 position and 
-typing */giveall*, I */give #x* if its a single item and drop whatever stacked
-item right on top of the bins.
-
-I dont use scrolls but I keep them in a bin next to the crucible because I
-already know that I will be desperate for them when I'm strong enough to get
-myself into the best part of the game I know, dungeons! (Please don't read that
-to mean that my avatar is mindless about hoarding. After all, some scrolls were
-meant to be /salvaged and he's read enough of this guide to know that!)
-
-Sure, as player, I could */salvage* everything, but my avatar isn't wired like
-that. He keeps fancy but not the fanciest kites, beehives, birds-nests, folded
-notes, toyswords and other things like that for flavour. Once in the warehouse,
-but these things are out of sight, not out of mind.
-
-After opening up the (Refinery) I wound up with oddities like Tin Fiddles and
-Organs, Bone Spears and Goggles. I love the recipes, but instead of salvaging
-them right I stash away the Smith's output in the warehouse get an insight into
-what he's doing, knowing full well that the stash doubles as a rune-shard hoard.
-
-Ammo. I got tons of ammo of all kinds. When I get a new ranged weapon I try them out
-and keep the nicest ones in a Storage box on which i all dump all spare ammo. I find
-that much easier than placing stacks into the box.
-
-But listen, before you stash anything you find or loot, beat-up and or salvage
-the whatever because especially among the items you find on trees, surprises await!
-
-**** People who have seen more of the game know better things than dungeons!
-How cool is that?
-
-Check out this feedback: Dungeons! It's anything but "best"; It's an hour spent
-fumbling around in a dark maze trying to find a key and a door, dealing with
-stealthed enemies, and hidden traps! Dungeons are not the best part of the
-game. At all.
-
-To a long-time player of rogue-likes, that's an endorsement! and a promise for
-even better! <g>
-
-**** Thanks for paying attention!
-If you did, you will enjoy this random secret!
-
-- Peacocks drop an item that gives you *FIN>>*
-- Its kinda like the one with the milk :)
-
-*** In the Crucible
-For taking with me when traveling to a new settlement:
-| 2 medals |
-| 10 ropes |
-For setting up the next house:
-| 4 wooden logs | building planks and door        |
-| 8 rocks       | i like my braziers made of rock |
-For the next house, but also trips to the beach/lake/graveyard:
-| 1 bed       |
-| 1 workbench |
-Always in the Crucible
-| Dishes           |
-| Meals            |
-| Mixtures         |
-| Sensible Uniques |
-
-Once */place* takes a count we'll all be able to do a whole lot more with that
-ingenious invention!
-
-*** In General
-
-- consider carrying a container with water so you can boost your stamina
-  in an emergency.
-
-- consider carrying a rope or a kite whenever you take a shovel out for a dig
-  to avoid getting hurt should the ground give way under your feet.
-
-- lights are useful to trigger encounters at night, insure that you the full
-  attention of legendary beasts living in dens, lighting your way in that
-  labyrinth you are too proud to exit, and for finding out "what's down there"
-  when you eventually lie, legs broken, in that cave you dug into.
-
-As with backups of your computer, there are two kinds of people in the world,
-people who carry backups, and people who will.
-
-** Moving out and on
-Again, complete the warehouse before you change settlement or do escort quests.
-When you go take 2 medals and 10 ropes with you to quickly complete the
-warehouse in your new place right away when you get there.
-
-You'll also enjoy having spare a workbench, a bed and the materials you need for
-the next house at the new locale's spawn already in the crucible.
-
-** Upgrades
-
-In each new settlement you reach you will find a set of tools to enhance your
-equipment's performance.. Search for them and you shall find these craftable
-gems.
-
-But don't rush. Form a party, discover things and get settled and strong-ish.
-
-After a while you and your party can handle all the kill quests the elder hands
-out, and you'll likely have a couple of waypoints to other settlement and NPC's
-eager to see you killed while you escort them there. When you are ready to look
-for those tools and recipes accept the escort and delivery quests to that new
-locale and leave right after waking up from resting.
-
-Once you found them and are done marveling at your good luck from arriving
-alive, getting a unique item and finding the tools, make sure to /inspect, not
-/salvage them.
-
-You can enhance the equipment of the proper type for your class which
-you will have discovered, equipped and understood by now, or ..
-
-*** If you're totally nuts, enhance you shovel.
-
-After settling into the the new place, find a beach and grind runes in style.
-
-Plan to stay at the beach/dig-site for a while. Put up a 5x5 with door and
-brazier for the good-morning buff and go rune hunting in safety close to
-home.
-
-When you can make a second workbench, then when you have runes for rejuvenation
-and/or other spells go back to 'questing with the elder' until you have at least
-several iron pieces or whatever is best for your needs.
-
-Take your workbench when you dig so you dont need to make repair kits. Your
-enhanced shovel will stay sharp that way. If you get bored digging, repeat the
-racket with a fishing-rod while staying in the same shelter. Perhaps you'll even
-put up a fire-pit for some extra 'positive outcome boosting' charisma buffing
-snacks! Oh, and have a rope on you, just in case.
-
-I've heard that noone will mind if you dig up a graveyard from end to end dolled
-up in your finest charisma boosting gear either. But I'll let you try it first!
-Maybe after your next escort quest?
-
-Shovel or Fishing rod, what do i know. Plus I'm [[Charm][dubious about iron]] as
-a [[Materials][material]] for either!
-
-** Traveling
-
-We all know your avatar's a bit sensitive and often drops down to the local
-level because they sensed danger or spotted some cockroaches fight one another.
-
-If the circle is blank of enemies, or you can make it so with a few steps away
-from the fight, do that! more often than not "*X*" */exit* or clicking on your
-waypoint will take you out and put you back on the road!
-
-And hey, if "*X*" fails, it will have moved you to the action without you having
-to look for it. This is really helpful if you cast a shield on yourself before
-doing do, esp. if your're traveling at night, yet again without a light.
-
-As you're travelling you'll find more info about [[Skill Brackets][Skill Brackets]]. Please
-share.
-
-
-** Exploring
-
-New Location?
-
-|Move|Until
-|SW x4|sw border comes into view
-|NW x5|lhs borders look the same
-|NE x10|top borders look the same
-|SE x8|rhs borders look the same
-|SW x10
-
-Besides doing quests, I attempt to explore in a circle of ever greater distance
-from Relica and by manually taking different paths through the rectangles
-connecting settlements.
-
-Keeping Relica in the center makes investing into it somewhat viable and
-worthwhile, at least i think so atm. At least thats why I use the warehouses to
-let all trinkets/trophies/seeds/flowers/meats/fruits drift back into Relica
-through the crucibles accessed via local waypoints.
-
-People in the advanced stages of the game talk about traveling 1200++ km from
-relica, fighting unheard of monsters from unheard of dimensions while still
-investing into Relica. So as you explore more of these notes keep in mind that
-I'm just starting, know nothing, have yet to win the game and go beyond iron
-equipment and a single godlike attribute. This game has great depth and
-complexity.
-
-** Difficulty
-
-FARA's difficulty is a gem. Yes, really. I don't know the formula, but like you,
-I appreciate that the things you encounter in your travels seem to slowly get
-harder. These things seem to matter:
-
-- the further from Relica you are,
-- the further away you have been,
-- the more challenging the enemies you have ended,
-- the better equipped/longer you have been in game,
-- the more titles (achievments?) you have.
-- WHAT ELSE?
-
-But unlike most games, FARA doesn't actually seem to be out to kill you as it
-did in (what to me were) 'the nightmare versions' released some years ago.
-
-Combat in FARA can be freaky cool, and as long as you prioritize survival over
-your macho, you'll manage to escape and appreciate the insurance that having
-even a single gulp of [[Liquids][water]] with you for that one time where its quicker to
-drink and dash than it is to walk. But there's always [[The Burning House][this]].
-
-** Finding things in daylight vision
-
-Small things on the ground can be seen up to 5 spaces away in a straight line,
-but only 3 spaces diagonally. This is true in town and in wilderness maps.
-
-Thus if you're looking for flowers or lost items you can move in paralell lines
-11 spaces apart, that means there are 10 spaces between your lines.
-
-*** example in town:
-**** step 1
-move 5 right and down from the top left. there are now 5 spaces between you and
-the edge. use */mark <color>* on a that square, then move all the way to the
-right until there are 5 spaces between you and the edge. use */mark <color>*
-again and take 2 steps to the NE so you see into the very edges of the
-map. */mark <color>* all those points 3 and 5 away from the map corners to
-remember.
-**** step 2
-from the top-left, on a marker with 5 spaces between you and the edges, move
-down until the marker just disappears and place another marker. repeat until
-you're at the bottom.
-**** step 3
-starting at your favorite marker in the top left corner, again mark spots with
-10 spaces between them going to the right.
-**** step 4
-now project the outside marks -- 5+1+10= -- to 16 spaces from the edges and you'll
-begin to see exactly where to place markers to make paths that guarantee search
-quest succeed quickly and consistenly.
-**** [step 5]
-when you walk around a new town for the first time setting up your */slw* local
-waypoints, instead of only grabbing all the loot, place 4 markers inside the
-houses that leave 3 spaces between them and the walls. this makes it easy to
-remember that you only have to step on each of them once to have scanned
-everything. (you can can optimize that a bit, but this is good enough.)
-** Climbing
-I'm pre-repeating myself here so we are clear that */climb* lets you */dance/*
-on that table you just dragged to the middle of town. It's a good thing you
-should use to get a view from the trees you */harvest* and it might even let you
-see a little further. But I don't think it helps you find small lost objects or
-those hard to find small rare species you'll inevitably be tasked with
-researching. Then again I'd not thought about planting trees in strategic
-locations around town.. until now :)
-
-* Playing
-** /COMMANDS
-
-*If you find that your game slows down when moving around, issue /clearlog* 
-
-- */help* gives most of them
-- */settings* gives more of them
-- The [[Release Notes][Release Notes]] give insights into and context for additional commands.
-  Click the link and search for "*/*"
-
-The discord's spoiler channel denizens often refer to 'creative mode' and yet
-more */commands* but i haven't had the patience or desire to slug through the
-jargon there. One seems to need to tap into the voice channel and speak to
-people in order to obtain basic information about much of the game still.
-
-If this bothers you as it does me .. because it keep out new players that will
-give brian love and some money .. then *use this month of april'21* to send me
-even just a single fact on the discord channel to add to this text before I'm
-likely to fade into the void again!
-
-- */split* operates on the selected item, give it a parm for how many items you
-  want in a new pile
-
-- *If you happen to be on fire, (stop, drop and) /roll*
-
-** KEYS!
-- read the bottom of */keybinds* aka "*K*"
-- use *Home/End* to scroll through help and other popup windows!
-- remember */exit* aka "*X*" to leave a map.
-
-suggestions:
-
-| /setkey ; layout{1,2} |
-| /setkey : layout3     |
-| /setkey , autoloot    |
-| /setkey < climb       |
-| /setkey k clearlog    |
-
-- layout3 is like turbo mode for moving in the game; i love it. switch back to
-  layout1 or layout2, whatever you like best, as needed using the non-shifted
-  key.
-- you want autoloot off at home, so keep it off and use situationally.
-- climbing a tree before bumping into it occasionally gives kites, beehives,
-  birds nests, maybe even a lost toy sword; all things you can drag home
-  and exhibit to impress your npc buddies.
-
-
-- *z* is really cool for */place* ing items into containers */give* ing items and
-  many more things. you can press it multiple times before the game reacts and
-  it will do the right thing.
-
-But, *be careful when using the /z shortcut!!!*
-
-It repeats only most 'last typed (not shortcut) commands' which gives it the
-ability to surprise you in unexpected ways!. If you're not sure what you typed
-last, type / then press "up arrow". Not that that would save you from surprises
-though.
-
-** Talking
-
-Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
-it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
-and have managed to recruit one of these marvels.
-
-Normal people however can only talk to other people, and it's only the Mercs 
-you've recruited into your party that will listen to and obey you.
-
-- use */say wait here* and */say follow me* to control your party members. you
-  don't have to ask them to come along when you leave the map, they will do that
-  by themselves.
-
-- Also:
-  - /say stow your X
-  - /say draw your X
-  - /say take that X
-  - /say stand by that X
-
-- An exclamation mark turns /say into /shout
-
-- use */shout come here* when searching for people.
-  (repeat with "*z*" as you walk around.)
-
-There's probably some (much?) more to say and other banter to be had. Many of
-the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
-
-Weird fact: Mercs will sometimes say things and other NPC not in your party will
-speak back to them. Thats freaky cool.
-
-Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
-
 * Topics
 ** Avatar
 *** Blights
@@ -3373,6 +2874,505 @@ if you can fill in the details!
 - Attack speed was removed, now each attack takes one turn regardless of
   weapon - likely making quivers and bandoliers (which gave the speed boni)
   largely cosmetic/flair items.
+
+
+* Pug's Notes
+Look, I wrote this!
+
+** The Ages
+
+As you will see later in this guide there are several tiers of materials in
+FARA. And for argument's sake lets call the main material you're using and
+finding, equivalent to being in an age.
+
+You'll be able to survive many if not most of the random encounters near Relica
+with relative ease since the Amateur opponents you meet so close to the hub of
+lowest difficulty don't have equipment better than yours.
+
+Spending time near Relica allows you to not just learn the game but collect any
+number of recipes for later use since your ability to re-craft anything you find
+using materials is unmatched. Getting these materials, learning the nuances of
+your gear and how to enhance it properly lets you you advance advancing to
+somet like a later age.
+
+** The Magic
+
+As you find your basic stats and damage resistance risen to something like 'the
+iron' age Magic, that is elemental attacks become more of an issue for you.
+
+Enter the elemental resistance which you now learn to give to your gear by
+applying runes to it. Letting these get to average and better is quite a 
+challenge and a profound mystery at first.
+
+You have access to elemental runes that you can apply to your gear, situational
+food and drink providing buffs, even a Commander Level Faction Trait to help
+resist the most devious of enemies!
+
+** Trick out your map!
+Use */setlocalwaypoint* aka */slw* at your spawn, at every house, donation
+chest, and every last npc on the map. Greet NPC's and put their names into the
+waypoint name. You'll be glad you did!
+
+There are several buildings of which you'll want to expand at least the
+warehouse within the first few weeks game-time. It offers a way to access quite
+a bit of stuff from elsewhere. A local waypoint at the spawn and on the
+warehouse donation chest will save you a lot of time.
+
+"*W*" makes zooming around the local map quick and convenient. That is unless
+there are doors, pets, npc, or even the well along the path. Its not perfect yet
+but "*W*" is a huge help. Use */slw* until it becomes a habit.
+
+** Item Management
+
+Where you keep your stuff is up to you!
+
+But there's one thing you have to know: *WARNING* NEVER LEAVE ANYTHING ON THE
+SPAWN tile! FARA's advanced teleportation mechanism creates an intense rush of
+air as your body materializes -- and that scatters anything you might have left
+there through the immediate area. Try it out.
+
+Anyway, I'm still learning to play the game and I have yet to win. But this is
+my second run at it in 3 years and I find that starting as a horder with a base
+in Relica is again teaching me what I don't need or want, and how to deal with
+everything else. Here's the scoop on what works for me.
+
+*** InShelter
+
+**** Update!
+
+After thriving for 132 days I'm ready to leave this layout behind.
+
+I worked beautifully. I used just two storages and was able to do get in 
+and out very quickly. But now that I *want* storages I'm make the warehouse
+into Pug's house and place 8 storages around the crucible. This frees up a
+workbench and allow the main problem with this layout -- the escortees that
+I wound up bringing into relica to no longer cramp my style. Mind you, they
+go their own way after you're not in town for a while, but its better this
+lest I give another precious item to them or the elder by accident.
+
+So as last night, this is the concept:
+
+| Woody     | Clothy     | Foody  |
+| Metally   | *Crucible* | Tooly+ |
+| Undecided | Beddy      | Runy   |
+
+- Woody/Clothy/Metally play together really well because of the number of items
+  that wind up in these storages.
+
+- Foods has the Booze, Honey, Eggs, Meats, Venoms, Feathers, Nests and Beehives.
+- Tooly all my "{<(Equipment)>}", all Shards, Medals, Lights, Lockpicks &
+  Elemental Runes.
+- Runy all the Effect and Stabilizer runes
+- Beddy, a bed and useless flavor trinkets such as towel, blanket, pillow,
+  a stuffed fuzzy doll, and all the Balls of wax and yarn a real hero needs.
+- Undecided holds Gear and ammo for what will be my mercs. I'm still happy
+  with my grizzly atm.
+
+This leaves huge piles of crystals & leather and the problem of cooked foods.
+
+I've not worked it out, but there will be 8 firepits and some kind of sensible
+way of dealing with buff/food preparation further south in the warehose.
+
+Remains to be seen what if any kinds of walls I wind up putting in there and
+if I'm not going to play house some more by putting bed and brazier by the 
+door in the south, as in:
+
+| warehouse |                                                   |
+| top 3rd   | Piles and items of usefulness around the crucible |
+| middle 3d | "The Kitchen" - Fires, piles                      |
+| bottom 3d | "Living area" with Crystal+ Furniture             |
+
+with the top looking like so:
+
+| Clothy     | Woody      | Metally     |
+| NamedRunes | *Crucible* | Tooly+Elems |
+| StatFood   | ElemFood   | OtherFood   |
+
+TBD. I already have more functional ideas..
+
+- also colors..
+
+**** Initially
+
+I build a 7x7 house around the elder and the spawn point, so i'm close to my
+piles, quests and right next to a bed, a brazier and the door for the most
+restful healing sleep in every settlement I open.
+
+*THIS* is incredibly useful with local waypoints and I get a lot of mileage out
+of it! The base layout takes 23 planks, 4 braziers (8 rocks) and a door (2
+wooden blocks)
+
+In Relica I use this arrangement:
+
+| Brazier | Runy        | -     | Booze   | Brazier |
+| -       | *The Elder* | -     | -       | Fruits  |
+| Woody   | Clothy      | Buffy | -       | Seeds   |
+| Metally | *Spawn*     | -     | -       | Flowers |
+| Brazier | Bed         | -     | Storage | Brazier |
+
+- A workbench to the left of the spawn
+- Clothy has all the animal parts as well
+- In the Storage: Alternate items of awesomeness, a spare sack.
+- Under the Storage: Ammunition, Lockpicks, Ropes, Medals, Shards
+
+I have a /setkey for "/drop 8" and find using that and moving around quite effective
+to get the excess out of my inventory most of the time. 
+
+- Runy has a storage for named runes and is a dump for elemental runes
+- The bed still needs a blanket and a pillow.
+
+I started replicating this elsewhere but wound up just sleeping in the house
+(useful!) and dumping things around the outpost warehouse crucibles.
+
+***** Feedback on the home office
+This can be condensed quite a bit
+I'd say first of all that it should be simple things
+
+"Misc" "Materials" "Equipment" "Food" "Runes" "Valuable"
+
+That condenses Woody + Clothy + Metally and Buffy + Booze + Fruits + Seeds + Flowers
+
+Second of all, the brazier layout is bad (I think) because last I checked
+brazier light is blocked by item piles (which sucks)
+
+*** Warehousing
+
+Unlock this Building ASAP!
+
+"There is nothing in any of my warehouses .. except in Relica's." - pug.
+
+First off, I don't really like the slow interaction with the storage bins in the
+warehouse. 
+
+Instead of holding an item-stack to put it into the the number 1 position and 
+typing */giveall*, I */give #x* if its a single item and drop whatever stacked
+item right on top of the bins.
+
+I dont use scrolls but I keep them in a bin next to the crucible because I
+already know that I will be desperate for them when I'm strong enough to get
+myself into the best part of the game I know, dungeons! (Please don't read that
+to mean that my avatar is mindless about hoarding. After all, some scrolls were
+meant to be /salvaged and he's read enough of this guide to know that!)
+
+Sure, as player, I could */salvage* everything, but my avatar isn't wired like
+that. He keeps fancy but not the fanciest kites, beehives, birds-nests, folded
+notes, toyswords and other things like that for flavour. Once in the warehouse,
+but these things are out of sight, not out of mind.
+
+After opening up the (Refinery) I wound up with oddities like Tin Fiddles and
+Organs, Bone Spears and Goggles. I love the recipes, but instead of salvaging
+them right I stash away the Smith's output in the warehouse get an insight into
+what he's doing, knowing full well that the stash doubles as a rune-shard hoard.
+
+Ammo. I got tons of ammo of all kinds. When I get a new ranged weapon I try them out
+and keep the nicest ones in a Storage box on which i all dump all spare ammo. I find
+that much easier than placing stacks into the box.
+
+But listen, before you stash anything you find or loot, beat-up and or salvage
+the whatever because especially among the items you find on trees, surprises await!
+
+**** People who have seen more of the game know better things than dungeons!
+How cool is that?
+
+Check out this feedback: Dungeons! It's anything but "best"; It's an hour spent
+fumbling around in a dark maze trying to find a key and a door, dealing with
+stealthed enemies, and hidden traps! Dungeons are not the best part of the
+game. At all.
+
+To a long-time player of rogue-likes, that's an endorsement! and a promise for
+even better! <g>
+
+**** Thanks for paying attention!
+If you did, you will enjoy this random secret!
+
+- Peacocks drop an item that gives you *FIN>>*
+- Its kinda like the one with the milk :)
+
+*** In the Crucible
+For taking with me when traveling to a new settlement:
+| 2 medals |
+| 10 ropes |
+For setting up the next house:
+| 4 wooden logs | building planks and door        |
+| 8 rocks       | i like my braziers made of rock |
+For the next house, but also trips to the beach/lake/graveyard:
+| 1 bed       |
+| 1 workbench |
+Always in the Crucible
+| Dishes           |
+| Meals            |
+| Mixtures         |
+| Sensible Uniques |
+
+Once */place* takes a count we'll all be able to do a whole lot more with that
+ingenious invention!
+
+*** In General
+
+- consider carrying a container with water so you can boost your stamina
+  in an emergency.
+
+- consider carrying a rope or a kite whenever you take a shovel out for a dig
+  to avoid getting hurt should the ground give way under your feet.
+
+- lights are useful to trigger encounters at night, insure that you the full
+  attention of legendary beasts living in dens, lighting your way in that
+  labyrinth you are too proud to exit, and for finding out "what's down there"
+  when you eventually lie, legs broken, in that cave you dug into.
+
+As with backups of your computer, there are two kinds of people in the world,
+people who carry backups, and people who will.
+
+** Moving out and on
+Again, complete the warehouse before you change settlement or do escort quests.
+When you go take 2 medals and 10 ropes with you to quickly complete the
+warehouse in your new place right away when you get there.
+
+You'll also enjoy having spare a workbench, a bed and the materials you need for
+the next house at the new locale's spawn already in the crucible.
+
+** Upgrades
+
+In each new settlement you reach you will find a set of tools to enhance your
+equipment's performance.. Search for them and you shall find these craftable
+gems.
+
+But don't rush. Form a party, discover things and get settled and strong-ish.
+
+After a while you and your party can handle all the kill quests the elder hands
+out, and you'll likely have a couple of waypoints to other settlement and NPC's
+eager to see you killed while you escort them there. When you are ready to look
+for those tools and recipes accept the escort and delivery quests to that new
+locale and leave right after waking up from resting.
+
+Once you found them and are done marveling at your good luck from arriving
+alive, getting a unique item and finding the tools, make sure to /inspect, not
+/salvage them.
+
+You can enhance the equipment of the proper type for your class which
+you will have discovered, equipped and understood by now, or ..
+
+*** If you're totally nuts, enhance you shovel.
+
+After settling into the the new place, find a beach and grind runes in style.
+
+Plan to stay at the beach/dig-site for a while. Put up a 5x5 with door and
+brazier for the good-morning buff and go rune hunting in safety close to
+home.
+
+When you can make a second workbench, then when you have runes for rejuvenation
+and/or other spells go back to 'questing with the elder' until you have at least
+several iron pieces or whatever is best for your needs.
+
+Take your workbench when you dig so you dont need to make repair kits. Your
+enhanced shovel will stay sharp that way. If you get bored digging, repeat the
+racket with a fishing-rod while staying in the same shelter. Perhaps you'll even
+put up a fire-pit for some extra 'positive outcome boosting' charisma buffing
+snacks! Oh, and have a rope on you, just in case.
+
+I've heard that noone will mind if you dig up a graveyard from end to end dolled
+up in your finest charisma boosting gear either. But I'll let you try it first!
+Maybe after your next escort quest?
+
+Shovel or Fishing rod, what do i know. Plus I'm [[Charm][dubious about iron]] as
+a [[Materials][material]] for either!
+
+** Traveling
+
+We all know your avatar's a bit sensitive and often drops down to the local
+level because they sensed danger or spotted some cockroaches fight one another.
+
+If the circle is blank of enemies, or you can make it so with a few steps away
+from the fight, do that! more often than not "*X*" */exit* or clicking on your
+waypoint will take you out and put you back on the road!
+
+And hey, if "*X*" fails, it will have moved you to the action without you having
+to look for it. This is really helpful if you cast a shield on yourself before
+doing do, esp. if your're traveling at night, yet again without a light.
+
+As you're travelling you'll find more info about [[Skill Brackets][Skill Brackets]]. Please
+share.
+
+
+** Exploring
+
+New Location?
+
+|Move|Until
+|SW x4|sw border comes into view
+|NW x5|lhs borders look the same
+|NE x10|top borders look the same
+|SE x8|rhs borders look the same
+|SW x10
+
+Besides doing quests, I attempt to explore in a circle of ever greater distance
+from Relica and by manually taking different paths through the rectangles
+connecting settlements.
+
+Keeping Relica in the center makes investing into it somewhat viable and
+worthwhile, at least i think so atm. At least thats why I use the warehouses to
+let all trinkets/trophies/seeds/flowers/meats/fruits drift back into Relica
+through the crucibles accessed via local waypoints.
+
+People in the advanced stages of the game talk about traveling 1200++ km from
+relica, fighting unheard of monsters from unheard of dimensions while still
+investing into Relica. So as you explore more of these notes keep in mind that
+I'm just starting, know nothing, have yet to win the game and go beyond iron
+equipment and a single godlike attribute. This game has great depth and
+complexity.
+
+** Difficulty
+
+FARA's difficulty is a gem. Yes, really. I don't know the formula, but like you,
+I appreciate that the things you encounter in your travels seem to slowly get
+harder. These things seem to matter:
+
+- the further from Relica you are,
+- the further away you have been,
+- the more challenging the enemies you have ended,
+- the better equipped/longer you have been in game,
+- the more titles (achievments?) you have.
+- WHAT ELSE?
+
+But unlike most games, FARA doesn't actually seem to be out to kill you as it
+did in (what to me were) 'the nightmare versions' released some years ago.
+
+Combat in FARA can be freaky cool, and as long as you prioritize survival over
+your macho, you'll manage to escape and appreciate the insurance that having
+even a single gulp of [[Liquids][water]] with you for that one time where its quicker to
+drink and dash than it is to walk. But there's always [[The Burning House][this]].
+
+** Finding things in daylight vision
+
+Small things on the ground can be seen up to 5 spaces away in a straight line,
+but only 3 spaces diagonally. This is true in town and in wilderness maps.
+
+Thus if you're looking for flowers or lost items you can move in paralell lines
+11 spaces apart, that means there are 10 spaces between your lines.
+
+*** example in town:
+**** step 1
+move 5 right and down from the top left. there are now 5 spaces between you and
+the edge. use */mark <color>* on a that square, then move all the way to the
+right until there are 5 spaces between you and the edge. use */mark <color>*
+again and take 2 steps to the NE so you see into the very edges of the
+map. */mark <color>* all those points 3 and 5 away from the map corners to
+remember.
+**** step 2
+from the top-left, on a marker with 5 spaces between you and the edges, move
+down until the marker just disappears and place another marker. repeat until
+you're at the bottom.
+**** step 3
+starting at your favorite marker in the top left corner, again mark spots with
+10 spaces between them going to the right.
+**** step 4
+now project the outside marks -- 5+1+10= -- to 16 spaces from the edges and you'll
+begin to see exactly where to place markers to make paths that guarantee search
+quest succeed quickly and consistenly.
+**** [step 5]
+when you walk around a new town for the first time setting up your */slw* local
+waypoints, instead of only grabbing all the loot, place 4 markers inside the
+houses that leave 3 spaces between them and the walls. this makes it easy to
+remember that you only have to step on each of them once to have scanned
+everything. (you can can optimize that a bit, but this is good enough.)
+** Climbing
+I'm pre-repeating myself here so we are clear that */climb* lets you */dance/*
+on that table you just dragged to the middle of town. It's a good thing you
+should use to get a view from the trees you */harvest* and it might even let you
+see a little further. But I don't think it helps you find small lost objects or
+those hard to find small rare species you'll inevitably be tasked with
+researching. Then again I'd not thought about planting trees in strategic
+locations around town.. until now :)
+
+* Playing
+** /COMMANDS
+
+*If you find that your game slows down when moving around, issue /clearlog* 
+
+- */help* gives most of them
+- */settings* gives more of them
+- The [[Release Notes][Release Notes]] give insights into and context for additional commands.
+  Click the link and search for "*/*"
+
+The discord's spoiler channel denizens often refer to 'creative mode' and yet
+more */commands* but i haven't had the patience or desire to slug through the
+jargon there. One seems to need to tap into the voice channel and speak to
+people in order to obtain basic information about much of the game still.
+
+If this bothers you as it does me .. because it keep out new players that will
+give brian love and some money .. then *use this month of april'21* to send me
+even just a single fact on the discord channel to add to this text before I'm
+likely to fade into the void again!
+
+- */split* operates on the selected item, give it a parm for how many items you
+  want in a new pile
+
+- *If you happen to be on fire, (stop, drop and) /roll*
+
+** KEYS!
+- read the bottom of */keybinds* aka "*K*"
+- use *Home/End* to scroll through help and other popup windows!
+- remember */exit* aka "*X*" to leave a map.
+
+suggestions:
+
+| /setkey ; layout{1,2} |
+| /setkey : layout3     |
+| /setkey , autoloot    |
+| /setkey < climb       |
+| /setkey k clearlog    |
+
+- layout3 is like turbo mode for moving in the game; i love it. switch back to
+  layout1 or layout2, whatever you like best, as needed using the non-shifted
+  key.
+- you want autoloot off at home, so keep it off and use situationally.
+- climbing a tree before bumping into it occasionally gives kites, beehives,
+  birds nests, maybe even a lost toy sword; all things you can drag home
+  and exhibit to impress your npc buddies.
+
+
+- *z* is really cool for */place* ing items into containers */give* ing items and
+  many more things. you can press it multiple times before the game reacts and
+  it will do the right thing.
+
+But, *be careful when using the /z shortcut!!!*
+
+It repeats only most 'last typed (not shortcut) commands' which gives it the
+ability to surprise you in unexpected ways!. If you're not sure what you typed
+last, type / then press "up arrow". Not that that would save you from surprises
+though.
+
+** Talking
+
+Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
+it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
+and have managed to recruit one of these marvels.
+
+Normal people however can only talk to other people, and it's only the Mercs 
+you've recruited into your party that will listen to and obey you.
+
+- use */say wait here* and */say follow me* to control your party members. you
+  don't have to ask them to come along when you leave the map, they will do that
+  by themselves.
+
+- Also:
+  - /say stow your X
+  - /say draw your X
+  - /say take that X
+  - /say stand by that X
+
+- An exclamation mark turns /say into /shout
+
+- use */shout come here* when searching for people.
+  (repeat with "*z*" as you walk around.)
+
+There's probably some (much?) more to say and other banter to be had. Many of
+the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
+
+Weird fact: Mercs will sometimes say things and other NPC not in your party will
+speak back to them. Thats freaky cool.
+
+Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
 
 * Supplemental
 ** Random Notes from Discord
