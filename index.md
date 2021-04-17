@@ -1,142 +1,143 @@
 
 # Table of Contents
 
-1.  [Intro](#orgcbfc74f)
-    1.  [Notes](#org6975f4e)
-    2.  [Finding](#org309e785)
-    3.  [Credits!](#org099eea1)
-2.  [Topics](#org4e062c5)
-    1.  [Avatar](#org0129905)
-        1.  [Blights](#orgcafbc01)
-        2.  [Character Stats](#org43fb398)
-        3.  [Key fragments](#org6fe5c0b)
-        4.  [Resting](#org03b0257)
-    2.  [Classes](#orgea69b11)
-        1.  [Initial](#org1db8c8d)
-        2.  [500+](#orgd3af9d8)
-        3.  [1000+](#org5182b63)
-        4.  [5000+](#org0ed1b82)
-        5.  [10000+](#org5ed9604)
-        6.  [20000+](#org182e881)
-        7.  [50000+](#orgb1b68b6)
-    3.  [Class Traits](#org8bf57cc)
-        1.  [Class Traits by # Spells](#org187de56)
-        2.  [Key:](#orgf009c64)
-    4.  [Damage Types](#org3c504a4)
-        1.  [Physical](#orgcd60c05)
-        2.  [Magical](#org529646a)
-        3.  [Elemental](#org7f47e53)
-    5.  [Factions](#org16b430a)
-        1.  [Jade circle: Social/stealth](#org4bffd29)
-        2.  [Will of the wild: Resource gathering/crafting/exploration](#orgf3c2e33)
-        3.  [Radiant hand: Combat/Tanking/buffs and debuffs](#orgbd8821a)
-    6.  [Factions Traits](#org547fb9f)
-        1.  [Trait Manuals](#orgaedc47b)
-    7.  [Food](#org76184e3)
-        1.  [Cooking](#orgfb5dd45)
-        2.  [Ingredients](#org03ebb78)
-        3.  [When Elementally Flamed (++)](#org715e016)
-        4.  [Fireworks!](#org49d3925)
-    8.  [Items](#org103e8c7)
-        1.  [Containers](#orgd4ec5cc)
-        2.  [Curios](#org0e3a6aa)
-        3.  [Lights](#org39a8018)
-        4.  [Qualities](#org79430bd)
-        5.  [Repairing](#org436e210)
-    9.  [Locations](#org21aa903)
-        1.  [Location List](#orgd1ba10b)
-        2.  [Encounters](#org48409e0)
-        3.  [Locations](#orgf8a345b)
-        4.  [Just plain cool](#orgeda9221)
-    10. [Materials](#org1c270d4)
-        1.  [Wiki preamble](#org2a50755)
-        2.  [Everyday materials](#orgb60771b)
-        3.  [Natural Resources](#org154358c)
-        4.  [Cloths and Furs](#orgf82274c)
-    11. [NPC's](#org77495ab)
-        1.  [Elder](#orgd3f139b)
-        2.  [Nobles](#org49619eb)
-        3.  [Riddler](#orgb672fd4)
-        4.  [Guards](#org2cf1413)
-        5.  [Townies](#orgc1b6972)
-        6.  [Escortees](#org21dbbc0)
-        7.  [Champions](#org2bf8096)
-        8.  [Smuggler](#org1fb15e1)
-        9.  [Trader](#orgb5e77ae)
-        10. [Thief](#org1db334f)
-    12. [Party](#org98cdc84)
-        1.  [Pets](#org915a639)
-        2.  [Mounts](#org88c8e0b)
-    13. [Quests](#orgefc1448)
-        1.  [Beastslayer you!](#orgd7c497f)
-        2.  [Desperate Times](#org6f2e310)
-        3.  [Escort Quests](#orge0d99e6)
-        4.  [Missing Kid Quests](#orga767a16)
-        5.  [Suicide Quests](#orgda2e85f)
-    14. [Runes](#orgc171221)
-        1.  [Effector Runes](#org6b6aaf0)
-        2.  [Stabilizer Runes](#org2fad6f0)
-        3.  [Elemental Runes](#orgffd612c)
-        4.  [Farming Runes](#orgeb95962)
-    15. [Settlements](#orgaa3f0eb)
-        1.  [Buildings & Staff](#org4f55db9)
-    16. [Skill Brackets](#orgd31e07f)
-    17. [Spells](#org67d241a)
-        1.  [Scrolls](#orgcec3f39)
-        2.  [Spell-tombs](#orgc456fde)
-        3.  [You must have a healing spell](#orgef30d15)
-    18. [Weaponry](#org5137d3f)
-        1.  [Melee](#orge599062)
-        2.  [Magical](#org0188d0c)
-        3.  [Ranged](#orgeca118b)
-3.  [Pug's Notes](#org42a3a93)
-    1.  [The Ages](#orgc11dc3f)
-    2.  [The Magic](#org3b22a14)
-    3.  [Trick out your map!](#orgb3b4cc8)
-    4.  [Item Management](#org7953c21)
-        1.  [InShelter](#orgb840f9b)
-        2.  [Warehousing](#org39108cb)
-        3.  [In the Crucible](#org5c7b07b)
-        4.  [In General](#org4e1da04)
-    5.  [Moving out and on](#orgd4b51bd)
-    6.  [Upgrades](#org12e6d2c)
-        1.  [If you're totally nuts, enhance you shovel.](#org2b9dd91)
-    7.  [Traveling](#org671c7cf)
-    8.  [Exploring](#orge547618)
-    9.  [Difficulty](#orgb798f13)
-    10. [Finding things in daylight vision](#org749e4e9)
-        1.  [example in town:](#org44177c5)
-    11. [Climbing](#org63bbb12)
-4.  [Playing](#orgf741602)
-    1.  [/COMMANDS](#org5c11bd9)
-    2.  [KEYS!](#org858a020)
-    3.  [Talking](#orgd37b578)
-5.  [Supplemental](#orgc051c55)
-    1.  [Random Notes from Discord](#org0692106)
-        1.  [what classes do yall like the most](#org6fee122)
-    2.  [Obsolete/Guides](#org557ad08)
-        1.  [Degritone's Guide to 100k Points](#org42717cd)
-        2.  [Mantecarl's tourist guide](#org726424a)
-        3.  [From Reddit](#orgbe8da15)
-        4.  [From Wiki](#org3ffa3d9)
-    3.  [Release Notes](#orgf9cfe1e)
-        1.  [Alpha 16 Mar'21..](#orgd11b717)
-        2.  [Alpha 15 Dec'20..](#org3f371b2)
-        3.  [Void 01 Apr'19..](#org59cac53)
-        4.  [Alpha 14 May'19..](#org9b54079)
-        5.  [Alpha 13 Apr'19..](#org77286eb)
-        6.  [Alpha 12 Mar'19..](#orgee72c4f)
-        7.  [Alpha 11 Feb'19..](#org313ef15)
-        8.  [Alpha 10 May'18..](#org3fbfc40)
-    4.  [Disclaimer](#org0617461)
-    5.  [Linux](#org4513373)
-    6.  [Requirements](#org9910bc1)
-    7.  [Visualizing Waypoints](#org026607b)
+1.  [Intro](#orgaeefd8a)
+    1.  [Notes](#org94ad86c)
+    2.  [Finding](#org30971f1)
+    3.  [Credits!](#org7c02233)
+2.  [Topics](#orgd81d3f6)
+    1.  [Avatar](#org1bf0091)
+        1.  [Blights](#org124e6fd)
+        2.  [Character Stats](#org01a30dd)
+        3.  [Key fragments](#org649f879)
+        4.  [Resting](#org33e928d)
+    2.  [Classes](#orgb902fdd)
+        1.  [Initial](#org6de03cb)
+        2.  [500+](#orgc5b5bbb)
+        3.  [1000+](#orgb14bb47)
+        4.  [5000+](#org50720f9)
+        5.  [10000+](#orgdc9c019)
+        6.  [20000+](#org74379de)
+        7.  [50000+](#org93999e4)
+    3.  [Class Traits](#orgd389add)
+        1.  [Class Traits by # Spells](#orgd078880)
+        2.  [Key:](#org25393dc)
+    4.  [Damage Types](#org67a5f5c)
+        1.  [Physical](#orgd5fe87a)
+        2.  [Magical](#org288a172)
+        3.  [Elemental](#org3b2b17e)
+    5.  [Factions](#org796f608)
+        1.  [Jade circle: Social/stealth](#org02d91f2)
+        2.  [Will of the wild: Resource gathering/crafting/exploration](#orgda5db3a)
+        3.  [Radiant hand: Combat/Tanking/buffs and debuffs](#org3d2bd2a)
+    6.  [Factions Traits](#org31b3079)
+        1.  [Trait Manuals](#org16e1b36)
+    7.  [Food](#orga29edc8)
+        1.  [Cooking](#orge88d3bb)
+        2.  [Drinks](#orgb8d8afe)
+        3.  [Solid Foods](#orgbaa1d2b)
+        4.  [Specialty Foods](#orgb1dbd05)
+        5.  [When Elementally Flamed (++)](#orgbf37a0e)
+    8.  [Items](#org980a4e2)
+        1.  [Containers](#org17191b2)
+        2.  [Curios](#orge029ca5)
+        3.  [Lights](#orgac7ea39)
+        4.  [Qualities](#orgcda85a6)
+        5.  [Repairing](#org8c523dc)
+    9.  [Locations](#org4397f7f)
+        1.  [Location List](#org6d76a00)
+        2.  [Encounters](#org8c5140e)
+        3.  [Locations](#org336253c)
+        4.  [Just plain cool](#orgf820c0d)
+    10. [Materials](#orgb14dcab)
+        1.  [Wiki preamble](#org0f7e8bc)
+        2.  [Everyday materials](#org3b8a525)
+        3.  [Natural Resources](#org5d4fb83)
+        4.  [Cloths and Furs](#orgeee4db6)
+    11. [NPC's](#orgd0dff96)
+        1.  [Elder](#org5c1a5ce)
+        2.  [Nobles](#org02d3ec9)
+        3.  [Riddler](#org6f3c759)
+        4.  [Guards](#org4a008a7)
+        5.  [Townies](#org04168fe)
+        6.  [Escortees](#orgc85ecf7)
+        7.  [Champions](#org5b2bc4d)
+        8.  [Smuggler](#orgfbaceaa)
+        9.  [Trader](#org14b0a99)
+        10. [Thief](#org7f6a345)
+    12. [Party](#org8d7c91e)
+        1.  [Pets](#orgc0ea3fe)
+        2.  [Mounts](#org12f6357)
+    13. [Quests](#org43caf0f)
+        1.  [Beastslayer you!](#orgaa22fc1)
+        2.  [Desperate Times](#orgd7714f0)
+        3.  [Escort Quests](#org292818d)
+        4.  [Missing Kid Quests](#orgce059a9)
+        5.  [Suicide Quests](#org11027df)
+    14. [Runes](#org7d4b896)
+        1.  [Effector Runes](#org8b5f205)
+        2.  [Stabilizer Runes](#orge430061)
+        3.  [Elemental Runes](#orgccdb9c5)
+        4.  [Farming Runes](#orge97aacb)
+    15. [Settlements](#orgacf85f9)
+        1.  [Buildings & Staff](#org185624c)
+    16. [Skill Brackets](#org103d60a)
+    17. [Spells](#org24a8272)
+        1.  [Scrolls](#org59e1b4d)
+        2.  [Spell-tombs](#org242430b)
+        3.  [You must have a healing spell](#orgcc3b8d1)
+    18. [Weaponry](#org09186fa)
+        1.  [Melee](#orgf74dfca)
+        2.  [Magical](#org82530c0)
+        3.  [Ranged](#org49c66f8)
+3.  [Pug's Notes](#org0f39452)
+    1.  [The Ages](#org41a7db5)
+    2.  [The Magic](#orgd72d2ba)
+    3.  [Trick out your map!](#org59eaa13)
+    4.  [Item Management](#orgfbf6ee1)
+        1.  [InShelter](#orga42bac5)
+        2.  [Warehousing](#org29537de)
+        3.  [In the Crucible](#org05ac842)
+        4.  [In General](#orgc08be20)
+    5.  [Moving out and on](#org13365f9)
+    6.  [Upgrades](#org1ca6f5c)
+        1.  [If you're totally nuts, enhance you shovel.](#orgc02d6d5)
+    7.  [Traveling](#org336705e)
+    8.  [Exploring](#orgff880b0)
+    9.  [Difficulty](#orgad77b4a)
+    10. [Finding things in daylight vision](#org109adae)
+        1.  [example in town:](#org4e5a2b2)
+    11. [Climbing](#org3ef09a4)
+4.  [Playing](#org9474073)
+    1.  [/COMMANDS](#org84c5d7a)
+    2.  [KEYS!](#orga1021a2)
+    3.  [Talking](#org2a3a5e9)
+5.  [Supplemental](#org7724d9f)
+    1.  [Random Notes from Discord](#org1950ca2)
+        1.  [what classes do yall like the most](#org65ebb44)
+    2.  [Obsolete/Guides](#org9c55829)
+        1.  [Degritone's Guide to 100k Points](#orgd2ee07f)
+        2.  [Mantecarl's tourist guide](#org0f46699)
+        3.  [From Reddit](#org45f167d)
+        4.  [From Wiki](#org4b657f6)
+    3.  [Release Notes](#org41d4ac5)
+        1.  [Alpha 16 Mar'21..](#org73ce5af)
+        2.  [Alpha 15 Dec'20..](#orgb60697e)
+        3.  [Void 01 Apr'19..](#orgc6f672e)
+        4.  [Alpha 14 May'19..](#orgdae57a3)
+        5.  [Alpha 13 Apr'19..](#org6e651d8)
+        6.  [Alpha 12 Mar'19..](#org62e005f)
+        7.  [Alpha 11 Feb'19..](#orgb2d4f19)
+        8.  [Alpha 10 May'18..](#orge3f6d85)
+    4.  [Disclaimer](#orgd47ffb0)
+    5.  [Linux](#orga4765b4)
+    6.  [Requirements](#orgcf7aec0)
+    7.  [Visualizing Waypoints](#org03100f5)
 
-[2021.04.16 0.0.16.5 Patch Notes](#org159e42b)
+[2021.04.16 0.0.16.5 Patch Notes](#orga80833e)
 
 
-<a id="orgcbfc74f"></a>
+<a id="orgaeefd8a"></a>
 
 # Intro
 
@@ -161,7 +162,7 @@ If you don't know what I'm talking about, visit [FARA's Homepage](https://briani
 at these [Game-play videos](https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video).
 
 
-<a id="org6975f4e"></a>
+<a id="org94ad86c"></a>
 
 ## Notes
 
@@ -171,7 +172,7 @@ During my first play-session some years ago I hit a wall and swore to myself
 that I would beat this thing one day. And I finally have.
 
 It was not a big, triumphant, clever win. Definitely not! I played what looked
-to me like the most survivable class, the [Gatekeeper](#orgba9b392) as defensively as I could
+to me like the most survivable class, the [Gatekeeper](#org0af8e78) as defensively as I could
 and for 150 days stuck my head into dangerous places, learning and exploring as
 I went - and now that my understanding has grown, my notes and my approach to
 them is evolving too.
@@ -184,7 +185,7 @@ Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
 but they are not harmful if you're just starting out. 
 
 
-<a id="org309e785"></a>
+<a id="org30971f1"></a>
 
 ## Finding
 
@@ -225,7 +226,7 @@ Github and post a comment to trigger an email that way. Its no bother at all!
 Email will reach me most weeks.
 
 
-<a id="org099eea1"></a>
+<a id="org7c02233"></a>
 
 ## Credits!
 
@@ -240,17 +241,17 @@ detail on weapons and armors! *Ent*'s feedback helped clarify several bits of te
 considerably.
 
 
-<a id="org4e062c5"></a>
+<a id="orgd81d3f6"></a>
 
 # Topics
 
 
-<a id="org0129905"></a>
+<a id="org1bf0091"></a>
 
 ## Avatar
 
 
-<a id="orgcafbc01"></a>
+<a id="org124e6fd"></a>
 
 ### Blights
 
@@ -294,7 +295,7 @@ all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
 sure.
 
 
-<a id="org43fb398"></a>
+<a id="org01a30dd"></a>
 
 ### Character Stats
 
@@ -503,7 +504,7 @@ sure.
         inside a game!
 
 
-<a id="org6fe5c0b"></a>
+<a id="org649f879"></a>
 
 ### Key fragments
 
@@ -544,7 +545,7 @@ sure.
         decisions. decisions. /end crazy math
 
 
-<a id="org03b0257"></a>
+<a id="org33e928d"></a>
 
 ### Resting
 
@@ -581,7 +582,7 @@ Its a good idea to keep a wooden log in your inventory so you don't have to
 scrounge for one in the middle of the night while traveling!
 
 
-<a id="orgea69b11"></a>
+<a id="orgb902fdd"></a>
 
 ## Classes
 
@@ -589,7 +590,7 @@ I forgot where i stole this :( The idea is that i'll integrate the class
 relevant bits from the release notes and insights gleaned on discord here.
 
 
-<a id="org1db8c8d"></a>
+<a id="org6de03cb"></a>
 
 ### Initial
 
@@ -731,7 +732,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 0
 
 
-<a id="orgd3af9d8"></a>
+<a id="orgc5b5bbb"></a>
 
 ### 500+
 
@@ -767,7 +768,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 500
 
 
-<a id="org5182b63"></a>
+<a id="orgb14bb47"></a>
 
 ### 1000+
 
@@ -821,7 +822,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 3,000
 
 
-<a id="org0ed1b82"></a>
+<a id="org50720f9"></a>
 
 ### 5000+
 
@@ -1022,7 +1023,7 @@ relevant bits from the release notes and insights gleaned on discord here.
             -   7 Water Arrows + 1 Rejuvenation (on weapon) + 2 Poison + 2 Burning + 2 Bleeding
 
 
-<a id="org5ed9604"></a>
+<a id="orgdc9c019"></a>
 
 ### 10000+
 
@@ -1092,7 +1093,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 15,000
 
 
-<a id="org182e881"></a>
+<a id="org74379de"></a>
 
 ### 20000+
 
@@ -1193,7 +1194,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 45,000
 
 
-<a id="orgb1b68b6"></a>
+<a id="org93999e4"></a>
 
 ### 50000+
 
@@ -1371,13 +1372,13 @@ relevant bits from the release notes and insights gleaned on discord here.
          2S and 2L (in any order) and L - S - S - S
 
 
-<a id="org8bf57cc"></a>
+<a id="orgd389add"></a>
 
 ## Class Traits
 
 You have one unchangeable class trait. This is a list of them.
 
-Also see the info in the [Alpha15 release notes](#orgfb73094) and remember to check [Faction](#org16b430a)
+Also see the info in the [Alpha15 release notes](#org6d4bcd6) and remember to check [Faction](#org796f608)
 Traits through the **/factions** (aka "**F**") window.
 
 -   There are 52 Classes with Unique Traits.
@@ -1389,7 +1390,7 @@ To Come:
 -   Another column with Unlock Cost instead of stats.
 
 
-<a id="org187de56"></a>
+<a id="orgd078880"></a>
 
 ### Class Traits by # Spells
 
@@ -1416,7 +1417,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Chef](#orgbf9129d)</td>
+<td class="org-left">[Chef](#org843f090)</td>
 <td class="org-left">Gastromancy</td>
 <td class="org-right">5</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience</td>
@@ -1425,7 +1426,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Alchemist](#org0bd1946)</td>
+<td class="org-left">[Alchemist](#org24fa8b9)</td>
 <td class="org-left">Potent Potioner</td>
 <td class="org-right">4</td>
 <td class="org-left">Good Insight, Avg+ Resilience, Avg- Finesse</td>
@@ -1434,7 +1435,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Adventurer](#orgb782826)</td>
+<td class="org-left">[Adventurer](#orgced4c45)</td>
 <td class="org-left">Onward!</td>
 <td class="org-right">3</td>
 <td class="org-left">"Normal"</td>
@@ -1442,7 +1443,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Cat Whisperer](#org3783e40)</td>
+<td class="org-left">[Cat Whisperer](#org35ed2a6)</td>
 <td class="org-left">Cat Person</td>
 <td class="org-right">3</td>
 <td class="org-left">Avg- Health, Good Finesse, Avg+ Resilience, Avg- Charm</td>
@@ -1450,7 +1451,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Commander](#orga8239be)</td>
+<td class="org-left">[Commander](#org19a21e8)</td>
 <td class="org-left">Galvanizer</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity</td>
@@ -1458,7 +1459,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Earth Zealot](#org4200f20)</td>
+<td class="org-left">[Earth Zealot](#org7690658)</td>
 <td class="org-left">Magnetic Slide</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Charisma, Avg- Strength</td>
@@ -1466,7 +1467,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Equestrian](#org28b662b)</td>
+<td class="org-left">[Equestrian](#orgae36c72)</td>
 <td class="org-left">Brawler</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -1474,7 +1475,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Fortune Teller](#orgf35dc47)</td>
+<td class="org-left">[Fortune Teller](#org1519533)</td>
 <td class="org-left">Foresight</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Charisma, Avg- Constitution</td>
@@ -1482,7 +1483,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Haberdasher](#org36fb464)</td>
+<td class="org-left">[Haberdasher](#orge677a74)</td>
 <td class="org-left">Hats on to Me</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Charisma, Avg+ Intelligence, Avg- Strength</td>
@@ -1490,7 +1491,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Jester](#orgbbe14c7)</td>
+<td class="org-left">[Jester](#orgdf03976)</td>
 <td class="org-left">Comedic Balance</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Intelligence</td>
@@ -1498,7 +1499,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Merchant](#org624d8d1)</td>
+<td class="org-left">[Merchant](#org2745e8a)</td>
 <td class="org-left">Rags to Riches</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity</td>
@@ -1506,7 +1507,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Plague Doctor](#org5e4b7f7)</td>
+<td class="org-left">[Plague Doctor](#orgc004ff1)</td>
 <td class="org-left">Epidemic</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Wisdom, Avg+ Strength, Avg- Strength</td>
@@ -1514,7 +1515,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Politician](#orgb23984d)</td>
+<td class="org-left">[Politician](#orgfc374f6)</td>
 <td class="org-left">Polarize</td>
 <td class="org-right">3</td>
 <td class="org-left">High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom</td>
@@ -1522,7 +1523,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Scholar](#orgdebecea)</td>
+<td class="org-left">[Scholar](#org1bc3084)</td>
 <td class="org-left">Gift of Knowledge</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength</td>
@@ -1530,7 +1531,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Scoundrel](#org860de73)</td>
+<td class="org-left">[Scoundrel](#org160e1fd)</td>
 <td class="org-left">Devious Plot</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Intelligence, Avg+ Charisma, Avg- Constitution</td>
@@ -1538,7 +1539,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Spellthief](#orgc00abe1)</td>
+<td class="org-left">[Spellthief](#org681f0ed)</td>
 <td class="org-left">Intellectual Forgery</td>
 <td class="org-right">3</td>
 <td class="org-left">Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength</td>
@@ -1546,7 +1547,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Witch](#org118c9d3)</td>
+<td class="org-left">[Witch](#orgf64aa08)</td>
 <td class="org-left">Wicked Form</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength</td>
@@ -1555,7 +1556,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Beekeeper](#org148eaa0)</td>
+<td class="org-left">[Beekeeper](#org0b49307)</td>
 <td class="org-left">Ancient Resistance</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Resilience, Avg+ Insight, Avg- Strength</td>
@@ -1563,7 +1564,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Bloodweaver](#orgbb0781b)</td>
+<td class="org-left">[Bloodweaver](#org1ea1f15)</td>
 <td class="org-left">Blood Pact</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience</td>
@@ -1571,7 +1572,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Bodybuilder](#org7a70bc2)</td>
+<td class="org-left">[Bodybuilder](#orgdbc9112)</td>
 <td class="org-left">Solar Flexus</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Charm, Avg+ Strength, Avg- Insight</td>
@@ -1579,7 +1580,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Botanist](#org29abce1)</td>
+<td class="org-left">[Botanist](#orge2635a4)</td>
 <td class="org-left">Familiar Phytology</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Strength, Avg- Resilience</td>
@@ -1587,7 +1588,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Demon Slayer](#orga02cb2d)</td>
+<td class="org-left">[Demon Slayer](#orgaf9ce7a)</td>
 <td class="org-left">Know Thy Foe</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Strength, Avg- Charisma</td>
@@ -1595,7 +1596,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Dervish](#org21b5648)</td>
+<td class="org-left">[Dervish](#orgf377a74)</td>
 <td class="org-left">Dangerous Dance</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Strength, Avg- Intelligence</td>
@@ -1603,7 +1604,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Duelist](#org7846719)</td>
+<td class="org-left">[Duelist](#org4913006)</td>
 <td class="org-left">En Garde</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -1611,7 +1612,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Elemancer](#org98d0832)</td>
+<td class="org-left">[Elemancer](#orgdfdc4c3)</td>
 <td class="org-left">Arcane Prodigy</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Wisdom, Avg- Dexterity</td>
@@ -1619,7 +1620,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Executioner](#org9149cad)</td>
+<td class="org-left">[Executioner](#orgb6e5acd)</td>
 <td class="org-left">Soothslayer</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Strength, Avg+ Constitution, Avg- Dexterity</td>
@@ -1627,7 +1628,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Fishmonger](#org42aa603)</td>
+<td class="org-left">[Fishmonger](#orgbf0bee2)</td>
 <td class="org-left">Aquatic Inquisitor</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Wisdom, Avg+ Intelligence, Avg- Dexterity</td>
@@ -1635,7 +1636,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gambler](#orga46b30c)</td>
+<td class="org-left">[Gambler](#orga2b1876)</td>
 <td class="org-left">Luck of the Draw</td>
 <td class="org-right">2</td>
 <td class="org-left">High Health, Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -1643,7 +1644,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gamestalker](#org59250ee)</td>
+<td class="org-left">[Gamestalker](#orgdf22af3)</td>
 <td class="org-left">Hawkeye</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Strength, Avg- Charisma</td>
@@ -1651,7 +1652,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gatekeeper](#orgba9b392)</td>
+<td class="org-left">[Gatekeeper](#org0af8e78)</td>
 <td class="org-left">Besiegement</td>
 <td class="org-right">2</td>
 <td class="org-left">High Health, Good Constitution, Avg+ Intelligence, Avg- Charisma</td>
@@ -1659,7 +1660,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gunslinger](#org100df24)</td>
+<td class="org-left">[Gunslinger](#org2af41fb)</td>
 <td class="org-left">Taegunsho</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Intelligence, Avg- Wisdom</td>
@@ -1667,7 +1668,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Homesteader](#org14b69d1)</td>
+<td class="org-left">[Homesteader](#org5a0bce7)</td>
 <td class="org-left">Sunriser</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Constitution, Avg+ Strength, Avg- Charisma</td>
@@ -1675,7 +1676,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Illusionist](#org87652c6)</td>
+<td class="org-left">[Illusionist](#org2730b95)</td>
 <td class="org-left">Now You See Me</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -1683,7 +1684,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Juggernaut](#org8ed94a0)</td>
+<td class="org-left">[Juggernaut](#org4a31f5f)</td>
 <td class="org-left">Unstoppable</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Constitution, Avg+ Dexterity, Avg- Intelligence</td>
@@ -1691,7 +1692,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Kensai](#org80281ee)</td>
+<td class="org-left">[Kensai](#org44f45f0)</td>
 <td class="org-left">Samurai Showdown</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Dexterity, Avg+ Wisdom, Avg- Intelligence</td>
@@ -1699,7 +1700,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Kung Fu Master](#orgb969143)</td>
+<td class="org-left">[Kung Fu Master](#org045490f)</td>
 <td class="org-left">Fluid Movement</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Dexterity, Avg+ Strength, Avg- Constitution</td>
@@ -1707,7 +1708,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Mad Scientist](#org1821eb1)</td>
+<td class="org-left">[Mad Scientist](#org6bd5704)</td>
 <td class="org-left">Gone Too Far</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Intelligence, Avg+ Charisma, Avg- Wisdom</td>
@@ -1715,7 +1716,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Pit Fighter](#org3a595b8)</td>
+<td class="org-left">[Pit Fighter](#orgd836bde)</td>
 <td class="org-left">Brawler</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Strength, Avg- Intelligence</td>
@@ -1723,7 +1724,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Ragamuffin](#org96a02a3)</td>
+<td class="org-left">[Ragamuffin](#org6d881e6)</td>
 <td class="org-left">Sticky Fingers</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -1731,7 +1732,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Reaper](#orged1501b)</td>
+<td class="org-left">[Reaper](#org5966e26)</td>
 <td class="org-left">Last Harvest</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Wisdom, Avg- Strength</td>
@@ -1739,7 +1740,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Wildheart](#org2907d4c)</td>
+<td class="org-left">[Wildheart](#org27bd245)</td>
 <td class="org-left">Killer Instincts</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Wisdom, Avg+ Dexterity, Avg- Intelligence</td>
@@ -1748,7 +1749,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Engineer](#org2dfb75e)</td>
+<td class="org-left">[Engineer](#org7ea7883)</td>
 <td class="org-left">Fixer Upper</td>
 <td class="org-right">1</td>
 <td class="org-left">Good Intelligence, Avg+ Dexterity, Avg- Charisma</td>
@@ -1756,7 +1757,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Potter](#orgbef98cb)</td>
+<td class="org-left">[Potter](#orgc633c7b)</td>
 <td class="org-left">Earthen Bond</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Strength, Avg- Dexterity</td>
@@ -1764,7 +1765,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Pugilist](#org4357eb2)</td>
+<td class="org-left">[Pugilist](#org5b29bc7)</td>
 <td class="org-left">The Greatest</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Strength, Avg+ Dexterity, Avg- Wisdom</td>
@@ -1772,7 +1773,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Rift Dancer](#org205a9a7)</td>
+<td class="org-left">[Rift Dancer](#orgfcf79bb)</td>
 <td class="org-left">Astral Calling</td>
 <td class="org-right">1</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -1780,7 +1781,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Soldier](#orga894739)</td>
+<td class="org-left">[Soldier](#org7d59b41)</td>
 <td class="org-left">Dogged March</td>
 <td class="org-right">1</td>
 <td class="org-left">High Health, Good Strength, Avg+ Constitution, Avg- Wisdom</td>
@@ -1788,7 +1789,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Viking](#org37abf1d)</td>
+<td class="org-left">[Viking](#org3339b2a)</td>
 <td class="org-left">Thunderous Resilience</td>
 <td class="org-right">1</td>
 <td class="org-left">Good Strength, Avg+ Constitution, Avg- Intelligence</td>
@@ -1796,7 +1797,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Wrestler](#org8034788)</td>
+<td class="org-left">[Wrestler](#org9a7bf36)</td>
 <td class="org-left">Muscle Spirit</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Strength, Avg+ Charisma, Avg- Intelligence</td>
@@ -1805,7 +1806,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Artificer](#org904c8e9)</td>
+<td class="org-left">[Artificer](#orga572a1c)</td>
 <td class="org-left">Spellgrafting</td>
 <td class="org-right">None</td>
 <td class="org-left">Good Resilience, Avg+ Insight, Avg- Strength</td>
@@ -1813,7 +1814,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Rhapsodist](#org0250fe9)</td>
+<td class="org-left">[Rhapsodist](#orgf641f5a)</td>
 <td class="org-left">Captivating Crescendo</td>
 <td class="org-right">None</td>
 <td class="org-left">Avg+ Health, Good Charisma, Avg+ Wisdom, Avg- Constitution</td>
@@ -1821,7 +1822,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Tourist](#org207ae3c)</td>
+<td class="org-left">[Tourist](#org183dcdd)</td>
 <td class="org-left">Sightseer</td>
 <td class="org-right">None</td>
 <td class="org-left">Low Health</td>
@@ -1829,7 +1830,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Unemployed](#orgde8d2f7)</td>
+<td class="org-left">[Unemployed](#orgf612617)</td>
 <td class="org-left">Boundless Potential</td>
 <td class="org-right">None</td>
 <td class="org-left">"Normal"</td>
@@ -1838,7 +1839,7 @@ To Come:
 </table>
 
 
-<a id="orgf009c64"></a>
+<a id="org25393dc"></a>
 
 ### Key:
 
@@ -1865,7 +1866,7 @@ To Come:
 </table>
 
 
-<a id="org3c504a4"></a>
+<a id="org67a5f5c"></a>
 
 ## Damage Types
 
@@ -1878,7 +1879,7 @@ Magical attacks are countered by your elemental attunement which is enhanced by
 your Insight? and a shield spell. Did I get that right?
 
 
-<a id="orgcd60c05"></a>
+<a id="orgd5fe87a"></a>
 
 ### Physical
 
@@ -1899,7 +1900,7 @@ healing spell work ever so much better for you &#x2013; and of course weaken you
 foe's water/healing attunement as well.
 
 
-<a id="org529646a"></a>
+<a id="org288a172"></a>
 
 ### Magical
 
@@ -1911,7 +1912,7 @@ if you use an arcane shield or other rare arcane infused elements you do more
 damage and resist arcane spells
 
 
-<a id="org7f47e53"></a>
+<a id="org3b2b17e"></a>
 
 ### Elemental
 
@@ -2085,7 +2086,7 @@ The exact word used might vary between the spells and gear, for example:
 -   i copied the spreadsheet, completed with the aid of the good people on discord.
 
 
-<a id="org16b430a"></a>
+<a id="org796f608"></a>
 
 ## Factions
 
@@ -2170,7 +2171,7 @@ See the **/factions** (aka "**F**") window for a list of Traits and the rank req
 -   Fortresses are ok, just not castles
 
 
-<a id="org4bffd29"></a>
+<a id="org02d91f2"></a>
 
 ### Jade circle: Social/stealth
 
@@ -2178,7 +2179,7 @@ Is a really good faction for stealthy characters
 (has one of the best traits for spellcasters)
 
 
-<a id="orgf3c2e33"></a>
+<a id="orgda5db3a"></a>
 
 ### Will of the wild: Resource gathering/crafting/exploration
 
@@ -2190,7 +2191,7 @@ Traits will give you options in crafting such as:
 -   Increases materials gathered from foraging skills
 
 
-<a id="orgbd8821a"></a>
+<a id="org3d2bd2a"></a>
 
 ### Radiant hand: Combat/Tanking/buffs and debuffs
 
@@ -2199,7 +2200,7 @@ Focusing on Strength? go for the hand!
 The three first radiant hand traits give you DR against piercing, slashing or bludgeoning damage
 
 
-<a id="org547fb9f"></a>
+<a id="org31b3079"></a>
 
 ## Factions Traits
 
@@ -2217,11 +2218,11 @@ trait, you have two minor trait slots and one major trait slot you get to pickup
 and repeatedly change out through study and with the help of your Faction.
 
 > On your labyrinthine journeys you're likely to find Manuals that bestow Traits
-> upon you. Thus there's no need to rush headlong into alliances with [Factions](#org16b430a)
+> upon you. Thus there's no need to rush headlong into alliances with [Factions](#org796f608)
 > who's ultimate intentions you can't ever be sure about anyway.
 
 
-<a id="orgaedc47b"></a>
+<a id="org16e1b36"></a>
 
 ### Trait Manuals
 
@@ -2231,7 +2232,7 @@ I suppose the higher ranked manuals are less frequent.
 -   Finding/Grinding Labyrinths
 
 
-<a id="org76184e3"></a>
+<a id="orga29edc8"></a>
 
 ## Food
 
@@ -2242,43 +2243,120 @@ I suppose the higher ranked manuals are less frequent.
 -   Buffs from food **replace** each other.
 -   mixtures, dishes and booze can drop from mobs and crates.
 
-[Alchemist](#org0bd1946)'s **Mixtures** provide higher stat bonuses for fewer ingredients and can
+[Alchemist](#org24fa8b9)'s **Mixtures** provide higher stat bonuses for fewer ingredients and can
 be consumed much faster. Throwing Mixtures at enemies will lower the relevant
 stats, and throwing Mixtures at other entities will raise the relevant stats.
 
-[Botanists](#org29abce1) can do all sorts of magic by feeding their babies just about anything.
+[Botanists](#orge2635a4) can do all sorts of magic by feeding their babies just about anything.
 Their babies evolve when they feed them. Your pets wont.
 
-[Chef](#orgbf9129d)'s **Dishes** provide stat bonuses for four times the duration of Meals, and
+[Chef](#org843f090)'s **Dishes** provide stat bonuses for four times the duration of Meals, and
 grant an effect which fixes the eater's mood to max for an extended period.
 
 Eating and drinking (**/eat**, **/drink**) take time. **Water** and **Mixtures**
 are probably hugely important for spellcasters in dire situations, but I'd need
 an expert to chime in with their experience as I'm just guessing here.
 
+Whats missing?
 
-<a id="orgfb5dd45"></a>
+-   Is someone tracking the biomes for these things?
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Foodstuff</th>
+<th scope="col" class="org-left">Meal Name</th>
+<th scope="col" class="org-left">Buffs Attribute</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Alcohol</td>
+<td class="org-left">Hearty</td>
+<td class="org-left">++Resilience</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Fish</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Flowers</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">++Charm</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Fruits</td>
+<td class="org-left">Zesty</td>
+<td class="org-left">++Finesse</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Herbs & Spices</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Meat</td>
+<td class="org-left">Complex</td>
+<td class="org-left">++Insight</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Tree Seeds</td>
+<td class="org-left">Robust</td>
+<td class="org-left">++Strength</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Vegetables</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">++Strength?</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orge88d3bb"></a>
 
 ### Cooking
 
 Everyone can **/harvest** trees and shrubbery, then **/cook** solid **Meals** from
-single [Ingredients](#org03ebb78) in Campfires and Firepits to restore stamina and heal
+single Ingredients in Campfires and Firepits to restore stamina and heal
 themselves and their allies. The real freaks improve on that like so:
 
--   [Alchemists](#org0bd1946) produce liquid **Mixtures** instead of **Meals** when cooking.
--   [Chefs](#orgbf9129d) produce **Dishes** instead of **Meals** when cooking.
+-   [Alchemists](#org24fa8b9) produce liquid **Mixtures** instead of **Meals** when cooking.
+-   [Chefs](#org843f090) produce **Dishes** instead of **Meals** when cooking.
 
 I suppose Campfires and Firepits differ in cooking speed/capacity.
 
 -   Campfires are destroyed by immolation more quickly
 
 
-<a id="org03ebb78"></a>
+<a id="orgb8d8afe"></a>
 
-### Ingredients
-
--   Whats missing?
--   Is someone tracking the biomes for these things?
+### Drinks
 
 1.  Drinkable
 
@@ -2308,39 +2386,36 @@ I suppose Campfires and Firepits differ in cooking speed/capacity.
     
     <tr>
     <td class="org-left">[Milk](https://en.wikipedia.com/wiki/Milk)</td>
-    <td class="org-left">..think about it</td>
+    <td class="org-left">Bucket? ..think about it</td>
     </tr>
     
     
     <tr>
     <td class="org-left">[Venom](https://en.wikipedia.com/wiki/Venom)</td>
-    <td class="org-left">Who's been poisoning you?</td>
+    <td class="org-left">Drink? Who's been poisoning you?</td>
     </tr>
     </tbody>
     </table>
 
 2.  Alcohol
 
-    ..is flammable and becomes a **Hearty Meal** boosting **++Resilience** when you cook it,
-    makes total sense to me.
-    
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <tbody>
-    <tr>
-    <td class="org-left">Bottle of</td>
-    <td class="org-left">[Bourbon](https://en.wikipedia.com/wiki/Bourbon), [Gin](https://en.wikipedia.com/wiki/Gin), [Moonshine](https://en.wikipedia.com/wiki/Moonshine), [Rum](https://en.wikipedia.com/wiki/Rum), [Vodka](https://en.wikipedia.com/wiki/Vodka), [Whiskey](https://en.wikipedia.com/wiki/Whiskey), [Wine](https://en.wikipedia.com/wiki/Wine)</td>
-    </tr>
-    </tbody>
-    </table>
+    Bottles of
+    [Bourbon](https://en.wikipedia.com/wiki/Bourbon),
+    [Gin](https://en.wikipedia.com/wiki/Gin),
+    [Moonshine](https://en.wikipedia.com/wiki/Moonshine),
+    [Rum](https://en.wikipedia.com/wiki/Rum),
+    [Vodka](https://en.wikipedia.com/wiki/Vodka),
+    [Whiskey](https://en.wikipedia.com/wiki/Whiskey) &
+    [Wine](https://en.wikipedia.com/wiki/Wine)
+    are flammable and become **Hearty Meals** boosting **++Resilience** when you cook them.
+    Makes total sense to me.
 
-3.  Animal Products
+
+<a id="orgbaa1d2b"></a>
+
+### Solid Foods
+
+1.  Meat
 
     <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
     
@@ -2362,7 +2437,7 @@ I suppose Campfires and Firepits differ in cooking speed/capacity.
     <th scope="col" class="org-left">Meal</th>
     <th scope="col" class="org-left">Buff</th>
     <th scope="col" class="org-left">Attribute</th>
-    <th scope="col" class="org-right">&#xa0;</th>
+    <th scope="col" class="org-right">Size</th>
     </tr>
     </thead>
     
@@ -2374,1023 +2449,239 @@ I suppose Campfires and Firepits differ in cooking speed/capacity.
     <td class="org-left">Insight</td>
     <td class="org-right">1.0</td>
     </tr>
-    
-    
-    <tr>
-    <td class="org-left">Eggs</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-right">0.1</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">Honey</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-right">0.1</td>
-    </tr>
     </tbody>
     </table>
-    
-    -   Venom Sacks; not sure if they are cookable.
-    -   Salted Meat exists as well, not sure that its cookable.
-    
-    Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road
 
-4.  Tree-Seeds
+2.  Fish
 
-    Would love biome info on all this stuff!
-    
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <thead>
-    <tr>
-    <th scope="col" class="org-left">Tree</th>
-    <th scope="col" class="org-left">Meal</th>
-    <th scope="col" class="org-left">Buff</th>
-    <th scope="col" class="org-left">Attribute</th>
-    </tr>
-    </thead>
-    
-    <tbody>
-    <tr>
-    <td class="org-left">[Alder](https://en.wikipedia.com/wiki/Alder)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Ash](https://en.wikipedia.com/wiki/Ash)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Aspen](https://en.wikipedia.com/wiki/Aspen)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Birch](https://en.wikipedia.com/wiki/Birch)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Buckeye](https://en.wikipedia.com/wiki/Buckeye)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Buckthorn](https://en.wikipedia.com/wiki/Buckthorn)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Catalpa](https://en.wikipedia.com/wiki/Catalpa)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Catalpa](https://en.wikipedia.com/wiki/Catalpa)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cedar](https://en.wikipedia.com/wiki/Cedar)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Chestnut](https://en.wikipedia.com/wiki/Chestnut)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Chinkapin](https://en.wikipedia.com/wiki/Chinkapin)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cottonwood](https://en.wikipedia.com/wiki/Cottonwood)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cypress](https://en.wikipedia.com/wiki/Cypress)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Dogwood](https://en.wikipedia.com/wiki/Dogwood)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Elm](https://en.wikipedia.com/wiki/Elm)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Fir](https://en.wikipedia.com/wiki/Fir)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Holly](https://en.wikipedia.com/wiki/Holly)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Juniper](https://en.wikipedia.com/wiki/Juniper)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Maple](https://en.wikipedia.com/wiki/Maple)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Oak](https://en.wikipedia.com/wiki/Oak)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Pine](https://en.wikipedia.com/wiki/Pine)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Poplar](https://en.wikipedia.com/wiki/Poplar)</td>
-    <td class="org-left">Robust</td>
-    <td class="org-left">++</td>
-    <td class="org-left">Strength</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Redwood](https://en.wikipedia.com/wiki/Redwood)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Spruce](https://en.wikipedia.com/wiki/Spruce)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Sycamore](https://en.wikipedia.com/wiki/Sycamore)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Willow](https://en.wikipedia.com/wiki/Willow)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    -   All seeds give ++STR
-    
-    -   Pear Trees appear to give logs perhaps <20% of the time - if the one map i
-        cleared counts.
+    [Anchovy](https://en.wikipedia.com/wiki/Anchovy),
+    [Butterfly Fish](https://en.wikipedia.com/wiki/Butterfly Fish),
+    [Cod](https://en.wikipedia.com/wiki/Cod),
+    [Cuttlefish](https://en.wikipedia.com/wiki/Cuttlefish),
+    [Grouper](https://en.wikipedia.com/wiki/Grouper),
+    [Sturgeon](https://en.wikipedia.com/wiki/Sturgeon),
+    [Swordfish](https://en.wikipedia.com/wiki/Swordfish) &
+    [Tuna](https://en.wikipedia.com/wiki/Tuna) produce &#x2026; Meals.
 
-5.  Fruits
+3.  Tree-Seeds
 
-    Some of these are very common
+    [Alder](https://en.wikipedia.com/wiki/Alder), 
+    [Ash](https://en.wikipedia.com/wiki/Ash), 
+    [Aspen](https://en.wikipedia.com/wiki/Aspen), 
+    [Birch](https://en.wikipedia.com/wiki/Birch), 
+    [Buckeye](https://en.wikipedia.com/wiki/Buckeye), 
+    [Buckthorn](https://en.wikipedia.com/wiki/Buckthorn), 
+    [Catalpa](https://en.wikipedia.com/wiki/Catalpa), 
+    [Catalpa](https://en.wikipedia.com/wiki/Catalpa), 
+    [Cedar](https://en.wikipedia.com/wiki/Cedar), 
+    [Chestnut](https://en.wikipedia.com/wiki/Chestnut), 
+    [Chinkapin](https://en.wikipedia.com/wiki/Chinkapin), 
+    [Cottonwood](https://en.wikipedia.com/wiki/Cottonwood), 
+    [Cypress](https://en.wikipedia.com/wiki/Cypress), 
+    [Dogwood](https://en.wikipedia.com/wiki/Dogwood), 
+    [Elm](https://en.wikipedia.com/wiki/Elm), 
+    [Fir](https://en.wikipedia.com/wiki/Fir), 
+    [Holly](https://en.wikipedia.com/wiki/Holly), 
+    [Juniper](https://en.wikipedia.com/wiki/Juniper), 
+    [Maple](https://en.wikipedia.com/wiki/Maple), 
+    [Oak](https://en.wikipedia.com/wiki/Oak), 
+    [Pine](https://en.wikipedia.com/wiki/Pine), 
+    [Poplar](https://en.wikipedia.com/wiki/Poplar), 
+    [Redwood](https://en.wikipedia.com/wiki/Redwood), 
+    [Spruce](https://en.wikipedia.com/wiki/Spruce), 
+    [Sycamore](https://en.wikipedia.com/wiki/Sycamore) &
+    [Willow](https://en.wikipedia.com/wiki/Willow) seeds produce **Robust ++Strength Meals**
     
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <thead>
-    <tr>
-    <th scope="col" class="org-left">Fruit</th>
-    <th scope="col" class="org-left">Meal</th>
-    <th scope="col" class="org-left">Buff</th>
-    <th scope="col" class="org-left">Attribute</th>
-    </tr>
-    </thead>
-    
-    <tbody>
-    <tr>
-    <td class="org-left">[Apple](https://en.wikipedia.com/wiki/Apple)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Avocado](https://en.wikipedia.com/wiki/Avocado)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Banana](https://en.wikipedia.com/wiki/Banana)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Blackberry](https://en.wikipedia.com/wiki/Blackberry)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Blueberry](https://en.wikipedia.com/wiki/Blueberry)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cherry](https://en.wikipedia.com/wiki/Cherry)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Coconut](https://en.wikipedia.com/wiki/Coconut)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Grape](https://en.wikipedia.com/wiki/Grape)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Kiwi](https://en.wikipedia.com/wiki/Kiwi)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Lemon](https://en.wikipedia.com/wiki/Lemon)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Lime](https://en.wikipedia.com/wiki/Lime)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Mango](https://en.wikipedia.com/wiki/Mango)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Orange](https://en.wikipedia.com/wiki/Orange)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Peach](https://en.wikipedia.com/wiki/Peach)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Pear](https://en.wikipedia.com/wiki/Pear)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Pineapple](https://en.wikipedia.com/wiki/Pineapple)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Raspberry](https://en.wikipedia.com/wiki/Raspberry)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Strawberry](https://en.wikipedia.com/wiki/Strawberry)</td>
-    <td class="org-left">Zesty</td>
-    <td class="org-left">++</td>
-    <td class="org-left">Finesse</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Watermelon](https://en.wikipedia.com/wiki/Watermelon)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    -   All fruits give ++FIN
-    -   Likely that they are all called zesty
+    -   Pear Trees appear to give logs rarely.
+        -   ~20% in one map i tracked 'em.
 
-6.  Vegetables
+4.  Fruits
 
-    Yes, I know about Tomatoes..
-    
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <thead>
-    <tr>
-    <th scope="col" class="org-left">Vegetable</th>
-    <th scope="col" class="org-left">Meal</th>
-    <th scope="col" class="org-left">Buff</th>
-    <th scope="col" class="org-left">Attribute</th>
-    </tr>
-    </thead>
-    
-    <tbody>
-    <tr>
-    <td class="org-left">[Artichoke](https://en.wikipedia.com/wiki/Artichoke)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cabbage](https://en.wikipedia.com/wiki/Cabbage)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Carrot](https://en.wikipedia.com/wiki/Carrot)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cauliflour](https://en.wikipedia.com/wiki/Cauliflour)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Chili](https://en.wikipedia.com/wiki/Chili) Pepper</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Corn](https://en.wikipedia.com/wiki/Corn)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Cucumber](https://en.wikipedia.com/wiki/Cucumber)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Eggplant](https://en.wikipedia.com/wiki/Eggplant)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Garlic](https://en.wikipedia.com/wiki/Garlic)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Kale](https://en.wikipedia.com/wiki/Kale)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Lettuce](https://en.wikipedia.com/wiki/Lettuce)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Okra](https://en.wikipedia.com/wiki/Okra)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Onion](https://en.wikipedia.com/wiki/Onion)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Peas](https://en.wikipedia.com/wiki/Peas)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Potato](https://en.wikipedia.com/wiki/Potato)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Pumpkin](https://en.wikipedia.com/wiki/Pumpkin)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Radish](https://en.wikipedia.com/wiki/Radish)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Red](https://en.wikipedia.com/wiki/Red) Pepper</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Spinach](https://en.wikipedia.com/wiki/Spinach)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Tomato](https://en.wikipedia.com/wiki/Tomato)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Turnip](https://en.wikipedia.com/wiki/Turnip)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    -   likely that all vegies buff str
+    [Apple](https://en.wikipedia.com/wiki/Apple), 
+    [Avocado](https://en.wikipedia.com/wiki/Avocado), 
+    [Banana](https://en.wikipedia.com/wiki/Banana), 
+    [Blackberry](https://en.wikipedia.com/wiki/Blackberry), 
+    [Blueberry](https://en.wikipedia.com/wiki/Blueberry), 
+    [Cherry](https://en.wikipedia.com/wiki/Cherry), 
+    [Coconut](https://en.wikipedia.com/wiki/Coconut), 
+    [Grape](https://en.wikipedia.com/wiki/Grape), 
+    [Kiwi](https://en.wikipedia.com/wiki/Kiwi), 
+    [Lemon](https://en.wikipedia.com/wiki/Lemon), 
+    [Lime](https://en.wikipedia.com/wiki/Lime), 
+    [Mango](https://en.wikipedia.com/wiki/Mango), 
+    [Orange](https://en.wikipedia.com/wiki/Orange), 
+    [Peach](https://en.wikipedia.com/wiki/Peach), 
+    [Pear](https://en.wikipedia.com/wiki/Pear), 
+    [Pineapple](https://en.wikipedia.com/wiki/Pineapple), 
+    [Raspberry](https://en.wikipedia.com/wiki/Raspberry), 
+    [Strawberry](https://en.wikipedia.com/wiki/Strawberry) &
+    [Watermelon](https://en.wikipedia.com/wiki/Watermelon) produce Zesty ++Finesse Meals.
 
-7.  Flowers
+5.  Vegetables
+
+    [Artichoke](https://en.wikipedia.com/wiki/Artichoke), 
+    [Cabbage](https://en.wikipedia.com/wiki/Cabbage), 
+    [Carrot](https://en.wikipedia.com/wiki/Carrot), 
+    [Cauliflour](https://en.wikipedia.com/wiki/Cauliflour), 
+    [Chili Pepper](https://en.wikipedia.com/wiki/Chili), 
+    [Corn](https://en.wikipedia.com/wiki/Corn), 
+    [Cucumber](https://en.wikipedia.com/wiki/Cucumber), 
+    [Eggplant](https://en.wikipedia.com/wiki/Eggplant), 
+    [Garlic](https://en.wikipedia.com/wiki/Garlic), 
+    [Kale](https://en.wikipedia.com/wiki/Kale), 
+    [Lettuce](https://en.wikipedia.com/wiki/Lettuce), 
+    [Okra](https://en.wikipedia.com/wiki/Okra), 
+    [Onion](https://en.wikipedia.com/wiki/Onion), 
+    [Peas](https://en.wikipedia.com/wiki/Peas), 
+    [Potato](https://en.wikipedia.com/wiki/Potato), 
+    [Pumpkin](https://en.wikipedia.com/wiki/Pumpkin), 
+    [Radish](https://en.wikipedia.com/wiki/Radish), 
+    [Red Pepper](https://en.wikipedia.com/wiki/Red), 
+    [Spinach](https://en.wikipedia.com/wiki/Spinach), 
+    [Tomato](https://en.wikipedia.com/wiki/Tomato) & 
+    [Turnip](https://en.wikipedia.com/wiki/Turnip) produce xx ++Strength Meals.
+
+6.  Flowers
 
     Rose & Chrysanthemum Salad!
     
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <thead>
-    <tr>
-    <th scope="col" class="org-left">Flower</th>
-    <th scope="col" class="org-left">Meal</th>
-    <th scope="col" class="org-left">Buff</th>
-    <th scope="col" class="org-left">Attribute</th>
-    </tr>
-    </thead>
-    
-    <tbody>
-    <tr>
-    <td class="org-left">[Amaryllis](https://en.wikipedia.com/wiki/Amaryllis)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Anemone](https://en.wikipedia.com/wiki/Anemone)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Begonina](https://en.wikipedia.com/wiki/Begonina)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Bergamot](https://en.wikipedia.com/wiki/Bergamot)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Bluebell](https://en.wikipedia.com/wiki/Bluebell)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Buttercups](https://en.wikipedia.com/wiki/Buttercups)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Carnation](https://en.wikipedia.com/wiki/Carnation)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Chrysanthemum](https://en.wikipedia.com/wiki/Chrysanthemum)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Daffodil](https://en.wikipedia.com/wiki/Daffodil)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Foxglove](https://en.wikipedia.com/wiki/Foxglove)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Holly](https://en.wikipedia.com/wiki/Holly)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Hyacinth](https://en.wikipedia.com/wiki/Hyacinth)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Lavender](https://en.wikipedia.com/wiki/Lavender)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Orchid](https://en.wikipedia.com/wiki/Orchid)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Primrose](https://en.wikipedia.com/wiki/Primrose)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Rose](https://en.wikipedia.com/wiki/Rose)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Sunflower](https://en.wikipedia.com/wiki/Sunflower)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Thistle](https://en.wikipedia.com/wiki/Thistle)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Tulip](https://en.wikipedia.com/wiki/Tulip)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Violet](https://en.wikipedia.com/wiki/Violet)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    </tbody>
-    </table>
-    
-    -   likely that all flowers buff charm
+    [Amaryllis](https://en.wikipedia.com/wiki/Amaryllis), 
+    [Anemone](https://en.wikipedia.com/wiki/Anemone), 
+    [Begonina](https://en.wikipedia.com/wiki/Begonina), 
+    [Bergamot](https://en.wikipedia.com/wiki/Bergamot), 
+    [Bluebell](https://en.wikipedia.com/wiki/Bluebell), 
+    [Buttercups](https://en.wikipedia.com/wiki/Buttercups), 
+    [Carnation](https://en.wikipedia.com/wiki/Carnation), 
+    [Chrysanthemum](https://en.wikipedia.com/wiki/Chrysanthemum), 
+    [Daffodil](https://en.wikipedia.com/wiki/Daffodil), 
+    [Foxglove](https://en.wikipedia.com/wiki/Foxglove), 
+    [Holly](https://en.wikipedia.com/wiki/Holly), 
+    [Hyacinth](https://en.wikipedia.com/wiki/Hyacinth), 
+    [Lavender](https://en.wikipedia.com/wiki/Lavender), 
+    [Orchid](https://en.wikipedia.com/wiki/Orchid), 
+    [Primrose](https://en.wikipedia.com/wiki/Primrose), 
+    [Rose](https://en.wikipedia.com/wiki/Rose), 
+    [Sunflower](https://en.wikipedia.com/wiki/Sunflower), 
+    [Thistle](https://en.wikipedia.com/wiki/Thistle), 
+    [Tulip](https://en.wikipedia.com/wiki/Tulip) &
+    [Violet](https://en.wikipedia.com/wiki/Violet) produce xx ++Charisma Meals.
 
-8.  Plants
+7.  Herbs & Spices
 
-    Herbs, Spices
-    
-    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    
-    
-    <colgroup>
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    
-    <col  class="org-left" />
-    </colgroup>
-    <thead>
-    <tr>
-    <th scope="col" class="org-left">Plant</th>
-    <th scope="col" class="org-left">Meal</th>
-    <th scope="col" class="org-left">Buff</th>
-    <th scope="col" class="org-left">Attribute</th>
-    </tr>
-    </thead>
-    
-    <tbody>
-    <tr>
-    <td class="org-left">[Amaranth](https://en.wikipedia.com/wiki/Amaranth)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Chives](https://en.wikipedia.com/wiki/Chives)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Parsley](https://en.wikipedia.com/wiki/Parsley)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Basil](https://en.wikipedia.com/wiki/Basil)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Rosemary](https://en.wikipedia.com/wiki/Rosemary)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Thyme](https://en.wikipedia.com/wiki/Thyme)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Oregano](https://en.wikipedia.com/wiki/Oregano)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Goblingrass](https://runesofmagic.fandom.com/wiki/Goblin_Grass)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Marjoram](https://en.wikipedia.com/wiki/Marjoram)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Mint](https://en.wikipedia.com/wiki/Mint)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Dill](https://en.wikipedia.com/wiki/Dill)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Ginger](https://en.wikipedia.com/wiki/Ginger)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Heartshaped Herb](https://marvel.fandom.com/wiki/Heart-Shaped_Herb)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Fennel](https://en.wikipedia.com/wiki/Fennel)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Mustard](https://en.wikipedia.com/wiki/Mustard)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Peppermint](https://en.wikipedia.com/wiki/Peppermint)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Saffron](https://en.wikipedia.com/wiki/Saffron)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Paprika](https://en.wikipedia.com/wiki/Paprika)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    
-    
-    <tr>
-    <td class="org-left">[Hemp](https://en.wikipedia.com/wiki/Hemp)</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    <td class="org-left">&#xa0;</td>
-    </tr>
-    </tbody>
-    </table>
+    [Amaranth](https://en.wikipedia.com/wiki/Amaranth), 
+    [Chives](https://en.wikipedia.com/wiki/Chives), 
+    [Parsley](https://en.wikipedia.com/wiki/Parsley), 
+    [Basil](https://en.wikipedia.com/wiki/Basil), 
+    [Rosemary](https://en.wikipedia.com/wiki/Rosemary), 
+    [Thyme](https://en.wikipedia.com/wiki/Thyme), 
+    [Oregano](https://en.wikipedia.com/wiki/Oregano), 
+    [Goblingrass](https://runesofmagic.fandom.com/wiki/Goblin_Grass), 
+    [Marjoram](https://en.wikipedia.com/wiki/Marjoram), 
+    [Mint](https://en.wikipedia.com/wiki/Mint), 
+    [Dill](https://en.wikipedia.com/wiki/Dill), 
+    [Ginger](https://en.wikipedia.com/wiki/Ginger), 
+    [Heartshaped Herb](https://marvel.fandom.com/wiki/Heart-Shaped_Herb), 
+    [Fennel](https://en.wikipedia.com/wiki/Fennel), 
+    [Mustard](https://en.wikipedia.com/wiki/Mustard), 
+    [Peppermint](https://en.wikipedia.com/wiki/Peppermint), 
+    [Saffron](https://en.wikipedia.com/wiki/Saffron), 
+    [Paprika](https://en.wikipedia.com/wiki/Paprika) &
+    [Hemp](https://en.wikipedia.com/wiki/Hemp) produce xx Meals.
 
 
-<a id="org715e016"></a>
+<a id="orgb1dbd05"></a>
+
+### Specialty Foods
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Item</th>
+<th scope="col" class="org-left">Meal</th>
+<th scope="col" class="org-left">Buff</th>
+<th scope="col" class="org-left">Attribute</th>
+<th scope="col" class="org-right">Size</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Eggs</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.1</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Honey</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.1</td>
+</tr>
+</tbody>
+</table>
+
+Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road!
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Related</th>
+<th scope="col" class="org-left">Note</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Venom Sacks</td>
+<td class="org-left">not sure that these are ingredients.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Salted Meat</td>
+<td class="org-left">exists as well, not sure that its cookable.</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Load of Bread</td>
+<td class="org-left">Is it even edible?</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgbf37a0e"></a>
 
 ### When Elementally Flamed (++)
+
+As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
+up a storm, why not try frying up some runes? What's the worst that could
+happen?
 
 By the power of magic..
 
@@ -3448,25 +2739,16 @@ By the power of magic..
 </table>
 
 if you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [Elemental Combos](#org7f47e53) applied to your foodstuffs, with the last infused element
+used for [Elemental Combos](#org3b2b17e) applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 
 
-<a id="org49d3925"></a>
-
-### Fireworks!
-
-As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
-up a storm, why not try frying up some runes? What's the worst that could
-happen?
-
-
-<a id="org103e8c7"></a>
+<a id="org980a4e2"></a>
 
 ## Items
 
 
-<a id="orgd4ec5cc"></a>
+<a id="org17191b2"></a>
 
 ### Containers
 
@@ -3503,7 +2785,7 @@ happen?
     into simply equipping my new merc first.
 
 
-<a id="org0e3a6aa"></a>
+<a id="orge029ca5"></a>
 
 ### Curios
 
@@ -3515,7 +2797,7 @@ really rare and I can't quite judge which those are, so .. Please don't cry if
 you misapply!
 
 Curios can be found and some of the curios, and all of those that boost one of
-the 5 main stats are craftable. (Likely [after you have spent a fortune](#org42f00f5) or two on
+the 5 main stats are craftable. (Likely [after you have spent a fortune](#org3085930) or two on
 the local madman.)
 
 1.  Never Craftable
@@ -3647,7 +2929,7 @@ the local madman.)
     </table>
 
 
-<a id="org39a8018"></a>
+<a id="orgac7ea39"></a>
 
 ### Lights
 
@@ -3689,7 +2971,7 @@ the local madman.)
 </table>
 
 
-<a id="org79430bd"></a>
+<a id="orgcda85a6"></a>
 
 ### Qualities
 
@@ -3715,7 +2997,7 @@ the local madman.)
 <tr>
 <td class="org-left">Pedestrian</td>
 <td class="org-left">1x</td>
-<td class="org-left">Normal [Material](#org1c270d4) Boni</td>
+<td class="org-left">Normal [Material](#orgb14dcab) Boni</td>
 </tr>
 
 
@@ -3749,17 +3031,17 @@ the local madman.)
 </table>
 
 
-<a id="org436e210"></a>
+<a id="org8c523dc"></a>
 
 ### Repairing
 
 
-<a id="org21aa903"></a>
+<a id="org4397f7f"></a>
 
 ## Locations
 
 
-<a id="orgd1ba10b"></a>
+<a id="org6d76a00"></a>
 
 ### Location List
 
@@ -3797,7 +3079,7 @@ surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
 
 
-<a id="org48409e0"></a>
+<a id="org8c5140e"></a>
 
 ### Encounters
 
@@ -3833,11 +3115,11 @@ while getting shot at if you tolerate these untamable collaborators!
     -   Costly upgrades for spells you've learned.
     -   Costs the same as if you had unlocked an Obelisk in your settlement!
     -   The cheapest and most thrilling way to upgrade your spells is to hunt for
-        [ruinous ruins](#org6ea638d) since you'll always? find an obelisk shard among the loot there.
+        [ruinous ruins](#org1e01655) since you'll always? find an obelisk shard among the loot there.
         A shards is just large enough power a single upgrades so perhaps save it for
         the last upgrade or two to save 20 or 35 shard, paying for it with the risk
         you're taking on. Just be clear about what you're getting into and read the
-        notes for the [Location List](#orgd1ba10b) to tweak the ruin's [Difficulty](#orgb798f13).
+        notes for the [Location List](#org6d76a00) to tweak the ruin's [Difficulty](#orgad77b4a).
 
 4.  The Burning House
 
@@ -3926,7 +3208,7 @@ while getting shot at if you tolerate these untamable collaborators!
 
 11. Labyrinth
 
-    Dont go exploring them in the dead of night without a [light](#org39a8018)!
+    Dont go exploring them in the dead of night without a [light](#orgac7ea39)!
     
     Safe and super high rewards and likely to confuse the hell out out of you for
     longer than you might have patience for. Be prepared for {Masterwork} items and
@@ -3998,7 +3280,7 @@ while getting shot at if you tolerate these untamable collaborators!
     casters coming after you here.
     
     -   stealth-clustered magic attackers and friends all appear to use the same element!
-    -   bring some [elemental foods](#org715e016) for yourself and your team, and of course a beverage!
+    -   bring some [elemental foods](#orgbf37a0e) for yourself and your team, and of course a beverage!
     -   getting the Big Chest from the local mini boss doesnt mean you're safe!
     -   move to the edge if dashing to the next blg will leave you exhausted!
     -   use stealth, enter, drop building, move to cover!
@@ -4117,7 +3399,7 @@ while getting shot at if you tolerate these untamable collaborators!
     -   the others..
 
 
-<a id="orgf8a345b"></a>
+<a id="org336253c"></a>
 
 ### Locations
 
@@ -4182,7 +3464,7 @@ while getting shot at if you tolerate these untamable collaborators!
     -   these let you upgrade a (refined) and <artisan>'d item once more.
 
 
-<a id="orgeda9221"></a>
+<a id="orgf820c0d"></a>
 
 ### Just plain cool
 
@@ -4211,14 +3493,14 @@ Random things and places one might never see again..
     connected to that society of researchers only elders seem to know about?
 
 
-<a id="org1c270d4"></a>
+<a id="orgb14dcab"></a>
 
 ## Materials
 
 Trying to pack all the info and stats about the things you craft with in here.
 
 
-<a id="org2a50755"></a>
+<a id="org0f7e8bc"></a>
 
 ### Wiki preamble
 
@@ -4248,7 +3530,7 @@ Each additional nth arrow gives an additional n possible boosts (4 arrows giving
 between +7 and +10, etc.)
 
 
-<a id="orgb60771b"></a>
+<a id="org3b8a525"></a>
 
 ### Everyday materials
 
@@ -4344,7 +3626,7 @@ Useful Materials without effects on your stats.
 </table>
 
 
-<a id="org154358c"></a>
+<a id="org5d4fb83"></a>
 
 ### Natural Resources
 
@@ -4625,7 +3907,7 @@ Useful Materials without effects on your stats.
 </table>
 
 
-<a id="orgf82274c"></a>
+<a id="orgeee4db6"></a>
 
 ### Cloths and Furs
 
@@ -4817,12 +4099,12 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 </table>
 
 
-<a id="org77495ab"></a>
+<a id="orgd0dff96"></a>
 
 ## NPC's
 
 
-<a id="orgd3f139b"></a>
+<a id="org5c1a5ce"></a>
 
 ### Elder
 
@@ -4830,7 +4112,7 @@ The real power in fara; Colludes with the researchers and likely with the shaded
 figure that saved your life when your memories first began.
 
 
-<a id="org49619eb"></a>
+<a id="org02d3ec9"></a>
 
 ### Nobles
 
@@ -4839,7 +4121,7 @@ the realm is nowhere near to that of the Elders. Not much is known about the
 transformation of Nobles to Elders, nor do all that many survive into old age.
 
 
-<a id="orgb672fd4"></a>
+<a id="org6f3c759"></a>
 
 ### Riddler
 
@@ -4847,7 +4129,7 @@ Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
 
 
-<a id="org2cf1413"></a>
+<a id="org4a008a7"></a>
 
 ### Guards
 
@@ -4856,14 +4138,14 @@ involved in a fight because he will end your game by kicking you out of 'his' wo
 permanently.
 
 
-<a id="orgc1b6972"></a>
+<a id="org04168fe"></a>
 
 ### Townies
 
 See Desperate Times. 
 
 
-<a id="org21dbbc0"></a>
+<a id="orgc85ecf7"></a>
 
 ### Escortees
 
@@ -4874,7 +4156,7 @@ as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
 
 
-<a id="org2bf8096"></a>
+<a id="org5b2bc4d"></a>
 
 ### Champions
 
@@ -4882,7 +4164,7 @@ Challenge them once you're past the "Age of Steel", even then you might regret i
 Remember they are Faction Leaders.
 
 
-<a id="org1fb15e1"></a>
+<a id="orgfbaceaa"></a>
 
 ### Smuggler
 
@@ -4901,14 +4183,14 @@ rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
 
 
-<a id="orgb5e77ae"></a>
+<a id="org14b0a99"></a>
 
 ### Trader
 
 A bug was fixed. TBD.
 
 
-<a id="org1db334f"></a>
+<a id="org7f6a345"></a>
 
 ### Thief
 
@@ -4921,13 +4203,14 @@ Hmm.. somehow you learn that
 -   crafting takes about 105 moments.
 -   unconscious people don't drown in wells.
 -   its morning, daylight. you're going to loose rep or your gear no matter what
-
-I just tested this and you have to /say "give me that [item name]"
-
 -   /grab /choke  zesty-dish/meal, fin-gear  rob them blind.
 
+and then mustardfiend — Today at 11:18 PM
 
-<a id="org98cdc84"></a>
+**/say thief** gets them to drop everything they stole and act embarrassed.
+
+
+<a id="org8d7c91e"></a>
 
 ## Party
 
@@ -4938,16 +4221,16 @@ I just tested this and you have to /say "give me that [item name]"
     -   Musical instruments much bigger than yourself can be held 
         to cheer up your party. It may be how how you look, or that you used **/play**.
 -   Dancing is also a mood-booster. In some locations it winds up killing
-    otherwise friendly NPC's who arn't [Fishmongers](#org42aa603). You'll know it when you see it.
+    otherwise friendly NPC's who arn't [Fishmongers](#orgbf0bee2). You'll know it when you see it.
     -   Your stamina will return when you leave the map after dancing - but not that
         of your party member. Wait an hour "**>**" to let them catch their breath!
 -   Escort quests' escortees don't count against your party-size-limit.
 -   I like travelling alone in other games, in FARA i dont - yet.
--   [Talk](#orgd37b578) to your pals to chat and control how they contribute in combat; at least
+-   [Talk](#org2a3a5e9) to your pals to chat and control how they contribute in combat; at least
     a little bit.
 
 
-<a id="org915a639"></a>
+<a id="orgc0ea3fe"></a>
 
 ### Pets
 
@@ -4966,7 +4249,7 @@ to rejoin you later you'll wish you had already dropped some food to bribe them
 with right where you left them!
 
 
-<a id="org88c8e0b"></a>
+<a id="org12f6357"></a>
 
 ### Mounts
 
@@ -4975,7 +4258,7 @@ with right where you left them!
     overnight!?
 
 
-<a id="orgefc1448"></a>
+<a id="org43caf0f"></a>
 
 ## Quests
 
@@ -4989,7 +4272,7 @@ Here are some really dumb observations about quests:
 There are more types tied to specific locations. I need to add more info here.
 
 
-<a id="orgd7c497f"></a>
+<a id="orgaa22fc1"></a>
 
 ### Beastslayer you!
 
@@ -5004,7 +4287,7 @@ See, I saw you pondering. Yep, that's why you couldn't find that monster the
 other day. Now be careful reading the tracks!
 
 
-<a id="org6f2e310"></a>
+<a id="orgd7714f0"></a>
 
 ### Desperate Times
 
@@ -5014,7 +4297,7 @@ for things you've never seen.
 
 Needy as they are, they want foods that noone in their right mind would care to
 eat, Weapons and other items you have never heard of. And they send you to
-[unknown places](#org5c7b07b) too. Always they have needs in places you've never been, make you
+[unknown places](#org05ac842) too. Always they have needs in places you've never been, make you
 deliver the weirdest trinkets or their odd selves to hard to find people
 and places. The heirlooms from their illustrious ancestors, those medals,
 just like their inane request never seem to run out.
@@ -5032,7 +4315,7 @@ Ok, at least sometimes they had no idea they were paying waay too much for your
 services.
 
 
-<a id="orge0d99e6"></a>
+<a id="org292818d"></a>
 
 ### Escort Quests
 
@@ -5052,7 +4335,7 @@ services.
     -   atm the wh crucible seems like a good place to keep those.
 
 
-<a id="orga767a16"></a>
+<a id="orgce059a9"></a>
 
 ### Missing Kid Quests
 
@@ -5065,7 +4348,7 @@ you have to find them in 15 minutes or so. Totally Bogus! aaaargh.
 Yet again you need to build a shelter. And you need search. At least without
 either I've not found a single kid yet. Then you need to rest until morning so
 you don't need to make light to find them again whence back in town and they
-start playing their games. For that you need to have [local waypoints](#orgb3b4cc8) by which to
+start playing their games. For that you need to have [local waypoints](#org59eaa13) by which to
 move yourself through the settlement without going nuts. Do you have those?
 
 And then you learn about how to make Burlap Dolls. Or perhaps they have that
@@ -5079,7 +4362,7 @@ being of attracting attention and just run around the location and **/shout come
 here**? Probably.
 
 
-<a id="orgda2e85f"></a>
+<a id="org11027df"></a>
 
 ### Suicide Quests
 
@@ -5097,19 +4380,19 @@ Wait with the scary quests until you have legendary stats and artisan equipment,
 or something close to that. Or wait until you are already thriving at a place
 even further from Relica than where you first got the suicide invitations.
 
-If you rush yourself, [you'll die](#orgcafbc01). Farawella!
+If you rush yourself, [you'll die](#org124e6fd). Farawella!
 
 
-<a id="orgc171221"></a>
+<a id="org7d4b896"></a>
 
 ## Runes
 
-You need these things to create your own [spells](#org67d241a).
+You need these things to create your own [spells](#org24a8272).
 
 Lots to fill in from the tooltips. I hope the lists are complete for now.
 
 
-<a id="org6b6aaf0"></a>
+<a id="org8b5f205"></a>
 
 ### Effector Runes
 
@@ -5233,35 +4516,35 @@ If you are burning, and don't have that spell, stop, drop and /roll.
     
     <tbody>
     <tr>
-    <td class="org-left">[Charisma](#org59292ff)</td>
+    <td class="org-left">[Charisma](#org13f8489)</td>
     <td class="org-left">Charm</td>
     <td class="org-left">Uglyness</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Finesse](#org7176d63), dash distance</td>
+    <td class="org-left">[Finesse](#org951927c), dash distance</td>
     <td class="org-left">Quickness</td>
     <td class="org-left">Slowness</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Insight](#orgd9f11f2)</td>
+    <td class="org-left">[Insight](#org43c697c)</td>
     <td class="org-left">Enlightenment</td>
     <td class="org-left">Stupidity</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Resilience](#org3dc9fab)</td>
+    <td class="org-left">[Resilience](#orged38818)</td>
     <td class="org-left">Fortification</td>
     <td class="org-left">Vulnerability</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Strength](#org6e86ebd)</td>
+    <td class="org-left">[Strength](#org2fadd6a)</td>
     <td class="org-left">Rage</td>
     <td class="org-left">Weakness</td>
     </tr>
@@ -5288,7 +4571,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
     <tbody>
     <tr>
     <td class="org-left">Intoxication</td>
-    <td class="org-left">Lowers [Finesse](#org7176d63), Raise chance to Stumble</td>
+    <td class="org-left">Lowers [Finesse](#org951927c), Raise chance to Stumble</td>
     </tr>
     </tbody>
     </table>
@@ -5301,7 +4584,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
             If you get rejuve on that, you're VERY good off
 
 
-<a id="org2fad6f0"></a>
+<a id="orge430061"></a>
 
 ### Stabilizer Runes
 
@@ -5502,7 +4785,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
     &#x2026;Except beam, meteor, and barrage spells
 
 
-<a id="orgffd612c"></a>
+<a id="orgccdb9c5"></a>
 
 ### Elemental Runes
 
@@ -5569,10 +4852,10 @@ would not.
 If you infuse 2 runes into your weapon the effects alternate, halving your
 healing potential.
 
-See [Damage Types](#org3c504a4), Elemental, Attunement
+See [Damage Types](#org67a5f5c), Elemental, Attunement
 
 
-<a id="orgeb95962"></a>
+<a id="orge97aacb"></a>
 
 ### Farming Runes
 
@@ -5609,8 +4892,8 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
 -   enhanced iron shovel and workbench in inventory
 -   should be possible once you get the tool recipes from the first other settlement you visit.
 -   oh, have a rope on you while getting used to digging, just in case you slip and fall.
--   must-read: [5.2.1](#org42717cd)
--   see also [If you're totally nuts, enhance your shovel](#org2b9dd91).
+-   must-read: [5.2.1](#orgd2ee07f)
+-   see also [If you're totally nuts, enhance your shovel](#orgc02d6d5).
 
 1.  Dig and or Fish.. rather alike, no?
 
@@ -5802,7 +5085,7 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
     -   without notes and interruptions these numbers might take ~90mins?
 
 
-<a id="orgaa3f0eb"></a>
+<a id="orgacf85f9"></a>
 
 ## Settlements
 
@@ -5810,7 +5093,7 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
 -   Fire Pit
 
 
-<a id="org4f55db9"></a>
+<a id="org185624c"></a>
 
 ### Buildings & Staff
 
@@ -5834,7 +5117,7 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
             and supplies for expanding elsewhere.
         
         -   6 Storage bins, probably best when only used in Relica, that let you get rid of
-            things you dont want to see but dont want to loose. See [3.4](#org7953c21)
+            things you dont want to see but dont want to loose. See [3.4](#orgfbf6ee1)
 
 2.  Stables
 
@@ -6170,7 +5453,7 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
         
         Afterwards he wanted bones again..
         
-        Anyway, now i can consult the [Materials Tables](#org1c270d4) and better versions
+        Anyway, now i can consult the [Materials Tables](#orgb14dcab) and better versions
         of his more sensible items. neat!
         
         -   Keeping these prototypes makes sense to me right now.
@@ -6181,7 +5464,7 @@ See [Damage Types](#org3c504a4), Elemental, Attunement
         -   I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 
 
-<a id="orgd31e07f"></a>
+<a id="org103d60a"></a>
 
 ## Skill Brackets
 
@@ -6366,13 +5649,13 @@ Not sure where that would fit in with legendary
 -   added the words, the guessing game continues.
 
 
-<a id="org67d241a"></a>
+<a id="org24a8272"></a>
 
 ## Spells
 
 (expert info is on the way)
 
--   See [2.15.1.4](#org9d45e61) for Spell-levels and leveling
+-   See [2.15.1.4](#org065dd27) for Spell-levels and leveling
 
 Basically, you
 
@@ -6411,11 +5694,11 @@ New:
     -   Two earth gave me a tome of earth shield, then an earth chain
 
 
-<a id="orgcec3f39"></a>
+<a id="org59e1b4d"></a>
 
 ### Scrolls
 
-If I was an [Artificer](#org904c8e9) I might know something about them. But I'm not. At this
+If I was an [Artificer](#orga572a1c) I might know something about them. But I'm not. At this
 point I just just them into a waterproof container in the warehouse for use in
 Dungeons later on.
 
@@ -6424,7 +5707,7 @@ Doing that I've learned that there are scrolls that do and scrolls that teach.
 Here's what I know about these
 
 
-<a id="orgc456fde"></a>
+<a id="org242430b"></a>
 
 ### Spell-tombs
 
@@ -6438,7 +5721,7 @@ nobles and the shaded figure who at least saved my life if he didn't outright
 summon me into this world..
 
 
-<a id="orgef30d15"></a>
+<a id="orgcc3b8d1"></a>
 
 ### You must have a healing spell
 
@@ -6468,7 +5751,7 @@ summon me into this world..
     beach. I will ;)
 
 
-<a id="org5137d3f"></a>
+<a id="org09186fa"></a>
 
 ## Weaponry
 
@@ -6492,7 +5775,7 @@ being different somehow somewhere, the info being in a hidden stat. Please write
 if you can fill in the details!
 
 
-<a id="orge599062"></a>
+<a id="orgf74dfca"></a>
 
 ### Melee
 
@@ -6537,7 +5820,7 @@ if you can fill in the details!
 </table>
 
 
-<a id="org0188d0c"></a>
+<a id="org82530c0"></a>
 
 ### Magical
 
@@ -6565,7 +5848,7 @@ if you can fill in the details!
 -   Wand causes the weapon to inherit elements from incoming spells
 
 
-<a id="orgeca118b"></a>
+<a id="org49c66f8"></a>
 
 ### Ranged
 
@@ -6619,14 +5902,14 @@ if you can fill in the details!
     largely cosmetic/flair items.
 
 
-<a id="org42a3a93"></a>
+<a id="org0f39452"></a>
 
 # Pug's Notes
 
 Look, I wrote this!
 
 
-<a id="orgc11dc3f"></a>
+<a id="org41a7db5"></a>
 
 ## The Ages
 
@@ -6645,7 +5928,7 @@ your gear and how to enhance it properly lets you you advance advancing to
 somet like a later age.
 
 
-<a id="org3b22a14"></a>
+<a id="orgd72d2ba"></a>
 
 ## The Magic
 
@@ -6661,7 +5944,7 @@ food and drink providing buffs, even a Commander Level Faction Trait to help
 resist the most devious of enemies!
 
 
-<a id="orgb3b4cc8"></a>
+<a id="org59eaa13"></a>
 
 ## Trick out your map!
 
@@ -6679,7 +5962,7 @@ there are doors, pets, npc, or even the well along the path. Its not perfect yet
 but "**W**" is a huge help. Use **/slw** until it becomes a habit.
 
 
-<a id="org7953c21"></a>
+<a id="orgfbf6ee1"></a>
 
 ## Item Management
 
@@ -6696,7 +5979,7 @@ in Relica is again teaching me what I don't need or want, and how to deal with
 everything else. Here's the scoop on what works for me.
 
 
-<a id="orgb840f9b"></a>
+<a id="orga42bac5"></a>
 
 ### InShelter
 
@@ -6941,7 +6224,7 @@ everything else. Here's the scoop on what works for me.
         brazier light is blocked by item piles (which sucks)
 
 
-<a id="org39108cb"></a>
+<a id="org29537de"></a>
 
 ### Warehousing
 
@@ -6999,7 +6282,7 @@ the whatever because especially among the items you find on trees, surprises awa
     -   Its kinda like the one with the milk :)
 
 
-<a id="org5c7b07b"></a>
+<a id="org05ac842"></a>
 
 ### In the Crucible
 
@@ -7101,7 +6384,7 @@ Once **/place** takes a count we'll all be able to do a whole lot more with that
 ingenious invention!
 
 
-<a id="org4e1da04"></a>
+<a id="orgc08be20"></a>
 
 ### In General
 
@@ -7120,7 +6403,7 @@ As with backups of your computer, there are two kinds of people in the world,
 people who carry backups, and people who will.
 
 
-<a id="orgd4b51bd"></a>
+<a id="org13365f9"></a>
 
 ## Moving out and on
 
@@ -7132,7 +6415,7 @@ You'll also enjoy having spare a workbench, a bed and the materials you need for
 the next house at the new locale's spawn already in the crucible.
 
 
-<a id="org12e6d2c"></a>
+<a id="org1ca6f5c"></a>
 
 ## Upgrades
 
@@ -7156,7 +6439,7 @@ You can enhance the equipment of the proper type for your class which
 you will have discovered, equipped and understood by now, or ..
 
 
-<a id="org2b9dd91"></a>
+<a id="orgc02d6d5"></a>
 
 ### If you're totally nuts, enhance you shovel.
 
@@ -7180,11 +6463,11 @@ I've heard that noone will mind if you dig up a graveyard from end to end dolled
 up in your finest charisma boosting gear either. But I'll let you try it first!
 Maybe after your next escort quest?
 
-Shovel or Fishing rod, what do i know. Plus I'm [dubious about iron](#org59292ff) as
-a [material](#org1c270d4) for either!
+Shovel or Fishing rod, what do i know. Plus I'm [dubious about iron](#org13f8489) as
+a [material](#orgb14dcab) for either!
 
 
-<a id="org671c7cf"></a>
+<a id="org336705e"></a>
 
 ## Traveling
 
@@ -7199,11 +6482,11 @@ And hey, if "**X**" fails, it will have moved you to the action without you havi
 to look for it. This is really helpful if you cast a shield on yourself before
 doing do, esp. if your're traveling at night, yet again without a light.
 
-As you're travelling you'll find more info about [Skill Brackets](#orgd31e07f). Please
+As you're travelling you'll find more info about [Skill Brackets](#org103d60a). Please
 share.
 
 
-<a id="orge547618"></a>
+<a id="orgff880b0"></a>
 
 ## Exploring
 
@@ -7271,7 +6554,7 @@ equipment and a single godlike attribute. This game has great depth and
 complexity.
 
 
-<a id="orgb798f13"></a>
+<a id="orgad77b4a"></a>
 
 ## Difficulty
 
@@ -7291,11 +6574,11 @@ did in (what to me were) 'the nightmare versions' released some years ago.
 
 Combat in FARA can be freaky cool, and as long as you prioritize survival over
 your macho, you'll manage to escape and appreciate the insurance that having
-even a single gulp of [water](#org8829204) with you for that one time where its quicker to
-drink and dash than it is to walk. But there's always [this](#org770262a).
+even a single gulp of [water](#org7230f57) with you for that one time where its quicker to
+drink and dash than it is to walk. But there's always [this](#orge282121).
 
 
-<a id="org749e4e9"></a>
+<a id="org109adae"></a>
 
 ## Finding things in daylight vision
 
@@ -7306,7 +6589,7 @@ Thus if you're looking for flowers or lost items you can move in paralell lines
 11 spaces apart, that means there are 10 spaces between your lines.
 
 
-<a id="org44177c5"></a>
+<a id="org4e5a2b2"></a>
 
 ### example in town:
 
@@ -7345,7 +6628,7 @@ Thus if you're looking for flowers or lost items you can move in paralell lines
     everything. (you can can optimize that a bit, but this is good enough.)
 
 
-<a id="org63bbb12"></a>
+<a id="org3ef09a4"></a>
 
 ## Climbing
 
@@ -7358,12 +6641,12 @@ researching. Then again I'd not thought about planting trees in strategic
 locations around town.. until now :)
 
 
-<a id="orgf741602"></a>
+<a id="org9474073"></a>
 
 # Playing
 
 
-<a id="org5c11bd9"></a>
+<a id="org84c5d7a"></a>
 
 ## /COMMANDS
 
@@ -7371,7 +6654,7 @@ locations around town.. until now :)
 
 -   **/help** gives most of them
 -   **/settings** gives more of them
--   The [Release Notes](#orgf9cfe1e) give insights into and context for additional commands.
+-   The [Release Notes](#org41d4ac5) give insights into and context for additional commands.
     Click the link and search for "**/**"
 
 The discord's spoiler channel denizens often refer to 'creative mode' and yet
@@ -7390,7 +6673,7 @@ likely to fade into the void again!
 -   **If you happen to be on fire, (stop, drop and) /roll**
 
 
-<a id="org858a020"></a>
+<a id="orga1021a2"></a>
 
 ## KEYS!
 
@@ -7453,12 +6736,12 @@ last, type / then press "up arrow". Not that that would save you from surprises
 though.
 
 
-<a id="orgd37b578"></a>
+<a id="org2a3a5e9"></a>
 
 ## Talking
 
-Unless you are a [Wildheart](#org2907d4c) you can talk to your pets and /say or /shout whatever
-it is you want, and they won't listen. That is unless you are a [Cat Whisperer](#org3783e40) 
+Unless you are a [Wildheart](#org27bd245) you can talk to your pets and /say or /shout whatever
+it is you want, and they won't listen. That is unless you are a [Cat Whisperer](#org35ed2a6) 
 and have managed to recruit one of these marvels.
 
 Normal people however can only talk to other people, and it's only the Mercs 
@@ -7480,7 +6763,7 @@ you've recruited into your party that will listen to and obey you.
     (repeat with "**z**" as you walk around.)
 
 There's probably some (much?) more to say and other banter to be had. Many of
-the options seem to make the most sense for a [Politician](#orgb23984d) however.
+the options seem to make the most sense for a [Politician](#orgfc374f6) however.
 
 Weird fact: Mercs will sometimes say things and other NPC not in your party will
 speak back to them. Thats freaky cool.
@@ -7488,12 +6771,12 @@ speak back to them. Thats freaky cool.
 Weirder link about upperercase for extra loud shouting! <http://tom7.org/lowercase/>
 
 
-<a id="orgc051c55"></a>
+<a id="org7724d9f"></a>
 
 # Supplemental
 
 
-<a id="org0692106"></a>
+<a id="org1950ca2"></a>
 
 ## Random Notes from Discord
 
@@ -7521,7 +6804,7 @@ A few things regarding charged rift particles:
 -   Maybe take 3 CRPs to a Summoning Circle?
 
 
-<a id="org6fee122"></a>
+<a id="org65ebb44"></a>
 
 ### what classes do yall like the most
 
@@ -7543,12 +6826,12 @@ and Pug survives
 -   as a Gatekeeper.
 
 
-<a id="org557ad08"></a>
+<a id="org9c55829"></a>
 
 ## Obsolete/Guides
 
 
-<a id="org42717cd"></a>
+<a id="orgd2ee07f"></a>
 
 ### Degritone's Guide to 100k Points
 
@@ -7661,7 +6944,7 @@ from: <https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points>
     points.
 
 
-<a id="org726424a"></a>
+<a id="org0f46699"></a>
 
 ### Mantecarl's tourist guide
 
@@ -7669,7 +6952,7 @@ Written by a master of the game for an old version, still sensible in its way
 <https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit>
 
 
-<a id="orgbe8da15"></a>
+<a id="org45f167d"></a>
 
 ### From Reddit
 
@@ -7677,7 +6960,7 @@ might have been the best overall text i found
 <https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/>
 
 
-<a id="org3ffa3d9"></a>
+<a id="org4b657f6"></a>
 
 ### From Wiki
 
@@ -7685,7 +6968,7 @@ What useful info there for 2021 has been incorporated above.
 Its most function page: <https://fara.fandom.com/wiki/Special:Categories>
 
 
-<a id="orgf9cfe1e"></a>
+<a id="org41d4ac5"></a>
 
 ## Release Notes
 
@@ -7695,7 +6978,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
 -   compiled by pug since facts are not subject to copyright
 
 
-<a id="orgd11b717"></a>
+<a id="org73ce5af"></a>
 
 ### Alpha 16 Mar'21..
 
@@ -7733,14 +7016,14 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         switch places with you.
     -   Local waypoints now have letters which can be used to reference them in
         commands
-    -   Number **keys 1-9 now execute** the corresponding entries when viewing /spells and
-        /waypoints.
+    -   Number **keys 1-9 now execute** the corresponding entries when viewing **/spells** and
+        **/waypoints**.
     -   Upon taking an item, the game will now attempt to target whatever new item is
         at the same index instead of resetting to the first item on the Nearby Targets
         list.
     -   Clicking party members on the **/party** window now brings up the same options as
         clicking them them on the Targets list
-    -   Reordered some mouse meu items in order to lower the chances of accidentally
+    -   Reordered some mouse menu items in order to lower the chances of accidentally
         performing some detrimental actions
     -   Fixed a bug with traders not working as intended
     -   Fixed a longstanding issue with autocomplete unexpectedly inserting undesired
@@ -7889,7 +7172,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         Good luck out there, travelers!
 
 
-<a id="org3f371b2"></a>
+<a id="orgb60697e"></a>
 
 ### Alpha 15 Dec'20..
 
@@ -8415,7 +7698,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
     Tomorrow, FARA will get its first update since May 22, 2019! The official changelog will be posted shortly before the update goes live at 9pm EST, and it's a beefy one. It should be noted that old saves can't run in this new version, so if you're playing in the browser and have a run in progress, but sure to end it as gloriously as possible before then.
 
 
-<a id="org59cac53"></a>
+<a id="orgc6f672e"></a>
 
 ### Void 01 Apr'19..
 
@@ -8424,7 +7707,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
 -   Brian persevered.
 
 
-<a id="org9b54079"></a>
+<a id="orgdae57a3"></a>
 
 ### Alpha 14 May'19..
 
@@ -8803,7 +8086,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         .\*\* Any update
 
 
-<a id="org77286eb"></a>
+<a id="org6e651d8"></a>
 
 ### Alpha 13 Apr'19..
 
@@ -8911,7 +8194,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         -   Hopefully fixed more bugs than I created
 
 
-<a id="orgee72c4f"></a>
+<a id="org62e005f"></a>
 
 ### Alpha 12 Mar'19..
 
@@ -9071,7 +8354,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         -   Increased the health of several classes designed to fair well in melee combat
 
 
-<a id="org313ef15"></a>
+<a id="orgb2d4f19"></a>
 
 ### Alpha 11 Feb'19..
 
@@ -9436,7 +8719,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
             Darkvision.
 
 
-<a id="org3fbfc40"></a>
+<a id="orge3f6d85"></a>
 
 ### Alpha 10 May'18..
 
@@ -9479,7 +8762,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
     quite right, be sure to let me know!
 
 
-<a id="org0617461"></a>
+<a id="orgd47ffb0"></a>
 
 ## Disclaimer
 
@@ -9488,7 +8771,7 @@ people's content and without claims of copyright by compilation or any or other
 claims I could make to keep you from contributing to the game.
 
 
-<a id="org4513373"></a>
+<a id="orga4765b4"></a>
 
 ## Linux
 
@@ -9531,7 +8814,7 @@ For more on electron apps, check out!
 -   <https://www.startpage.com/do/search?query=app.asar>
 
 
-<a id="org9910bc1"></a>
+<a id="orgcf7aec0"></a>
 
 ## Requirements
 
@@ -9546,7 +8829,7 @@ Pug's experiments suggest:
 -   Disk seems not important.
 
 
-<a id="org026607b"></a>
+<a id="org03100f5"></a>
 
 ## Visualizing Waypoints
 

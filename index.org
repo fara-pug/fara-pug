@@ -1349,9 +1349,26 @@ Eating and drinking (*/eat*, */drink*) take time. *Water* and *Mixtures*
 are probably hugely important for spellcasters in dire situations, but I'd need
 an expert to chime in with their experience as I'm just guessing here.
 
+Whats missing?
+- Is someone tracking the biomes for these things?
+
+|----------------+-----------+-----------------|
+| Foodstuff      | Meal Name | Buffs Attribute |
+|----------------+-----------+-----------------|
+| Alcohol        | Hearty    | ++Resilience    |
+| Fish           |           |                 |
+| Flowers        |           | ++Charm         |
+| Fruits         | Zesty     | ++Finesse       |
+| Herbs & Spices |           |                 |
+| Meat           | Complex   | ++Insight       |
+| Tree Seeds     | Robust    | ++Strength      |
+| Vegetables     |           | ++Strength?     |
+|----------------+-----------+-----------------|
+
+
 *** Cooking
 Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
-single [[Ingredients][Ingredients]] in Campfires and Firepits to restore stamina and heal
+single Ingredients in Campfires and Firepits to restore stamina and heal
 themselves and their allies. The real freaks improve on that like so:
 
 - [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
@@ -1360,194 +1377,202 @@ themselves and their allies. The real freaks improve on that like so:
 I suppose Campfires and Firepits differ in cooking speed/capacity.
 - Campfires are destroyed by immolation more quickly
 
-*** Ingredients
 
-- Whats missing?
-- Is someone tracking the biomes for these things?
+*** Drinks
 
 **** Drinkable
 Strange when you state the obvious, isn't it?
-|-------+-------------------------------|
-| Name  | Note                          |
-|-------+-------------------------------|
-| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code! |
-| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | ..think about it              |
-| [[https://en.wikipedia.com/wiki/Venom][Venom]] | Who's been poisoning you?     |
-|-------+-------------------------------|
+|-------+----------------------------------|
+| Name  | Note                             |
+|-------+----------------------------------|
+| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code!    |
+| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | Bucket? ..think about it         |
+| [[https://en.wikipedia.com/wiki/Venom][Venom]] | Drink? Who's been poisoning you? |
+|-------+----------------------------------|
 
 **** Alcohol
-..is flammable and becomes a *Hearty Meal* boosting *++Resilience* when you cook it,
-makes total sense to me.
 
-| Bottle of | [[https://en.wikipedia.com/wiki/Bourbon][Bourbon]], [[https://en.wikipedia.com/wiki/Gin][Gin]], [[https://en.wikipedia.com/wiki/Moonshine][Moonshine]], [[https://en.wikipedia.com/wiki/Rum][Rum]], [[https://en.wikipedia.com/wiki/Vodka][Vodka]], [[https://en.wikipedia.com/wiki/Whiskey][Whiskey]], [[https://en.wikipedia.com/wiki/Wine][Wine]] |
+Bottles of
+[[https://en.wikipedia.com/wiki/Bourbon][Bourbon]],
+[[https://en.wikipedia.com/wiki/Gin][Gin]],
+[[https://en.wikipedia.com/wiki/Moonshine][Moonshine]],
+[[https://en.wikipedia.com/wiki/Rum][Rum]],
+[[https://en.wikipedia.com/wiki/Vodka][Vodka]],
+[[https://en.wikipedia.com/wiki/Whiskey][Whiskey]] &
+[[https://en.wikipedia.com/wiki/Wine][Wine]]
+are flammable and become *Hearty Meals* boosting *++Resilience* when you cook them.
+Makes total sense to me.
 
+*** Solid Foods
 
-**** Animal Products
-|----------+---------+------+-----------+-----|
-| Item     | Meal    | Buff | Attribute |     |
-|----------+---------+------+-----------+-----|
-| Raw Meat | Complex | ++   | Insight   | 1.0 |
-| Eggs     |         |      |           | 0.1 |
-| Honey    |         |      |           | 0.1 |
-|----------+---------+------+-----------+-----|
+**** Meat
+|----------+---------+------+-----------+------|
+| Item     | Meal    | Buff | Attribute | Size |
+|----------+---------+------+-----------+------|
+| Raw Meat | Complex | ++   | Insight   |  1.0 |
+|----------+---------+------+-----------+------|
 
-- Venom Sacks; not sure if they are cookable.
-- Salted Meat exists as well, not sure that its cookable.
+**** Fish
 
-Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road
+[[https://en.wikipedia.com/wiki/Anchovy][Anchovy]],
+[[https://en.wikipedia.com/wiki/Butterfly Fish][Butterfly Fish]],
+[[https://en.wikipedia.com/wiki/Cod][Cod]],
+[[https://en.wikipedia.com/wiki/Cuttlefish][Cuttlefish]],
+[[https://en.wikipedia.com/wiki/Grouper][Grouper]],
+[[https://en.wikipedia.com/wiki/Sturgeon][Sturgeon]],
+[[https://en.wikipedia.com/wiki/Swordfish][Swordfish]] &
+[[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce ... Meals.
 
 **** Tree-Seeds
-Would love biome info on all this stuff!
-|------------+--------+------+-----------|
-| Tree       | Meal   | Buff | Attribute |
-|------------+--------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Alder][Alder]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Ash][Ash]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Aspen][Aspen]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Birch][Birch]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Buckeye][Buckeye]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]]  |        |      |           |
-| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Catalpa][Catalpa]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cedar][Cedar]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Chestnut][Chestnut]]   |        |      |           |
-| [[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]]  |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]] |        |      |           |
-| [[https://en.wikipedia.com/wiki/Cypress][Cypress]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Dogwood][Dogwood]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Elm][Elm]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Fir][Fir]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Holly][Holly]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Juniper][Juniper]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Maple][Maple]]      |        |      |           |
-| [[https://en.wikipedia.com/wiki/Oak][Oak]]        |        |      |           |
-| [[https://en.wikipedia.com/wiki/Pine][Pine]]       |        |      |           |
-| [[https://en.wikipedia.com/wiki/Poplar][Poplar]]     | Robust | ++   | Strength  |
-| [[https://en.wikipedia.com/wiki/Redwood][Redwood]]    |        |      |           |
-| [[https://en.wikipedia.com/wiki/Spruce][Spruce]]     |        |      |           |
-| [[https://en.wikipedia.com/wiki/Sycamore][Sycamore]]   |        |      |           |
-| [[https://en.wikipedia.com/wiki/Willow][Willow]]     |        |      |           |
-|------------+--------+------+-----------|
 
-- All seeds give ++STR 
+[[https://en.wikipedia.com/wiki/Alder][Alder]], 
+[[https://en.wikipedia.com/wiki/Ash][Ash]], 
+[[https://en.wikipedia.com/wiki/Aspen][Aspen]], 
+[[https://en.wikipedia.com/wiki/Birch][Birch]], 
+[[https://en.wikipedia.com/wiki/Buckeye][Buckeye]], 
+[[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]], 
+[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
+[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
+[[https://en.wikipedia.com/wiki/Cedar][Cedar]], 
+[[https://en.wikipedia.com/wiki/Chestnut][Chestnut]], 
+[[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]], 
+[[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]], 
+[[https://en.wikipedia.com/wiki/Cypress][Cypress]], 
+[[https://en.wikipedia.com/wiki/Dogwood][Dogwood]], 
+[[https://en.wikipedia.com/wiki/Elm][Elm]], 
+[[https://en.wikipedia.com/wiki/Fir][Fir]], 
+[[https://en.wikipedia.com/wiki/Holly][Holly]], 
+[[https://en.wikipedia.com/wiki/Juniper][Juniper]], 
+[[https://en.wikipedia.com/wiki/Maple][Maple]], 
+[[https://en.wikipedia.com/wiki/Oak][Oak]], 
+[[https://en.wikipedia.com/wiki/Pine][Pine]], 
+[[https://en.wikipedia.com/wiki/Poplar][Poplar]], 
+[[https://en.wikipedia.com/wiki/Redwood][Redwood]], 
+[[https://en.wikipedia.com/wiki/Spruce][Spruce]], 
+[[https://en.wikipedia.com/wiki/Sycamore][Sycamore]] &
+[[https://en.wikipedia.com/wiki/Willow][Willow]] seeds produce *Robust ++Strength Meals*
 
-- Pear Trees appear to give logs perhaps <20% of the time - if the one map i
-  cleared counts.
+- Pear Trees appear to give logs rarely.
+  - ~20% in one map i tracked 'em.
 
 **** Fruits
-Some of these are very common
-|------------+-------+------+-----------|
-| Fruit      | Meal  | Buff | Attribute |
-|------------+-------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Apple][Apple]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Avocado][Avocado]]    |       |      |           |
-| [[https://en.wikipedia.com/wiki/Banana][Banana]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Blackberry][Blackberry]] |       |      |           |
-| [[https://en.wikipedia.com/wiki/Blueberry][Blueberry]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Cherry][Cherry]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Coconut][Coconut]]    |       |      |           |
-| [[https://en.wikipedia.com/wiki/Grape][Grape]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Kiwi][Kiwi]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Lemon][Lemon]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Lime][Lime]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Mango][Mango]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Orange][Orange]]     |       |      |           |
-| [[https://en.wikipedia.com/wiki/Peach][Peach]]      |       |      |           |
-| [[https://en.wikipedia.com/wiki/Pear][Pear]]       |       |      |           |
-| [[https://en.wikipedia.com/wiki/Pineapple][Pineapple]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Raspberry][Raspberry]]  |       |      |           |
-| [[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] | Zesty | ++   | Finesse   |
-| [[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] |       |      |           |
-|------------+-------+------+-----------|
 
-- All fruits give ++FIN
-- Likely that they are all called zesty
+[[https://en.wikipedia.com/wiki/Apple][Apple]], 
+[[https://en.wikipedia.com/wiki/Avocado][Avocado]], 
+[[https://en.wikipedia.com/wiki/Banana][Banana]], 
+[[https://en.wikipedia.com/wiki/Blackberry][Blackberry]], 
+[[https://en.wikipedia.com/wiki/Blueberry][Blueberry]], 
+[[https://en.wikipedia.com/wiki/Cherry][Cherry]], 
+[[https://en.wikipedia.com/wiki/Coconut][Coconut]], 
+[[https://en.wikipedia.com/wiki/Grape][Grape]], 
+[[https://en.wikipedia.com/wiki/Kiwi][Kiwi]], 
+[[https://en.wikipedia.com/wiki/Lemon][Lemon]], 
+[[https://en.wikipedia.com/wiki/Lime][Lime]], 
+[[https://en.wikipedia.com/wiki/Mango][Mango]], 
+[[https://en.wikipedia.com/wiki/Orange][Orange]], 
+[[https://en.wikipedia.com/wiki/Peach][Peach]], 
+[[https://en.wikipedia.com/wiki/Pear][Pear]], 
+[[https://en.wikipedia.com/wiki/Pineapple][Pineapple]], 
+[[https://en.wikipedia.com/wiki/Raspberry][Raspberry]], 
+[[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] &
+[[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] produce Zesty ++Finesse Meals.
 
 **** Vegetables
-Yes, I know about Tomatoes..
-|--------------+------+------+-----------|
-| Vegetable    | Meal | Buff | Attribute |
-|--------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Artichoke][Artichoke]]    |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cabbage][Cabbage]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Carrot][Carrot]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]]   |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chili][Chili]] Pepper |      |      |           |
-| [[https://en.wikipedia.com/wiki/Corn][Corn]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Cucumber][Cucumber]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Eggplant][Eggplant]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Garlic][Garlic]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Kale][Kale]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Lettuce][Lettuce]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Okra][Okra]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Onion][Onion]]        |      |      |           |
-| [[https://en.wikipedia.com/wiki/Peas][Peas]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Potato][Potato]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Radish][Radish]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Red][Red]] Pepper   |      |      |           |
-| [[https://en.wikipedia.com/wiki/Spinach][Spinach]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Tomato][Tomato]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Turnip][Turnip]]       |      |      |           |
-|--------------+------+------+-----------|
 
-- likely that all vegies buff str
+[[https://en.wikipedia.com/wiki/Artichoke][Artichoke]], 
+[[https://en.wikipedia.com/wiki/Cabbage][Cabbage]], 
+[[https://en.wikipedia.com/wiki/Carrot][Carrot]], 
+[[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]], 
+[[https://en.wikipedia.com/wiki/Chili][Chili Pepper]], 
+[[https://en.wikipedia.com/wiki/Corn][Corn]], 
+[[https://en.wikipedia.com/wiki/Cucumber][Cucumber]], 
+[[https://en.wikipedia.com/wiki/Eggplant][Eggplant]], 
+[[https://en.wikipedia.com/wiki/Garlic][Garlic]], 
+[[https://en.wikipedia.com/wiki/Kale][Kale]], 
+[[https://en.wikipedia.com/wiki/Lettuce][Lettuce]], 
+[[https://en.wikipedia.com/wiki/Okra][Okra]], 
+[[https://en.wikipedia.com/wiki/Onion][Onion]], 
+[[https://en.wikipedia.com/wiki/Peas][Peas]], 
+[[https://en.wikipedia.com/wiki/Potato][Potato]], 
+[[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]], 
+[[https://en.wikipedia.com/wiki/Radish][Radish]], 
+[[https://en.wikipedia.com/wiki/Red][Red Pepper]], 
+[[https://en.wikipedia.com/wiki/Spinach][Spinach]], 
+[[https://en.wikipedia.com/wiki/Tomato][Tomato]] & 
+[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce xx ++Strength Meals.
 
 **** Flowers
+
 Rose & Chrysanthemum Salad!
-|---------------+------+------+-----------|
-| Flower        | Meal | Buff | Attribute |
-|---------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Anemone][Anemone]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Begonina][Begonina]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Bergamot][Bergamot]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Bluebell][Bluebell]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Buttercups][Buttercups]]    |      |      |           |
-| [[https://en.wikipedia.com/wiki/Carnation][Carnation]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]] |      |      |           |
-| [[https://en.wikipedia.com/wiki/Daffodil][Daffodil]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Foxglove][Foxglove]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Holly][Holly]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Lavender][Lavender]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Orchid][Orchid]]        |      |      |           |
-| [[https://en.wikipedia.com/wiki/Primrose][Primrose]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Rose][Rose]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]]     |      |      |           |
-| [[https://en.wikipedia.com/wiki/Thistle][Thistle]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Tulip][Tulip]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Violet][Violet]]        |      |      |           |
-|---------------+------+------+-----------|
 
-- likely that all flowers buff charm
+[[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]], 
+[[https://en.wikipedia.com/wiki/Anemone][Anemone]], 
+[[https://en.wikipedia.com/wiki/Begonina][Begonina]], 
+[[https://en.wikipedia.com/wiki/Bergamot][Bergamot]], 
+[[https://en.wikipedia.com/wiki/Bluebell][Bluebell]], 
+[[https://en.wikipedia.com/wiki/Buttercups][Buttercups]], 
+[[https://en.wikipedia.com/wiki/Carnation][Carnation]], 
+[[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]], 
+[[https://en.wikipedia.com/wiki/Daffodil][Daffodil]], 
+[[https://en.wikipedia.com/wiki/Foxglove][Foxglove]], 
+[[https://en.wikipedia.com/wiki/Holly][Holly]], 
+[[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]], 
+[[https://en.wikipedia.com/wiki/Lavender][Lavender]], 
+[[https://en.wikipedia.com/wiki/Orchid][Orchid]], 
+[[https://en.wikipedia.com/wiki/Primrose][Primrose]], 
+[[https://en.wikipedia.com/wiki/Rose][Rose]], 
+[[https://en.wikipedia.com/wiki/Sunflower][Sunflower]], 
+[[https://en.wikipedia.com/wiki/Thistle][Thistle]], 
+[[https://en.wikipedia.com/wiki/Tulip][Tulip]] &
+[[https://en.wikipedia.com/wiki/Violet][Violet]] produce xx ++Charisma Meals.
 
-**** Plants
-Herbs, Spices
-|------------------+------+------+-----------|
-| Plant            | Meal | Buff | Attribute |
-|------------------+------+------+-----------|
-| [[https://en.wikipedia.com/wiki/Amaranth][Amaranth]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Chives][Chives]]           |      |      |           |
-| [[https://en.wikipedia.com/wiki/Parsley][Parsley]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Basil][Basil]]            |      |      |           |
-| [[https://en.wikipedia.com/wiki/Rosemary][Rosemary]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Thyme][Thyme]]            |      |      |           |
-| [[https://en.wikipedia.com/wiki/Oregano][Oregano]]          |      |      |           |
-| [[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]]      |      |      |           |
-| [[https://en.wikipedia.com/wiki/Marjoram][Marjoram]]         |      |      |           |
-| [[https://en.wikipedia.com/wiki/Mint][Mint]]             |      |      |           |
-| [[https://en.wikipedia.com/wiki/Dill][Dill]]             |      |      |           |
-| [[https://en.wikipedia.com/wiki/Ginger][Ginger]]           |      |      |           |
-| [[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]] |      |      |           |
-| [[https://en.wikipedia.com/wiki/Fennel][Fennel]]           |      |      |           |
-| [[https://en.wikipedia.com/wiki/Mustard][Mustard]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Peppermint][Peppermint]]       |      |      |           |
-| [[https://en.wikipedia.com/wiki/Saffron][Saffron]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Paprika][Paprika]]          |      |      |           |
-| [[https://en.wikipedia.com/wiki/Hemp][Hemp]]             |      |      |           |
-|------------------+------+------+-----------|
+**** Herbs & Spices
+
+[[https://en.wikipedia.com/wiki/Amaranth][Amaranth]], 
+[[https://en.wikipedia.com/wiki/Chives][Chives]], 
+[[https://en.wikipedia.com/wiki/Parsley][Parsley]], 
+[[https://en.wikipedia.com/wiki/Basil][Basil]], 
+[[https://en.wikipedia.com/wiki/Rosemary][Rosemary]], 
+[[https://en.wikipedia.com/wiki/Thyme][Thyme]], 
+[[https://en.wikipedia.com/wiki/Oregano][Oregano]], 
+[[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]], 
+[[https://en.wikipedia.com/wiki/Marjoram][Marjoram]], 
+[[https://en.wikipedia.com/wiki/Mint][Mint]], 
+[[https://en.wikipedia.com/wiki/Dill][Dill]], 
+[[https://en.wikipedia.com/wiki/Ginger][Ginger]], 
+[[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]], 
+[[https://en.wikipedia.com/wiki/Fennel][Fennel]], 
+[[https://en.wikipedia.com/wiki/Mustard][Mustard]], 
+[[https://en.wikipedia.com/wiki/Peppermint][Peppermint]], 
+[[https://en.wikipedia.com/wiki/Saffron][Saffron]], 
+[[https://en.wikipedia.com/wiki/Paprika][Paprika]] &
+[[https://en.wikipedia.com/wiki/Hemp][Hemp]] produce xx Meals.
+
+*** Specialty Foods
+|---------------+------+------+-----------+------|
+| Item          | Meal | Buff | Attribute | Size |
+|---------------+------+------+-----------+------|
+| Eggs          |      |      |           |  0.1 |
+| Honey         |      |      |           |  0.1 |
+|---------------+------+------+-----------+------|
+
+Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road!
+
+|---------------+---------------------------------------------|
+| Related       | Note                                        |
+|---------------+---------------------------------------------|
+| Venom Sacks   | not sure that these are ingredients.        |
+| Salted Meat   | exists as well, not sure that its cookable. |
+| Load of Bread | Is it even edible?                          |
+|---------------+---------------------------------------------|
+
 *** When Elementally Flamed (++)
+
+As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
+up a storm, why not try frying up some runes? What's the worst that could
+happen?
+
+
 By the power of magic..
 |---------+---------|
 | Element | Meal    |
@@ -1561,14 +1586,9 @@ By the power of magic..
 |---------+---------|
 
 if you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [[Elemental][Elemental Combos]] applied to your foodstuffs, with the last infused element
+used for [[Elemental][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 
-*** Fireworks!
-
-As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
-up a storm, why not try frying up some runes? What's the worst that could
-happen?
 
 ** Items
 *** Containers
@@ -2189,10 +2209,12 @@ Hmm.. somehow you learn that
 - crafting takes about 105 moments.
 - unconscious people don't drown in wells.
 - its morning, daylight. you're going to loose rep or your gear no matter what
-
-I just tested this and you have to /say "give me that [item name]"
-
 - /grab /choke  zesty-dish/meal, fin-gear  rob them blind.
+
+and then mustardfiend — Today at 11:18 PM
+
+*/say thief* gets them to drop everything they stole and act embarrassed.
+
 
 ** Party
 - Press "*p*" for party details. It will show you have many followers you have and
@@ -3614,14 +3636,14 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
   switch places with you.
 - Local waypoints now have letters which can be used to reference them in
   commands
-- Number *keys 1-9 now execute* the corresponding entries when viewing /spells and
-  /waypoints.
+- Number *keys 1-9 now execute* the corresponding entries when viewing */spells* and
+  */waypoints*.
 - Upon taking an item, the game will now attempt to target whatever new item is
   at the same index instead of resetting to the first item on the Nearby Targets
   list.
 - Clicking party members on the */party* window now brings up the same options as
   clicking them them on the Targets list
-- Reordered some mouse meu items in order to lower the chances of accidentally
+- Reordered some mouse menu items in order to lower the chances of accidentally
   performing some detrimental actions
 - Fixed a bug with traders not working as intended
 - Fixed a longstanding issue with autocomplete unexpectedly inserting undesired
