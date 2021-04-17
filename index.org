@@ -13,7 +13,7 @@
 
 I love the depth and variety in this game. The encounters can be short and
 sweet, or long and trecherous. The world has beauty and there is heaps of
-creativity in the maps their many variations. The exploration and combat systems
+creativity in the maps and their many variations. The exploration and combat systems
 are challenging yet you never feel as if the game is out to get you.
 
 #+begin_quote
@@ -39,11 +39,18 @@ This page serves as a repository for my notes about the game.
 During my first play-session some years ago I hit a wall and swore to myself
 that I would beat this thing one day. And I finally have.
 
-It was not a big, triumphant, clever win. Definitely not. I played what looked
-to me like the most survivable class, the Gatekeeper as defensively as I could
+It was not a big, triumphant, clever win. Definitely not! I played what looked
+to me like the most survivable class, the [[GATEKEEPER][Gatekeeper]] as defensively as I could
 and for 150 days stuck my head into dangerous places, learning and exploring as
 I went - and now that my understanding has grown, my notes and my approach to
 them is evolving too.
+
+Winning, for me meant 'Completing the Astral Key'. It also marks the beginning
+of what puts my Character into the 'Age of Steel', sees me Mining and Fishing
+more, and at last! has me manage inventory and items the way the Gods intended.
+
+Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
+but they are not harmful if you're just starting out. 
 
 ** Finding
 #+begin_quote
