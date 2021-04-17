@@ -47,7 +47,7 @@ them is evolving too.
 
 Winning, for me meant 'Completing the Astral Key'. It also marks the beginning
 of what puts my Character into the 'Age of Steel', sees me Mining and Fishing
-more, and at last! has me manage inventory and items the way the Gods intended.
+more, and at last! has me manage inventory and items the way the Elders intended.
 
 Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
 but they are not harmful if you're just starting out. 
@@ -95,26 +95,26 @@ Email will reach me most weeks.
 ** Credits!
 
 Many voices in this document speak with I. These come from the Discord, Reddit
-and Wiki, and they may be your voice, your voices not mine. If you read
-something brilliand and insightful in this guide, it might well have been you
+and Wiki, and they may be your voice, your voices, and not mine. If you read
+something brilliant and insightful in this guide, it might well have been you
 that said it, so, *THANK YOU!*
 
-Mantecarl helped fill in several blanks and several tips in started with him,
-Mishaal too contributed insights and tips and maintains a spreadsheet full of
-detail on weapons and armors! Ent's feedback helped clarify several bits of text
+/Mantecarl/ helped fill in several blanks and several tips in started with him,
+/Mishaal/ too contributed insights and tips and maintains a spreadsheet full of
+detail on weapons and armors! /Ent/'s feedback helped clarify several bits of text
 considerably.
 
 * Topics
 ** Avatar
 *** Blights
 
-Instead of simply dying and dumbfoundedly staring at your screen, the whatever
-happened to you bring you into the game happens again and you get a chance to
+Instead of simply dying and staring at your screen dumbfoundedly, the force
+which brought you into the game supports you again by giving you get a chance to
 come back to solve the real mysteries of FARA.
 
-That's to say you somehow come back to life, just a little shaken and just a
+That's to say, you somehow come back to life, just a little shaken and just a
 little bit worse. When you come back, you might suffer or notice one of these
-effects (a lot of people died researching this. a moment of silence please!):
+effects (A lot of people died researching this; A moment of silence please!):
 
 - Stronger Enemies
 - Increased Encounter Rate
@@ -130,11 +130,11 @@ effects (a lot of people died researching this. a moment of silence please!):
 - Reduced Charm
 
 
-Each of these blights decreases your chances of resurrecting again. Exactly what
+Each of these Blights decreases your chances of resurrecting again. Exactly what
 that means is unclear.. except that it will prevent you from cultivating your follies.
 
 Feedback:
-- I got 4 blights once. I never got more than 4, though this doesn't necessarily
+- I got 4 Blights once. I never got more than 4, though this doesn't necessarily
   mean its impossible. It would require a lot of testing to be sure.
 - Taking the first blight is a guaranteed success I think? I never had it fail,
   and it does make sense.
@@ -2138,10 +2138,30 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 
 ** NPC's
 *** Elder
+The real power in fara; Colludes with the researchers and likely with the shaded
+figure that saved your life when your memories first began.
+*** Nobles
+Also appear to colludes with the researchers, but their power and influence in
+the realm is nowhere near to that of the Elders. Not much is known about the
+transformation of Nobles to Elders, nor do all that many survive into old age.
 *** Riddler
+Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
+his brains, asks you a single question before falling into some kind of stupor.
 *** Guards
+These will gang up on you and you'll want to be really careful to not get the Elder
+involved in a fight because he will end your game by kicking you out of 'his' world
+permanently.
 *** Townies
+See Desperate Times. 
 *** Escortees
+Source of infinite unique items of middling power .. which .. when you have
+collected way to many, might allow you to think yourself as well equipped as
+someone solidly in 'The Age of Steel'. Perhaps a little better than that; But
+as the quality of their Thank you's vary quite a bit, its not unheard of to find
+their dead bodies in Dungeons and Monster Dens.
+*** Champions 
+Challenge them once you're past the "Age of Steel", even then you might regret it!
+Remember they are Faction Leaders.
 *** Smuggler
 Insight Good+, Charm Average:
 #+begin_example
@@ -2158,6 +2178,7 @@ Iron and Crystal are both uncommon. He gave back half of the same rarity,
 rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
 *** Trader
+A bug was fixed. TBD.
 ** Party
 - Press "*p*" for party details. It will show you have many followers you have and
   can have. 
