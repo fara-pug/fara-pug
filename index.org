@@ -3182,13 +3182,17 @@ Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1
 
 *** Melee
 
-    I suppose that all of these weapons can be thrown at opponents to damage them.
+I suppose that all of these weapons can be thrown at opponents to damage them.
 
 **** Types
+
+The lists below still want to get arranged by these weapon types:
+
 |-------------------+----------------------------|
 | Axes              | may cleave                 |
 | Bladed weapons    | may cause bleeding         |
 | Blunt weapons     | may cause dazed            |
+|-------------------+----------------------------|
 | Spears and chains | have increased range       |
 | Spears and pikes  | have higher chance to crit |
 |-------------------+----------------------------|
@@ -3209,8 +3213,7 @@ These are only usable in Melee Range:
 | Club           | Dazes the target                                  |    3 |
 | Cutlass        | Deflects weapon projectiles                       |    3 |
 | Falchion       | Deflects weapon projectiles                       |    3 |
-| Flamberg       | Deflects incoming heavy attacks                   |    4 |
-| Flamberg       | Deflects incoming heavy attacks                   |    4 |
+| Flamberge      | Deflects incoming heavy attacks                   |    4 |
 | Hammer         | Dazes the target                                  |    3 |
 | Javelin        | Deals increased damage                            |    3 |
 | Kama           | Deflects weapon projectiles                       |    3 |
