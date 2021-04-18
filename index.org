@@ -1928,7 +1928,7 @@ Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
 single Ingredients in Campfires and Firepits to restore stamina and heal
 themselves and their allies.
 
-The real freaks produce foods with a different prefix and *extra +* on the
+The real freaks produce foods with a different prefix and an *extra +* on the
 buffs:
 
 - [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
@@ -2133,7 +2133,7 @@ Rose & Chrysanthemum Salad!
 | Honey         |      |      |           |  0.1 |
 |---------------+------+------+-----------+------|
 
-Take the ultra-light Eggs and Honey along with a few elemental rules to cook up
+Take the ultra-small Eggs and Honey along with a few elemental rules to cook up
 Elemental Gourmet Meals right next to, or even in your Dungeon or Quest site!
 
 Don't forget the wood lest you wind up trying to do that in a desert.
@@ -2165,7 +2165,7 @@ By the power of magic..
 | [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    | Heavy   |
 |---------+---------|
 
-if you infuse multiple runes into a firepit you'll get the wonderful combo names
+When you infuse multiple runes into a firepit you'll get the wonderful combo names
 used for [[Elemental][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 ** Locations
@@ -2207,7 +2207,7 @@ while getting shot at if you tolerate these untamable collaborators!
 Single Building in the woods, no hostiles, tool-chest .. and a single powerful trap.
 - need more data
 **** Ambushes
-Going somewhere new you spy a Big Chest out in the open.. just a dash away and
+Going somewhere new, you spy a Big Chest out in the open.. just a dash away and
 noone's here.. you search, and seing nothing you dash.. into your doom.
 
 Careful with the greed man, if it looks to good to be true, it is.
@@ -2228,7 +2228,7 @@ friends down at the stables. (file under 'ambushed by cats')
 
 Obelisk building let's you upgrade spells
 
-- Costly upgrades for spells you've learned.
+- Upgrades for spells you've learned.
 - Costs the same as if you had unlocked an Obelisk in your settlement!
 - The cheapest and most thrilling way to upgrade your spells is to hunt for
   [[Ruins][ruinous ruins]] since you'll always? find an obelisk shard among the loot there.
@@ -2643,7 +2643,7 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 
 ** NPC's
 *** Elder
-The real power in fara; Colludes with the researchers and likely with the shaded
+The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
 *** Nobles
 Also appear to colludes with the researchers, but their power and influence in
@@ -2994,7 +2994,7 @@ See [[Damage Types][Damage Types]], Elemental, Attunement
 - enhanced iron shovel and workbench in inventory
 - should be possible once you get the tool recipes from the first other settlement you visit.
 - oh, have a rope on you while getting used to digging, just in case you slip and fall.
-- must-read: [[Degritone's Guide to 100k Points]]
+- must-read: [[Degritone's Guide to 100k Points][Degritone's Guide to 100k Points]]
 - see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
 
 **** Dig and or Fish.. rather alike, no?
@@ -3095,7 +3095,7 @@ Not sure where that would fit in with legendary
 ** Spells
 (expert info is on the way)
 
-- See [[Obelisk]] for Spell-levels and leveling
+- See [[Obelisk][Obelisk]] for Spell-levels and leveling
 
 Basically, you
 - chose an elemental rune to determine what type of damage and what elemental
@@ -3938,17 +3938,17 @@ A few things regarding charged rift particles:
 
 *** what classes do yall like the most
 
-*Ent, twice more* prefers
+/Ent, twice more/ prefers
   - Pugilist > Viking > Soldier.                        
 
-*Mantecar* likes to say
+/Mantecarl/ likes to say
   - For me, it's Swiftshade/Merchant.
     
-*Mishaal* decided
+/Mishaal/ decided
   - Scholar's very versatile
   - I've only played with a limited number, but for me its the scholar!
 
-and Pug survives
+and /Pug/ survives
   - as a Gatekeeper.
 ** Obsolete/Guides
 *** Degritone's Guide to 100k Points
@@ -4059,7 +4059,7 @@ points.
 Written by a master of the game for an old version, still sensible in its way
 https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit
 *** From Reddit
-might have been the best overall text i found
+Might have been the best overall text i found
 https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/
 *** From Wiki
 What useful info there for 2021 has been incorporated above.
