@@ -15,7 +15,7 @@
 - [[https://brianiscreative.itch.io/fara/devlog][Latest devlog from Brian]],
   - [[Release Notes][see if its already searchable in these notes]].
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
-  - [[Weaponry][and the Notes's expanded weapons section]]
+  - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
 * Intro
 
@@ -351,6 +351,195 @@ complacent about closing the door in Relica. Since then I've experimented, and
 thieves have appeared *every* single night, sometimes taking not just my weapon
 but also upto two pieces of armor. That's going from never to always, making me
 think that *winning was a bad idea!*  Lets hope I've run into a bug here.
+** Buildings
+
+This section is about the unlockable building you can find in every settlement.
+Completing all of them makes you a Settlement Hero, which is a Title that can
+be useful when you want to talk to or hire NPC's for your travels.
+
+The costs were transcribed from Relica by Pug.
+
+Don't compromise on gear to invest in buildings,
+You only *need* the Warehouse at the start.
+
+*** Warehouse
+"Gives access to a thing that helps you move to other settlements."
+
+**** Cost
+- 2 medals
+- 20 wooden planks
+- 10 ropes
+
+**** Benefits
+- Crucible that gives shared access to your stash of buffs, situational uniques,
+  and supplies for expanding elsewhere.
+
+- 6 Storage bins, probably best when only used in Relica, that let you get rid of
+  things you dont want to see but dont want to loose. See [[Item Management]]
+
+*** Stables
+How!?@?#
+
+**** Cost
+- 2 medals
+- 10 copper ingots
+- 5 wooden buckets (got recipe after opening refinery)
+
+**** Benefit
+Aha's from looking at my first Stables.
+Yours will be similar I'd think. So.. Oh!
+
+- its a farm with spice and tree plots! 
+  - a garlic and a fennel plot
+  - a lemon and a maple tree plot
+- farmer and stablemaster work here
+  - there's also a young deer. should i bring the cow?
+- also dropped a Starcloth and a Velvet Saddle
+  - these materials i'd not seen before i opened the building
+
+
+*** Tavern
+
+**** Cost
+- 2 medals
+- 5 wooden stools
+- 5 glass mugs
+
+**** Benefit
+- A Gambler that gives you 25% odds on scoring..
+  - well.. so far all i got was this blue print
+- A High level merc that wouldn't even talk to me yet
+- A Well skilled merc that can hold his own
+- A Damsel in distress NPC i escorted elsewhere
+
+Have to check up on the patrons there again.
+If all that got me was a gambling chance at BPs, fine!
+
+*** Obelisk
+
+**** Cost
+- 2 medals
+- 10 stones
+- 25 runic shards
+
+**** Benefit
+The same damn obelisk you keep finding in the wilderness, but with a researcher
+that offer runes for sale and who keeps the rock polished.
+
+- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
+
+- Single level upgrade obtained by beating the Bosses at Ruins become less
+  attractice once you have this, but its hard to beat 'free and scary'.
+
+**** Staff
+The Arcane Researcher employed here, psychic and creative as he appears to be
+gives you following 5 options to obtain a rune of "Something" from him for a
+number of shards. These somethings could be:
+
+|--------------+------+---------------------------------------|
+| Something    | Cost |                                       |
+|--------------+------+---------------------------------------|
+| Destructive  |    3 | well, that's clear                    |
+| Protective   |    3 | i can imagine that too                |
+| Primordial   |    3 | that would have to be elemental runes |
+| Supplemental |    2 | decide what that could be later       |
+| Unknown      |    2 | <- But look at that!                   |
+|--------------+------+---------------------------------------|
+
+The first interaction I had with him was to buy something unknown of course. And
+what I got wasn't a random thing, but a rune I had never seen before! Trying again
+of course I got a very highly rated rune, the rune of spears. But I already had one
+of thos in inventory. 
+
+So I don't know. Did his psychic let him give me one kind of rune that I had never had
+before then picking something destructive randomly? I'll have to solicit and wait for
+feedback to get clear on that, or try it again in the next game. Respect!
+
+
+**** Prices
+
+***** Spell upgrades
+|--------+------------|
+| Shards | upgrade to |
+|--------+------------|
+|      5 | Improved   |
+|     10 | Greater    |
+|     15 | Superior   |
+|     20 | Flawless   |
+|--------+------------|
+|     50 | new > max  |
+|--------+------------|
+
+
+***** Custom Runes
+
+tbd
+
+*** Refinery
+A smith that makes a lot of (refineried) items.
+
+**** Cost
+- 4 medals
+- 15 iron ingots
+- 5 iron hammers
+- 5 wooden benches
+- 5 wooden tables
+
+**** Benefit
+
+Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
+you. He has manic inspiratitions, you bring him what he asks for, he levels up
+and crafts whatever he damn well pleases.
+
+- Does away with your excess Medals.
+- Consumes your excess resources.
+- "Discovers" Recipes for Items you've been dying to find.
+
+**** Notes
+After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
+stables. That was nice. I also got a nice everburning? lantern that helps to
+attract even more encounters at night
+
+Here's a log of what he did for me in the beginning:
+
+- each item cost 1 Medal
+- all but the first item were of (Refined) Quality.
+
+| Mat  | Qty | Result         |
+|------+-----+----------------|
+| bone |   1 | ball           |
+| tin  |  20 | organ          |
+| tin  |   5 | spear          |
+| tin  |   2 | clip           |
+| bone |   2 | bucket         |
+| bone |   2 | grappling hook |
+| bone |   2 | sign           |
+| bone |   1 | goggles        |
+| tin  |   1 | box            |
+| tin  |   1 | lantern        |
+| bone |     | lantern        |
+| bone |     | violin         |
+
+I might have missed an item there, but suddenly he asked for a crafted input,
+turning *bone nunchucks > swordchucks*.
+
+After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
+coming close to a new materials tier after 12..13 runs.. Verry nice, very
+grindy, very medal-expensive!
+
+*3 wooden blocks > wooden anvil*
+
+Afterwards he wanted bones again..
+
+Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
+of his more sensible items. neat!
+
+- Keeping these prototypes makes sense to me right now.
+
+- Signs.. used to be terribly important in the old version i played. Perhaps
+  they have a discoverable function..
+
+- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 
 ** Classes
 I forgot where i stole this :( The idea is that i'll integrate the class
@@ -1089,35 +1278,39 @@ different effects.
 Above Average Health, Good Charisma, Above Average Wisdom, Below Average Constitution, and No Spell Slots.
 
 Points required: 100,000
-***** Link to list of known songs here
+***** More about the known songs
 The Rhapsodist is a class in FARA with a very unique play style.
- Whenever the Rhapsodist attacks, it plays a note.
- The note is dependent if the attack is a normal or a Heavy.
- When you sing four notes, it makes a song.
- Different songs have different effects.
- The order of the notes in the song does matter, unless it's the Cleansing song.
- The two notes are short (normal attack) and long (heavy attack).
- All buffs applied to allies with songs are also applied to yourself.
+- Whenever the Rhapsodist attacks, it plays a note.
+- The note is dependent if the attack is a normal or a Heavy.
+- When you sing four notes, it makes a song.
+- Different songs have different effects.
+- The order of the notes in the song does matter, unless it's the Cleansing song.
+- The two notes are short (normal attack) and long (heavy attack).
+- All buffs applied to allies with songs are also applied to yourself.
 
-Note 1	Note 2	Note 3	Note 4	Song Name	Effect
-See below*				Song of Cleansing|	removing negative effects from nearby allies
-Long	Long	Long	Long	Song of Destruction|	boosting attack power of nearby allies
-Short	Long	Short	Short	Song of Shadows|	enter in stealth
-Short	Short	Long	Short	Song of Diligence|	reducing the stamina used by nearby allies
-Long	Long	Long	Short	Song of Sadness|	decreasing the mood of nearby enemies
-Long	Long	Short	Long	Song of Bliss|	increasing the mood of nearby allies
-Short	Long	Long	Long	Song of Wastrels|	draining stamina of nearby enemies
-Short	Short	Short	Long	Song of Protection|	reduce damage taken by allies
-Short	Short	Short	Short	Song of Lasting|	increase duration of nearby effect
-Long	Short	Long	Long	Song of Light|	illuminating nearby enemies
+|------------+--------+--------+--------+---------------------+----------------------------------------------|
+| Note 1     | Note 2 | Note 3 | Note 4 | Song Name           | Effect                                       |
+|------------+--------+--------+--------+---------------------+----------------------------------------------|
+| See below* |        |        |        | Song of Cleansing   | removing negative effects from nearby allies |
+| Long       | Long   | Long   | Long   | Song of Destruction | boosting attack power of nearby allies       |
+| Short      | Long   | Short  | Short  | Song of Shadows     | enter in stealth                             |
+| Short      | Short  | Long   | Short  | Song of Diligence   | reducing the stamina used by nearby allies   |
+| Long       | Long   | Long   | Short  | Song of Sadness     | decreasing the mood of nearby enemies        |
+| Long       | Long   | Short  | Long   | Song of Bliss       | increasing the mood of nearby allies         |
+| Short      | Long   | Long   | Long   | Song of Wastrels    | draining stamina of nearby enemies           |
+| Short      | Short  | Short  | Long   | Song of Protection  | reduce damage taken by allies                |
+| Short      | Short  | Short  | Short  | Song of Lasting     | increase duration of nearby effect           |
+| Long       | Short  | Long   | Long   | Song of Light       | illuminating nearby enemies                  |
+|------------+--------+--------+--------+---------------------+----------------------------------------------|
+
+- *There's seven different ways of performing the Song of Cleansing:
+  - 2S and 2L (in any order) and L - S - S - S
+
 The attacks don't have to be consecutive, and only the last one has to hit a target for the song to start.
 
-For example: you can hit the air three times, travel to another tile, wait for a full day and even rest and you will complete the song on your next valid attack (as of 0.0.15.18b)
-
-
-*There's seven different ways of performing a Song of Cleansing*:
- 2S and 2L (in any order) and L - S - S - S
-
+For example: you can hit the air three times, travel to another tile,
+wait for a full day and even rest and you will complete the song on
+your next valid attack (as of 0.0.15.18b)
 
 ** Class Traits
 
@@ -1277,6 +1470,333 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 
 - zapped the mirrored half because confusing
 - i copied the spreadsheet, completed with the aid of the good people on discord.
+
+** Equipment
+
+*** Armor
+
+Mishaal's research on the stat bonuses of armor is awesome!
+- We still need that for Weapons!
+
+All listed bonuses are 1.
+- Each level of refinement adds an additional bonus point to the listed stat!
+- Ignore anything without a bonus
+- Upgrade breastplates which give a bonus and a malus twice to get a bonus in two stats!
+- Jumpsuits truly start with 2 boni
+- Ignore accessories because you want to have a bag or weapon in that slot.
+  - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
+
+Head-pieces:
+|----------------+------+-----------+------|
+| Armor          | Stat | Materials | Size |
+|----------------+------+-----------+------|
+| Cap            | CHA  | 1 soft    |    2 |
+| Tiara          | CHA  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Bandana        | FIN  | 1 soft    |    1 |
+| Hood           | FIN  | 1 soft    |    2 |
+|----------------+------+-----------+------|
+| Crown          | INS  | 3 hard    |    2 |
+| Hat            | INS  | 1 soft    |    1 |
+|----------------+------+-----------+------|
+| Helm           | RES  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Coif           | STR  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Wrestling Mask | none | 1 soft    |    1 |
+|----------------+------+-----------+------|
+
+..  must add Goggles
+
+Armor-pieces:
+|-------------+-------------+-----------+------|
+| Armor       | Stat        | Materials | Size |
+|-------------+-------------+-----------+------|
+| Jacket      | CHA         | 2 soft    |    2 |
+| Thong       | CHA         | 1 soft    |    1 |
+|-------------+-------------+-----------+------|
+| Brigandine  | FIN         | 5 soft    |    5 |
+| Coat        | FIN         | 5 soft    |    5 |
+| Jerkin      | FIN         | 5 soft    |    2 |
+| Kimono      | FIN         | 5 soft    |    5 |
+| Tights      | FIN         | 2 soft    |    2 |
+| Tunic       | FIN         | 5 soft    |    5 |
+|-------------+-------------+-----------+------|
+| Vestments   | INS         | 4 soft    |    3 |
+|-------------+-------------+-----------+------|
+| Kilt        | STR         | 3 soft    |    2 |
+|-------------+-------------+-----------+------|
+| Poncho      | RES         | 2 soft    |    2 |
+|-------------+-------------+-----------+------|
+| Breastplate | -1 FIN, RES | 5 hard    |    5 |
+| Jumpsuit    | STR, 1 FIN  | 5 soft    |    5 |
+|-------------+-------------+-----------+------|
+| Blouse      | none        | 2 soft    |    2 |
+| Dress       | none        | 3 soft    |    2 |
+| Gi          | none        | 3 soft    |    2 |
+| Gown        | none        | 3 soft    |    2 |
+| Shirt       | none        | 2 soft    |    2 |
+| Toga        | none        | 3 soft    |    2 |
+|-------------+-------------+-----------+------|
+
+Gloves:
+|-----------+------+-----------+------|
+| Gloves    | Stat | Materials | Size |
+|-----------+------+-----------+------|
+| Gauntlets | FIN  | 2 hard    |    2 |
+| Gloves    | FIN  | 2 soft    |    1 |
+|-----------+------+-----------+------|
+| Bracers   | RES  | 2 hard    |    2 |
+|-----------+------+-----------+------|
+
+Footwear:
+|----------+------+-----------+------|
+| Footwear | Stat | Materials | Size |
+|----------+------+-----------+------|
+| Boots    | FIN  | 4 soft    |    2 |
+|----------+------+-----------+------|
+| Boots    | none | 4 hard    |    2 |
+| Sabatons | none | 4 hard    |    2 |
+| Sandals  | none | 1 soft    |    1 |
+| Shoes    | none | 4 hard    |    2 |
+| Shoes    | none | 1 soft    |    1 |
+|----------+------+-----------+------|
+
+- Yes, Boots made from soft materials provide a bonus to Finesse while those
+  made from hard materials do not.
+
+Accessories:
+|-----------+-------------+-----------+------|
+| Accessory | Stat        | Materials | Size |
+|-----------+-------------+-----------+------|
+| Bracelet  | CHA         | 1 hard    |    1 |
+| Doll      | CHA         | 1 soft    |    1 |
+| Garter    | CHA         | 1 soft    |    1 |
+| Kite      | CHA         | 1 soft    |    3 |
+|-----------+-------------+-----------+------|
+| Cloak     | FIN         | 3 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | STR         | 1 hard    |    2 |
+|-----------+-------------+-----------+------|
+| Underwear | RES         | 1 soft    |    1 |
+|-----------+-------------+-----------+------|
+| Bandolier | FIN, -1 RES | 2 soft    |    2 |
+| Quiver    | FIN, -1 RES | 2 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | none        | 1 soft    |    2 |
+| Cape      | none        | 3 soft    |    2 |
+| Mat       | none        | 2 soft    |    4 |
+| Rug       | none        | 3 soft    |    4 |
+| Scarf     | none        | 2 soft    |    1 |
+|-----------+-------------+-----------+------|
+
+- Any Weapon can be worn as an accessory for some powerful stat boosts!
+
+*** Shields
+|---------------+-----------+-----------+------|
+| Shield        | Defense   | Materials | Size |
+|---------------+-----------+-----------+------|
+| Shield        | Low       | 3 hard    |    2 |
+| Heater Shield | Average   | 4 hard    |    3 |
+| Kite Shield   | High      | 5 hard    |    4 |
+| Tower Shield  | Very High | 6 hard    |    5 |
+|---------------+-----------+-----------+------|
+
+- Carrying a shield makes all stamina based actions more expensive.
+- Shields do blunt-damage and there's nothing wrong with holding two of them.
+
+*** Containers
+:PROPERTIES:
+:ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
+:END:
+
+**** Extra Inventory Space
+
+The material determines your attribute bonuses and might have an effect on
+durability.
+
+|----------+-----------+----------+---------+---------+------------|
+| Bag      | Materials | Capacity | Refined | Artisan | Masterwork |
+|----------+-----------+----------+---------+---------+------------|
+| Satchel  | 2 soft    |       10 |      15 |      20 |         25 |
+| Bag      | 3 soft    |       15 |      20 |      25 |         30 |
+| Backpack | 4 soft    |       20 |      25 |      30 |         35 |
+| Sack     | 5 soft    |       25 |      30 |      35 |         40 |
+|----------+-----------+----------+---------+---------+------------|
+
+- The Merchant class has significantly increased inventory capacity from the beginning
+- And the Hauler trait increases your inventory capacity passively
+- If you've seen a legendary bag, I'd like to know!
+
+**** Fixed-ish Storage
+
+All these have the capacity to hold 300 items of arbitrary size.
+
+- Carts, draggable on the local map
+- Storage Bins, installable
+- Storage Bins, upgraded.
+
+
+**** Liquids
+
+Are
+Bottle,
+Bowl,
+Bucket,
+Cauldron,
+Cup,
+Flask,
+Keg,
+Jug,
+Mug,
+Stein,
+Teapot,
+Urn,
+Vial &
+Waterskin
+all of them?
+
+**** Party
+I may be dreaming but were there no saddle-bags in that old version? Can my pet
+and merc help me carry things? So much to determine yet. I should probably look
+into simply equipping my new merc first.
+
+*** Curios
+(wip)
+
+Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
+them to a piece of equipment, you can't get rid of them again. Some of these are
+really rare and I can't quite judge which those are, so .. Please don't cry if
+you misapply!
+
+Curios can be found and some of the curios, and all of those that boost one of
+the 5 main stats are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on
+the local madman.)
+
+**** Never Craftable
+|------------------+----------------------------------+--------|
+| Curio            | Effect                           | Rarity |
+|------------------+----------------------------------+--------|
+| Athletic Band    | Increase Jump distance           |        |
+| Balanced Weight  | Lessen chance to stumble (drunk) |        |
+| Hardened Tack    | Increase critial damage          |        |
+| Hidden Pocket    | +5 Inventory capacity            |        |
+| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
+|------------------+----------------------------------+--------|
+| Hilt Chain       | Thrown Item returns              |        |
+| Metalic Bullseye | Increase throwing distance       |        |
+|------------------+----------------------------------+--------|
+
+**** Eventually Craftable
+|---------------+----------------------------|
+| Curio         | Effect                     |
+|---------------+----------------------------|
+| Durable Patch | Less wear and tear on item |
+|---------------+----------------------------|
+| Heavy Clasp   | +STR                       |
+| Shiny Charm   | +CHA                       |
+| Sturdy Plates | +RES                       |
+| Clever Widget | +INS                       |
+| Nimble Wrap   | +FIN                       |
+|---------------+----------------------------|
+
+
+*** Furniture
+
+How to arrange
+Bar Stool,
+Bed,
+Bedding,
+Bench,
+Bookcase,
+Bookshelf,
+Cabinet,
+Carpet,
+Chair?,
+Chamber Pot,
+Chandelier,
+Desk,
+Dresser,
+Mattress,
+Nightstand,
+Rocking Chair,
+Rug,
+Stool,
+Table,
+Throne &
+Wardrobe
+into a sensible homesteader's base eludes me still!
+
+- Some of these I only know by hearsay, having their sizes and to learn
+  something about their utility, if any, would be cool too.
+
+- Does anyone feel like making up a color-scheme for a living space?
+
+and what about Cages? do they have a use?
+
+*** Lights
+
+- Lanterns seem to burn forever.. but they dont.
+  - They'll have plenty of life left in them when yellow.
+- Climbing does not extend the light's circle. 
+
+|---------+---+--------------------------------------------------------|
+| Candle  |   | More of an oddity, rather ordinary, burns a few hours. |
+| Torch   |   | Easy to make, you were born knowing how to make them.  |
+| Lantern | 6 | Got the Recipe after 'feeding the smith' a lot.        |
+|---------+---+--------------------------------------------------------|
+
+*** Musical Instruments
+Drum,
+Flute,
+Guitar,
+Harp,
+Lute,
+Organ,
+Piano,
+Tambourine,
+Triangle &
+Violin 
+demand that an unopened stables in a good location be made into an orchestra pit!
+
+- Forgot to note their sizes. 
+
+*** Other
+Beaks and claws and..
+
+|-------------+--------------------------------------------|
+| Saddle      | Can be used to ride a mount                |
+| Shovel      | To dig with                                |
+| Pickaxe     | For digging and mining                     |
+| Fishing Rod | Still looking for what to do with those ;) |
+|-------------+--------------------------------------------|
+
+.. there used to be Pens and writable Signs, right?
+
+- Unusable Rings, Earrings, Glasses, Monocles.. 
+
+*** Utensils
+Rarer than hell it seems!
+
+Pipes, 
+Combs, 
+Spoons,
+Forks,
+Inkwells,
+Jars still in the game?
+
+*** Qualities
+|--------------+------------+-------------------------------------|
+| Quality      | Durability | Note                                |
+|--------------+------------+-------------------------------------|
+| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
+| (Refined)    | 2x         | Material/stat bonus %+              |
+| <Artisan>    | 3x?        | Material/stat bonus %++             |
+| {Masterwork} | 4x?        | Material/stat bonus %+++            |
+| ?Legendary?  | ?x         | Guessing                            |
+| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
+|--------------+------------+-------------------------------------|
+*** Repairing
 ** Factions
 
 When you rank up in a faction, by doing quests for them or bribing one of their
@@ -1566,7 +2086,7 @@ Rose & Chrysanthemum Salad!
 [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]], 
 [[https://en.wikipedia.com/wiki/Thistle][Thistle]], 
 [[https://en.wikipedia.com/wiki/Tulip][Tulip]] &
-[[https://en.wikipedia.com/wiki/Violet][Violet]] produce xx ++Charisma Meals.
+[[https://en.wikipedia.com/wiki/Violet][Violet]] produce *xx ++Charisma Meals*.
 
 **** Herbs & Spices
 
@@ -1588,7 +2108,7 @@ Rose & Chrysanthemum Salad!
 [[https://en.wikipedia.com/wiki/Peppermint][Peppermint]], 
 [[https://en.wikipedia.com/wiki/Saffron][Saffron]], 
 [[https://en.wikipedia.com/wiki/Paprika][Paprika]] &
-[[https://en.wikipedia.com/wiki/Hemp][Hemp]] produce xx Meals.
+[[https://en.wikipedia.com/wiki/Hemp][Hemp]] produce *xx Meals*.
 
 *** Specialty Foods
 |---------------+------+------+-----------+------|
@@ -1598,7 +2118,10 @@ Rose & Chrysanthemum Salad!
 | Honey         |      |      |           |  0.1 |
 |---------------+------+------+-----------+------|
 
-Take Eggs, Honey and a few elemental rules to cook Gourmet meals on the road!
+Take the ultra-light Eggs and Honey along with a few elemental rules to cook up
+Elemental Gourmet Meals right next to, or even in your Dungeon or Quest site!
+
+Don't forget the wood lest you wind up trying to do that in a desert.
 
 |---------------+---------------------------------------------|
 | Related       | Note                                        |
@@ -1630,104 +2153,6 @@ By the power of magic..
 if you infuse multiple runes into a firepit you'll get the wonderful combo names
 used for [[Elemental][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
-
-
-** Items
-*** Containers
-:PROPERTIES:
-:ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
-:END:
-
-**** Fixed-ish
-- Carts, draggable on the local map
-- Storage Bins, installable
-- Storage Bins, upgraded.
-
-**** Solids
-(from discord)
-- The first recipe you have is for a burlap satchel
-- Crafting a burlap satchel unlocks a handful of different satchel materials, and the recipe for bags with different materials
-- Crafting a bag unlocks backpacks
-- Crafting a backpack unlocks sacks
-- Sacks are the best storage item to wear
-- Followed by backpacks, then bags, then satchels
-- Every rarity tier is +5 storage
-- Every bag tier is another +5 storage I think
-- Making it refined, artisan, or masterwork further increases capacity
-- The Merchant class has significantly increased inventory capacity from the beginning
-- And the Hauler trait increases your inventory capacity passively
-
-**** Liquids
-- Vial, Flask, Mug, Waterskin..
-
-**** Party
-I may be dreaming but were there no saddle-bags in that old version? Can my pet
-and merc help me carry things? So much to determine yet. I should probably look
-into simply equipping my new merc first.
-
-*** Curios
-(wip)
-
-Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
-them to a piece of equipment, you can't get rid of them again. Some of these are
-really rare and I can't quite judge which those are, so .. Please don't cry if
-you misapply!
-
-Curios can be found and some of the curios, and all of those that boost one of
-the 5 main stats are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on
-the local madman.)
-
-**** Never Craftable
-|------------------+----------------------------------+--------|
-| Curio            | Effect                           | Rarity |
-|------------------+----------------------------------+--------|
-| Athletic Band    | Increase Jump distance           |        |
-| Balanced Weight  | Lessen chance to stumble (drunk) |        |
-| Hardened Tack    | Increase critial damage          |        |
-| Hidden Pocket    | +5 Inventory capacity            |        |
-| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
-|------------------+----------------------------------+--------|
-| Hilt Chain       | Thrown Item returns              |        |
-| Metalic Bullseye | Increase throwing distance       |        |
-|------------------+----------------------------------+--------|
-
-**** Eventually Craftable
-|---------------+----------------------------|
-| Curio         | Effect                     |
-|---------------+----------------------------|
-| Durable Patch | Less wear and tear on item |
-|---------------+----------------------------|
-| Heavy Clasp   | +str                       |
-| Shiny Charm   | +cha                       |
-| Sturdy Plates | +res                       |
-| Clever Widget | +ins                       |
-| Nimble Wrap   | +fin                       |
-|---------------+----------------------------|
-
-
-*** Lights
-
-- Lanterns seem to burn forever.. but they dont.
-  - They'll have plenty of life left in them when yellow.
-- Climbing does not extend the light's circle. 
-
-|---------+---+--------------------------------------------------------|
-| Candle  |   | More of an oddity, rather ordinary, burns a few hours. |
-| Torch   |   | Easy to make, you were born knowing how to make them.  |
-| Lantern | 6 | Got the Recipe after 'feeding the smith' a lot.        |
-|---------+---+--------------------------------------------------------|
-*** Qualities
-|--------------+------------+-------------------------------------|
-| Quality      | Durability | Note                                |
-|--------------+------------+-------------------------------------|
-| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
-| (Refined)    | 2x         | Material/stat bonus %+              |
-| <Artisan>    | 3x?        | Material/stat bonus %++             |
-| {Masterwork} | 4x?        | Material/stat bonus %+++            |
-| ?Legendary?  | ?x         | Guessing                            |
-| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
-|--------------+------------+-------------------------------------|
-*** Repairing
 ** Locations
 *** Location List
 Due to the presence of rift-energies in the land, its important that you
@@ -2612,198 +3037,6 @@ and can rebalance their stats or keep them godlike rerun this.
 
 - 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
 - without notes and interruptions these numbers might take ~90mins?
-
-
-** Settlements
-
-- Well
-- Fire Pit
-
-
-
-*** Buildings & Staff
-- transcribed from Relica by pug
-- reminder, you only *need* the Warehouse at the start.
-- don't compromise on gear to invest in buildings
-
-**** Warehouse
-"Gives access to a thing that helps you move to other settlements."
-
-***** Cost
-- 2 medals
-- 20 wooden planks
-- 10 ropes
-
-***** Benefits
-- Crucible that gives shared access to your stash of buffs, situational uniques,
-  and supplies for expanding elsewhere.
-
-- 6 Storage bins, probably best when only used in Relica, that let you get rid of
-  things you dont want to see but dont want to loose. See [[Item Management]]
-
-**** Stables
-How!?@?#
-
-***** Cost
-- 2 medals
-- 10 copper ingots
-- 5 wooden buckets (got recipe after opening refinery)
-
-***** Benefit
-Aha's from looking at my first Stables.
-Yours will be similar I'd think. So.. Oh!
-
-- its a farm with spice and tree plots! 
-  - a garlic and a fennel plot
-  - a lemon and a maple tree plot
-- farmer and stablemaster work here
-  - there's also a young deer. should i bring the cow?
-- also dropped a Starcloth and a Velvet Saddle
-  - these materials i'd not seen before i opened the building
-
-
-**** Tavern
-
-***** Cost
-- 2 medals
-- 5 wooden stools
-- 5 glass mugs
-
-***** Benefit
-- A Gambler that gives you 25% odds on scoring..
-  - well.. so far all i got was this blue print
-- A High level merc that wouldn't even talk to me yet
-- A Well skilled merc that can hold his own
-- A Damsel in distress NPC i escorted elsewhere
-
-Have to check up on the patrons there again.
-If all that got me was a gambling chance at BPs, fine!
-
-**** Obelisk
-
-***** Cost
-- 2 medals
-- 10 stones
-- 25 runic shards
-
-***** Benefit
-The same damn obelisk you keep finding in the wilderness, but with a researcher
-that offer runes for sale and who keeps the rock polished.
-
-- Upgrade prices seem more reasonable at this installation than in the
-  wilderness. Have to check!
-- Single level upgrade obtained via Ruins become less attractice once you have
-  this, but its hard to beat 'free and scary'.
-
-***** Staff
-The Arcane Researcher employed here, psychic and creative as he appears to be
-gives you following 5 options to obtain a rune of "Something" from him for a
-number of shards. These somethings could be:
-
-|--------------+------+---------------------------------------|
-| Something    | Cost |                                       |
-|--------------+------+---------------------------------------|
-| Destructive  |    3 | well, that's clear                    |
-| Protective   |    3 | i can imagine that too                |
-| Primordial   |    3 | that would have to be elemental runes |
-| Supplemental |    2 | decide what that could be later       |
-| Unknown      |    2 | <- But look at that!                   |
-|--------------+------+---------------------------------------|
-
-The first interaction I had with him was to buy something unknown of course. And
-what I got wasn't a random thing, but a rune I had never seen before! Trying again
-of course I got a very highly rated rune, the rune of spears. But I already had one
-of thos in inventory. 
-
-So I don't know. Did his psychic let him give me one kind of rune that I had never had
-before then picking something destructive randomly? I'll have to solicit and wait for
-feedback to get clear on that, or try it again in the next game. Respect!
-
-
-***** Prices
-
-****** Spell upgrades
-|--------+------------|
-| Shards | upgrade to |
-|--------+------------|
-|      5 | Improved   |
-|     10 | Greater    |
-|     15 | Superior   |
-|     20 | Flawless   |
-|--------+------------|
-|     50 | new > max  |
-|--------+------------|
-
-
-****** Custom Runes
-
-tbd
-
-**** Refinery
-A smith that makes a lot of (refineried) items.
-
-***** Cost
-- 4 medals
-- 15 iron ingots
-- 5 iron hammers
-- 5 wooden benches
-- 5 wooden tables
-
-***** Benefit
-
-Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
-you. He has manic inspiratitions, you bring him what he asks for, he levels up
-and crafts whatever he damn well pleases.
-
-- Does away with your excess Medals.
-- Consumes your excess resources.
-- "Discovers" Recipes for Items you've been dying to find.
-
-***** Notes
-After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
-stables. That was nice. I also got a nice everburning? lantern that helps to
-attract even more encounters at night
-
-Here's a log of what he did for me in the beginning:
-
-- each item cost 1 Medal
-- all but the first item were of (Refined) Quality.
-
-| Mat  | Qty | Result         |
-|------+-----+----------------|
-| bone |   1 | ball           |
-| tin  |  20 | organ          |
-| tin  |   5 | spear          |
-| tin  |   2 | clip           |
-| bone |   2 | bucket         |
-| bone |   2 | grappling hook |
-| bone |   2 | sign           |
-| bone |   1 | goggles        |
-| tin  |   1 | box            |
-| tin  |   1 | lantern        |
-| bone |     | lantern        |
-| bone |     | violin         |
-
-I might have missed an item there, but suddenly he asked for a crafted input,
-turning *bone nunchucks > swordchucks*.
-
-After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
-coming close to a new materials tier after 12..13 runs.. Verry nice, very
-grindy, very medal-expensive!
-
-*3 wooden blocks > wooden anvil*
-
-Afterwards he wanted bones again..
-
-Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
-of his more sensible items. neat!
-
-- Keeping these prototypes makes sense to me right now.
-
-- Signs.. used to be terribly important in the old version i played. Perhaps
-  they have a discoverable function..
-
-- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 ** Skill Brackets
 
 I have this notion that it might be possible to make a table that roughly
@@ -2934,6 +3167,8 @@ beach. I will ;)
 ** Weaponry
 
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
+
+- Armors are listed under Equipment.
 
 - The main difference between weapons is only in their heavy attack and the stat
   they scale with. *Size does not matter*, here at least.
@@ -3143,6 +3378,10 @@ The Sling and likely all thrown weapons, can also use Strength.
 Attack speed was removed, now each attack takes one turn regardless of
 weapon - likely making quivers and bandoliers (which gave the speed boni)
 largely cosmetic/flair items. (I saw something about that. need to check!)
+
+*** Astral
+These exist. Noone will talk about them except to tell you that their bonuses
+are incredible. So go and complete the key to learn more about them!
 
 * Pug's Notes
 Look, I wrote this!
