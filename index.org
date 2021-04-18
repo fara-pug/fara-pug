@@ -9,7 +9,13 @@
 # +INFOJS_OPT: view:info toc:t tdepth:1 ltoc:nil sdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="lib/tufte.css" type="text/css" />
 
-[[2021.04.16 0.0.16.5 Patch Notes][2021.04.16 0.0.16.5 Patch Notes]]
+
+* Hot Links
+
+- [[https://brianiscreative.itch.io/fara/devlog][Latest devlog from Brian]],
+  - [[Release Notes][see if its already searchable in these notes]].
+- [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
+  - [[Weaponry][and the Notes's expanded weapons section]]
 
 * Intro
 
@@ -320,21 +326,12 @@ I read that you can rest on mats. that's not true.
 You need/want
 - a whatever bed, unsure that materials provide boni to sleep
 - to be within the glow of a brazier (what else works?)
-- to be behind any kind of door.
+- to be behind any kind of *closed* door.
 
-Now... if you find a blanket or a pillow count yourself lucky!
+Now... if you find a mattress, blanket or a pillow count yourself lucky!
 
 Pillows need feathers.. and the only way i can imagine getting any feathers is
 from a bird joining battle, angered by my taking their nest of of their tree.
-i've been collecting nests, but so far no angry birds.
-
-I found the pillow recipe, so those exists; atm blankets may or may not exist,
-speculating that they do because coolness. i dont really expect the buffs to get
-stronger with pillow and blanket, but this was just an excuse to remind you of
-the three easy things you want to do to get buffed sleeping: bed/heat/door.
-
-In the end i got so mad at the useless nests however that I started kicking them
-out of their trees, well, kindof. Now I have my pillows!
 
 - Castles, Fortresses, Labyrinths, Random and even delapidated ruins all count
   as safe indoor sleeping places even if undiscovered enemies remain.
@@ -343,8 +340,17 @@ out of their trees, well, kindof. Now I have my pillows!
   was looking for. Once. So far I've never been attacked at night even sleeping
   in ruins.
 
-Its a good idea to keep a wooden log in your inventory so you don't have to
+Its a good idea to keep two wooden log in your inventory so you don't have to
 scrounge for one in the middle of the night while traveling!
+
+You want to make a shelter and a install a door before you sleep, because
+thievery is a thing and can become a real problem.
+
+After winning by assembling the key, I met my first thief because I had gotten
+complacent about closing the door in Relica. Since then I've experimented, and
+thieves have appeared *every* single night, sometimes taking not just my weapon
+but also upto two pieces of armor. That's going from never to always, making me
+think that *winning was a bad idea!*  Lets hope I've run into a bug here.
 
 ** Classes
 I forgot where i stole this :( The idea is that i'll integrate the class
@@ -712,8 +718,18 @@ cost you anything other than some few seeds and berries here and there.
 
  and their type (which determines attunement,
  spells, and stats) is based on what you feed them.
- Fruit = tropical, for one example.
 
+
+| Volcanic | Fire     | Strength   |
+| Verdant  | Earth    | Resilience |
+| Graceful | Water    | Charm      |
+| Vengeful | Darkness | Insight    |
+|          | Light    |            |
+|          | Air      |            |
+
+ Fruit = tropical
+
+| Watchful | + all? |
 
 
 **** ARTIFICER
@@ -1352,30 +1368,49 @@ an expert to chime in with their experience as I'm just guessing here.
 Whats missing?
 - Is someone tracking the biomes for these things?
 
-|----------------+-----------+-----------------|
-| Foodstuff      | Meal Name | Buffs Attribute |
-|----------------+-----------+-----------------|
-| Alcohol        | Hearty    | ++Resilience    |
-| Fish           |           |                 |
-| Flowers        |           | ++Charm         |
-| Fruits         | Zesty     | ++Finesse       |
-| Herbs & Spices |           |                 |
-| Meat           | Complex   | ++Insight       |
-| Tree Seeds     | Robust    | ++Strength      |
-| Vegetables     |           | ++Strength?     |
-|----------------+-----------+-----------------|
+|----------------+---------+-----------------|
+| Foodstuff      | Prefix  | Buffs Attribute |
+|----------------+---------+-----------------|
+| Alcohol        | Hearty  | ++Resilience    |
+| Fish           |         |                 |
+| Flowers        |         | ++Charm         |
+| Fruits         | Zesty   | ++Finesse       |
+| Herbs & Spices |         |                 |
+| Meat           | Complex | ++Insight       |
+| Tree Seeds     | Robust  | ++Strength      |
+| Vegetables     |         | ++Strength?     |
+|----------------+---------+-----------------|
 
+- missing 4 above, but i have found 7 more prefixes!
+  - Delightful, Heavy, Light, Rich, Spicy, Tender, Vibrant
+
+- also, anything with Fishbones produce (always?) inedible Questionable outcomes.
+
+- Testing indicates that you get the same amount of health, ~10% from eating cooked items.
 
 *** Cooking
 Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
 single Ingredients in Campfires and Firepits to restore stamina and heal
-themselves and their allies. The real freaks improve on that like so:
+themselves and their allies.
+
+The real freaks produce foods with a different prefix and *extra +* on the
+buffs:
 
 - [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
 - [[CHEF][Chefs]] produce *Dishes* instead of *Meals* when cooking.
 
-I suppose Campfires and Firepits differ in cooking speed/capacity.
-- Campfires are destroyed by immolation more quickly
+Cook sites:
+
+- Campfires
+  - are destroyed by immolation more quickly
+  - add a log to get a Bonfire. unsure about effects on cooking
+
+- Firepits
+  - last forever?
+  - are they faster? have greater capacity?
+
+- Stove are a thing.
+  - failed to get the recipe.
 
 
 *** Drinks
@@ -1386,8 +1421,6 @@ Strange when you state the obvious, isn't it?
 | Name  | Note                             |
 |-------+----------------------------------|
 | [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code!    |
-| [[https://en.wikipedia.com/wiki/Milk][Milk]]  | Bucket? ..think about it         |
-| [[https://en.wikipedia.com/wiki/Venom][Venom]] | Drink? Who's been poisoning you? |
 |-------+----------------------------------|
 
 **** Alcohol
@@ -1414,13 +1447,22 @@ Makes total sense to me.
 
 **** Fish
 
+Fish are *not stackable*.
+
 [[https://en.wikipedia.com/wiki/Anchovy][Anchovy]],
+[[https://en.wikipedia.com/wiki/Bass][Bass]],
 [[https://en.wikipedia.com/wiki/Butterfly Fish][Butterfly Fish]],
 [[https://en.wikipedia.com/wiki/Cod][Cod]],
 [[https://en.wikipedia.com/wiki/Cuttlefish][Cuttlefish]],
+[[https://en.wikipedia.com/wiki/Deep Spider][Deep Spider]],
+[[https://en.wikipedia.com/wiki/Giant Squid][Giant Squid]],
 [[https://en.wikipedia.com/wiki/Grouper][Grouper]],
+[[https://en.wikipedia.com/wiki/Quill Ray][Quill Ray]],
+[[https://en.wikipedia.com/wiki/Salmon][Salmon]]
+[[https://en.wikipedia.com/wiki/Stone Shark][Stone Shark]],
 [[https://en.wikipedia.com/wiki/Sturgeon][Sturgeon]],
-[[https://en.wikipedia.com/wiki/Swordfish][Swordfish]] &
+[[https://en.wikipedia.com/wiki/Swordfish][Swordfish]],
+[[https://en.wikipedia.com/wiki/Trout][Trout]] &
 [[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce *... Meals boosting ++*.
 
 **** Tree-Seeds
@@ -1682,6 +1724,7 @@ the local madman.)
 | (Refined)    | 2x         | Material/stat bonus %+              |
 | <Artisan>    | 3x?        | Material/stat bonus %++             |
 | {Masterwork} | 4x?        | Material/stat bonus %+++            |
+| ?Legendary?  | ?x         | Guessing                            |
 | "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
 |--------------+------------+-------------------------------------|
 *** Repairing
@@ -2087,6 +2130,7 @@ has.
 Each additional nth arrow gives an additional n possible boosts (4 arrows giving
 between +7 and +10, etc.)
 
+- Pug: Crafting appears to take 100 (105?) moments. fwiw.
 
 *** Everyday materials
 
@@ -2215,7 +2259,7 @@ and then /mustardfiend/ chimes in thus:
 
 #+begin_quote
 I had something similar happen to me in a past run, where I rested
-overnight at a castle. WOke up, had a bunch of good stuff swiped, and there was
+overnight at a castle. Woke up, had a bunch of good stuff swiped, and there was
 a random commoner just standing there with those very items. Tried stealing them
 back, which didn't work, and they started running away. Out of desperation, I
 yelled at them, hoping the guards would dogpile the thief. They dropped the
@@ -2889,27 +2933,23 @@ beach. I will ;)
 
 ** Weaponry
 
-See Mishaal's FARA Compendium for weapon details
-and his growing Item list!
-https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing
+Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
 
 - The main difference between weapons is only in their heavy attack and the stat
-  they scale with.
+  they scale with. *Size does not matter*, here at least.
 
 - Most combat RNG was removed (anything that says "chance to..." is probably no
   longer a thing).
 
-- Need to identify/doc/present by primary attribute instead of presenting it
-  like this.
-
-- Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
-
-I've seen some talk about stats that track well-used and newly-used weapons
-being different somehow somewhere, the info being in a hidden stat. Please write
-if you can fill in the details!
-
+- I've seen some talk about stats that track well-used and newly-used weapons
+  being different somehow somewhere, the info being in a hidden stat. Please write
+  if you can fill in the details!
 
 *** Melee
+
+    I suppose that all of these weapons can be thrown at opponents to damage them.
+
+**** Types
 |-------------------+----------------------------|
 | Axes              | may cleave                 |
 | Bladed weapons    | may cause bleeding         |
@@ -2918,7 +2958,113 @@ if you can fill in the details!
 | Spears and pikes  | have higher chance to crit |
 |-------------------+----------------------------|
 
+**** Crafted Melee Weapons for Strength
+
+These are only usable in Melee Range:
+
+|----------------+---------------------------------------------------+------|
+| Strength Based | Heavy Effect                                      | Size |
+|----------------+---------------------------------------------------+------|
+| Axe            | Deals increased damage                            |    3 |
+| Battleaxe      | Cleaves adjacent targets                          |    4 |
+| Bo Staff       | Shoves target away                                |    3 |
+| Broadsword     | Deflects weapon projectiles                       |    3 |
+| Chain          | Immobilizes the target                            |    3 |
+| Claymore       | Deals bonus damage for every enemy in melee range |    4 |
+| Club           | Dazes the target                                  |    3 |
+| Cutlass        | Deflects weapon projectiles                       |    3 |
+| Falchion       | Deflects weapon projectiles                       |    3 |
+| Flamberg       | Deflects incoming heavy attacks                   |    4 |
+| Flamberg       | Deflects incoming heavy attacks                   |    4 |
+| Hammer         | Dazes the target                                  |    3 |
+| Javelin        | Deals increased damage                            |    3 |
+| Kama           | Deflects weapon projectiles                       |    3 |
+| Katana         | Deflects weapon projectiles                       |    3 |
+| Kukri          | Causes the wielder and target to change places    |    3 |
+| Kunai          | Deals bonus damage when stealthed                 |    3 |
+| Longsword      | Causes bleeding                                   |    4 |
+| Mace           | Dazes the target                                  |    3 |
+| Machete        | Deals critical damage if struck by a heavy attack |    3 |
+| Morningstar    | Dazes the target                                  |    3 |
+| Nunchaku       | Dazes the target                                  |    3 |
+| Odachi         | Causes bleeding                                   |    4 |
+| Quarterstaff   | Dazes the target                                  |    3 |
+| Rapier         | Causes the wielder to lunge forward               |    3 |
+| Saber          | Deflects weapon projectiles                       |    3 |
+| Scythe         | Deals increased damage                            |    4 |
+| Shortsword     | Deflects weapon projectiles                       |    3 |
+| Spear          | Shoves target away                                |    3 |
+| Warhammer      | Deals bonus damage based on resilience            |    4 |
+| Zweihander     | Reduces direct damage taken during the attack     |    4 |
+|----------------+---------------------------------------------------+------|
+
+These have a range of 2 steps:
+
+|----------------+----------------------------------------+------|
+| Strength Based | Heavy Effect                           | Size |
+|----------------+----------------------------------------+------|
+| Glaive         | Shoves targets away                    |    4 |
+| Halberd        | Shoves targets away                    |    3 |
+| Lance          | Shoves target away                     |    4 |
+| Meteor Hammer  | Dazes the target                       |    3 |
+| Naginata       | Shoves target away                     |    4 |
+| Net            | Immobilizes the target                 |    3 |
+| Whip           | Pulls the attacker and target together |    3 |
+|----------------+----------------------------------------+------|
+
+- Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
+
+- I'm not sure why I'm not using Melee weapons with a range.
+  - Probably because as a Gatekeeper with a nasty arcane ward and a protect-spell i can survive almost anything
+    by wielding two tower shields. Still..
+
+- Nets may be thrown (from inventory?) to immobilize a target at range.
+  - Since they have a range of 2 in Melee, they are listed here.
+
+
+**** Crafted Melee Weapons for Finesse or Strength
+|---------------------+-------------------------------------------+------|
+| Strength or Finesse | Heavy Effect                              | Size |
+|---------------------+-------------------------------------------+------|
+| Boxing gloves       | Dazes the target                          |    2 |
+| Dagger              | Causes the wielder to step backwards      |    2 |
+| Grappling Hook*     | Pulls attacker and target together        |    2 |
+| Handwraps           | Deals increased damage                    |    2 |
+| Khopesh             | Disarms targets performing heavy attacks  |    2 |
+| Knuckles            | Dazes the target                          |    2 |
+| Kris                | Inflicts poison                           |    2 |
+| Lasso               | Immobilizes the target                    |    2 |
+| Sickle              | Restores a bit of health based on insight |    2 |
+|---------------------+-------------------------------------------+------|
+
+- The Grappling Hook has a range of 5. The other weapons are for close-quarters.
+  - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
+
+**** Composite Melee Weapons
+The compenents for these weapons are other weapons that you craft and then assemble.
+Enhance the final product, not the individual pieces.
+***** Composite Melee Weapons for Strength 
+|-----------------+---------+-----------------------------------------+---------------------------+------|
+| Strength Based  | Range   | Heavy Effect                            | Components                | Size |
+|-----------------+---------+-----------------------------------------+---------------------------+------|
+| Ball and chain  | Melee   | Immobilizes the target                  | 1 Chain, 1 Ball           |    3 |
+| Kunai and Chain | 3 steps | Hits target at range                    | 1 Chain, 1 Kunai          |    3 |
+| Swordchucks     | 2 steps | Selfdamage to critically hit the target | 1 Nunchaku, 2 Shortswords |    3 |
+|-----------------+---------+-----------------------------------------+---------------------------+------|
+
+- I suspect the last two weapons-effects are the worst way you can spend your stamina.
+
+***** Composite Melee Weapons for Finesse or Strength
+|---------------------+-------+-------------------------------------+------------+------|
+| Strength or Finesse | Range | Heavy Effect                        | Components | Size |
+|---------------------+-------+-------------------------------------+------------+------|
+| Shank Knuckle       | Melee | Causes the wielder to step backward | 2 Daggers  |    2 |
+|---------------------+-------+-------------------------------------+------------+------|
+
+- Could this be the Pugilist's dream weapon?
+
 *** Magical
+
 |----------------------------+--------------------|
 | Foci/wands/staffs/scepters | halve casting time |
 |----------------------------+--------------------|
@@ -2930,25 +3076,73 @@ if you can fill in the details!
 - Staff reduces target's attunement
 - Wand causes the weapon to inherit elements from incoming spells
 
+|----------------+------+---------+------------------------------------------------------------+------|
+| Magical Weapon | Stat | Range   | Heavy Effect                                               | Size |
+|----------------+------+---------+------------------------------------------------------------+------|
+| Focus          | INS  | 6 steps | Causes the wielder to phase backwards                      |    2 |
+| Scepter        | INS  | 6 steps | Reduces direct spell damage taken during the attack        |    3 |
+| Staff          | INS  | 6 steps | Reduces the elemental attunement of the target             |    3 |
+| Wand           | INS  | 6 steps | Causes the weapon to inherit elements from incoming spells |    3 |
+|----------------+------+---------+------------------------------------------------------------+------|
+
+- All Magical Weapons are based on Insight.
+
 *** Ranged
 
+The material used for ammo contributes to damage and the chance for it to break
+on impact. (can one retrieve stones and darts or arrow? or just thrown weapons?)
+
 |----------------+------------------------------------------------------------------|
-| Bows           | have a chance to not break stealth                               |
-| Crossbows      | bolts pass through targets, potentially hitting several targets. |
-| Firearms       | possibly interrupts casters; indoors less than outdoors.         |
-| Nets           | (may) immobilize when thrown                                     |
-| Thrown weapons | do extra damage, and may take damage.                            |
+| Bows           | Have a chance to not break stealth                               |
+| Crossbows      | Bolts pass through targets, potentially hitting several targets. |
+| Firearms       | Possibly interrupts casters; indoors less than outdoors.         |
+| Thrown weapons | Do extra damage, may get damaged on use.                         |
 |----------------+------------------------------------------------------------------|
 
-- Also shortbow causes the wielder to leap backwards after firing
+Here are the details:
 
-- The material used for ammo contributes to damage and the chance for it to
-  break on impact.
+Uses Arrows:
+|---------------+---------+-----------------------------------------+------|
+| Ranged Weapon | Range   | Heavy Effect                            | Size |
+|---------------+---------+-----------------------------------------+------|
+| Crossbow      | 8 steps | Pierces all targets in a line           |    4 |
+| Shortbow      | 7 steps | Leap backward after firing              |    4 |
+| Longbow       | 9 steps | Grants Quickness attacking from stealth |    4 |
+|---------------+---------+-----------------------------------------+------|
 
-- Attack speed was removed, now each attack takes one turn regardless of
-  weapon - likely making quivers and bandoliers (which gave the speed boni)
-  largely cosmetic/flair items.
+Uses Bullets:
+|-------------+---------+--------------------------------------------+------|
+| Firearms    | Range   | Heavy Effect                               | Size |
+|-------------+---------+--------------------------------------------+------|
+| Blunderbuss | 6 steps | Damages all of the target's armor          |    4 |
+| Rifle       | 8 steps | Deals more damage to further targets       |    4 |
+| Pistol      | 7 steps | Hits two Targets once, or one Target twice |    3 |
+|-------------+---------+--------------------------------------------+------|
 
+Other Ammo:
+|--------------+---------+-----------------------+------+--------|
+| Other Ranged | Range   | Heavy Effect          | Size | Ammo   |
+|--------------+---------+-----------------------+------+--------|
+| Blowgun      | 8 steps | Inflicts poison       |    3 | Darts  |
+| Sling        | 6 steps | Hits targets at range |    2 | Stones |
+|--------------+---------+-----------------------+------+--------|
+
+Thrown Weapons:
+|---------------+-------+--------------------------------------+------|
+| Thrown Weapon | Range | Heavy Effect                         | Size |
+|---------------+-------+--------------------------------------+------|
+| Chakram       | ?     | Causes the wielder to step backwards |    2 |
+|---------------+-------+--------------------------------------+------|
+
+All Ranged Weapons, are based on Finesse.
+
+The Sling and likely all thrown weapons, can also use Strength.
+
+- Throw Darts/Arrows/Stones? Are these the goto thrown weapons?
+
+Attack speed was removed, now each attack takes one turn regardless of
+weapon - likely making quivers and bandoliers (which gave the speed boni)
+largely cosmetic/flair items. (I saw something about that. need to check!)
 
 * Pug's Notes
 Look, I wrote this!
@@ -3272,28 +3466,40 @@ share.
 
 New Location?
 
-|Move|Until
-|SW x4|sw border comes into view
-|NW x5|lhs borders look the same
-|NE x10|top borders look the same
-|SE x8|rhs borders look the same
-|SW x10
+I use this ~38 step pattern to explore new locations so that i see almost all
+the map with little effort. Mobs and trees will change this a little bit, but
+its good enough:
 
-Besides doing quests, I attempt to explore in a circle of ever greater distance
-from Relica and by manually taking different paths through the rectangles
-connecting settlements.
+|--------+----------------------------|
+| Move   | Until                      |
+|--------+----------------------------|
+| SW x4  | SW border comes into view  |
+| NW x5  | LHS borders look the same  |
+| NE x10 | TOP borders look the same  |
+| SE x8  | RHS borders look the same  |
+| SW x10 | BTM  borders look the same |
+|--------+----------------------------|
 
-Keeping Relica in the center makes investing into it somewhat viable and
-worthwhile, at least i think so atm. At least thats why I use the warehouses to
-let all trinkets/trophies/seeds/flowers/meats/fruits drift back into Relica
-through the crucibles accessed via local waypoints.
+Using the "*-*" view of the map is also really important to me because some of
+the locations look great, and its good to know the lay of the land because 
+sometimes I'll pick a different corner to go to first based on what I see
+
+
+Keeping Relica as a base around which I explore at varying distances makes
+investing into it viable and worthwhile. Thus I've painted up my map with paths
+that let me see every time to do local quests for the NPC's quickly to efficiently
+level up their loot drop, added lots of waypoints to get to all the places and people
+without having to look where I'm going, and am now thinking seriously about just what
+kind of storages to trick out my warehouse with.
 
 People in the advanced stages of the game talk about traveling 1200++ km from
-relica, fighting unheard of monsters from unheard of dimensions while still
-investing into Relica. So as you explore more of these notes keep in mind that
-I'm just starting, know nothing, have yet to win the game and go beyond iron
-equipment and a single godlike attribute. This game has great depth and
-complexity.
+Relica, fighting unheard of monsters from unheard of dimensions while still
+investing there. So that's good enough for me.
+
+I don't know enough about the way the difficulty scales, but as I progress in
+the game I'll be keeping an eye out for new locations, hoping I find something
+that lets me have settlement hubs that are roughly a full day's travel from one
+another as I expand.
 
 ** Difficulty
 
@@ -3435,7 +3641,8 @@ you've recruited into your party that will listen to and obey you.
   - /say take that X
   - /say stand by that X
 
-- An exclamation mark turns /say into /shout
+- An exclamation mark turns /say into /shout,
+  - example /say thief!
 
 - use */shout come here* when searching for people.
   (repeat with "*z*" as you walk around.)
@@ -3443,8 +3650,7 @@ you've recruited into your party that will listen to and obey you.
 There's probably some (much?) more to say and other banter to be had. Many of
 the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
 
-Weird fact: Mercs will sometimes say things and other NPC not in your party will
-speak back to them. Thats freaky cool.
+Weird fact: Mercs and other NPC's sometimes say random things to one another!
 
 Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
 
@@ -3607,7 +3813,6 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 
 - source: https://brianiscreative.itch.io/fara/devlog
 - compiled by pug since facts are not subject to copyright
-
 
 *** Alpha 16 Mar'21..
 
