@@ -17,6 +17,22 @@
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
+* Caution Advised
+
+The game, in alpha for many years now, and while holding the attention of a
+loyal playerbase, has a developer's that stated expressly that he has no
+interrest in maintaining save-game compatibility.
+
+Thus you are advised to go through the trouble of downloading and
+installing the game locally so that you will be able to finish games
+in progress since using the web-version risks obliteration of your
+save at any time.
+
+This guide, will be updated with player notes and strategies from the friends
+i made on the discord for a little while longer. Since there is no vision
+document nor guidance on the feedback given, I'll take my losses and cu all 
+in a year or two!
+
 * Intro
 
 I love the depth and variety in this game. The encounters can be short and
