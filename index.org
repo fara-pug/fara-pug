@@ -26,12 +26,8 @@ interrest in maintaining save-game compatibility.
 Thus you are advised to go through the trouble of downloading and
 installing the game locally so that you will be able to finish games
 in progress since using the web-version risks obliteration of your
-save at any time.
+save at any time!
 
-This guide, will be updated with player notes and strategies from the friends
-i made on the discord for a little while longer. Since there is no vision
-document nor guidance on the feedback given, I'll take my losses and cu all 
-in a year or two!
 
 * Intro
 
@@ -360,13 +356,9 @@ Its a good idea to keep two wooden log in your inventory so you don't have to
 scrounge for one in the middle of the night while traveling!
 
 You want to make a shelter and a install a door before you sleep, because
-thievery is a thing and can become a real problem.
+[[Thief][thievery]] is a thing and can become a real problem.
 
-After winning by assembling the key, I met my first thief because I had gotten
-complacent about closing the door in Relica. Since then I've experimented, and
-thieves have appeared *every* single night, sometimes taking not just my weapon
-but also upto two pieces of armor. That's going from never to always, making me
-think that *winning was a bad idea!*  Lets hope I've run into a bug here.
+
 ** Buildings
 
 This section is about the unlockable building you can find in every settlement.
@@ -2203,10 +2195,10 @@ Rose & Chrysanthemum Salad!
 | Honey         |      |      |           |  0.1 |
 |---------------+------+------+-----------+------|
 
-Take the ultra-small Eggs and Honey along with a few elemental rules to cook up
+Take the ultra-small Eggs and Honey along with a few elemental runes to cook up
 Elemental Gourmet Meals right next to, or even in your Dungeon or Quest site!
 
-Don't forget the wood lest you wind up trying to do that in a desert.
+Don't forget the wood lest you wind up wanting to cook in the middle of a desert.
 
 |---------------+---------------------------------------------|
 | Related       | Note                                        |
@@ -2778,6 +2770,19 @@ items and ran off. Guards just sat there.
 
 */say thief* gets them to drop everything they stole and act embarrassed.
 
+That does not appear to work in the wilderness where there are no guards around.
+
+pug/more:
+
+After winning by assembling the key, I met my first thief because I had gotten
+complacent about closing the door in Relica. Since then I've experimented, and
+thieves have appeared *every* single night, sometimes taking not just my weapon
+but also upto two pieces of armor. That's going from never to always, making me
+think that *winning was a bad idea!*  Lets hope I've run into a bug here.
+
+p.s. In a castle or other 'location where you dont control the doors' you can 
+strip down naked and rest without fear since thieves don't seem to care about the
+stash you're resting on.
 
 ** Party
 - Press "*p*" for party details. It will show you have many followers you have and
