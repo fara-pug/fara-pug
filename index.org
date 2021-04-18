@@ -1459,10 +1459,11 @@ The exact word used might vary between the spells and gear, for example:
 |------------+-------------------+----------------------+---------|
 | Combo-Name | Example Equipment | Example Spell        | Why not |
 |------------+-------------------+----------------------+---------|
-| Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
 | Abyssal    | Axe of Depth      | Abyssal Ward of Fury |         |
-| Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
+| Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
+| Ice        | Axe of Ice        | Frigid Ward of Fury  |         |
 | Moon       | Axe of Moonlight  | Moon Ward of Fury    | "Lunar" |
+| Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
 |------------+-------------------+----------------------+---------|
 
 (orig)
@@ -1673,33 +1674,32 @@ Curios can be found and some of the curios, and all of those that boost one of
 the 5 main stats are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on
 the local madman.)
 
-**** Never Craftable
+**** Never Craftable?
 |------------------+----------------------------------+--------|
 | Curio            | Effect                           | Rarity |
 |------------------+----------------------------------+--------|
 | Athletic Band    | Increase Jump distance           |        |
 | Balanced Weight  | Lessen chance to stumble (drunk) |        |
 | Hardened Tack    | Increase critial damage          |        |
-| Hidden Pocket    | +5 Inventory capacity            |        |
 | Thick Padding    | Reduce Noise, enhances Stealth?  |        |
 |------------------+----------------------------------+--------|
 | Hilt Chain       | Thrown Item returns              |        |
 | Metalic Bullseye | Increase throwing distance       |        |
 |------------------+----------------------------------+--------|
 
-**** Eventually Craftable
-|---------------+----------------------------|
-| Curio         | Effect                     |
-|---------------+----------------------------|
-| Durable Patch | Less wear and tear on item |
-|---------------+----------------------------|
-| Heavy Clasp   | +STR                       |
-| Shiny Charm   | +CHA                       |
-| Sturdy Plates | +RES                       |
-| Clever Widget | +INS                       |
-| Nimble Wrap   | +FIN                       |
-|---------------+----------------------------|
-
+**** Craftable. Some Eventually, some early.
+|---------------+----------------------------+----------|
+| Curio         | Effect                     | Needs    |
+|---------------+----------------------------+----------|
+| Durable Patch | Less wear and tear on item |          |
+| Hidden Pocket | +5 Inventory capacity      | 3 Burlap |
+|---------------+----------------------------+----------|
+| Heavy Clasp   | +STR                       |          |
+| Shiny Charm   | +CHA                       |          |
+| Sturdy Plates | +RES                       |          |
+| Clever Widget | +INS                       |          |
+| Nimble Wrap   | +FIN                       |          |
+|---------------+----------------------------+----------|
 
 *** Furniture
 
@@ -1888,21 +1888,20 @@ an expert to chime in with their experience as I'm just guessing here.
 Whats missing?
 - Is someone tracking the biomes for these things?
 
-|----------------+---------+-----------------|
-| Foodstuff      | Prefix  | Buffs Attribute |
-|----------------+---------+-----------------|
-| Alcohol        | Hearty  | ++Resilience    |
-| Fish           |         |                 |
-| Flowers        |         | ++Charm         |
-| Fruits         | Zesty   | ++Finesse       |
-| Herbs & Spices |         |                 |
-| Meat           | Complex | ++Insight       |
-| Tree Seeds     | Robust  | ++Strength      |
-| Vegetables     |         | ++Strength?     |
-|----------------+---------+-----------------|
+|----------------+------------+-----------------|
+| Foodstuff      | Prefix     | Buffs Attribute |
+|----------------+------------+-----------------|
+| Alcohol        | Hearty     | ++Resilience    |
+| Fish           |            |                 |
+| Flowers        | Delightful | ++Charm         |
+| Fruits         | Zesty      | ++Finesse       |
+| Herbs & Spices |            |                 |
+| Meat           | Complex    | ++Insight       |
+| Tree Seeds     | Robust     | ++Strength      |
+| Vegetables     | Robust     | ++Strength?     |
+|----------------+------------+-----------------|
 
-- missing 4 above, but i have found 7 more prefixes!
-  - Delightful, Heavy, Light, Rich, Spicy, Tender, Vibrant
+- Don't forget there are 6 more prefixes used with [[When Elementally Flamed (++)][Elemental Buffs]]!
 
 - also, anything with Fishbones produce (always?) inedible Questionable outcomes.
 
@@ -2061,7 +2060,7 @@ Fish are *not stackable*.
 [[https://en.wikipedia.com/wiki/Red][Red Pepper]], 
 [[https://en.wikipedia.com/wiki/Spinach][Spinach]], 
 [[https://en.wikipedia.com/wiki/Tomato][Tomato]] & 
-[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce *xx ++Strength Meals*.
+[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce *Robust ++Strength Meals*.
 
 **** Flowers
 
@@ -2086,7 +2085,7 @@ Rose & Chrysanthemum Salad!
 [[https://en.wikipedia.com/wiki/Sunflower][Sunflower]], 
 [[https://en.wikipedia.com/wiki/Thistle][Thistle]], 
 [[https://en.wikipedia.com/wiki/Tulip][Tulip]] &
-[[https://en.wikipedia.com/wiki/Violet][Violet]] produce *xx ++Charisma Meals*.
+[[https://en.wikipedia.com/wiki/Violet][Violet]] produce *Delightful ++Charisma Meals*.
 
 **** Herbs & Spices
 
