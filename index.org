@@ -655,6 +655,18 @@ higher than usual chance to block enemies attempting to flee.
 High Health, Good Constitution, Above Average Intelligence, Below Average Charisma, and 2 Spell Slots.
 
 Points required: 0
+
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+
+Gatekeeper's are very good at protecting allies, making them very good at escort quests. Their Protect ability allows them to half all incoming damage dealt to an ally, at the cost of around 1/3 of your stamina. They automatically deflect projectiles aimed toward them, and their armor takes less durability damage from combat and wear-and-tear alike.
+
+Some good ways to effectively use Gatekeeper are:
+
+- Try and always keep a Silencing spell ready. Silencing enemies prevents them from spellcasting anything that hinders your ability to use Protect or any other spells.
+- Gatekeepers have Average Strength and Finesse at the start, so its up to you whether you want to use ranged or melee weapons.
+- Its also a good idea to keep meals/mixtures/dishes with either Strength or Finesse buffs on hand for temporary buffs.
+- Shields are very useful to Gatekeepers. With full armor and a shield that has Average or higher damage reduction, there is a chance that the Gatekeeper will be able to take about 2-3 hits without dealing direct damage to your Health.
+
 **** RAGAMUFFIN
 :PROPERTIES:
 :ID:       862790b8-b77b-4b52-b030-6c74751c373b
@@ -1017,6 +1029,26 @@ stamina when interrupting spells.
 Low Health, Good Wisdom, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
 
 Points required: 15,000
+
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+
+This class excels in melee combat due to Its Good Resilience and Above Average
+Strength/Health, which allows this class to take lots of damage while dealing
+good damage up close. 'Know Thy Foe' also Silences enemies, preventing them from
+spellcasting. Classes that rely on spells are at a huge disadvantage against
+this class.
+
+Some good ways to effectively use Demon Slayer are:
+
+- Always keep spells that give you Rage, Fortification, and/or Rejuvenation, on
+  you. These spells will come in handy if you cast them before you engage an
+  enemy.
+- Hearty and Robust Meals/Mixtures/Dishes are good for temporary buffs before
+  you fight something or explore dungeons.
+- Try to keep most, if not all, battles up close. You can choose to raise
+  Finesse of you like, but keep battles up close at the beginning of your game.
+
+
 **** SCHOLAR
 :PROPERTIES:
 :ID:       addf04e9-10bf-4d0e-9aa6-66c39a4b45e3
@@ -1088,6 +1120,21 @@ health from delivering killing blows.
 Low Health, Good Dexterity, Above Average Wisdom, Below Average Strength, and 2 Spell Slots.
 
 Points required: 30,000
+
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+Reaper is a very complex class to play. With low health and strength, its hard
+to get kills without learning spells. Some of the most important runes you will
+need are:
+
+- Rejuvenation, Fortification, Blinding, Silencing
+
+Another drawback is its ability 'Deathsense', which buffs strength and insight
+when a nearby entity is close to dying. With low strength to start out with,
+getting close and trying to melee is very hard, and can kill you nearly every
+time without the proper equipment. Having at least one healing spell is crucial
+to playing this class, as you will find out your health gets drained in a matter
+of a couple rounds.
+
 **** GAMBLER
 :PROPERTIES:
 :ID:       a4d91ca6-06b1-440f-8c62-b9e5f2dacbfe
@@ -1197,6 +1244,29 @@ strike chance against opponents in offensive stances.
 Average Health, Good Dexterity, Above Average Wisdom, Below Average Intelligence, and 2 Spell Slots.
 
 Points required: 60,000
+
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+Kensai's are good at quick damage dealing. Their 'Samurai Showdown' ability has
+a wide variety of uses, including the ability to practically teleport to an area
+in an instant. Depending on how you want to play Kensai, the class is very
+expendable.
+
+Some good ways to play Kensai are:
+
+- 'Samurai Showdown' doesn't have to be used against a target. Since the ability
+  allows you practically teleport, you can use this to your advantage by
+  teleporting away from an enemy or conflict that you have a low chance of
+  winning. Due to the amount of stamina it uses, it is really more of a last
+  resort.
+- If you have a ranged weapon (either a sling or bow), you can try this.
+- Shoot your target at range and keep an even distance. If you feel the target
+  is getting too close, use 'Samurai Showdown' to teleport behind the target,
+  then keep shooting at range. This will help limit the damage you take
+  significantly if you play your cards right
+- The Fury you get after dashing through an enemy boosts your critical damage,
+  so it's a good idea to have either a light or an illumination spell to
+  guarantee a critical hit.
+
 **** PUGILIST
 :PROPERTIES:
 :ID:       48feb81b-3f6d-4701-9c45-2f3a9f07eb66
