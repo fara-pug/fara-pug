@@ -6038,11 +6038,14 @@ by taking a look at what he's built, potentially even patching the otherwise
 game-ending troubles that sometimes slip in between major release.
 
 In this sense, and within these limits I can tolerate dealing with software that
-isn't really free and open. This will make more sense to you once you've had
-your system and your data destroyed and obsoleted by proprietary code a few
-times. Then you too might appreciate the importance of free and open software
-and see the value of acquiring some of the basic technical skills hinted at
-here.
+isn't really free and open. 
+
+This will make more sense to you once you've had your system and your data
+destroyed and obsoleted by proprietary code a few times. Then you too might
+appreciate the importance of free and open software and see the value of
+acquiring some of the basic technical skills hinted at here.
+
+Anyway, if you want to mess with things, make sure to use */stopreports*!
 
 ** Visualizing Waypoints
 
