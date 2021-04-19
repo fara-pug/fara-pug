@@ -3866,7 +3866,7 @@ share.
 
 ** Exploring
 
-New Location?
+*** New Location?
 
 I use this ~38 step pattern to explore new locations so that i see almost all
 the map with little effort. Mobs and trees will change this a little bit, but
@@ -3902,6 +3902,15 @@ I don't know enough about the way the difficulty scales, but as I progress in
 the game I'll be keeping an eye out for new locations, hoping I find something
 that lets me have settlement hubs that are roughly a full day's travel from one
 another as I expand.
+
+*** Your Stealth Potential
+
+Your mission, should you choose to accept it, is to travel by stealth to and
+from Relica by steps and by fast-travel in order to determine and confirm for
+your self just how far away you can go before the safe-mode fast traveling or
+exhaustion stops you from going any further.
+
+Keep that distance in mind as you quest or explore.
 
 ** Difficulty
 
