@@ -2237,6 +2237,15 @@ By the power of magic..
 When you infuse multiple runes into a firepit you'll get the wonderful combo names
 used for [[Elemental][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
+*** Stamina
+
+You know that there's sugar in fruit, right?
+
+So why don't you wear yourself out, then try what fruits or other food you might
+like to take along your raiding missions. Find a way to determine just how long
+it might take to eat or drink and just which of these options of replenishing
+your stamina are open to you in combat!
+
 ** Locations
 *** Location List
 Due to the presence of rift-energies in the land, its important that you
