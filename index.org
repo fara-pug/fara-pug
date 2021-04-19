@@ -9,13 +9,13 @@
 # +INFOJS_OPT: view:info toc:t tdepth:1 ltoc:nil sdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="lib/tufte.css" type="text/css" />
 
-
 * Hot Links
 
 Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5]] there are new quests, right-clicking on the map moves
-you, inventory and storages can be sorted, the big map became much nicer and
-overall - there a ton of nice little tweaks! - the game has become much nicer to
-play. so cool! thanks!
+you, the sizes of many consumables have been perfected, inventory and storages
+can be sorted, the big map became much nicer and overall - there a ton of nice
+little tweaks! - *the game has become much nicer to play*. so cool! Thanks
+Brian!
 
 - [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
 - [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
@@ -23,7 +23,7 @@ play. so cool! thanks!
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
-* Caution Advised
+* Caution!
 
 The game, in alpha for many years now, and while holding the attention of a
 loyal playerbase, has a developer's that stated expressly that he has no
@@ -131,6 +131,127 @@ detail on weapons and armors! /Ent/'s feedback helped clarify several bits of te
 considerably.
 
 * Topics
+(alphabetical index for all topics/subtopics right here)
+
+** Accessories
+|-----------+-------------+-----------+------|
+| Accessory | Stat        | Materials | Size |
+|-----------+-------------+-----------+------|
+| Bracelet  | CHA         | 1 hard    |    1 |
+| Doll      | CHA         | 1 soft    |    1 |
+| Garter    | CHA         | 1 soft    |    1 |
+| Kite      | CHA         | 1 soft    |    3 |
+|-----------+-------------+-----------+------|
+| Cloak     | FIN         | 3 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | STR         | 1 hard    |    2 |
+|-----------+-------------+-----------+------|
+| Underwear | RES         | 1 soft    |    1 |
+|-----------+-------------+-----------+------|
+| Bandolier | FIN, -1 RES | 2 soft    |    2 |
+| Quiver    | FIN, -1 RES | 2 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | none        | 1 soft    |    2 |
+| Cape      | none        | 3 soft    |    2 |
+| Mat       | none        | 2 soft    |    4 |
+| Rug       | none        | 3 soft    |    4 |
+| Scarf     | none        | 2 soft    |    1 |
+|-----------+-------------+-----------+------|
+
+- Any Weapon can be worn as an accessory for some powerful stat boosts!
+
+** Armor
+
+Mishaal's research on the stat bonuses of armor is awesome!
+- We still need that for Weapons!
+
+All listed bonuses are 1.
+- Each level of refinement adds an additional bonus point to the listed stat!
+- Ignore anything without a bonus
+- Upgrade breastplates which give a bonus and a malus twice to get a bonus in two stats!
+- Jumpsuits truly start with 2 boni
+- Ignore accessories because you want to have a bag or weapon in that slot.
+  - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
+
+*** Head
+|----------------+------+-----------+------|
+| Armor          | Stat | Materials | Size |
+|----------------+------+-----------+------|
+| Cap            | CHA  | 1 soft    |    2 |
+| Tiara          | CHA  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Bandana        | FIN  | 1 soft    |    1 |
+| Hood           | FIN  | 1 soft    |    2 |
+|----------------+------+-----------+------|
+| Crown          | INS  | 3 hard    |    2 |
+| Hat            | INS  | 1 soft    |    1 |
+|----------------+------+-----------+------|
+| Helm           | RES  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Coif           | STR  | 3 hard    |    2 |
+|----------------+------+-----------+------|
+| Wrestling Mask | none | 1 soft    |    1 |
+|----------------+------+-----------+------|
+
+..  must add Goggles. Glasses?, Monocles?
+
+*** Torso
+|-------------+-------------+-----------+------|
+| Armor       | Stat        | Materials | Size |
+|-------------+-------------+-----------+------|
+| Jacket      | CHA         | 2 soft    |    2 |
+| Thong       | CHA         | 1 soft    |    1 |
+|-------------+-------------+-----------+------|
+| Brigandine  | FIN         | 5 soft    |    5 |
+| Coat        | FIN         | 5 soft    |    5 |
+| Jerkin      | FIN         | 5 soft    |    2 |
+| Kimono      | FIN         | 5 soft    |    5 |
+| Tights      | FIN         | 2 soft    |    2 |
+| Tunic       | FIN         | 5 soft    |    5 |
+|-------------+-------------+-----------+------|
+| Vestments   | INS         | 4 soft    |    3 |
+|-------------+-------------+-----------+------|
+| Kilt        | STR         | 3 soft    |    2 |
+|-------------+-------------+-----------+------|
+| Poncho      | RES         | 2 soft    |    2 |
+|-------------+-------------+-----------+------|
+| Breastplate | -1 FIN, RES | 5 hard    |    5 |
+| Jumpsuit    | STR, 1 FIN  | 5 soft    |    5 |
+|-------------+-------------+-----------+------|
+| Blouse      | none        | 2 soft    |    2 |
+| Dress       | none        | 3 soft    |    2 |
+| Gi          | none        | 3 soft    |    2 |
+| Gown        | none        | 3 soft    |    2 |
+| Shirt       | none        | 2 soft    |    2 |
+| Toga        | none        | 3 soft    |    2 |
+|-------------+-------------+-----------+------|
+
+*** Hands
+|-----------+------+-----------+------|
+| Gloves    | Stat | Materials | Size |
+|-----------+------+-----------+------|
+| Gauntlets | FIN  | 2 hard    |    2 |
+| Gloves    | FIN  | 2 soft    |    1 |
+|-----------+------+-----------+------|
+| Bracers   | RES  | 2 hard    |    2 |
+|-----------+------+-----------+------|
+
+*** Feet
+|----------+------+-----------+------|
+| Footwear | Stat | Materials | Size |
+|----------+------+-----------+------|
+| Boots    | FIN  | 4 soft    |    2 |
+|----------+------+-----------+------|
+| Boots    | none | 4 hard    |    2 |
+| Sabatons | none | 4 hard    |    2 |
+| Sandals  | none | 1 soft    |    1 |
+| Shoes    | none | 4 hard    |    2 |
+| Shoes    | none | 1 soft    |    1 |
+|----------+------+-----------+------|
+
+- Yes, Boots made from soft materials provide a bonus to Finesse while those
+  made from hard materials do not.
+
 ** Avatar
 *** Blights
 
@@ -365,7 +486,10 @@ You want to make a shelter and a install a door before you sleep, because
 [[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
 thought of having to cross deserts at night without 2 logs. one for a shelter,
 one for a door.
-
+*** Party
+I may be dreaming but were there no saddle-bags in that old version? Can my pet
+and merc help me carry things? So much to determine yet. I should probably look
+into simply equipping my new merc first.
 
 ** Buildings
 
@@ -561,8 +685,65 @@ of his more sensible items. neat!
 I forgot where i stole this :( The idea is that i'll integrate the class
 relevant bits from the release notes and insights gleaned on discord here.
 
-*** Initial
-**** CAT WHISPERER
+Alphabetical Index to Fara's 52 classes:
+
+[[ADVENTURER][Adventurer]],
+[[ALCHEMIST][Alchemist]],
+[[ARTIFICER][Artificer]],
+[[BEEKEEPER][Beekeeper]],
+[[BLOODWEAVER][Bloodweaver]],
+[[BODYBUILDER][Bodybuilder]],
+[[BOTANIST][Botanist]],
+[[CAT WHISPERER][Cat Whisperer]],
+[[CHEF][Chef]],
+[[COMMANDER][Commander]],
+[[DEMON SLAYER][Demon Slayer]],
+[[DERVISH][Dervish]],
+[[DUELIST][Duelist]],
+[[EARTH ZEALOT][Earth Zealot]],
+[[ELEMANCER][Elemancer]],
+[[ENGINEER][Engineer]],
+[[EQUESTRIAN][Equestrian]],
+[[EXECUTIONER][Executioner]],
+[[FISHMONGER][Fishmonger]],
+[[FORTUNE TELLER][Fortune Teller]],
+[[GAMBLER][Gambler]],
+[[GAMESTALKER][Gamestalker]],
+[[GATEKEEPER][Gatekeeper]],
+[[GUNSLINGER][Gunslinger]],
+[[HABERDASHER][Haberdasher]],
+[[HOMESTEADER][Homesteader]],
+[[ILLUSIONIST][Illusionist]],
+[[JESTER][Jester]],
+[[JUGGERNAUT][Juggernaut]],
+[[KENSAI][Kensai]],
+[[KUNG FU MASTER][Kung Fu Master]],
+[[MAD SCIENTIST][Mad Scientist]],
+[[MERCHANT][Merchant]],
+[[PIT FIGHTER][Pit Fighter]],
+[[PLAGUE DOCTOR][Plague Doctor]],
+[[POLITICIAN][Politician]],
+[[POTTER][Potter]],
+[[PUGILIST][Pugilist]],
+[[RAGAMUFFIN][Ragamuffin]],
+[[REAPER][Reaper]],
+[[RHAPSODIST][Rhapsodist]],
+[[RIFT DANCER][Rift Dancer]],
+[[SCHOLAR][Scholar]],
+[[SCOUNDREL][Scoundrel]],
+[[SOLDIER][Soldier]],
+[[SPELLTHIEF][Spellthief]],
+[[TOURIST][Tourist]],
+[[UNEMPLOYED][Unemployed]],
+[[VIKING][Viking]],
+[[WILDHEART][Wildheart]],
+[[WITCH][Witch]] &
+[[WRESTLER][Wrestler]]
+
+*** Class Details by Points Required
+
+**** Initial
+***** CAT WHISPERER
 :PROPERTIES:
 :ID:       f742c838-dba6-4124-b1c7-442d95bc9379
 :END:
@@ -572,7 +753,7 @@ Cat Whisperers. They can also talk to cats.
 Below Average Health, Good Finesse, Above Average Resilience, Below Average Charm, and 3 Spell Slots.
 
 Points required: 0
-**** EARTH ZEALOT
+***** EARTH ZEALOT
 :PROPERTIES:
 :ID:       c8922dc7-8359-45d4-b06f-2ec7d718f15d
 :END:
@@ -583,7 +764,7 @@ can cleanse most status effects on themselves by eating herbs.
 Low Health, Good Wisdom, Above Average Charisma, Below Average Strength, and 3 Spell Slots.
 
 Points required: 0
-**** FISHMONGER
+***** FISHMONGER
 :PROPERTIES:
 :ID:       4b457e17-859a-4f31-b0fd-709b35160ab7
 :END:
@@ -594,7 +775,7 @@ swimming, wet, or near water magic.
 Below Average Health, Good Wisdom, Above Average Intelligence, Below Average Dexterity, and 2 Spell Slots.
 
 Points required: 0
-***** Fishmonger...
+****** Fishmonger...
 :PROPERTIES:
 :ID:       30e0adc4-5d08-4165-9d06-2b5166a16354
 :END:
@@ -644,7 +825,7 @@ Points required: 0
 - the intox debuff gives you +RES and +CHA
 - But once you have a bunch of booze and a tower shield then you are practically unkillable
 
-**** GATEKEEPER
+***** GATEKEEPER
 :PROPERTIES:
 :ID:       ac6a08a5-21e1-4c80-b933-1cf93bbc4045
 :END:
@@ -656,7 +837,7 @@ High Health, Good Constitution, Above Average Intelligence, Below Average Charis
 
 Points required: 0
 
-***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 
 Gatekeeper's are very good at protecting allies, making them very good at escort quests. Their Protect ability allows them to half all incoming damage dealt to an ally, at the cost of around 1/3 of your stamina. They automatically deflect projectiles aimed toward them, and their armor takes less durability damage from combat and wear-and-tear alike.
 
@@ -667,7 +848,7 @@ Some good ways to effectively use Gatekeeper are:
 - Its also a good idea to keep meals/mixtures/dishes with either Strength or Finesse buffs on hand for temporary buffs.
 - Shields are very useful to Gatekeepers. With full armor and a shield that has Average or higher damage reduction, there is a chance that the Gatekeeper will be able to take about 2-3 hits without dealing direct damage to your Health.
 
-**** RAGAMUFFIN
+***** RAGAMUFFIN
 :PROPERTIES:
 :ID:       862790b8-b77b-4b52-b030-6c74751c373b
 :END:
@@ -678,7 +859,7 @@ hand, they have a chance to steal weapons dodged while in an evasive stance.
 Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
 
 Points required: 0
-**** SOLDIER
+***** SOLDIER
 :PROPERTIES:
 :ID:       c810cb5a-ce5a-4114-be8a-ed40d2303a65
 :END:
@@ -689,7 +870,7 @@ increases based on the number of hostile targets the Soldier can see.
 High Health, Good Strength, Above Average Constitution, Below Average Wisdom, and 1 Spell Slot.
 
 Points required: 0
-**** TOURIST
+***** TOURIST
 :PROPERTIES:
 :ID:       d7b44fc1-80bf-4465-b242-f3d66b39d4b6
 :END:
@@ -700,7 +881,7 @@ stamina when traveling.
 Low Health, No Bonuses, and No Spell Slots.
 
 Points required: 0
-**** UNEMPLOYED
+***** UNEMPLOYED
 :PROPERTIES:
 :ID:       6804726b-8552-4741-90bd-9fc7ee9b8521
 :END:
@@ -711,7 +892,7 @@ chosen.
 Average Health, No Bonuses, and No Spell Slots.
 
 Points required: 0
-**** ADVENTURER
+***** ADVENTURER
 :PROPERTIES:
 :ID:       decc8ec4-1953-4d9f-beb9-a285f39dcd17
 :END:
@@ -722,8 +903,8 @@ completed.
 Average Health, No Bonuses, and 3 Spell Slots.
 
 Points required: 0
-*** 500+
-**** EQUESTRIAN
+**** 500+
+***** EQUESTRIAN
 Aggressive Dressage - While mounted, Equestrians have a chance to trample
 hostile targets when moving, jump twice as far/high, and move twice as fast as
 other mounted entities. Additionally, they can /mount animals without
@@ -732,7 +913,7 @@ befriending them first.
 Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
 
 Points required: 500
-**** JESTER
+***** JESTER
 Comedic Balance - Jesters cannot be knocked prone, and attempts do so will cause
 the Jester to bounce back up, damaging enemies and restoring mood and stamina to
 allies. Additionally, Jesters recover from stumbling twice as fast and require
@@ -741,15 +922,15 @@ no stamina to dance.
 Low Health, Good Dexterity, Above Average Charisma, Below Average Intelligence, and 3 Spell Slots.
 
 Points required: 500
-**** MERCHANT
+***** MERCHANT
 Rags to Riches - Merchants have a chance to recover materials spent during
 crafting, and have twice as much inventory space.
 
 Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
 
 Points required: 500
-*** 1000+
-**** PIT FIGHTER
+**** 1000+
+***** PIT FIGHTER
 :PROPERTIES:
 :ID:       274939f8-30cd-4ad1-a4ed-df00502f2c32
 :END:
@@ -759,7 +940,7 @@ attacking, and receive a large strength bonus when bleeding.
 Above Average Health, Good Constitution, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
 
 Points required: 1,000
-**** CHEF
+***** CHEF
 :PROPERTIES:
 :ID:       e928ac95-1021-4d50-b99c-6b3fa9752c93
 :END:
@@ -770,7 +951,7 @@ fixes the eater's mood to max for an extended period.
 Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 5 Spell Slots.
 
 Points required: 1,000
-**** HOMESTEADER
+***** HOMESTEADER
 :PROPERTIES:
 :ID:       d8323263-fb4c-44a0-9c54-1145ca4761c0
 :END:
@@ -781,7 +962,7 @@ plants, and produce roughly twice the amount of materials from butchering.
 Low Health, Good Constitution, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
 
 Points required: 1,000
-**** ALCHEMIST
+***** ALCHEMIST
 :PROPERTIES:
 :ID:       9553f41f-04d2-4950-b6c3-5c190ff64fbf
 :END:
@@ -793,7 +974,7 @@ Mixtures at other entities will raise the relevant stats.
 Average Health, Good Insight, Above Average Resilience, Below Average Finesse, and 4 Spell Slots.
 
 Points required: 1,500
-**** POTTER
+***** POTTER
 :PROPERTIES:
 :ID:       fc506e51-d980-4908-bc9a-60678a89cf40
 :END:
@@ -804,8 +985,8 @@ Above Average Health, Good Constitution, Above Average Strength, Below Average D
 
 Points required: 3,000
 
-*** 5000+
-**** JUGGERNAUT
+**** 5000+
+***** JUGGERNAUT
 :PROPERTIES:
 :ID:       3da7d9a1-a66b-4cb4-821b-da820e3d9310
 :END:
@@ -816,7 +997,7 @@ hostile targets when moving, and can smash through most doors.
 Average Health, Good Constitution, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
 
 Points required: 5,000
-**** GUNSLINGER
+***** GUNSLINGER
 :PROPERTIES:
 :ID:       dcc88517-709e-4470-a283-5be1fa5aecdf
 :END:
@@ -828,7 +1009,7 @@ hit a secondary hostile target.
 Low Health, Good Dexterity, Above Average Intelligence, Below Average Wisdom, and 2 Spell Slots.
 
 Points required: 5,000
-**** GAMESTALKER
+***** GAMESTALKER
 :PROPERTIES:
 :ID:       d99baaa8-8166-4f14-bc5c-7aaaeb209ab0
 :END:
@@ -840,7 +1021,7 @@ as far away when outdoors.
 Low Health, Good Dexterity, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
 
 Points required: 5,000
-**** EXECUTIONER
+***** EXECUTIONER
 :PROPERTIES:
 :ID:       6b4113ec-2284-4984-b5d1-30a3d20291b7
 :END:
@@ -851,7 +1032,7 @@ the ground.
 Average Health, Good Strength, Above Average Constitution, Below Average Dexterity, and 2 Spell Slots.
 
 Points required: 5,000
-**** BODYBUILDER
+***** BODYBUILDER
 :PROPERTIES:
 :ID:       9d1d06db-eeb8-4c2e-8418-2fcb86deb1e2
 :END:
@@ -862,7 +1043,7 @@ effects. They also receive a large charisma boost while not wearing anything.
 Above Average Health, Good Charm, Above Average Strength, Below Average Insight, and 2 Spell Slots.
 
 Points required: 5,000
-**** DUELIST
+***** DUELIST
 :PROPERTIES:
 :ID:       b5533606-6e91-4eb8-b30a-822da337f73a
 :END:
@@ -873,7 +1054,7 @@ dodging an attack, meaning their next basic attack will not miss.
 Average Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
 
 Points required: 7,500
-**** BOTANIST
+***** BOTANIST
 :PROPERTIES:
 :ID:       3af0e12f-756f-4e1d-aa60-f35841f29543
 :END:
@@ -886,7 +1067,7 @@ familiar will kill the older familiar.
 Below Average Health, Good Insight, Above Average Strength, Below Average Resilience, and 2 Spell Slots.
 
 Points required: 8,500
-***** Botanist
+****** Botanist
 https://fara.fandom.com/wiki/Botanist
 
 Botanist is one of the interesting classes you can use in Fara, their unique
@@ -949,7 +1130,7 @@ cost you anything other than some few seeds and berries here and there.
 | Watchful | + all? |
 
 
-**** ARTIFICER
+***** ARTIFICER
 :PROPERTIES:
 :ID:       8c10ec58-dd89-4e77-a3ec-aeb11df0f987
 :END:
@@ -959,7 +1140,7 @@ allowing those items to cast the infused spell when struck or used to attack.
 Average Health, Good Resilience, Above Average Insight, Below Average Strength, and No Spell Slots.
 
 Points required: 9,500
-***** Artificer is really cool
+****** Artificer is really cool
 :PROPERTIES:
 :ID:       e556bc83-f520-448b-be45-ad6d774e9f59
 :END:
@@ -968,8 +1149,8 @@ Points required: 9,500
   - 7 perfect spells?
   - 7 Water Arrows + 1 Rejuvenation (on weapon) + 2 Poison + 2 Burning + 2 Bleeding
 
-*** 10000+
-**** BEEKEEPER
+**** 10000+
+***** BEEKEEPER
 :PROPERTIES:
 :ID:       73b8c4ce-7b45-4f83-9d50-bdd7af630c2b
 :END:
@@ -980,7 +1161,7 @@ health from eating honey.
 Average Health, Good Resilience, Above Average Insight, Below Average Strength, and 2 Spell Slots.
 
 Points required: 10,000
-**** BLOODWEAVER
+***** BLOODWEAVER
 :PROPERTIES:
 :ID:       2eadac90-fea9-4b15-a644-2796414d3889
 :END:
@@ -995,7 +1176,7 @@ active at a time.
 Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 2 Spell Slots.
 
 Points required: 10,000
-**** POLITICIAN
+***** POLITICIAN
 :PROPERTIES:
 :ID:       be03780b-5bf1-45b4-9dfa-cad49c437b3b
 :END:
@@ -1007,7 +1188,7 @@ faction reputation at twice the normal rate.
 High Health, Good Charisma, Above Average Intelligence, Below Average Wisdom, and 3 Spell Slots.
 
 Points required: 10,000
-**** WITCH
+***** WITCH
 :PROPERTIES:
 :ID:       857e4318-e35f-48f1-ba26-7bfce3d684dc
 :END:
@@ -1018,7 +1199,7 @@ their basic attacks.
 Low Health, Good Wisdom, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
 
 Points required: 10,000
-**** DEMON SLAYER
+***** DEMON SLAYER
 :PROPERTIES:
 :ID:       2b375096-6f27-48d8-a6e0-16250aef963f
 :END:
@@ -1030,7 +1211,7 @@ Low Health, Good Wisdom, Above Average Strength, Below Average Charisma, and 2 S
 
 Points required: 15,000
 
-***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 
 This class excels in melee combat due to Its Good Resilience and Above Average
 Strength/Health, which allows this class to take lots of damage while dealing
@@ -1049,7 +1230,7 @@ Some good ways to effectively use Demon Slayer are:
   Finesse of you like, but keep battles up close at the beginning of your game.
 
 
-**** SCHOLAR
+***** SCHOLAR
 :PROPERTIES:
 :ID:       addf04e9-10bf-4d0e-9aa6-66c39a4b45e3
 :END:
@@ -1060,8 +1241,8 @@ Scholars do not expend scrolls when casting spells from them.
 Low Health, Good Intelligence, Above Average Wisdom, Below Average Strength, and 5 Spell Slots.
 
 Points required: 15,000
-*** 20000+
-**** PLAGUE DOCTOR
+**** 20000+
+***** PLAGUE DOCTOR
 :PROPERTIES:
 :ID:       c9448ebc-3b00-4873-bc2b-66778f8e7fa8
 :END:
@@ -1071,7 +1252,7 @@ immediately copy that condition to every hostile entity they can see.
 Average Health, Good Wisdom, Above Average Strength, Below Average Strength, and 3 Spell Slots.
 
 Points required: 20,000
-**** HABERDASHER
+***** HABERDASHER
 :PROPERTIES:
 :ID:       5bb5c46a-c305-483c-8f33-6a459a1f00bc
 :END:
@@ -1083,7 +1264,7 @@ had. Haberdashers will also fly into a rage if a hat they possess is destroyed.
 Average Health, Good Charisma, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
 
 Points required: 20,000
-**** ENGINEER
+***** ENGINEER
 :PROPERTIES:
 :ID:       8f9cd97f-409f-4647-aa3b-58caae096b77
 :END:
@@ -1096,7 +1277,7 @@ without triggering them.
 Average Health, Good Intelligence, Above Average Dexterity, Below Average Charisma, and 1 Spell Slot.
 
 Points required: 25,000
-**** KUNG FU MASTER
+***** KUNG FU MASTER
 :PROPERTIES:
 :ID:       5c76d473-3bc6-49eb-a9cd-48e40befeacc
 :END:
@@ -1109,7 +1290,7 @@ remain airborne after successfully hitting a target while jumping.
 Below Average Health, Good Dexterity, Above Average Strength, Below Average Constitution, and 2 Spell Slots.
 
 Points required: 25,000
-**** REAPER
+***** REAPER
 :PROPERTIES:
 :ID:       52ac3f5d-83c0-4850-9548-7d45a23c7524
 :END:
@@ -1121,7 +1302,7 @@ Low Health, Good Dexterity, Above Average Wisdom, Below Average Strength, and 2 
 
 Points required: 30,000
 
-***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 Reaper is a very complex class to play. With low health and strength, its hard
 to get kills without learning spells. Some of the most important runes you will
 need are:
@@ -1135,7 +1316,7 @@ time without the proper equipment. Having at least one healing spell is crucial
 to playing this class, as you will find out your health gets drained in a matter
 of a couple rounds.
 
-**** GAMBLER
+***** GAMBLER
 :PROPERTIES:
 :ID:       a4d91ca6-06b1-440f-8c62-b9e5f2dacbfe
 :END:
@@ -1149,7 +1330,7 @@ be rewarded with a Grand Chest.
 High Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
 
 Points required: 30,000
-**** ELEMANCER
+***** ELEMANCER
 :PROPERTIES:
 :ID:       cdabda6d-e11a-4087-93ee-cc060cff9cda
 :END:
@@ -1160,7 +1341,7 @@ items as though they were weapons.
 Above Average Health, Good Constitution, Above Average Wisdom, Below Average Dexterity, and 2 Spell Slots.
 
 Points required: 35,000
-**** ILLUSIONIST
+***** ILLUSIONIST
 :PROPERTIES:
 :ID:       265f843e-cbda-47e2-a111-94ced7c13701
 :END:
@@ -1171,7 +1352,7 @@ instantly detect illusions and disguises without fail.
 Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
 
 Points required: 40,000
-**** DERVISH
+***** DERVISH
 :PROPERTIES:
 :ID:       d36c42e1-ab8d-4e0f-b4c9-ce675dc06139
 :END:
@@ -1181,8 +1362,8 @@ chance to transfer negative conditions.
 Low Health, Good Dexterity, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
 
 Points required: 45,000
-*** 50000+
-**** WRESTLER
+**** 50000+
+***** WRESTLER
 :PROPERTIES:
 :ID:       4ef09a04-cb96-4bd5-b7b1-42f42648daab
 :END:
@@ -1193,7 +1374,7 @@ and do not receive any penalties while prone.
 Above Average Health, Good Strength, Above Average Charisma, Below Average Intelligence, and 1 Spell Slot.
 
 Points required: 50,000
-**** VIKING
+***** VIKING
 :PROPERTIES:
 :ID:       0cb53e50-1e01-4b54-9a03-76389c3e9bb7
 :END:
@@ -1206,7 +1387,7 @@ is to death.
 Average Health, Good Strength, Above Average Constitution, Below Average Intelligence, and 1 Spell Slot.
 
 Points required: 60,000
-**** RIFT DANCER
+***** RIFT DANCER
 :PROPERTIES:
 :ID:       cc0d1f22-0ea0-4e3b-8b91-a2b547556a4e
 :END:
@@ -1216,7 +1397,7 @@ creatures from other planes.
 Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 1 Spell Slot.
 
 Points required: 50,000
-**** FORTUNE TELLER
+***** FORTUNE TELLER
 :PROPERTIES:
 :ID:       8628cbeb-d8c5-441c-8d6a-bbc70f63cf95
 :END:
@@ -1231,7 +1412,7 @@ Points required: 55,000
 If you really hate ambushers then the best class is probably Fortune Teller
 All sneak attacks against them fail; Hard counter to swiftshades
 
-**** KENSAI
+***** KENSAI
 :PROPERTIES:
 :ID:       29873241-9ede-4586-ab67-bade0704018f
 :END:
@@ -1245,7 +1426,7 @@ Average Health, Good Dexterity, Above Average Wisdom, Below Average Intelligence
 
 Points required: 60,000
 
-***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 Kensai's are good at quick damage dealing. Their 'Samurai Showdown' ability has
 a wide variety of uses, including the ability to practically teleport to an area
 in an instant. Depending on how you want to play Kensai, the class is very
@@ -1267,7 +1448,7 @@ Some good ways to play Kensai are:
   so it's a good idea to have either a light or an illumination spell to
   guarantee a critical hit.
 
-**** PUGILIST
+***** PUGILIST
 :PROPERTIES:
 :ID:       48feb81b-3f6d-4701-9c45-2f3a9f07eb66
 :END:
@@ -1282,7 +1463,7 @@ Above Average Health, Good Strength, Above Average Dexterity, Below Average Wisd
 
 Points required: 65,000
 
-***** Ent's Perfect Pugilist:
+****** Ent's Perfect Pugilist:
 :PROPERTIES:
 :ID:       bbceb891-b0d6-437f-9b70-8adafecf9be2
 :END:
@@ -1297,7 +1478,7 @@ Points required: 65,000
   - Gets you maxed FIN, RES, and STR, as well as Good CHA and Great INS, if I
     remember those last two correctly, as well as High DR and as good Attunements
     as you'll get without being an Elemancer and max inventory size
-**** SCOUNDREL
+***** SCOUNDREL
 :PROPERTIES:
 :ID:       a03b70c8-88c6-48ae-ae63-9e2dce328004
 :END:
@@ -1307,7 +1488,7 @@ chance to deal additional damage and stun their target(s) when triggered.
 Average Health, Good Intelligence, Above Average Charisma, Below Average Constitution, and 3 Spell Slots.
 
 Points required: 70,000
-**** COMMANDER
+***** COMMANDER
 :PROPERTIES:
 :ID:       8d45ac8a-682a-4be9-bd2b-d119958c3ef9
 :END:
@@ -1319,7 +1500,7 @@ bonus for every party member they can see.
 Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
 
 Points required: 75,000
-**** MAD SCIENTIST
+***** MAD SCIENTIST
 :PROPERTIES:
 :ID:       78b7ae2b-4359-48bd-b127-a6973daa857f
 :END:
@@ -1329,7 +1510,7 @@ non-sentient objects they've created to life.
 Low Health, Good Intelligence, Above Average Charisma, Below Average Wisdom, and 2 Spell Slots.
 
 Points required: 95,000
-**** WILDHEART
+***** WILDHEART
 :PROPERTIES:
 :ID:       e32d6830-3a2c-4ea9-9566-9087563104a9
 :END:
@@ -1342,7 +1523,7 @@ knocked prone.
 Average Health, Good Wisdom, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
 
 Points required: 100,000
-**** SPELLTHIEF
+***** SPELLTHIEF
 :PROPERTIES:
 :ID:       96c417c1-e299-4a16-84d5-70432003922e
 :END:
@@ -1352,7 +1533,7 @@ and gain stamina when damaged by magic.
 Below Average Health, Good Wisdom, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
 
 Points required: 100,000
-**** RHAPSODIST
+***** RHAPSODIST
 :PROPERTIES:
 :ID:       f3554efe-3636-41a2-aabd-b90200c65ca9
 :END:
@@ -1364,7 +1545,7 @@ different effects.
 Above Average Health, Good Charisma, Above Average Wisdom, Below Average Constitution, and No Spell Slots.
 
 Points required: 100,000
-***** More about the known songs
+****** More about the known songs
 The Rhapsodist is a class in FARA with a very unique play style.
 - Whenever the Rhapsodist attacks, it plays a note.
 - The note is dependent if the attack is a normal or a Heavy.
@@ -1398,7 +1579,8 @@ For example: you can hit the air three times, travel to another tile,
 wait for a full day and even rest and you will complete the song on
 your next valid attack (as of 0.0.15.18b)
 
-** Class Traits
+
+*** Class Traits by # Spells
 
 You have one unchangeable class trait. This is a list of them.
 
@@ -1411,8 +1593,6 @@ Traits through the */factions* (aka "*F*") window.
 
 To Come: 
 - Another column with Unlock Cost instead of stats.
-
-*** Class Traits by # Spells
 
 |----------------+-----------------------+--------+------------------------------------------------------------------|
 | Class          | Class-Trait           | Spells | Stat Summary                                                     |
@@ -1477,7 +1657,7 @@ To Come:
 |----------------+-----------------------+--------+------------------------------------------------------------------|
 
 
-*** Key:
+**** Key:
 |-------------+-------------------------------------|
 | "Normal"    | Totally regular, all stats average. |
 | Avg+ / Avg- | Above/Below Average in that stat    |
@@ -1559,139 +1739,6 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 - i copied the spreadsheet, completed with the aid of the good people on discord.
 
 ** Equipment
-
-*** Armor
-
-Mishaal's research on the stat bonuses of armor is awesome!
-- We still need that for Weapons!
-
-All listed bonuses are 1.
-- Each level of refinement adds an additional bonus point to the listed stat!
-- Ignore anything without a bonus
-- Upgrade breastplates which give a bonus and a malus twice to get a bonus in two stats!
-- Jumpsuits truly start with 2 boni
-- Ignore accessories because you want to have a bag or weapon in that slot.
-  - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
-
-Head-pieces:
-|----------------+------+-----------+------|
-| Armor          | Stat | Materials | Size |
-|----------------+------+-----------+------|
-| Cap            | CHA  | 1 soft    |    2 |
-| Tiara          | CHA  | 3 hard    |    2 |
-|----------------+------+-----------+------|
-| Bandana        | FIN  | 1 soft    |    1 |
-| Hood           | FIN  | 1 soft    |    2 |
-|----------------+------+-----------+------|
-| Crown          | INS  | 3 hard    |    2 |
-| Hat            | INS  | 1 soft    |    1 |
-|----------------+------+-----------+------|
-| Helm           | RES  | 3 hard    |    2 |
-|----------------+------+-----------+------|
-| Coif           | STR  | 3 hard    |    2 |
-|----------------+------+-----------+------|
-| Wrestling Mask | none | 1 soft    |    1 |
-|----------------+------+-----------+------|
-
-..  must add Goggles
-
-Armor-pieces:
-|-------------+-------------+-----------+------|
-| Armor       | Stat        | Materials | Size |
-|-------------+-------------+-----------+------|
-| Jacket      | CHA         | 2 soft    |    2 |
-| Thong       | CHA         | 1 soft    |    1 |
-|-------------+-------------+-----------+------|
-| Brigandine  | FIN         | 5 soft    |    5 |
-| Coat        | FIN         | 5 soft    |    5 |
-| Jerkin      | FIN         | 5 soft    |    2 |
-| Kimono      | FIN         | 5 soft    |    5 |
-| Tights      | FIN         | 2 soft    |    2 |
-| Tunic       | FIN         | 5 soft    |    5 |
-|-------------+-------------+-----------+------|
-| Vestments   | INS         | 4 soft    |    3 |
-|-------------+-------------+-----------+------|
-| Kilt        | STR         | 3 soft    |    2 |
-|-------------+-------------+-----------+------|
-| Poncho      | RES         | 2 soft    |    2 |
-|-------------+-------------+-----------+------|
-| Breastplate | -1 FIN, RES | 5 hard    |    5 |
-| Jumpsuit    | STR, 1 FIN  | 5 soft    |    5 |
-|-------------+-------------+-----------+------|
-| Blouse      | none        | 2 soft    |    2 |
-| Dress       | none        | 3 soft    |    2 |
-| Gi          | none        | 3 soft    |    2 |
-| Gown        | none        | 3 soft    |    2 |
-| Shirt       | none        | 2 soft    |    2 |
-| Toga        | none        | 3 soft    |    2 |
-|-------------+-------------+-----------+------|
-
-Gloves:
-|-----------+------+-----------+------|
-| Gloves    | Stat | Materials | Size |
-|-----------+------+-----------+------|
-| Gauntlets | FIN  | 2 hard    |    2 |
-| Gloves    | FIN  | 2 soft    |    1 |
-|-----------+------+-----------+------|
-| Bracers   | RES  | 2 hard    |    2 |
-|-----------+------+-----------+------|
-
-Footwear:
-|----------+------+-----------+------|
-| Footwear | Stat | Materials | Size |
-|----------+------+-----------+------|
-| Boots    | FIN  | 4 soft    |    2 |
-|----------+------+-----------+------|
-| Boots    | none | 4 hard    |    2 |
-| Sabatons | none | 4 hard    |    2 |
-| Sandals  | none | 1 soft    |    1 |
-| Shoes    | none | 4 hard    |    2 |
-| Shoes    | none | 1 soft    |    1 |
-|----------+------+-----------+------|
-
-- Yes, Boots made from soft materials provide a bonus to Finesse while those
-  made from hard materials do not.
-
-Accessories:
-|-----------+-------------+-----------+------|
-| Accessory | Stat        | Materials | Size |
-|-----------+-------------+-----------+------|
-| Bracelet  | CHA         | 1 hard    |    1 |
-| Doll      | CHA         | 1 soft    |    1 |
-| Garter    | CHA         | 1 soft    |    1 |
-| Kite      | CHA         | 1 soft    |    3 |
-|-----------+-------------+-----------+------|
-| Cloak     | FIN         | 3 soft    |    2 |
-|-----------+-------------+-----------+------|
-| Belt      | STR         | 1 hard    |    2 |
-|-----------+-------------+-----------+------|
-| Underwear | RES         | 1 soft    |    1 |
-|-----------+-------------+-----------+------|
-| Bandolier | FIN, -1 RES | 2 soft    |    2 |
-| Quiver    | FIN, -1 RES | 2 soft    |    2 |
-|-----------+-------------+-----------+------|
-| Belt      | none        | 1 soft    |    2 |
-| Cape      | none        | 3 soft    |    2 |
-| Mat       | none        | 2 soft    |    4 |
-| Rug       | none        | 3 soft    |    4 |
-| Scarf     | none        | 2 soft    |    1 |
-|-----------+-------------+-----------+------|
-
-- Any Weapon can be worn as an accessory for some powerful stat boosts!
-
-*** Shields
-|---------------+-----------+-----------+------|
-| Shield        | Defense   | Materials | Size |
-|---------------+-----------+-----------+------|
-| Shield        | Low       | 3 hard    |    2 |
-| Heater Shield | Average   | 4 hard    |    3 |
-| Kite Shield   | High      | 5 hard    |    4 |
-| Tower Shield  | Very High | 6 hard    |    5 |
-|---------------+-----------+-----------+------|
-
-- Carrying a shield makes all stamina based actions more expensive.
-- Shields do blunt-damage and there's nothing wrong with holding two of them.
-
 *** Containers
 :PROPERTIES:
 :ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
@@ -1715,15 +1762,6 @@ durability.
 - And the Hauler trait increases your inventory capacity passively
 - If you've seen a legendary bag, I'd like to know!
 
-**** Fixed-ish Storage
-
-All these have the capacity to hold 300 items of arbitrary size.
-
-- Carts, draggable on the local map
-- Storage Bins, installable
-- Storage Bins, upgraded.
-
-
 **** Liquids
 
 Are
@@ -1743,93 +1781,27 @@ Vial &
 Waterskin
 all of them?
 
-**** Party
-I may be dreaming but were there no saddle-bags in that old version? Can my pet
-and merc help me carry things? So much to determine yet. I should probably look
-into simply equipping my new merc first.
-
-*** Curios
-(wip)
-
-Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
-them to a piece of equipment, you can't get rid of them again. Some of these are
-really rare and I can't quite judge which those are, so .. Please don't cry if
-you misapply!
-
-Curios can be found and some of the curios, perhaps all of them are
-craftable once you've discovered or obtained their recipes.
-
-**** Never Craftable?
-|------------------+----------------------------------+--------|
-| Curio            | Effect                           | Rarity |
-|------------------+----------------------------------+--------|
-| Athletic Band    | Increase Jump distance           |        |
-| Balanced Weight  | Lessen chance to stumble (drunk) |        |
-| Hardened Tack    | Increase critial damage          |        |
-| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
-|------------------+----------------------------------+--------|
-| Hilt Chain       | Thrown Item returns              |        |
-| Metalic Bullseye | Increase throwing distance       |        |
-|------------------+----------------------------------+--------|
-
-**** Definitely craftable.
-|---------------+----------------------------+-----------------|
-| Curio         | Effect                     | Needs           |
-|---------------+----------------------------+-----------------|
-| Durable Patch | Less wear and tear on item |                 |
-| Hidden Pocket | +5 Inventory capacity      | 3 Burlap        |
-|---------------+----------------------------+-----------------|
-| Heavy Clasp   | +STR                       | 5 Copper Ingots |
-| Shiny Charm   | +CHA                       | 5 Rolls Silk    |
-| Sturdy Plates | +RES                       | 5 Animal Bones  |
-| Clever Widget | +INS                       |                 |
-| Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
-|---------------+----------------------------+-----------------|
-
-*** Furniture
-
-How to arrange
-Bar Stool,
-Bed,
-Bedding,
-Bench,
-Bookcase,
-Bookshelf,
-Cabinet,
-Carpet,
-Chair?,
-Chamber Pot,
-Chandelier,
-Desk,
-Dresser,
-Mattress,
-Nightstand,
-Rocking Chair,
-Rug,
-Stool,
-Table,
-Throne &
-Wardrobe
-into a sensible homesteader's base eludes me still!
-
-- Some of these I only know by hearsay, having their sizes and to learn
-  something about their utility, if any, would be cool too.
-
-- Does anyone feel like making up a color-scheme for a living space?
-
-and what about Cages? do they have a use?
-
 *** Lights
+
+|---------+--------+--------------------------------------------------------|
+| Light   | Burns  | Note                                                   |
+|---------+--------+--------------------------------------------------------|
+| Candle  | Short  | More of an oddity, rather ordinary, burns a few hours. |
+| Torch   | Medium | Easy to make, you were born knowing how to make them.  |
+| Lantern | Long   | Got the Recipe after 'feeding the smith' a lot.        |
+|---------+--------+--------------------------------------------------------|
 
 - Lanterns seem to burn forever.. but they dont.
   - They'll have plenty of life left in them when yellow.
-- Climbing does not extend the light's circle. 
 
-|---------+---+--------------------------------------------------------|
-| Candle  |   | More of an oddity, rather ordinary, burns a few hours. |
-| Torch   |   | Easy to make, you were born knowing how to make them.  |
-| Lantern | 6 | Got the Recipe after 'feeding the smith' a lot.        |
-|---------+---+--------------------------------------------------------|
+|--------------+----------|
+| Light Range  | Distance |
+|--------------+----------|
+| Above Ground |        6 |
+| Below Ground |        4 |
+|--------------+----------|
+
+- Climbing does not extend the light's circle. 
 
 *** Musical Instruments
 Drum,
@@ -1846,48 +1818,46 @@ demand that an unopened stables in a good location be made into an orchestra pit
 
 - Forgot to note their sizes. 
 
-*** Other
-Beaks and claws and..
-
+*** Riding, Fishing, Digging, Mining
 |-------------+--------------------------------------------|
 | Saddle      | Can be used to ride a mount                |
 | Shovel      | To dig with                                |
 | Pickaxe     | For digging and mining                     |
 | Fishing Rod | Still looking for what to do with those ;) |
 |-------------+--------------------------------------------|
-
-.. there used to be Pens and writable Signs, right?
-
-- Unusable Rings, Earrings, Glasses, Monocles.. 
-
-*** Utensils
-Rarer than hell it seems!
-
-Pipes, 
-Combs, 
-Spoons,
-Forks,
-Inkwells,
-Jars still in the game?
-
-*** Qualities
-|--------------+------------+-------------------------------------|
-| Quality      | Durability | Note                                |
-|--------------+------------+-------------------------------------|
-| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
-| (Refined)    | 2x         | Material/stat bonus %+              |
-| <Artisan>    | 3x?        | Material/stat bonus %++             |
-| {Masterwork} | 4x?        | Material/stat bonus %+++            |
-| ?Legendary?  | ?x         | Guessing                            |
-| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
-|--------------+------------+-------------------------------------|
 *** Repairing
+|-------------+------------------------------------------------|
+| Item        | Note                                           |
+|-------------+------------------------------------------------|
+| Repair Kits | very light and cheap; single use               |
+| Workbenches | repairs party equipment! repairable with a kit |
+|-------------+------------------------------------------------|
+
 ** Factions
 
 When you rank up in a faction, by doing quests for them or bribing one of their
 officers with 10..100 medals, you get access to their traits, which give some
 very good bonuses.
 
+*** About
+**** Jade circle: Social/stealth
+Is a really good faction for stealthy characters
+(has one of the best traits for spellcasters)
+
+**** Radiant hand: Combat/Tanking/buffs and debuffs
+Focusing on Strength? go for the hand!
+
+The three first Radiant Hand Traits 
+give you Damage Reduction against Piercing, Slashing and Bludgeoning Damage
+
+**** Will of the wild: Resource gathering/crafting/exploration
+Is good for crafting a lot of stuff, and getting a lot of loot
+
+Traits will give you options in crafting such as:
+- Reduces material costs of all craftable items
+- Increases materials gathered from foraging skills
+
+*** Ranks
 |---------------+--------------------+---------+------------|
 | Faction Ranks | Medals to get Rank | Traits  | Trait-Cost |
 |---------------+--------------------+---------+------------|
@@ -1904,23 +1874,7 @@ See the */factions* (aka "*F*") window for a list of Traits and the rank require
 - Don’t enter castles of the factions that don’t like you.
 - Fortresses are ok, just not castles
 
-*** Jade circle: Social/stealth
-Is a really good faction for stealthy characters
-(has one of the best traits for spellcasters)
-
-*** Will of the wild: Resource gathering/crafting/exploration
-Is good for crafting a lot of stuff, and getting a lot of loot
-
-Traits will give you options in crafting such as:
-- Reduces material costs of all craftable items
-- Increases materials gathered from foraging skills
-
-*** Radiant hand: Combat/Tanking/buffs and debuffs
-Focusing on Strength? go for the hand!
-
-The three first radiant hand traits give you DR against piercing, slashing or bludgeoning damage
-
-** Factions Traits
+*** Traits
 
 Check the Faction trait lists through the */factions* window, click a faction
 and choose to see the list of traits and their cost in shards from the menu.
@@ -1973,24 +1927,32 @@ an expert to chime in with their experience as I'm just guessing here.
 Whats missing?
 - Is someone tracking the biomes for these things?
 
-|----------------+------------+-----------------|
-| Foodstuff      | Prefix     | Buffs Attribute |
-|----------------+------------+-----------------|
-| Alcohol        | Hearty     | ++Resilience    |
-| Fish           |            |                 |
-| Flowers        | Delightful | ++Charm         |
-| Fruits         | Zesty      | ++Finesse       |
-| Herbs & Spices |            |                 |
-| Meat           | Complex    | ++Insight       |
-| Tree Seeds     | Robust     | ++Strength      |
-| Vegetables     | Robust     | ++Strength?     |
-|----------------+------------+-----------------|
+|----------------+------------+-----------------+------|
+| Foodstuff      | Prefix     | Buffs Attribute | Size |
+|----------------+------------+-----------------+------|
+| Alcohol        | Hearty     | ++Resilience    |  1.0 |
+| Fish           |            |                 |  1.0 |
+| Flowers        | Delightful | ++Charm         |  0.1 |
+| Fruits         | Zesty      | ++Finesse       |  0.2 |
+| Herbs & Spices |            |                 |  0.1 |
+| Meat           | Complex    | ++Insight       |  1.0 |
+| Tree Seeds     | Robust     | ++Strength      |  0.1 |
+| Vegetables     | Robust     | ++Strength?     |  0.2 |
+| Specialities   |            |                 |  0.1 |
+|----------------+------------+-----------------+------|
 
 - Don't forget there are 6 more prefixes used with [[When Elementally Flamed (++)][Elemental Buffs]]!
 
 - also, anything with Fishbones produce (always?) inedible Questionable outcomes.
 
 - Testing indicates that you get the same amount of health, ~10% from eating cooked items.
+
+Take some of the ultra-small foods to recover stamina during your travels
+(and/or to save yourself from drowning) and bring along with a few elemental
+runes to cook up Elemental Gourmet Meals right next to, or even in your Dungeon
+or Quest site!
+
+Don't forget the wood lest you wind up wanting to cook in the middle of a desert.
 
 *** Cooking
 Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
@@ -2098,8 +2060,9 @@ Fish are *not stackable*.
 [[https://en.wikipedia.com/wiki/Sycamore][Sycamore]] &
 [[https://en.wikipedia.com/wiki/Willow][Willow]] seeds produce *Robust ++Strength Meals*
 
-- Pear Trees appear to give logs rarely.
-  - ~20% in one map i tracked 'em.
+- Fruit Trees (Apple, Pear) yield logs less than half the time.
+  - seen ~20%ish for pear
+
 
 **** Fruits
 
@@ -2202,18 +2165,15 @@ Rose & Chrysanthemum Salad!
 | Honey         |      |      |           |  0.1 |
 |---------------+------+------+-----------+------|
 
-Take the ultra-small Eggs and Honey along with a few elemental runes to cook up
-Elemental Gourmet Meals right next to, or even in your Dungeon or Quest site!
+More research needed.
 
-Don't forget the wood lest you wind up wanting to cook in the middle of a desert.
-
-|---------------+---------------------------------------------|
-| Related       | Note                                        |
-|---------------+---------------------------------------------|
-| Venom Sacks   | not sure that these are ingredients.        |
-| Salted Meat   | exists as well, not sure that its cookable. |
-| Load of Bread | Is it even edible?                          |
-|---------------+---------------------------------------------|
+|---------------+-----------------------------------------------|
+| Related       | Note                                          |
+|---------------+-----------------------------------------------|
+| Venom Sacks   | Not sure that these are cookable ingredients. |
+| Salted Meat   | Exists as well, not sure that its cookable.   |
+| Load of Bread | Instant Satiation without nourishment. Right. |
+|---------------+-----------------------------------------------|
 
 *** When Elementally Flamed (++)
 
@@ -2245,6 +2205,115 @@ So why don't you wear yourself out, then try what fruits or other food you might
 like to take along your raiding missions. Find a way to determine just how long
 it might take to eat or drink and just which of these options of replenishing
 your stamina are open to you in combat!
+** Items
+*** Curios
+:PROPERTIES:
+:ID:       c837a2d5-bf82-4b42-ba0d-5bbeab6eda64
+:END:
+(wip)
+
+Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
+them to a piece of equipment, you can't get rid of them again. Some of these are
+really rare and I can't quite judge which those are, so .. Please don't cry if
+you misapply!
+
+Curios can be found and some of the curios, perhaps all of them are
+craftable once you've discovered or obtained their recipes.
+
+**** Never Craftable?
+|------------------+----------------------------------+--------|
+| Curio            | Effect                           | Rarity |
+|------------------+----------------------------------+--------|
+| Athletic Band    | Increase Jump distance           |        |
+| Balanced Weight  | Lessen chance to stumble (drunk) |        |
+| Hardened Tack    | Increase critial damage          |        |
+| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
+|------------------+----------------------------------+--------|
+| Hilt Chain       | Thrown Item returns              |        |
+| Metalic Bullseye | Increase throwing distance       |        |
+|------------------+----------------------------------+--------|
+
+**** Definitely craftable.
+|---------------+----------------------------+-----------------|
+| Curio         | Effect                     | Needs           |
+|---------------+----------------------------+-----------------|
+| Durable Patch | Less wear and tear on item |                 |
+| Hidden Pocket | +5 Inventory capacity      | 3 Burlap        |
+|---------------+----------------------------+-----------------|
+| Heavy Clasp   | +STR                       | 5 Copper Ingots |
+| Shiny Charm   | +CHA                       | 5 Rolls Silk    |
+| Sturdy Plates | +RES                       | 5 Animal Bones  |
+| Clever Widget | +INS                       | 5 Glass Ingots  |
+| Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
+|---------------+----------------------------+-----------------|
+*** Furniture
+:PROPERTIES:
+:ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
+:END:
+
+How to arrange
+Bar Stool,
+Bed,
+Bedding,
+Bench,
+Bookcase,
+Bookshelf,
+Cabinet,
+Carpet,
+Chair?,
+Chamber Pot,
+Chandelier,
+Desk,
+Dresser,
+Mattress,
+Nightstand,
+Rocking Chair,
+Rug,
+Stool,
+Table,
+Throne &
+Wardrobe
+into a sensible homesteader's base eludes me still!
+
+- Some of these I only know by hearsay, having their sizes and to learn
+  something about their utility, if any, would be cool too.
+
+- Does anyone feel like making up a color-scheme for a living space?
+
+and what about Cages? do they have a use?
+
+*** Other
+:PROPERTIES:
+:ID:       8102e531-8c10-4982-ac30-cd1893ccadb8
+:END:
+Beaks and claws and..
+
+*** Storage
+
+All these have the capacity to hold 300 items of arbitrary size.
+
+- Carts, draggable on the local map
+- Storage Bins, installable
+- Storage Bins, upgraded.
+
+See Containers and using your party as loot mules.
+
+*** Utensils
+:PROPERTIES:
+:ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
+:END:
+Rarer than hell it seems!
+
+Pipes, 
+Combs, 
+Spoons,
+Forks,
+Inkwells,
+Jars still in the game?
+
+.. there used to be Pens and writable Signs, right?
+
+- Unusable Rings, Earrings
 
 ** Locations
 *** Location List
@@ -2329,7 +2398,15 @@ music?
 
 
 I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
-of the map to get him looked after.
+of the map to get him looked after. Which makes me think of something! Do you
+know that if you're dragging something or someone, all you need to do to let go,
+is to hold something else in that hand. Say you happen to get attacked, just
+draw your weapon and you'll let go what you were pulling.
+
+And hey, and hey, most people dont mind if you drag them around. The ingame
+message about 'attacking' is just worded a bit strongly for most circumstances.
+
+
 **** Campsite
 Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
 other. Some are trying to leave their prior associates behind and change their
@@ -2719,14 +2796,62 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 | Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
 |------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
-** NPC's
+** NPCs
+
+NPC's use the same classes as you, their strength and behaviors modified by
+prefixes to which I need to pay more attention still in order to put a list right here.
+
+*** Skill Brackets
+
+I have this notion that it might be possible to make a table that roughly
+presents the words indicating enemy strength.. but I dont know. So I'm
+collecting the word I find along the way in this table.
+
+
+*TOTALLY GUESSING ATM!*
+- Just a scratchpad to make word and number guesses
+
+| Player Equiv  | Level | NPC's/Dummies | Animals     | Plants   |
+|---------------+-------+---------------+-------------+----------|
+| TRAGIC        |   -20 |               |             |          |
+| Dreadful      |   -16 |               |             |          |
+| Terrible      |   -12 |               |             |          |
+|---------------+-------+---------------+-------------+----------|
+| Aweful        |    -8 |               |             |          |
+| Poor          |    -4 |               |             |          |
+|---------------+-------+---------------+-------------+----------|
+| Below Average |    -1 | Amateur       | Young       | Baby     |
+| Average       |     0 | (no prefix)   |             |          |
+| Above Average |     1 | Skilled       |             |          |
+|---------------+-------+---------------+-------------+----------|
+| Good          |     4 | Tough         | (no prefix) | Kid      |
+| Good+         |     6 |               |             | Beast    |
+|---------------+-------+---------------+-------------+----------|
+| Excellent     |     8 | Veteran       | Mature      |          |
+| Excellent+    |    10 | Wayward?      |             | Behemoth |
+|---------------+-------+---------------+-------------+----------|
+| Legendary     |    12 | Legendary?    | Stout       |          |
+| Legendary+    |    16 | Mythical      |             | Beasts?  |
+| GODLIKE       |    20 | Ascended      |             |          |
+|---------------+-------+---------------+-------------+----------|
+
+Feedback:
+For NPC skill tiers, I've seen mercenaries with "mythical" and "ascended"
+Not sure where that would fit in with legendary
+- added the words, the guessing game continues.
+
+Stout>Mature?
+
+
+*** Some Observations
 As elsewhere the stories I tell about the different characters and their
 fantastic schemes and relations are entirely fantastic and straight from my
-imagination. I write them for the same reason that I don't cheat: Even a little
-bit of storytelling keeps the fantasy alive and prevents play from becoming a
-grind.
+imagination.
 
-*** Dummy
+I write them for the same reason that I don't cheat: Even a little bit of
+storytelling keeps the fantasy alive and prevents play from becoming a grind.
+
+**** Dummy
 The combat dummies you'll find in all settlements give you a taste of the damage
 put out by attackers of different ranks. By going between towns and challenging
 different dummies you can experiment with your offensive options to learn how
@@ -2736,32 +2861,32 @@ only item stats.
 That experiment might be quite a geeky thing, but we should have a table here to
 demonstrate the power hiding in different [[Skill Brackets][Skill Brackets]].
 
-*** Elder
+**** Elder
 The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
-*** Nobles
+**** Nobles
 Also appear to colludes with the researchers, but their power and influence in
 the realm is nowhere near to that of the Elders. Not much is known about the
 transformation of Nobles to Elders, nor do all that many survive into old age.
-*** Riddler
+**** Riddler
 Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
-*** Guards
+**** Guards
 These will gang up on you and you'll want to be really careful to not get the Elder
 involved in a fight because he will end your game by kicking you out of 'his' world
 permanently.
-*** Townies
+**** Townies
 See Desperate Times. 
-*** Escortees
+**** Escortees
 Source of infinite unique items of middling power .. which .. when you have
 collected way to many, might allow you to think yourself as well equipped as
 someone solidly in 'The Age of Steel'. Perhaps a little better than that; But
 as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
-*** Champions 
+**** Champions 
 Challenge them once you're past the "Age of Steel", even then you might regret it!
 Remember they are Faction Leaders.
-*** Smuggler
+**** Smuggler
 Insight Good+, Charm Average:
 #+begin_example
 "You give 27 Crystal Ingots to Cheeky Smuggler. 
@@ -2776,9 +2901,9 @@ Insight Good+, Charm Good+:
 Iron and Crystal are both uncommon. He gave back half of the same rarity,
 rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
-*** Trader
+**** Trader
 A bug was fixed. TBD.
-*** Thief
+**** Thief
 You forgot to close the door one night and now there's that shifty looking
 fellow standing right next to you, decked out in your newly upgraded gear,
 asking for assistance.
@@ -2853,6 +2978,18 @@ with right where you left them!
 - Saddles
 - Enemy mounts, /inspect, not hostile, not tameable. attract new hostiles
   overnight!?
+
+** Qualities
+|--------------+------------+-------------------------------------|
+| Quality      | Durability | Note                                |
+|--------------+------------+-------------------------------------|
+| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
+| (Refined)    | 2x         | Material/stat bonus %+              |
+| <Artisan>    | 3x?        | Material/stat bonus %++             |
+| {Masterwork} | 4x?        | Material/stat bonus %+++            |
+| ?Legendary?  | ?x         | Guessing                            |
+| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
+|--------------+------------+-------------------------------------|
 
 ** Quests
 You can figure these out by your self, don't sweat them. If there's trouble you
@@ -3169,44 +3306,18 @@ and can rebalance their stats or keep them godlike rerun this.
 
 - 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
 - without notes and interruptions these numbers might take ~90mins?
-** Skill Brackets
+** Shields
+|---------------+-----------+-----------+------|
+| Shield        | Defense   | Materials | Size |
+|---------------+-----------+-----------+------|
+| Shield        | Low       | 3 hard    |    2 |
+| Heater Shield | Average   | 4 hard    |    3 |
+| Kite Shield   | High      | 5 hard    |    4 |
+| Tower Shield  | Very High | 6 hard    |    5 |
+|---------------+-----------+-----------+------|
 
-I have this notion that it might be possible to make a table that roughly
-presents the words indicating enemy strength.. but I dont know. So I'm
-collecting the word I find along the way in this table.
-
-
-*TOTALLY GUESSING ATM!*
-- Just a scratchpad to make word and number guesses
-
-| Player Equiv  | Level | NPC's/Dummies | Animals     | Plants   |
-|---------------+-------+---------------+-------------+----------|
-| TRAGIC        |   -20 |               |             |          |
-| Dreadful      |   -16 |               |             |          |
-| Terrible      |   -12 |               |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Aweful        |    -8 |               |             |          |
-| Poor          |    -4 |               |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Below Average |    -1 | Amateur       | Young       | Baby     |
-| Average       |     0 | (no prefix)   |             |          |
-| Above Average |     1 | Skilled       |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Good          |     4 | Tough         | (no prefix) | Kid      |
-| Good+         |     6 |               |             | Beast    |
-|---------------+-------+---------------+-------------+----------|
-| Excellent     |     8 | Veteran       | Mature      |          |
-| Excellent+    |    10 | Wayward?      |             | Behemoth |
-|---------------+-------+---------------+-------------+----------|
-| Legendary     |    12 | Legendary?    | Stout       |          |
-| Legendary+    |    16 | Mythical      |             | Beasts?  |
-| GODLIKE       |    20 | Ascended      |             |          |
-|---------------+-------+---------------+-------------+----------|
-
-Feedback:
-For NPC skill tiers, I've seen mercenaries with "mythical" and "ascended"
-Not sure where that would fit in with legendary
-- added the words, the guessing game continues.
+- Carrying a shield makes all stamina based actions more expensive.
+- Shields do blunt-damage and there's nothing wrong with holding two of them.
 
 
 ** Spells
@@ -3925,6 +4036,20 @@ you do!
 
 For extra bonus see what stats might play a role in the completion of this
 mission.
+
+*** Time of Day
+
+#+begin_quote
+How far the Night?
+#+end_quote
+
+Starting from in the Morning, taking the NE path, how far can I get before the time changes?
+
+|-----------------------+------|
+| Steps from Morning to | (km) |
+|-----------------------+------|
+| Night                 |  105 |
+|-----------------------+------|
 
 ** Difficulty
 
