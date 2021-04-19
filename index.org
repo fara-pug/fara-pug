@@ -12,6 +12,11 @@
 
 * Hot Links
 
+Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5]] there are new quests, right-clicking on the map moves
+you, inventory and storages can be sorted, the big map became much nicer and
+overall - there a ton of nice little tweaks! - the game has become much nicer to
+play. so cool! thanks!
+
 - [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
 - [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
   - [[Release Notes][see if its already searchable in these notes]].
@@ -1751,9 +1756,8 @@ them to a piece of equipment, you can't get rid of them again. Some of these are
 really rare and I can't quite judge which those are, so .. Please don't cry if
 you misapply!
 
-Curios can be found and some of the curios, and all of those that boost one of
-the 5 main stats are craftable. (Likely [[Refinery][after you have spent a fortune]] or two on
-the local madman.)
+Curios can be found and some of the curios, perhaps all of them are
+craftable once you've discovered or obtained their recipes.
 
 **** Never Craftable?
 |------------------+----------------------------------+--------|
@@ -1768,19 +1772,19 @@ the local madman.)
 | Metalic Bullseye | Increase throwing distance       |        |
 |------------------+----------------------------------+--------|
 
-**** Craftable. Some Eventually, some early.
-|---------------+----------------------------+----------|
-| Curio         | Effect                     | Needs    |
-|---------------+----------------------------+----------|
-| Durable Patch | Less wear and tear on item |          |
-| Hidden Pocket | +5 Inventory capacity      | 3 Burlap |
-|---------------+----------------------------+----------|
-| Heavy Clasp   | +STR                       |          |
-| Shiny Charm   | +CHA                       |          |
-| Sturdy Plates | +RES                       |          |
-| Clever Widget | +INS                       |          |
-| Nimble Wrap   | +FIN                       |          |
-|---------------+----------------------------+----------|
+**** Definitely craftable.
+|---------------+----------------------------+-----------------|
+| Curio         | Effect                     | Needs           |
+|---------------+----------------------------+-----------------|
+| Durable Patch | Less wear and tear on item |                 |
+| Hidden Pocket | +5 Inventory capacity      | 3 Burlap        |
+|---------------+----------------------------+-----------------|
+| Heavy Clasp   | +STR                       | 5 Copper Ingots |
+| Shiny Charm   | +CHA                       | 5 Rolls Silk    |
+| Sturdy Plates | +RES                       | 5 Animal Bones  |
+| Clever Widget | +INS                       |                 |
+| Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
+|---------------+----------------------------+-----------------|
 
 *** Furniture
 
@@ -2639,22 +2643,22 @@ between +7 and +10, etc.)
 
 *** Everyday materials
 
-Useful Materials without effects on your stats.
+Useful *Very common* Materials without effects on your stats.
 
-|------------------+-----------------+---------------+-------------|
-| Material         | Components      | Source        | Rarity      |
-|------------------+-----------------+---------------+-------------|
-| Ceramic Plates   | 2 Mound of Clay | Craft,drops   | Uncommon    |
-| Burlap           | 2 Plant Fibers  | Craft,drops   | Very common |
-|------------------+-----------------+---------------+-------------|
-| Mound of Clay    |                 | /dig          | Very common |
-| Sand             |                 | /dig          | Very common |
-| Soil             |                 | /dig          | Very common |
-|------------------+-----------------+---------------+-------------|
-| Plant Fibers     |                 | Trees, Bushes | Very common |
-| Stone            |                 | Ground, drops | Very common |
-| Tuft of Feathers |                 | Birds drop    | Very common |
-|------------------+-----------------+---------------+-------------|
+|------------------+-----------------+---------------|
+| Material         | Components      | Source        |
+|------------------+-----------------+---------------|
+| Ceramic Plates   | 2 Mound of Clay | Craft,drops   |
+| Burlap           | 2 Plant Fibers  | Craft,drops   |
+|------------------+-----------------+---------------|
+| Mound of Clay    |                 | /dig          |
+| Sand             |                 | /dig          |
+| Soil             |                 | /dig          |
+|------------------+-----------------+---------------|
+| Plant Fibers     |                 | Trees, Bushes |
+| Stone            |                 | Ground, drops |
+| Tuft of Feathers |                 | Birds drop    |
+|------------------+-----------------+---------------|
 *** Natural Resources
 |------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
 | Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
@@ -3823,6 +3827,25 @@ Maybe after your next escort quest?
 
 Shovel or Fishing rod, what do i know. Plus I'm [[Charm][dubious about iron]] as
 a [[Materials][material]] for either!
+
+*** Fishing
+
+I found a manual that tought me things about fishing. Then I made a great
+chrystal rod, took my workbench to the ocean with me and experienced an entire
+day passing without getting in the leastt bit tired, so great was the excitement
+from pulling rune after rune out of the water.
+
+Every other time since, no more than 2 or 3 runes for again spending an entire
+day in the water.
+
+Is this me; am i unlucky with the maps i picked? can i only have so much luck
+per day ingame? All these are open questions, I'll try fishing again later and
+see if my luck improves, after wearing out an entire workbench trying that's all
+i can do.
+
+For me fishing works best if i start by typing */fish*, and then alternate
+pressing "*f*" and "*z*", repairing the rod by right-clicking the workbench 
+in between.
 
 ** Traveling
 
@@ -6027,8 +6050,45 @@ What's optimal? Anything Quad-core with DDR-4 RAM but DDR-3 will do.
 
 ** Technical
 
+*** Resizing & Positioning the FARA Window
+
+I play on an upright external monitor. Since changes to /bigmap make it scale
+with the height of the window FARA runs in without considering the width, I
+need to change the FARA window size to make the most of /bigmap.
+
+Using Windows you'd want to look at these links
+- [[https://superuser.com/questions/240362/save-window-locations-of-applications][save-window-locations-of-applications]]
+- [[https://appuals.com/fix-windows-not-remembering-window-positions-and-sizes/][fix-windows-not-remembering-window-positions-and-sizes]]
+
+In Linux, grab a hold of [[https://www.startpage.com/sp/search?query=obtaining+xdotool][*xdotool*]], then save and adapt this script to your needs.
+
+#+begin_example
+#!/bin/bash
+
+setfarawin(){
+  local a=$(xdotool search --onlyvisible --name "FARA")
+  xdotool getwindowgeometry $a
+  xdotool windowmove $a 1372 641
+  xdotool windowsize $a 1074 1100
+}
+
+<pathtoyourlocalinstall>/FARA &
+sleep 0.1
+setfarawin
+#+end_example
+
+If you want to adapt your browser's window instead, you'll find some more ideas
+at these links:
+- [[https://unix.stackexchange.com/questions/14159/how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration][how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration]]
+- [[https://unix.stackexchange.com/questions/43106/how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line/359311][how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line]]
+
+
+
+
+*** Note
+
 While not an open source application per se, with an [[https://www.electronjs.org/][Electron]] application such
-as FARA one can [[https://github.com/WebAssembly/design/issues/219][always]] count on having access to the code for personal use even
+as FARA one can [[https://github.com/WebAssembly/design/issues/219][always]] count on having [[https://medium.com/hackernoon/javascript-compilation-epoch-ebfb7b5bb664][access]] to the code for personal use even
 though one is dealing with an 'All rights reserved' kind of license.
 
 Much like with [[https://en.wikipedia.org/wiki/Adobe_Flash][Flash]], you can easily [[https://www.startpage.com/do/search?query=app.asar][unpack]] the program, change the fonts and
@@ -6045,7 +6105,9 @@ destroyed and obsoleted by proprietary code a few times. Then you too might
 appreciate the importance of free and open software and see the value of
 acquiring some of the basic technical skills hinted at here.
 
-Anyway, if you want to mess with things, make sure to use */stopreports*!
+Anyway, if you want to mess with things, make sure to use */stopreports*!  And
+do yourself a favor, never use this approach to cheat or learn game secrets or
+you will ruin your own fun. Let playing continue to be an enjoyable sandbox!
 
 ** Visualizing Waypoints
 
