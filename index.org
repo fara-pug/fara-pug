@@ -5939,10 +5939,17 @@ bugs that need squashing, so if you come across something that doesn't seem
 quite right, be sure to let me know!
 
 
-** Disclaimer
+** Copyright/Disclaimer
 This document is hereby released without any claim of ownership on other
 people's content and without claims of copyright by compilation or any or other
 claims I could make to keep you from contributing to the game.
+
+The one thing I'd ask you to do is link back to these notes if you're taking
+anything I've added value to by creating this original assemblage of facts.
+
+Thus, if you want to populate the wiki by cribbing from here .. link back.
+I link back to the wiki and every source I've cited. So should you. Thanks!
+
 ** Linux
 
 To run this game in linux, this is what you need to know.
