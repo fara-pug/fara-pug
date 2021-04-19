@@ -12,7 +12,8 @@
 
 * Hot Links
 
-- [[https://brianiscreative.itch.io/fara/devlog][Latest devlog from Brian]],
+- [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
+- [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
   - [[Release Notes][see if its already searchable in these notes]].
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
@@ -356,7 +357,9 @@ Its a good idea to keep two wooden log in your inventory so you don't have to
 scrounge for one in the middle of the night while traveling!
 
 You want to make a shelter and a install a door before you sleep, because
-[[Thief][thievery]] is a thing and can become a real problem.
+[[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
+thought of having to cross deserts at night without 2 logs. one for a shelter,
+one for a door.
 
 
 ** Buildings
@@ -2755,7 +2758,10 @@ Hmm.. somehow you learn that
 - crafting takes about 105 moments.
 - unconscious people don't drown in wells.
 - its morning, daylight. you're going to loose rep or your gear no matter what
-- /grab /choke  zesty-dish/meal, fin-gear  rob them blind all cost you faction rep!
+- /grab /choke /eat zesty-dish/meal, /wear fin-gear /stealth /rob them blind ..
+  all cost you faction rep because you'll need to end the guy and hope to loot
+  your stuff that way. and ending costs you. not to much if your thieving fails
+  when stealthed, but still..
 
 and then /mustardfiend/ chimes in thus:
 
@@ -3253,6 +3259,24 @@ hoarding to figure things out, try not to be stupid about it, these things are
 meant to be used .. and you can always spend a week fishing and digging at a
 beach. I will ;)
 
+
+*** Notes on Elemental Damage
+/mantecarl/
+
+I did some testing about the light element, apparently at no attunement the
+illumination debuff lasts for about a single attack
+
+At max level it's about 10 moments
+
+The critical damage doesn't seem to scale with attunement, just its duration
+
+Right after the illumination fades, the target is !revealed for a single turn
+
+Still not sure if +critical damage stacks with other sources
+
+Ok, this may not be conclusive, but an obsidian mace with a |hardened tack|
+takes about 4 hits to kill a combat dummy. If you have the Fury condition it
+takes only 3 hits
 
 ** Weaponry
 
