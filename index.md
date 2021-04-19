@@ -1,179 +1,179 @@
 
 # Table of Contents
 
-1.  [Hot Links](#orgafdd21a)
-2.  [Caution Advised](#org27dfaca)
-3.  [Intro](#org5224484)
-    1.  [Notes](#orgc6894cb)
-    2.  [Finding](#org8f3bc1e)
-    3.  [Credits!](#org9e2ad9e)
-4.  [Topics](#orgb5996d3)
-    1.  [Avatar](#org976ed06)
-        1.  [Blights](#orgeaa6fc2)
-        2.  [Character Stats](#orgdce329f)
-        3.  [Key fragments](#org12935af)
-        4.  [Resting](#org3aee095)
-    2.  [Buildings](#org968ef7d)
-        1.  [Warehouse](#org173fd71)
-        2.  [Stables](#orgf2c8a45)
-        3.  [Tavern](#org0735bc1)
-        4.  [Obelisk](#org0660e32)
-        5.  [Refinery](#orgc455582)
-    3.  [Classes](#orga5ba773)
-        1.  [Initial](#orgc30f79e)
-        2.  [500+](#org597bfa9)
-        3.  [1000+](#org79c37cf)
-        4.  [5000+](#orgc23ee8a)
-        5.  [10000+](#orgd992a52)
-        6.  [20000+](#org7c7b5ed)
-        7.  [50000+](#org0add4b2)
-    4.  [Class Traits](#org0ea0b61)
-        1.  [Class Traits by # Spells](#org9c8e5e3)
-        2.  [Key:](#org5ae6f7f)
-    5.  [Damage Types](#orgb66eadb)
-        1.  [Physical](#orgb234bc9)
-        2.  [Magical](#org7c0ed5b)
-        3.  [Elemental](#org8dab882)
-    6.  [Equipment](#orgfc59cfd)
-        1.  [Armor](#orgd8fdcb9)
-        2.  [Shields](#org6a22e33)
-        3.  [Containers](#org043bd95)
-        4.  [Curios](#orgd1bda37)
-        5.  [Furniture](#orgf838969)
-        6.  [Lights](#orgc011da2)
-        7.  [Musical Instruments](#orgd5ebeb9)
-        8.  [Other](#orgeaa3490)
-        9.  [Utensils](#org350561b)
-        10. [Qualities](#orge5092c9)
-        11. [Repairing](#org6b64a30)
-    7.  [Factions](#orgf070e37)
-        1.  [Jade circle: Social/stealth](#org3c8d41e)
-        2.  [Will of the wild: Resource gathering/crafting/exploration](#org744bc65)
-        3.  [Radiant hand: Combat/Tanking/buffs and debuffs](#orgdebb212)
-    8.  [Factions Traits](#orgc2c5099)
-        1.  [Trait Manuals](#orgf89cc6c)
-    9.  [Food](#org9bb1a57)
-        1.  [Cooking](#org4b34492)
-        2.  [Drinks](#org62c56fb)
-        3.  [Solid Foods](#org9544c7a)
-        4.  [Specialty Foods](#orgc06cbed)
-        5.  [When Elementally Flamed (++)](#org14c2cd3)
-    10. [Locations](#org06e50d4)
-        1.  [Location List](#org886aed2)
-        2.  [Encounters](#org9b2d4c9)
-        3.  [Locations](#org1db206a)
-        4.  [Just plain cool](#org7343aaf)
-    11. [Materials](#org6718d38)
-        1.  [Wiki preamble](#org47b6245)
-        2.  [Everyday materials](#orgcdc2160)
-        3.  [Natural Resources](#org991f687)
-        4.  [Cloths and Furs](#org5330819)
-    12. [NPC's](#org2cb2596)
-        1.  [Dummy](#orga06c3d6)
-        2.  [Elder](#orga960f76)
-        3.  [Nobles](#org178601f)
-        4.  [Riddler](#orgda4559b)
-        5.  [Guards](#org2d4de84)
-        6.  [Townies](#orgb3350db)
-        7.  [Escortees](#org220775d)
-        8.  [Champions](#org53a30c6)
-        9.  [Smuggler](#org72911a0)
-        10. [Trader](#orgb5b1286)
-        11. [Thief](#org4970cad)
-    13. [Party](#orge0ed588)
-        1.  [Pets](#org7a9042d)
-        2.  [Mounts](#orgeef7b66)
-    14. [Quests](#org70cdd14)
-        1.  [Beastslayer you!](#org3128921)
-        2.  [Desperate Times](#org9a46843)
-        3.  [Escort Quests](#orgbc3a557)
-        4.  [Missing Kid Quests](#org0124cd7)
-        5.  [Suicide Quests](#orgd652245)
-    15. [Runes](#org37cf969)
-        1.  [Effector Runes](#orgf5ef561)
-        2.  [Stabilizer Runes](#orgcc54017)
-        3.  [Elemental Runes](#orgefa122d)
-        4.  [Farming Runes](#orge5f74af)
-    16. [Skill Brackets](#org115ab9f)
-    17. [Spells](#org918c566)
-        1.  [Scrolls](#orgbaf4f0c)
-        2.  [Spell-tombs](#org9d18c30)
-        3.  [You must have a healing spell](#org07c35d6)
-        4.  [Notes on Elemental Damage](#org2b57c7d)
-    18. [Weaponry](#org11d7c99)
-        1.  [Melee](#org6bad9ea)
-        2.  [Magical](#org5d769c7)
-        3.  [Ranged](#org441a58a)
-        4.  [Astral](#orgd6b7c55)
-5.  [Pug's Notes](#org809db15)
-    1.  [The Ages](#org4db3a95)
-    2.  [The Magic](#org095c6de)
-    3.  [Trick out your map!](#orge65d051)
-    4.  [Item Management](#orgf857074)
-        1.  [InShelter](#org1af773d)
-        2.  [Warehousing](#org0ee99bf)
-        3.  [In the Crucible](#org9e7ce6b)
-        4.  [In General](#org2ab2ed3)
-    5.  [Moving out and on](#org3db4087)
-    6.  [Upgrades](#orgcd161dd)
-        1.  [If you're totally nuts, enhance you shovel.](#org26783f4)
-        2.  [Fishing](#orgb0f7af5)
-    7.  [Traveling](#orge6c8f71)
-    8.  [Exploring](#org5f33220)
-        1.  [New Location?](#orga802b59)
-        2.  [Your Stealth Potential](#org54b9dd8)
-    9.  [Difficulty](#orgf8e2325)
-    10. [Finding things in daylight vision](#org18d98d4)
-        1.  [example in town:](#orgf286cac)
-    11. [Climbing](#orgfab081f)
-6.  [Playing](#org14076cb)
-    1.  [/COMMANDS](#org2bd7e44)
-    2.  [KEYS!](#org930bafd)
-    3.  [Talking](#org38342d5)
-7.  [Supplemental](#orgb997f78)
-    1.  [Random Notes from Discord](#orgd5276cc)
-        1.  [what classes do yall like the most](#org9548ac4)
-    2.  [Obsolete/Guides](#orgfc09b5e)
-        1.  [Degritone's Guide to 100k Points](#org6b4516b)
-        2.  [Mantecarl's tourist guide](#org24f7e57)
-        3.  [From Reddit](#org3fbe727)
-        4.  [From Wiki](#org1a8dab9)
-    3.  [Release Notes](#org0be8031)
-        1.  [Alpha 16 Mar'21..](#org7386ef0)
-        2.  [Alpha 15 Dec'20..](#org2619a41)
-        3.  [Void 01 Apr'19..](#orga4e5cbc)
-        4.  [Alpha 14 May'19..](#org10c1b1a)
-        5.  [Alpha 13 Apr'19..](#org0d84a6e)
-        6.  [Alpha 12 Mar'19..](#org34363c1)
-        7.  [Alpha 11 Feb'19..](#orgdd94f6e)
-        8.  [Alpha 10 May'18..](#orgc332181)
-    4.  [Copyright/Disclaimer](#org06acb66)
-    5.  [Linux](#orgcda759a)
-    6.  [Requirements](#orgba86977)
-    7.  [Technical](#org54833cb)
-        1.  [Resizing & Positioning the FARA Window](#orgd2405f3)
-        2.  [Note](#orgbc3010b)
-    8.  [Visualizing Waypoints](#org75526ef)
+1.  [Hot Links](#org245380a)
+2.  [Caution Advised](#orgaedd058)
+3.  [Intro](#org7ee0507)
+    1.  [Notes](#org7987185)
+    2.  [Finding](#org49cacd7)
+    3.  [Credits!](#org60b5430)
+4.  [Topics](#org74e9542)
+    1.  [Avatar](#org94fedef)
+        1.  [Blights](#orgf51fc82)
+        2.  [Character Stats](#orgb73ed88)
+        3.  [Key fragments](#orge08eea9)
+        4.  [Resting](#orgdfdbb38)
+    2.  [Buildings](#org2f14051)
+        1.  [Warehouse](#orgca50805)
+        2.  [Stables](#orgc5de389)
+        3.  [Tavern](#org62cf218)
+        4.  [Obelisk](#org2adddcf)
+        5.  [Refinery](#org4ed292e)
+    3.  [Classes](#org7e368ca)
+        1.  [Initial](#org8feecb5)
+        2.  [500+](#orgb35d07e)
+        3.  [1000+](#orge5fe193)
+        4.  [5000+](#org1a07f59)
+        5.  [10000+](#org276977e)
+        6.  [20000+](#org1da0ef1)
+        7.  [50000+](#org77d90aa)
+    4.  [Class Traits](#org10e279f)
+        1.  [Class Traits by # Spells](#org53a8808)
+        2.  [Key:](#org7a03f2c)
+    5.  [Damage Types](#orgda8524e)
+        1.  [Physical](#orge06f4e2)
+        2.  [Magical](#org5df4971)
+        3.  [Elemental](#org343641e)
+    6.  [Equipment](#orgcefe4f6)
+        1.  [Armor](#org9d0a369)
+        2.  [Shields](#org199f756)
+        3.  [Containers](#org1c2e506)
+        4.  [Curios](#orgfcd9556)
+        5.  [Furniture](#orga8b776e)
+        6.  [Lights](#org7b77ed1)
+        7.  [Musical Instruments](#org13c6cbf)
+        8.  [Other](#orga273329)
+        9.  [Utensils](#org85d70ce)
+        10. [Qualities](#org40b45b8)
+        11. [Repairing](#org0fe9480)
+    7.  [Factions](#org6cef899)
+        1.  [Jade circle: Social/stealth](#orgeea8034)
+        2.  [Will of the wild: Resource gathering/crafting/exploration](#orgcd822ac)
+        3.  [Radiant hand: Combat/Tanking/buffs and debuffs](#org7b81959)
+    8.  [Factions Traits](#org9282306)
+        1.  [Trait Manuals](#orgb829421)
+    9.  [Food](#org447595d)
+        1.  [Cooking](#orgfbb7f3e)
+        2.  [Drinks](#org3545948)
+        3.  [Solid Foods](#orgc88eeb9)
+        4.  [Specialty Foods](#org604c963)
+        5.  [When Elementally Flamed (++)](#org71dde6b)
+    10. [Locations](#org25b9876)
+        1.  [Location List](#org15d7e22)
+        2.  [Encounters](#orgee34042)
+        3.  [Locations](#orgf055a80)
+        4.  [Just plain cool](#orgf9edf6a)
+    11. [Materials](#orgb8190b1)
+        1.  [Wiki preamble](#org581dbcc)
+        2.  [Everyday materials](#orga8c5eb6)
+        3.  [Natural Resources](#orgeb44a03)
+        4.  [Cloths and Furs](#orga47f190)
+    12. [NPC's](#orgd8af424)
+        1.  [Dummy](#org8da0b2a)
+        2.  [Elder](#org5128a43)
+        3.  [Nobles](#orgd7fab49)
+        4.  [Riddler](#org413b9fd)
+        5.  [Guards](#org0ea812e)
+        6.  [Townies](#orgdddc50c)
+        7.  [Escortees](#org8346606)
+        8.  [Champions](#orgd8618a5)
+        9.  [Smuggler](#org60e0c00)
+        10. [Trader](#orgd29386e)
+        11. [Thief](#orgc2306c3)
+    13. [Party](#org07c79f1)
+        1.  [Pets](#org9dce46d)
+        2.  [Mounts](#org9568843)
+    14. [Quests](#orgf4f6ea0)
+        1.  [Beastslayer you!](#org41c947a)
+        2.  [Desperate Times](#org8c31390)
+        3.  [Escort Quests](#org18e235d)
+        4.  [Missing Kid Quests](#org3ef19f9)
+        5.  [Suicide Quests](#orgba41e10)
+    15. [Runes](#org37222d8)
+        1.  [Effector Runes](#org9adf2ae)
+        2.  [Stabilizer Runes](#org46f81cc)
+        3.  [Elemental Runes](#org97eee6f)
+        4.  [Farming Runes](#org9ff1914)
+    16. [Skill Brackets](#org0fc25de)
+    17. [Spells](#orgb1ea68c)
+        1.  [Scrolls](#org049b756)
+        2.  [Spell-tombs](#org42cd6ac)
+        3.  [You must have a healing spell](#org9f11f0f)
+        4.  [Notes on Elemental Damage](#org59fd935)
+    18. [Weaponry](#orga7fc679)
+        1.  [Melee](#org114dbe9)
+        2.  [Magical](#org34c8bfb)
+        3.  [Ranged](#org45855b7)
+        4.  [Astral](#org36ab7f4)
+5.  [Pug's Notes](#orgae66ec6)
+    1.  [The Ages](#org1e339b7)
+    2.  [The Magic](#org271f3e6)
+    3.  [Trick out your map!](#org14942a8)
+    4.  [Item Management](#orgc723ff9)
+        1.  [InShelter](#orge976d32)
+        2.  [Warehousing](#orga777dbb)
+        3.  [In the Crucible](#orga04adc4)
+        4.  [In General](#org73986bc)
+    5.  [Moving out and on](#orgf1c6bfa)
+    6.  [Upgrades](#orgb909172)
+        1.  [If you're totally nuts, enhance you shovel.](#org24055f4)
+        2.  [Fishing](#org00deec3)
+    7.  [Traveling](#orgd45d03f)
+    8.  [Exploring](#org72d227d)
+        1.  [New Location?](#orgff7cb49)
+        2.  [Your Stealth Potential](#org102913d)
+    9.  [Difficulty](#orgf0b2945)
+    10. [Finding things in daylight vision](#orga8e0257)
+        1.  [example in town:](#org9784462)
+    11. [Climbing](#org4bd07fb)
+6.  [Playing](#org184c19d)
+    1.  [/COMMANDS](#org856d331)
+    2.  [KEYS!](#org922acb0)
+    3.  [Talking](#org507844d)
+7.  [Supplemental](#org9325797)
+    1.  [Random Notes from Discord](#org837cf12)
+        1.  [what classes do yall like the most](#orgd5065e6)
+    2.  [Obsolete/Guides](#orgb0f751e)
+        1.  [Degritone's Guide to 100k Points](#orgd165ef3)
+        2.  [Mantecarl's tourist guide](#org357b447)
+        3.  [From Reddit](#org2013435)
+        4.  [From Wiki](#org2d5f670)
+    3.  [Release Notes](#org08f8426)
+        1.  [Alpha 16 Mar'21..](#org8301d72)
+        2.  [Alpha 15 Dec'20..](#org639da16)
+        3.  [Void 01 Apr'19..](#org066da81)
+        4.  [Alpha 14 May'19..](#orgd0129b8)
+        5.  [Alpha 13 Apr'19..](#org3ebc879)
+        6.  [Alpha 12 Mar'19..](#org93fbf75)
+        7.  [Alpha 11 Feb'19..](#orgabefdf5)
+        8.  [Alpha 10 May'18..](#org568919e)
+    4.  [Copyright/Disclaimer](#orgd5229b0)
+    5.  [Linux](#orga5ba10a)
+    6.  [Requirements](#org7202d36)
+    7.  [Technical](#orga92358a)
+        1.  [Resizing & Positioning the FARA Window](#org29f4801)
+        2.  [Note](#org98e9dc5)
+    8.  [Visualizing Waypoints](#org6fd50df)
 
 
 
-<a id="orgafdd21a"></a>
+<a id="org245380a"></a>
 
 # Hot Links
 
-Starting with [0.0.16.5](#org7af5335) there are new quests, right-clicking on the map moves
+Starting with [0.0.16.5](#orgb8b4959) there are new quests, right-clicking on the map moves
 you, inventory and storages can be sorted, the big map became much nicer and
 overall - there a ton of nice little tweaks! - the game has become much nicer to
 play. so cool! thanks!
 
 -   [Latest Changes on the Wiki](https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2)
 -   [Latest Devlog from the Brian](https://brianiscreative.itch.io/fara/devlog),
-    -   [see if its already searchable in these notes](#org0be8031).
+    -   [see if its already searchable in these notes](#org08f8426).
 -   [Mishaal's Item Compendium](https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102)
-    -   and the Notes's expanded [Weapons](#org11d7c99) and [Equipment](#orgfc59cfd) sections!
+    -   and the Notes's expanded [Weapons](#orga7fc679) and [Equipment](#orgcefe4f6) sections!
 
 
-<a id="org27dfaca"></a>
+<a id="orgaedd058"></a>
 
 # Caution Advised
 
@@ -187,7 +187,7 @@ in progress since using the web-version risks obliteration of your
 save at any time!
 
 
-<a id="org5224484"></a>
+<a id="org7ee0507"></a>
 
 # Intro
 
@@ -212,7 +212,7 @@ If you don't know what I'm talking about, visit [FARA's Homepage](https://briani
 at these [Game-play videos](https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video).
 
 
-<a id="orgc6894cb"></a>
+<a id="org7987185"></a>
 
 ## Notes
 
@@ -222,7 +222,7 @@ During my first play-session some years ago I hit a wall and swore to myself
 that I would beat this thing one day. And I finally have.
 
 It was not a big, triumphant, clever win. Definitely not! I played what looked
-to me like the most survivable class, the [Gatekeeper](#org1d2a63a) as defensively as I could
+to me like the most survivable class, the [Gatekeeper](#org5e671c0) as defensively as I could
 and for 150 days stuck my head into dangerous places, learning and exploring as
 I went - and now that my understanding has grown, my notes and my approach to
 them is evolving too.
@@ -235,7 +235,7 @@ Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
 but they are not harmful if you're just starting out. 
 
 
-<a id="org8f3bc1e"></a>
+<a id="org49cacd7"></a>
 
 ## Finding
 
@@ -276,7 +276,7 @@ Github and post a comment to trigger an email that way. Its no bother at all!
 Email will reach me most weeks.
 
 
-<a id="org9e2ad9e"></a>
+<a id="org60b5430"></a>
 
 ## Credits!
 
@@ -291,17 +291,17 @@ detail on weapons and armors! *Ent*'s feedback helped clarify several bits of te
 considerably.
 
 
-<a id="orgb5996d3"></a>
+<a id="org74e9542"></a>
 
 # Topics
 
 
-<a id="org976ed06"></a>
+<a id="org94fedef"></a>
 
 ## Avatar
 
 
-<a id="orgeaa6fc2"></a>
+<a id="orgf51fc82"></a>
 
 ### Blights
 
@@ -345,7 +345,7 @@ all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
 sure.
 
 
-<a id="orgdce329f"></a>
+<a id="orgb73ed88"></a>
 
 ### Character Stats
 
@@ -554,7 +554,7 @@ sure.
         inside a game!
 
 
-<a id="org12935af"></a>
+<a id="orge08eea9"></a>
 
 ### Key fragments
 
@@ -595,7 +595,7 @@ sure.
         decisions. decisions. /end crazy math
 
 
-<a id="org3aee095"></a>
+<a id="orgdfdbb38"></a>
 
 ### Resting
 
@@ -623,12 +623,12 @@ Its a good idea to keep two wooden log in your inventory so you don't have to
 scrounge for one in the middle of the night while traveling!
 
 You want to make a shelter and a install a door before you sleep, because
-[thievery](#org4970cad) is a thing and can become a real problem. /me learns to tremble at the
+[thievery](#orgc2306c3) is a thing and can become a real problem. /me learns to tremble at the
 thought of having to cross deserts at night without 2 logs. one for a shelter,
 one for a door.
 
 
-<a id="org968ef7d"></a>
+<a id="org2f14051"></a>
 
 ## Buildings
 
@@ -642,7 +642,7 @@ Don't compromise on gear to invest in buildings,
 You only **need** the Warehouse at the start.
 
 
-<a id="org173fd71"></a>
+<a id="orgca50805"></a>
 
 ### Warehouse
 
@@ -660,10 +660,10 @@ You only **need** the Warehouse at the start.
         and supplies for expanding elsewhere.
     
     -   6 Storage bins, probably best when only used in Relica, that let you get rid of
-        things you dont want to see but dont want to loose. See [5.4](#orgf857074)
+        things you dont want to see but dont want to loose. See [5.4](#orgc723ff9)
 
 
-<a id="orgf2c8a45"></a>
+<a id="orgc5de389"></a>
 
 ### Stables
 
@@ -689,7 +689,7 @@ How!?@?#
         -   these materials i'd not seen before i opened the building
 
 
-<a id="org0735bc1"></a>
+<a id="org62cf218"></a>
 
 ### Tavern
 
@@ -711,7 +711,7 @@ How!?@?#
     If all that got me was a gambling chance at BPs, fine!
 
 
-<a id="org0660e32"></a>
+<a id="org2adddcf"></a>
 
 ### Obelisk
 
@@ -858,7 +858,7 @@ How!?@?#
         tbd
 
 
-<a id="orgc455582"></a>
+<a id="org4ed292e"></a>
 
 ### Refinery
 
@@ -1008,7 +1008,7 @@ A smith that makes a lot of (refineried) items.
     
     Afterwards he wanted bones again..
     
-    Anyway, now i can consult the [Materials Tables](#org6718d38) and better versions
+    Anyway, now i can consult the [Materials Tables](#orgb8190b1) and better versions
     of his more sensible items. neat!
     
     -   Keeping these prototypes makes sense to me right now.
@@ -1019,7 +1019,7 @@ A smith that makes a lot of (refineried) items.
     -   I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 
 
-<a id="orga5ba773"></a>
+<a id="org7e368ca"></a>
 
 ## Classes
 
@@ -1027,7 +1027,7 @@ I forgot where i stole this :( The idea is that i'll integrate the class
 relevant bits from the release notes and insights gleaned on discord here.
 
 
-<a id="orgc30f79e"></a>
+<a id="org8feecb5"></a>
 
 ### Initial
 
@@ -1180,7 +1180,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 0
 
 
-<a id="org597bfa9"></a>
+<a id="orgb35d07e"></a>
 
 ### 500+
 
@@ -1216,7 +1216,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 500
 
 
-<a id="org79c37cf"></a>
+<a id="orge5fe193"></a>
 
 ### 1000+
 
@@ -1270,7 +1270,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 3,000
 
 
-<a id="orgc23ee8a"></a>
+<a id="org1a07f59"></a>
 
 ### 5000+
 
@@ -1542,7 +1542,7 @@ relevant bits from the release notes and insights gleaned on discord here.
             -   7 Water Arrows + 1 Rejuvenation (on weapon) + 2 Poison + 2 Burning + 2 Bleeding
 
 
-<a id="orgd992a52"></a>
+<a id="org276977e"></a>
 
 ### 10000+
 
@@ -1630,7 +1630,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 15,000
 
 
-<a id="org7c7b5ed"></a>
+<a id="org1da0ef1"></a>
 
 ### 20000+
 
@@ -1746,7 +1746,7 @@ relevant bits from the release notes and insights gleaned on discord here.
     Points required: 45,000
 
 
-<a id="org0add4b2"></a>
+<a id="org77d90aa"></a>
 
 ### 50000+
 
@@ -2068,13 +2068,13 @@ relevant bits from the release notes and insights gleaned on discord here.
         your next valid attack (as of 0.0.15.18b)
 
 
-<a id="org0ea0b61"></a>
+<a id="org10e279f"></a>
 
 ## Class Traits
 
 You have one unchangeable class trait. This is a list of them.
 
-Also see the info in the [Alpha15 release notes](#org3fb4e54) and remember to check [Faction](#orgf070e37)
+Also see the info in the [Alpha15 release notes](#orgbbc99c8) and remember to check [Faction](#org6cef899)
 Traits through the **/factions** (aka "**F**") window.
 
 -   There are 52 Classes with Unique Traits.
@@ -2086,7 +2086,7 @@ To Come:
 -   Another column with Unlock Cost instead of stats.
 
 
-<a id="org9c8e5e3"></a>
+<a id="org53a8808"></a>
 
 ### Class Traits by # Spells
 
@@ -2113,7 +2113,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Chef](#org6d28a01)</td>
+<td class="org-left">[Chef](#orgc54b395)</td>
 <td class="org-left">Gastromancy</td>
 <td class="org-right">5</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience</td>
@@ -2122,7 +2122,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Alchemist](#org8f6589a)</td>
+<td class="org-left">[Alchemist](#orgebbe551)</td>
 <td class="org-left">Potent Potioner</td>
 <td class="org-right">4</td>
 <td class="org-left">Good Insight, Avg+ Resilience, Avg- Finesse</td>
@@ -2131,7 +2131,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Adventurer](#orgccb8163)</td>
+<td class="org-left">[Adventurer](#orgda814e2)</td>
 <td class="org-left">Onward!</td>
 <td class="org-right">3</td>
 <td class="org-left">"Normal"</td>
@@ -2139,7 +2139,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Cat Whisperer](#org201542e)</td>
+<td class="org-left">[Cat Whisperer](#orgf1a7324)</td>
 <td class="org-left">Cat Person</td>
 <td class="org-right">3</td>
 <td class="org-left">Avg- Health, Good Finesse, Avg+ Resilience, Avg- Charm</td>
@@ -2147,7 +2147,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Commander](#org63fc128)</td>
+<td class="org-left">[Commander](#org31f9637)</td>
 <td class="org-left">Galvanizer</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity</td>
@@ -2155,7 +2155,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Earth Zealot](#org7f5f53c)</td>
+<td class="org-left">[Earth Zealot](#org6f698f0)</td>
 <td class="org-left">Magnetic Slide</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Charisma, Avg- Strength</td>
@@ -2163,7 +2163,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Equestrian](#org1e8bddb)</td>
+<td class="org-left">[Equestrian](#org14f5942)</td>
 <td class="org-left">Brawler</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -2171,7 +2171,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Fortune Teller](#org49d7bb9)</td>
+<td class="org-left">[Fortune Teller](#org0637397)</td>
 <td class="org-left">Foresight</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Charisma, Avg- Constitution</td>
@@ -2179,7 +2179,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Haberdasher](#orgcf7e12d)</td>
+<td class="org-left">[Haberdasher](#org4072662)</td>
 <td class="org-left">Hats on to Me</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Charisma, Avg+ Intelligence, Avg- Strength</td>
@@ -2187,7 +2187,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Jester](#orgd70e1cd)</td>
+<td class="org-left">[Jester](#org5bf2204)</td>
 <td class="org-left">Comedic Balance</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Intelligence</td>
@@ -2195,7 +2195,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Merchant](#org18452a5)</td>
+<td class="org-left">[Merchant](#orge9d7ffe)</td>
 <td class="org-left">Rags to Riches</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity</td>
@@ -2203,7 +2203,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Plague Doctor](#org795a0da)</td>
+<td class="org-left">[Plague Doctor](#org1bfad7e)</td>
 <td class="org-left">Epidemic</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Wisdom, Avg+ Strength, Avg- Strength</td>
@@ -2211,7 +2211,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Politician](#orgba8627a)</td>
+<td class="org-left">[Politician](#org19e71c8)</td>
 <td class="org-left">Polarize</td>
 <td class="org-right">3</td>
 <td class="org-left">High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom</td>
@@ -2219,7 +2219,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Scholar](#orgd6f3cb2)</td>
+<td class="org-left">[Scholar](#orgb008981)</td>
 <td class="org-left">Gift of Knowledge</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength</td>
@@ -2227,7 +2227,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Scoundrel](#orgaa5f23d)</td>
+<td class="org-left">[Scoundrel](#org6a63d7a)</td>
 <td class="org-left">Devious Plot</td>
 <td class="org-right">3</td>
 <td class="org-left">Good Intelligence, Avg+ Charisma, Avg- Constitution</td>
@@ -2235,7 +2235,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Spellthief](#org4dabf94)</td>
+<td class="org-left">[Spellthief](#org62d8186)</td>
 <td class="org-left">Intellectual Forgery</td>
 <td class="org-right">3</td>
 <td class="org-left">Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength</td>
@@ -2243,7 +2243,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Witch](#orgb1bd918)</td>
+<td class="org-left">[Witch](#org8a23b5f)</td>
 <td class="org-left">Wicked Form</td>
 <td class="org-right">3</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength</td>
@@ -2252,7 +2252,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Beekeeper](#org5237560)</td>
+<td class="org-left">[Beekeeper](#orgcfd4abe)</td>
 <td class="org-left">Ancient Resistance</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Resilience, Avg+ Insight, Avg- Strength</td>
@@ -2260,7 +2260,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Bloodweaver](#org41cdf06)</td>
+<td class="org-left">[Bloodweaver](#orgb342f05)</td>
 <td class="org-left">Blood Pact</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience</td>
@@ -2268,7 +2268,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Bodybuilder](#orge40cbae)</td>
+<td class="org-left">[Bodybuilder](#org4436da8)</td>
 <td class="org-left">Solar Flexus</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Charm, Avg+ Strength, Avg- Insight</td>
@@ -2276,7 +2276,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Botanist](#org4c8a103)</td>
+<td class="org-left">[Botanist](#org5bf6877)</td>
 <td class="org-left">Familiar Phytology</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Insight, Avg+ Strength, Avg- Resilience</td>
@@ -2284,7 +2284,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Demon Slayer](#orgbfa7706)</td>
+<td class="org-left">[Demon Slayer](#org970b0c8)</td>
 <td class="org-left">Know Thy Foe</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Wisdom, Avg+ Strength, Avg- Charisma</td>
@@ -2292,7 +2292,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Dervish](#org5dc3f47)</td>
+<td class="org-left">[Dervish](#org848ef29)</td>
 <td class="org-left">Dangerous Dance</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Strength, Avg- Intelligence</td>
@@ -2300,7 +2300,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Duelist](#orgbfab426)</td>
+<td class="org-left">[Duelist](#orgccd4145)</td>
 <td class="org-left">En Garde</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -2308,7 +2308,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Elemancer](#org6ce0790)</td>
+<td class="org-left">[Elemancer](#orgd5f92fa)</td>
 <td class="org-left">Arcane Prodigy</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Wisdom, Avg- Dexterity</td>
@@ -2316,7 +2316,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Executioner](#orgc24afa5)</td>
+<td class="org-left">[Executioner](#orgae85b8c)</td>
 <td class="org-left">Soothslayer</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Strength, Avg+ Constitution, Avg- Dexterity</td>
@@ -2324,7 +2324,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Fishmonger](#org88495af)</td>
+<td class="org-left">[Fishmonger](#org2813ccd)</td>
 <td class="org-left">Aquatic Inquisitor</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Wisdom, Avg+ Intelligence, Avg- Dexterity</td>
@@ -2332,7 +2332,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gambler](#org3e76439)</td>
+<td class="org-left">[Gambler](#orgb926c5b)</td>
 <td class="org-left">Luck of the Draw</td>
 <td class="org-right">2</td>
 <td class="org-left">High Health, Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -2340,7 +2340,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gamestalker](#org9c85dc0)</td>
+<td class="org-left">[Gamestalker](#org473adbb)</td>
 <td class="org-left">Hawkeye</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Strength, Avg- Charisma</td>
@@ -2348,7 +2348,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gatekeeper](#org1d2a63a)</td>
+<td class="org-left">[Gatekeeper](#org5e671c0)</td>
 <td class="org-left">Besiegement</td>
 <td class="org-right">2</td>
 <td class="org-left">High Health, Good Constitution, Avg+ Intelligence, Avg- Charisma</td>
@@ -2356,7 +2356,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Gunslinger](#orgbd71f09)</td>
+<td class="org-left">[Gunslinger](#orgc7f4c9e)</td>
 <td class="org-left">Taegunsho</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Intelligence, Avg- Wisdom</td>
@@ -2364,7 +2364,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Homesteader](#org22c0768)</td>
+<td class="org-left">[Homesteader](#org1d8afb2)</td>
 <td class="org-left">Sunriser</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Constitution, Avg+ Strength, Avg- Charisma</td>
@@ -2372,7 +2372,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Illusionist](#orgd4c6d94)</td>
+<td class="org-left">[Illusionist](#org5256488)</td>
 <td class="org-left">Now You See Me</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Charisma, Avg+ Dexterity, Avg- Strength</td>
@@ -2380,7 +2380,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Juggernaut](#org89065aa)</td>
+<td class="org-left">[Juggernaut](#orge996fb6)</td>
 <td class="org-left">Unstoppable</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Constitution, Avg+ Dexterity, Avg- Intelligence</td>
@@ -2388,7 +2388,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Kensai](#org84b1457)</td>
+<td class="org-left">[Kensai](#orge34b446)</td>
 <td class="org-left">Samurai Showdown</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Dexterity, Avg+ Wisdom, Avg- Intelligence</td>
@@ -2396,7 +2396,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Kung Fu Master](#org50b2971)</td>
+<td class="org-left">[Kung Fu Master](#orgfc46390)</td>
 <td class="org-left">Fluid Movement</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg- Health, Good Dexterity, Avg+ Strength, Avg- Constitution</td>
@@ -2404,7 +2404,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Mad Scientist](#org25c1cc6)</td>
+<td class="org-left">[Mad Scientist](#org8b344e3)</td>
 <td class="org-left">Gone Too Far</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Intelligence, Avg+ Charisma, Avg- Wisdom</td>
@@ -2412,7 +2412,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Pit Fighter](#org2bf1d8b)</td>
+<td class="org-left">[Pit Fighter](#org0a3b927)</td>
 <td class="org-left">Brawler</td>
 <td class="org-right">2</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Strength, Avg- Intelligence</td>
@@ -2420,7 +2420,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Ragamuffin](#org4e182fc)</td>
+<td class="org-left">[Ragamuffin](#org3332a8f)</td>
 <td class="org-left">Sticky Fingers</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -2428,7 +2428,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Reaper](#org98ea2b0)</td>
+<td class="org-left">[Reaper](#orge7a6c62)</td>
 <td class="org-left">Last Harvest</td>
 <td class="org-right">2</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Wisdom, Avg- Strength</td>
@@ -2436,7 +2436,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Wildheart](#org6609061)</td>
+<td class="org-left">[Wildheart](#orgd505894)</td>
 <td class="org-left">Killer Instincts</td>
 <td class="org-right">2</td>
 <td class="org-left">Good Wisdom, Avg+ Dexterity, Avg- Intelligence</td>
@@ -2445,7 +2445,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Engineer](#orgf6f399d)</td>
+<td class="org-left">[Engineer](#orga1a493e)</td>
 <td class="org-left">Fixer Upper</td>
 <td class="org-right">1</td>
 <td class="org-left">Good Intelligence, Avg+ Dexterity, Avg- Charisma</td>
@@ -2453,7 +2453,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Potter](#org58dacb3)</td>
+<td class="org-left">[Potter](#orga1bb157)</td>
 <td class="org-left">Earthen Bond</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Constitution, Avg+ Strength, Avg- Dexterity</td>
@@ -2461,7 +2461,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Pugilist](#org2567927)</td>
+<td class="org-left">[Pugilist](#org2b5ff45)</td>
 <td class="org-left">The Greatest</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Strength, Avg+ Dexterity, Avg- Wisdom</td>
@@ -2469,7 +2469,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Rift Dancer](#org48ccd70)</td>
+<td class="org-left">[Rift Dancer](#org8bb71d1)</td>
 <td class="org-left">Astral Calling</td>
 <td class="org-right">1</td>
 <td class="org-left">Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution</td>
@@ -2477,7 +2477,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Soldier](#orged2f870)</td>
+<td class="org-left">[Soldier](#org2c9c278)</td>
 <td class="org-left">Dogged March</td>
 <td class="org-right">1</td>
 <td class="org-left">High Health, Good Strength, Avg+ Constitution, Avg- Wisdom</td>
@@ -2485,7 +2485,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Viking](#org6f8308d)</td>
+<td class="org-left">[Viking](#orgc5498c4)</td>
 <td class="org-left">Thunderous Resilience</td>
 <td class="org-right">1</td>
 <td class="org-left">Good Strength, Avg+ Constitution, Avg- Intelligence</td>
@@ -2493,7 +2493,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Wrestler](#org9c4f434)</td>
+<td class="org-left">[Wrestler](#orge68d9d1)</td>
 <td class="org-left">Muscle Spirit</td>
 <td class="org-right">1</td>
 <td class="org-left">Avg+ Health, Good Strength, Avg+ Charisma, Avg- Intelligence</td>
@@ -2502,7 +2502,7 @@ To Come:
 
 <tbody>
 <tr>
-<td class="org-left">[Artificer](#orge858478)</td>
+<td class="org-left">[Artificer](#org8a8107f)</td>
 <td class="org-left">Spellgrafting</td>
 <td class="org-right">None</td>
 <td class="org-left">Good Resilience, Avg+ Insight, Avg- Strength</td>
@@ -2510,7 +2510,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Rhapsodist](#org202d4c5)</td>
+<td class="org-left">[Rhapsodist](#org32ee7cd)</td>
 <td class="org-left">Captivating Crescendo</td>
 <td class="org-right">None</td>
 <td class="org-left">Avg+ Health, Good Charisma, Avg+ Wisdom, Avg- Constitution</td>
@@ -2518,7 +2518,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Tourist](#org498b6a7)</td>
+<td class="org-left">[Tourist](#org46e2e3a)</td>
 <td class="org-left">Sightseer</td>
 <td class="org-right">None</td>
 <td class="org-left">Low Health</td>
@@ -2526,7 +2526,7 @@ To Come:
 
 
 <tr>
-<td class="org-left">[Unemployed](#org0485179)</td>
+<td class="org-left">[Unemployed](#org804b5c8)</td>
 <td class="org-left">Boundless Potential</td>
 <td class="org-right">None</td>
 <td class="org-left">"Normal"</td>
@@ -2535,7 +2535,7 @@ To Come:
 </table>
 
 
-<a id="org5ae6f7f"></a>
+<a id="org7a03f2c"></a>
 
 ### Key:
 
@@ -2562,7 +2562,7 @@ To Come:
 </table>
 
 
-<a id="orgb66eadb"></a>
+<a id="orgda8524e"></a>
 
 ## Damage Types
 
@@ -2575,7 +2575,7 @@ Magical attacks are countered by your elemental attunement which is enhanced by
 your Insight? and a shield spell. Did I get that right?
 
 
-<a id="orgb234bc9"></a>
+<a id="orge06f4e2"></a>
 
 ### Physical
 
@@ -2596,7 +2596,7 @@ healing spell work ever so much better for you &#x2013; and of course weaken you
 foe's water/healing attunement as well.
 
 
-<a id="org7c0ed5b"></a>
+<a id="org5df4971"></a>
 
 ### Magical
 
@@ -2608,7 +2608,7 @@ if you use an arcane shield or other rare arcane infused elements you do more
 damage and resist arcane spells
 
 
-<a id="org8dab882"></a>
+<a id="org343641e"></a>
 
 ### Elemental
 
@@ -2790,12 +2790,12 @@ The exact word used might vary between the spells and gear, for example:
 -   i copied the spreadsheet, completed with the aid of the good people on discord.
 
 
-<a id="orgfc59cfd"></a>
+<a id="orgcefe4f6"></a>
 
 ## Equipment
 
 
-<a id="orgd8fdcb9"></a>
+<a id="org9d0a369"></a>
 
 ### Armor
 
@@ -3371,7 +3371,7 @@ Accessories:
 -   Any Weapon can be worn as an accessory for some powerful stat boosts!
 
 
-<a id="org6a22e33"></a>
+<a id="org199f756"></a>
 
 ### Shields
 
@@ -3434,7 +3434,7 @@ Accessories:
 -   Shields do blunt-damage and there's nothing wrong with holding two of them.
 
 
-<a id="org043bd95"></a>
+<a id="org1c2e506"></a>
 
 ### Containers
 
@@ -3550,7 +3550,7 @@ Accessories:
     into simply equipping my new merc first.
 
 
-<a id="orgd1bda37"></a>
+<a id="orgfcd9556"></a>
 
 ### Curios
 
@@ -3702,7 +3702,7 @@ craftable once you've discovered or obtained their recipes.
     </table>
 
 
-<a id="orgf838969"></a>
+<a id="orga8b776e"></a>
 
 ### Furniture
 
@@ -3738,7 +3738,7 @@ into a sensible homesteader's base eludes me still!
 and what about Cages? do they have a use?
 
 
-<a id="orgc011da2"></a>
+<a id="org7b77ed1"></a>
 
 ### Lights
 
@@ -3780,7 +3780,7 @@ and what about Cages? do they have a use?
 </table>
 
 
-<a id="orgd5ebeb9"></a>
+<a id="org13c6cbf"></a>
 
 ### Musical Instruments
 
@@ -3799,7 +3799,7 @@ demand that an unopened stables in a good location be made into an orchestra pit
 -   Forgot to note their sizes.
 
 
-<a id="orgeaa3490"></a>
+<a id="orga273329"></a>
 
 ### Other
 
@@ -3844,7 +3844,7 @@ Beaks and claws and..
 -   Unusable Rings, Earrings, Glasses, Monocles..
 
 
-<a id="org350561b"></a>
+<a id="org85d70ce"></a>
 
 ### Utensils
 
@@ -3858,7 +3858,7 @@ Inkwells,
 Jars still in the game?
 
 
-<a id="orge5092c9"></a>
+<a id="org40b45b8"></a>
 
 ### Qualities
 
@@ -3884,7 +3884,7 @@ Jars still in the game?
 <tr>
 <td class="org-left">Pedestrian</td>
 <td class="org-left">1x</td>
-<td class="org-left">Normal [Material](#org6718d38) Boni</td>
+<td class="org-left">Normal [Material](#orgb8190b1) Boni</td>
 </tr>
 
 
@@ -3925,12 +3925,12 @@ Jars still in the game?
 </table>
 
 
-<a id="org6b64a30"></a>
+<a id="org0fe9480"></a>
 
 ### Repairing
 
 
-<a id="orgf070e37"></a>
+<a id="org6cef899"></a>
 
 ## Factions
 
@@ -4015,7 +4015,7 @@ See the **/factions** (aka "**F**") window for a list of Traits and the rank req
 -   Fortresses are ok, just not castles
 
 
-<a id="org3c8d41e"></a>
+<a id="orgeea8034"></a>
 
 ### Jade circle: Social/stealth
 
@@ -4023,7 +4023,7 @@ Is a really good faction for stealthy characters
 (has one of the best traits for spellcasters)
 
 
-<a id="org744bc65"></a>
+<a id="orgcd822ac"></a>
 
 ### Will of the wild: Resource gathering/crafting/exploration
 
@@ -4035,7 +4035,7 @@ Traits will give you options in crafting such as:
 -   Increases materials gathered from foraging skills
 
 
-<a id="orgdebb212"></a>
+<a id="org7b81959"></a>
 
 ### Radiant hand: Combat/Tanking/buffs and debuffs
 
@@ -4044,7 +4044,7 @@ Focusing on Strength? go for the hand!
 The three first radiant hand traits give you DR against piercing, slashing or bludgeoning damage
 
 
-<a id="orgc2c5099"></a>
+<a id="org9282306"></a>
 
 ## Factions Traits
 
@@ -4062,11 +4062,11 @@ trait, you have two minor trait slots and one major trait slot you get to pickup
 and repeatedly change out through study and with the help of your Faction.
 
 > On your labyrinthine journeys you're likely to find Manuals that bestow Traits
-> upon you. Thus there's no need to rush headlong into alliances with [Factions](#orgf070e37)
+> upon you. Thus there's no need to rush headlong into alliances with [Factions](#org6cef899)
 > who's ultimate intentions you can't ever be sure about anyway.
 
 
-<a id="orgf89cc6c"></a>
+<a id="orgb829421"></a>
 
 ### Trait Manuals
 
@@ -4076,7 +4076,7 @@ I suppose the higher ranked manuals are less frequent.
 -   Finding/Grinding Labyrinths
 
 
-<a id="org9bb1a57"></a>
+<a id="org447595d"></a>
 
 ## Food
 
@@ -4087,14 +4087,14 @@ I suppose the higher ranked manuals are less frequent.
 -   Buffs from food **replace** each other.
 -   mixtures, dishes and booze can drop from mobs and crates.
 
-[Alchemist](#org8f6589a)'s **Mixtures** provide higher stat bonuses for fewer ingredients and can
+[Alchemist](#orgebbe551)'s **Mixtures** provide higher stat bonuses for fewer ingredients and can
 be consumed much faster. Throwing Mixtures at enemies will lower the relevant
 stats, and throwing Mixtures at other entities will raise the relevant stats.
 
-[Botanists](#org4c8a103) can do all sorts of magic by feeding their babies just about anything.
+[Botanists](#org5bf6877) can do all sorts of magic by feeding their babies just about anything.
 Their babies evolve when they feed them. Your pets wont.
 
-[Chef](#org6d28a01)'s **Dishes** provide stat bonuses for four times the duration of Meals, and
+[Chef](#orgc54b395)'s **Dishes** provide stat bonuses for four times the duration of Meals, and
 grant an effect which fixes the eater's mood to max for an extended period.
 
 Eating and drinking (**/eat**, **/drink**) take time. **Water** and **Mixtures**
@@ -4181,14 +4181,14 @@ Whats missing?
 </tbody>
 </table>
 
--   Don't forget there are 6 more prefixes used with [Elemental Buffs](#org14c2cd3)!
+-   Don't forget there are 6 more prefixes used with [Elemental Buffs](#org71dde6b)!
 
 -   also, anything with Fishbones produce (always?) inedible Questionable outcomes.
 
 -   Testing indicates that you get the same amount of health, ~10% from eating cooked items.
 
 
-<a id="org4b34492"></a>
+<a id="orgfbb7f3e"></a>
 
 ### Cooking
 
@@ -4199,8 +4199,8 @@ themselves and their allies.
 The real freaks produce foods with a different prefix and an **extra +** on the
 buffs:
 
--   [Alchemists](#org8f6589a) produce liquid **Mixtures** instead of **Meals** when cooking.
--   [Chefs](#org6d28a01) produce **Dishes** instead of **Meals** when cooking.
+-   [Alchemists](#orgebbe551) produce liquid **Mixtures** instead of **Meals** when cooking.
+-   [Chefs](#orgc54b395) produce **Dishes** instead of **Meals** when cooking.
 
 Cook sites:
 
@@ -4216,7 +4216,7 @@ Cook sites:
     -   failed to get the recipe.
 
 
-<a id="org62c56fb"></a>
+<a id="org3545948"></a>
 
 ### Drinks
 
@@ -4261,7 +4261,7 @@ Cook sites:
     Makes total sense to me.
 
 
-<a id="org9544c7a"></a>
+<a id="orgc88eeb9"></a>
 
 ### Solid Foods
 
@@ -4448,7 +4448,7 @@ Cook sites:
     [Hemp](https://en.wikipedia.com/wiki/Hemp) produce **xx Meals**.
 
 
-<a id="orgc06cbed"></a>
+<a id="org604c963"></a>
 
 ### Specialty Foods
 
@@ -4537,7 +4537,7 @@ Don't forget the wood lest you wind up wanting to cook in the middle of a desert
 </table>
 
 
-<a id="org14c2cd3"></a>
+<a id="org71dde6b"></a>
 
 ### When Elementally Flamed (++)
 
@@ -4601,16 +4601,16 @@ By the power of magic..
 </table>
 
 When you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [Elemental Combos](#org8dab882) applied to your Meals, with the last infused element
+used for [Elemental Combos](#org343641e) applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 
 
-<a id="org06e50d4"></a>
+<a id="org25b9876"></a>
 
 ## Locations
 
 
-<a id="org886aed2"></a>
+<a id="org15d7e22"></a>
 
 ### Location List
 
@@ -4648,7 +4648,7 @@ surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
 
 
-<a id="org9b2d4c9"></a>
+<a id="orgee34042"></a>
 
 ### Encounters
 
@@ -4684,11 +4684,11 @@ while getting shot at if you tolerate these untamable collaborators!
     -   Upgrades for spells you've learned.
     -   Costs the same as if you had unlocked an Obelisk in your settlement!
     -   The cheapest and most thrilling way to upgrade your spells is to hunt for
-        [ruinous ruins](#orgff8c3c1) since you'll always? find an obelisk shard among the loot there.
+        [ruinous ruins](#org7010949) since you'll always? find an obelisk shard among the loot there.
         A shards is just large enough power a single upgrades so perhaps save it for
         the last upgrade or two to save 20 or 35 shard, paying for it with the risk
         you're taking on. Just be clear about what you're getting into and read the
-        notes for the [Location List](#org886aed2) to tweak the ruin's [Difficulty](#orgf8e2325).
+        notes for the [Location List](#org15d7e22) to tweak the ruin's [Difficulty](#orgf0b2945).
 
 4.  The Burning House
 
@@ -4777,7 +4777,7 @@ while getting shot at if you tolerate these untamable collaborators!
 
 11. Labyrinth
 
-    Dont go exploring them in the dead of night without a [light](#orgc011da2)!
+    Dont go exploring them in the dead of night without a [light](#org7b77ed1)!
     
     Safe and super high rewards and likely to confuse the hell out out of you for
     longer than you might have patience for. Be prepared for {Masterwork} items and
@@ -4849,7 +4849,7 @@ while getting shot at if you tolerate these untamable collaborators!
     casters coming after you here.
     
     -   stealth-clustered magic attackers and friends all appear to use the same element!
-    -   bring some [elemental foods](#org14c2cd3) for yourself and your team, and of course a beverage!
+    -   bring some [elemental foods](#org71dde6b) for yourself and your team, and of course a beverage!
     -   getting the Big Chest from the local mini boss doesnt mean you're safe!
     -   move to the edge if dashing to the next blg will leave you exhausted!
     -   use stealth, enter, drop building, move to cover!
@@ -4968,7 +4968,7 @@ while getting shot at if you tolerate these untamable collaborators!
     -   the others..
 
 
-<a id="org1db206a"></a>
+<a id="orgf055a80"></a>
 
 ### Locations
 
@@ -5033,7 +5033,7 @@ while getting shot at if you tolerate these untamable collaborators!
     -   these let you upgrade a (refined) and <artisan>'d item once more.
 
 
-<a id="org7343aaf"></a>
+<a id="orgf9edf6a"></a>
 
 ### Just plain cool
 
@@ -5062,14 +5062,14 @@ Random things and places one might never see again..
     connected to that society of researchers only elders seem to know about?
 
 
-<a id="org6718d38"></a>
+<a id="orgb8190b1"></a>
 
 ## Materials
 
 Trying to pack all the info and stats about the things you craft with in here.
 
 
-<a id="org47b6245"></a>
+<a id="org581dbcc"></a>
 
 ### Wiki preamble
 
@@ -5101,7 +5101,7 @@ between +7 and +10, etc.)
 -   Pug: Crafting appears to take 100 (105?) moments. fwiw.
 
 
-<a id="orgcdc2160"></a>
+<a id="orga8c5eb6"></a>
 
 ### Everyday materials
 
@@ -5186,7 +5186,7 @@ Useful **Very common** Materials without effects on your stats.
 </table>
 
 
-<a id="org991f687"></a>
+<a id="orgeb44a03"></a>
 
 ### Natural Resources
 
@@ -5467,7 +5467,7 @@ Useful **Very common** Materials without effects on your stats.
 </table>
 
 
-<a id="org5330819"></a>
+<a id="orga47f190"></a>
 
 ### Cloths and Furs
 
@@ -5659,7 +5659,7 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 </table>
 
 
-<a id="org2cb2596"></a>
+<a id="orgd8af424"></a>
 
 ## NPC's
 
@@ -5670,7 +5670,7 @@ bit of storytelling keeps the fantasy alive and prevents play from becoming a
 grind.
 
 
-<a id="orga06c3d6"></a>
+<a id="org8da0b2a"></a>
 
 ### Dummy
 
@@ -5681,10 +5681,10 @@ small differences between weapons and styles that don't show up when you look at
 only item stats.
 
 That experiment might be quite a geeky thing, but we should have a table here to
-demonstrate the power hiding in different [Skill Brackets](#org115ab9f).
+demonstrate the power hiding in different [Skill Brackets](#org0fc25de).
 
 
-<a id="orga960f76"></a>
+<a id="org5128a43"></a>
 
 ### Elder
 
@@ -5692,7 +5692,7 @@ The real power in fara; Colludes with the Researchers and likely with that hosti
 figure that saved your life when your memories first began.
 
 
-<a id="org178601f"></a>
+<a id="orgd7fab49"></a>
 
 ### Nobles
 
@@ -5701,7 +5701,7 @@ the realm is nowhere near to that of the Elders. Not much is known about the
 transformation of Nobles to Elders, nor do all that many survive into old age.
 
 
-<a id="orgda4559b"></a>
+<a id="org413b9fd"></a>
 
 ### Riddler
 
@@ -5709,7 +5709,7 @@ Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
 
 
-<a id="org2d4de84"></a>
+<a id="org0ea812e"></a>
 
 ### Guards
 
@@ -5718,14 +5718,14 @@ involved in a fight because he will end your game by kicking you out of 'his' wo
 permanently.
 
 
-<a id="orgb3350db"></a>
+<a id="orgdddc50c"></a>
 
 ### Townies
 
 See Desperate Times. 
 
 
-<a id="org220775d"></a>
+<a id="org8346606"></a>
 
 ### Escortees
 
@@ -5736,7 +5736,7 @@ as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
 
 
-<a id="org53a30c6"></a>
+<a id="orgd8618a5"></a>
 
 ### Champions
 
@@ -5744,7 +5744,7 @@ Challenge them once you're past the "Age of Steel", even then you might regret i
 Remember they are Faction Leaders.
 
 
-<a id="org72911a0"></a>
+<a id="org60e0c00"></a>
 
 ### Smuggler
 
@@ -5763,14 +5763,14 @@ rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
 
 
-<a id="orgb5b1286"></a>
+<a id="orgd29386e"></a>
 
 ### Trader
 
 A bug was fixed. TBD.
 
 
-<a id="org4970cad"></a>
+<a id="orgc2306c3"></a>
 
 ### Thief
 
@@ -5814,7 +5814,7 @@ strip down naked and rest without fear since thieves don't seem to care about th
 stash you're resting on.
 
 
-<a id="orge0ed588"></a>
+<a id="org07c79f1"></a>
 
 ## Party
 
@@ -5825,16 +5825,16 @@ stash you're resting on.
     -   Musical instruments much bigger than yourself can be held 
         to cheer up your party. It may be how how you look, or that you used **/play**.
 -   Dancing is also a mood-booster. In some locations it winds up killing
-    otherwise friendly NPC's who arn't [Fishmongers](#org88495af). You'll know it when you see it.
+    otherwise friendly NPC's who arn't [Fishmongers](#org2813ccd). You'll know it when you see it.
     -   Your stamina will return when you leave the map after dancing - but not that
         of your party member. Wait an hour "**>**" to let them catch their breath!
 -   Escort quests' escortees don't count against your party-size-limit.
 -   I like travelling alone in other games, in FARA i dont - yet.
--   [Talk](#org38342d5) to your pals to chat and control how they contribute in combat; at least
+-   [Talk](#org507844d) to your pals to chat and control how they contribute in combat; at least
     a little bit.
 
 
-<a id="org7a9042d"></a>
+<a id="org9dce46d"></a>
 
 ### Pets
 
@@ -5853,7 +5853,7 @@ to rejoin you later you'll wish you had already dropped some food to bribe them
 with right where you left them!
 
 
-<a id="orgeef7b66"></a>
+<a id="org9568843"></a>
 
 ### Mounts
 
@@ -5862,7 +5862,7 @@ with right where you left them!
     overnight!?
 
 
-<a id="org70cdd14"></a>
+<a id="orgf4f6ea0"></a>
 
 ## Quests
 
@@ -5876,7 +5876,7 @@ Here are some really dumb observations about quests:
 There are more types tied to specific locations. I need to add more info here.
 
 
-<a id="org3128921"></a>
+<a id="org41c947a"></a>
 
 ### Beastslayer you!
 
@@ -5891,7 +5891,7 @@ See, I saw you pondering. Yep, that's why you couldn't find that monster the
 other day. Now be careful reading the tracks!
 
 
-<a id="org9a46843"></a>
+<a id="org8c31390"></a>
 
 ### Desperate Times
 
@@ -5901,7 +5901,7 @@ for things you've never seen.
 
 Needy as they are, they want foods that noone in their right mind would care to
 eat, Weapons and other items you have never heard of. And they send you to
-[unknown places](#org9e7ce6b) too. Always they have needs in places you've never been, make you
+[unknown places](#orga04adc4) too. Always they have needs in places you've never been, make you
 deliver the weirdest trinkets or their odd selves to hard to find people
 and places. The heirlooms from their illustrious ancestors, those medals,
 just like their inane request never seem to run out.
@@ -5919,7 +5919,7 @@ Ok, at least sometimes they had no idea they were paying waay too much for your
 services.
 
 
-<a id="orgbc3a557"></a>
+<a id="org18e235d"></a>
 
 ### Escort Quests
 
@@ -5939,7 +5939,7 @@ services.
     -   atm the wh crucible seems like a good place to keep those.
 
 
-<a id="org0124cd7"></a>
+<a id="org3ef19f9"></a>
 
 ### Missing Kid Quests
 
@@ -5952,7 +5952,7 @@ you have to find them in 15 minutes or so. Totally Bogus! aaaargh.
 Yet again you need to build a shelter. And you need search. At least without
 either I've not found a single kid yet. Then you need to rest until morning so
 you don't need to make light to find them again whence back in town and they
-start playing their games. For that you need to have [local waypoints](#orge65d051) by which to
+start playing their games. For that you need to have [local waypoints](#org14942a8) by which to
 move yourself through the settlement without going nuts. Do you have those?
 
 And then you learn about how to make Burlap Dolls. Or perhaps they have that
@@ -5966,7 +5966,7 @@ being of attracting attention and just run around the location and **/shout come
 here**? Probably.
 
 
-<a id="orgd652245"></a>
+<a id="orgba41e10"></a>
 
 ### Suicide Quests
 
@@ -5984,14 +5984,14 @@ Wait with the scary quests until you have legendary stats and artisan equipment,
 or something close to that. Or wait until you are already thriving at a place
 even further from Relica than where you first got the suicide invitations.
 
-If you rush yourself, [you'll die](#orgeaa6fc2). Farawella!
+If you rush yourself, [you'll die](#orgf51fc82). Farawella!
 
 
-<a id="org37cf969"></a>
+<a id="org37222d8"></a>
 
 ## Runes
 
-The section on [Spells](#org918c566) explains how to think about and create them from the Runes
+The section on [Spells](#orgb1ea68c) explains how to think about and create them from the Runes
 listed and detailed here.
 
 I dug, fished and purchased a lot of runes in order to compile these lists and
@@ -6000,7 +6000,7 @@ sortable in the way of the wiki, this should be your goto-reference for
 [Spellcrafting](https://fara.fandom.com/wiki/Spellcrafting).
 
 
-<a id="orgf5ef561"></a>
+<a id="org9adf2ae"></a>
 
 ### Effector Runes
 
@@ -6124,35 +6124,35 @@ If you are burning, and don't have that spell, stop, drop and /roll.
     
     <tbody>
     <tr>
-    <td class="org-left">[Charisma](#orga2a0c22)</td>
+    <td class="org-left">[Charisma](#orgc590b69)</td>
     <td class="org-left">Charm</td>
     <td class="org-left">Uglyness</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Finesse](#org86ad415), dash distance</td>
+    <td class="org-left">[Finesse](#org513bfee), dash distance</td>
     <td class="org-left">Quickness</td>
     <td class="org-left">Slowness</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Insight](#org4712677)</td>
+    <td class="org-left">[Insight](#org03740cc)</td>
     <td class="org-left">Enlightenment</td>
     <td class="org-left">Stupidity</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Resilience](#orgad73341)</td>
+    <td class="org-left">[Resilience](#org6b29514)</td>
     <td class="org-left">Fortification</td>
     <td class="org-left">Vulnerability</td>
     </tr>
     
     
     <tr>
-    <td class="org-left">[Strength](#orga908f49)</td>
+    <td class="org-left">[Strength](#org4fa76e5)</td>
     <td class="org-left">Rage</td>
     <td class="org-left">Weakness</td>
     </tr>
@@ -6179,7 +6179,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
     <tbody>
     <tr>
     <td class="org-left">Intoxication</td>
-    <td class="org-left">Lowers [Finesse](#org86ad415), Raise chance to Stumble</td>
+    <td class="org-left">Lowers [Finesse](#org513bfee), Raise chance to Stumble</td>
     </tr>
     </tbody>
     </table>
@@ -6192,7 +6192,7 @@ If you are burning, and don't have that spell, stop, drop and /roll.
             If you get rejuve on that, you're VERY good off
 
 
-<a id="orgcc54017"></a>
+<a id="org46f81cc"></a>
 
 ### Stabilizer Runes
 
@@ -6397,7 +6397,7 @@ Though correct, the Tye
     &#x2026;Except beam, meteor, and barrage spells
 
 
-<a id="orgefa122d"></a>
+<a id="org97eee6f"></a>
 
 ### Elemental Runes
 
@@ -6464,10 +6464,10 @@ would not.
 If you infuse 2 runes into your weapon the effects alternate, halving your
 healing potential.
 
-See [Damage Types](#orgb66eadb), Elemental, Attunement
+See [Damage Types](#orgda8524e), Elemental, Attunement
 
 
-<a id="orge5f74af"></a>
+<a id="org9ff1914"></a>
 
 ### Farming Runes
 
@@ -6504,8 +6504,8 @@ See [Damage Types](#orgb66eadb), Elemental, Attunement
 -   enhanced iron shovel and workbench in inventory
 -   should be possible once you get the tool recipes from the first other settlement you visit.
 -   oh, have a rope on you while getting used to digging, just in case you slip and fall.
--   must-read: [Degritone's Guide to 100k Points](#org6b4516b)
--   see also [If you're totally nuts, enhance your shovel](#org26783f4).
+-   must-read: [Degritone's Guide to 100k Points](#orgd165ef3)
+-   see also [If you're totally nuts, enhance your shovel](#org24055f4).
 
 1.  Dig and or Fish.. rather alike, no?
 
@@ -6697,7 +6697,7 @@ See [Damage Types](#orgb66eadb), Elemental, Attunement
     -   without notes and interruptions these numbers might take ~90mins?
 
 
-<a id="org115ab9f"></a>
+<a id="org0fc25de"></a>
 
 ## Skill Brackets
 
@@ -6882,13 +6882,13 @@ Not sure where that would fit in with legendary
 -   added the words, the guessing game continues.
 
 
-<a id="org918c566"></a>
+<a id="orgb1ea68c"></a>
 
 ## Spells
 
 (expert info is on the way)
 
--   See [Obelisk](#org0660e32) for Spell-levels and leveling
+-   See [Obelisk](#org2adddcf) for Spell-levels and leveling
 
 Basically, you
 
@@ -6927,11 +6927,11 @@ New:
     -   Two earth gave me a tome of earth shield, then an earth chain
 
 
-<a id="orgbaf4f0c"></a>
+<a id="org049b756"></a>
 
 ### Scrolls
 
-If I was an [Artificer](#orge858478) I might know something about them. But I'm not. At this
+If I was an [Artificer](#org8a8107f) I might know something about them. But I'm not. At this
 point I just just them into a waterproof container in the warehouse for use in
 Dungeons later on.
 
@@ -6940,7 +6940,7 @@ Doing that I've learned that there are scrolls that do and scrolls that teach.
 Here's what I know about these
 
 
-<a id="org9d18c30"></a>
+<a id="org42cd6ac"></a>
 
 ### Spell-tombs
 
@@ -6954,7 +6954,7 @@ nobles and the shaded figure who at least saved my life if he didn't outright
 summon me into this world..
 
 
-<a id="org07c35d6"></a>
+<a id="org9f11f0f"></a>
 
 ### You must have a healing spell
 
@@ -6984,7 +6984,7 @@ summon me into this world..
     beach. I will ;)
 
 
-<a id="org2b57c7d"></a>
+<a id="org59fd935"></a>
 
 ### Notes on Elemental Damage
 
@@ -7006,7 +7006,7 @@ takes about 4 hits to kill a combat dummy. If you have the Fury condition it
 takes only 3 hits
 
 
-<a id="org11d7c99"></a>
+<a id="orga7fc679"></a>
 
 ## Weaponry
 
@@ -7025,7 +7025,7 @@ Derived from [Mishaal's Compendium](https://docs.google.com/spreadsheets/d/1TK8x
     if you can fill in the details!
 
 
-<a id="org6bad9ea"></a>
+<a id="org114dbe9"></a>
 
 ### Melee
 
@@ -7580,7 +7580,7 @@ I suppose that all of these weapons can be thrown at opponents to damage them.
         -   Could this be the Pugilist's dream weapon?
 
 
-<a id="org5d769c7"></a>
+<a id="org34c8bfb"></a>
 
 ### Magical
 
@@ -7672,7 +7672,7 @@ I suppose that all of these weapons can be thrown at opponents to damage them.
 -   All Magical Weapons are based on Insight.
 
 
-<a id="org441a58a"></a>
+<a id="org45855b7"></a>
 
 ### Ranged
 
@@ -7903,7 +7903,7 @@ weapon - likely making quivers and bandoliers (which gave the speed boni)
 largely cosmetic/flair items. (I saw something about that. need to check!)
 
 
-<a id="orgd6b7c55"></a>
+<a id="org36ab7f4"></a>
 
 ### Astral
 
@@ -7911,14 +7911,14 @@ These exist. Noone will talk about them except to tell you that their bonuses
 are incredible. So go and complete the key to learn more about them!
 
 
-<a id="org809db15"></a>
+<a id="orgae66ec6"></a>
 
 # Pug's Notes
 
 Look, I wrote this!
 
 
-<a id="org4db3a95"></a>
+<a id="org1e339b7"></a>
 
 ## The Ages
 
@@ -7937,7 +7937,7 @@ your gear and how to enhance it properly lets you you advance advancing to
 somet like a later age.
 
 
-<a id="org095c6de"></a>
+<a id="org271f3e6"></a>
 
 ## The Magic
 
@@ -7953,7 +7953,7 @@ food and drink providing buffs, even a Commander Level Faction Trait to help
 resist the most devious of enemies!
 
 
-<a id="orge65d051"></a>
+<a id="org14942a8"></a>
 
 ## Trick out your map!
 
@@ -7971,7 +7971,7 @@ there are doors, pets, npc, or even the well along the path. Its not perfect yet
 but "**W**" is a huge help. Use **/slw** until it becomes a habit.
 
 
-<a id="orgf857074"></a>
+<a id="orgc723ff9"></a>
 
 ## Item Management
 
@@ -7988,7 +7988,7 @@ in Relica is again teaching me what I don't need or want, and how to deal with
 everything else. Here's the scoop on what works for me.
 
 
-<a id="org1af773d"></a>
+<a id="orge976d32"></a>
 
 ### InShelter
 
@@ -8233,7 +8233,7 @@ everything else. Here's the scoop on what works for me.
         brazier light is blocked by item piles (which sucks)
 
 
-<a id="org0ee99bf"></a>
+<a id="orga777dbb"></a>
 
 ### Warehousing
 
@@ -8291,7 +8291,7 @@ the whatever because especially among the items you find on trees, surprises awa
     -   Its kinda like the one with the milk :)
 
 
-<a id="org9e7ce6b"></a>
+<a id="orga04adc4"></a>
 
 ### In the Crucible
 
@@ -8393,7 +8393,7 @@ Once **/place** takes a count we'll all be able to do a whole lot more with that
 ingenious invention!
 
 
-<a id="org2ab2ed3"></a>
+<a id="org73986bc"></a>
 
 ### In General
 
@@ -8412,7 +8412,7 @@ As with backups of your computer, there are two kinds of people in the world,
 people who carry backups, and people who will.
 
 
-<a id="org3db4087"></a>
+<a id="orgf1c6bfa"></a>
 
 ## Moving out and on
 
@@ -8424,7 +8424,7 @@ You'll also enjoy having spare a workbench, a bed and the materials you need for
 the next house at the new locale's spawn already in the crucible.
 
 
-<a id="orgcd161dd"></a>
+<a id="orgb909172"></a>
 
 ## Upgrades
 
@@ -8448,7 +8448,7 @@ You can enhance the equipment of the proper type for your class which
 you will have discovered, equipped and understood by now, or ..
 
 
-<a id="org26783f4"></a>
+<a id="org24055f4"></a>
 
 ### If you're totally nuts, enhance you shovel.
 
@@ -8472,11 +8472,11 @@ I've heard that noone will mind if you dig up a graveyard from end to end dolled
 up in your finest charisma boosting gear either. But I'll let you try it first!
 Maybe after your next escort quest?
 
-Shovel or Fishing rod, what do i know. Plus I'm [dubious about iron](#orga2a0c22) as
-a [material](#org6718d38) for either!
+Shovel or Fishing rod, what do i know. Plus I'm [dubious about iron](#orgc590b69) as
+a [material](#orgb8190b1) for either!
 
 
-<a id="orgb0f7af5"></a>
+<a id="org00deec3"></a>
 
 ### Fishing
 
@@ -8498,7 +8498,7 @@ pressing "**f**" and "**z**", repairing the rod by right-clicking the workbench
 in between.
 
 
-<a id="orge6c8f71"></a>
+<a id="orgd45d03f"></a>
 
 ## Traveling
 
@@ -8513,16 +8513,16 @@ And hey, if "**X**" fails, it will have moved you to the action without you havi
 to look for it. This is really helpful if you cast a shield on yourself before
 doing do, esp. if your're traveling at night, yet again without a light.
 
-As you're travelling you'll find more info about [Skill Brackets](#org115ab9f). Please
+As you're travelling you'll find more info about [Skill Brackets](#org0fc25de). Please
 share.
 
 
-<a id="org5f33220"></a>
+<a id="org72d227d"></a>
 
 ## Exploring
 
 
-<a id="orga802b59"></a>
+<a id="orgff7cb49"></a>
 
 ### New Location?
 
@@ -8598,7 +8598,7 @@ that lets me have settlement hubs that are roughly a full day's travel from one
 another as I expand.
 
 
-<a id="org54b9dd8"></a>
+<a id="org102913d"></a>
 
 ### Your Stealth Potential
 
@@ -8607,10 +8607,15 @@ from Relica by steps and by fast-travel in order to determine and confirm for
 your self just how far away you can go before the safe-mode fast traveling or
 exhaustion stops you from going any further.
 
-Keep that distance in mind as you quest or explore.
+Keep that distance in mind as you quest or explore and be careful! Don't just
+try this using fast-travel to another settlement. You might drown yourself if
+you do! 
+
+For extra bonus see what stats might play a role in the completion of this
+mission.
 
 
-<a id="orgf8e2325"></a>
+<a id="orgf0b2945"></a>
 
 ## Difficulty
 
@@ -8630,11 +8635,11 @@ did in (what to me were) 'the nightmare versions' released some years ago.
 
 Combat in FARA can be freaky cool, and as long as you prioritize survival over
 your macho, you'll manage to escape and appreciate the insurance that having
-even a single gulp of [water](#orgd28af0d) with you for that one time where its quicker to
-drink and dash than it is to walk. But there's always [this](#orgad8d87a).
+even a single gulp of [water](#orgc23dc42) with you for that one time where its quicker to
+drink and dash than it is to walk. But there's always [this](#org36dae8d).
 
 
-<a id="org18d98d4"></a>
+<a id="orga8e0257"></a>
 
 ## Finding things in daylight vision
 
@@ -8645,7 +8650,7 @@ Thus if you're looking for flowers or lost items you can move in paralell lines
 11 spaces apart, that means there are 10 spaces between your lines.
 
 
-<a id="orgf286cac"></a>
+<a id="org9784462"></a>
 
 ### example in town:
 
@@ -8684,7 +8689,7 @@ Thus if you're looking for flowers or lost items you can move in paralell lines
     everything. (you can can optimize that a bit, but this is good enough.)
 
 
-<a id="orgfab081f"></a>
+<a id="org4bd07fb"></a>
 
 ## Climbing
 
@@ -8697,12 +8702,12 @@ researching. Then again I'd not thought about planting trees in strategic
 locations around town.. until now :)
 
 
-<a id="org14076cb"></a>
+<a id="org184c19d"></a>
 
 # Playing
 
 
-<a id="org2bd7e44"></a>
+<a id="org856d331"></a>
 
 ## /COMMANDS
 
@@ -8710,7 +8715,7 @@ locations around town.. until now :)
 
 -   **/help** gives most of them
 -   **/settings** gives more of them
--   The [Release Notes](#org0be8031) give insights into and context for additional commands.
+-   The [Release Notes](#org08f8426) give insights into and context for additional commands.
     Click the link and search for "**/**"
 
 The discord's spoiler channel denizens often refer to 'creative mode' and yet
@@ -8729,7 +8734,7 @@ likely to fade into the void again!
 -   **If you happen to be on fire, (stop, drop and) /roll**
 
 
-<a id="org930bafd"></a>
+<a id="org922acb0"></a>
 
 ## KEYS!
 
@@ -8792,12 +8797,12 @@ last, type / then press "up arrow". Not that that would save you from surprises
 though.
 
 
-<a id="org38342d5"></a>
+<a id="org507844d"></a>
 
 ## Talking
 
-Unless you are a [Wildheart](#org6609061) you can talk to your pets and /say or /shout whatever
-it is you want, and they won't listen. That is unless you are a [Cat Whisperer](#org201542e) 
+Unless you are a [Wildheart](#orgd505894) you can talk to your pets and /say or /shout whatever
+it is you want, and they won't listen. That is unless you are a [Cat Whisperer](#orgf1a7324) 
 and have managed to recruit one of these marvels.
 
 Normal people however can only talk to other people, and it's only the Mercs 
@@ -8820,19 +8825,19 @@ you've recruited into your party that will listen to and obey you.
     (repeat with "**z**" as you walk around.)
 
 There's probably some (much?) more to say and other banter to be had. Many of
-the options seem to make the most sense for a [Politician](#orgba8627a) however.
+the options seem to make the most sense for a [Politician](#org19e71c8) however.
 
 Weird fact: Mercs and other NPC's sometimes say random things to one another!
 
 Weirder link about upperercase for extra loud shouting! <http://tom7.org/lowercase/>
 
 
-<a id="orgb997f78"></a>
+<a id="org9325797"></a>
 
 # Supplemental
 
 
-<a id="orgd5276cc"></a>
+<a id="org837cf12"></a>
 
 ## Random Notes from Discord
 
@@ -8860,7 +8865,7 @@ A few things regarding charged rift particles:
 -   Maybe take 3 CRPs to a Summoning Circle?
 
 
-<a id="org9548ac4"></a>
+<a id="orgd5065e6"></a>
 
 ### what classes do yall like the most
 
@@ -8882,12 +8887,12 @@ and *Pug* survives
 -   as a Gatekeeper.
 
 
-<a id="orgfc09b5e"></a>
+<a id="orgb0f751e"></a>
 
 ## Obsolete/Guides
 
 
-<a id="org6b4516b"></a>
+<a id="orgd165ef3"></a>
 
 ### Degritone's Guide to 100k Points
 
@@ -9000,7 +9005,7 @@ from: <https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points>
     points.
 
 
-<a id="org24f7e57"></a>
+<a id="org357b447"></a>
 
 ### Mantecarl's tourist guide
 
@@ -9008,7 +9013,7 @@ Written by a master of the game for an old version, still sensible in its way
 <https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit>
 
 
-<a id="org3fbe727"></a>
+<a id="org2013435"></a>
 
 ### From Reddit
 
@@ -9016,7 +9021,7 @@ Might have been the best overall text i found
 <https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/>
 
 
-<a id="org1a8dab9"></a>
+<a id="org2d5f670"></a>
 
 ### From Wiki
 
@@ -9024,7 +9029,7 @@ What useful info there for 2021 has been incorporated above.
 Its most function page: <https://fara.fandom.com/wiki/Special:Categories>
 
 
-<a id="org0be8031"></a>
+<a id="org08f8426"></a>
 
 ## Release Notes
 
@@ -9034,7 +9039,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
 -   compiled by pug since facts are not subject to copyright
 
 
-<a id="org7386ef0"></a>
+<a id="org8301d72"></a>
 
 ### Alpha 16 Mar'21..
 
@@ -9228,7 +9233,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         Good luck out there, travelers!
 
 
-<a id="org2619a41"></a>
+<a id="org639da16"></a>
 
 ### Alpha 15 Dec'20..
 
@@ -9754,7 +9759,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
     Tomorrow, FARA will get its first update since May 22, 2019! The official changelog will be posted shortly before the update goes live at 9pm EST, and it's a beefy one. It should be noted that old saves can't run in this new version, so if you're playing in the browser and have a run in progress, but sure to end it as gloriously as possible before then.
 
 
-<a id="orga4e5cbc"></a>
+<a id="org066da81"></a>
 
 ### Void 01 Apr'19..
 
@@ -9763,7 +9768,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
 -   Brian persevered.
 
 
-<a id="org10c1b1a"></a>
+<a id="orgd0129b8"></a>
 
 ### Alpha 14 May'19..
 
@@ -10142,7 +10147,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         .\*\* Any update
 
 
-<a id="org0d84a6e"></a>
+<a id="org3ebc879"></a>
 
 ### Alpha 13 Apr'19..
 
@@ -10250,7 +10255,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         -   Hopefully fixed more bugs than I created
 
 
-<a id="org34363c1"></a>
+<a id="org93fbf75"></a>
 
 ### Alpha 12 Mar'19..
 
@@ -10410,7 +10415,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
         -   Increased the health of several classes designed to fair well in melee combat
 
 
-<a id="orgdd94f6e"></a>
+<a id="orgabefdf5"></a>
 
 ### Alpha 11 Feb'19..
 
@@ -10775,7 +10780,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
             Darkvision.
 
 
-<a id="orgc332181"></a>
+<a id="org568919e"></a>
 
 ### Alpha 10 May'18..
 
@@ -10818,7 +10823,7 @@ Here are **ALL** of Brian's FARA Patch and Release Notes public as of 2019.04.12
     quite right, be sure to let me know!
 
 
-<a id="org06acb66"></a>
+<a id="orgd5229b0"></a>
 
 ## Copyright/Disclaimer
 
@@ -10833,7 +10838,7 @@ Thus, if you want to populate the wiki by cribbing from here .. link back.
 I link back to the wiki and every source I've cited. So should you. Thanks!
 
 
-<a id="orgcda759a"></a>
+<a id="orga5ba10a"></a>
 
 ## Linux
 
@@ -10872,7 +10877,7 @@ symlinking that path to a place thats backed-up once a day, not hourly.
     its amazing that its just 2.8mb.
 
 
-<a id="orgba86977"></a>
+<a id="org7202d36"></a>
 
 ## Requirements
 
@@ -10888,12 +10893,12 @@ Pug's experiments suggest:
 What's optimal? Anything Quad-core with DDR-4 RAM but DDR-3 will do.
 
 
-<a id="org54833cb"></a>
+<a id="orga92358a"></a>
 
 ## Technical
 
 
-<a id="orgd2405f3"></a>
+<a id="org29f4801"></a>
 
 ### Resizing & Positioning the FARA Window
 
@@ -10928,7 +10933,7 @@ at these links:
 -   [how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line](https://unix.stackexchange.com/questions/43106/how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line/359311)
 
 
-<a id="orgbc3010b"></a>
+<a id="org98e9dc5"></a>
 
 ### Note
 
@@ -10955,7 +10960,7 @@ do yourself a favor, never use this approach to cheat or learn game secrets or
 you will ruin your own fun. Let playing continue to be an enjoyable sandbox!
 
 
-<a id="org75526ef"></a>
+<a id="org6fd50df"></a>
 
 ## Visualizing Waypoints
 
@@ -10971,8 +10976,8 @@ to a close.
 
 &#x2014;
 
-Thanks for scrolling to the bottom of this text. There's a [Hot Links](#orgafdd21a) section at
-the very top, a section on [this document](#org8f3bc1e), and links to sources throughout.  For
+Thanks for scrolling to the bottom of this text. There's a [Hot Links](#org245380a) section at
+the very top, a section on [this document](#org49cacd7), and links to sources throughout.  For
 more, join the Discord, and scan the [Reddit](https://www.reddit.com/r/fara/), Twitter, [Wiki](https://fara.fandom.com/wiki/Special:Categories), [Youtube](https://www.startpage.com/sp/search?query=FARA+Roguelike+youtube&cat=video) links, and,
 of course the [Web](https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web). 
 

@@ -3910,7 +3910,12 @@ from Relica by steps and by fast-travel in order to determine and confirm for
 your self just how far away you can go before the safe-mode fast traveling or
 exhaustion stops you from going any further.
 
-Keep that distance in mind as you quest or explore.
+Keep that distance in mind as you quest or explore and be careful! Don't just
+try this using fast-travel to another settlement. You might drown yourself if
+you do! 
+
+For extra bonus see what stats might play a role in the completion of this
+mission.
 
 ** Difficulty
 
