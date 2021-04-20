@@ -23,12 +23,6 @@ Brian!
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
-
-Stats for the last week:  
-- 32 bots have cloned this repo for whatever ai/purposes
--  7 unique people other than myself have looked at these pages.
-
-
 * Caution!
 
 The game, in alpha for many years now, and while holding the attention of a
@@ -2780,6 +2774,8 @@ Useful *Very common* Materials without effects on your stats.
 | Stone            |                 | Ground, drops |
 | Tuft of Feathers |                 | Birds drop    |
 |------------------+-----------------+---------------|
+
+
 *** Natural Resources
 |------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
 | Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
@@ -2831,10 +2827,40 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 | Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
 |------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
+- Wool becomes Pelts when /salvaged.
+- Pelts are Fur as far as ikatm
+
 ** NPCs
 
 NPC's use the same classes as you, their strength and behaviors modified by
 prefixes to which I need to pay more attention still in order to put a list right here.
+
+
+*** Enemy Prefixes and Modifiers
+
+probably messed up
+|---------------|
+| NPC's/Dummies |
+|---------------|
+| Amateur       |
+| (no prefix)   |
+| Skilled       |
+| Tough         |
+| Veteran       |
+| Legendary?    |
+| Mythical      |
+| Ascended      |
+|---------------|
+
+definitely incomplete
+|-----------+-----------------|
+| Modifiers |                 |
+|-----------+-----------------|
+| Rotting   | 
+| Wayward   |                 |
+|-----------+-----------------|
+
+
 
 *** Skill Brackets
 
@@ -2909,12 +2935,18 @@ someone solidly in 'The Age of Steel'. Perhaps a little better than that; But
 as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
 **** Gambler
-The gambler is actually really useful!
+The Gambler/ "Shady Gamer" is actually really useful!
 
 If you have a ton of runic dust, you can use the gambler to get any tool recipes
 you don't have yet, and more importantly, get very rare materials.
 
-He gives you 25% odds, for an average price of 4 dust per win :) Not bad at all.
+He gives you 25% odds, for an average price of 4 dust per win :) 
+
+Not bad at all. A friend suggests you take the odd because you savscumming the
+shady isnt just shadierer, it won't guarantee you an outcome either. Still, if
+you must at least keep betting on the same choice each time or simply make
+[[https://www.startpage.com/sp/search?query=monty+hall+problem][another choice each next round]] and stick with that. I can't believe I just told
+you that!
 
 **** Guards
 These will gang up on you and you'll want to be really careful to not get the Elder
@@ -6300,6 +6332,7 @@ Pug's experiments suggest:
 - Disk seems not important.
 
 What's optimal? Anything Quad-core with DDR-4 RAM but DDR-3 will do.
+The real key to good performance appears to be the size of your [[https://www.makeuseof.com/tag/what-is-cpu-cache/][CPU cache]].
 
 ** Technical
 
@@ -6338,16 +6371,6 @@ at these links:
 
 
 
-*** Performance
-
-The real key to good performance appears to be the size of your [[https://www.makeuseof.com/tag/what-is-cpu-cache/][CPU cache]].
-
-At this point the shipping code is deeply applicative and linearized, and can
-thus no longer be [[https://www.startpage.com/sp/search?query=V8+engine+optimize+linearize][optimized by the runtime]] -- I see this as the main culprit
-behind the disproportionally high rate of cache misses your CPU goes through
-when you run FARA. Thus the performance Brian sees when he runs a big
-long-running game such as the one I'm hoping to play .. is quite different from
-what you and I see; But we play the game we're given. /speculation.
 
 *** Fixing crashes
 
