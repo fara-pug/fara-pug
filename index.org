@@ -23,6 +23,12 @@ Brian!
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
+
+Stats for the last week:  
+- 32 bots have cloned this repo for whatever ai/purposes
+-  7 unique people other than myself have looked at these pages.
+
+
 * Caution!
 
 The game, in alpha for many years now, and while holding the attention of a
@@ -174,21 +180,35 @@ All listed bonuses are 1.
   - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
 
 *** Head
+
+Recipes:
+|-----------+-------------+--------------------------------------------------------|
+| Materials | Ingredients | Note                                                   |
+|-----------+-------------+--------------------------------------------------------|
+| Hard      | 3 hard mats | use hard mats; enemies love to hit you here            |
+| Soft      | 1 soft mat  | even uniques "useless". use only exceptional materials |
+|-----------+-------------+--------------------------------------------------------|
+
+Head Armor Items; all crafted from 3 hard materials; all have size 2.
+
+|-------+------+-----------+------|
+| Item  | Stat | Materials | Size |
+|-------+------+-----------+------|
+| Tiara | CHA  | 3 hard    |    2 |
+| Crown | INS  | 3 hard    |    2 |
+| Helm  | RES  | 3 hard    |    2 |
+| Coif  | STR  | 3 hard    |    2 |
+|-------+------+-----------+------|
+
+Head Armor Items; all crafted from 1 soft material.
+
 |----------------+------+-----------+------|
-| Armor          | Stat | Materials | Size |
+| Item           | Stat | Materials | Size |
 |----------------+------+-----------+------|
 | Cap            | CHA  | 1 soft    |    2 |
-| Tiara          | CHA  | 3 hard    |    2 |
-|----------------+------+-----------+------|
-| Bandana        | FIN  | 1 soft    |    1 |
 | Hood           | FIN  | 1 soft    |    2 |
-|----------------+------+-----------+------|
-| Crown          | INS  | 3 hard    |    2 |
+| Bandana        | FIN  | 1 soft    |    1 |
 | Hat            | INS  | 1 soft    |    1 |
-|----------------+------+-----------+------|
-| Helm           | RES  | 3 hard    |    2 |
-|----------------+------+-----------+------|
-| Coif           | STR  | 3 hard    |    2 |
 |----------------+------+-----------+------|
 | Wrestling Mask | none | 1 soft    |    1 |
 |----------------+------+-----------+------|
@@ -196,56 +216,55 @@ All listed bonuses are 1.
 ..  must add Goggles. Glasses?, Monocles?
 
 *** Torso
-|-------------+-------------+-----------+------|
-| Armor       | Stat        | Materials | Size |
-|-------------+-------------+-----------+------|
-| Jacket      | CHA         | 2 soft    |    2 |
-| Thong       | CHA         | 1 soft    |    1 |
-|-------------+-------------+-----------+------|
-| Brigandine  | FIN         | 5 soft    |    5 |
-| Coat        | FIN         | 5 soft    |    5 |
-| Jerkin      | FIN         | 5 soft    |    2 |
-| Kimono      | FIN         | 5 soft    |    5 |
-| Tights      | FIN         | 2 soft    |    2 |
-| Tunic       | FIN         | 5 soft    |    5 |
-|-------------+-------------+-----------+------|
-| Vestments   | INS         | 4 soft    |    3 |
-|-------------+-------------+-----------+------|
-| Kilt        | STR         | 3 soft    |    2 |
-|-------------+-------------+-----------+------|
-| Poncho      | RES         | 2 soft    |    2 |
-|-------------+-------------+-----------+------|
-| Breastplate | -1 FIN, RES | 5 hard    |    5 |
-| Jumpsuit    | STR, 1 FIN  | 5 soft    |    5 |
-|-------------+-------------+-----------+------|
-| Blouse      | none        | 2 soft    |    2 |
-| Dress       | none        | 3 soft    |    2 |
-| Gi          | none        | 3 soft    |    2 |
-| Gown        | none        | 3 soft    |    2 |
-| Shirt       | none        | 2 soft    |    2 |
-| Toga        | none        | 3 soft    |    2 |
-|-------------+-------------+-----------+------|
+|---------------+-------------+-----------+------|
+| Armor         | Stat        | Materials | Size |
+|---------------+-------------+-----------+------|
+| Jacket        | CHA         | 2 soft    |    2 |
+| Thong         | CHA         | 1 soft    |    1 |
+|---------------+-------------+-----------+------|
+| Brigandine    | FIN         | 5 soft    |    5 |
+| Coat          | FIN         | 5 soft    |    5 |
+| Jerkin        | FIN         | 5 soft    |    2 |
+| Kimono        | FIN         | 5 soft    |    5 |
+| Tights        | FIN         | 2 soft    |    2 |
+| Tunic         | FIN         | 5 soft    |    5 |
+|---------------+-------------+-----------+------|
+| Vestments     | INS         | 4 soft    |    3 |
+|---------------+-------------+-----------+------|
+| Kilt          | STR         | 3 soft    |    2 |
+|---------------+-------------+-----------+------|
+| Poncho        | RES         | 2 soft    |    2 |
+|---------------+-------------+-----------+------|
+| *Breastplate* | -1 FIN, RES | 5 hard    |    5 |
+| Jumpsuit      | STR, 1 FIN  | 5 soft    |    5 |
+|---------------+-------------+-----------+------|
+| Blouse        | none        | 2 soft    |    2 |
+| Dress         | none        | 3 soft    |    2 |
+| Gi            | none        | 3 soft    |    2 |
+| Gown          | none        | 3 soft    |    2 |
+| Shirt         | none        | 2 soft    |    2 |
+| Toga          | none        | 3 soft    |    2 |
+|---------------+-------------+-----------+------|
 
 *** Hands
 |-----------+------+-----------+------|
 | Gloves    | Stat | Materials | Size |
 |-----------+------+-----------+------|
+| Bracers   | RES  | 2 hard    |    2 |
 | Gauntlets | FIN  | 2 hard    |    2 |
 | Gloves    | FIN  | 2 soft    |    1 |
-|-----------+------+-----------+------|
-| Bracers   | RES  | 2 hard    |    2 |
 |-----------+------+-----------+------|
 
 *** Feet
 |----------+------+-----------+------|
 | Footwear | Stat | Materials | Size |
 |----------+------+-----------+------|
-| Boots    | FIN  | 4 soft    |    2 |
-|----------+------+-----------+------|
 | Boots    | none | 4 hard    |    2 |
 | Sabatons | none | 4 hard    |    2 |
-| Sandals  | none | 1 soft    |    1 |
 | Shoes    | none | 4 hard    |    2 |
+|----------+------+-----------+------|
+| *Boots*  | FIN  | 4 soft    |    2 |
+| Sandals  | none | 1 soft    |    1 |
 | Shoes    | none | 1 soft    |    1 |
 |----------+------+-----------+------|
 
@@ -3986,6 +4005,8 @@ share.
 
 ** Exploring
 
+Soft Leather, Thick Padding Traveling Boots of Stealth?
+
 *** New Location?
 
 I use this ~38 step pattern to explore new locations so that i see almost all
@@ -4043,13 +4064,25 @@ mission.
 How far the Night?
 #+end_quote
 
-Starting from in the Morning, taking the NE path, how far can I get before the time changes?
+Starting from in the Morning, fully buffed after sleep with bed/heat/door.
 
-|-----------------------+------|
-| Steps from Morning to | (km) |
-|-----------------------+------|
-| Night                 |  105 |
-|-----------------------+------|
+|-----+-----------+-----------+-------+------+-----------------------------------|
+| Dir | From      | To        | Steps |   km |                                   |
+|-----+-----------+-----------+-------+------+-----------------------------------|
+| E/W | Morning   | Afternoon |    30 |   30 |                                   |
+| E/W | Afternoon | Evening   |    30 |   30 |                                   |
+| E/W | Morning   | Evening   |    60 |   60 | Ambushes start eves. quiet shoes? |
+| E/W | Morning   | Night     |   90? |  90? |                                   |
+| E/W | Morning   | Morning   |  120? | 120? | no. would be endangered by sleepy |
+|-----+-----------+-----------+-------+------+-----------------------------------|
+68   darkness begins via screen-edges
+
+--
+logging some things for my char. surely your #s would differ.
+
+- 77 stealth back, np
+- to 88 km dist wp stealthed, np, arrives afternoon sleepy & tired
+
 
 ** Difficulty
 
@@ -4113,6 +4146,11 @@ see a little further. But I don't think it helps you find small lost objects or
 those hard to find small rare species you'll inevitably be tasked with
 researching. Then again I'd not thought about planting trees in strategic
 locations around town.. until now :)
+** Combat
+
+Seven7Eleven the Great, seemingly sole maintainer of the Wiki, recently has made
+a good page on combat which i want to annotate some more:
+https://fara.fandom.com/wiki/Combat_and_Tactics
 
 * Playing
 ** /COMMANDS
