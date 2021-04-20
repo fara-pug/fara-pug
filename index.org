@@ -1748,6 +1748,7 @@ The exact word used might vary between the spells and gear, for example:
 | Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
 | Ice        | Axe of Ice        | Frigid Ward of Fury  |         |
 | Moon       | Axe of Moonlight  | Moon Ward of Fury    | "Lunar" |
+| Radiant    | Axe of Radiance   | Radiant Ward of Fury |         |
 | Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
 |------------+-------------------+----------------------+---------|
 
@@ -1756,6 +1757,7 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 
 - zapped the mirrored half because confusing
 - i copied the spreadsheet, completed with the aid of the good people on discord.
+
 
 ** Equipment
 *** Containers
@@ -2883,6 +2885,12 @@ demonstrate the power hiding in different [[Skill Brackets][Skill Brackets]].
 **** Elder
 The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
+**** Gambler
+The gambler is actually really useful!
+
+If you have a ton of runic dust, you can use the gambler to get any tool recipes
+you don't have yet, and more importantly, get very rare materials.
+
 **** Nobles
 Also appear to colludes with the researchers, but their power and influence in
 the realm is nowhere near to that of the Elders. Not much is known about the
@@ -4266,6 +4274,36 @@ A few things regarding charged rift particles:
 - No idea. Might try feeding Relica's blacksmith until they hit on the recipe. That's how I got a gold ingot recipe.
 - Trader chests also sometimes come with recipes
 - Maybe take 3 CRPs to a Summoning Circle?
+
+
+Blightwalkers only spawn if you have a blight
+- "It's form twitches sporadically, and you sense a strange affinity towards it"
+- oh I discovered how to find them
+- They spawn where you last died
+- Ent, but sergals are cheese — Yesterday at 5:39 PM
+- Interesting
+- mantecarl — Yesterday at 5:39 PM
+- My guess is that it's your previous body, or something?
+- Ent, but sergals are cheese — Yesterday at 5:39 PM
+- Life always comes at a cost, doesn't it?
+- mantecarl — Yesterday at 5:40 PM
+- also, the blightwalker has my previous weapon equipped
+- Ent, but sergals are cheese — Yesterday at 5:40 PM
+- Except Relica, apparently
+- And the tile next to Relica
+
+I wonder if you can steal from them
+Ent, but sergals are cheese — Yesterday at 5:49 PM
+The dead have nothing to steal
+
+Titles..
+- Mish]: Candance Darkshout the Scholar, Director of Shields recovered a Key Fragment! They only need 2 more fragments to complete the Astral Key.
+- Its from factions quests (from castles). I think you get one for completing three. I also got a key fragment with it.
+
+--
+- "You closely inspect your Forsaken Skull. Though void of eyes, you feel it still watches. It is small."
+- ent/ I literally suggested items that give passive buffs from being dropped on the ground, and one of them was the skull of a dungeon boss
+
 
 *** what classes do yall like the most
 
