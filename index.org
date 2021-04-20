@@ -3247,8 +3247,6 @@ Additionally,
 
 *** Stabilizer Runes
 
-Though correct, the Tye
-
 |------------+---------------+---------------------------------------------------|
 | Rune of    | Type          | Effect                                            |
 |------------+---------------+---------------------------------------------------|
@@ -3278,11 +3276,13 @@ Though correct, the Tye
 | Beams      | Direct Damage | Hits all targets in a straight line               |
 | Spears     | Direct Damage | Damage goes up as with distance to target         |
 |------------+---------------+---------------------------------------------------|
-| Blasts     | AOE           | Damages the target and *everyone* nearby          |
+| Blasts     | AOE           | Damages the target and nearby hostiles. |
 | Meteors    | AOE           | Impacts all targets in an area after short delay  |
 | Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                |
 |------------+---------------+---------------------------------------------------|
 
+
+- *Blasts* only work against hostiles, not your party members.
 
 - *Retaliation* hits Melee, Magical and Ranged attacker with a portion of the
   damage they threw at you, not the damage you took. E.g., in the extreme, they
