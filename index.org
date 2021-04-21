@@ -23,18 +23,6 @@ Brian!
 - [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
   - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
 
-* Caution!
-
-The game, in alpha for many years now, and while holding the attention of a
-loyal playerbase, has a developer's that stated expressly that he has no
-interrest in maintaining save-game compatibility.
-
-Thus you are advised to go through the trouble of downloading and
-installing the game locally so that you will be able to finish games
-in progress since using the web-version risks obliteration of your
-save at any time!
-
-
 * Intro
 
 I love the depth and variety in this game. The encounters can be short and
@@ -381,40 +369,6 @@ house on the beach? Whats going on there..
 - Wounded = Starts at ~75%
 - Injured = Starts at ~50%
 - Dying = Starts at ~25%
-
-**** Stat Brackets
-Stats are reported in the character screen "*c*" where you can see your relative
-skill as determined by a skill bracket. The brackets are made up of several
-levels of individual + or - gained from gear.
-
-| -20 | TRAGIC                         |
-| -16 | Dreadful (4 steps)             |
-| -12 | Terrible (4 steps)             |
-|  -8 | Awful (4 steps)                |
-|  -4 | Poor (4 steps)                 |
-|  -1 | Below Average (3 steps)        |
-|   0 | Average (1 step)               |
-|   1 | Above Average (3 steps)        |
-|   4 | Good/Good+ (4 steps)           |
-|   8 | Excellent/Excellent+ (4 steps) |
-|  12 | Legendary (4 steps)            |
-|  16 | Legendary+ (4 steps)           |
-|  20 | GODLIKE                        |
-
-- Starting stats are in ±2 increments from average.
-- Ecstatic adds a flat +3 steps to all stats.
-- Does Godlike always blink or only when you tried to push past 20?
-
-***** for example
-If you start as a Gamehunter with
-
-- above average STR (2),
-- good DEX (4),
-- and below average CHA (-2),
-- you would need +2 STR from gear to go from above average (2) to good (4),
--  or +1 INT to go from average (0) to above average (1).
-
-To achieve GODLIKE DEX you'd need +16 DEX.
 
 **** Damage reduction
 :PROPERTIES:
@@ -2447,6 +2401,26 @@ Poor Sobs, usually don't even have furniture where they sleep.
 
 **** Encampment
 - single building
+
+or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
+battle with you before you even knew what happened.
+
+if that's the case count yourself lucky! these guys have furniture galore and
+since you were short some 20 wooden blocks you could not have come to a better place.
+
+just be careful entering the buildings since not everyone who lives there had a
+chance to greet you earlier. you never know what these higher level guys were
+thinking leaving the fighting to their minions and all that.
+
+an unusual crew with their own agenda, you overheard their leader talking about
+ambushing a guy that happened to actually not be you. The wanted poster you
+found, you better take that with you to an actually dangerous place before
+looking at it more closely. You know.. higher risk, higher rewards mean you 
+know that you don't want to read it back in Relica, right?
+
+Bring some pals. Makes it easier to checkmate the whole site at once. Plus you
+might need someone to help you carry all that wood back home.
+
 **** Unknown Camp
 - Faction camps with
   - 5ish assorted opponents of the same level in the open
@@ -2832,77 +2806,6 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 
 ** NPCs
 
-NPC's use the same classes as you, their strength and behaviors modified by
-prefixes to which I need to pay more attention still in order to put a list right here.
-
-
-*** Enemy Prefixes and Modifiers
-
-probably messed up
-|---------------|
-| NPC's/Dummies |
-|---------------|
-| Amateur       |
-| (no prefix)   |
-| Skilled       |
-| Tough         |
-| Veteran       |
-| Legendary?    |
-| Mythical      |
-| Ascended      |
-|---------------|
-
-definitely incomplete
-|-----------+-----------------|
-| Modifiers |                 |
-|-----------+-----------------|
-| Rotting   | 
-| Wayward   |                 |
-|-----------+-----------------|
-
-
-
-*** Skill Brackets
-
-I have this notion that it might be possible to make a table that roughly
-presents the words indicating enemy strength.. but I dont know. So I'm
-collecting the word I find along the way in this table.
-
-
-*TOTALLY GUESSING ATM!*
-- Just a scratchpad to make word and number guesses
-
-| Player Equiv  | Level | NPC's/Dummies | Animals     | Plants   |
-|---------------+-------+---------------+-------------+----------|
-| TRAGIC        |   -20 |               |             |          |
-| Dreadful      |   -16 |               |             |          |
-| Terrible      |   -12 |               |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Aweful        |    -8 |               |             |          |
-| Poor          |    -4 |               |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Below Average |    -1 | Amateur       | Young       | Baby     |
-| Average       |     0 | (no prefix)   |             |          |
-| Above Average |     1 | Skilled       |             |          |
-|---------------+-------+---------------+-------------+----------|
-| Good          |     4 | Tough         | (no prefix) | Kid      |
-| Good+         |     6 |               |             | Beast    |
-|---------------+-------+---------------+-------------+----------|
-| Excellent     |     8 | Veteran       | Mature      |          |
-| Excellent+    |    10 | Wayward?      |             | Behemoth |
-|---------------+-------+---------------+-------------+----------|
-| Legendary     |    12 | Legendary?    | Stout       |          |
-| Legendary+    |    16 | Mythical      |             | Beasts?  |
-| GODLIKE       |    20 | Ascended      |             |          |
-|---------------+-------+---------------+-------------+----------|
-
-Feedback:
-For NPC skill tiers, I've seen mercenaries with "mythical" and "ascended"
-Not sure where that would fit in with legendary
-- added the words, the guessing game continues.
-
-Stout>Mature?
-
 
 *** Some Observations
 As elsewhere the stories I tell about the different characters and their
@@ -3276,11 +3179,14 @@ Additionally,
 | Beams      | Direct Damage | Hits all targets in a straight line               |
 | Spears     | Direct Damage | Damage goes up as with distance to target         |
 |------------+---------------+---------------------------------------------------|
-| Blasts     | AOE           | Damages the target and nearby hostiles. |
+| Blasts     | AOE           | Damages the target and nearby hostiles.           |
 | Meteors    | AOE           | Impacts all targets in an area after short delay  |
 | Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                |
 |------------+---------------+---------------------------------------------------|
 
+- AOE Spells apply their elemental debuffs against all targets in range
+
+- *Meteor* spells are delayed by 8 moments/turns at all levels
 
 - *Blasts* only work against hostiles, not your party members.
 
@@ -3407,6 +3313,55 @@ and can rebalance their stats or keep them godlike rerun this.
 - Carrying a shield makes all stamina based actions more expensive.
 - Shields do blunt-damage and there's nothing wrong with holding two of them.
 
+** Skill Brackets
+
+Stats are reported in the character screen "*c*" where you can see your relative
+skill as determined by a skill bracket. The brackets are made up of several
+levels of individual *+* or *-* gained from gear and/or buffs.
+
+I have this notion that it might be possible to make a table that roughly
+presents the words indicating enemy strength..
+
+| Status   | Effect                             |
+| Ecstatic | adds a flat +3 steps to all stats. |
+
+
+*** 22 steps from Baby to GODLIKE
+
+|----------+----------------------+---------------+-------------+-----------|
+| Low#     | Player/Allied Humans | NPC's/Dummies | Animals     | Plants    |
+|----------+----------------------+---------------+-------------+-----------|
+| *20*     | *GODLIKE*            | Eternal       | Timeless    |           |
+| *16*..19 | *Legendary+*         | Legendary     | Ancient     |           |
+| *12*..15 | *Legendary*          | Mythic        | Fabled      |           |
+|----------+----------------------+---------------+-------------+-----------|
+| *10*..11 | *Excellent+*         | Heroic        | Elder       | Beasts?   |
+| *8*..9   | *Excellent*          | Elite         | Alpha       | Behemoth? |
+|----------+----------------------+---------------+-------------+-----------|
+| *6*..7   | *Good+*              | Veteran       | Deadly      | Beast?    |
+| *4*..5   | *Good*               | Tough         | Stout       | Kid?      |
+|----------+----------------------+---------------+-------------+-----------|
+| *1*..3   | *Above Average*      | Skilled       | Mature      |           |
+| *0*      | *Average*            | (no prefix)   | (no prefix) |           |
+| *-1*..-3 | *Below Average*      | Amateur       | Young       | Baby?     |
+|----------+----------------------+---------------+-------------+-----------|
+
+- Starting stats are in ±2 increments from average.
+  (said to be. seen no 'science' yet.)
+
+- Does Godlike always blink or only when you tried to push past 20?
+
+***  plus 19 stages of horibleness.
+
+|------+-----------------------------------|
+| Stat | Inspecting Self and Allied Humans |
+|------+-----------------------------------|
+|   -4 | Poor (4 steps)                    |
+|   -8 | Awful (4 steps)                   |
+|  -12 | Terrible (4 steps)                |
+|  -16 | Dreadful (4 steps)                |
+|  -20 | TRAGIC                            |
+|------+-----------------------------------|
 
 ** Spells
 (expert info is on the way)
@@ -4220,6 +4175,52 @@ locations around town.. until now :)
 Seven7Eleven the Great, seemingly sole maintainer of the Wiki, recently has made
 a good page on combat which i want to annotate some more:
 https://fara.fandom.com/wiki/Combat_and_Tactics
+** Laundry List
+Thinking that the game's going to improve quite a lot more this year these are my little notes
+about things i'll suggest or do something else with later on.
+
+Random suggestions/notes/brainstorms/observations.
+
+- You know that brown bear that kept me company in the beginning? I probably
+  mentioned him somewhere in these notes. One day he blocked a door and instead
+  of pick-axeing my way out, i grabbed and dragged him back to the kennel, err,
+  the farm. That was weeks ago and the poor guy is still freaked out, at least i
+  keep seeing him dash about the map from time to time as i walk through
+  town. He just adds a lot of flair that way. The cat and cat?  They are
+  well. just a lot more sedate
+- One day i managed to travel to Relica from within Relica. I got to the top
+  level map that way. But wouldnt it be nice if you could know that it would
+  always take you to the local spawn point? Would save a local waypoint too.
+- Dragging something on a thing in a container to put it into the container!
+  What could be better? Dragging something from the ground into a container by
+  dragging in on a thing thats already in that container! Even better? Yes!
+  Making that container the actively selected item because you just used it!
+  Could work with opening and closing too. That would be like magic!
+- Locking items into my inventory so i could not salvage or drop or give them
+  to anyone or otherwise misplace them. Being able to drop everything but the
+  locked item.. being able to drop only all locked items. picking up all 
+  previously locked items from the tile i'm standing on and equiping them,
+  dropping a locked item into a pile on purpose and picking up it and any
+  other locked items i had dropped into that spot. Bingo. Outfits. And not
+  just for the beach! Anyway, once items are locked they show up in their
+  own section, not more funny number please.
+- Renaming my storages, seing their names in the target list. and, uh, # as a
+  prefix key for pressing #30 /take when i really just want to grab 30 ammo
+  pieces. Psst. Using prefix keys! (imaging having more than one) to attribute
+  or modify the action of the next command would be, like, really modern and
+  keep the interface free of not so accessible things like Ctrl/Alt modifiers
+  which people often seem to throw into their programs to confuse you.
+  We all know what enter does, right? How about space as a prefix? And a take
+  option on that use button. hah. then right cloud become predictable always!
+- So I have this storage with 51 crystal items made from sand i dug up the other
+  day while hunting for runes. And I want to level up the recipes I've gotten
+  since. So I screenshot whats in the box and compare it to my recipes list.
+  You know what a drag that is? Its like my avatar has no way of remembering
+  how many of what he's already made. Why are pen and paper for a log-book
+  so hard to come by!? If I couldnt help him via the screenshots he'd still
+  have a wooden shovel!
+- Recipes for items in storages
+
 
 * Playing
 ** /COMMANDS
@@ -4312,6 +4313,22 @@ Weird fact: Mercs and other NPC's sometimes say random things to one another!
 Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
 
 * Supplemental
+** Caution!
+
+The game, in alpha for many years now, and while holding the attention of a
+loyal playerbase, has a developer's that stated expressly that he has no
+interrest in maintaining save-game compatibility.
+
+Thus you are advised to go through the trouble of downloading and
+installing the game locally so that you will be able to finish games
+in progress since using the web-version risks obliteration of your
+save at any time!
+
+Still..
+
+/What little insight into this I have tells me that the danger/
+/of this happening to you is diminishing with each new day./
+
 ** Random Notes from Discord
 
 -> PASTE NEW THINGS HERE
