@@ -176,10 +176,10 @@ Head Armor Items; all crafted from 3 hard materials; all have size 2.
 |-------+------+-----------+------|
 | Item  | Stat | Materials | Size |
 |-------+------+-----------+------|
-| Tiara | CHA  | 3 hard    |    2 |
+| Coif  | STR  | 3 hard    |    2 |
 | Crown | INS  | 3 hard    |    2 |
 | Helm  | RES  | 3 hard    |    2 |
-| Coif  | STR  | 3 hard    |    2 |
+| Tiara | CHA  | 3 hard    |    2 |
 |-------+------+-----------+------|
 
 Head Armor Items; all crafted from 1 soft material.
@@ -721,6 +721,87 @@ Alphabetical Index to Fara's 52 classes:
 [[WITCH][Witch]] &
 [[WRESTLER][Wrestler]]
 
+There are 52 Classes, all are listed here with their *unchangeable* class trait
+and some stat info. *The attribute names are being updated to Alpha15*.
+
+More info can be found in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]; For traits obtainable
+through [[Factions][Factions]] check the */factions* menu.
+
+*** Class Traits by # Spells
+
+*WORK IN PROGRESS -- Updating 
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| Class          | Class-Trait           | Spells | Health | Good         | Avg+         | Avg-         |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[CHEF][Chef]]           | Gastromancy           |      5 | Avg-   | Insight      | Charm        | Resilience   |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | /avg/  | Insight      | Resilience   | Finesse      |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ADVENTURER][Adventurer]]     | Onward!               |      3 | /avg/  | /none/       | /none/       | /none/       |     |
+| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |      3 | Avg-   | Finesse      | Resilience   | Charm        |     |
+| [[COMMANDER][Commander]]      | Galvanizer            |      3 | Low    | Charisma     | Intelligence | Dexterity    |     |
+| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |      3 | Low    | Wisdom       | Charisma     | Strength     |     |
+| [[EQUESTRIAN][Equestrian]]     | Brawler               |      3 | /avg/  | Charisma     | Dexterity    | Strength     |     |
+| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |      3 | Low    | Wisdom       | Charisma     | Constitution |     |
+| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |      3 | /avg/  | Charisma     | Intelligence | Strength     |     |
+| [[JESTER][Jester]]         | Comedic Balance       |      3 | Low    | Dexterity    | Charisma     | Intelligence |     |
+| [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low    | Charisma     | Intelligence | Dexterity    |     |
+| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | /avg/  | Wisdom       | Strength     | Strength     |     |
+| [[POLITICIAN][Politician]]     | Polarize              |      3 | High   | Charisma     | Intelligence | Wisdom       |     |
+| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      3 | Low    | Intelligence | Wisdom       | Strength     |     |
+| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | /avg/  | Intelligence | Charisma     | Constitution |     |
+| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg-   | Insight      | Finesse      | Strength     | ok? |
+| [[WITCH][Witch]]          | Wicked Form           |      3 | Low    | Wisdom       | Intelligence | Strength     |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |      2 | /avg/  | Resilience   | Insight      | Strength     |     |
+| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |      2 | Avg-   | Insight      | Charm        | Resilience   |     |
+| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |      2 | Avg+   | Charm        | Strength     | Insight      |     |
+| [[BOTANIST][Botanist]]       | Familiar Phytology    |      2 | Avg-   | Insight      | Strength     | Resilience   |     |
+| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |      2 | Low    | Wisdom       | Strength     | Charisma     |     |
+| [[DERVISH][Dervish]]        | Dangerous Dance       |      2 | Low    | Dexterity    | Strength     | Intelligence |     |
+| [[DUELIST][Duelist]]        | En Garde              |      2 | /avg/  | Dexterity    | Charisma     | Constitution |     |
+| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |      2 | Avg+   | Constitution | Wisdom       | Dexterity    |     |
+| [[EXECUTIONER][Executioner]]    | Soothslayer           |      2 | /avg/  | Strength     | Constitution | Dexterity    |     |
+| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |      2 | Avg-   | Wisdom       | Intelligence | Dexterity    |     |
+| [[GAMBLER][Gambler]]        | Luck of the Draw      |      2 | High   | Charisma     | Dexterity    | Strength     |     |
+| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |      2 | Low    | Dexterity    | Strength     | Charisma     |     |
+| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |      2 | High   | Resilience   | Insight      | Charisma     |     |
+| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |      2 | Low    | Dexterity    | Intelligence | Strength     | ok  |
+| [[HOMESTEADER][Homesteader]]    | Sunriser              |      2 | Low    | Resilience   | Strength     | Charisma     | ok  |
+| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |      2 | /avg/  | Charisma     | Dexterity    | Strength     |     |
+| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |      2 | /avg/  | Constitution | Dexterity    | Intelligence |     |
+| [[KENSAI][Kensai]]         | Samurai Showdown      |      2 | /avg/  | Dexterity    | Wisdom       | Intelligence |     |
+| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |      2 | Avg-   | Dexterity    | Strength     | Constitution |     |
+| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |      2 | Low    | Intelligence | Charisma     | Wisdom       |     |
+| [[PIT FIGHTER][Pit Fighter]]    | Brawler               |      2 | Avg+   | Resilience   | Strength     | Insight      | ok  |
+| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |      2 | Low    | Dexterity    | Charisma     | Constitution |     |
+| [[REAPER][Reaper]]         | Last Harvest          |      2 | Low    | Dexterity    | Wisdom       | Strength     |     |
+| [[WILDHEART][Wildheart]]      | Killer Instincts      |      2 | /avg/  | Wisdom       | Dexterity    | Intelligence |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ENGINEER][Engineer]]       | Fixer Upper           |      1 | /avg/  | Intelligence | Dexterity    | Charisma     |     |
+| [[POTTER][Potter]]         | Earthen Bond          |      1 | Avg+   | Constitution | Strength     | Dexterity    |     |
+| [[PUGILIST][Pugilist]]       | The Greatest          |      1 | Avg+   | Strength     | Finesse      | Insight      | ok  |
+| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |      1 | Low    | Dexterity    | Charisma     | Constitution |     |
+| [[SOLDIER][Soldier]]        | Dogged March          |      1 | High   | Strength     | Constitution | Wisdom       |     |
+| [[VIKING][Viking]]         | Thunderous Resilience |      1 | /avg/  | Strength     | Constitution | Intelligence |     |
+| [[WRESTLER][Wrestler]]       | Muscle Spirit         |      1 | Avg+   | Strength     | Charisma     | Intelligence |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ARTIFICER][Artificer]]      | Spellgrafting         | /none/ | /avg/  | Resilience   | Insight      | Strength     |     |
+| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo | /none/ | Avg+   | Charisma     | Wisdom       | Constitution |     |
+| [[TOURIST][Tourist]]        | Sightseer             | /none/ | Low    | /none/       | /none/       | /none/       |     |
+| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   | /none/ | /avg/  | /none/       | /none/       | /none/       |     |
+|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+: 
+- Another column with Unlock Cost to Come
+
+**** Key:
+|-------------+-------------------------------------|
+| "Normal"    | Totally regular, all stats average. |
+| Avg+ / Avg- | Above/Below Average in that stat    |
+|-------------+-------------------------------------|
+*** Classes by Good Attribute
+*** Classes by Avg+ Attribute
+*** Classes by Avg- Attribute
 *** Class Details by Points Required
 
 **** Initial
@@ -1042,7 +1123,9 @@ Points required: 7,500
 Familiar Phytology - Botanists have access to the Enrich Plant spell, which
 allows them to turn any plant into a allied Plant Baby. Feeding Plant Babies by
 hand will cause them to grow more powerful, and the food chosen will determine
-what abilities they have. Casting this spell while already having a plant
+what abilities they have. 
+
+Casting their spell while already having a plant
 familiar will kill the older familiar.
 
 Below Average Health, Good Insight, Above Average Strength, Below Average Resilience, and 2 Spell Slots.
@@ -1560,90 +1643,6 @@ For example: you can hit the air three times, travel to another tile,
 wait for a full day and even rest and you will complete the song on
 your next valid attack (as of 0.0.15.18b)
 
-
-*** Class Traits by # Spells
-
-You have *one unchangeable class trait*. This is a list of them.
-
-Also see the info in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]] and remember to check [[Factions][Faction]]
-Traits through the */factions* (aka "*F*") window.
-
-- There are 52 Classes with Unique Traits.
-
-- Commanders can support three party members, all other classes can manage just two.
-
-To Come: 
-- Another column with Unlock Cost instead of stats.
-
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| Class          | Class-Trait           | Spells | Stat Summary                                                     |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[CHEF][Chef]]           | Gastromancy           |      5 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | Good Insight, Avg+ Resilience, Avg- Finesse                      |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[ADVENTURER][Adventurer]]     | Onward!               |      3 | "Normal"                                                         |
-| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |      3 | Avg- Health, Good Finesse, Avg+ Resilience, Avg- Charm           |
-| [[COMMANDER][Commander]]      | Galvanizer            |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
-| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Strength            |
-| [[EQUESTRIAN][Equestrian]]     | Brawler               |      3 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
-| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |      3 | Low Health, Good Wisdom, Avg+ Charisma, Avg- Constitution        |
-| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |      3 | Good Charisma, Avg+ Intelligence, Avg- Strength                  |
-| [[JESTER][Jester]]         | Comedic Balance       |      3 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Intelligence     |
-| [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low Health, Good Charisma, Avg+ Intelligence, Avg- Dexterity     |
-| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | Good Wisdom, Avg+ Strength, Avg- Strength                        |
-| [[POLITICIAN][Politician]]     | Polarize              |      3 | High Health, Good Charisma, Avg+ Intelligence, Avg- Wisdom       |
-| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      3 | Low Health, Good Intelligence, Avg+ Wisdom, Avg- Strength        |
-| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | Good Intelligence, Avg+ Charisma, Avg- Constitution              |
-| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg- Health, Good Wisdom, Avg+ Dexterity, Avg- Strength          |
-| [[WITCH][Witch]]          | Wicked Form           |      3 | Low Health, Good Wisdom, Avg+ Intelligence, Avg- Strength        |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |      2 | Good Resilience, Avg+ Insight, Avg- Strength                     |
-| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |      2 | Avg- Health, Good Insight, Avg+ Charm, Avg- Resilience           |
-| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |      2 | Avg+ Health, Good Charm, Avg+ Strength, Avg- Insight             |
-| [[BOTANIST][Botanist]]       | Familiar Phytology    |      2 | Avg- Health, Good Insight, Avg+ Strength, Avg- Resilience        |
-| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |      2 | Low Health, Good Wisdom, Avg+ Strength, Avg- Charisma            |
-| [[DERVISH][Dervish]]        | Dangerous Dance       |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Intelligence     |
-| [[DUELIST][Duelist]]        | En Garde              |      2 | Good Dexterity, Avg+ Charisma, Avg- Constitution                 |
-| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |      2 | Avg+ Health, Good Constitution, Avg+ Wisdom, Avg- Dexterity      |
-| [[EXECUTIONER][Executioner]]    | Soothslayer           |      2 | Good Strength, Avg+ Constitution, Avg- Dexterity                 |
-| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |      2 | Avg- Health, Good Wisdom, Avg+ Intelligence, Avg- Dexterity      |
-| [[GAMBLER][Gambler]]        | Luck of the Draw      |      2 | High Health, Good Charisma, Avg+ Dexterity, Avg- Strength        |
-| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |      2 | Low Health, Good Dexterity, Avg+ Strength, Avg- Charisma         |
-| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |      2 | High Health, Good Constitution, Avg+ Intelligence, Avg- Charisma |
-| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |      2 | Low Health, Good Dexterity, Avg+ Intelligence, Avg- Wisdom       |
-| [[HOMESTEADER][Homesteader]]    | Sunriser              |      2 | Low Health, Good Constitution, Avg+ Strength, Avg- Charisma      |
-| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |      2 | Good Charisma, Avg+ Dexterity, Avg- Strength                     |
-| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |      2 | Good Constitution, Avg+ Dexterity, Avg- Intelligence             |
-| [[KENSAI][Kensai]]         | Samurai Showdown      |      2 | Good Dexterity, Avg+ Wisdom, Avg- Intelligence                   |
-| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |      2 | Avg- Health, Good Dexterity, Avg+ Strength, Avg- Constitution    |
-| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |      2 | Low Health, Good Intelligence, Avg+ Charisma, Avg- Wisdom        |
-| [[PIT FIGHTER][Pit Fighter]]    | Brawler               |      2 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Intelligence |
-| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |      2 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
-| [[REAPER][Reaper]]         | Last Harvest          |      2 | Low Health, Good Dexterity, Avg+ Wisdom, Avg- Strength           |
-| [[WILDHEART][Wildheart]]      | Killer Instincts      |      2 | Good Wisdom, Avg+ Dexterity, Avg- Intelligence                   |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[ENGINEER][Engineer]]       | Fixer Upper           |      1 | Good Intelligence, Avg+ Dexterity, Avg- Charisma                 |
-| [[POTTER][Potter]]         | Earthen Bond          |      1 | Avg+ Health, Good Constitution, Avg+ Strength, Avg- Dexterity    |
-| [[PUGILIST][Pugilist]]       | The Greatest          |      1 | Avg+ Health, Good Strength, Avg+ Dexterity, Avg- Wisdom          |
-| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |      1 | Low Health, Good Dexterity, Avg+ Charisma, Avg- Constitution     |
-| [[SOLDIER][Soldier]]        | Dogged March          |      1 | High Health, Good Strength, Avg+ Constitution, Avg- Wisdom       |
-| [[VIKING][Viking]]         | Thunderous Resilience |      1 | Good Strength, Avg+ Constitution, Avg- Intelligence              |
-| [[WRESTLER][Wrestler]]       | Muscle Spirit         |      1 | Avg+ Health, Good Strength, Avg+ Charisma, Avg- Intelligence     |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-| [[ARTIFICER][Artificer]]      | Spellgrafting         |   None | Good Resilience, Avg+ Insight, Avg- Strength                     |
-| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo |   None | Avg+ Health, Good Charisma, Avg+ Wisdom, Avg- Constitution       |
-| [[TOURIST][Tourist]]        | Sightseer             |   None | Low Health                                                       |
-| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   |   None | "Normal"                                                         |
-|----------------+-----------------------+--------+------------------------------------------------------------------|
-
-
-**** Key:
-|-------------+-------------------------------------|
-| "Normal"    | Totally regular, all stats average. |
-| Avg+ / Avg- | Above/Below Average in that stat    |
-|-------------+-------------------------------------|
-
 ** Damage Types
 
 There are eight types of damage in FARA.
@@ -1720,6 +1719,26 @@ https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX
 - zapped the mirrored half because confusing
 - i copied the spreadsheet, completed with the aid of the good people on discord.
 
+
+** Enemies
+Have not cared to keep better track of these yet.
+
+*** Imps
+
+Imps seem humanoid and seem to pop out of nowhere, ready to dish out elemental damage.
+
+|----------+---------|
+| Types    | Prefix  |
+|----------+---------|
+| Fire     | Ember   |
+| Air      | Breeze  |
+| Water    | Rain    |
+| Earth    | Grass   |
+| Light    | Glimmer |
+| Darkness |    ?    |
+|----------+---------|
+
+- Going through a lot of ruins, i've yet to see the last kind'
 
 ** Equipment
 *** Containers
@@ -2806,8 +2825,6 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 
 ** NPCs
 
-
-*** Some Observations
 As elsewhere the stories I tell about the different characters and their
 fantastic schemes and relations are entirely fantastic and straight from my
 imagination.
@@ -2815,10 +2832,10 @@ imagination.
 I write them for the same reason that I don't cheat: Even a little bit of
 storytelling keeps the fantasy alive and prevents play from becoming a grind.
 
-**** Champions 
+*** Champions 
 Challenge them once you're past the "Age of Steel", even then you might regret it!
 Remember they are Faction Leaders.
-**** Dummy
+*** Dummy
 The combat dummies you'll find in all settlements give you a taste of the damage
 put out by attackers of different ranks. By going between towns and challenging
 different dummies you can experiment with your offensive options to learn how
@@ -2828,16 +2845,16 @@ only item stats.
 That experiment might be quite a geeky thing, but we should have a table here to
 demonstrate the power hiding in different [[Skill Brackets][Skill Brackets]].
 
-**** Elder
+*** Elder
 The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
-**** Escortees
+*** Escortees
 Source of infinite unique items of middling power .. which .. when you have
 collected way to many, might allow you to think yourself as well equipped as
 someone solidly in 'The Age of Steel'. Perhaps a little better than that; But
 as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
-**** Gambler
+*** Gambler
 The Gambler/ "Shady Gamer" is actually really useful!
 
 If you have a ton of runic dust, you can use the gambler to get any tool recipes
@@ -2851,30 +2868,19 @@ you must at least keep betting on the same choice each time or simply make
 [[https://www.startpage.com/sp/search?query=monty+hall+problem][another choice each next round]] and stick with that. I can't believe I just told
 you that!
 
-**** Guards
+*** Guards
 These will gang up on you and you'll want to be really careful to not get the Elder
 involved in a fight because he will end your game by kicking you out of 'his' world
 permanently.
-**** Mercenaries
-In general these appear to be much stronger
-than you would suspect them to be from their listed skill bracket.
 
-- have a nice clickety screen to equip them through
-- can't learn spells from tombs
-- can't learn traits from manuals
-- will give back your stuff
-  - must click-items or "/say drop you xyz" 
-    - makes it ok to hired them for a closer look at their stats.
-    - have them drop their stuff before they get killed as 
-      "the dead have nothing to steal," right?
-**** Nobles
+*** Nobles
 Also appear to colludes with the researchers, but their power and influence in
 the realm is nowhere near to that of the Elders. Not much is known about the
 transformation of Nobles to Elders, nor do all that many survive into old age.
-**** Riddler
+*** Riddler
 Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
-**** Smuggler
+*** Smuggler
 Insight Good+, Charm Average:
 #+begin_example
 "You give 27 Crystal Ingots to Cheeky Smuggler. 
@@ -2889,7 +2895,7 @@ Insight Good+, Charm Good+:
 Iron and Crystal are both uncommon. He gave back half of the same rarity,
 rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
-**** Thief
+*** Thief
 You forgot to close the door one night and now there's that shifty looking
 fellow standing right next to you, decked out in your newly upgraded gear,
 asking for assistance.
@@ -2930,27 +2936,49 @@ p.s. In a castle or other 'location where you dont control the doors' you can
 strip down naked and rest without fear since thieves don't seem to care about the
 stash you're resting on.
 
-**** Townies
+*** Townies
 See Desperate Times. 
-**** Trader
+*** Trader
 A bug was fixed. TBD.
 
 ** Party
-- Press "*p*" for party details. It will show you have many followers you have and
-  can have. 
-- Max party size appears to be class dependent.
-- Make music to cheer up your party-member if they have a dark mood
-  - Musical instruments much bigger than yourself can be held 
-    to cheer up your party. It may be how how you look, or that you used */play*.
-- Dancing is also a mood-booster. In some locations it winds up killing
+
+- Press "*p*" for party details.
+
+- [[COMMANDER][Commanders]] can support three party members, all other classes can manage just two.
+  - It not clear to me if [[BOTANIST][Botanist's]] plants count against the limit
+    - [[MAD SCIENTIST][Mad Scientist]] creations do, yet they can have 2 at once.
+
+- Escort quests' Escortees don't count against your party-size-limit.
+
+- [[Musical Instruments][Musical Instruments]] much bigger than yourself can be held to cheer up your
+  party via */play*.
+
+- */Dance* is also a mood-booster. In some locations it winds up killing
   otherwise friendly NPC's who arn't [[FISHMONGER][Fishmongers]]. You'll know it when you see it.
-  - Your stamina will return when you leave the map after dancing - but not that
-    of your party member. Wait an hour "*>*" to let them catch their breath!
-- Escort quests' escortees don't count against your party-size-limit.
-- I like travelling alone in other games, in FARA i dont - yet.
-- [[Talking][Talk]] to your pals to chat and control how they contribute in combat; at least
-  a little bit.
+
+- Your stamina will return when you leave the map after dancing, but not that
+  of your party members!. Wait an hour "*>*" to let them catch their breath!
+
+- In other games, i often like travelling alone. In FARA, not yet.
+
+- [[Talking][Talk]] to your Party Members to chat and control their equipment and general stance.
+
+*** Mercenaries
+In general these appear to be much stronger
+than you would suspect them to be from their listed skill bracket.
+
+- have a nice clickety screen to equip them through
+- can't learn spells from tombs
+- can't learn traits from manuals
+- will give back your stuff
+  - must click-items or "/say drop you xyz" 
+    - makes it ok to hired them for a closer look at their stats.
+    - have them drop their stuff before they get killed as 
+      "the dead have nothing to steal," right?
+
 *** Pets
+
 Pet animals till they get ecstatic, then feed some stuff. If there's room in your party
 they should join right away.
 
@@ -3100,6 +3128,28 @@ possible even when you are silenced.
 
 If you are burning, and don't have that spell, stop, drop and /roll.
 
+In this section you find the 
+Bleeding, 
+Blinding, 
+Burning, 
+Charm,
+Enlightenment,
+Fortification,
+Fury, 
+Illumination, 
+Intoxication, 
+Poison, 
+Quickness,
+Rage,
+Rejuvenation, 
+Sickness, 
+Silencing, 
+Slowness,
+Stupidity,
+Uglyness,
+Vulnerability &
+Weakness Runes
+
 **** Conditions
 |--------------+---------------------------------------|
 | Rune of      | Effect                                |
@@ -3149,6 +3199,33 @@ Additionally,
 
 
 *** Stabilizer Runes
+
+In this section you find the
+Arrows, 
+Auras, 
+Barrages, 
+Barriers, 
+Beams, 
+Blades, 
+Blasts, 
+Blessings, 
+Chains, 
+Curses, 
+Elementals, 
+Fields, 
+Fonts, 
+Forces, 
+Gales, 
+Hammers, 
+Meteors, 
+Plagues, 
+Shields, 
+Shockwaves, 
+Spears, 
+Wards &
+Whips Runes
+
+
 
 |------------+---------------+---------------------------------------------------|
 | Rune of    | Type          | Effect                                            |
@@ -4220,6 +4297,7 @@ Random suggestions/notes/brainstorms/observations.
   so hard to come by!? If I couldnt help him via the screenshots he'd still
   have a wooden shovel!
 - Recipes for items in storages
+- Quests could show the direction and distance to their location.
 
 
 * Playing
