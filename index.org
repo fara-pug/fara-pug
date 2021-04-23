@@ -711,6 +711,8 @@ Alphabetical Index to Fara's 52 classes:
 [[KUNG FU MASTER][Kung Fu Master]],
 [[MAD SCIENTIST][Mad Scientist]],
 [[MERCHANT][Merchant]],
+[[MORTICIAN][Mortician]],
+[[PEASANT][Peasant]],
 [[PIT FIGHTER][Pit Fighter]],
 [[PLAGUE DOCTOR][Plague Doctor]],
 [[POLITICIAN][Politician]],
@@ -1291,9 +1293,32 @@ Points required: 95,000
 Rags to Riches - Merchants have a chance to recover materials spent during
 crafting, and have twice as much inventory space.
 
-Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
+Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity. 3 Spell Slots.
 
 Points required: 500
+**** MORTICIAN
+Undertaking - Morticians have access to the Fervent Embalming spell which raises
+corpses to fight for a short duration. Additionally, Morticians do not attract
+hostile targets when resting outdoors.
+
+Average health. Good Insight. Above Average Strength and Below Average Charm. 2 Spell Slots.
+
+Points required: 50000
+
+**** PEASANT
+Unremarkable.
+
+The deeply unremarkable "Horrendous" Peasant class with no traits and of
+terrible Health is unlikely to ever amount to much. Even Experts are considered
+unlikely to win playing as a Peasant.
+
+Terrible Health. All other Stats "Horrendous". No Spells.
+
+Points required: 100,000
+
+***** Note 
+Horrenduous does not show up in the [[19 stages of horribleness.][19 stages of horribleness]] identified so far. 
+Its probably really bad. 
 
 **** PIT FIGHTER
 :PROPERTIES:
@@ -1629,6 +1654,7 @@ Points required: 50,000
 | [[KENSAI][Kensai]]         |    60k | Samurai Showdown      | 2      | /avg/  | Dexterity    | Wisdom       | Intelligence |     |
 | [[KUNG FU MASTER][Kung Fu Master]] |    25k | Fluid Movement        | 2      | Avg-   | Dexterity    | Strength     | Constitution |     |
 | [[MAD SCIENTIST][Mad Scientist]]  |    95k | Gone Too Far          | 2      | Low    | Intelligence | Charisma     | Wisdom       |     |
+| [[MORTICIAN][Mortician]]      |    50k | Undertaking           | 2      | /avg/  | Insight      | Strength     | Charm        | ok  |
 | [[PIT FIGHTER][Pit Fighter]]    |     1k | Brawler               | 2      | Avg+   | Resilience   | Strength     | Insight      | ok  |
 | [[RAGAMUFFIN][Ragamuffin]]     |   /na/ | Sticky Fingers        | 2      | Low    | Dexterity    | Charisma     | Constitution |     |
 | [[REAPER][Reaper]]         |    30k | Last Harvest          | 2      | Low    | Dexterity    | Wisdom       | Strength     |     |
@@ -1648,6 +1674,9 @@ Points required: 50,000
 | [[UNEMPLOYED][Unemployed]]     |   /na/ | Boundless Potential   | /none/ | /avg/  | /none/       | /none/       | /none/       |     |
 |----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
 
+There's also the deeply unremarkable "Horrendous" [[PEASANT][Peasant]] class with no traits
+and of terrible Health.  Even Experts are considered unlikely to win playing as
+a Peasant. 100k points to unlock.
 
 *** Summary by Good Attribute
 *** Summary by Avg+ Attribute
