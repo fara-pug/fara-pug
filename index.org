@@ -737,234 +737,9 @@ and some stat info. *The attribute names are being updated to Alpha15*.
 More info can be found in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]; For traits obtainable
 through [[Factions][Factions]] check the */factions* menu.
 
-*** Class Traits by # Spells
+*** Details and Player Notes
 
-*WORK IN PROGRESS -- Updating 
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| Class          | Class-Trait           | Spells | Health | Good         | Avg+         | Avg-         |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[CHEF][Chef]]           | Gastromancy           |      5 | Avg-   | Insight      | Charm        | Resilience   |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[ALCHEMIST][Alchemist]]      | Potent Potioner       |      4 | /avg/  | Insight      | Resilience   | Finesse      |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[ADVENTURER][Adventurer]]     | Onward!               |      3 | /avg/  | /none/       | /none/       | /none/       |     |
-| [[CAT WHISPERER][Cat Whisperer]]  | Cat Person            |      3 | Avg-   | Finesse      | Resilience   | Charm        |     |
-| [[COMMANDER][Commander]]      | Galvanizer            |      3 | Low    | Charisma     | Intelligence | Dexterity    |     |
-| [[EARTH ZEALOT][Earth Zealot]]   | Magnetic Slide        |      3 | Low    | Wisdom       | Charisma     | Strength     |     |
-| [[EQUESTRIAN][Equestrian]]     | Brawler               |      3 | /avg/  | Charisma     | Dexterity    | Strength     |     |
-| [[FORTUNE TELLER][Fortune Teller]] | Foresight             |      3 | Low    | Wisdom       | Charisma     | Constitution |     |
-| [[HABERDASHER][Haberdasher]]    | Hats on to Me         |      3 | /avg/  | Charisma     | Intelligence | Strength     |     |
-| [[JESTER][Jester]]         | Comedic Balance       |      3 | Low    | Dexterity    | Charisma     | Intelligence |     |
-| [[MERCHANT][Merchant]]       | Rags to Riches        |      3 | Low    | Charisma     | Intelligence | Dexterity    |     |
-| [[PLAGUE DOCTOR][Plague Doctor]]  | Epidemic              |      3 | /avg/  | Wisdom       | Strength     | Strength     |     |
-| [[POLITICIAN][Politician]]     | Polarize              |      3 | High   | Charisma     | Intelligence | Wisdom       |     |
-| [[SCHOLAR][Scholar]]        | Gift of Knowledge     |      3 | Low    | Intelligence | Wisdom       | Strength     |     |
-| [[SCOUNDREL][Scoundrel]]      | Devious Plot          |      3 | /avg/  | Intelligence | Charisma     | Constitution |     |
-| [[SPELLTHIEF][Spellthief]]     | Intellectual Forgery  |      3 | Avg-   | Insight      | Finesse      | Strength     | ok? |
-| [[WITCH][Witch]]          | Wicked Form           |      3 | Low    | Wisdom       | Intelligence | Strength     |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[BEEKEEPER][Beekeeper]]      | Ancient Resistance    |      2 | /avg/  | Resilience   | Insight      | Strength     |     |
-| [[BLOODWEAVER][Bloodweaver]]    | Blood Pact            |      2 | Avg-   | Insight      | Charm        | Resilience   |     |
-| [[BODYBUILDER][Bodybuilder]]    | Solar Flexus          |      2 | Avg+   | Charm        | Strength     | Insight      |     |
-| [[BOTANIST][Botanist]]       | Familiar Phytology    |      2 | Avg-   | Insight      | Strength     | Resilience   |     |
-| [[DEMON SLAYER][Demon Slayer]]   | Know Thy Foe          |      2 | Low    | Wisdom       | Strength     | Charisma     |     |
-| [[DERVISH][Dervish]]        | Dangerous Dance       |      2 | Low    | Dexterity    | Strength     | Intelligence |     |
-| [[DUELIST][Duelist]]        | En Garde              |      2 | /avg/  | Dexterity    | Charisma     | Constitution |     |
-| [[ELEMANCER][Elemancer]]      | Arcane Prodigy        |      2 | Avg+   | Constitution | Wisdom       | Dexterity    |     |
-| [[EXECUTIONER][Executioner]]    | Soothslayer           |      2 | /avg/  | Strength     | Constitution | Dexterity    |     |
-| [[FISHMONGER][Fishmonger]]     | Aquatic Inquisitor    |      2 | Avg-   | Wisdom       | Intelligence | Dexterity    |     |
-| [[GAMBLER][Gambler]]        | Luck of the Draw      |      2 | High   | Charisma     | Dexterity    | Strength     |     |
-| [[GAMESTALKER][Gamestalker]]    | Hawkeye               |      2 | Low    | Dexterity    | Strength     | Charisma     |     |
-| [[GATEKEEPER][Gatekeeper]]     | Besiegement           |      2 | High   | Resilience   | Insight      | Charisma     |     |
-| [[GUNSLINGER][Gunslinger]]     | Taegunsho             |      2 | Low    | Dexterity    | Intelligence | Strength     | ok  |
-| [[HOMESTEADER][Homesteader]]    | Sunriser              |      2 | Low    | Resilience   | Strength     | Charisma     | ok  |
-| [[ILLUSIONIST][Illusionist]]    | Now You See Me        |      2 | /avg/  | Charisma     | Dexterity    | Strength     |     |
-| [[JUGGERNAUT][Juggernaut]]     | Unstoppable           |      2 | /avg/  | Constitution | Dexterity    | Intelligence |     |
-| [[KENSAI][Kensai]]         | Samurai Showdown      |      2 | /avg/  | Dexterity    | Wisdom       | Intelligence |     |
-| [[KUNG FU MASTER][Kung Fu Master]] | Fluid Movement        |      2 | Avg-   | Dexterity    | Strength     | Constitution |     |
-| [[MAD SCIENTIST][Mad Scientist]]  | Gone Too Far          |      2 | Low    | Intelligence | Charisma     | Wisdom       |     |
-| [[PIT FIGHTER][Pit Fighter]]    | Brawler               |      2 | Avg+   | Resilience   | Strength     | Insight      | ok  |
-| [[RAGAMUFFIN][Ragamuffin]]     | Sticky Fingers        |      2 | Low    | Dexterity    | Charisma     | Constitution |     |
-| [[REAPER][Reaper]]         | Last Harvest          |      2 | Low    | Dexterity    | Wisdom       | Strength     |     |
-| [[WILDHEART][Wildheart]]      | Killer Instincts      |      2 | /avg/  | Wisdom       | Dexterity    | Intelligence |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[ENGINEER][Engineer]]       | Fixer Upper           |      1 | /avg/  | Intelligence | Dexterity    | Charisma     |     |
-| [[POTTER][Potter]]         | Earthen Bond          |      1 | Avg+   | Constitution | Strength     | Dexterity    |     |
-| [[PUGILIST][Pugilist]]       | The Greatest          |      1 | Avg+   | Strength     | Finesse      | Insight      | ok  |
-| [[RIFT DANCER][Rift Dancer]]    | Astral Calling        |      1 | Low    | Dexterity    | Charisma     | Constitution |     |
-| [[SOLDIER][Soldier]]        | Dogged March          |      1 | High   | Strength     | Constitution | Wisdom       |     |
-| [[VIKING][Viking]]         | Thunderous Resilience |      1 | /avg/  | Strength     | Constitution | Intelligence |     |
-| [[WRESTLER][Wrestler]]       | Muscle Spirit         |      1 | Avg+   | Strength     | Charisma     | Intelligence |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-| [[ARTIFICER][Artificer]]      | Spellgrafting         | /none/ | /avg/  | Resilience   | Insight      | Strength     |     |
-| [[RHAPSODIST][Rhapsodist]]     | Captivating Crescendo | /none/ | Avg+   | Charisma     | Wisdom       | Constitution |     |
-| [[TOURIST][Tourist]]        | Sightseer             | /none/ | Low    | /none/       | /none/       | /none/       |     |
-| [[UNEMPLOYED][Unemployed]]     | Boundless Potential   | /none/ | /avg/  | /none/       | /none/       | /none/       |     |
-|----------------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
-: 
-- Another column with Unlock Cost to Come
-
-**** Key:
-|-------------+-------------------------------------|
-| "Normal"    | Totally regular, all stats average. |
-| Avg+ / Avg- | Above/Below Average in that stat    |
-|-------------+-------------------------------------|
-*** Classes by Good Attribute
-*** Classes by Avg+ Attribute
-*** Classes by Avg- Attribute
-*** Class Details by Points Required
-
-**** Initial
-***** CAT WHISPERER
-:PROPERTIES:
-:ID:       f742c838-dba6-4124-b1c7-442d95bc9379
-:END:
-Cat Person - While under attack, stray cats will occasionally come to the aid of
-Cat Whisperers. They can also talk to cats.
-
-Below Average Health, Good Finesse, Above Average Resilience, Below Average Charm, and 3 Spell Slots.
-
-Points required: 0
-***** EARTH ZEALOT
-:PROPERTIES:
-:ID:       c8922dc7-8359-45d4-b06f-2ec7d718f15d
-:END:
-Magnetic Slide - When Earth Zealots dance, they have a chance to produce tremors
-which can cause damage, grow plants, or change the weather. Additionally, they
-can cleanse most status effects on themselves by eating herbs.
-
-Low Health, Good Wisdom, Above Average Charisma, Below Average Strength, and 3 Spell Slots.
-
-Points required: 0
-***** FISHMONGER
-:PROPERTIES:
-:ID:       4b457e17-859a-4f31-b0fd-709b35160ab7
-:END:
-Aquatic Inquisitor - Fishmongers cannot drown, have a higher chance to catch
-rare items while fishing, and have increased strength and dexterity while
-swimming, wet, or near water magic.
-
-Below Average Health, Good Wisdom, Above Average Intelligence, Below Average Dexterity, and 2 Spell Slots.
-
-Points required: 0
-****** Fishmonger...
-:PROPERTIES:
-:ID:       30e0adc4-5d08-4165-9d06-2b5166a16354
-:END:
-- Fishmonger's really grindy if you want to do it
-- Get a whole lot of dowels
-- Waypoint your spawn area
-- Once you've got a huge amount of dowels
-- Get a crystal/iron/bronze fishing rod
-- Any uncommon tier fishing rod
-- Crafted with wooden blocks
-- Used for tools
-- So you've got your huge pile of dowels
-- (~100)
-- wow
-- And your uncommon fishing rod
-- Preferably iron, since it's easiest
-- (find a fortress and salvage the doors)
-- (You need to craft a wooden fishing rod to unlock other recipes)
-- Now, go back to spawn with the lake
-- And fish until the rod's ruined
-- With the Fishmonger trait, you should have enough runes to salvage into runic shards and make a repair kit with your dowels + shards
-- Use the repair kit to repair the rod
-- Repeat that process
-- passing down anchient knowlage
-- You should slowly get enough extra runic shards to craft refined tools (25 shards)
-- Use them on the fishing rod
-- Continue fishing until the rod is [ruined] and repairing the rod by salvaging the runes
-- Make it artisan (50 shards)
-- Then start making your other equipment refined
-- And then artisan
-- secret knowlage here wow
-- You should also get a whole bunch of runes that are useful for you
-- Get a rune of curses and a rune of intoxication
-- And set them aside when you get them
-- Once you've got both, drop them in the same place and use /makespell or /ms
-- You will now have an arcane curse of intoxication
-- Fishmonger takes significantly reduced damage while intoxicated, so you can /selfcast 3 to give yourself an arcane curse of intoxication
-- The reason the element chosen is arcane is because very few entities use the arcane element
-- And curse spells increase damage taken from an element
-- The intoxication rune has to be on an attacking spell, since it's a negative effect
-- Basically You curse yourself with intoxication + increased arcane damage taken
-- i knew thats an exploit. i just thought i could use some vodka or smth :slight_smile:
-- But nothing really uses the arcane element so you only really get intoxication
-- Yes, you can use vodka and all other alcohol
-- so in summery fish fish fish curse fish fish fish and get POWA
-- Fishmonger has 2 spell slots, so you can make a second spell too
-- the intox debuff gives you +RES and +CHA
-- But once you have a bunch of booze and a tower shield then you are practically unkillable
-
-***** GATEKEEPER
-:PROPERTIES:
-:ID:       ac6a08a5-21e1-4c80-b933-1cf93bbc4045
-:END:
-Besiegement - Gatekeepers regenerate health after successfully blocking attacks
-with a shield, do not degrade their armor and shields with use, and have a
-higher than usual chance to block enemies attempting to flee.
-
-High Health, Good Constitution, Above Average Intelligence, Below Average Charisma, and 2 Spell Slots.
-
-Points required: 0
-
-****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
-
-Gatekeeper's are very good at protecting allies, making them very good at escort quests. Their Protect ability allows them to half all incoming damage dealt to an ally, at the cost of around 1/3 of your stamina. They automatically deflect projectiles aimed toward them, and their armor takes less durability damage from combat and wear-and-tear alike.
-
-Some good ways to effectively use Gatekeeper are:
-
-- Try and always keep a Silencing spell ready. Silencing enemies prevents them from spellcasting anything that hinders your ability to use Protect or any other spells.
-- Gatekeepers have Average Strength and Finesse at the start, so its up to you whether you want to use ranged or melee weapons.
-- Its also a good idea to keep meals/mixtures/dishes with either Strength or Finesse buffs on hand for temporary buffs.
-- Shields are very useful to Gatekeepers. With full armor and a shield that has Average or higher damage reduction, there is a chance that the Gatekeeper will be able to take about 2-3 hits without dealing direct damage to your Health.
-
-***** RAGAMUFFIN
-:PROPERTIES:
-:ID:       862790b8-b77b-4b52-b030-6c74751c373b
-:END:
-Sticky Fingers - Ragamuffins have an increased chance to steal successfully and
-can find a wider variety of items when stealing. If Ragamuffins have a free
-hand, they have a chance to steal weapons dodged while in an evasive stance.
-
-Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
-
-Points required: 0
-***** SOLDIER
-:PROPERTIES:
-:ID:       c810cb5a-ce5a-4114-be8a-ed40d2303a65
-:END:
-Dogged March - Soldiers regain twice as much health and stamina fom resting, and
-have a chance to completely resist physical damage. This resistance chance
-increases based on the number of hostile targets the Soldier can see.
-
-High Health, Good Strength, Above Average Constitution, Below Average Wisdom, and 1 Spell Slot.
-
-Points required: 0
-***** TOURIST
-:PROPERTIES:
-:ID:       d7b44fc1-80bf-4465-b242-f3d66b39d4b6
-:END:
-Sightseer - Tourists gain a small amount of health and mood when moving to a new
-area, can remember five times the normal number of waypoints, and do not use any
-stamina when traveling.
-
-Low Health, No Bonuses, and No Spell Slots.
-
-Points required: 0
-***** UNEMPLOYED
-:PROPERTIES:
-:ID:       6804726b-8552-4741-90bd-9fc7ee9b8521
-:END:
-Boundless Potential - The unemployed can type /setclass class name at any point
-to become any available profession. This ability is lost when a profession is
-chosen.
-
-Average Health, No Bonuses, and No Spell Slots.
-
-Points required: 0
-***** ADVENTURER
+**** ADVENTURER
 :PROPERTIES:
 :ID:       decc8ec4-1953-4d9f-beb9-a285f39dcd17
 :END:
@@ -975,66 +750,8 @@ completed.
 Average Health, No Bonuses, and 3 Spell Slots.
 
 Points required: 0
-**** 500+
-***** EQUESTRIAN
-Aggressive Dressage - While mounted, Equestrians have a chance to trample
-hostile targets when moving, jump twice as far/high, and move twice as fast as
-other mounted entities. Additionally, they can /mount animals without
-befriending them first.
 
-Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
-
-Points required: 500
-***** JESTER
-Comedic Balance - Jesters cannot be knocked prone, and attempts do so will cause
-the Jester to bounce back up, damaging enemies and restoring mood and stamina to
-allies. Additionally, Jesters recover from stumbling twice as fast and require
-no stamina to dance.
-
-Low Health, Good Dexterity, Above Average Charisma, Below Average Intelligence, and 3 Spell Slots.
-
-Points required: 500
-***** MERCHANT
-Rags to Riches - Merchants have a chance to recover materials spent during
-crafting, and have twice as much inventory space.
-
-Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
-
-Points required: 500
-**** 1000+
-***** PIT FIGHTER
-:PROPERTIES:
-:ID:       274939f8-30cd-4ad1-a4ed-df00502f2c32
-:END:
-Brawler - Pit Fighters are immune to being stunned, can inflict bleeding when
-attacking, and receive a large strength bonus when bleeding.
-
-Above Average Health, Good Constitution, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
-
-Points required: 1,000
-***** CHEF
-:PROPERTIES:
-:ID:       e928ac95-1021-4d50-b99c-6b3fa9752c93
-:END:
-Gastromancy - Chefs produce Dishes instead of Meals when cooking which provide
-stat bonuses for four times the duration of Meals, and grant an effect which
-fixes the eater's mood to max for an extended period.
-
-Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 5 Spell Slots.
-
-Points required: 1,000
-***** HOMESTEADER
-:PROPERTIES:
-:ID:       d8323263-fb4c-44a0-9c54-1145ca4761c0
-:END:
-Sunriser - Homesteaders gain a bonus to all stats during the morning, only need
-half as many materials to build structures, cause less damage to harvested
-plants, and produce roughly twice the amount of materials from butchering.
-
-Low Health, Good Constitution, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
-
-Points required: 1,000
-***** ALCHEMIST
+**** ALCHEMIST
 :PROPERTIES:
 :ID:       9553f41f-04d2-4950-b6c3-5c190ff64fbf
 :END:
@@ -1046,65 +763,52 @@ Mixtures at other entities will raise the relevant stats.
 Average Health, Good Insight, Above Average Resilience, Below Average Finesse, and 4 Spell Slots.
 
 Points required: 1,500
-***** POTTER
+**** ARTIFICER
 :PROPERTIES:
-:ID:       fc506e51-d980-4908-bc9a-60678a89cf40
+:ID:       8c10ec58-dd89-4e77-a3ec-aeb11df0f987
 :END:
-Earthen Bond - While standing on natural ground, Potters can craft clay items
-without expending materials.
+Spellgrafting - Artificers can infuse items with spell tomes and scrolls,
+allowing those items to cast the infused spell when struck or used to attack.
 
-Above Average Health, Good Constitution, Above Average Strength, Below Average Dexterity, and 1 Spell Slot.
+Average Health, Good Resilience, Above Average Insight, Below Average Strength, and No Spell Slots.
 
-Points required: 3,000
-
-**** 5000+
-***** JUGGERNAUT
+Points required: 9,500
+***** Artificer is really cool
 :PROPERTIES:
-:ID:       3da7d9a1-a66b-4cb4-821b-da820e3d9310
+:ID:       e556bc83-f520-448b-be45-ad6d774e9f59
 :END:
-Unstoppable - Juggernauts are immune to immobilization and force spells, deal
-twice as much damage to non-sentient objects, have a chance to knock down
-hostile targets when moving, and can smash through most doors.
+(discord)
+-  but no way am I grinding for all the runes I need to make the perfect 7 spells
+  - 7 perfect spells?
+  - 7 Water Arrows + 1 Rejuvenation (on weapon) + 2 Poison + 2 Burning + 2 Bleeding
 
-Average Health, Good Constitution, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
-
-Points required: 5,000
-***** GUNSLINGER
+**** BEEKEEPER
 :PROPERTIES:
-:ID:       dcc88517-709e-4470-a283-5be1fa5aecdf
+:ID:       73b8c4ce-7b45-4f83-9d50-bdd7af630c2b
 :END:
-Taegunsho - Gunslingers do not suffer damage penalties when attacking at close
-range with ranged weapons, and have an increased chance to dodge ranged attacks
-while airborne. Additionally, their ranged attacks have a chance to ricochet and
-hit a secondary hostile target.
+Ancient Resistance - Beekeepers gain a massive constitution bonus while
+poisoned, are immune to direct damage from insects, and gain a small amount of
+health from eating honey.
 
-Low Health, Good Dexterity, Above Average Intelligence, Below Average Wisdom, and 2 Spell Slots.
+Average Health, Good Resilience, Above Average Insight, Below Average Strength, and 2 Spell Slots.
 
-Points required: 5,000
-***** GAMESTALKER
+Points required: 10,000
+**** BLOODWEAVER
 :PROPERTIES:
-:ID:       d99baaa8-8166-4f14-bc5c-7aaaeb209ab0
+:ID:       2eadac90-fea9-4b15-a644-2796414d3889
 :END:
-Hawkeye - Gamestalkers do not suffer from accuracy dropoff when attacking at
-range, have a chance to immobilize targets when attacking at range, can
-accurately identify tracks in any weather condition, and can see targets twice
-as far away when outdoors.
+Bloodweavers have access to the Blood Pact spell which places a Sigil of Blood
+on a target. This sigil slowly grows in potency over time, dealing increased
+damage while increasing the power of the target. Casting Blood Pact on a target
+affected by Sigil of Blood will transfer the sigil to the caster while retaining
+its potency level. Casting Blood Pact on target while affected by Sigil of Blood
+will transfer the existing sigil to the target. Only one Sigil of Blood may be
+active at a time.
 
-Low Health, Good Dexterity, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
+Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 2 Spell Slots.
 
-Points required: 5,000
-***** EXECUTIONER
-:PROPERTIES:
-:ID:       6b4113ec-2284-4984-b5d1-30a3d20291b7
-:END:
-Soothslayer - Executioners deal bonus damage to targets who are stunned or
-prone, and their killing blows deal splash damage and knock adjacent targets to
-the ground.
-
-Average Health, Good Strength, Above Average Constitution, Below Average Dexterity, and 2 Spell Slots.
-
-Points required: 5,000
-***** BODYBUILDER
+Points required: 10,000
+**** BODYBUILDER
 :PROPERTIES:
 :ID:       9d1d06db-eeb8-4c2e-8418-2fcb86deb1e2
 :END:
@@ -1115,18 +819,7 @@ effects. They also receive a large charisma boost while not wearing anything.
 Above Average Health, Good Charm, Above Average Strength, Below Average Insight, and 2 Spell Slots.
 
 Points required: 5,000
-***** DUELIST
-:PROPERTIES:
-:ID:       b5533606-6e91-4eb8-b30a-822da337f73a
-:END:
-En Garde - Duelists deal bonus damage to unarmed targets, and their parries have
-a chance to disarm their target. Additionally, Duelists gain Truestrike after
-dodging an attack, meaning their next basic attack will not miss.
-
-Average Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
-
-Points required: 7,500
-***** BOTANIST
+**** BOTANIST
 :PROPERTIES:
 :ID:       3af0e12f-756f-4e1d-aa60-f35841f29543
 :END:
@@ -1141,7 +834,7 @@ familiar will kill the older familiar.
 Below Average Health, Good Insight, Above Average Strength, Below Average Resilience, and 2 Spell Slots.
 
 Points required: 8,500
-****** Botanist
+***** Botanist
 https://fara.fandom.com/wiki/Botanist
 
 Botanist is one of the interesting classes you can use in Fara, their unique
@@ -1204,76 +897,40 @@ cost you anything other than some few seeds and berries here and there.
 | Watchful | + all? |
 
 
-***** ARTIFICER
+**** CAT WHISPERER
 :PROPERTIES:
-:ID:       8c10ec58-dd89-4e77-a3ec-aeb11df0f987
+:ID:       f742c838-dba6-4124-b1c7-442d95bc9379
 :END:
-Spellgrafting - Artificers can infuse items with spell tomes and scrolls,
-allowing those items to cast the infused spell when struck or used to attack.
+Cat Person - While under attack, stray cats will occasionally come to the aid of
+Cat Whisperers. They can also talk to cats.
 
-Average Health, Good Resilience, Above Average Insight, Below Average Strength, and No Spell Slots.
+Below Average Health, Good Finesse, Above Average Resilience, Below Average Charm, and 3 Spell Slots.
 
-Points required: 9,500
-****** Artificer is really cool
+Points required: 0
+**** CHEF
 :PROPERTIES:
-:ID:       e556bc83-f520-448b-be45-ad6d774e9f59
+:ID:       e928ac95-1021-4d50-b99c-6b3fa9752c93
 :END:
-(discord)
--  but no way am I grinding for all the runes I need to make the perfect 7 spells
-  - 7 perfect spells?
-  - 7 Water Arrows + 1 Rejuvenation (on weapon) + 2 Poison + 2 Burning + 2 Bleeding
+Gastromancy - Chefs produce Dishes instead of Meals when cooking which provide
+stat bonuses for four times the duration of Meals, and grant an effect which
+fixes the eater's mood to max for an extended period.
 
-**** 10000+
-***** BEEKEEPER
+Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 5 Spell Slots.
+
+Points required: 1,000
+**** COMMANDER
 :PROPERTIES:
-:ID:       73b8c4ce-7b45-4f83-9d50-bdd7af630c2b
+:ID:       8d45ac8a-682a-4be9-bd2b-d119958c3ef9
 :END:
-Ancient Resistance - Beekeepers gain a massive constitution bonus while
-poisoned, are immune to direct damage from insects, and gain a small amount of
-health from eating honey.
+Galvanizer - Commanders Inspire allies around them, raising all of their
+stats. Additionally, Commander's moods never fall into negative values, they can
+have a maximum of 3 party members instead of 2, and they receive an intelligence
+bonus for every party member they can see.
 
-Average Health, Good Resilience, Above Average Insight, Below Average Strength, and 2 Spell Slots.
+Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
 
-Points required: 10,000
-***** BLOODWEAVER
-:PROPERTIES:
-:ID:       2eadac90-fea9-4b15-a644-2796414d3889
-:END:
-Bloodweavers have access to the Blood Pact spell which places a Sigil of Blood
-on a target. This sigil slowly grows in potency over time, dealing increased
-damage while increasing the power of the target. Casting Blood Pact on a target
-affected by Sigil of Blood will transfer the sigil to the caster while retaining
-its potency level. Casting Blood Pact on target while affected by Sigil of Blood
-will transfer the existing sigil to the target. Only one Sigil of Blood may be
-active at a time.
-
-Below Average Health, Good Insight, Above Average Charm, Below Average Resilience, and 2 Spell Slots.
-
-Points required: 10,000
-***** POLITICIAN
-:PROPERTIES:
-:ID:       be03780b-5bf1-45b4-9dfa-cad49c437b3b
-:END:
-Polarize - When a Politician speaks, entities hostile to them will become
-miserable, and other entities will become ecstatic. Additionally, Politicians
-can recruit mercenaries without giving them anything first, and gain/lose
-faction reputation at twice the normal rate.
-
-High Health, Good Charisma, Above Average Intelligence, Below Average Wisdom, and 3 Spell Slots.
-
-Points required: 10,000
-***** WITCH
-:PROPERTIES:
-:ID:       857e4318-e35f-48f1-ba26-7bfce3d684dc
-:END:
-Wicked Form - Witches make entities around them Uneasy, lowering all of their
-stats. Additionally, Witches cannot be poisoned, and can inflict poison with
-their basic attacks.
-
-Low Health, Good Wisdom, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
-
-Points required: 10,000
-***** DEMON SLAYER
+Points required: 75,000
+**** DEMON SLAYER
 :PROPERTIES:
 :ID:       2b375096-6f27-48d8-a6e0-16250aef963f
 :END:
@@ -1285,7 +942,7 @@ Low Health, Good Wisdom, Above Average Strength, Below Average Charisma, and 2 S
 
 Points required: 15,000
 
-****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 
 This class excels in melee combat due to Its Good Resilience and Above Average
 Strength/Health, which allows this class to take lots of damage while dealing
@@ -1304,41 +961,51 @@ Some good ways to effectively use Demon Slayer are:
   Finesse of you like, but keep battles up close at the beginning of your game.
 
 
-***** SCHOLAR
+**** DERVISH
 :PROPERTIES:
-:ID:       addf04e9-10bf-4d0e-9aa6-66c39a4b45e3
+:ID:       d36c42e1-ab8d-4e0f-b4c9-ce675dc06139
 :END:
-Gift of Knowledge - Scholars gain Insight after inspecting an unfamiliar object,
-temporarily increasing their strength, constitution, and charisma. Additionally,
-Scholars do not expend scrolls when casting spells from them.
+Dangerous Dance - The /dance of a Dervish damages all nearby targets, and has a
+chance to transfer negative conditions.
 
-Low Health, Good Intelligence, Above Average Wisdom, Below Average Strength, and 5 Spell Slots.
+Low Health, Good Dexterity, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
 
-Points required: 15,000
-**** 20000+
-***** PLAGUE DOCTOR
+Points required: 45,000
+
+**** DUELIST
 :PROPERTIES:
-:ID:       c9448ebc-3b00-4873-bc2b-66778f8e7fa8
+:ID:       b5533606-6e91-4eb8-b30a-822da337f73a
 :END:
-Epidemic - Any time a Plague Doctor receives a negative condition, they will
-immediately copy that condition to every hostile entity they can see.
+En Garde - Duelists deal bonus damage to unarmed targets, and their parries have
+a chance to disarm their target. Additionally, Duelists gain Truestrike after
+dodging an attack, meaning their next basic attack will not miss.
 
-Average Health, Good Wisdom, Above Average Strength, Below Average Strength, and 3 Spell Slots.
+Average Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
 
-Points required: 20,000
-***** HABERDASHER
+Points required: 7,500
+**** EARTH ZEALOT
 :PROPERTIES:
-:ID:       5bb5c46a-c305-483c-8f33-6a459a1f00bc
+:ID:       c8922dc7-8359-45d4-b06f-2ec7d718f15d
 :END:
-Hats on to Me - Haberdashers gain twice the stat bonuses from all worn hats,
-caps, hoods, and helms. Additionally, when a Haberdasher successfully pushes a
-target to the ground, they will instantly steal and don any headwear the target
-had. Haberdashers will also fly into a rage if a hat they possess is destroyed.
+Magnetic Slide - When Earth Zealots dance, they have a chance to produce tremors
+which can cause damage, grow plants, or change the weather. Additionally, they
+can cleanse most status effects on themselves by eating herbs.
 
-Average Health, Good Charisma, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
+Low Health, Good Wisdom, Above Average Charisma, Below Average Strength, and 3 Spell Slots.
 
-Points required: 20,000
-***** ENGINEER
+Points required: 0
+**** ELEMANCER
+:PROPERTIES:
+:ID:       cdabda6d-e11a-4087-93ee-cc060cff9cda
+:END:
+Arcane Prodigy - Elemancers have an increased chance to trigger elemental
+effects from weapons, and a chance to trigger the elemental effects from worn
+items as though they were weapons.
+
+Above Average Health, Good Constitution, Above Average Wisdom, Below Average Dexterity, and 2 Spell Slots.
+
+Points required: 35,000
+**** ENGINEER
 :PROPERTIES:
 :ID:       8f9cd97f-409f-4647-aa3b-58caae096b77
 :END:
@@ -1351,127 +1018,88 @@ without triggering them.
 Average Health, Good Intelligence, Above Average Dexterity, Below Average Charisma, and 1 Spell Slot.
 
 Points required: 25,000
-***** KUNG FU MASTER
+**** EQUESTRIAN
+Aggressive Dressage - While mounted, Equestrians have a chance to trample
+hostile targets when moving, jump twice as far/high, and move twice as fast as
+other mounted entities. Additionally, they can /mount animals without
+befriending them first.
+
+Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
+
+Points required: 500
+**** EXECUTIONER
 :PROPERTIES:
-:ID:       5c76d473-3bc6-49eb-a9cd-48e40befeacc
+:ID:       6b4113ec-2284-4984-b5d1-30a3d20291b7
 :END:
-Fluid Movement - While unarmed, Kung Fu Masters have a chance to redirect
-incoming attacks when in an evasive stance, reverse push attempts when in a
-defensive stance, and knock targets prone when in an offensive
-stance. Additionally, they cannot be interrupted or blocked while moving, and
-remain airborne after successfully hitting a target while jumping.
+Soothslayer - Executioners deal bonus damage to targets who are stunned or
+prone, and their killing blows deal splash damage and knock adjacent targets to
+the ground.
 
-Below Average Health, Good Dexterity, Above Average Strength, Below Average Constitution, and 2 Spell Slots.
+Average Health, Good Strength, Above Average Constitution, Below Average Dexterity, and 2 Spell Slots.
 
-Points required: 25,000
-***** REAPER
+Points required: 5,000
+**** FISHMONGER
 :PROPERTIES:
-:ID:       52ac3f5d-83c0-4850-9548-7d45a23c7524
+:ID:       4b457e17-859a-4f31-b0fd-709b35160ab7
 :END:
-Last Harvest - Reapers gain Deathsense when an entity near them is close to
-death, increasing their strength and intelligence. Additionally, Reapers gain
-health from delivering killing blows.
+Aquatic Inquisitor - Fishmongers cannot drown, have a higher chance to catch
+rare items while fishing, and have increased strength and dexterity while
+swimming, wet, or near water magic.
 
-Low Health, Good Dexterity, Above Average Wisdom, Below Average Strength, and 2 Spell Slots.
+Below Average Health, Good Wisdom, Above Average Intelligence, Below Average Dexterity, and 2 Spell Slots.
 
-Points required: 30,000
-
-****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
-Reaper is a very complex class to play. With low health and strength, its hard
-to get kills without learning spells. Some of the most important runes you will
-need are:
-
-- Rejuvenation, Fortification, Blinding, Silencing
-
-Another drawback is its ability 'Deathsense', which buffs strength and insight
-when a nearby entity is close to dying. With low strength to start out with,
-getting close and trying to melee is very hard, and can kill you nearly every
-time without the proper equipment. Having at least one healing spell is crucial
-to playing this class, as you will find out your health gets drained in a matter
-of a couple rounds.
-
-***** GAMBLER
+Points required: 0
+***** Fishmonger...
 :PROPERTIES:
-:ID:       a4d91ca6-06b1-440f-8c62-b9e5f2dacbfe
+:ID:       30e0adc4-5d08-4165-9d06-2b5166a16354
 :END:
-Luck of the Draw - Gamblers have access to the 'Gamble' spell. When cast, there
-is a 60% chance of giving your target a negative effect for 10 seconds, and a
-40% chance of giving yourself a negative effect for 5 seconds. Additionally,
-when Gamblers destroy a Small Chest, there is a 50% chance they will be rewarded
-with a Big Chest. If they destroy a Big Chest, there is a 25% chance they will
-be rewarded with a Grand Chest.
+- Fishmonger's really grindy if you want to do it
+- Get a whole lot of dowels
+- Waypoint your spawn area
+- Once you've got a huge amount of dowels
+- Get a crystal/iron/bronze fishing rod
+- Any uncommon tier fishing rod
+- Crafted with wooden blocks
+- Used for tools
+- So you've got your huge pile of dowels
+- (~100)
+- wow
+- And your uncommon fishing rod
+- Preferably iron, since it's easiest
+- (find a fortress and salvage the doors)
+- (You need to craft a wooden fishing rod to unlock other recipes)
+- Now, go back to spawn with the lake
+- And fish until the rod's ruined
+- With the Fishmonger trait, you should have enough runes to salvage into runic shards and make a repair kit with your dowels + shards
+- Use the repair kit to repair the rod
+- Repeat that process
+- passing down anchient knowlage
+- You should slowly get enough extra runic shards to craft refined tools (25 shards)
+- Use them on the fishing rod
+- Continue fishing until the rod is [ruined] and repairing the rod by salvaging the runes
+- Make it artisan (50 shards)
+- Then start making your other equipment refined
+- And then artisan
+- secret knowlage here wow
+- You should also get a whole bunch of runes that are useful for you
+- Get a rune of curses and a rune of intoxication
+- And set them aside when you get them
+- Once you've got both, drop them in the same place and use /makespell or /ms
+- You will now have an arcane curse of intoxication
+- Fishmonger takes significantly reduced damage while intoxicated, so you can /selfcast 3 to give yourself an arcane curse of intoxication
+- The reason the element chosen is arcane is because very few entities use the arcane element
+- And curse spells increase damage taken from an element
+- The intoxication rune has to be on an attacking spell, since it's a negative effect
+- Basically You curse yourself with intoxication + increased arcane damage taken
+- i knew thats an exploit. i just thought i could use some vodka or smth :slight_smile:
+- But nothing really uses the arcane element so you only really get intoxication
+- Yes, you can use vodka and all other alcohol
+- so in summery fish fish fish curse fish fish fish and get POWA
+- Fishmonger has 2 spell slots, so you can make a second spell too
+- the intox debuff gives you +RES and +CHA
+- But once you have a bunch of booze and a tower shield then you are practically unkillable
 
-High Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
-
-Points required: 30,000
-***** ELEMANCER
-:PROPERTIES:
-:ID:       cdabda6d-e11a-4087-93ee-cc060cff9cda
-:END:
-Arcane Prodigy - Elemancers have an increased chance to trigger elemental
-effects from weapons, and a chance to trigger the elemental effects from worn
-items as though they were weapons.
-
-Above Average Health, Good Constitution, Above Average Wisdom, Below Average Dexterity, and 2 Spell Slots.
-
-Points required: 35,000
-***** ILLUSIONIST
-:PROPERTIES:
-:ID:       265f843e-cbda-47e2-a111-94ced7c13701
-:END:
-Now You See Me - When damaged by a direct attack, Illusionists have a chance to
-immediately enter stealth for a short duration. Additionally, Illusionists will
-instantly detect illusions and disguises without fail.
-
-Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
-
-Points required: 40,000
-***** DERVISH
-:PROPERTIES:
-:ID:       d36c42e1-ab8d-4e0f-b4c9-ce675dc06139
-:END:
-Dangerous Dance - The /dance of a Dervish damages all nearby targets, and has a
-chance to transfer negative conditions.
-
-Low Health, Good Dexterity, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
-
-Points required: 45,000
-**** 50000+
-***** WRESTLER
-:PROPERTIES:
-:ID:       4ef09a04-cb96-4bd5-b7b1-42f42648daab
-:END:
-Muscle Spirit - Wrestlers can /carry hostile targets, deal increased damage with
-aerial strikes, have a higher chance to successfully push enemies to the ground,
-and do not receive any penalties while prone.
-
-Above Average Health, Good Strength, Above Average Charisma, Below Average Intelligence, and 1 Spell Slot.
-
-Points required: 50,000
-***** VIKING
-:PROPERTIES:
-:ID:       0cb53e50-1e01-4b54-9a03-76389c3e9bb7
-:END:
-Thunderous Resilience - Vikings gain godlike Constitution and Wisdom when they
-are near death. Additionally, headbutting or kicking enemies has a chance to
-summon a bolt of lightning which deals damage and sets random objects on
-fire. The chance of triggering a lightning bolt increases the closer the Viking
-is to death.
-
-Average Health, Good Strength, Above Average Constitution, Below Average Intelligence, and 1 Spell Slot.
-
-Points required: 60,000
-***** RIFT DANCER
-:PROPERTIES:
-:ID:       cc0d1f22-0ea0-4e3b-8b91-a2b547556a4e
-:END:
-Astral Calling - A Rift Dancer's attacks and spells have a chance to summon
-creatures from other planes.
-
-Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 1 Spell Slot.
-
-Points required: 50,000
-***** FORTUNE TELLER
+**** FORTUNE TELLER
 :PROPERTIES:
 :ID:       8628cbeb-d8c5-441c-8d6a-bbc70f63cf95
 :END:
@@ -1486,7 +1114,122 @@ Points required: 55,000
 If you really hate ambushers then the best class is probably Fortune Teller
 All sneak attacks against them fail; Hard counter to swiftshades
 
-***** KENSAI
+**** GAMBLER
+:PROPERTIES:
+:ID:       a4d91ca6-06b1-440f-8c62-b9e5f2dacbfe
+:END:
+Luck of the Draw - Gamblers have access to the 'Gamble' spell. When cast, there
+is a 60% chance of giving your target a negative effect for 10 seconds, and a
+40% chance of giving yourself a negative effect for 5 seconds. Additionally,
+when Gamblers destroy a Small Chest, there is a 50% chance they will be rewarded
+with a Big Chest. If they destroy a Big Chest, there is a 25% chance they will
+be rewarded with a Grand Chest.
+
+High Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
+
+Points required: 30,000
+**** GAMESTALKER
+:PROPERTIES:
+:ID:       d99baaa8-8166-4f14-bc5c-7aaaeb209ab0
+:END:
+Hawkeye - Gamestalkers do not suffer from accuracy dropoff when attacking at
+range, have a chance to immobilize targets when attacking at range, can
+accurately identify tracks in any weather condition, and can see targets twice
+as far away when outdoors.
+
+Low Health, Good Dexterity, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
+
+Points required: 5,000
+**** GATEKEEPER
+:PROPERTIES:
+:ID:       ac6a08a5-21e1-4c80-b933-1cf93bbc4045
+:END:
+Besiegement - Gatekeepers regenerate health after successfully blocking attacks
+with a shield, do not degrade their armor and shields with use, and have a
+higher than usual chance to block enemies attempting to flee.
+
+High Health, Good Constitution, Above Average Intelligence, Below Average Charisma, and 2 Spell Slots.
+
+Points required: 0
+
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+
+Gatekeeper's are very good at protecting allies, making them very good at escort quests. Their Protect ability allows them to half all incoming damage dealt to an ally, at the cost of around 1/3 of your stamina. They automatically deflect projectiles aimed toward them, and their armor takes less durability damage from combat and wear-and-tear alike.
+
+Some good ways to effectively use Gatekeeper are:
+
+- Try and always keep a Silencing spell ready. Silencing enemies prevents them from spellcasting anything that hinders your ability to use Protect or any other spells.
+- Gatekeepers have Average Strength and Finesse at the start, so its up to you whether you want to use ranged or melee weapons.
+- Its also a good idea to keep meals/mixtures/dishes with either Strength or Finesse buffs on hand for temporary buffs.
+- Shields are very useful to Gatekeepers. With full armor and a shield that has Average or higher damage reduction, there is a chance that the Gatekeeper will be able to take about 2-3 hits without dealing direct damage to your Health.
+
+**** GUNSLINGER
+:PROPERTIES:
+:ID:       dcc88517-709e-4470-a283-5be1fa5aecdf
+:END:
+Taegunsho - Gunslingers do not suffer damage penalties when attacking at close
+range with ranged weapons, and have an increased chance to dodge ranged attacks
+while airborne. Additionally, their ranged attacks have a chance to ricochet and
+hit a secondary hostile target.
+
+Low Health, Good Dexterity, Above Average Intelligence, Below Average Wisdom, and 2 Spell Slots.
+
+Points required: 5,000
+**** HABERDASHER
+:PROPERTIES:
+:ID:       5bb5c46a-c305-483c-8f33-6a459a1f00bc
+:END:
+Hats on to Me - Haberdashers gain twice the stat bonuses from all worn hats,
+caps, hoods, and helms. Additionally, when a Haberdasher successfully pushes a
+target to the ground, they will instantly steal and don any headwear the target
+had. Haberdashers will also fly into a rage if a hat they possess is destroyed.
+
+Average Health, Good Charisma, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
+
+Points required: 20,000
+**** HOMESTEADER
+:PROPERTIES:
+:ID:       d8323263-fb4c-44a0-9c54-1145ca4761c0
+:END:
+Sunriser - Homesteaders gain a bonus to all stats during the morning, only need
+half as many materials to build structures, cause less damage to harvested
+plants, and produce roughly twice the amount of materials from butchering.
+
+Low Health, Good Constitution, Above Average Strength, Below Average Charisma, and 2 Spell Slots.
+
+Points required: 1,000
+**** ILLUSIONIST
+:PROPERTIES:
+:ID:       265f843e-cbda-47e2-a111-94ced7c13701
+:END:
+Now You See Me - When damaged by a direct attack, Illusionists have a chance to
+immediately enter stealth for a short duration. Additionally, Illusionists will
+instantly detect illusions and disguises without fail.
+
+Average Health, Good Charisma, Above Average Dexterity, Below Average Strength, and 2 Spell Slots.
+
+Points required: 40,000
+**** JESTER
+Comedic Balance - Jesters cannot be knocked prone, and attempts do so will cause
+the Jester to bounce back up, damaging enemies and restoring mood and stamina to
+allies. Additionally, Jesters recover from stumbling twice as fast and require
+no stamina to dance.
+
+Low Health, Good Dexterity, Above Average Charisma, Below Average Intelligence, and 3 Spell Slots.
+
+Points required: 500
+**** JUGGERNAUT
+:PROPERTIES:
+:ID:       3da7d9a1-a66b-4cb4-821b-da820e3d9310
+:END:
+Unstoppable - Juggernauts are immune to immobilization and force spells, deal
+twice as much damage to non-sentient objects, have a chance to knock down
+hostile targets when moving, and can smash through most doors.
+
+Average Health, Good Constitution, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
+
+Points required: 5,000
+**** KENSAI
 :PROPERTIES:
 :ID:       29873241-9ede-4586-ab67-bade0704018f
 :END:
@@ -1500,7 +1243,7 @@ Average Health, Good Dexterity, Above Average Wisdom, Below Average Intelligence
 
 Points required: 60,000
 
-****** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
 Kensai's are good at quick damage dealing. Their 'Samurai Showdown' ability has
 a wide variety of uses, including the ability to practically teleport to an area
 in an instant. Depending on how you want to play Kensai, the class is very
@@ -1521,8 +1264,81 @@ Some good ways to play Kensai are:
 - The Fury you get after dashing through an enemy boosts your critical damage,
   so it's a good idea to have either a light or an illumination spell to
   guarantee a critical hit.
+**** KUNG FU MASTER
+:PROPERTIES:
+:ID:       5c76d473-3bc6-49eb-a9cd-48e40befeacc
+:END:
+Fluid Movement - While unarmed, Kung Fu Masters have a chance to redirect
+incoming attacks when in an evasive stance, reverse push attempts when in a
+defensive stance, and knock targets prone when in an offensive
+stance. Additionally, they cannot be interrupted or blocked while moving, and
+remain airborne after successfully hitting a target while jumping.
 
-***** PUGILIST
+Below Average Health, Good Dexterity, Above Average Strength, Below Average Constitution, and 2 Spell Slots.
+
+Points required: 25,000
+**** MAD SCIENTIST
+:PROPERTIES:
+:ID:       78b7ae2b-4359-48bd-b127-a6973daa857f
+:END:
+Gone Too Far - Mad Scientists have access to the Animate spell which brings
+non-sentient objects they've created to life.
+
+Low Health, Good Intelligence, Above Average Charisma, Below Average Wisdom, and 2 Spell Slots.
+
+Points required: 95,000
+**** MERCHANT
+Rags to Riches - Merchants have a chance to recover materials spent during
+crafting, and have twice as much inventory space.
+
+Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
+
+Points required: 500
+
+**** PIT FIGHTER
+:PROPERTIES:
+:ID:       274939f8-30cd-4ad1-a4ed-df00502f2c32
+:END:
+Brawler - Pit Fighters are immune to being stunned, can inflict bleeding when
+attacking, and receive a large strength bonus when bleeding.
+
+Above Average Health, Good Constitution, Above Average Strength, Below Average Intelligence, and 2 Spell Slots.
+
+Points required: 1,000
+**** PLAGUE DOCTOR
+:PROPERTIES:
+:ID:       c9448ebc-3b00-4873-bc2b-66778f8e7fa8
+:END:
+Epidemic - Any time a Plague Doctor receives a negative condition, they will
+immediately copy that condition to every hostile entity they can see.
+
+Average Health, Good Wisdom, Above Average Strength, Below Average Strength, and 3 Spell Slots.
+
+Points required: 20,000
+**** POLITICIAN
+:PROPERTIES:
+:ID:       be03780b-5bf1-45b4-9dfa-cad49c437b3b
+:END:
+Polarize - When a Politician speaks, entities hostile to them will become
+miserable, and other entities will become ecstatic. Additionally, Politicians
+can recruit mercenaries without giving them anything first, and gain/lose
+faction reputation at twice the normal rate.
+
+High Health, Good Charisma, Above Average Intelligence, Below Average Wisdom, and 3 Spell Slots.
+
+Points required: 10,000
+**** POTTER
+:PROPERTIES:
+:ID:       fc506e51-d980-4908-bc9a-60678a89cf40
+:END:
+Earthen Bond - While standing on natural ground, Potters can craft clay items
+without expending materials.
+
+Above Average Health, Good Constitution, Above Average Strength, Below Average Dexterity, and 1 Spell Slot.
+
+Points required: 3,000
+
+**** PUGILIST
 :PROPERTIES:
 :ID:       48feb81b-3f6d-4701-9c45-2f3a9f07eb66
 :END:
@@ -1537,7 +1353,7 @@ Above Average Health, Good Strength, Above Average Dexterity, Below Average Wisd
 
 Points required: 65,000
 
-****** Ent's Perfect Pugilist:
+***** Ent's Perfect Pugilist:
 :PROPERTIES:
 :ID:       bbceb891-b0d6-437f-9b70-8adafecf9be2
 :END:
@@ -1552,62 +1368,44 @@ Points required: 65,000
   - Gets you maxed FIN, RES, and STR, as well as Good CHA and Great INS, if I
     remember those last two correctly, as well as High DR and as good Attunements
     as you'll get without being an Elemancer and max inventory size
-***** SCOUNDREL
+**** RAGAMUFFIN
 :PROPERTIES:
-:ID:       a03b70c8-88c6-48ae-ae63-9e2dce328004
+:ID:       862790b8-b77b-4b52-b030-6c74751c373b
 :END:
-Devious Plot - Traps set by Scoundrels cannot be detected, and have a high
-chance to deal additional damage and stun their target(s) when triggered.
+Sticky Fingers - Ragamuffins have an increased chance to steal successfully and
+can find a wider variety of items when stealing. If Ragamuffins have a free
+hand, they have a chance to steal weapons dodged while in an evasive stance.
 
-Average Health, Good Intelligence, Above Average Charisma, Below Average Constitution, and 3 Spell Slots.
+Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 2 Spell Slots.
 
-Points required: 70,000
-***** COMMANDER
+Points required: 0
+**** REAPER
 :PROPERTIES:
-:ID:       8d45ac8a-682a-4be9-bd2b-d119958c3ef9
+:ID:       52ac3f5d-83c0-4850-9548-7d45a23c7524
 :END:
-Galvanizer - Commanders Inspire allies around them, raising all of their
-stats. Additionally, Commander's moods never fall into negative values, they can
-have a maximum of 3 party members instead of 2, and they receive an intelligence
-bonus for every party member they can see.
+Last Harvest - Reapers gain Deathsense when an entity near them is close to
+death, increasing their strength and intelligence. Additionally, Reapers gain
+health from delivering killing blows.
 
-Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
+Low Health, Good Dexterity, Above Average Wisdom, Below Average Strength, and 2 Spell Slots.
 
-Points required: 75,000
-***** MAD SCIENTIST
-:PROPERTIES:
-:ID:       78b7ae2b-4359-48bd-b127-a6973daa857f
-:END:
-Gone Too Far - Mad Scientists have access to the Animate spell which brings
-non-sentient objects they've created to life.
+Points required: 30,000
 
-Low Health, Good Intelligence, Above Average Charisma, Below Average Wisdom, and 2 Spell Slots.
+***** [[https://fara.fandom.com/wiki/Class_Tips][Tips from the Wiki]]
+Reaper is a very complex class to play. With low health and strength, its hard
+to get kills without learning spells. Some of the most important runes you will
+need are:
 
-Points required: 95,000
-***** WILDHEART
-:PROPERTIES:
-:ID:       e32d6830-3a2c-4ea9-9566-9087563104a9
-:END:
-Killer Instincts - Wildhearts heal nearby animal companions when attacking, and
-gain stamina whenever a nearby animal ally attacks. Killing blows made against
-animal allies will damage the Wildheart and send them into a rage for a short
-duration. Additionally, Wildhearts gain Truestrike when a hostile target is
-knocked prone.
+- Rejuvenation, Fortification, Blinding, Silencing
 
-Average Health, Good Wisdom, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
+Another drawback is its ability 'Deathsense', which buffs strength and insight
+when a nearby entity is close to dying. With low strength to start out with,
+getting close and trying to melee is very hard, and can kill you nearly every
+time without the proper equipment. Having at least one healing spell is crucial
+to playing this class, as you will find out your health gets drained in a matter
+of a couple rounds.
 
-Points required: 100,000
-***** SPELLTHIEF
-:PROPERTIES:
-:ID:       96c417c1-e299-4a16-84d5-70432003922e
-:END:
-Intellectual Forgery - Spellthieves learn any spell they are directly hit by,
-and gain stamina when damaged by magic.
-
-Below Average Health, Good Wisdom, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
-
-Points required: 100,000
-***** RHAPSODIST
+**** RHAPSODIST
 :PROPERTIES:
 :ID:       f3554efe-3636-41a2-aabd-b90200c65ca9
 :END:
@@ -1619,7 +1417,7 @@ different effects.
 Above Average Health, Good Charisma, Above Average Wisdom, Below Average Constitution, and No Spell Slots.
 
 Points required: 100,000
-****** More about the known songs
+***** More about the known songs
 The Rhapsodist is a class in FARA with a very unique play style.
 - Whenever the Rhapsodist attacks, it plays a note.
 - The note is dependent if the attack is a normal or a Heavy.
@@ -1652,7 +1450,7 @@ The attacks don't have to be consecutive, and only the last one has to hit a tar
 For example: you can hit the air three times, travel to another tile,
 wait for a full day and even rest and you will complete the song on
 your next valid attack (as of 0.0.15.18b)
-****** Note
+***** Note
 
 Apparently the spellthief's special spell can't be cast through the /spells
 window, it has to be manually casted through the command prompt atm
@@ -1660,44 +1458,266 @@ window, it has to be manually casted through the command prompt atm
 But if you type "/cast 3" in the command prompt it should work. Another thing to
 consider is that you can't copy innate abilities (like grasping earth from
 legendary beasts.)
+**** RIFT DANCER
+:PROPERTIES:
+:ID:       cc0d1f22-0ea0-4e3b-8b91-a2b547556a4e
+:END:
+Astral Calling - A Rift Dancer's attacks and spells have a chance to summon
+creatures from other planes.
+
+Low Health, Good Dexterity, Above Average Charisma, Below Average Constitution, and 1 Spell Slot.
+
+Points required: 50,000
+**** SCHOLAR
+:PROPERTIES:
+:ID:       addf04e9-10bf-4d0e-9aa6-66c39a4b45e3
+:END:
+Gift of Knowledge - Scholars gain Insight after inspecting an unfamiliar object,
+temporarily increasing their strength, constitution, and charisma. Additionally,
+Scholars do not expend scrolls when casting spells from them.
+
+Low Health, Good Intelligence, Above Average Wisdom, Below Average Strength, and 5 Spell Slots.
+
+Points required: 15,000
+
+**** SCOUNDREL
+:PROPERTIES:
+:ID:       a03b70c8-88c6-48ae-ae63-9e2dce328004
+:END:
+Devious Plot - Traps set by Scoundrels cannot be detected, and have a high
+chance to deal additional damage and stun their target(s) when triggered.
+
+Average Health, Good Intelligence, Above Average Charisma, Below Average Constitution, and 3 Spell Slots.
+
+Points required: 70,000
+**** SOLDIER
+:PROPERTIES:
+:ID:       c810cb5a-ce5a-4114-be8a-ed40d2303a65
+:END:
+Dogged March - Soldiers regain twice as much health and stamina fom resting, and
+have a chance to completely resist physical damage. This resistance chance
+increases based on the number of hostile targets the Soldier can see.
+
+High Health, Good Strength, Above Average Constitution, Below Average Wisdom, and 1 Spell Slot.
+
+Points required: 0
+**** SPELLTHIEF
+:PROPERTIES:
+:ID:       96c417c1-e299-4a16-84d5-70432003922e
+:END:
+Intellectual Forgery - Spellthieves learn any spell they are directly hit by,
+and gain stamina when damaged by magic.
+
+Below Average Health, Good Wisdom, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
+
+Points required: 100,000
+**** TOURIST
+:PROPERTIES:
+:ID:       d7b44fc1-80bf-4465-b242-f3d66b39d4b6
+:END:
+Sightseer - Tourists gain a small amount of health and mood when moving to a new
+area, can remember five times the normal number of waypoints, and do not use any
+stamina when traveling.
+
+Low Health, No Bonuses, and No Spell Slots.
+
+Points required: 0
+**** UNEMPLOYED
+:PROPERTIES:
+:ID:       6804726b-8552-4741-90bd-9fc7ee9b8521
+:END:
+Boundless Potential - The unemployed can type /setclass class name at any point
+to become any available profession. This ability is lost when a profession is
+chosen.
+
+Average Health, No Bonuses, and No Spell Slots.
+
+Points required: 0
+**** VIKING
+:PROPERTIES:
+:ID:       0cb53e50-1e01-4b54-9a03-76389c3e9bb7
+:END:
+Thunderous Resilience - Vikings gain godlike Constitution and Wisdom when they
+are near death. Additionally, headbutting or kicking enemies has a chance to
+summon a bolt of lightning which deals damage and sets random objects on
+fire. The chance of triggering a lightning bolt increases the closer the Viking
+is to death.
+
+Average Health, Good Strength, Above Average Constitution, Below Average Intelligence, and 1 Spell Slot.
+
+Points required: 60,000
+
+**** WILDHEART
+:PROPERTIES:
+:ID:       e32d6830-3a2c-4ea9-9566-9087563104a9
+:END:
+Killer Instincts - Wildhearts heal nearby animal companions when attacking, and
+gain stamina whenever a nearby animal ally attacks. Killing blows made against
+animal allies will damage the Wildheart and send them into a rage for a short
+duration. Additionally, Wildhearts gain Truestrike when a hostile target is
+knocked prone.
+
+Average Health, Good Wisdom, Above Average Dexterity, Below Average Intelligence, and 2 Spell Slots.
+
+Points required: 100,000
+**** WITCH
+:PROPERTIES:
+:ID:       857e4318-e35f-48f1-ba26-7bfce3d684dc
+:END:
+Wicked Form - Witches make entities around them Uneasy, lowering all of their
+stats. Additionally, Witches cannot be poisoned, and can inflict poison with
+their basic attacks.
+
+Low Health, Good Wisdom, Above Average Intelligence, Below Average Strength, and 3 Spell Slots.
+
+Points required: 10,000
+**** WRESTLER
+:PROPERTIES:
+:ID:       4ef09a04-cb96-4bd5-b7b1-42f42648daab
+:END:
+Muscle Spirit - Wrestlers can /carry hostile targets, deal increased damage with
+aerial strikes, have a higher chance to successfully push enemies to the ground,
+and do not receive any penalties while prone.
+
+Above Average Health, Good Strength, Above Average Charisma, Below Average Intelligence, and 1 Spell Slot.
+
+Points required: 50,000
+*** Summary by # Spells
+
+*WORK IN PROGRESS -- Updating 
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| Class          | Points | Class-Trait           | Spells | Health | Good         | Avg+         | Avg-         |     |
+|                |    <r> |                       | <c>    | <c>    | <c>          | <c>          | <c>          |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[CHEF][Chef]]           |     1k | Gastromancy           | 5      | Avg-   | Insight      | Charm        | Resilience   |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ALCHEMIST][Alchemist]]      |     1k | Potent Potioner       | 4      | /avg/  | Insight      | Resilience   | Finesse      |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ADVENTURER][Adventurer]]     |   /na/ | Onward!               | 3      | /avg/  | /none/       | /none/       | /none/       |     |
+| [[CAT WHISPERER][Cat Whisperer]]  |   /na/ | Cat Person            | 3      | Avg-   | Finesse      | Resilience   | Charm        |     |
+| [[COMMANDER][Commander]]      |    75k | Galvanizer            | 3      | Low    | Charisma     | Intelligence | Dexterity    |     |
+| [[EARTH ZEALOT][Earth Zealot]]   |   /na/ | Magnetic Slide        | 3      | Low    | Wisdom       | Charisma     | Strength     |     |
+| [[EQUESTRIAN][Equestrian]]     |    500 | Brawler               | 3      | /avg/  | Charisma     | Dexterity    | Strength     |     |
+| [[FORTUNE TELLER][Fortune Teller]] |    55k | Foresight             | 3      | Low    | Wisdom       | Charisma     | Constitution |     |
+| [[HABERDASHER][Haberdasher]]    |    20k | Hats on to Me         | 3      | /avg/  | Charisma     | Intelligence | Strength     |     |
+| [[JESTER][Jester]]         |    500 | Comedic Balance       | 3      | Low    | Dexterity    | Charisma     | Intelligence |     |
+| [[MERCHANT][Merchant]]       |    500 | Rags to Riches        | 3      | Low    | Charisma     | Intelligence | Dexterity    |     |
+| [[PLAGUE DOCTOR][Plague Doctor]]  |    20k | Epidemic              | 3      | /avg/  | Wisdom       | Strength     | Strength     |     |
+| [[POLITICIAN][Politician]]     |    10k | Polarize              | 3      | High   | Charisma     | Intelligence | Wisdom       |     |
+| [[SCHOLAR][Scholar]]        |    15k | Gift of Knowledge     | 3      | Low    | Intelligence | Wisdom       | Strength     |     |
+| [[SCOUNDREL][Scoundrel]]      |    70k | Devious Plot          | 3      | /avg/  | Intelligence | Charisma     | Constitution |     |
+| [[SPELLTHIEF][Spellthief]]     |   100k | Intellectual Forgery  | 3      | Avg-   | Insight      | Finesse      | Strength     | ok? |
+| [[WITCH][Witch]]          |    10k | Wicked Form           | 3      | Low    | Wisdom       | Intelligence | Strength     |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[BEEKEEPER][Beekeeper]]      |    10k | Ancient Resistance    | 2      | /avg/  | Resilience   | Insight      | Strength     |     |
+| [[BLOODWEAVER][Bloodweaver]]    |    10k | Blood Pact            | 2      | Avg-   | Insight      | Charm        | Resilience   |     |
+| [[BODYBUILDER][Bodybuilder]]    |     5k | Solar Flexus          | 2      | Avg+   | Charm        | Strength     | Insight      |     |
+| [[BOTANIST][Botanist]]       |  8,500 | Familiar Phytology    | 2      | Avg-   | Insight      | Strength     | Resilience   |     |
+| [[DEMON SLAYER][Demon Slayer]]   |    15k | Know Thy Foe          | 2      | Low    | Wisdom       | Strength     | Charisma     |     |
+| [[DERVISH][Dervish]]        |    45k | Dangerous Dance       | 2      | Low    | Dexterity    | Strength     | Intelligence |     |
+| [[DUELIST][Duelist]]        |  7,500 | En Garde              | 2      | /avg/  | Dexterity    | Charisma     | Constitution |     |
+| [[ELEMANCER][Elemancer]]      |    35k | Arcane Prodigy        | 2      | Avg+   | Constitution | Wisdom       | Dexterity    |     |
+| [[EXECUTIONER][Executioner]]    |     5k | Soothslayer           | 2      | /avg/  | Strength     | Constitution | Dexterity    |     |
+| [[FISHMONGER][Fishmonger]]     |   /na/ | Aquatic Inquisitor    | 2      | Avg-   | Wisdom       | Intelligence | Dexterity    |     |
+| [[GAMBLER][Gambler]]        |    30k | Luck of the Draw      | 2      | High   | Charisma     | Dexterity    | Strength     |     |
+| [[GAMESTALKER][Gamestalker]]    |     5k | Hawkeye               | 2      | Low    | Dexterity    | Strength     | Charisma     |     |
+| [[GATEKEEPER][Gatekeeper]]     |   /na/ | Besiegement           | 2      | High   | Resilience   | Insight      | Charisma     |     |
+| [[GUNSLINGER][Gunslinger]]     |     5k | Taegunsho             | 2      | Low    | Dexterity    | Intelligence | Strength     | ok  |
+| [[HOMESTEADER][Homesteader]]    |     1k | Sunriser              | 2      | Low    | Resilience   | Strength     | Charisma     | ok  |
+| [[ILLUSIONIST][Illusionist]]    |    40k | Now You See Me        | 2      | /avg/  | Charisma     | Dexterity    | Strength     |     |
+| [[JUGGERNAUT][Juggernaut]]     |     5k | Unstoppable           | 2      | /avg/  | Constitution | Dexterity    | Intelligence |     |
+| [[KENSAI][Kensai]]         |    60k | Samurai Showdown      | 2      | /avg/  | Dexterity    | Wisdom       | Intelligence |     |
+| [[KUNG FU MASTER][Kung Fu Master]] |    25k | Fluid Movement        | 2      | Avg-   | Dexterity    | Strength     | Constitution |     |
+| [[MAD SCIENTIST][Mad Scientist]]  |    95k | Gone Too Far          | 2      | Low    | Intelligence | Charisma     | Wisdom       |     |
+| [[PIT FIGHTER][Pit Fighter]]    |     1k | Brawler               | 2      | Avg+   | Resilience   | Strength     | Insight      | ok  |
+| [[RAGAMUFFIN][Ragamuffin]]     |   /na/ | Sticky Fingers        | 2      | Low    | Dexterity    | Charisma     | Constitution |     |
+| [[REAPER][Reaper]]         |    30k | Last Harvest          | 2      | Low    | Dexterity    | Wisdom       | Strength     |     |
+| [[WILDHEART][Wildheart]]      |   100k | Killer Instincts      | 2      | /avg/  | Wisdom       | Dexterity    | Intelligence |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ENGINEER][Engineer]]       |    25k | Fixer Upper           | 1      | /avg/  | Intelligence | Dexterity    | Charisma     |     |
+| [[POTTER][Potter]]         |     1k | Earthen Bond          | 1      | Avg+   | Constitution | Strength     | Dexterity    |     |
+| [[PUGILIST][Pugilist]]       |    65k | The Greatest          | 1      | Avg+   | Strength     | Finesse      | Insight      | ok  |
+| [[RIFT DANCER][Rift Dancer]]    |    50k | Astral Calling        | 1      | Low    | Dexterity    | Charisma     | Constitution |     |
+| [[SOLDIER][Soldier]]        |   /na/ | Dogged March          | 1      | High   | Strength     | Constitution | Wisdom       |     |
+| [[VIKING][Viking]]         |    60k | Thunderous Resilience | 1      | /avg/  | Strength     | Constitution | Intelligence |     |
+| [[WRESTLER][Wrestler]]       |    50k | Muscle Spirit         | 1      | Avg+   | Strength     | Charisma     | Intelligence |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+| [[ARTIFICER][Artificer]]      |  9.500 | Spellgrafting         | /none/ | /avg/  | Resilience   | Insight      | Strength     |     |
+| [[RHAPSODIST][Rhapsodist]]     |   100k | Captivating Crescendo | /none/ | Avg+   | Charisma     | Wisdom       | Constitution |     |
+| [[TOURIST][Tourist]]        |   /na/ | Sightseer             | /none/ | Low    | /none/       | /none/       | /none/       |     |
+| [[UNEMPLOYED][Unemployed]]     |   /na/ | Boundless Potential   | /none/ | /avg/  | /none/       | /none/       | /none/       |     |
+|----------------+--------+-----------------------+--------+--------+--------------+--------------+--------------+-----|
+
+
+*** Summary by Good Attribute
+*** Summary by Avg+ Attribute
+*** Summary by Avg- Attribute
 
 ** Damage Types
 
-There are eight types of damage in FARA.
+There are *four kinds of attack* in FARA. These come as *two classes* and are
+listed here.
 
-Physical attacks are countered by "Damage Reduction" provided those held shield
-items in combination with Resilience and Strength, i suppose.
+To be clarified and added: all the ways in which these can be applied.
 
-Magical attacks are countered by your elemental attunement which is enhanced by
-your Insight? and a shield spell. Did I get that right?
+There are *eight types of damage* in FARA. The six [[Elements & Element combinations][Elemental Damage Types]]
+have their own section since they are variations on these two themes.
+
+All damage taken can be lowered through the "Damage Reduction" provided through 
+a shield and the Gatekeeper's innate 'Protect' ability.
+
+Further, elemental damage is reduced by Insight and how well attuned your
+magical shield, class- buffs (need info!) and (innate?) acquired Traits such as
+the .. of the .. faction make you.
+
+Its worth noting that being sleepy and in a bad mood has serious consequences. You 
+loose (~?) 6 stat points in all your attributes from such an combo when you go out
+and party in such a condition. 
 
 *** Physical
 
+Physical damage scales with [[Strength][Strength]]/[[Finesse][Finesse]].
+
 + Elemental Effects on hard-attacks.
-- melee
+- Melee/Strength
   - slashing, bludgeoning, and piercing,
   - (see Radiant hand trait if you're looking for physical resistances)
-- ranged 
+- Ranged/Finesse
 
-Elemental runes on your weapon give you a bonus and weaken your target.
+Elemental runes on your weapon give you a bonus *and* weaken your target.
 
 If you have more than one elemental rune on your weapon, then they will
 alternate with each hard attack you make.
 
-FARA canon seems to be to use a single water-rune on your weapon and nothing
-else since a little bit of extra water-attunement will make your rejuvenating
-healing spell work ever so much better for you -- and of course weaken your
-foe's water/healing attunement as well.
+FARA canon suggests usinng a single water-rune on your melee weapon and nothing
+else -- since the extra water-attunement will make your rejuvenating healing
+spell work better for you -- and of course weaken a foe's healing potential as
+well.
 
-*** Magical
+**** Bludgeoning
+includes falling down a Hole.
+
+**** Cutting
+includes getting rushed by a [[KENSAI][Kensai]].
+
+**** Piercing
+includes getting stung by Bees.
+
+
+*** Magical/Arcane
+
+Magical damage (ranged elemental and arcane) scales with [[Insight][Insight]].
+
 .. and then there is Arcane, an untyped damage belonging to no element at all.
-Mobs don't seem to use it nor do they appear to have resistance against it.
-If you feel like doing without the elemental effects, think 'arcane'.
 
-if you use an arcane shield or other rare arcane infused elements you do more
-damage and resist arcane spells
+Mobs don't seem to use it nor do they appear to have resistance against it. 
+If you feel like doing without the elemental effects, think 'Arcane'.
 
-*** Elemental
+If you use an Arcane Shield (or other arcane infused items) you do more
+damage? and resist arcane spells.
+
+
+** Elements & Element combinations
 
 - 6 pure
   - (+ arcane in the absence of elements, right? makes it 7 pure types.)
@@ -1731,8 +1751,7 @@ The exact word used might vary between the spells and gear, for example:
 | Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
 |------------+-------------------+----------------------+---------|
 
-(orig)
-https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557
+[[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557][(original link)]]
 
 - zapped the mirrored half because confusing
 - i copied the spreadsheet, completed with the aid of the good people on discord.
@@ -1821,21 +1840,6 @@ a piece of fruit to regain stamina, but tastes vary oc.
 |--------------+----------|
 
 - Climbing does not extend the light's circle. 
-
-*** Musical Instruments
-Drum,
-Flute,
-Guitar,
-Harp,
-Lute,
-Organ,
-Piano,
-Tambourine,
-Triangle &
-Violin 
-demand that an unopened stables in a good location be made into an orchestra pit!
-
-- Forgot to note their sizes. 
 
 *** Riding, Fishing, Digging, Mining
 |-------------+--------------------------------------------|
@@ -1978,7 +1982,7 @@ Whats missing?
 | Specialities   |            |                 |  0.1 |
 |----------------+------------+-----------------+------|
 
-- Don't forget there are 6 more prefixes used with [[When Elementally Flamed (++)][Elemental Buffs]]!
+- Don't forget there are 6 more prefixes used with [[Elementally Flamed][Elemental Buffs]]!
 
 - Anything with Fishbones always? produces inedible 'questionable' outcomes.
 
@@ -2212,7 +2216,7 @@ More research needed.
 | Load of Bread | Instant Satiation without nourishment. Right. |
 |---------------+-----------------------------------------------|
 
-*** When Elementally Flamed (++)
+*** Elementally Flamed
 
 As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
 up a storm, why not try frying up some runes? What's the worst that could
@@ -2232,7 +2236,7 @@ By the power of magic..
 |---------+---------|
 
 When you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [[Elemental][Elemental Combos]] applied to your Meals, with the last infused element
+used for [[Elements & Element combinations][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 *** Stamina
 
@@ -2318,6 +2322,21 @@ into a sensible homesteader's base eludes me still!
 - Does anyone feel like making up a color-scheme for a living space?
 
 and what about Cages? do they have a use?
+
+*** Musical Instruments
+Drum,
+Flute,
+Guitar,
+Harp,
+Lute,
+Organ,
+Piano,
+Tambourine,
+Triangle &
+Violin 
+demand that an unopened stables in a good location be made into an orchestra pit!
+
+- Forgot to note their sizes. 
 
 *** Other
 :PROPERTIES:
@@ -2732,7 +2751,7 @@ break the line of sight against what will inevitably be small groups of often st
 casters coming after you here.
 
 - stealth-clustered magic attackers and friends all appear to use the same element!
-- bring some [[When Elementally Flamed (++)][elemental foods]] for yourself and your team, and of course a beverage!
+- bring some [[Elementally Flamed][elemental foods]] for yourself and your team, and of course a beverage!
 - getting the Big Chest from the local mini boss doesnt mean you're safe!
 - move to the edge if dashing to the next blg will leave you exhausted!
 - use stealth, enter, drop building, move to cover!
@@ -3615,6 +3634,9 @@ Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1
 
 *** Melee
 
+Melee Weapon are usually used by [[Strength][Strength based]] characters in close combat, but
+several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] one of 5!
+
 I suppose that all of these weapons can be thrown at opponents to damage them.
 
 **** Types
@@ -3708,7 +3730,7 @@ These have a range of 2 steps:
 | Sickle              | Restores a bit of health based on insight |    2 |
 |---------------------+-------------------------------------------+------|
 
-- The Grappling Hook has a range of 5. The other weapons are for close-quarters.
+- The *Grappling Hook has a range of 5*. The other weapons are for close-quarters.
   - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
 
 **** Composite Melee Weapons
@@ -3736,6 +3758,10 @@ Enhance the final product, not the individual pieces.
 
 *** Magical
 
+Magical Weapons are usually used by [[Insight][Insight based]] characters in ranged combat,
+but there's no downside to [[Bludgeoning][bashing]] your opponents with them either, you just
+won't have any useful heavy-attack effects available to you in that situation.
+
 |----------------------------+--------------------|
 | Foci/wands/staffs/scepters | halve casting time |
 |----------------------------+--------------------|
@@ -3760,8 +3786,15 @@ Enhance the final product, not the individual pieces.
 
 *** Ranged
 
+Ranged Weapon are usually used by [[Finesse][Finesse based]] characters in ranged combat, but
+there's no downside to bashing your opponents with your ranged weapon, you're
+just switching from a [[Piercing][piercing]] (Chakram/[[Cutting][cutting?]]) to a [[Bludgeoning][bludgeoning]] attack while
+giving up the heavy-attack effects so useful with [[Melee][Melee Weaponry]].
+
+
 The material used for ammo contributes to damage and the chance for it to break
-on impact. (can one retrieve stones and darts or arrow? or just thrown weapons?)
+on impact. I've not tried that; Is this old info? Can one retrieve stones and
+darts or arrow? or just weapons/objects you've thrown? (throw a size 9 [[Musical Instruments][Organ]]?)
 
 |----------------+------------------------------------------------------------------|
 | Bows           | Have a chance to not break stealth                               |
@@ -3814,6 +3847,9 @@ The Sling and likely all thrown weapons, can also use Strength.
 Attack speed was removed, now each attack takes one turn regardless of
 weapon - likely making quivers and bandoliers (which gave the speed boni)
 largely cosmetic/flair items. (I saw something about that. need to check!)
+
+**** Throwing
+Needs research, but could be it own section.
 
 *** Astral
 These exist. Noone will talk about them except to tell you that their bonuses
