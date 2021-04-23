@@ -1652,6 +1652,14 @@ The attacks don't have to be consecutive, and only the last one has to hit a tar
 For example: you can hit the air three times, travel to another tile,
 wait for a full day and even rest and you will complete the song on
 your next valid attack (as of 0.0.15.18b)
+****** Note
+
+Apparently the spellthief's special spell can't be cast through the /spells
+window, it has to be manually casted through the command prompt atm
+
+But if you type "/cast 3" in the command prompt it should work. Another thing to
+consider is that you can't copy innate abilities (like grasping earth from
+legendary beasts.)
 
 ** Damage Types
 
