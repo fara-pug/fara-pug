@@ -1689,7 +1689,7 @@ listed here.
 
 To be clarified and added: all the ways in which these can be applied.
 
-There are *eight types of damage* in FARA. The six [[Elements & Element combinations][Elemental Damage Types]]
+There are *eight types of damage* in FARA. The six [[Elements][Elemental Damage Types]]
 have their own section since they are variations on these two themes.
 
 All damage taken can be lowered through the "Damage Reduction" provided through 
@@ -1746,45 +1746,126 @@ If you use an Arcane Shield (or other arcane infused items) you do more
 damage? and resist arcane spells.
 
 
-** Elements & Element combinations
+** Elements
 
-- 6 pure
-  - (+ arcane in the absence of elements, right? makes it 7 pure types.)
-- 15 (16) dual/combo types
-- 21 (22) magial means to confuse your self with while learning to play!
+*** Effects
 
+The Notes on [[Elemental Runes][Elemental Runes]] are ok, but in combat - more happens. I need to
+think this through and observe some more, because the seem twofold and to apply
+with regular attacks as well. maybe? at the very least there's the attunement
+and protective effect to be discussed a bit.
+
+--
+
+From the One Source of Arcane Magic,
+6 Pure Elements arose in the World. 
+
+We know these by their effects:
+
+|------------+----------+----------|
+| /Elements/ | Positive | Negative |
+|------------+----------+----------|
+| *Arcane*   |          |          |
+|------------+----------+----------|
+| *Light*    |          |          |
+| *Dark*     |          |          |
+|------------+----------+----------|
+| *Fire*     |          |          |
+| *Air*      |          |          |
+|------------+----------+----------|
+| *Water*    |          |          |
+| *Earth*    |          |          |
+|------------+----------+----------|
+
+- Well.. we will fill this out yet.
+
+*** Origins
+
+"The Republic, four witches stand.."
+
+|---------------+------------+--------+--------------------|
+| Elements      | Plane      | Combos | Realms             |
+|               |            | <c>    |                    |
+|---------------+------------+--------+--------------------|
+| Arcane        | Archetypal | 1      | The Unnamed Realm  |
+|---------------+------------+--------+--------------------|
+| Light & Dark  | Heavenly   | 5      | Humanoids & Shades |
+|---------------+------------+--------+--------------------|
+| Fire & Air    | Creation   | 5      | Predators and Prey |
+|---------------+------------+--------+--------------------|
+| Water & Earth | Relization | 5      | Plants and Forms   |
+|---------------+------------+--------+--------------------|
+
+*** Applications
+
+An Alphabetical List of the 15 Elemental Combinations 
+showing the exact form of their names applied to spells and gear:
+ 
+|------------+----------------------+-------------------+---------+--------+---------|
+| Combo-Name | Example Spell        | Example Equipment | Why not | Ligher | Heavier |
+|------------+----------------------+-------------------+---------+--------+---------|
+| Abyssal    | Abyssal Ward of Fury | Axe of Depth      |         | Water  | Dark    |
+| Divine     | Divine Ward of Fury  | Axe of Divinity   |         | Light  | Water   |
+| Ice        | Frigid Ward of Fury  | Axe of Ice        |         | Air    | Water   |
+| Moon       | Moon Ward of Fury    | Axe of Moonlight  | "Lunar" | Earth  | Dark    |
+| Radiant    | Radiant Ward of Fury | Axe of Radiance   |         | Light  | Fire    |
+| Sun        | Sun Ward of Fury     | Axe of Sunlight   | "Solar" | Light  | Earth   |
+|------------+----------------------+-------------------+---------+--------+---------|
+|            |                      |                   |         | Light  | Air     |
+|            |                      |                   |         | Light  | Dark    |
+|            |                      |                   |         | Fire   | Air     |
+|            |                      |                   |         | Fire   | Water   |
+|            |                      |                   |         | Fire   | Earth   |
+|            |                      |                   |         | Fire   | Dark    |
+|            |                      |                   |         | Air    | Earth   |
+|            |                      |                   |         | Air    | Dark    |
+|            |                      |                   |         | Water  | Earth   |
+|------------+----------------------+-------------------+---------+--------+---------|
+
+- Your input, appreciated.
+
+*** Combinations
 Combine two elemental runes into a spell to deliver both types under these
 names - which show up in the spell name.
 
-|------------+---------+---------+-----------+-------+---------+--------|
-| /Elements/ |         |         |           |       |         |        |
-|------------+---------+---------+-----------+-------+---------+--------|
-| *Water*    | *Water* |         |           |       |         |        |
-| *Earth*    | Tide    | *Earth* |           |       |         |        |
-| *Fire*     | Steam   | Magma   | *Fire*    |       |         |        |
-| *Air*      | Ice     | Thunder | Lightning | *Air* |         |        |
-| *Light*    | Divine  | Sun     | Radiant   | Day   | *Light* |        |
-| *Dark*     | Abyssal | Moon    | Brutal    | Night | Dusk    | *Dark* |
-|------------+---------+---------+-----------+-------+---------+--------|
-
-The exact word used might vary between the spells and gear, for example:
- 
-|------------+-------------------+----------------------+---------|
-| Combo-Name | Example Equipment | Example Spell        | Why not |
-|------------+-------------------+----------------------+---------|
-| Abyssal    | Axe of Depth      | Abyssal Ward of Fury |         |
-| Divine     | Axe of Divinity   | Divine Ward of Fury  |         |
-| Ice        | Axe of Ice        | Frigid Ward of Fury  |         |
-| Moon       | Axe of Moonlight  | Moon Ward of Fury    | "Lunar" |
-| Radiant    | Axe of Radiance   | Radiant Ward of Fury |         |
-| Sun        | Axe of Sunlight   | Sun Ward of Fury     | "Solar" |
-|------------+-------------------+----------------------+---------|
-
+|------------+---------+-----------+-----------+---------+---------+---------|
+| /Elements/ | *Light* | *Fire*    | *Air*     | *Water* | *Earth* | *Dark*  |
+| <c>        | <c>     | <c>       | <c>       | <c>     | <c>     | <c>     |
+|------------+---------+-----------+-----------+---------+---------+---------|
+| *Light*    | /na/    | Radiant   | Day       | Divine  | Sun     | Dusk    |
+| *Fire*     | Radiant | /na/      | Lightning | Steam   | Magma   | Brutal  |
+| *Air*      | Day     | Lightning | /na/      | Ice     | Thunder | Night   |
+|------------+---------+-----------+-----------+---------+---------+---------|
+| *Water*    | Divine  | Steam     | Ice       | /na/    | Tide    | Abyssal |
+| *Earth*    | Sun     | Magma     | Thunder   | Tide    | /na     | Moon    |
+| *Dark*     | Dusk    | Brutal    | Night     | Abyssal | Moon    | /na     |
+|------------+---------+-----------+-----------+---------+---------+---------|
 [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557][(original link)]]
 
-- zapped the mirrored half because confusing
-- i copied the spreadsheet, completed with the aid of the good people on discord.
+*** Summary
 
+- There are 15 [[Combinations][Elemental Combinations]].
+  Prove it to your self, like so:
+  - A 6x6 grid has 36 cells.
+  - 6 empty cells in the diagonal leaves 30.
+  - The 2 halves are mirrored leaves 15 valid combos
+  - The Arcane Archetypal source doesnt consort with its children..
+
+Add the Source (1) and the number of its children (6) to the 15 and you wind up
+dealing with 22 magial means to confuse your self with while learning to play!
+
+*** Rankings
+
+If its not like this.. perhaps it should be.
+- do your own experiments and let me know!
+
+|-----------------------------------+----------------------------|
+| In Combat                         | Note,                      |
+|-----------------------------------+----------------------------|
+| Light vs Dark                     | the higher rules the lower |
+|-----------------------------------+----------------------------|
+| Fire > Air > Water > Earth > Fire | and yet, the wheel turns.  |
+|-----------------------------------+----------------------------|
 
 ** Enemies
 Have not cared to keep better track of these yet.
@@ -2265,7 +2346,7 @@ By the power of magic..
 |---------+---------|
 
 When you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [[Elements & Element combinations][Elemental Combos]] applied to your Meals, with the last infused element
+used for [[Elements][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
 *** Stamina
 
@@ -3226,7 +3307,6 @@ If they are suffering from an effect, the caster is cleansed from these effects
 when they cast the spell causing it. To make this work, casting Silencing is
 possible even when you are silenced.
 
-If you are burning, and don't have that spell, stop, drop and /roll.
 
 In this section you find the 
 Bleeding, 
@@ -3251,25 +3331,25 @@ Vulnerability &
 Weakness Runes
 
 **** Conditions
-|--------------+---------------------------------------|
-| Rune of      | Effect                                |
-|--------------+---------------------------------------|
-| Blinding     | Makes you blind and appear stealthed  |
-| Burning      | Fire/Burning                          |
-| Fury         | Raises Critical Damage made           |
-| Illumination | Receive more% Crit Hits, deny Stealth |
-| Silencing    | Prevents casting                      |
-|--------------+---------------------------------------|
+|--------------+------------------------------------------|
+| Rune of      | Effect                                   |
+|--------------+------------------------------------------|
+| [[Status][Blinding]]     | targets see nothing and appear stealthed |
+| [[Status][Burning]]      | targets get Fire Damage over Time        |
+| [[Status][Fury]]         | raises Critical Damage dished out        |
+| [[Status][Illumination]] | receive more% Crit Hits, Stealth denied  |
+| [[Status][Silencing]]    | prevents casting anything by silence     |
+|--------------+------------------------------------------|
 
 **** Affecting Health & Stamina
-|--------------+------------------------------------------------------|
-| Rune of      | Effect                                               |
-|--------------+------------------------------------------------------|
-| Rejuvenation | Supply %s Health                                     |
-| Bleeding     | Drain %s Health                                      |
-| Poison       | Stopd and prevents Healing while it drains %s Health |
-| Sickness     | Drain Stamina                                        |
-|--------------+------------------------------------------------------|
+|--------------+--------------------------------------------------|
+| Rune of      | Effect                                           |
+|--------------+--------------------------------------------------|
+| [[Status][Rejuvenation]] | Supplies %s Health per Insight/Attunement        |
+| [[Status][Bleeding]]     | Drain %s Health each turn                        |
+| [[Status][Poison]]       | Stops/prevents Healing while it Drains %s Health |
+| [[Status][Sickness]]     | Drain Stamina                                    |
+|--------------+--------------------------------------------------|
 
 **** Affecting Attributes
 |------------------------+---------------+---------------|
@@ -3284,11 +3364,11 @@ Weakness Runes
 
 Additionally,
 
-|--------------+-----------------------------------------|
-| Rune of      | Effect                                  |
-|--------------+-----------------------------------------|
-| Intoxication | Lowers [[Finesse][Finesse]], Raise chance to Stumble |
-|--------------+-----------------------------------------|
+|--------------+--------------------------------------------|
+| Rune of      | Effect                                     |
+|--------------+--------------------------------------------|
+| [[Status][Intoxication]] | Lowers [[Finesse][Finesse]], Raises chance of stumbling |
+|--------------+--------------------------------------------|
 
 **** Notes
 
@@ -3327,39 +3407,39 @@ Whips Runes
 
 
 
-|------------+---------------+---------------------------------------------------|
-| Rune of    | Type          | Effect                                            |
-|------------+---------------+---------------------------------------------------|
-| Barriers   | Buff Area     | moderate elemental resistance for those near      |
-| Shields    | Buff Target   | high elemental resistance                         |
-| Wards      | Retaliation   | damages anyone that attacks the affected target   |
-|------------+---------------+---------------------------------------------------|
-| Blessings  | Amplify       | Ups damage output of spell's element              |
-| Curses     | Amplify       | Ups target vulnerability to spell's element       |
-| Fields     | Amplify       | Ups all elem dmg taken?/made? in an area          |
-|------------+---------------+---------------------------------------------------|
-| Auras      | Buff Area     | add elemental component to target                 |
-| Fonts      | Buff Area     | add elemental component to attacks of those near  |
-|------------+---------------+---------------------------------------------------|
-| Chains     | Single Status | Immobilize                                        |
-| Forces     | Single Status | Pushes target away, stuns them if they hit a wall |
-| Gales      | Single Target | Prone, Interrupt actions and drain stamin,        |
-| Hammers    | Single status | Daze                                              |
-|------------+---------------+---------------------------------------------------|
-| Barrages   | DOT Area      | Damages all targets in the area                   |
-| Blades     | Direct Damage | Greater chace for Critical Hits                   |
-| Elementals | Summons       | Summons Elementals to aid the caster              |
-| Plagues    | DOT Target    | Damages the target over time                      |
-| Whips      | Direct Damage | Damages the target and their armor                |
-|------------+---------------+---------------------------------------------------|
-| Arrows     | Direct Damage | Bypass Elemental Resistances                      |
-| Beams      | Direct Damage | Hits all targets in a straight line               |
-| Spears     | Direct Damage | Damage goes up as with distance to target         |
-|------------+---------------+---------------------------------------------------|
-| Blasts     | AOE           | Damages the target and nearby hostiles.           |
-| Meteors    | AOE           | Impacts all targets in an area after short delay  |
-| Shockwaves | AOE Status    | Inflicts 'slow' on targets in area                |
-|------------+---------------+---------------------------------------------------|
+|------------+---------------+------------------------------------------------------------|
+| Rune of    | Type          | Effect                                                     |
+|------------+---------------+------------------------------------------------------------|
+| Barriers   | Buff Area     | Moderate [[Effects][Elemental]] resistance for those near               |
+| Shields    | Buff Target   | High [[Effects][Elemental]] resistance                                  |
+| Wards      | Retaliation   | Damages anyone that attacks the affected target            |
+|------------+---------------+------------------------------------------------------------|
+| Blessings  | Amplify       | Ups damage output of spell's element                       |
+| Curses     | Amplify       | Ups target vulnerability to spell's element                |
+| Fields     | Amplify       | Ups all [[Effects][Elemental]] dmg taken?/made? in an area              |
+|------------+---------------+------------------------------------------------------------|
+| Auras      | Buff Area     | Add [[Effects][Elemental]] component to target                          |
+| Fonts      | Buff Area     | Add [[Effects][Elemental]] component to attacks of those near           |
+|------------+---------------+------------------------------------------------------------|
+| Chains     | Single Status | [[Status][Immobilizes]] the target                                     |
+| Forces     | Single Status | Pushes target away, [[Status][Stuns]] them if they hit a wall          |
+| Gales      | Single Target | Target becomes [[Status][Prone]], Actions interrupted, Stamina drained  |
+| Hammers    | Single status | [[Status][Dazes]] the target                                           |
+|------------+---------------+------------------------------------------------------------|
+| Barrages   | DOT Area      | Damages all targets in the area                            |
+| Blades     | Direct Damage | Greater chace for Critical Hits                            |
+| Elementals | Summons       | Summons [[Imps][Elementals]] to aid the caster                       |
+| Plagues    | DOT Target    | Damages the target over time                               |
+| Whips      | Direct Damage | Damages the target and their armor                         |
+|------------+---------------+------------------------------------------------------------|
+| Arrows     | Direct Damage | Bypass [[Effects][Elemental]] Resistances                               |
+| Beams      | Direct Damage | Hits all targets in a straight line                        |
+| Spears     | Direct Damage | Damage goes up as with distance to target                  |
+|------------+---------------+------------------------------------------------------------|
+| Blasts     | AOE           | Damages the target and nearby hostiles.                    |
+| Meteors    | AOE           | Impacts all targets in an area after short delay           |
+| Shockwaves | AOE Status    | Inflicts '[[Status][Slow]]' on targets in area                         |
+|------------+---------------+------------------------------------------------------------|
 
 - AOE Spells apply their elemental debuffs against all targets in range
 
@@ -3645,6 +3725,7 @@ Ok, this may not be conclusive, but an obsidian mace with a |hardened tack|
 takes about 4 hits to kill a combat dummy. If you have the Fury condition it
 takes only 3 hits
 
+** Status
 ** Weaponry
 
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
@@ -3661,10 +3742,13 @@ Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1
   being different somehow somewhere, the info being in a hidden stat. Please write
   if you can fill in the details!
 
+*NOTE: ALL THESE DO EITHER BASHING, CUTTING OR STABBING DAMAGE. AND I HAVE NOT
+LOOKED INTO HOW TO BEGIN TO DO MORE THAN OFFER GUESSES FOR WHICH DOES WHAT!*
+
 *** Melee
 
 Melee Weapon are usually used by [[Strength][Strength based]] characters in close combat, but
-several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] one of 5!
+several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] has 5!
 
 I suppose that all of these weapons can be thrown at opponents to damage them.
 
@@ -3672,67 +3756,70 @@ I suppose that all of these weapons can be thrown at opponents to damage them.
 
 The lists below still want to get arranged by these weapon types:
 
-|-------------------+----------------------------|
-| Axes              | may cleave                 |
-| Bladed weapons    | may cause bleeding         |
-| Blunt weapons     | may cause dazed            |
-|-------------------+----------------------------|
-| Spears and chains | have increased range       |
-| Spears and pikes  | have higher chance to crit |
-|-------------------+----------------------------|
+|----------------+-----------------------------------------+-------------|
+| Weapon         | Note                                    | Dmg.        |
+|----------------+-----------------------------------------+-------------|
+| Axes           | may cleave                              | Cutting?    |
+| Bladed weapons | may cause bleeding                      | Piercing?   |
+| Blunt weapons  | may cause dazed                         | Bludgeoning |
+|----------------+-----------------------------------------+-------------|
+| Spears         | increased range & higher chance to crit | Piercing?   |
+| Chains         | increased range                         | Bludgeoning |
+| Pikes          | higher chance to crit                   | Cutting?    |
+|----------------+-----------------------------------------+-------------|
 
 **** Crafted Melee Weapons for Strength
 
 These are only usable in Melee Range:
 
-|----------------+---------------------------------------------------+------|
-| Strength Based | Heavy Effect                                      | Size |
-|----------------+---------------------------------------------------+------|
-| Axe            | Deals increased damage                            |    3 |
-| Battleaxe      | Cleaves adjacent targets                          |    4 |
-| Bo Staff       | Shoves target away                                |    3 |
-| Broadsword     | Deflects weapon projectiles                       |    3 |
-| Chain          | Immobilizes the target                            |    3 |
-| Claymore       | Deals bonus damage for every enemy in melee range |    4 |
-| Club           | Dazes the target                                  |    3 |
-| Cutlass        | Deflects weapon projectiles                       |    3 |
-| Falchion       | Deflects weapon projectiles                       |    3 |
-| Flamberge      | Deflects incoming heavy attacks                   |    4 |
-| Hammer         | Dazes the target                                  |    3 |
-| Javelin        | Deals increased damage                            |    3 |
-| Kama           | Deflects weapon projectiles                       |    3 |
-| Katana         | Deflects weapon projectiles                       |    3 |
-| Kukri          | Causes the wielder and target to change places    |    3 |
-| Kunai          | Deals bonus damage when stealthed                 |    3 |
-| Longsword      | Causes bleeding                                   |    4 |
-| Mace           | Dazes the target                                  |    3 |
-| Machete        | Deals critical damage if struck by a heavy attack |    3 |
-| Morningstar    | Dazes the target                                  |    3 |
-| Nunchaku       | Dazes the target                                  |    3 |
-| Odachi         | Causes bleeding                                   |    4 |
-| Quarterstaff   | Dazes the target                                  |    3 |
-| Rapier         | Causes the wielder to lunge forward               |    3 |
-| Saber          | Deflects weapon projectiles                       |    3 |
-| Scythe         | Deals increased damage                            |    4 |
-| Shortsword     | Deflects weapon projectiles                       |    3 |
-| Spear          | Shoves target away                                |    3 |
-| Warhammer      | Deals bonus damage based on resilience            |    4 |
-| Zweihander     | Reduces direct damage taken during the attack     |    4 |
-|----------------+---------------------------------------------------+------|
+|----------------+---------------------------------------------------+------+------|
+| Strength Based | Heavy Effect                                      | Size | Dmg. |
+|----------------+---------------------------------------------------+------+------|
+| Axe            | Deals increased damage                            |    3 |      |
+| Battleaxe      | Cleaves adjacent targets                          |    4 |      |
+| Bo Staff       | Shoves target away                                |    3 |      |
+| Broadsword     | Deflects weapon projectiles                       |    3 |      |
+| Chain          | Immobilizes the target                            |    3 |      |
+| Claymore       | Deals bonus damage for every enemy in melee range |    4 |      |
+| Club           | Dazes the target                                  |    3 |      |
+| Cutlass        | Deflects weapon projectiles                       |    3 |      |
+| Falchion       | Deflects weapon projectiles                       |    3 |      |
+| Flamberge      | Deflects incoming heavy attacks                   |    4 |      |
+| Hammer         | Dazes the target                                  |    3 |      |
+| Javelin        | Deals increased damage                            |    3 |      |
+| Kama           | Deflects weapon projectiles                       |    3 |      |
+| Katana         | Deflects weapon projectiles                       |    3 |      |
+| Kukri          | Causes the wielder and target to change places    |    3 |      |
+| Kunai          | Deals bonus damage when stealthed                 |    3 |      |
+| Longsword      | Causes bleeding                                   |    4 |      |
+| Mace           | Dazes the target                                  |    3 |      |
+| Machete        | Deals critical damage if struck by a heavy attack |    3 |      |
+| Morningstar    | Dazes the target                                  |    3 |      |
+| Nunchaku       | Dazes the target                                  |    3 |      |
+| Odachi         | Causes bleeding                                   |    4 |      |
+| Quarterstaff   | Dazes the target                                  |    3 |      |
+| Rapier         | Causes the wielder to lunge forward               |    3 |      |
+| Saber          | Deflects weapon projectiles                       |    3 |      |
+| Scythe         | Deals increased damage                            |    4 |      |
+| Shortsword     | Deflects weapon projectiles                       |    3 |      |
+| Spear          | Shoves target away                                |    3 |      |
+| Warhammer      | Deals bonus damage based on resilience            |    4 |      |
+| Zweihander     | Reduces direct damage taken during the attack     |    4 |      |
+|----------------+---------------------------------------------------+------+------|
 
 These have a range of 2 steps:
 
-|----------------+----------------------------------------+------|
-| Strength Based | Heavy Effect                           | Size |
-|----------------+----------------------------------------+------|
-| Glaive         | Shoves targets away                    |    4 |
-| Halberd        | Shoves targets away                    |    3 |
-| Lance          | Shoves target away                     |    4 |
-| Meteor Hammer  | Dazes the target                       |    3 |
-| Naginata       | Shoves target away                     |    4 |
-| Net            | Immobilizes the target                 |    3 |
-| Whip           | Pulls the attacker and target together |    3 |
-|----------------+----------------------------------------+------|
+|----------------+----------------------------------------+------+------|
+| Strength Based | Heavy Effect                           | Size | Dmg. |
+|----------------+----------------------------------------+------+------|
+| Glaive         | Shoves targets away                    |    4 |      |
+| Halberd        | Shoves targets away                    |    3 |      |
+| Lance          | Shoves target away                     |    4 |      |
+| Meteor Hammer  | Dazes the target                       |    3 |      |
+| Naginata       | Shoves target away                     |    4 |      |
+| Net            | Immobilizes the target                 |    3 |      |
+| Whip           | Pulls the attacker and target together |    3 |      |
+|----------------+----------------------------------------+------+------|
 
 - Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
 
@@ -3745,43 +3832,44 @@ These have a range of 2 steps:
 
 
 **** Crafted Melee Weapons for Finesse or Strength
-|---------------------+-------------------------------------------+------|
-| Strength or Finesse | Heavy Effect                              | Size |
-|---------------------+-------------------------------------------+------|
-| Boxing gloves       | Dazes the target                          |    2 |
-| Dagger              | Causes the wielder to step backwards      |    2 |
-| Grappling Hook*     | Pulls attacker and target together        |    2 |
-| Handwraps           | Deals increased damage                    |    2 |
-| Khopesh             | Disarms targets performing heavy attacks  |    2 |
-| Knuckles            | Dazes the target                          |    2 |
-| Kris                | Inflicts poison                           |    2 |
-| Lasso               | Immobilizes the target                    |    2 |
-| Sickle              | Restores a bit of health based on insight |    2 |
-|---------------------+-------------------------------------------+------|
+|---------------------+-------------------------------------------+------+------|
+| Strength or Finesse | Heavy Effect                              | Size | Dmg. |
+|---------------------+-------------------------------------------+------+------|
+| Boxing gloves       | Dazes the target                          |    2 |      |
+| Dagger              | Causes the wielder to step backwards      |    2 |      |
+| Grappling Hook*     | Pulls attacker and target together        |    2 |      |
+| Handwraps           | Deals increased damage                    |    2 |      |
+| Khopesh             | Disarms targets performing heavy attacks  |    2 |      |
+| Knuckles            | Dazes the target                          |    2 |      |
+| Kris                | Inflicts poison                           |    2 |      |
+| Lasso               | Immobilizes the target                    |    2 |      |
+| Sickle              | Restores a bit of health based on insight |    2 |      |
+|---------------------+-------------------------------------------+------+------|
 
-- The *Grappling Hook has a range of 5*. The other weapons are for close-quarters.
+- The *Grappling Hook has a range of 5*. The other weapons are for
+  close-quarters and have a range of 1.
   - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
 
 **** Composite Melee Weapons
 The compenents for these weapons are other weapons that you craft and then assemble.
 Enhance the final product, not the individual pieces.
 ***** Composite Melee Weapons for Strength 
-|-----------------+---------+-----------------------------------------+---------------------------+------|
-| Strength Based  | Range   | Heavy Effect                            | Components                | Size |
-|-----------------+---------+-----------------------------------------+---------------------------+------|
-| Ball and chain  | Melee   | Immobilizes the target                  | 1 Chain, 1 Ball           |    3 |
-| Kunai and Chain | 3 steps | Hits target at range                    | 1 Chain, 1 Kunai          |    3 |
-| Swordchucks     | 2 steps | Selfdamage to critically hit the target | 1 Nunchaku, 2 Shortswords |    3 |
-|-----------------+---------+-----------------------------------------+---------------------------+------|
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
+| Strength Based  | Range   | Heavy Effect                            | Components                | Size | Dmg. |
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
+| Ball and chain  | Melee   | Immobilizes the target                  | 1 Chain, 1 Ball           |    3 |      |
+| Kunai and Chain | 3 steps | Hits target at range                    | 1 Chain, 1 Kunai          |    3 |      |
+| Swordchucks     | 2 steps | Selfdamage to critically hit the target | 1 Nunchaku, 2 Shortswords |    3 |      |
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
 
 - I suspect the last two weapons-effects are the worst way you can spend your stamina.
 
 ***** Composite Melee Weapons for Finesse or Strength
-|---------------------+-------+-------------------------------------+------------+------|
-| Strength or Finesse | Range | Heavy Effect                        | Components | Size |
-|---------------------+-------+-------------------------------------+------------+------|
-| Shank Knuckle       | Melee | Causes the wielder to step backward | 2 Daggers  |    2 |
-|---------------------+-------+-------------------------------------+------------+------|
+|---------------------+-------+-------------------------------------+------------+------+------|
+| Strength or Finesse | Range | Heavy Effect                        | Components | Size | Dmg. |
+|---------------------+-------+-------------------------------------+------------+------+------|
+| Shank Knuckle       | Melee | Causes the wielder to step backward | 2 Daggers  |    2 |      |
+|---------------------+-------+-------------------------------------+------------+------+------|
 
 - Could this be the Pugilist's dream weapon?
 
