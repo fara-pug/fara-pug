@@ -27,8 +27,9 @@ Brian!
 
 I love the depth and variety in this game. The encounters can be short and
 sweet, or long and trecherous. The world has beauty and there is heaps of
-creativity in the maps and their many variations. The exploration and combat systems
-are challenging yet you never feel as if the game is out to get you.
+creativity in the maps and their many variations.  The exploration and combat
+systems are challenging and yet you almost never feel as if the game is out to
+get you.
 
 #+begin_quote
 FARA is a Nethack for the new millenium.
@@ -53,7 +54,7 @@ This page serves as a repository for my notes about the game.
 During my first play-session some years ago I hit a wall and swore to myself
 that I would beat this thing one day. And I finally have.
 
-It was not a big, triumphant, clever win. Definitely not! I played what looked
+It was not a big, triumphant, clever win. Definitely not! I played, what looked
 to me like the most survivable class, the [[GATEKEEPER][Gatekeeper]] as defensively as I could
 and for 150 days stuck my head into dangerous places, learning and exploring as
 I went - and now that my understanding has grown, my notes and my approach to
@@ -147,6 +148,7 @@ considerably.
 |-----------+-------------+-----------+------|
 
 - Any Weapon can be worn as an accessory for some powerful stat boosts!
+- Once you've looted you'll want a [[Bags][Bag]] to carry things home in */stealth* mode.
 
 ** Armor
 
@@ -218,7 +220,7 @@ Head Armor Items; all crafted from 1 soft material.
 | Poncho        | RES         | 2 soft    |    2 |
 |---------------+-------------+-----------+------|
 | *Breastplate* | -1 FIN, RES | 5 hard    |    5 |
-| Jumpsuit      | STR, 1 FIN  | 5 soft    |    5 |
+| Jumpsuit      | STR, FIN    | 5 soft    |    5 |
 |---------------+-------------+-----------+------|
 | Blouse        | none        | 2 soft    |    2 |
 | Dress         | none        | 3 soft    |    2 |
@@ -663,8 +665,16 @@ of his more sensible items. neat!
 - I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 
 ** Classes
-I forgot where i stole this :( The idea is that i'll integrate the class
-relevant bits from the release notes and insights gleaned on discord here.
+
+You can break down these classes into three primary approaches at the start of
+the game.  FARA is very classic in this way and you can think about the
+approaches as being Melee/Strength, Rogue/Finesse and Magic/Insight based at the
+start of the game.
+
+But you needn't get locked in, feel limited by this. All your stats will improve
+and everyone has the potential to reach GODLIKE in all the stats -- by which
+point you'll be able be effective in at least two, if not all three of these
+approaches.
 
 Alphabetical Index to Fara's 52 classes:
 
@@ -1558,7 +1568,7 @@ Points required: 70,000
 :END:
 Galvanizer - Commanders Inspire allies around them, raising all of their
 stats. Additionally, Commander's moods never fall into negative values, they can
-have a maximum of 5 party members instead of 4, and they receive an intelligence
+have a maximum of 3 party members instead of 2, and they receive an intelligence
 bonus for every party member they can see.
 
 Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
@@ -1741,12 +1751,7 @@ Imps seem humanoid and seem to pop out of nowhere, ready to dish out elemental d
 - Going through a lot of ruins, i've yet to see the last kind'
 
 ** Equipment
-*** Containers
-:PROPERTIES:
-:ID:       b1a6c8b7-dcc7-4d57-879a-e050f467893d
-:END:
-
-**** Extra Inventory Space
+*** Bags 
 
 The material determines your attribute bonuses and might have an effect on
 durability.
@@ -1763,8 +1768,9 @@ durability.
 - The [[MERCHANT][Merchant]] class has *twice* the usual inventory capacity from the beginning.
 - And the Hauler trait increases your inventory capacity passively
 - If you've seen a legendary bag, I'd like to know!
+- Consider using at least one [[Definitely craftable.][Hidden Pocket]] curio.
 
-**** Liquids
+*** Bottles
 
 Are
 Bottle,
@@ -1782,6 +1788,9 @@ Urn,
 Vial &
 Waterskin
 all of them?
+
+These provide the ability to carry water on your trips. I find I'd rather carry
+a piece of fruit to regain stamina, but tastes vary oc.
 
 *** Lights
 
@@ -1838,7 +1847,7 @@ demand that an unopened stables in a good location be made into an orchestra pit
 ** Factions
 
 When you rank up in a faction, by doing quests for them or bribing one of their
-officers with 10..100 medals, you get access to their traits, which give some
+officers with 10..100(200?) medals, you get access to their traits, which give some
 very good bonuses.
 
 *** About
@@ -1875,6 +1884,23 @@ See the */factions* (aka "*F*") window for a list of Traits and the rank require
 
 - Don’t enter castles of the factions that don’t like you.
 - Fortresses are ok, just not castles
+- Takes a huge amount of medals to become a Legend. Balance with smithing!
+
+*** Wanted
+Don't think that it goes unobserver when your thieving fails or you start
+murdering random people -- who are mostly/all? aligned with a faction.
+
+I've experimented and see it go from Unknown to
+Watched,
+Wanted,
+Enemy,
+Hated,
+Despised &
+Scourge by/of a Faction!
+
+It may be interresting to try this with a stronger character who has medals enough
+to bribe their way back out of a hole. As is, my experimental guy quickly died to
+an assassing sent after him.
 
 *** Traits
 
@@ -1933,19 +1959,20 @@ Whats missing?
 | Foodstuff      | Prefix     | Buffs Attribute | Size |
 |----------------+------------+-----------------+------|
 | Alcohol        | Hearty     | ++Resilience    |  1.0 |
-| Fish           |            |                 |  1.0 |
 | Flowers        | Delightful | ++Charm         |  0.1 |
 | Fruits         | Zesty      | ++Finesse       |  0.2 |
-| Herbs & Spices |            |                 |  0.1 |
 | Meat           | Complex    | ++Insight       |  1.0 |
 | Tree Seeds     | Robust     | ++Strength      |  0.1 |
 | Vegetables     | Robust     | ++Strength?     |  0.2 |
+|----------------+------------+-----------------+------|
+| Fish           |            |                 |  1.0 |
+| Herbs & Spices |            |                 |  0.1 |
 | Specialities   |            |                 |  0.1 |
 |----------------+------------+-----------------+------|
 
 - Don't forget there are 6 more prefixes used with [[When Elementally Flamed (++)][Elemental Buffs]]!
 
-- also, anything with Fishbones produce (always?) inedible Questionable outcomes.
+- Anything with Fishbones always? produces inedible 'questionable' outcomes.
 
 - Testing indicates that you get the same amount of health, ~10% from eating cooked items.
 
@@ -2298,7 +2325,7 @@ All these have the capacity to hold 300 items of arbitrary size.
 - Storage Bins, installable
 - Storage Bins, upgraded.
 
-See Containers and using your party as loot mules.
+See [[Bags][Bags]] and consider using your party as loot mules!
 
 *** Utensils
 :PROPERTIES:
@@ -2385,7 +2412,7 @@ Obelisk building let's you upgrade spells
   the last upgrade or two to save 20 or 35 shard, paying for it with the risk
   you're taking on. Just be clear about what you're getting into and read the
   notes for the [[Location List][Location List]] to tweak the ruin's [[Difficulty][Difficulty]].
-**** The Burning House
+**** Burning House
 *Danger Will Robinson*
 
 The Burning House can be a real oh-sh*t experience. It could be on any tile that
@@ -2407,48 +2434,6 @@ draw your weapon and you'll let go what you were pulling.
 
 And hey, and hey, most people dont mind if you drag them around. The ingame
 message about 'attacking' is just worded a bit strongly for most circumstances.
-
-
-**** Campsite
-Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
-other. Some are trying to leave their prior associates behind and change their
-ways, others are just looking to hole up until the heat passes down. Too bad for
-them that they see you as the threat to their lives that you are. I mean, you
-would have talked to them first if they hadn't gone all hostile on you, right?
-
-Poor Sobs, usually don't even have furniture where they sleep.
-
-**** Encampment
-- single building
-
-or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
-battle with you before you even knew what happened.
-
-if that's the case count yourself lucky! these guys have furniture galore and
-since you were short some 20 wooden blocks you could not have come to a better place.
-
-just be careful entering the buildings since not everyone who lives there had a
-chance to greet you earlier. you never know what these higher level guys were
-thinking leaving the fighting to their minions and all that.
-
-an unusual crew with their own agenda, you overheard their leader talking about
-ambushing a guy that happened to actually not be you. The wanted poster you
-found, you better take that with you to an actually dangerous place before
-looking at it more closely. You know.. higher risk, higher rewards mean you 
-know that you don't want to read it back in Relica, right?
-
-Bring some pals. Makes it easier to checkmate the whole site at once. Plus you
-might need someone to help you carry all that wood back home.
-
-**** Unknown Camp
-- Faction camps with
-  - 5ish assorted opponents of the same level in the open
-  - 3ish leader types, same lvl in a house
-  - wanted postet, big-chest
-- clearing them seems to not hurt your rep with anyone.
-  maybe once you have rep that changes.
-- 5ish buildings offer 3+ random pieces of furniture
-- its probably where you'll find your first benches
 **** The Farmer
 A real *<Gem>* from Discord!
 
@@ -2469,95 +2454,6 @@ this place that hasn't been discovered yet.
 - digging up and smashing all the tombstones hasnt revealed anything to me yet.
 - good place to collect soil (for pottery?) :)
 
-**** Hunting grounds
-Starts to spawn after completing certain amount of quests in one of the
-villages. In other words, You can get hunting ground quests once you've become a
-hero of a settlement.
-
-On entering the hunting grounds you can find a group of hunters heavily injured,
-and a lot of corpses around the place. After talking to one of them you can
-accept a mission to help them against the Rift Beast that left them in that
-condition.
-
-Rift beasts are one of the toughest opponents in FARA, one of them comes to
-fight you after accepting to help the hunters that show up in the hunting
-grounds.
-
-They are a challenge for any type of character, so being prepared is very important.
-
-- in other words, forget about it. :)
-
-(you'll sometimes find young rift beast starting maybe 100km from relica.)
-
-**** Labyrinth
-
-Dont go exploring them in the dead of night without a [[Lights][light]]!
-
-Safe and super high rewards and likely to confuse the hell out out of you for
-longer than you might have patience for. Be prepared for {Masterwork} items and
-other items of awe .. in 90..120 minutes.
-
-These scribbles might help you to mark up the laby while you're doing so that
-you can leave and come back without loosing the place you were last exploring!
-
-|---------------------|
-| setkey 1 mark red   |
-| setkey 2 mark green |
-| setkey 3 mark blue  |
-| setkey 4 clearmark  |
-|---------------------|
-
-- There is a labyrinth, i go in
-- at a junction, i mark
-- green from whence i came
-- blue everywhere i'm not going yet
-- i reach a dead-end and retrace my step
-- at the junction from whence i came
-- i mark the dead-end path red, and clear a blue
-- and on i go.
-- when i reach a blue, i mark it red & *retrace my step.*
-- when i reach i a green and blue i red my step and clear a blue.
-
-And working out the little nuances that make this actually work is, as they used
-to say back when books were a thing.. "left as an exercise for the reader."
-
--- the Mintaur
-
-
-Mantecarl chimes in with this incredible paint saving measure:
-- I've been doing this thing in labyrinths were I set a local waypoint in all 4
-  clearings, so that I can get to them if I ever ran into a corridor with no
-  exits -- saves a lot of time!
-
-**** Ruins
-You come across 6/7? to 9 delapidated buildings in this frequent, somewhat hard
-yet doable encounter.
-
-In the beginning count yourself lucky if you manage to dash to the egde
-undetected. If you have some wood on hand keep in mind that you can get out if
-you're near the edge and that you can place the occasional extra wall or
-building to beef up your position -- especially if you're playing melee -- to
-break the line of sight against what will inevitably be small groups of often stealthy
-casters coming after you here.
-
-- stealth-clustered magic attackers and friends all appear to use the same element!
-- bring some [[When Elementally Flamed (++)][elemental foods]] for yourself and your team, and of course a beverage!
-- getting the Big Chest from the local mini boss doesnt mean you're safe!
-- move to the edge if dashing to the next blg will leave you exhausted!
-- use stealth, enter, drop building, move to cover!
-- sevral ruined storage chest. one obsidean shard always drops here.
-
-Sometimes though it seems as if the crew guarding the ruins has been tipped of
-about your plans to attack them, and they will all be standing by your spawn point.
-
-In these circumstances being a Gatekeeper allows you to put on your second big
-shield, cast protect, a ward of fury for maximum retaliation while you attempt
-to get out of that mess. If you're lucky, almost all the spellcaster will kill
-themselves trying to hurt as you're making your exit.
-
-I'm not sure that I could have managed half the research in this guide any other
-way.
-
 **** Scouts
 What are these locations called again?
 - Found in the wilderness.
@@ -2566,13 +2462,13 @@ What are these locations called again?
   within a range they know about
   All scouts within, say, 50km? 75..100km? around Relica seem to know the same thing.
 
-**** Shrines
+**** Shrines (on the map?)
 A powerful artifact of one of the gods rests behind the locked door which you
 can /inspect to know what you need to do to open it. On each side of the shrine
 there are statues, which have had a runestone pried out of them. One of the
 statues is probably in disrepair.
 
-**** Summoning Circle
+**** Summoning Circle (on the map?)
 - Rift beasts
 - Maybe take 3 CRPs to a Summoning Circle?
 **** Trader
@@ -2646,7 +2542,17 @@ ran away.  good for him.
 **** Unconscious Adventurer
 - some are fakers,
 - the others..
+
+
 *** Locations
+**** Campsite
+Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
+other. Some are trying to leave their prior associates behind and change their
+ways, others are just looking to hole up until the heat passes down. Too bad for
+them that they see you as the threat to their lives that you are. I mean, you
+would have talked to them first if they hadn't gone all hostile on you, right?
+
+Poor Sobs, usually don't even have furniture where they sleep.
 **** Castle
 A noble of one of the factions lives inside here, protected by many guards and
 assassins. You can /interact with the noble and complete missions to earn you
@@ -2687,6 +2593,38 @@ I used to do /mark in dungeons before we had a local map, and before local
 waypoints were a thing It was very very easy to get lost in there, and no way to
 quickly exit
 
+**** Encampment/ Unknown Camp
+- single building
+
+or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
+battle with you before you even knew what happened.
+
+if that's the case count yourself lucky! these guys have furniture galore and
+since you were short some 20 wooden blocks you could not have come to a better place.
+
+just be careful entering the buildings since not everyone who lives there had a
+chance to greet you earlier. you never know what these higher level guys were
+thinking leaving the fighting to their minions and all that.
+
+an unusual crew with their own agenda, you overheard their leader talking about
+ambushing a guy that happened to actually not be you. The wanted poster you
+found, you better take that with you to an actually dangerous place before
+looking at it more closely. You know.. higher risk, higher rewards mean you 
+know that you don't want to read it back in Relica, right?
+
+Bring some pals. Makes it easier to checkmate the whole site at once. Plus you
+might need someone to help you carry all that wood back home. They usually
+have a good variety of booze on hand too, those louts.
+
+- Faction camps with
+  - 5ish assorted opponents of the same level in the open
+  - 3ish leader types, same lvl in a house
+  - wanted postet, big-chest
+- clearing them seems to not hurt your rep with anyone.
+  maybe once you have rep that changes.
+- 5ish buildings offer 3+ random pieces of furniture
+- its probably where you'll find your first benches
+
 **** Fortress
 - safe to salvage the doors for 6? ot 8? iron until you have picked a faction
 - this is where you donate medals in exchange for reputation and access to traits
@@ -2695,9 +2633,116 @@ quickly exit
   faction' endgame. but idk. i will find out.
 - word is that its ok to enter hostile faction fortresses.
 
+**** Hunting grounds
+Starts to spawn after completing certain amount of quests in one of the
+villages. In other words, You can get hunting ground quests once you've become a
+hero of a settlement.
+
+On entering the hunting grounds you can find a group of hunters heavily injured,
+and a lot of corpses around the place. After talking to one of them you can
+accept a mission to help them against the Rift Beast that left them in that
+condition.
+
+Rift beasts are one of the toughest opponents in FARA, one of them comes to
+fight you after accepting to help the hunters that show up in the hunting
+grounds.
+
+They are a challenge for any type of character, so being prepared is very important.
+
+- in other words, forget about it for a while.
+- found a random young rift beast maybe 100km from relica.
+- found my first camp randomly in the wild ~320km from relica.
+  - had never taken the quest offered me in relica.
+
+**** Labyrinth
+
+Dont go exploring them in the dead of night without a [[Lights][light]]!
+
+Safe and super high rewards and likely to confuse the hell out out of you for
+longer than you might have patience for. Be prepared for {Masterwork} items and
+other items of awe .. in 90..120 minutes.
+
+***** Leaving a trail
+These scribbles might help you to mark up the laby while you're doing so that
+you can leave and come back without loosing the place you were last exploring!
+
+|---------------------|
+| setkey 1 mark red   |
+| setkey 2 mark green |
+| setkey 3 mark blue  |
+| setkey 4 clearmark  |
+|---------------------|
+
+- There is a labyrinth, i go in
+- at a junction, i mark
+- green from whence i came
+- blue everywhere i'm not going yet
+- i reach a dead-end and retrace my step
+- at the junction from whence i came
+- i mark the dead-end path red, and clear a blue
+- and on i go.
+- when i reach a blue, i mark it red & *retrace my step.*
+- when i reach i a green and blue i red my step and clear a blue.
+
+And working out the little nuances that make this actually work is, as they used
+to say back when books were a thing.. "left as an exercise for the reader."
+
+-- the Mintaur
+
+***** Using Waypoints
+
+Mantecarl chimes in with this incredible paint saving measure:
+- I've been doing this thing in labyrinths were I set a local waypoint in all 4
+  clearings, so that I can get to them if I ever ran into a corridor with no
+  exits -- saves a lot of time!
+
+I tried this method, with a */setkey* for */slw* and */clearlocalwaypoint*,
+leaving local waypoints at junctions i was not sure about, then zooming right
+back to them. Works brilliantly this way and allowed me to clear a lab in record
+time.
+
+Leveling up my character and gear via the legendaries you can find here won't
+absolve me from the need to quest for tools and medals by continuing to assist
+the elder and others, but it gave me the ability and motivation to go from
+exploring a distance of up to 200km to setting up a little outpost 380km from
+Relica.
+
 **** Masterwork forge
-- i remember hunting for these in the nightmare versions of 2019.
-- these let you upgrade a (refined) and <artisan>'d item once more.
+
+- These let you upgrade a (refined) and <artisan>'d item once more.
+- I remember hunting for these in the nightmare versions of 2019.
+
+**** Ruins
+You come across 6/7? to 9 delapidated buildings in this frequent, somewhat hard
+yet doable encounter.
+
+In the beginning count yourself lucky if you manage to dash to the egde
+undetected. If you have some wood on hand keep in mind that you can get out if
+you're near the edge and that you can place the occasional extra wall or
+building to beef up your position -- especially if you're playing melee -- to
+break the line of sight against what will inevitably be small groups of often stealthy
+casters coming after you here.
+
+- stealth-clustered magic attackers and friends all appear to use the same element!
+- bring some [[When Elementally Flamed (++)][elemental foods]] for yourself and your team, and of course a beverage!
+- getting the Big Chest from the local mini boss doesnt mean you're safe!
+- move to the edge if dashing to the next blg will leave you exhausted!
+- use stealth, enter, drop building, move to cover!
+- sevral ruined storage chest. one obsidean shard always drops here.
+
+Sometimes though it seems as if the crew guarding the ruins has been tipped of
+about your plans to attack them, and they will all be standing by your spawn point.
+
+In these circumstances being a Gatekeeper allows you to put on your second big
+shield, cast protect, a ward of fury for maximum retaliation while you attempt
+to get out of that mess. If you're lucky, almost all the spellcaster will kill
+themselves trying to hurt as you're making your exit.
+
+I'm not sure that I could have managed half the research in this guide any other
+way.
+
+- Usually lots of Great Food from Chefs and Alchemists who must have once had a
+  colony here.
 
 *** Just plain cool
 Random things and places one might never see again..
@@ -2747,7 +2792,10 @@ has.
 Each additional nth arrow gives an additional n possible boosts (4 arrows giving
 between +7 and +10, etc.)
 
-- Pug: Crafting appears to take 100 (105?) moments. fwiw.
+*** Notes
+- Crafting appears to take 100 (105?) moments. fwiw.
+- Steel, Obsidian, Velvet, Diamond items appear to be dropped from crates promising
+  items of 'normal' quality. Makes you think, doesn't it?
 
 *** Everyday materials
 
@@ -2931,10 +2979,6 @@ complacent about closing the door in Relica. Since then I've experimented, and
 thieves have appeared *every* single night, sometimes taking not just my weapon
 but also upto two pieces of armor. That's going from never to always, making me
 think that *winning was a bad idea!*  Lets hope I've run into a bug here.
-
-p.s. In a castle or other 'location where you dont control the doors' you can 
-strip down naked and rest without fear since thieves don't seem to care about the
-stash you're resting on.
 
 *** Townies
 See Desperate Times. 
@@ -3428,7 +3472,7 @@ presents the words indicating enemy strength..
 
 - Does Godlike always blink or only when you tried to push past 20?
 
-***  plus 19 stages of horibleness.
+*** 19 stages of horribleness.
 
 |------+-----------------------------------|
 | Stat | Inspecting Self and Allied Humans |
@@ -3799,6 +3843,31 @@ You have access to elemental runes that you can apply to your gear, situational
 food and drink providing buffs, even a Commander Level Faction Trait to help
 resist the most devious of enemies!
 
+** Strategy
+Maybe I don't really have one!
+
+(Notes from Garon)
+
+ATM, landing in relica in the middle of my house, on top of a crate, surrounded by 8 others,
+with excesses stored in the warehouse still works out great.
+
+leveling up my gear seemed a good thing in the beginning, but now i'm playing it differently,
+and it looks like my next game might be all about finding and farming as many labyrinth as i can
+since with a few judiciously placed waypoints they are a safe way of gathering rewards and traits
+without having to make the elder and other questgivers into best friends.
+
+This would allow me to pick a direction and settle in a settlement that's 100,
+perhaps even 200 km away from relica within the first few weeks ingame. 
+
+I'm still at ~10k points having played it like a turtle in order to research what the game
+is like not. Its amazing that i survived this long, at least to me it is. If I ever hit 75k,
+I could see having a good time with the commander since labys would help me level up any
+crew in relative peace and quiet. A few legendary pieces of gear on me and an NPC, the
+profits from a laby shared with him of course, have now let me conquer a brutal monster
+in a den. Moving on and up in the equipment power, hopefully fully entering the steel and
+later ages so i can move out and discover what's out there at the 200++ km horizon!
+
+
 ** Trick out your map!
 Use */setlocalwaypoint* aka */slw* at your spawn, at every house, donation
 chest, and every last npc on the map. Greet NPC's and put their names into the
@@ -3828,6 +3897,31 @@ in Relica is again teaching me what I don't need or want, and how to deal with
 everything else. Here's the scoop on what works for me.
 
 *** InShelter
+
+**** Latest
+
+Next game..  I'm working on plans to rework the warehouse based on where the
+door is in relationship to the spawn. I'll keep the donations box which you 
+later turn into upgraded storage free and clear with a /slw waypoint right next to
+it so i can use */dropall* and/or */ds* right there. 
+
+In the NW/NE I'm envisioning 9 storage chests each. a /slw in the center to 
+navigate, on the left the 3x3 design i've gotten used to, on the right,
+storages to hold whatever excesses so i have them close yet out of the way.
+
+i'd like to make the main entrance be north of the crucible with lights and
+so on. I'm not sure about where exactly to put a resting /slw nor about 
+exactly where to put the kitchen:
+
+- 5 fireplaces for the stat foods
+- 6 fireplaces for the elemental food
+- foods and ingredients on the floor 
+- possibly no storages but put behind a door
+  - for easy dumping with /ds, splitting/pickups etc
+
+tbd. I'm now looking for a settlement some 300km from relica which i can stealth
+to in 2 hops without winding up in a lake.
+
 
 **** Update!
 
@@ -3863,25 +3957,6 @@ This leaves huge piles of crystals & leather and the problem of cooked foods.
 
 I've not worked it out, but there will be 8 firepits and some kind of sensible
 way of dealing with buff/food preparation further south in the warehose.
-
-Remains to be seen what if any kinds of walls I wind up putting in there and
-if I'm not going to play house some more by putting bed and brazier by the 
-door in the south, as in:
-
-| warehouse |                                                   |
-| top 3rd   | Piles and items of usefulness around the crucible |
-| middle 3d | "The Kitchen" - Fires, piles                      |
-| bottom 3d | "Living area" with Crystal+ Furniture             |
-
-with the top looking like so:
-
-| Clothy     | Woody      | Metally     |
-| NamedRunes | *Crucible* | Tooly+Elems |
-| StatFood   | ElemFood   | OtherFood   |
-
-TBD. I already have more functional ideas..
-
-- also colors..
 
 **** Initially
 
@@ -4000,8 +4075,11 @@ ingenious invention!
 
 *** In General
 
-- consider carrying a container with water so you can boost your stamina
-  in an emergency.
+consider carrying 
+
+- a fruit to boost your stamina in an emergency.
+
+- a workbench to repair your party's gear.
 
 - consider carrying a rope or a kite whenever you take a shovel out for a dig
   to avoid getting hurt should the ground give way under your feet.
@@ -4015,7 +4093,8 @@ As with backups of your computer, there are two kinds of people in the world,
 people who carry backups, and people who will.
 
 ** Moving out and on
-Again, complete the warehouse before you change settlement or do escort quests.
+
+Again, complete the warehouse before you change settlements or do escort quests.
 When you go take 2 medals and 10 ropes with you to quickly complete the
 warehouse in your new place right away when you get there.
 
@@ -4202,11 +4281,26 @@ But unlike most games, FARA doesn't actually seem to be out to kill you as it
 did in (what to me were) 'the nightmare versions' released some years ago.
 
 Combat in FARA can be freaky cool, and as long as you prioritize survival over
-your macho, you'll manage to escape and appreciate the insurance that having
-even a single gulp of [[Liquids][water]] with you for that one time where its quicker to
-drink and dash than it is to walk. But there's always [[The Burning House][this]].
+your macho, you'll manage to escape and appreciate the insurance that having a
+piece of [[Fruits][fruit]], or a gulp of [[Bottles][water] with you for that one time where
+its quicker to drink and hide thant to dash and walk. There's are always [[Burning House][surprises]]!
 
 ** Finding things in daylight vision
+
+Update: The magic# for small items is four. Also zipping around the map with the
+mouse is really fun now. Please keep these things in mind if/as you mark up your
+map to insure that you really find everything like this. If you see that NPC's 
+have moved about from where you last had them */slw* waypointed, use the next item
+find quest to update your waypoints and you'll not just find the balls of wax, but
+the guy you need to give that nose-ring too with ease.
+
+check how many spaces you can move without stopping when zipping around the map by 
+placing a small item somewhere and counting. use one color for that.
+
+npcs you can see at +- 10 range. use another color to mark all the places to click
+and find everyone in town fast.
+
+--
 
 Small things on the ground can be seen up to 5 spaces away in a straight line,
 but only 3 spaces diagonally. This is true in town and in wilderness maps.
@@ -4298,6 +4392,19 @@ Random suggestions/notes/brainstorms/observations.
   have a wooden shovel!
 - Recipes for items in storages
 - Quests could show the direction and distance to their location.
+- /salvage all == /salvageall => never salvages anything installed. even
+  /salvage would ask you to confirm if you wanted to accidentally or not
+  /salvage something on your person or installed. that's in a world where /craft
+  /build and /install would work as one might imagine they would.
+- Popups comparing a found shield to my weapon instead of my shield. hmm.
+- Casting a spell on a party member; menu ought to include my class-specific buff!
+- When casting a buff that'i have running on a party member, lets put him first!
+- Perhaps no double saving while "Adventure saved!" is on the screen?
+- Pickup shields into offhand, at least if i just dropped it from there?
+- Refining items: candidates exclude the things meant held in inventory for my npcs
+- Manipulating party/npc items spells/items should not exit; also reenter with 'p'.
+
+
 
 
 * Playing
@@ -4390,6 +4497,8 @@ Weird fact: Mercs and other NPC's sometimes say random things to one another!
 
 Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
 
+** Resting
+** Stealth
 * Supplemental
 ** Caution!
 
@@ -4584,8 +4693,9 @@ points.
 Written by a master of the game for an old version, still sensible in its way
 https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit
 *** From Reddit
-Might have been the best overall text i found
-https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/
+Might have been the best overall texts for the old versions
+- https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/
+- https://www.reddit.com/r/fara/comments/aoizn2/beginners_guide/
 *** From Wiki
 What useful info there for 2021 has been incorporated above.
 Its most function page: https://fara.fandom.com/wiki/Special:Categories
@@ -4598,7 +4708,23 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 
 *** Alpha 16 Mar'21..
 
-**** 2021.04.16 0.0.16.5 Hotfix
+**** 2021.04.24 0.0.16.5c Patch Notes
+
+- Fixed some instances of incorrect item amounts displayed in the game log
+- Fixed an issue with number keys not performing the expected action
+- Fixed an issue with doors requiring expendable keys becoming re-locked once
+  opened and closed
+- Fixed several issues with lingering and/or incorrectly placed warning
+  indicators on the minimap
+- Fixed the Altruism trait not working as expected
+- Fixed a few game crashes not tied to anything in particular
+- Minor optimizations
+
+There are a few more bugs I'm aware of that need squashing, but I might not be
+able to get another patch out for a few days and didn't want to sit on these any
+longer.
+
+**** 2021.04.16 0.0.16.5b Hotfix
 
 - Fixed a game crash caused by certain quest turn-ins.
 
@@ -4797,6 +4923,9 @@ Good luck out there, travelers!
 
 
 *** Alpha 15 Dec'20..
+
+Don't miss the Author's [[http://playfara.com/2020changelog.txt][addtl notes for this version]]!
+
 **** 2021.02.13 Patch Notes
 - Removed several unfinished settlement facilities. They will make a return when they actually do something. For now, every settlement has the same 5 facilities, and they are always in the same style of building.
 - Finished the Warehouse facility
@@ -5158,7 +5287,20 @@ This patch will absolutely break existing saves. A new start is always recommend
 **** 2020.12.11 After 568 Days, Public Alpha 15 is LIVE!
 Long time no see, travelers!
 
-It's been 568 days since FARA's last public update, but that isn't to say the project has been dormant. A dedicated, intrepid group of adventurers has been testing a rebuilt version of the game since July, and that test-of-a-test is now ready for everyone to... test. There have been well over 120 patches in that time, and what's listed below is a summary of the highlights. If by chance you want to read every raw, potentially spoilery, nitty gritty detail without much context, you can find the full 1,300+ line changelog here: http://playfara.com/2020changelog.txt. I want to give my most heartfelt thanks to everyone invited to test the changes over the last few months. You could have spent that time and energy on anything, and the fact you chose to help make FARA a better game means the world to me.
+It's been 568 days since FARA's last public update, but that isn't to say the
+project has been dormant. A dedicated, intrepid group of adventurers has been
+testing a rebuilt version of the game since July, and that test-of-a-test is now
+ready for everyone to... test. There have been well over 120 patches in that
+time, and what's listed below is a summary of the highlights. If by chance you
+want to read every raw, potentially spoilery, nitty gritty detail without much
+context, you can find 
+
+*the full 1,300+ line changelog here:*
+- http://playfara.com/2020changelog.txt. 
+
+I want to give my most heartfelt thanks to everyone invited to test the changes
+over the last few months. You could have spent that time and energy on anything,
+and the fact you chose to help make FARA a better game means the world to me.
 
 If you haven't already, join us on Discord!
 
