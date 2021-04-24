@@ -555,29 +555,8 @@ that offer runes for sale and who keeps the rock polished.
   attractice once you have this, but its hard to beat 'free and scary'.
 
 **** Staff
-The Arcane Researcher employed here, psychic and creative as he appears to be
-gives you following 5 options to obtain a rune of "Something" from him for a
-number of shards. These somethings could be:
-
-|--------------+------+---------------------------------------|
-| Something    | Cost |                                       |
-|--------------+------+---------------------------------------|
-| Destructive  |    3 | well, that's clear                    |
-| Protective   |    3 | i can imagine that too                |
-| Primordial   |    3 | that would have to be elemental runes |
-| Supplemental |    2 | decide what that could be later       |
-| Unknown      |    2 | <- But look at that!                   |
-|--------------+------+---------------------------------------|
-
-The first interaction I had with him was to buy something unknown of course. And
-what I got wasn't a random thing, but a rune I had never seen before! Trying again
-of course I got a very highly rated rune, the rune of spears. But I already had one
-of thos in inventory. 
-
-So I don't know. Did his psychic let him give me one kind of rune that I had never had
-before then picking something destructive randomly? I'll have to solicit and wait for
-feedback to get clear on that, or try it again in the next game. Respect!
-
+An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
+conducting his private business without bothering you with extra tasks.
 
 **** Prices
 
@@ -2549,6 +2528,9 @@ Obelisk building let's you upgrade spells
   the last upgrade or two to save 20 or 35 shard, paying for it with the risk
   you're taking on. Just be clear about what you're getting into and read the
   notes for the [[Location List][Location List]] to tweak the ruin's [[Difficulty][Difficulty]].
+**** Arcane Researcher
+An [[Arcane Researcher][Arcane Researcher]] can sometimes be found, just like your self, stumbling
+through the wilderness, his prices and dealings fair as always.
 **** Burning House
 *Danger Will Robinson*
 
@@ -3016,6 +2998,31 @@ imagination.
 
 I write them for the same reason that I don't cheat: Even a little bit of
 storytelling keeps the fantasy alive and prevents play from becoming a grind.
+
+*** Arcane Researcher
+Though often found muttering to themselves, the Arcane Researcher, psychic and
+creative as he appears to be gives you a fair deal. He offer the following 5
+options, letting you obtain, among other things, a rune of "Something" from him
+for a number of shards. These somethings could be:
+
+|--------------+------+---------------------------------------|
+| Something    | Cost |                                       |
+|--------------+------+---------------------------------------|
+| Destructive  |    3 | well, that's clear                    |
+| Protective   |    3 | i can imagine that too                |
+| Primordial   |    3 | that would have to be elemental runes |
+| Supplemental |    2 | decide what that could be later       |
+| Unknown      |    2 | <- But look at that!                   |
+|--------------+------+---------------------------------------|
+
+The first interaction I had with him was to buy something unknown of course. And
+what I got wasn't a random thing, but a rune I had never seen before! Trying again
+of course I got a very highly rated rune, the rune of spears. But I already had one
+of thos in inventory. 
+
+So I don't know. Did his psychic let him give me one kind of rune that I had never had
+before then picking something destructive randomly? I'll have to solicit and wait for
+feedback to get clear on that, or try it again in the next game. Respect!
 
 *** Champions 
 Challenge them once you're past the "Age of Steel", even then you might regret it!
@@ -3579,10 +3586,6 @@ levels of individual *+* or *-* gained from gear and/or buffs.
 I have this notion that it might be possible to make a table that roughly
 presents the words indicating enemy strength..
 
-| Status   | Effect                             |
-| Ecstatic | adds a flat +3 steps to all stats. |
-
-
 *** 22 steps from Baby to GODLIKE
 
 |----------+----------------------+---------------+-------------+-----------|
@@ -3726,6 +3729,36 @@ takes about 4 hits to kill a combat dummy. If you have the Fury condition it
 takes only 3 hits
 
 ** Status
+
+Needs a lot more work..
+
+- Positive
+
+|-------------+------------------------------------|
+| Status      | Effect                             |
+|-------------+------------------------------------|
+| Ecstatic    | adds a flat +3 steps to all stats. |
+| Well Rested |                                    |
+|             |                                    |
+
+- Neutral
+
+| Satiated |
+| Wet      |
+| etc.     |
+|          |
+
+- Negative
+
+See [[Effector Runes][Effector Runes]] for now.
+
+| Intoxicated |
+| Burning     |
+| Stunned     |
+| etc.        |
+|             |
+
+
 ** Weaponry
 
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
@@ -4660,22 +4693,65 @@ Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercas
 
 ** Resting
 ** Stealth
+* Stories
+** Well, here is short story about my cat.
+
+My adventurer Lalli was attacked by some strange lizard quite near Relica. Fight
+started. With just few attacks i was already dying.
+
+Miracle happened. My cat dashed in! She started to scratch the lizard. Lizard
+attacked the cat and i was able to dash out to try my strange new spell which i
+do not remember anymore. Cat scratched lizard again and i was surprised to
+read - lizard had troubles. I put my weapon to my inventory and started to hold
+a mysterious scroll on my shaking hands. Cat and lizard were fighting.
+
+Cat could dodge all attacks. Soon lizard was dying. Finally i managed to start
+cast my strange energy attack scroll. AKRAKADABRA! When bolt finally landed to
+the lizard it was already dead due to my cat scratching it. So, i was happily
+saved by my cat :slight_smile:    -- /joni75/
+
 * Supplemental
-** Caution!
 
-The game, in alpha for many years now, and while holding the attention of a
-loyal playerbase, has a developer's that stated expressly that he has no
-interrest in maintaining save-game compatibility.
+** Random Q&A
 
-Thus you are advised to go through the trouble of downloading and
-installing the game locally so that you will be able to finish games
-in progress since using the web-version risks obliteration of your
-save at any time!
+*** I'm wearing a weapon!
 
-Still..
+LOL not sure if this is a bug or just an odd choice when you type /wearall. I
+just started a game and I'm carrying a cotton coat, a tin staff, and a burlap
+satchel. When I typed /wearall, I wore the coat and the staff. I would have
+expected to wear the coat and the satchel and hold or do nothing with the
+staff. -- /Lanie/
 
-/What little insight into this I have tells me that the danger/
-/of this happening to you is diminishing with each new day./
+--
+
+wearing high power stuff for the buffs is gonna be part of how you wind up
+leveling your stats to where you want them.  I have a bag to swap in for return
+trips to make this work. its the good kind of unusual and surprising you find in
+the game :slight_smile:
+
+
+*** what are good ways to dump inventory contents to a storage chest? ( i have food chest, item chest, craft chest and magic chest ?
+
+- first you can make piles and use /ds to drop more of the same on those piles
+- when that starts to get annoying you'll want a keybind for /clearlog (if thats
+  not already limited to some number a mega huge long log will begin to affect
+  performat)
+- then you want like 9 storages and a /slw smack in the middle of them.  now you
+  want a keybind for /hold 8 and one for /giveall.
+- then it becomes a matter of /drop 8 /hold 8 and /giveall mixed with some drag
+  and drop and clicking containers to get in and out in as fast as you
+  can. .. after a few rounds of this you wont even need to open the containers
+  anymore to know whats in them
+- you can't drop items into directions and there are rough edges, dragons even
+  lurking here but they dont give chase; so once you work out how to do it its
+  ok. just remember to re-equip and /split out a piece of fruit for the road
+- the easy laziest thing to do is to pick an empty house, zap there with a local
+  waypoint, then walk over your pre-layed-out piles using "z" to repeat the
+  "/ds" command.  .. pretty much everything but your runes, spares, teddy-bears
+  and cooked meals and dishes can go there. hth
+
+- p.s. if you dont like the lay of the land, make a bag, collect wood, craft a
+  pick-axe and /build new walls and doors where you want them. :slight_smile:
 
 ** Random Notes from Discord
 
@@ -4729,6 +4805,57 @@ Titles..
 --
 - "You closely inspect your Forsaken Skull. Though void of eyes, you feel it still watches. It is small."
 - ent/ I literally suggested items that give passive buffs from being dropped on the ground, and one of them was the skull of a dungeon boss
+
+---
+
+mantecarl — Yesterday at 11:33 PM
+I discovered that if you shout "help" in a castle, all the NPCs will gather around you
+Not sure if that's in any way useful, but it's funny
+Degritone — Yesterday at 11:35 PM
+Get everyone away from the noble, then give them a knife to the butt
+Ent, but sergals are cheese — Yesterday at 11:35 PM
+Theoretically that would be one of the most harmless places to stab them
+mantecarl — Yesterday at 11:36 PM
+the noble also comes if you shout, sadly
+One thing you could do is setup a bunch of traps
+Or just cast a meteor a bunch of times
+6 flawless meteors and then stealth
+The key will probably be destroyed in the process, but still
+Degritone — Yesterday at 11:37 PM
+Are key fragments not indestructible?
+I've never punched one to test
+
+mantecarl — Yesterday at 11:38 PM
+oh right
+also spells hit but don't seem to do any damage
+Degritone — Yesterday at 11:39 PM
+Can a full Stamina bar even support 6 Flawless Meteors?
+mantecarl — Yesterday at 11:40 PM
+Probably, yeah
+Spell cost was decreased at some point
+Degritone — Yesterday at 11:40 PM
+I haven't played a non-Artificer spellcaster, and don't intend to, so I don't know if max INS can reduce the cost enough to be doable, and don't know Meteor's base cost
+mantecarl — Yesterday at 11:42 PM
+Just checked and it's possible with above average INS
+spell cost was definitely decreased at some point
+It used to eat like half of your stamina with good INS
+huh, the noble is still alive after all that
+The advisor is not though
+probably good to have a good INS score to boost spell damage
+Degritone — Yesterday at 11:45 PM
+Huh. So a perfect Pugilist could cast all of the meteors. It'd be funny to see a dude in nearly fully-metal armor walk up and start casting spell after spell after spell.
+
+POV: you are a Will of the Wild advisor
+Ent, but sergals are cheese — Yesterday at 11:46 PM
+The WoTW advisor with godlike resistance to the meteor's element:
+Combatereak — Yesterday at 11:50 PM
+Lmao
+mantecarl — Yesterday at 11:55 PM
+apparently it does work lol
+you can cast it 8 times and then stealth, and the guards won't have time to react to it
+the only danger would be if you destroyed the key to the door
+
+--
 
 
 *** what classes do yall like the most
@@ -4868,6 +4995,9 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 - compiled by pug since facts are not subject to copyright
 
 *** Alpha 16 Mar'21..
+
+**** 2021.04.25 0.0.16.5d Patch Notes
+- Fixed an issue with unresponsive mouse menu options on the /spells and /waypoints windows
 
 **** 2021.04.24 0.0.16.5c Patch Notes
 
@@ -6666,6 +6796,21 @@ feedback and encouragement, so thanks for taking the time to provide some top
 notch insights. There is still plenty of in-game text that needs updating and
 bugs that need squashing, so if you come across something that doesn't seem
 quite right, be sure to let me know!
+** Caution!
+
+The game, in alpha for many years now, and while holding the attention of a
+loyal playerbase, has a developer's that stated expressly that he has no
+interrest in maintaining save-game compatibility.
+
+Thus you are advised to go through the trouble of downloading and
+installing the game locally so that you will be able to finish games
+in progress since using the web-version risks obliteration of your
+save at any time!
+
+Still..
+
+/What little insight into this I have tells me that the danger/
+/of this happening to you is diminishing with each new day./
 
 
 ** Copyright/Disclaimer
