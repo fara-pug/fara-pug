@@ -4714,6 +4714,67 @@ saved by my cat :slight_smile:    -- /joni75/
 
 ** Random Q&A
 
+*** Screen size frustration
+https://itch.io/t/645187/screen-size-frustration
+
+How do I scroll text?  For example, I can't see most of the classes in the
+starting class list because they are off the bottom of the screen but I also
+can't, as far as I can tell, scroll the text.  Is this a sizing issue?  Is there
+a way to fullscreen or window the game so that it works?  I tried downloading
+the standalone but that doesn't work either.  How can I make text scroll so I
+can read it?
+
+Furthermore, my map has disappeared and I don't know how to bring it back.  And
+the lack of information about these kinds of commands in general is frustrating.
+
+--
+
+I share you pain! 
+
+Turns out you can scroll using [Home] and [End], line by line, not screen by
+screen, but at least you can scroll any of the game's three panels with the
+keyboard and mouse-wheel.  Anytime you have a full-screen popup, it's considered
+the middle panel and you use [Home] and [End]. The keys to the left and right of
+these do the same in the other panels.
+
+When you're in the game at last, press [?] and scroll down all the way to the
+bottom for more useful keys.
+
+I too get the problem with the game-log taking over your screen.  For that, type 
+
+/setkey ; layout1
+/setkey : layout3 
+
+into the game once. i mean, press [/] to get the prompt, then type the rest over
+two lines. *then* you can press ';' to get your game-screen. Weird, i know, but
+its an alpha and learning to use it as most people do for best effect isn't all
+that obvious at times. *BUT* the quality and stability of the thing are both
+improving at a rapid clip .. and you can have some really cool adventures
+playing in that world.
+
+I first tried the game 3 years ago and have written up all the notes i've found
+on the web and stuff. You can read them here. They ought to be in good enough
+shape already to help you understand what's going on in this cool game.
+
+Cheers!
+
+*** How Long is a day
+https://itch.io/t/832383/how-long-is-a-day
+
+I'm in a hut at night waiting for morning to come but after well more than 100
+turns of waiting for moments, nothing. Exactly how long is a day and can you
+please make it shorter.
+
+--
+
+I don't really play a Necros (Morticians in FARA) much but let me answer your
+ancient question anyway.. supposing you didn't "S" stealth and go back to your
+settlement to sleep, you would have pressed "R" and chosen to rest until morning
+-- after closing the door and perhaps building a Bed for the "well-rested" buff.
+Other than that, one day seems to equal about 120 steps on the overland map.
+
+Cheers. Pug out.
+
 *** I'm wearing a weapon!
 
 LOL not sure if this is a bug or just an odd choice when you type /wearall. I
@@ -4730,7 +4791,8 @@ trips to make this work. its the good kind of unusual and surprising you find in
 the game :slight_smile:
 
 
-*** what are good ways to dump inventory contents to a storage chest? ( i have food chest, item chest, craft chest and magic chest ?
+*** what are good ways to dump inventory contents to a storage chest?
+( i have food chest, item chest, craft chest and magic chest ?)
 
 - first you can make piles and use /ds to drop more of the same on those piles
 - when that starts to get annoying you'll want a keybind for /clearlog (if thats
@@ -4752,6 +4814,12 @@ the game :slight_smile:
 
 - p.s. if you dont like the lay of the land, make a bag, collect wood, craft a
   pick-axe and /build new walls and doors where you want them. :slight_smile:
+
+*** Is there an auto-updater?
+No.
+
+*** Multiplayer?
+No. 
 
 ** Random Notes from Discord
 
@@ -6862,6 +6930,54 @@ symlinking that path to a place thats backed-up once a day, not hourly.
 - the actual thing you would appear to need to update between versions,
   as long as the runtime does not change is 'resources/app.asar'.
   its amazing that its just 2.8mb.
+
+
+*** TBD/Update with 
+https://itch.io/t/1037279/i-cannot-run-it-on-sparky-linux
+
+go to the directory where you unpacked the game, then type
+
+#+begin_example
+sudo chmod +x FARA 
+sudo chmod 4755 chrome-sandbox 
+sudo chown root:root chrome-sandbox
+#+end_example
+
+after that you can start the game using 
+
+#+begin_example
+./FARA
+#+end_example
+
+from there through the terminal. this may not work through your file-manager,
+but you can make a little script that will make it work.
+
+Again, from where you unpacked the game type:
+
+#+begin_example
+echo ./FARA >./fara 
+sudo chmod +x ./fara
+#+end_example
+
+There's no .desktop shipped with the game. If you know where these go on your
+system, perhaps *~/.local/share/applications/* as on my system, you could
+install it in the menu saving the following there as, say, fara.desktop:
+
+#+begin_example
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name="FARA"
+GenericName="Open World Roguelike Sandbox"
+Comment="The Roguelike that tries to do too much :)"
+Exec={customize}/FARA
+Categories=Games
+#+end_example
+
+I just just bookmarked the path with my file-manager to make it work from there
+through the little script above and didn't actually test the .desktop file i
+conjured up for you.
+
 
 ** Requirements
 
