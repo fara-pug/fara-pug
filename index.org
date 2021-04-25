@@ -2027,7 +2027,7 @@ See [[Attack Types][Attack Types]], Elemental, Attunement
 - enhanced iron shovel and workbench in inventory
 - should be possible once you get the tool recipes from the first other settlement you visit.
 - oh, have a rope on you while getting used to digging, just in case you slip and fall.
-- must-read: [[Degritone's Guide to 100k Points][Degritone's Guide to 100k Points]]
+- must-read: /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]].
 - see also [[Enhance you Shovel!][Enhance your Shovel!]]
 
 **** Dig and or Fish.. rather alike, no?
@@ -4864,8 +4864,8 @@ Q: Getting started I guess. I read on the guide on Reddit that you can make a
 set of burlap clothing by hunting animals or something?
 
 A: oh yeah, that guide is a little outdated now I have a little section about
-crafting on the guide I'm working on right now, but it still needs some work [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A
-Tourist’s Guide to FARA]]
+crafting on the guide I'm working on right now, but it still needs some work
+ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A Tourist’s Guide to FARA]]
 
 Q: Ah, I'm reading that right now
 
@@ -5291,14 +5291,15 @@ the lizard it was already dead due to my cat scratching it. So, i was happily
 saved by my cat :slight_smile:    -- /joni75/
 
 ** Guides to the current version
-*** Mantecarl's tourist guide
-Written by a master of the game for an old version, still sensible in its way
-https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit
+*** /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A Tourist's Guide to FARA]]
+Written by a master of the game to show you how the game is played.
+*** /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][FARA Item Compendium]]
+A spreadsheet focused on Weapon and Armor details with Recipe Information.
 
 ** Guides and info for earlier versions
-*** Degritone's Guide to 100k Points
-Written by a master of the game for an old version, some relevancy remains: 
-[[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Degritone's Guide to 100k Points]]
+*** /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
+Written by a master of the game for an old version,
+the spirit of Über, some relevancy remains.
 
 *** From Reddit
 Might have been the best overall texts for the old versions
@@ -5308,7 +5309,7 @@ Might have been the best overall texts for the old versions
 *** From Wiki
 Still mostly about old versions. 
 What useful info for 2021 I found there has been incorporated here.
-Its most functional page: https://fara.fandom.com/wiki/Special:Categories
+Its most functional page: [[https://fara.fandom.com/wiki/Special:Categories][Wiki/Categories]].
 
 ** Release Notes
 Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2021.04.25.
@@ -7349,12 +7350,11 @@ For more, join the
 links, and, of course the
 [[https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web][Web]].
 
-Also see /Mishaal/'s [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Item Compendium]],
-and /Mantecarl/'s [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][Tourist’s Guide to FARA]],
-and maybe /Degritone/'s [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
-though that one still need updating for 2021. The first two docs are already up to date!
-
-
+Also see /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][FARA Item Compendium]],
+and /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A Tourist’s Guide to FARA]],
+and maybe /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
+though that one still need updating for 2021.
+The first two docs are already up to date!
 
 Enjoy!
 
