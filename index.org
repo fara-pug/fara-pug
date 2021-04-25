@@ -9,7 +9,12 @@
 # +INFOJS_OPT: view:info toc:t tdepth:1 ltoc:nil sdepth:1
 #+HTML_HEAD: <link rel="stylesheet" href="lib/tufte.css" type="text/css" />
 
-* Hot Links
+#+OPTIONS: toc:nil
+# +BEGIN_ABSTRACT
+# +END_ABSTRACT
+#+TOC: headlines 1
+
+Created during April 2021. No [[Copyright/Disclaimer][Copyright]], just link back to here.
 
 Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5]] there are new quests, right-clicking on the map moves
 you, the sizes of many consumables have been perfected, inventory and storages
@@ -20,11 +25,12 @@ Brian!
 - [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
 - [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
   - [[Release Notes][see if its already searchable in these notes]].
-- [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
-  - and the Notes's expanded [[Weaponry][Weapons]] and [[Equipment][Equipment]] sections!
+
 
 * Intro
+#+TOC: headlines 1 local
 
+** Prefix
 I love the depth and variety in this game. The encounters can be short and
 sweet, or long and trecherous. The world has beauty and there is heaps of
 creativity in the maps and their many variations.  The exploration and combat
@@ -48,7 +54,8 @@ FARA's many mysteries.
 If you don't know what I'm talking about, visit [[https://brianiscreative.itch.io/fara][FARA's Homepage]] and take a look
 at these [[https://www.startpage.com/sp/search?query=FARA+Rougelike+youtube&cat=video][Game-play videos]].
 
-** Notes
+
+** Notes about these Notes
 This page serves as a repository for my notes about the game. 
 
 During my first play-session some years ago I hit a wall and swore to myself
@@ -67,7 +74,7 @@ more, and at last! has me manage inventory and items the way the Elders intended
 Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
 but they are not harmful if you're just starting out. 
 
-** Finding
+** Finding out more about the notes
 #+begin_quote
 One day these notes will be well styled and modern looking.
 That day has not yet come.
@@ -81,15 +88,16 @@ As these notes change 'rolling unannounced updates' appear on the [[https://fara
 hosted at github]]. The HTML version I link to has a style-sheet optimized for
 readability. I keep meaning to use that for proof-reading.
 
-A second, alway in sync version uses a [[https://github.com/fara-pug/fara-pug/blob/main/index.md][crisper more technical style]] that makes
-the notes and tables look quite nice also.
+The source version renderes in a [[https://github.com/fara-pug/fara-pug/blob/main/index.org][crisper more technical style]] that makes
+the notes and tables look quite nice also but lacks indicies.
 
+*** Production
 The writing and production of these docs takes place in Emacs/org-mode since
 that's what I know and spend a lot of time with IRL. As every emacs user wants
 to spread the gospel, I invite you to take a look at [[https://www.startpage.com/do/search?query=emacs+org+mode+outline+youtube][some org-mode videos]].
 Long story short, if/when you try org-mode you'll want to use the [[https://github.com/fara-pug/fara-pug][source-document]].
 
-
+*** Updates
 Since my schedule does not allow me to play all that often, find out about
 updates to the notes by subscribing to [[https://github.com/fara-pug.atom]] via an
 rss-feed reader. I like the [[https://www.startpage.com/do/search?query=Feedbro+Reader][Feedbro Reader]] since it works well in almost any
@@ -99,9 +107,11 @@ improvements to these notes. Set "maximum items to keep" to 1.
 Make sure you also subscribe to Brianiscreative's [[https://brianiscreative.itch.io/fara/devlog.rss][FARA RSS feed]]. If you haven't,
 do it now!
 
+*** Changes
 Want to see what changed in this document? Click the *bold* title of the entries
 in [[https://github.com/fara-pug/fara-pug/commits/main][the change history]]. To see when new pages went live, see [[https://github.com/fara-pug/fara-pug/deployments/activity_log?environment=github-pages][the deployment log]].
 
+*** Contacting
 I will see any DM's you send me on Discord, when I'm not busy elsewhere since
 Discord doesn't get to email me. To get my attention though, make an account on
 Github and post a comment to trigger an email that way. Its no bother at all!
@@ -119,144 +129,9 @@ that said it, so, *THANK YOU!*
 detail on weapons and armors! /Ent/'s feedback helped clarify several bits of text
 considerably.
 
-* Topics
-(alphabetical index for all topics/subtopics right here)
-
-** Accessories
-|-----------+-------------+-----------+------|
-| Accessory | Stat        | Materials | Size |
-|-----------+-------------+-----------+------|
-| Bracelet  | CHA         | 1 hard    |    1 |
-| Doll      | CHA         | 1 soft    |    1 |
-| Garter    | CHA         | 1 soft    |    1 |
-| Kite      | CHA         | 1 soft    |    3 |
-|-----------+-------------+-----------+------|
-| Cloak     | FIN         | 3 soft    |    2 |
-|-----------+-------------+-----------+------|
-| Belt      | STR         | 1 hard    |    2 |
-|-----------+-------------+-----------+------|
-| Underwear | RES         | 1 soft    |    1 |
-|-----------+-------------+-----------+------|
-| Bandolier | FIN, -1 RES | 2 soft    |    2 |
-| Quiver    | FIN, -1 RES | 2 soft    |    2 |
-|-----------+-------------+-----------+------|
-| Belt      | none        | 1 soft    |    2 |
-| Cape      | none        | 3 soft    |    2 |
-| Mat       | none        | 2 soft    |    4 |
-| Rug       | none        | 3 soft    |    4 |
-| Scarf     | none        | 2 soft    |    1 |
-|-----------+-------------+-----------+------|
-
-- Any Weapon can be worn as an accessory for some powerful stat boosts!
-- Once you've looted you'll want a [[Bags][Bag]] to carry things home in */stealth* mode.
-
-** Armor
-
-Mishaal's research on the stat bonuses of armor is awesome!
-- We still need that for Weapons!
-
-All listed bonuses are 1.
-- Each level of refinement adds an additional bonus point to the listed stat!
-- Ignore anything without a bonus
-- Upgrade breastplates which give a bonus and a malus twice to get a bonus in two stats!
-- Jumpsuits truly start with 2 boni
-- Ignore accessories because you want to have a bag or weapon in that slot.
-  - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
-
-*** Head
-
-Recipes:
-|-----------+-------------+--------------------------------------------------------|
-| Materials | Ingredients | Note                                                   |
-|-----------+-------------+--------------------------------------------------------|
-| Hard      | 3 hard mats | use hard mats; enemies love to hit you here            |
-| Soft      | 1 soft mat  | even uniques "useless". use only exceptional materials |
-|-----------+-------------+--------------------------------------------------------|
-
-Head Armor Items; all crafted from 3 hard materials; all have size 2.
-
-|-------+------+-----------+------|
-| Item  | Stat | Materials | Size |
-|-------+------+-----------+------|
-| Coif  | STR  | 3 hard    |    2 |
-| Crown | INS  | 3 hard    |    2 |
-| Helm  | RES  | 3 hard    |    2 |
-| Tiara | CHA  | 3 hard    |    2 |
-|-------+------+-----------+------|
-
-Head Armor Items; all crafted from 1 soft material.
-
-|----------------+------+-----------+------|
-| Item           | Stat | Materials | Size |
-|----------------+------+-----------+------|
-| Cap            | CHA  | 1 soft    |    2 |
-| Hood           | FIN  | 1 soft    |    2 |
-| Bandana        | FIN  | 1 soft    |    1 |
-| Hat            | INS  | 1 soft    |    1 |
-|----------------+------+-----------+------|
-| Wrestling Mask | none | 1 soft    |    1 |
-|----------------+------+-----------+------|
-
-..  must add Goggles. Glasses?, Monocles?
-
-*** Torso
-|---------------+-------------+-----------+------|
-| Armor         | Stat        | Materials | Size |
-|---------------+-------------+-----------+------|
-| Jacket        | CHA         | 2 soft    |    2 |
-| Thong         | CHA         | 1 soft    |    1 |
-|---------------+-------------+-----------+------|
-| Brigandine    | FIN         | 5 soft    |    5 |
-| Coat          | FIN         | 5 soft    |    5 |
-| Jerkin        | FIN         | 5 soft    |    2 |
-| Kimono        | FIN         | 5 soft    |    5 |
-| Tights        | FIN         | 2 soft    |    2 |
-| Tunic         | FIN         | 5 soft    |    5 |
-|---------------+-------------+-----------+------|
-| Vestments     | INS         | 4 soft    |    3 |
-|---------------+-------------+-----------+------|
-| Kilt          | STR         | 3 soft    |    2 |
-|---------------+-------------+-----------+------|
-| Poncho        | RES         | 2 soft    |    2 |
-|---------------+-------------+-----------+------|
-| *Breastplate* | -1 FIN, RES | 5 hard    |    5 |
-| Jumpsuit      | STR, FIN    | 5 soft    |    5 |
-|---------------+-------------+-----------+------|
-| Blouse        | none        | 2 soft    |    2 |
-| Dress         | none        | 3 soft    |    2 |
-| Gi            | none        | 3 soft    |    2 |
-| Gown          | none        | 3 soft    |    2 |
-| Shirt         | none        | 2 soft    |    2 |
-| Toga          | none        | 3 soft    |    2 |
-|---------------+-------------+-----------+------|
-
-*** Hands
-|-----------+------+-----------+------|
-| Gloves    | Stat | Materials | Size |
-|-----------+------+-----------+------|
-| Bracers   | RES  | 2 hard    |    2 |
-| Gauntlets | FIN  | 2 hard    |    2 |
-| Gloves    | FIN  | 2 soft    |    1 |
-|-----------+------+-----------+------|
-
-*** Feet
-|----------+------+-----------+------|
-| Footwear | Stat | Materials | Size |
-|----------+------+-----------+------|
-| Boots    | none | 4 hard    |    2 |
-| Sabatons | none | 4 hard    |    2 |
-| Shoes    | none | 4 hard    |    2 |
-|----------+------+-----------+------|
-| *Boots*  | FIN  | 4 soft    |    2 |
-| Sandals  | none | 1 soft    |    1 |
-| Shoes    | none | 1 soft    |    1 |
-|----------+------+-----------+------|
-
-- Yes, Boots made from soft materials provide a bonus to Finesse while those
-  made from hard materials do not.
-
-** Avatar
-*** Blights
+* Avatar
+#+TOC: headlines 1 local
+** Blights
 
 Instead of simply dying and staring at your screen dumbfoundedly, the force
 which brought you into the game supports you again by giving you get a chance to
@@ -296,352 +171,6 @@ Feedback:
 My testing was not extensive, I only kept going until I was pretty sure I'd seen
 all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
 sure.
-
-*** Character Stats
-- see /define for great upto-date info
-- includes info from discord and https://fara.fandom.com/wiki/Character_Stats
-- If you have high health and high resilience then you are probably good at tanking
-- Moods affect your stats positively as well as negatively.
-- Being sleepy or well rested affects your stats as well
-- "c" shows your stats of the moment, moods, tiredness & equipment included.
-
-**** Details
-***** Strength
-
-- Increases damage dealt with melee weaponry
-- Increases damage dealt through unarmed strikes
-- Decreases stamina spent pushing large objects.
-- Increases your chances of succeeding at a */grab*
-
-STR weapons should do the most damage per hit in close quarters.
-(Weapon damage is not depended on weapon size, but refinement and materials)
-
-***** Finesse
-
-- Increases damage dealt with range weaponry
-- Increases chance to disarm traps,
-- Increases stealth ability
-- Increases your */dash* distance and (maybe?) decreases its stamina cost
-- Decreases reload time of ranged weapons
-- Decreases stamina used by jumping and stealth.
-
-Makes you good at hiding, attacking from range, with daggers and  other finesse weaponry
-
-***** Resilience
-
-- Reduces physical damage taken,
-- Reduces duration of negative effects,
-- Increases stamina regeneration rate.
-- Warhammer heavies do more damage based on RES
-
-***** Insight
-
-Makes you good with Spells, Staves, Focuses, Wands and Scepters.
-
-- Increases the damage of spells,
-- Increases your search ability,
-- Decreases the stamina cost of spells.
-
-***** Charm
-
-- Increases the duration of buffs/positive effects
-- Increases odds of favorable outcomes (such as?)
-- Does it Decreases the duration of mali/negative effects??
-
-Your charm doesn't increase your ability to lead a party and it does
-not affect your party's maximum size. (max party size may be class dependent)
-
-Charm does make it easier to form good relationships with NPCs, meaning that
-with more charm */joke*, */gossip*, etc. will be better received and they
-will think you more of a friend for doing quests for them.
-
-Unsure how that matters. Will they remember your birthday? Give more loot?
-
-More important.. If charm is luck and insight searching, then why isn't everyone
-talking about making shovels and fishing-rods from crystal or even obsidian?
-I think some testing is in order.. Can it be that people don't like setting up
-house on the beach? Whats going on there..
-
-
-**** Health Brackets
-:PROPERTIES:
-:ID:       2558d375-eadc-4e66-ae1e-3dffe31794b9
-:END:
-- Healthy = full health
-- Wounded = Starts at ~75%
-- Injured = Starts at ~50%
-- Dying = Starts at ~25%
-
-**** Damage reduction
-:PROPERTIES:
-:ID:       77a590eb-d965-4894-b522-789f1b7c7769
-:END:
-Resilience is tied to Damage reduction (DR)
-- Shield give DR, at the cost of jumping costing more stamina
-- Multiple sources of DR stack
-- Fishmonger gets a bunch of DR by being drunk
-
-**** Notes
-
-Stats are improved by wearing or holding gear with stat alterations
-affixed. Most of these affixes are determined by the Crafting Materials that the
-item is made out of, but some can come from the item itself, or tools that
-further enhance items.
-
-We need a table of Item characteristics!
-- perhaps someone with godlike stats would post a savegame to look at for the
-  details in the recipes they've collected somewhere?
-- perhaps the brain will give us a button to export such a list for things known
-  inside a game!
-*** Key fragments
-
-- One for every 10 unknown monsters you inspect. 
-- It is possible to win just by inspecting monsters.
-  - Winning isn't the end.
-  - I think its after you do that the real game starts.
-- One for reaching max renown with a faction.
-- Rarely and randomly, from fishing or digging.
-- At the end of Dungeons.
-- By ending Nobles, even Village Elders.
-- Check your */spells* spell-list for emergency and post-win uses.
-
-**** Meta
-I read that each new shard contibutes more points to your score than the previous one.
-
-Thus if you aim to level up your stats by putting shards into them you should do
-it with the 9th shard so that you collect the most unlock points for doing that.
-
-Go to relica and spend an IRL day farming nothing but 'find monster' quests and
-tell me how far you get and how long it takes.
-
-***** crazy math
-If you're strong enough to move to another settlement, can you turn your naked
-self into a being with godlike stats while unlocking all the classes playing the
-meta-game of animal researcher?
-
-there are 5 primary stats. lets say they average '10 of 20'. you'd need 50 9th
-shards to become a god. that's 500 new animal species discovered, and maybe 500
-days spent in game.
-
-hmm, lol, i wonder how long brute-forcing 10 find-animal quests would take and
-if i could resist the urge to just complete the key to be done with the game.
-
-maybe i should complete the key first and see what revelations that brings.
-decisions. decisions. /end crazy math
-*** Resting
-I read that you can rest on mats. that's not true.
-
-You need/want
-- a whatever bed, unsure that materials provide boni to sleep
-- to be within the glow of a brazier (what else works?)
-- to be behind any kind of *closed* door.
-
-Now... if you find a mattress, blanket or a pillow count yourself lucky!
-
-Pillows need feathers.. and the only way i can imagine getting any feathers is
-from a bird joining battle, angered by my taking their nest of of their tree.
-
-- Castles, Fortresses, Labyrinths, Random and even delapidated ruins all count
-  as safe indoor sleeping places even if undiscovered enemies remain.
-
-- Got woken up after building a shack on a map with an undiscovered species I
-  was looking for. Once. So far I've never been attacked at night even sleeping
-  in ruins.
-
-Its a good idea to keep two wooden log in your inventory so you don't have to
-scrounge for one in the middle of the night while traveling!
-
-You want to make a shelter and a install a door before you sleep, because
-[[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
-thought of having to cross deserts at night without 2 logs. one for a shelter,
-one for a door.
-*** Titles
-You obtain these by:
-- Completing a settlement
-- Ranking up in a faction
-- Conquering monster dens
-- Dungeons?
-- Faction-specific quests
-
-Would be nice to have a list for those striving to become an Über-player!
-
-example: "Ÿou, Director of .."
-
-- many/some/several, not-all titles come with a key-fragment!
-
-*** Party
-I may be dreaming but were there no saddle-bags in that old version? Can my pet
-and merc help me carry things? So much to determine yet. I should probably look
-into simply equipping my new merc first.
-
-** Buildings
-
-This section is about the unlockable building you can find in every settlement.
-Completing all of them makes you a Settlement Hero, which is a Title that can
-be useful when you want to talk to or hire NPC's for your travels.
-
-The costs were transcribed from Relica by Pug.
-
-Don't compromise on gear to invest in buildings,
-You only *need* the Warehouse at the start.
-
-*** Warehouse
-"Gives access to a thing that helps you move to other settlements."
-
-**** Cost
-- 2 medals
-- 20 wooden planks
-- 10 ropes
-
-**** Benefits
-- Crucible that gives shared access to your stash of buffs, situational uniques,
-  and supplies for expanding elsewhere.
-
-- 6 Storage bins, probably best when only used in Relica, that let you get rid of
-  things you dont want to see but dont want to loose. See [[Item Management]]
-
-*** Stables
-How!?@?#
-
-**** Cost
-- 2 medals
-- 10 copper ingots
-- 5 wooden buckets (got recipe after opening refinery)
-
-**** Benefit
-Aha's from looking at my first Stables.
-Yours will be similar I'd think. So.. Oh!
-
-- its a farm with spice and tree plots! 
-  - a garlic and a fennel plot
-  - a lemon and a maple tree plot
-- farmer and stablemaster work here
-  - there's also a young deer. should i bring the cow?
-- also dropped a Starcloth and a Velvet Saddle
-  - these materials i'd not seen before i opened the building
-
-
-*** Tavern
-
-**** Cost
-- 2 medals
-- 5 wooden stools
-- 5 glass mugs
-
-**** Benefit
-- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
-  - blue prints and rare materials
-- A High level merc that wont talk to you until a title or two
-- A Well skilled merc that can hold his own
-- A Damsel in distress NPC i escorted elsewhere
-
-Have to check up on the patrons there again.
-If all that got me was a gambling chance at BPs, fine!
-
-*** Obelisk
-
-**** Cost
-- 2 medals
-- 10 stones
-- 25 runic shards
-
-**** Benefit
-The same damn obelisk you keep finding in the wilderness, but with a researcher
-that offer runes for sale and who keeps the rock polished.
-
-- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
-
-- Single level upgrade obtained by beating the Bosses at Ruins become less
-  attractice once you have this, but its hard to beat 'free and scary'.
-
-**** Staff
-An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
-conducting his private business without bothering you with extra tasks.
-
-**** Prices
-
-***** Spell upgrades
-|--------+------------|
-| Shards | upgrade to |
-|--------+------------|
-|      5 | Improved   |
-|     10 | Greater    |
-|     15 | Superior   |
-|     20 | Flawless   |
-|--------+------------|
-|     50 | new > max  |
-|--------+------------|
-
-
-***** Custom Runes
-
-tbd
-
-*** Refinery
-A smith that makes a lot of (refineried) items.
-
-**** Cost
-- 4 medals
-- 15 iron ingots
-- 5 iron hammers
-- 5 wooden benches
-- 5 wooden tables
-
-**** Benefit
-
-Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
-you. He has manic inspiratitions, you bring him what he asks for, he levels up
-and crafts whatever he damn well pleases.
-
-- Does away with your excess Medals.
-- Consumes your excess resources.
-- "Discovers" Recipes for Items you've been dying to find.
-
-**** Notes
-After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
-stables. That was nice. I also got a nice everburning? lantern that helps to
-attract even more encounters at night
-
-Here's a log of what he did for me in the beginning:
-
-- each item cost 1 Medal
-- all but the first item were of (Refined) Quality.
-
-| Mat  | Qty | Result         |
-|------+-----+----------------|
-| bone |   1 | ball           |
-| tin  |  20 | organ          |
-| tin  |   5 | spear          |
-| tin  |   2 | clip           |
-| bone |   2 | bucket         |
-| bone |   2 | grappling hook |
-| bone |   2 | sign           |
-| bone |   1 | goggles        |
-| tin  |   1 | box            |
-| tin  |   1 | lantern        |
-| bone |     | lantern        |
-| bone |     | violin         |
-
-I might have missed an item there, but suddenly he asked for a crafted input,
-turning *bone nunchucks > swordchucks*.
-
-After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
-coming close to a new materials tier after 12..13 runs.. Verry nice, very
-grindy, very medal-expensive!
-
-*3 wooden blocks > wooden anvil*
-
-Afterwards he wanted bones again..
-
-Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
-of his more sensible items. neat!
-
-- Keeping these prototypes makes sense to me right now.
-
-- Signs.. used to be terribly important in the old version i played. Perhaps
-  they have a discoverable function..
-
-- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
 
 ** Classes
 
@@ -1660,8 +1189,1625 @@ a Peasant. 100k points to unlock.
 *** Summary by Good Attribute
 *** Summary by Avg+ Attribute
 *** Summary by Avg- Attribute
+** Stats
+- see /define for great upto-date info
+- "c" shows your stats of the moment, moods, tiredness & equipment included.
+- includes info from discord and [[https://fara.fandom.com/wiki/Character_Stats][the Wiki]].
+- If you have high health and high resilience then you are probably good at tanking
+- Moods affect your stats positively as well as negatively.
+- Being sleepy or well rested affects your stats as well
 
-** Damage Types
+Stats are improved by wearing or holding gear with stat alterations
+affixed. Most of these affixes are determined by the Crafting Materials that the
+item is made out of, but some can come from the item itself, or tools that
+further enhance items.
+
+*** Strength
+
+- Increases damage dealt with melee weaponry
+- Increases damage dealt through unarmed strikes
+- Decreases stamina spent pushing large objects.
+- Increases your chances of succeeding at a */grab*
+
+STR weapons should do the most damage per hit in close quarters.
+(Weapon damage is not depended on weapon size, but refinement and materials)
+
+*** Finesse
+
+- Increases damage dealt with range weaponry
+- Increases chance to disarm traps,
+- Increases stealth ability
+- Increases your */dash* distance and (maybe?) decreases its stamina cost
+- Decreases reload time of ranged weapons
+- Decreases stamina used by jumping and stealth.
+
+Makes you good at hiding, attacking from range, with daggers and  other finesse weaponry
+
+*** Resilience
+
+- Reduces physical damage taken,
+- Reduces duration of negative effects,
+- Increases stamina regeneration rate.
+- Warhammer heavies do more damage based on RES
+
+*** Insight
+
+Makes you good with Spells, Staves, Focuses, Wands and Scepters.
+
+- Increases the damage of spells,
+- Increases your search ability,
+- Decreases the stamina cost of spells.
+
+*** Charm
+
+- Increases the duration of buffs/positive effects
+- Increases odds of favorable outcomes (such as?)
+- Does it Decreases the duration of mali/negative effects??
+
+Your charm doesn't increase your ability to lead a party and it does
+not affect your party's maximum size. (max party size may be class dependent)
+
+Charm does make it easier to form good relationships with NPCs, meaning that
+with more charm */joke*, */gossip*, etc. will be better received and they
+will think you more of a friend for doing quests for them.
+
+Unsure how that matters. Will they remember your birthday? Give more loot?
+
+More important.. If charm is luck and insight searching, then why isn't everyone
+talking about making shovels and fishing-rods from crystal or even obsidian?
+I think some testing is in order.. Can it be that people don't like setting up
+house on the beach? Whats going on there..
+
+*** Damage reduction
+:PROPERTIES:
+:ID:       77a590eb-d965-4894-b522-789f1b7c7769
+:END:
+Resilience is tied to Damage reduction (DR)
+- Shield give DR, at the cost of jumping costing more stamina
+- Multiple sources of DR stack
+- Fishmonger gets a bunch of DR by being drunk
+
+
+*** Health
+:PROPERTIES:
+:ID:       2558d375-eadc-4e66-ae1e-3dffe31794b9
+:END:
+
+FARA doesn't give you a percentage for your remaining health or anything that crass,
+instead you will be Healthy, Wounded, Injured or Dying. 
+
+Check [[Food][Food]] and [[Resting][Resting]] for how to get your health back and [[Summary by # Spells][the class-tables]] for
+how much you have to start with. See also [[Status][Status]] for other conditions.
+
+|---------+---------------------------------|
+| Health  | Condition                       |
+|---------+---------------------------------|
+| Healthy | Maybe scratched a little.       |
+| Wounded | Less than ~75% Health remaining |
+| injured | Less than ~50% Health remaining |
+| Dying   | Less than ~25% Health remaining |
+|---------+---------------------------------|
+
+*** Stamina
+:PROPERTIES:
+:ID:       f450d024-21e4-4d36-b70e-3338e00e7375
+:END:
+
+Being exhausted from dancing before going swimming in that lake, so your last
+character told you, was not a good idea. You've seen the [[Status][status]] they got into,
+it was not good for their overall [[Stats][stats]]!
+
+| (normal)  |
+| Winded    |
+| Exhausted |
+| Drowning  |
+| ..        |
+
+But you know, there's sugar in [[Fruits][fruit]], right?
+
+So why don't you wear yourself out, then try what fruits or other food you might
+like to take along your raiding missions. Find a way to determine just how long
+it might take to eat or drink and just which of these options of replenishing
+your stamina are open to you in combat!
+
+(I may be overdoing it with the effects of fruits, the stamina restauration 
+might equally well apply to all foods.. go try it out!)
+
+** Stat Brackets
+
+Stats are reported in the character screen "*c*" where you can see the brackets
+of your attributes. The brackets are made up of several levels of individual *+*
+or *-* gained from gear and/or buffs.
+
+I have this notion that it might be possible to make a table that roughly
+presents the words indicating enemy strength..
+
+*** 22 steps from Baby to GODLIKE
+
+|----------+----------------------+---------------+-------------+-----------|
+| Low#     | Player/Allied Humans | NPC's/Dummies | Animals     | Plants    |
+|----------+----------------------+---------------+-------------+-----------|
+| *20*     | *GODLIKE*            | Eternal       | Timeless    |           |
+| *16*..19 | *Legendary+*         | Legendary     | Ancient     |           |
+| *12*..15 | *Legendary*          | Mythic        | Fabled      |           |
+|----------+----------------------+---------------+-------------+-----------|
+| *10*..11 | *Excellent+*         | Heroic        | Elder       | Beasts?   |
+| *8*..9   | *Excellent*          | Elite         | Alpha       | Behemoth? |
+|----------+----------------------+---------------+-------------+-----------|
+| *6*..7   | *Good+*              | Veteran       | Deadly      | Beast?    |
+| *4*..5   | *Good*               | Tough         | Stout       | Kid?      |
+|----------+----------------------+---------------+-------------+-----------|
+| *1*..3   | *Above Average*      | Skilled       | Mature      |           |
+| *0*      | *Average*            | (no prefix)   | (no prefix) |           |
+| *-1*..-3 | *Below Average*      | Amateur       | Young       | Baby?     |
+|----------+----------------------+---------------+-------------+-----------|
+
+- Starting stats are in ±2 increments from average.
+  (said to be. seen no 'science' yet.)
+
+- Does Godlike always blink or only when you tried to push past 20?
+
+*** 19 stages of horribleness.
+
+|------+-----------------------------------|
+| Stat | Inspecting Self and Allied Humans |
+|------+-----------------------------------|
+|   -4 | Poor (4 steps)                    |
+|   -8 | Awful (4 steps)                   |
+|  -12 | Terrible (4 steps)                |
+|  -16 | Dreadful (4 steps)                |
+|  -20 | TRAGIC                            |
+|------+-----------------------------------|
+
+** Status
+
+Moods and Buffs can seriously affect your stats. 
+
+For now, See [[Effector Runes][Effector Runes]] 
+
+This section tries to bring some order to my confusion about how that works.
+It needs a lot more work.. [[Health][Health]] is covered earlier.
+
+*** Positive
+
+|-------------+------------------------------------|
+| Status      | Effect                             |
+|-------------+------------------------------------|
+| Ecstatic    | adds a flat +3 steps to all stats. |
+| Well Rested |                                    |
+|             |                                    |
+
+*** Neutral
+
+|-----------+--------|
+| Status    | Effect |
+|-----------+--------|
+| Satiated  |        |
+| Stealthed |        |
+| Wet       |        |
+| etc.      |        |
+|           |        |
+
+*** Negative
+
+|-------------+--------|
+| Status      | Effect |
+|-------------+--------|
+| Immobilized |        |
+| Intoxicated |        |
+| Burning     |        |
+| Stunned     |        |
+| etc.        |        |
+|             |        |
+
+|-----------+--------|
+| Status    | Effect |
+|-----------+--------|
+| Sleepy    |        |
+| Exhausted |        |
+| Winded    |        |
+|           |        |
+
+** Titles
+You obtain these by:
+- Completing a settlement
+- Ranking up in a faction
+- Conquering monster dens
+- Dungeons?
+- Faction-specific quests
+
+Would be nice to have a list for those striving to become an Über-player!
+
+example: "Ÿou, Director of .."
+
+- many/some/several, not-all? titles come with a key-fragment!
+
+
+* Items
+#+TOC: headlines 1 local
+
+** Accessories
+:PROPERTIES:
+:ID:       7c55cc7b-0042-4560-80a9-da76fbf07bf7
+:END:
+|-----------+-------------+-----------+------|
+| Accessory | Stat        | Materials | Size |
+|-----------+-------------+-----------+------|
+| Bracelet  | CHA         | 1 hard    |    1 |
+| Doll      | CHA         | 1 soft    |    1 |
+| Garter    | CHA         | 1 soft    |    1 |
+| Kite      | CHA         | 1 soft    |    3 |
+|-----------+-------------+-----------+------|
+| Cloak     | FIN         | 3 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | STR         | 1 hard    |    2 |
+|-----------+-------------+-----------+------|
+| Underwear | RES         | 1 soft    |    1 |
+|-----------+-------------+-----------+------|
+| Bandolier | FIN, -1 RES | 2 soft    |    2 |
+| Quiver    | FIN, -1 RES | 2 soft    |    2 |
+|-----------+-------------+-----------+------|
+| Belt      | none        | 1 soft    |    2 |
+| Cape      | none        | 3 soft    |    2 |
+| Mat       | none        | 2 soft    |    4 |
+| Rug       | none        | 3 soft    |    4 |
+| Scarf     | none        | 2 soft    |    1 |
+|-----------+-------------+-----------+------|
+
+- Any Weapon can be worn as an accessory for some powerful stat boosts!
+- Once you've looted you'll want a [[Bags][Bag]] to carry things home in */stealth* mode.
+
+** Armor
+:PROPERTIES:
+:ID:       fde2b30c-c0c3-47e2-9312-380e48a04017
+:END:
+
+Mishaal's research on the stat bonuses of armor is awesome!
+- We still need that for Weapons!
+
+All listed bonuses are 1.
+- Each level of refinement adds an additional bonus point to the listed stat!
+- Ignore anything without a bonus
+- Upgrade breastplates which give a bonus and a malus twice to get a bonus in two stats!
+- Jumpsuits truly start with 2 boni
+- Ignore accessories because you want to have a bag or weapon in that slot.
+  - or the bonus of quiver/bandolier on combat turns out to be real and valuable to you.
+
+*** Head
+
+Recipes:
+|-----------+-------------+--------------------------------------------------------|
+| Materials | Ingredients | Note                                                   |
+|-----------+-------------+--------------------------------------------------------|
+| Hard      | 3 hard mats | use hard mats; enemies love to hit you here            |
+| Soft      | 1 soft mat  | even uniques "useless". use only exceptional materials |
+|-----------+-------------+--------------------------------------------------------|
+
+Head Armor Items; all crafted from 3 hard materials; all have size 2.
+
+|-------+------+-----------+------|
+| Item  | Stat | Materials | Size |
+|-------+------+-----------+------|
+| Coif  | STR  | 3 hard    |    2 |
+| Crown | INS  | 3 hard    |    2 |
+| Helm  | RES  | 3 hard    |    2 |
+| Tiara | CHA  | 3 hard    |    2 |
+|-------+------+-----------+------|
+
+Head Armor Items; all crafted from 1 soft material.
+
+|----------------+------+-----------+------|
+| Item           | Stat | Materials | Size |
+|----------------+------+-----------+------|
+| Cap            | CHA  | 1 soft    |    2 |
+| Hood           | FIN  | 1 soft    |    2 |
+| Bandana        | FIN  | 1 soft    |    1 |
+| Hat            | INS  | 1 soft    |    1 |
+|----------------+------+-----------+------|
+| Wrestling Mask | none | 1 soft    |    1 |
+|----------------+------+-----------+------|
+
+..  must add Goggles. Glasses?, Monocles?
+
+*** Torso
+|---------------+-------------+-----------+------|
+| Armor         | Stat        | Materials | Size |
+|---------------+-------------+-----------+------|
+| Jacket        | CHA         | 2 soft    |    2 |
+| Thong         | CHA         | 1 soft    |    1 |
+|---------------+-------------+-----------+------|
+| Brigandine    | FIN         | 5 soft    |    5 |
+| Coat          | FIN         | 5 soft    |    5 |
+| Jerkin        | FIN         | 5 soft    |    2 |
+| Kimono        | FIN         | 5 soft    |    5 |
+| Tights        | FIN         | 2 soft    |    2 |
+| Tunic         | FIN         | 5 soft    |    5 |
+|---------------+-------------+-----------+------|
+| Vestments     | INS         | 4 soft    |    3 |
+|---------------+-------------+-----------+------|
+| Kilt          | STR         | 3 soft    |    2 |
+|---------------+-------------+-----------+------|
+| Poncho        | RES         | 2 soft    |    2 |
+|---------------+-------------+-----------+------|
+| *Breastplate* | -1 FIN, RES | 5 hard    |    5 |
+| Jumpsuit      | STR, FIN    | 5 soft    |    5 |
+|---------------+-------------+-----------+------|
+| Blouse        | none        | 2 soft    |    2 |
+| Dress         | none        | 3 soft    |    2 |
+| Gi            | none        | 3 soft    |    2 |
+| Gown          | none        | 3 soft    |    2 |
+| Shirt         | none        | 2 soft    |    2 |
+| Toga          | none        | 3 soft    |    2 |
+|---------------+-------------+-----------+------|
+
+*** Hands
+|-----------+------+-----------+------|
+| Gloves    | Stat | Materials | Size |
+|-----------+------+-----------+------|
+| Bracers   | RES  | 2 hard    |    2 |
+| Gauntlets | FIN  | 2 hard    |    2 |
+| Gloves    | FIN  | 2 soft    |    1 |
+|-----------+------+-----------+------|
+
+*** Feet
+|----------+------+-----------+------|
+| Footwear | Stat | Materials | Size |
+|----------+------+-----------+------|
+| Boots    | none | 4 hard    |    2 |
+| Sabatons | none | 4 hard    |    2 |
+| Shoes    | none | 4 hard    |    2 |
+|----------+------+-----------+------|
+| *Boots*  | FIN  | 4 soft    |    2 |
+| Sandals  | none | 1 soft    |    1 |
+| Shoes    | none | 1 soft    |    1 |
+|----------+------+-----------+------|
+
+- Yes, Boots made from soft materials provide a bonus to Finesse while those
+  made from hard materials do not.
+
+** Curios
+:PROPERTIES:
+:ID:       c837a2d5-bf82-4b42-ba0d-5bbeab6eda64
+:END:
+(wip)
+
+Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
+them to a piece of equipment, you can't get rid of them again. Some of these are
+really rare and I can't quite judge which those are, so .. Please don't cry if
+you misapply!
+
+Curios can be found and some of the curios, perhaps all of them are
+craftable once you've discovered or obtained their recipes.
+
+*** Never Craftable?
+|------------------+----------------------------------+--------|
+| Curio            | Effect                           | Rarity |
+|------------------+----------------------------------+--------|
+| Athletic Band    | Increase Jump distance           |        |
+| Balanced Weight  | Lessen chance to stumble (drunk) |        |
+| Hardened Tack    | Increase critial damage          |        |
+| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
+|------------------+----------------------------------+--------|
+| Hilt Chain       | Thrown Item returns              |        |
+| Metalic Bullseye | Increase throwing distance       |        |
+|------------------+----------------------------------+--------|
+
+*** Definitely craftable.
+|---------------+----------------------------+-----------------|
+| Curio         | Effect                     | Needs           |
+|---------------+----------------------------+-----------------|
+| Durable Patch | Less wear and tear on item |                 |
+| Hidden Pocket | +5 Inventory capacity      | 3 Burlap        |
+|---------------+----------------------------+-----------------|
+| Heavy Clasp   | +STR                       | 5 Copper Ingots |
+| Shiny Charm   | +CHA                       | 5 Rolls Silk    |
+| Sturdy Plates | +RES                       | 5 Animal Bones  |
+| Clever Widget | +INS                       | 5 Glass Ingots  |
+| Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
+|---------------+----------------------------+-----------------|
+
+** Equipment
+:PROPERTIES:
+:ID:       3dc18f43-b2f9-4fb6-980e-06a576864ee7
+:END:
+*** Bags 
+
+The material determines your attribute bonuses and might have an effect on
+durability.
+
+|----------+-----------+----------+---------+---------+------------|
+| Bag      | Materials | Capacity | Refined | Artisan | Masterwork |
+|----------+-----------+----------+---------+---------+------------|
+| Satchel  | 2 soft    |       10 |      15 |      20 |         25 |
+| Bag      | 3 soft    |       15 |      20 |      25 |         30 |
+| Backpack | 4 soft    |       20 |      25 |      30 |         35 |
+| Sack     | 5 soft    |       25 |      30 |      35 |         40 |
+|----------+-----------+----------+---------+---------+------------|
+
+- The [[MERCHANT][Merchant]] class has *twice* the usual inventory capacity from the beginning.
+- And the Hauler trait increases your inventory capacity passively
+- If you've seen a legendary bag, I'd like to know!
+- Consider using at least one [[Definitely craftable.][Hidden Pocket]] curio.
+
+*** Bottles
+
+Are
+Bottle,
+Bowl,
+Bucket,
+Cauldron,
+Cup,
+Flask,
+Keg,
+Jug,
+Mug,
+Stein,
+Teapot,
+Urn,
+Vial &
+Waterskin
+all of them?
+
+These provide the ability to carry water on your trips. I find I'd rather carry
+a piece of fruit to regain stamina, but tastes vary oc.
+
+*** Lights
+
+|---------+--------+--------------------------------------------------------|
+| Light   | Burns  | Note                                                   |
+|---------+--------+--------------------------------------------------------|
+| Candle  | Short  | More of an oddity, rather ordinary, burns a few hours. |
+| Torch   | Medium | Easy to make, you were born knowing how to make them.  |
+| Lantern | Long   | Got the Recipe after 'feeding the smith' a lot.        |
+|---------+--------+--------------------------------------------------------|
+
+- Lanterns seem to burn forever.. but they dont.
+  - They'll have plenty of life left in them when yellow.
+
+|--------------+----------|
+| Light Range  | Distance |
+|--------------+----------|
+| Above Ground |        6 |
+| Below Ground |        4 |
+|--------------+----------|
+
+- Climbing does not extend the light's circle. 
+
+*** Riding, Fishing, Digging, Mining
+|-------------+--------------------------------------------|
+| Saddle      | Can be used to ride a mount                |
+| Shovel      | To dig with                                |
+| Pickaxe     | For digging and mining                     |
+| Fishing Rod | Still looking for what to do with those ;) |
+|-------------+--------------------------------------------|
+*** Repairing
+|-------------+------------------------------------------------|
+| Item        | Note                                           |
+|-------------+------------------------------------------------|
+| Repair Kits | very light and cheap; single use               |
+| Workbenches | repairs party equipment! repairable with a kit |
+|-------------+------------------------------------------------|
+** Furniture
+:PROPERTIES:
+:ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
+:END:
+
+How to arrange
+Bar Stool,
+Bed,
+Bedding,
+Bench,
+Bookcase,
+Bookshelf,
+Cabinet,
+Carpet,
+Chair?,
+Chamber Pot,
+Chandelier,
+Desk,
+Dresser,
+Mattress,
+Nightstand,
+Rocking Chair,
+Rug,
+Stool,
+Table,
+Throne &
+Wardrobe
+into a sensible homesteader's base eludes me still!
+
+- Some of these I only know by hearsay, having their sizes and to learn
+  something about their utility, if any, would be cool too.
+
+- Does anyone feel like making up a color-scheme for a living space?
+
+and what about Cages? do they have a use?
+** Key Fragments
+:PROPERTIES:
+:ID:       43e2db38-413c-4c6b-ae79-22104fbb7e7b
+:END:
+
+- One for every 10 unknown monsters you inspect. 
+- It is possible to win just by inspecting monsters.
+  - Winning isn't the end, its where the real game starts.
+- One for reaching max renown with a faction.
+- Rarely and randomly, from fishing or digging.
+- At the end of Dungeons, by ending Nobles
+  - (even [[Elders][Village Elders]], but don't even think about it -- yet.)
+- Power the first two */spells* in your list.
+
+*** Meta
+I read that each new shard contibutes more points to your score than the previous one.
+
+Thus if you aim to level up your stats by putting shards into them you should do
+it with the 9th shard so that you collect the most unlock points for doing that.
+
+Go to relica and spend an IRL day farming nothing but 'find monster' quests and
+tell me how far you get and how long it takes.
+
+**** crazy math
+If you're strong enough to move to another settlement, can you turn your naked
+self into a being with godlike stats while unlocking all the classes playing the
+meta-game of animal researcher?
+
+there are 5 primary stats. lets say they average '10 of 20'. you'd need 50 9th
+shards to become a god. that's 500 new animal species discovered, and maybe 500
+days spent in game.
+
+hmm, lol, i wonder how long brute-forcing 10 find-animal quests would take and
+if i could resist the urge to just complete the key to be done with the game.
+
+maybe i should complete the key first and see what revelations that brings.
+decisions. decisions. /end crazy math
+
+** Musical Instruments
+Drum,
+Flute,
+Guitar,
+Harp,
+Lute,
+Organ,
+Piano,
+Tambourine,
+Triangle &
+Violin 
+demand that an unopened stables in a good location be made into an orchestra pit!
+
+- Forgot to note their sizes. 
+
+** Other
+:PROPERTIES:
+:ID:       8102e531-8c10-4982-ac30-cd1893ccadb8
+:END:
+Beaks and claws and..
+
+** Qualities
+:PROPERTIES:
+:ID:       2adbef41-6d43-4c57-96c3-59614c1c8398
+:END:
+|--------------+------------+-------------------------------------|
+| Quality      | Durability | Note                                |
+|--------------+------------+-------------------------------------|
+| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
+| (Refined)    | 2x         | Material/stat bonus %+              |
+| <Artisan>    | 3x?        | Material/stat bonus %++             |
+| {Masterwork} | 4x?        | Material/stat bonus %+++            |
+| ?Legendary?  | ?x         | Guessing                            |
+| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
+|--------------+------------+-------------------------------------|
+
+** Runes
+:PROPERTIES:
+:ID:       170aaf35-364d-4859-82be-af5384de465d
+:END:
+
+The section on [[Spells][Spells]] explains how to think about and create them from the Runes
+listed and detailed here.
+
+I dug, fished and purchased a lot of runes in order to compile these lists and
+believe them to be complete and accurate, at least for the time. Although not
+sortable in the way of the [[https://fara.fandom.com/wiki/Spellcrafting][wiki]], this should now be your goto-reference for
+Spellcrafting.
+
+*** Effector Runes
+
+If they are suffering from an effect, the caster is cleansed from these effects
+when they cast the spell causing it. To make this work, casting Silencing is
+possible even when you are silenced.
+
+
+In this section you find the 
+Bleeding, 
+Blinding, 
+Burning, 
+Charm,
+Enlightenment,
+Fortification,
+Fury, 
+Illumination, 
+Intoxication, 
+Poison, 
+Quickness,
+Rage,
+Rejuvenation, 
+Sickness, 
+Silencing, 
+Slowness,
+Stupidity,
+Uglyness,
+Vulnerability &
+Weakness Runes
+
+**** Conditions
+|--------------+------------------------------------------|
+| Rune of      | Effect                                   |
+|--------------+------------------------------------------|
+| [[Status][Blinding]]     | targets see nothing and appear stealthed |
+| [[Status][Burning]]      | targets get Fire Damage over Time        |
+| [[Status][Fury]]         | raises Critical Damage dished out        |
+| [[Status][Illumination]] | receive more% Crit Hits, Stealth denied  |
+| [[Status][Silencing]]    | prevents casting anything by silence     |
+|--------------+------------------------------------------|
+
+**** Affecting Health & Stamina
+|--------------+--------------------------------------------------|
+| Rune of      | Effect                                           |
+|--------------+--------------------------------------------------|
+| [[Status][Rejuvenation]] | Supplies %s Health per Insight/Attunement        |
+| [[Status][Bleeding]]     | Drain %s Health each turn                        |
+| [[Status][Poison]]       | Stops/prevents Healing while it Drains %s Health |
+| [[Status][Sickness]]     | Drain Stamina                                    |
+|--------------+--------------------------------------------------|
+
+**** Affecting Attributes
+|------------------------+---------------+---------------|
+| Attribute              | Raise         | Lower         |
+|------------------------+---------------+---------------|
+| [[Charm][Charisma]]               | Charm         | Uglyness      |
+| [[Finesse][Finesse]], dash distance | Quickness     | Slowness      |
+| [[Insight][Insight]]                | Enlightenment | Stupidity     |
+| [[Resilience][Resilience]]             | Fortification | Vulnerability |
+| [[Strength][Strength]]               | Rage          | Weakness      |
+|------------------------+---------------+---------------|
+
+Additionally,
+
+|--------------+--------------------------------------------|
+| Rune of      | Effect                                     |
+|--------------+--------------------------------------------|
+| [[Status][Intoxication]] | Lowers [[Finesse][Finesse]], Raises chance of stumbling |
+|--------------+--------------------------------------------|
+
+**** Notes
+
+- Forces are hugely useful, especially compared to other spells
+  - I had a Thunder Force of Quickness in one run from a labyrinth
+  - knocking people back 3 tiles for a relatively small stamina cost
+    If you get rejuve on that, you're VERY good off
+
+
+*** Stabilizer Runes
+
+In this section you find the
+Arrows, 
+Auras, 
+Barrages, 
+Barriers, 
+Beams, 
+Blades, 
+Blasts, 
+Blessings, 
+Chains, 
+Curses, 
+Elementals, 
+Fields, 
+Fonts, 
+Forces, 
+Gales, 
+Hammers, 
+Meteors, 
+Plagues, 
+Shields, 
+Shockwaves, 
+Spears, 
+Wards &
+Whips Runes
+
+
+
+|------------+---------------+------------------------------------------------------------|
+| Rune of    | Type          | Effect                                                     |
+|------------+---------------+------------------------------------------------------------|
+| Barriers   | Buff Area     | Moderate [[Effects][Elemental]] resistance for those near               |
+| Shields    | Buff Target   | High [[Effects][Elemental]] resistance                                  |
+| Wards      | Retaliation   | Damages anyone that attacks the affected target            |
+|------------+---------------+------------------------------------------------------------|
+| Blessings  | Amplify       | Ups damage output of spell's element                       |
+| Curses     | Amplify       | Ups target vulnerability to spell's element                |
+| Fields     | Amplify       | Ups all [[Effects][Elemental]] dmg taken?/made? in an area              |
+|------------+---------------+------------------------------------------------------------|
+| Auras      | Buff Area     | Add [[Effects][Elemental]] component to target                          |
+| Fonts      | Buff Area     | Add [[Effects][Elemental]] component to attacks of those near           |
+|------------+---------------+------------------------------------------------------------|
+| Chains     | Single Status | [[Status][Immobilizes]] the target                                     |
+| Forces     | Single Status | Pushes target away, [[Status][Stuns]] them if they hit a wall          |
+| Gales      | Single Target | Target becomes [[Status][Prone]], Actions interrupted, Stamina drained  |
+| Hammers    | Single status | [[Status][Dazes]] the target                                           |
+|------------+---------------+------------------------------------------------------------|
+| Barrages   | DOT Area      | Damages all targets in the area                            |
+| Blades     | Direct Damage | Greater chace for Critical Hits                            |
+| Elementals | Summons       | Summons [[Imps][Elementals]] to aid the caster                       |
+| Plagues    | DOT Target    | Damages the target over time                               |
+| Whips      | Direct Damage | Damages the target and their armor                         |
+|------------+---------------+------------------------------------------------------------|
+| Arrows     | Direct Damage | Bypass [[Effects][Elemental]] Resistances                               |
+| Beams      | Direct Damage | Hits all targets in a straight line                        |
+| Spears     | Direct Damage | Damage goes up as with distance to target                  |
+|------------+---------------+------------------------------------------------------------|
+| Blasts     | AOE           | Damages the target and nearby hostiles.                    |
+| Meteors    | AOE           | Impacts all targets in an area after short delay           |
+| Shockwaves | AOE Status    | Inflicts '[[Status][Slow]]' on targets in area                         |
+|------------+---------------+------------------------------------------------------------|
+
+- AOE Spells apply their elemental debuffs against all targets in range
+
+- *Meteor* spells are delayed by 8 moments/turns at all levels
+
+- *Blasts* only work against hostiles, not your party members.
+
+- *Retaliation* hits Melee, Magical and Ranged attacker with a portion of the
+  damage they threw at you, not the damage you took. E.g., in the extreme, they
+  will kill themselves without you taking any damage. Still, the damage
+  reflection isn't all that great even at high stats but if you can spare the
+  spell slot, try an Arcane Ward (no elemental runes,) combined with Fury,
+  Rejuvenation or any other effector rune.
+
+**** All spells are created equal...
+...Except beam, meteor, and barrage spells
+
+*** Elemental Runes
+
+Pick a number for the elemental runes you want to keep today and */salvage* the
+rest to turn them into shards/dust. Rune shards and Medals are 'currency' in
+this game. What you do with the "named runes" above is up to you. Salvage them I
+would not.
+
+|---------+-------------------------------------------------|
+| Element | Heavy Attacks with Infused Weapons              |
+|---------+-------------------------------------------------|
+| Air     | Quickens Attacker/ +Finesse                     |
+| Dark    | Darkens Target Mood/ -Stats                     |
+| Earth   | Poison DOT, denies Healing, applies slowness ^1 |
+| Fire    | Armor Damage                                    |
+| Light   | Illumes Target/ +Crits                          |
+| Water   | Heal Attacker                                   |
+|---------+-------------------------------------------------|
+
+- ^1 can/might/does also inflict bleeding.
+
+If you infuse 2 runes into your weapon the effects alternate, halving your
+healing potential.
+
+See [[Attack Types][Attack Types]], Elemental, Attunement
+
+
+*** Farming Runes
+
+| /setkey 0 dig
+| /setkey 9 takeall
+| /setkey 8 craft crystal ingot
+
+- at a beach. easy.
+  - grants lot of crystal with the above keybinds
+- setup a building to rest for buffs
+  - because you will want to probably do this for a while
+    and are likely to make several trips to Relica unless
+    your inventory space is huge 
+- what would be the ideal food/drink to take?
+- enhanced iron shovel and workbench in inventory
+- should be possible once you get the tool recipes from the first other settlement you visit.
+- oh, have a rope on you while getting used to digging, just in case you slip and fall.
+- must-read: [[Degritone's Guide to 100k Points][Degritone's Guide to 100k Points]]
+- see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
+
+**** Dig and or Fish.. rather alike, no?
+- haven't fished yet, so i can't quite compare
+
+- Fishing with an iron fishing rod used to be viable for Fishmonger, but I spent
+  an entire artisan iron fishing rod with Fishmonger and didn't get a single
+  rune
+
+**** Experiments
+As a reality check on digging, I performed these experiments at a nice looking
+beach 25km from home. The shack came in really handy during my travels since I
+wound up with quite a few ingots and wound up sleeping there several times.
+
+The results of my first/only two test runs are shown below.
+The results surprised badly!
+
+
+- counter-intuitive
+- this trashes my understanding of the defintion of the stats
+  - ought to determine the role of finesse in this if there is to be any hope of
+    salvaging it
+
+|------------+---------------+------------------|
+| Both Digs  | <Iron Shovel> | <Crystal Shovel> |
+|------------+---------------+------------------|
+| Strength   | Good+         |                  |
+| Finesse    | Good          | Average          |
+| Resilience | Legendary+    |                  |
+| Insight    | Good+         | Great            |
+| Charm      | Good+         | Great            |
+| Repairs    | 1             | 1                |
+|------------+---------------+------------------|
+
+The rejuv/arrow rune numbers.. meaningless, let someone who knows their stuff
+and can rebalance their stats or keep them godlike rerun this.
+
+|---------------------+---------------+------------------|
+| DIG #1              | <Iron Shovel> | <Crystal Shovel> |
+|---------------------+---------------+------------------|
+| Crystal Ingots Made |            83 |               83 |
+| *Total Runes*       |            50 |               26 |
+| Elemental Runes     |             4 |                0 |
+| Rejuvenation Runes  |             1 |                4 |
+| Arrow Runes         |             0 |                2 |
+|---------------------+---------------+------------------|
+| DIG #2              | <Iron Shovel> | <Crystal Shovel> |
+|---------------------+---------------+------------------|
+| Crystal Ingots Made |            83 |               83 |
+| *Total Runes*       |            26 |               33 |
+| Elemental Runes     |             4 |                6 |
+| Rejuvenation Runes  |             0 |                0 |
+| Arrow Runes         |             0 |                0 |
+|---------------------+---------------+------------------|
+
+- 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
+- without notes and interruptions these numbers might take ~90mins?
+
+** Shields
+:PROPERTIES:
+:ID:       57d489c6-1bd3-4b14-a2be-39b6dc549ae2
+:END:
+|---------------+-----------+-----------+------|
+| Shield        | Defense   | Materials | Size |
+|---------------+-----------+-----------+------|
+| Shield        | Low       | 3 hard    |    2 |
+| Heater Shield | Average   | 4 hard    |    3 |
+| Kite Shield   | High      | 5 hard    |    4 |
+| Tower Shield  | Very High | 6 hard    |    5 |
+|---------------+-----------+-----------+------|
+
+- Carrying a shield makes all stamina based actions more expensive.
+- Shields do blunt-damage and there's nothing wrong with holding two of them.
+
+** Storage
+
+In the beginning simply find an empty house, make a waypoint to take you there
+with "*/slw stuff*", and start making piles for the different types of items.
+
+Do it so that the list of items in that pile does not scroll of your screen.
+When you enter, stop at the first pile and use "*/ds*" to add alike items from
+your inventory at that spot. Then walk to the next pile and use "*z*" to repeat.
+
+When you want to get organized, make "*g*" act as "*/setkey g giveall*" would,
+put yourself onto a storage, "*h*" hold the item you want to put there and press
+"*g*". There are a lot more ways to go about this, including some drag and drop,
+so keep experimenting with the ever improving ui.
+
+|--------------+----------------------------+------------|
+| Carts        | draggable on the local map | 300u       |
+| Storage Bins | upgraded                   | 300u       |
+| Storage Bins | installable                | unlimited? |
+|--------------+----------------------------+------------|
+
+For On-Person Storage, see [[Bags][Bags]] 
+- also, consider using your [[Mercenaries][party]] as loot mules!
+- still have to see if saddles give carry capacity to your [[Pets][pets]].
+
+** Utensils
+:PROPERTIES:
+:ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
+:END:
+Rarer than hell it seems!
+
+Pipes, 
+Combs, 
+Spoons,
+Forks,
+Inkwells,
+Jars still in the game?
+
+.. there used to be Pens and writable Signs, right?
+
+- Unusable Rings, Earrings
+
+** Weaponry
+:PROPERTIES:
+:ID:       5b7c853e-de6b-4dcd-a1fd-e691c7fe4200
+:END:
+
+Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
+
+- Armors are listed under Equipment.
+
+- The main difference between weapons is only in their heavy attack and the stat
+  they scale with. *Size does not matter*, here at least.
+
+- Most combat RNG was removed (anything that says "chance to..." is probably no
+  longer a thing).
+
+- I've seen some talk about stats that track well-used and newly-used weapons
+  being different somehow somewhere, the info being in a hidden stat. Please write
+  if you can fill in the details!
+
+*NOTE: ALL THESE DO EITHER BASHING, CUTTING OR STABBING DAMAGE. AND I HAVE NOT
+LOOKED INTO HOW TO BEGIN TO DO MORE THAN OFFER GUESSES FOR WHICH DOES WHAT!*
+
+*** Melee
+
+Melee Weapon are usually used by [[Strength][Strength based]] characters in close combat, but
+several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] has 5!
+
+I suppose that all of these weapons can be thrown at opponents to damage them.
+
+**** Types
+
+The lists below still want to get arranged by these weapon types:
+
+|----------------+-----------------------------------------+-------------|
+| Weapon         | Note                                    | Dmg.        |
+|----------------+-----------------------------------------+-------------|
+| Axes           | may cleave                              | Cutting?    |
+| Bladed weapons | may cause bleeding                      | Piercing?   |
+| Blunt weapons  | may cause dazed                         | Bludgeoning |
+|----------------+-----------------------------------------+-------------|
+| Spears         | increased range & higher chance to crit | Piercing?   |
+| Chains         | increased range                         | Bludgeoning |
+| Pikes          | higher chance to crit                   | Cutting?    |
+|----------------+-----------------------------------------+-------------|
+
+**** Crafted Melee Weapons for Strength
+
+These are only usable in Melee Range:
+
+|----------------+---------------------------------------------------+------+------|
+| Strength Based | Heavy Effect                                      | Size | Dmg. |
+|----------------+---------------------------------------------------+------+------|
+| Axe            | Deals increased damage                            |    3 |      |
+| Battleaxe      | Cleaves adjacent targets                          |    4 |      |
+| Bo Staff       | Shoves target away                                |    3 |      |
+| Broadsword     | Deflects weapon projectiles                       |    3 |      |
+| Chain          | Immobilizes the target                            |    3 |      |
+| Claymore       | Deals bonus damage for every enemy in melee range |    4 |      |
+| Club           | Dazes the target                                  |    3 |      |
+| Cutlass        | Deflects weapon projectiles                       |    3 |      |
+| Falchion       | Deflects weapon projectiles                       |    3 |      |
+| Flamberge      | Deflects incoming heavy attacks                   |    4 |      |
+| Hammer         | Dazes the target                                  |    3 |      |
+| Javelin        | Deals increased damage                            |    3 |      |
+| Kama           | Deflects weapon projectiles                       |    3 |      |
+| Katana         | Deflects weapon projectiles                       |    3 |      |
+| Kukri          | Causes the wielder and target to change places    |    3 |      |
+| Kunai          | Deals bonus damage when stealthed                 |    3 |      |
+| Longsword      | Causes bleeding                                   |    4 |      |
+| Mace           | Dazes the target                                  |    3 |      |
+| Machete        | Deals critical damage if struck by a heavy attack |    3 |      |
+| Morningstar    | Dazes the target                                  |    3 |      |
+| Nunchaku       | Dazes the target                                  |    3 |      |
+| Odachi         | Causes bleeding                                   |    4 |      |
+| Quarterstaff   | Dazes the target                                  |    3 |      |
+| Rapier         | Causes the wielder to lunge forward               |    3 |      |
+| Saber          | Deflects weapon projectiles                       |    3 |      |
+| Scythe         | Deals increased damage                            |    4 |      |
+| Shortsword     | Deflects weapon projectiles                       |    3 |      |
+| Spear          | Shoves target away                                |    3 |      |
+| Warhammer      | Deals bonus damage based on resilience            |    4 |      |
+| Zweihander     | Reduces direct damage taken during the attack     |    4 |      |
+|----------------+---------------------------------------------------+------+------|
+
+These have a range of 2 steps:
+
+|----------------+----------------------------------------+------+------|
+| Strength Based | Heavy Effect                           | Size | Dmg. |
+|----------------+----------------------------------------+------+------|
+| Glaive         | Shoves targets away                    |    4 |      |
+| Halberd        | Shoves targets away                    |    3 |      |
+| Lance          | Shoves target away                     |    4 |      |
+| Meteor Hammer  | Dazes the target                       |    3 |      |
+| Naginata       | Shoves target away                     |    4 |      |
+| Net            | Immobilizes the target                 |    3 |      |
+| Whip           | Pulls the attacker and target together |    3 |      |
+|----------------+----------------------------------------+------+------|
+
+- Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
+
+- I'm not sure why I'm not using Melee weapons with a range.
+  - Probably because as a Gatekeeper with a nasty arcane ward and a protect-spell i can survive almost anything
+    by wielding two tower shields. Still..
+
+- Nets may be thrown (from inventory?) to immobilize a target at range.
+  - Since they have a range of 2 in Melee, they are listed here.
+
+
+**** Crafted Melee Weapons for Finesse or Strength
+|---------------------+-------------------------------------------+------+------|
+| Strength or Finesse | Heavy Effect                              | Size | Dmg. |
+|---------------------+-------------------------------------------+------+------|
+| Boxing gloves       | Dazes the target                          |    2 |      |
+| Dagger              | Causes the wielder to step backwards      |    2 |      |
+| Grappling Hook*     | Pulls attacker and target together        |    2 |      |
+| Handwraps           | Deals increased damage                    |    2 |      |
+| Khopesh             | Disarms targets performing heavy attacks  |    2 |      |
+| Knuckles            | Dazes the target                          |    2 |      |
+| Kris                | Inflicts poison                           |    2 |      |
+| Lasso               | Immobilizes the target                    |    2 |      |
+| Sickle              | Restores a bit of health based on insight |    2 |      |
+|---------------------+-------------------------------------------+------+------|
+
+- The *Grappling Hook has a range of 5*. The other weapons are for
+  close-quarters and have a range of 1.
+  - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
+
+**** Composite Melee Weapons
+The compenents for these weapons are other weapons that you craft and then assemble.
+Enhance the final product, not the individual pieces.
+***** Composite Melee Weapons for Strength 
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
+| Strength Based  | Range   | Heavy Effect                            | Components                | Size | Dmg. |
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
+| Ball and chain  | Melee   | Immobilizes the target                  | 1 Chain, 1 Ball           |    3 |      |
+| Kunai and Chain | 3 steps | Hits target at range                    | 1 Chain, 1 Kunai          |    3 |      |
+| Swordchucks     | 2 steps | Selfdamage to critically hit the target | 1 Nunchaku, 2 Shortswords |    3 |      |
+|-----------------+---------+-----------------------------------------+---------------------------+------+------|
+
+- I suspect the last two weapons-effects are the worst way you can spend your stamina.
+
+***** Composite Melee Weapons for Finesse or Strength
+|---------------------+-------+-------------------------------------+------------+------+------|
+| Strength or Finesse | Range | Heavy Effect                        | Components | Size | Dmg. |
+|---------------------+-------+-------------------------------------+------------+------+------|
+| Shank Knuckle       | Melee | Causes the wielder to step backward | 2 Daggers  |    2 |      |
+|---------------------+-------+-------------------------------------+------------+------+------|
+
+- Could this be the Pugilist's dream weapon?
+
+*** Magical
+
+Magical Weapons are usually used by [[Insight][Insight based]] characters in ranged combat,
+but there's no downside to [[Bludgeoning][bashing]] your opponents with them either, you just
+won't have any useful heavy-attack effects available to you in that situation.
+
+|----------------------------+--------------------|
+| Foci/wands/staffs/scepters | halve casting time |
+|----------------------------+--------------------|
+
+- Focus HeavyAttack? causes the wielder to phase backwards
+- Foci/wands/staffs/scepters are ranged weapons with 6 range. In addition to
+  reducing stamina costs of spells, their heavy attacks all have unique effects
+- Scepter reduces direct spell damage taken during the attack
+- Staff reduces target's attunement
+- Wand causes the weapon to inherit elements from incoming spells
+
+|----------------+------+---------+------------------------------------------------------------+------|
+| Magical Weapon | Stat | Range   | Heavy Effect                                               | Size |
+|----------------+------+---------+------------------------------------------------------------+------|
+| Focus          | INS  | 6 steps | Causes the wielder to phase backwards                      |    2 |
+| Scepter        | INS  | 6 steps | Reduces direct spell damage taken during the attack        |    3 |
+| Staff          | INS  | 6 steps | Reduces the elemental attunement of the target             |    3 |
+| Wand           | INS  | 6 steps | Causes the weapon to inherit elements from incoming spells |    3 |
+|----------------+------+---------+------------------------------------------------------------+------|
+
+- All Magical Weapons are based on Insight.
+
+*** Ranged
+
+Ranged Weapon are usually used by [[Finesse][Finesse based]] characters in ranged combat, but
+there's no downside to bashing your opponents with your ranged weapon, you're
+just switching from a [[Piercing][piercing]] (Chakram/[[Cutting][cutting?]]) to a [[Bludgeoning][bludgeoning]] attack while
+giving up the heavy-attack effects so useful with [[Melee][Melee Weaponry]].
+
+
+The material used for ammo contributes to damage and the chance for it to break
+on impact. I've not tried that; Is this old info? Can one retrieve stones and
+darts or arrow? or just weapons/objects you've thrown? (throw a size 9 [[Musical Instruments][Organ]]?)
+
+|----------------+------------------------------------------------------------------|
+| Bows           | Have a chance to not break stealth                               |
+| Crossbows      | Bolts pass through targets, potentially hitting several targets. |
+| Firearms       | Possibly interrupts casters; indoors less than outdoors.         |
+| Thrown weapons | Do extra damage, may get damaged on use.                         |
+|----------------+------------------------------------------------------------------|
+
+Here are the details:
+
+Uses Arrows:
+|---------------+---------+-----------------------------------------+------|
+| Ranged Weapon | Range   | Heavy Effect                            | Size |
+|---------------+---------+-----------------------------------------+------|
+| Crossbow      | 8 steps | Pierces all targets in a line           |    4 |
+| Shortbow      | 7 steps | Leap backward after firing              |    4 |
+| Longbow       | 9 steps | Grants Quickness attacking from stealth |    4 |
+|---------------+---------+-----------------------------------------+------|
+
+Uses Bullets:
+|-------------+---------+--------------------------------------------+------|
+| Firearms    | Range   | Heavy Effect                               | Size |
+|-------------+---------+--------------------------------------------+------|
+| Blunderbuss | 6 steps | Damages all of the target's armor          |    4 |
+| Rifle       | 8 steps | Deals more damage to further targets       |    4 |
+| Pistol      | 7 steps | Hits two Targets once, or one Target twice |    3 |
+|-------------+---------+--------------------------------------------+------|
+
+Other Ammo:
+|--------------+---------+-----------------------+------+--------|
+| Other Ranged | Range   | Heavy Effect          | Size | Ammo   |
+|--------------+---------+-----------------------+------+--------|
+| Blowgun      | 8 steps | Inflicts poison       |    3 | Darts  |
+| Sling        | 6 steps | Hits targets at range |    2 | Stones |
+|--------------+---------+-----------------------+------+--------|
+
+Thrown Weapons:
+|---------------+-------+--------------------------------------+------|
+| Thrown Weapon | Range | Heavy Effect                         | Size |
+|---------------+-------+--------------------------------------+------|
+| Chakram       | ?     | Causes the wielder to step backwards |    2 |
+|---------------+-------+--------------------------------------+------|
+
+All Ranged Weapons, are based on Finesse.
+
+The Sling and likely all thrown weapons, can also use Strength.
+
+- Throw Darts/Arrows/Stones? Are these the goto thrown weapons?
+
+Attack speed was removed, now each attack takes one turn regardless of
+weapon - likely making quivers and bandoliers (which gave the speed boni)
+largely cosmetic/flair items. (I saw something about that. need to check!)
+
+**** Throwing
+Needs research, but could be it own section.
+
+*** Astral
+These exist. Noone will talk about them except to tell you that their bonuses
+are incredible. So go and complete the key to learn more about them!
+
+* Food
+:PROPERTIES:
+:ID:       a46d5428-71b1-4ce2-bf77-b85e8568b8c1
+:END:
+#+TOC: headlines 1 local
+
+** Intro
+- Raw food provides some stamina but no healing.
+- Cooked foods provide much more stamina and restore a fixed health%.
+- Its not clear if or how the health boost varies.
+- They are 1u small.
+- Buffs from food *replace* each other.
+- mixtures, dishes and booze can drop from mobs and crates.
+
+Eating and drinking (*/eat*, */drink*) take time. *Water* and *Mixtures*
+are probably hugely important for spellcasters in dire situations, but I'd need
+an expert to chime in with their experience as I'm just guessing here.
+
+Whats missing?
+- Is someone tracking the biomes for these things?
+
+|----------------+------------+-----------------+------|
+| Foodstuff      | Prefix     | Buffs Attribute | Size |
+|----------------+------------+-----------------+------|
+| Alcohol        | Hearty     | ++Resilience    |  1.0 |
+| Flowers        | Delightful | ++Charm         |  0.1 |
+| Fruits         | Zesty      | ++Finesse       |  0.2 |
+| Meat           | Complex    | ++Insight       |  1.0 |
+| Tree Seeds     | Robust     | ++Strength      |  0.1 |
+| Vegetables     | Robust     | ++Strength?     |  0.2 |
+|----------------+------------+-----------------+------|
+| Fish           |            |                 |  1.0 |
+| Herbs & Spices |            |                 |  0.1 |
+| Specialities   |            |                 |  0.1 |
+|----------------+------------+-----------------+------|
+
+- Don't forget there are 6 more prefixes used with [[Elementally Flamed][Elemental Buffs]]!
+
+- Anything with Fishbones always? produces inedible 'questionable' outcomes.
+
+- Testing indicates that you get the same amount of health, ~10% from eating cooked items.
+
+- [[BOTANIST][Botanists]] can do all sorts of magic by feeding their babies just about anything.
+  Their babies evolve when they feed them. Your pets wont.
+
+Take some of the ultra-small foods to recover stamina during your travels
+(and/or to save yourself from drowning) and bring along with a few elemental
+runes to cook up Elemental Gourmet Meals right next to, or even in your Dungeon
+or Quest site!
+
+Don't forget the wood lest you wind up wanting to cook in the middle of a desert.
+
+** Cooks
+
+Imagine you find one of these guys loitering in town, befriending them, building
+them a kitchen in a nice empty house somewhere in town, and then letting them 
+cook for you. Seriously. Put some stuff into an oven while you're standing there
+with them next to you and wait a while. 
+
+#+begin_quote
+[[ALCHEMIST][Alchemist]]'s *Mixtures* provide higher stat bonuses for fewer ingredients and can
+be consumed much faster. Throwing Mixtures at enemies will lower the relevant
+stats, and throwing Mixtures at other entities will raise the relevant stats.
+
+[[CHEF][Chef]]'s *Dishes* provide stat bonuses for four times the duration of Meals, and
+grant an effect which fixes the eater's mood to max for an extended period.
+#+end_quote
+
+If you had one of these guys make you some food, you can drop them from your
+party without fear. You will remain friends. Join up with your tanky pets again
+and enjoy the extra deliciousness of your very own gourmet foods!
+
+** Cooking
+Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
+single Ingredients in Campfires and Firepits to restore stamina and heal
+themselves and their allies.
+
+The real freaks produce foods with a different prefix and an *extra +* on the
+buffs:
+
+- [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
+- [[CHEF][Chefs]] produce *Dishes* instead of *Meals* when cooking.
+
+Cook sites:
+
+- Campfires
+  - are destroyed by immolation more quickly
+  - add a log to get a Bonfire. unsure about effects on cooking
+
+- Firepits
+  - last forever?
+  - are they faster? have greater capacity?
+
+- Stoves and Furncaes are a thing as well.
+  They are robust, not too expensive and look good in the home.
+
+Capacities all seem to be around 10.
+
+
+** Drinks
+
+*** Drinkable
+Strange when you state the obvious, isn't it?
+|-------+----------------------------------|
+| Name  | Note                             |
+|-------+----------------------------------|
+| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code!    |
+|-------+----------------------------------|
+
+*** Alcohol
+
+Bottles of
+[[https://en.wikipedia.com/wiki/Bourbon][Bourbon]],
+[[https://en.wikipedia.com/wiki/Gin][Gin]],
+[[https://en.wikipedia.com/wiki/Moonshine][Moonshine]],
+[[https://en.wikipedia.com/wiki/Rum][Rum]],
+[[https://en.wikipedia.com/wiki/Vodka][Vodka]],
+[[https://en.wikipedia.com/wiki/Whiskey][Whiskey]] &
+[[https://en.wikipedia.com/wiki/Wine][Wine]]
+are flammable and become *Hearty Meals* boosting *++Resilience* when you cook them.
+
+Makes total sense to me. Only [[FISHMONGER][Fishmongers]] will benefit from being drunk, and
+even they will probably want to wield something to [[Curios][aid their balance]].
+
+** Solid Foods
+
+*** Meat
+|----------+---------+------+-----------+------|
+| Item     | Meal    | Buff | Attribute | Size |
+|----------+---------+------+-----------+------|
+| Raw Meat | Complex | ++   | Insight   |  1.0 |
+|----------+---------+------+-----------+------|
+
+*** Fish
+
+Fish are *not stackable*.
+
+[[https://en.wikipedia.com/wiki/Anchovy][Anchovy]],
+[[https://en.wikipedia.com/wiki/Bass][Bass]],
+[[https://en.wikipedia.com/wiki/Butterfly Fish][Butterfly Fish]],
+[[https://en.wikipedia.com/wiki/Cod][Cod]],
+[[https://en.wikipedia.com/wiki/Cuttlefish][Cuttlefish]],
+[[https://en.wikipedia.com/wiki/Deep Spider][Deep Spider]],
+[[https://en.wikipedia.com/wiki/Giant Squid][Giant Squid]],
+[[https://en.wikipedia.com/wiki/Grouper][Grouper]],
+[[https://en.wikipedia.com/wiki/Quill Ray][Quill Ray]],
+[[https://en.wikipedia.com/wiki/Salmon][Salmon]]
+[[https://en.wikipedia.com/wiki/Stone Shark][Stone Shark]],
+[[https://en.wikipedia.com/wiki/Sturgeon][Sturgeon]],
+[[https://en.wikipedia.com/wiki/Swordfish][Swordfish]],
+[[https://en.wikipedia.com/wiki/Trout][Trout]] &
+[[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce *... Meals boosting ++*.
+
+*** Tree-Seeds
+
+[[https://en.wikipedia.com/wiki/Alder][Alder]], 
+[[https://en.wikipedia.com/wiki/Ash][Ash]], 
+[[https://en.wikipedia.com/wiki/Aspen][Aspen]], 
+[[https://en.wikipedia.com/wiki/Birch][Birch]], 
+[[https://en.wikipedia.com/wiki/Buckeye][Buckeye]], 
+[[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]], 
+[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
+[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
+[[https://en.wikipedia.com/wiki/Cedar][Cedar]], 
+[[https://en.wikipedia.com/wiki/Chestnut][Chestnut]], 
+[[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]], 
+[[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]], 
+[[https://en.wikipedia.com/wiki/Cypress][Cypress]], 
+[[https://en.wikipedia.com/wiki/Dogwood][Dogwood]], 
+[[https://en.wikipedia.com/wiki/Elm][Elm]], 
+[[https://en.wikipedia.com/wiki/Fir][Fir]], 
+[[https://en.wikipedia.com/wiki/Holly][Holly]], 
+[[https://en.wikipedia.com/wiki/Juniper][Juniper]], 
+[[https://en.wikipedia.com/wiki/Maple][Maple]], 
+[[https://en.wikipedia.com/wiki/Oak][Oak]], 
+[[https://en.wikipedia.com/wiki/Pine][Pine]], 
+[[https://en.wikipedia.com/wiki/Poplar][Poplar]], 
+[[https://en.wikipedia.com/wiki/Redwood][Redwood]], 
+[[https://en.wikipedia.com/wiki/Spruce][Spruce]], 
+[[https://en.wikipedia.com/wiki/Sycamore][Sycamore]] &
+[[https://en.wikipedia.com/wiki/Willow][Willow]] seeds produce *Robust ++Strength Meals*
+
+- Fruit Trees (Apple, Pear) yield logs less than half the time.
+  - seen ~20%ish for pear
+
+
+*** Fruits
+
+Quickly eaten raw, these are very good to restore your stamina with.
+
+[[https://en.wikipedia.com/wiki/Apple][Apple]], 
+[[https://en.wikipedia.com/wiki/Avocado][Avocado]], 
+[[https://en.wikipedia.com/wiki/Banana][Banana]], 
+[[https://en.wikipedia.com/wiki/Blackberry][Blackberry]], 
+[[https://en.wikipedia.com/wiki/Blueberry][Blueberry]], 
+[[https://en.wikipedia.com/wiki/Cherry][Cherry]], 
+[[https://en.wikipedia.com/wiki/Coconut][Coconut]], 
+[[https://en.wikipedia.com/wiki/Grape][Grape]], 
+[[https://en.wikipedia.com/wiki/Kiwi][Kiwi]], 
+[[https://en.wikipedia.com/wiki/Lemon][Lemon]], 
+[[https://en.wikipedia.com/wiki/Lime][Lime]], 
+[[https://en.wikipedia.com/wiki/Mango][Mango]], 
+[[https://en.wikipedia.com/wiki/Orange][Orange]], 
+[[https://en.wikipedia.com/wiki/Peach][Peach]], 
+[[https://en.wikipedia.com/wiki/Pear][Pear]], 
+[[https://en.wikipedia.com/wiki/Pineapple][Pineapple]], 
+[[https://en.wikipedia.com/wiki/Raspberry][Raspberry]], 
+[[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] &
+[[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] produce *Zesty ++Finesse Meals*.
+
+*** Vegetables
+
+[[https://en.wikipedia.com/wiki/Artichoke][Artichoke]], 
+[[https://en.wikipedia.com/wiki/Cabbage][Cabbage]], 
+[[https://en.wikipedia.com/wiki/Carrot][Carrot]], 
+[[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]], 
+[[https://en.wikipedia.com/wiki/Chili][Chili Pepper]], 
+[[https://en.wikipedia.com/wiki/Corn][Corn]], 
+[[https://en.wikipedia.com/wiki/Cucumber][Cucumber]], 
+[[https://en.wikipedia.com/wiki/Eggplant][Eggplant]], 
+[[https://en.wikipedia.com/wiki/Garlic][Garlic]], 
+[[https://en.wikipedia.com/wiki/Kale][Kale]], 
+[[https://en.wikipedia.com/wiki/Lettuce][Lettuce]], 
+[[https://en.wikipedia.com/wiki/Okra][Okra]], 
+[[https://en.wikipedia.com/wiki/Onion][Onion]], 
+[[https://en.wikipedia.com/wiki/Peas][Peas]], 
+[[https://en.wikipedia.com/wiki/Potato][Potato]], 
+[[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]], 
+[[https://en.wikipedia.com/wiki/Radish][Radish]], 
+[[https://en.wikipedia.com/wiki/Red][Red Pepper]], 
+[[https://en.wikipedia.com/wiki/Spinach][Spinach]], 
+[[https://en.wikipedia.com/wiki/Tomato][Tomato]] & 
+[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce *Robust ++Strength Meals*.
+
+*** Flowers
+
+Rose & Chrysanthemum Salad!
+
+[[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]], 
+[[https://en.wikipedia.com/wiki/Anemone][Anemone]], 
+[[https://en.wikipedia.com/wiki/Begonina][Begonina]], 
+[[https://en.wikipedia.com/wiki/Bergamot][Bergamot]], 
+[[https://en.wikipedia.com/wiki/Bluebell][Bluebell]], 
+[[https://en.wikipedia.com/wiki/Buttercups][Buttercups]], 
+[[https://en.wikipedia.com/wiki/Carnation][Carnation]], 
+[[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]], 
+[[https://en.wikipedia.com/wiki/Daffodil][Daffodil]], 
+[[https://en.wikipedia.com/wiki/Foxglove][Foxglove]], 
+[[https://en.wikipedia.com/wiki/Holly][Holly]], 
+[[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]], 
+[[https://en.wikipedia.com/wiki/Lavender][Lavender]], 
+[[https://en.wikipedia.com/wiki/Orchid][Orchid]], 
+[[https://en.wikipedia.com/wiki/Primrose][Primrose]], 
+[[https://en.wikipedia.com/wiki/Rose][Rose]], 
+[[https://en.wikipedia.com/wiki/Sunflower][Sunflower]], 
+[[https://en.wikipedia.com/wiki/Thistle][Thistle]], 
+[[https://en.wikipedia.com/wiki/Tulip][Tulip]] &
+[[https://en.wikipedia.com/wiki/Violet][Violet]] produce *Delightful ++Charisma Meals*.
+
+*** Herbs & Spices
+
+[[https://en.wikipedia.com/wiki/Amaranth][Amaranth]], 
+[[https://en.wikipedia.com/wiki/Chives][Chives]], 
+[[https://en.wikipedia.com/wiki/Parsley][Parsley]], 
+[[https://en.wikipedia.com/wiki/Basil][Basil]], 
+[[https://en.wikipedia.com/wiki/Rosemary][Rosemary]], 
+[[https://en.wikipedia.com/wiki/Thyme][Thyme]], 
+[[https://en.wikipedia.com/wiki/Oregano][Oregano]], 
+[[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]], 
+[[https://en.wikipedia.com/wiki/Marjoram][Marjoram]], 
+[[https://en.wikipedia.com/wiki/Mint][Mint]], 
+[[https://en.wikipedia.com/wiki/Dill][Dill]], 
+[[https://en.wikipedia.com/wiki/Ginger][Ginger]], 
+[[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]], 
+[[https://en.wikipedia.com/wiki/Fennel][Fennel]], 
+[[https://en.wikipedia.com/wiki/Mustard][Mustard]], 
+[[https://en.wikipedia.com/wiki/Peppermint][Peppermint]], 
+[[https://en.wikipedia.com/wiki/Saffron][Saffron]], 
+[[https://en.wikipedia.com/wiki/Paprika][Paprika]] &
+[[https://en.wikipedia.com/wiki/Hemp][Hemp]] produce *xx Meals*.
+
+** Specialty Foods
+|---------------+------+------+-----------+------|
+| Item          | Meal | Buff | Attribute | Size |
+|---------------+------+------+-----------+------|
+| Eggs          |      |      |           |  0.1 |
+| Honey         |      |      |           |  0.1 |
+|---------------+------+------+-----------+------|
+
+More research needed.
+
+|---------------+-----------------------------------------------|
+| Related       | Note                                          |
+|---------------+-----------------------------------------------|
+| Venom Sacks   | Not sure that these are cookable ingredients. |
+| Salted Meat   | Exists as well, not sure that its cookable.   |
+| Load of Bread | Instant Satiation without nourishment. Right. |
+|---------------+-----------------------------------------------|
+
+** Elementally Flamed
+
+As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
+up a storm, why not try frying up some runes? What's the worst that could
+happen?
+
+
+By the power of magic..
+|---------+---------|
+| Element | Meal    |
+|---------+---------|
+| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Light   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich    |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    | Spicy   |
+| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender  |
+| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   | Vibrant |
+| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    | Heavy   |
+|---------+---------|
+
+When you infuse multiple runes into a firepit you'll get the wonderful combo names
+used for [[Elements][Elemental Combos]] applied to your Meals, with the last infused element
+determining the elemental attunement your food will provide.
+
+* Materials
+:PROPERTIES:
+:ID:       0bdd3bfd-1c10-4756-8fba-5de3e0ed6435
+:END:
+#+TOC: headlines 1 local
+Trying to pack all the info and stats about the things you craft with in here.
+
+** Wiki preamble
+I sooo hope that the wiki/source is more than mostly right on this info
+- source: https://fara.fandom.com/wiki/Crafting_Materials
+
+There is an abundance of different materials and most of them seem to be
+associated with some kind of stat altering capabilities, that you can gain by
+wearing or holding the item. In addition to the material you use when crafting,
+the item you are crafting itself may have some base properties making up the
+total attribute impact.
+
+Weaponry, jewellery, and armour is made from wood, bone, scale, glass, and
+minerals, while clothing items are made from cloths and furs - with a few
+overlaps such as boots.
+
+Note that at this time the precise number of stat pluses given by each material
+is unknown, as it is not equivalent to the number of arrows a piece of equipment
+has.
+
+- (stat)> gives +1
+- (stat)>> gives +2 or +3
+- (stat)>>> gives +4, +5, or +6
+
+Each additional nth arrow gives an additional n possible boosts (4 arrows giving
+between +7 and +10, etc.)
+
+** Notes
+- Crafting appears to take 100 (105?) moments. fwiw.
+- Steel, Obsidian, Velvet, Diamond items appear to be dropped from crates promising
+  items of 'normal' quality. Makes you think, doesn't it?
+
+** Everyday materials
+
+Useful *Very common* Materials without effects on your stats.
+
+|------------------+-----------------+---------------|
+| Material         | Components      | Source        |
+|------------------+-----------------+---------------|
+| Ceramic Plates   | 2 Mound of Clay | Craft,drops   |
+| Burlap           | 2 Plant Fibers  | Craft,drops   |
+|------------------+-----------------+---------------|
+| Mound of Clay    |                 | /dig          |
+| Sand             |                 | /dig          |
+| Soil             |                 | /dig          |
+|------------------+-----------------+---------------|
+| Plant Fibers     |                 | Trees, Bushes |
+| Stone            |                 | Ground, drops |
+| Tuft of Feathers |                 | Birds drop    |
+|------------------+-----------------+---------------|
+
+
+** Cloth and Furs
+Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
+| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
+| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
+| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
+| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
+| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
+| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
+|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+
+- Wool becomes Pelts when /salvaged.
+- Pelts are Fur as far as ikatm
+
+** Metals etc
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
+| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
+| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
+| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
+| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
+| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
+| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
+| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 3 Ore           |
+| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
+| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
+| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
+| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
+| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
+| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
+|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+
+* Topics
+#+TOC: headlines 1 local
+
+** Attack Types
 
 There are *four kinds of attack* in FARA. These come as *two classes* and are
 listed here.
@@ -1724,6 +2870,183 @@ If you feel like doing without the elemental effects, think 'Arcane'.
 If you use an Arcane Shield (or other arcane infused items) you do more
 damage? and resist arcane spells.
 
+** Buildings
+
+This section is about the unlockable building you can find in every settlement.
+Completing all of them makes you a Settlement Hero, which is a Title that can
+be useful when you want to talk to or hire NPC's for your travels.
+
+The costs were transcribed from Relica by Pug.
+
+Don't compromise on gear to invest in buildings,
+You only *need* the Warehouse at the start.
+
+*** Warehouse
+"Gives access to a thing that helps you move to other settlements."
+
+**** Cost
+- 2 medals
+- 20 wooden planks
+- 10 ropes
+
+**** Benefits
+- Crucible that gives shared access to your stash of buffs, situational uniques,
+  and supplies for expanding elsewhere.
+
+- 6 Storage bins, probably best when only used in Relica, that let you get rid of
+  things you dont want to see but dont want to loose. See [[Item Management]]
+
+*** Stables
+How!?@?#
+
+**** Cost
+- 2 medals
+- 10 copper ingots
+- 5 wooden buckets (got recipe after opening refinery)
+
+**** Benefit
+Aha's from looking at my first Stables.
+Yours will be similar I'd think. So.. Oh!
+
+- its a farm with spice and tree plots! 
+  - a garlic and a fennel plot
+  - a lemon and a maple tree plot
+- farmer and stablemaster work here
+  - there's also a young deer. should i bring the cow?
+- also dropped a Starcloth and a Velvet Saddle
+  - these materials i'd not seen before i opened the building
+
+
+*** Tavern
+
+**** Cost
+- 2 medals
+- 5 wooden stools
+- 5 glass mugs
+
+**** Benefit
+- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
+  - blue prints and rare materials
+- A High level merc that wont talk to you until a title or two
+- A Well skilled merc that can hold his own
+- A Damsel in distress NPC i escorted elsewhere
+
+Have to check up on the patrons there again.
+If all that got me was a gambling chance at BPs, fine!
+
+*** Obelisk
+
+**** Cost
+- 2 medals
+- 10 stones
+- 25 runic shards
+
+**** Benefit
+The same damn obelisk you keep finding in the wilderness, but with a researcher
+that offer runes for sale and who keeps the rock polished.
+
+- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
+
+- Single level upgrade obtained by beating the Bosses at Ruins become less
+  attractice once you have this, but its hard to beat 'free and scary'.
+
+**** Staff
+An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
+conducting his private business without bothering you with extra tasks.
+
+**** Prices
+
+***** Spell upgrades
+|--------+------------|
+| Shards | upgrade to |
+|--------+------------|
+|      5 | Improved   |
+|     10 | Greater    |
+|     15 | Superior   |
+|     20 | Flawless   |
+|--------+------------|
+|     50 | new > max  |
+|--------+------------|
+
+
+***** Custom Runes
+
+tbd
+
+*** Refinery
+A smith that makes a lot of (refineried) items.
+
+**** Cost
+- 4 medals
+- 15 iron ingots
+- 5 iron hammers
+- 5 wooden benches
+- 5 wooden tables
+
+**** Benefit
+
+Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
+you. He has manic inspiratitions, you bring him what he asks for, he levels up
+and crafts whatever he damn well pleases.
+
+- Does away with your excess Medals.
+- Consumes your excess resources.
+- "Discovers" Recipes for Items you've been dying to find.
+
+**** Notes
+After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
+stables. That was nice. I also got a nice everburning? lantern that helps to
+attract even more encounters at night
+
+Here's a log of what he did for me in the beginning:
+
+- each item cost 1 Medal
+- all but the first item were of (Refined) Quality.
+
+| Mat  | Qty | Result         |
+|------+-----+----------------|
+| bone |   1 | ball           |
+| tin  |  20 | organ          |
+| tin  |   5 | spear          |
+| tin  |   2 | clip           |
+| bone |   2 | bucket         |
+| bone |   2 | grappling hook |
+| bone |   2 | sign           |
+| bone |   1 | goggles        |
+| tin  |   1 | box            |
+| tin  |   1 | lantern        |
+| bone |     | lantern        |
+| bone |     | violin         |
+
+I might have missed an item there, but suddenly he asked for a crafted input,
+turning *bone nunchucks > swordchucks*.
+
+After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
+coming close to a new materials tier after 12..13 runs.. Verry nice, very
+grindy, very medal-expensive!
+
+*3 wooden blocks > wooden anvil*
+
+Afterwards he wanted bones again..
+
+Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
+of his more sensible items. neat!
+
+- Keeping these prototypes makes sense to me right now.
+
+- Signs.. used to be terribly important in the old version i played. Perhaps
+  they have a discoverable function..
+
+- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
+
+
+** Combat
+:PROPERTIES:
+:ID:       ed26ef30-5c14-4f30-b7fc-8d2571b9e844
+:END:
+
+/Seven7Eleven the Great/, seemingly sole maintainer of the Wiki, recently has made
+a good page on combat which i want to annotate some more: [[https://fara.fandom.com/wiki/Combat_and_Tactics][Combat and Tactics]]
 
 ** Elements
 
@@ -1868,85 +3191,6 @@ Imps seem humanoid and seem to pop out of nowhere, ready to dish out elemental d
 
 - Going through a lot of ruins, i've yet to see the last kind'
 
-** Equipment
-*** Bags 
-
-The material determines your attribute bonuses and might have an effect on
-durability.
-
-|----------+-----------+----------+---------+---------+------------|
-| Bag      | Materials | Capacity | Refined | Artisan | Masterwork |
-|----------+-----------+----------+---------+---------+------------|
-| Satchel  | 2 soft    |       10 |      15 |      20 |         25 |
-| Bag      | 3 soft    |       15 |      20 |      25 |         30 |
-| Backpack | 4 soft    |       20 |      25 |      30 |         35 |
-| Sack     | 5 soft    |       25 |      30 |      35 |         40 |
-|----------+-----------+----------+---------+---------+------------|
-
-- The [[MERCHANT][Merchant]] class has *twice* the usual inventory capacity from the beginning.
-- And the Hauler trait increases your inventory capacity passively
-- If you've seen a legendary bag, I'd like to know!
-- Consider using at least one [[Definitely craftable.][Hidden Pocket]] curio.
-
-*** Bottles
-
-Are
-Bottle,
-Bowl,
-Bucket,
-Cauldron,
-Cup,
-Flask,
-Keg,
-Jug,
-Mug,
-Stein,
-Teapot,
-Urn,
-Vial &
-Waterskin
-all of them?
-
-These provide the ability to carry water on your trips. I find I'd rather carry
-a piece of fruit to regain stamina, but tastes vary oc.
-
-*** Lights
-
-|---------+--------+--------------------------------------------------------|
-| Light   | Burns  | Note                                                   |
-|---------+--------+--------------------------------------------------------|
-| Candle  | Short  | More of an oddity, rather ordinary, burns a few hours. |
-| Torch   | Medium | Easy to make, you were born knowing how to make them.  |
-| Lantern | Long   | Got the Recipe after 'feeding the smith' a lot.        |
-|---------+--------+--------------------------------------------------------|
-
-- Lanterns seem to burn forever.. but they dont.
-  - They'll have plenty of life left in them when yellow.
-
-|--------------+----------|
-| Light Range  | Distance |
-|--------------+----------|
-| Above Ground |        6 |
-| Below Ground |        4 |
-|--------------+----------|
-
-- Climbing does not extend the light's circle. 
-
-*** Riding, Fishing, Digging, Mining
-|-------------+--------------------------------------------|
-| Saddle      | Can be used to ride a mount                |
-| Shovel      | To dig with                                |
-| Pickaxe     | For digging and mining                     |
-| Fishing Rod | Still looking for what to do with those ;) |
-|-------------+--------------------------------------------|
-*** Repairing
-|-------------+------------------------------------------------|
-| Item        | Note                                           |
-|-------------+------------------------------------------------|
-| Repair Kits | very light and cheap; single use               |
-| Workbenches | repairs party equipment! repairable with a kit |
-|-------------+------------------------------------------------|
-
 ** Factions
 
 When you rank up in a faction, by doing quests for them or bribing one of their
@@ -1972,31 +3216,50 @@ Traits will give you options in crafting such as:
 - Increases materials gathered from foraging skills
 
 *** Ranks
-|---------------+--------------------+---------+------------|
-| Faction Ranks | Medals to get Rank | Traits  | Trait-Cost |
-|---------------+--------------------+---------+------------|
-| Recruit       |                    | 3 Minor |         10 |
-| Squire        |                    | 5 Minor |         15 |
-| Knight        |                    | 2 Minor |         20 |
-| Champion      |                    | 2 Minor |         25 |
-| Commander     |                    | 2 Minor |         30 |
-| Legend        |                    | 1 Major |         35 |
-|---------------+--------------------+---------+------------|
 
-See the */factions* (aka "*F*") window for a list of Traits and the rank requirements
+Ok, I messed up the science on this by doing a single quest for Jade Circle
+before I began paying attention. But maybe that didn't turn out all that bad.
+
+Also, I cheated a little bit by doing this twice. Feeding the man, and you'll
+have to figure out which one it is, one medal at a time for this table:
+
+|---------------+--------------------+---------+------------+-----------|
+| Faction Ranks | Medals to get Rank | Traits  | Trait-Cost | By Others |
+|---------------+--------------------+---------+------------+-----------|
+| Recruit       | 1q                 | 3 Minor |         10 | Watched   |
+| Squire        | 1q,1m              | 5 Minor |         15 | Wanted    |
+| Knight        | 1q,4m              | 2 Minor |         20 | Enemy     |
+| Champion      | 1q,8m              | 2 Minor |         25 | Hated     |
+| Commander     | 1q,13m             | 2 Minor |         30 | Despised  |
+| Legend        | 1q,19m             | 1 Major |         35 | Scourge   |
+|---------------+--------------------+---------+------------+-----------|
+
+After reloading and doing it a second time, I took the Jade Circle's diplomat
+trait right after giving the man just one medal to add to my reputation.
+
+This resulted in me becoming a "Legend of the Jade Circle" while being
+'merely' hated insted of despised. Which is cool.
+
+|---------------+--------------------+---------+------------+-----------|
+| Faction Ranks | Medals to get Rank | Traits  | Trait-Cost | By Others |
+|---------------+--------------------+---------+------------+-----------|
+| Legend        | 1q,19m             | 1 Major |         35 | Hated     |
+|---------------+--------------------+---------+------------+-----------|
+
+See the */factions* (aka "*F*") window for a full list of Traits and the
+rank required to purchase them.
 
 - Trait Cost: shards per trait purchased at that level.
-  - Don’t enter castles of the factions that hunt you.
-- Fortresses are ok, just not castles
-- Takes a huge amount of medals to become a Legend. Balance with smithing!
 
---
-1q1m squire, take diplomat
-1q13m commander, take tu
+- Don’t enter castles of the factions that hunt you unless you want a fight.
+  - Fortresses are ok, just not castles
 
+Even as a momentary diplomat I at best hope to neutralize my relations with
+the different factions. Achieving world-peace and good relations with everyone
+appears to be an imposibility to me atm. 
 
 *** Wanted
-Don't think that it goes unobserver when your thieving fails or you start
+Don't think that it goes unobserved when your thieving fails or you start
 murdering random people -- who are mostly/all? aligned with a faction.
 
 I've experimented and see it go from Unknown to
@@ -2007,9 +3270,10 @@ Hated,
 Despised &
 Scourge by/of a Faction!
 
-It may be interresting to try this with a stronger character who has medals enough
-to bribe their way back out of a hole. As is, my experimental guy quickly died to
-an assassing sent after him.
+It may be interresting to try this with a stronger character who has medals
+enough to bribe their way back out of a hole. As is, my experimental guy quickly
+died to an Assassin sent after him.  .. So, don't be a prick .. don't steal
+unless you're sure that you won't fail.
 
 *** Traits
 
@@ -2037,436 +3301,13 @@ who's ultimate intentions you can't ever be sure about anyway.
 There are manuals for all Faction specific traits waiting to be found ingame.
 I suppose the higher ranked manuals are less frequent.
 
-- Finding/Grinding Labyrinths
-
-** Food
-- Raw food provides some stamina but no healing.
-- Cooked foods provide much more stamina and restore a fixed health%.
-- Its not clear if or how the health boost varies.
-- They are 1u small.
-- Buffs from food *replace* each other.
-- mixtures, dishes and booze can drop from mobs and crates.
-
-[[ALCHEMIST][Alchemist]]'s *Mixtures* provide higher stat bonuses for fewer ingredients and can
-be consumed much faster. Throwing Mixtures at enemies will lower the relevant
-stats, and throwing Mixtures at other entities will raise the relevant stats.
-
-[[BOTANIST][Botanists]] can do all sorts of magic by feeding their babies just about anything.
-Their babies evolve when they feed them. Your pets wont.
-
-[[CHEF][Chef]]'s *Dishes* provide stat bonuses for four times the duration of Meals, and
-grant an effect which fixes the eater's mood to max for an extended period.
-
-Eating and drinking (*/eat*, */drink*) take time. *Water* and *Mixtures*
-are probably hugely important for spellcasters in dire situations, but I'd need
-an expert to chime in with their experience as I'm just guessing here.
-
-Whats missing?
-- Is someone tracking the biomes for these things?
-
-|----------------+------------+-----------------+------|
-| Foodstuff      | Prefix     | Buffs Attribute | Size |
-|----------------+------------+-----------------+------|
-| Alcohol        | Hearty     | ++Resilience    |  1.0 |
-| Flowers        | Delightful | ++Charm         |  0.1 |
-| Fruits         | Zesty      | ++Finesse       |  0.2 |
-| Meat           | Complex    | ++Insight       |  1.0 |
-| Tree Seeds     | Robust     | ++Strength      |  0.1 |
-| Vegetables     | Robust     | ++Strength?     |  0.2 |
-|----------------+------------+-----------------+------|
-| Fish           |            |                 |  1.0 |
-| Herbs & Spices |            |                 |  0.1 |
-| Specialities   |            |                 |  0.1 |
-|----------------+------------+-----------------+------|
-
-- Don't forget there are 6 more prefixes used with [[Elementally Flamed][Elemental Buffs]]!
-
-- Anything with Fishbones always? produces inedible 'questionable' outcomes.
-
-- Testing indicates that you get the same amount of health, ~10% from eating cooked items.
-
-Take some of the ultra-small foods to recover stamina during your travels
-(and/or to save yourself from drowning) and bring along with a few elemental
-runes to cook up Elemental Gourmet Meals right next to, or even in your Dungeon
-or Quest site!
-
-Don't forget the wood lest you wind up wanting to cook in the middle of a desert.
-
-*** Cooking
-Everyone can */harvest* trees and shrubbery, then */cook* solid *Meals* from
-single Ingredients in Campfires and Firepits to restore stamina and heal
-themselves and their allies.
-
-The real freaks produce foods with a different prefix and an *extra +* on the
-buffs:
-
-- [[ALCHEMIST][Alchemists]] produce liquid *Mixtures* instead of *Meals* when cooking.
-- [[CHEF][Chefs]] produce *Dishes* instead of *Meals* when cooking.
-
-Cook sites:
-
-- Campfires
-  - are destroyed by immolation more quickly
-  - add a log to get a Bonfire. unsure about effects on cooking
-
-- Firepits
-  - last forever?
-  - are they faster? have greater capacity?
-
-- Stove are a thing.
-  - failed to get the recipe.
-
-
-*** Drinks
-
-**** Drinkable
-Strange when you state the obvious, isn't it?
-|-------+----------------------------------|
-| Name  | Note                             |
-|-------+----------------------------------|
-| [[https://en.wikipedia.com/wiki/Water][Water]] | Turns coffee beans into code!    |
-|-------+----------------------------------|
-
-**** Alcohol
-
-Bottles of
-[[https://en.wikipedia.com/wiki/Bourbon][Bourbon]],
-[[https://en.wikipedia.com/wiki/Gin][Gin]],
-[[https://en.wikipedia.com/wiki/Moonshine][Moonshine]],
-[[https://en.wikipedia.com/wiki/Rum][Rum]],
-[[https://en.wikipedia.com/wiki/Vodka][Vodka]],
-[[https://en.wikipedia.com/wiki/Whiskey][Whiskey]] &
-[[https://en.wikipedia.com/wiki/Wine][Wine]]
-are flammable and become *Hearty Meals* boosting *++Resilience* when you cook them.
-Makes total sense to me.
-
-*** Solid Foods
-
-**** Meat
-|----------+---------+------+-----------+------|
-| Item     | Meal    | Buff | Attribute | Size |
-|----------+---------+------+-----------+------|
-| Raw Meat | Complex | ++   | Insight   |  1.0 |
-|----------+---------+------+-----------+------|
-
-**** Fish
-
-Fish are *not stackable*.
-
-[[https://en.wikipedia.com/wiki/Anchovy][Anchovy]],
-[[https://en.wikipedia.com/wiki/Bass][Bass]],
-[[https://en.wikipedia.com/wiki/Butterfly Fish][Butterfly Fish]],
-[[https://en.wikipedia.com/wiki/Cod][Cod]],
-[[https://en.wikipedia.com/wiki/Cuttlefish][Cuttlefish]],
-[[https://en.wikipedia.com/wiki/Deep Spider][Deep Spider]],
-[[https://en.wikipedia.com/wiki/Giant Squid][Giant Squid]],
-[[https://en.wikipedia.com/wiki/Grouper][Grouper]],
-[[https://en.wikipedia.com/wiki/Quill Ray][Quill Ray]],
-[[https://en.wikipedia.com/wiki/Salmon][Salmon]]
-[[https://en.wikipedia.com/wiki/Stone Shark][Stone Shark]],
-[[https://en.wikipedia.com/wiki/Sturgeon][Sturgeon]],
-[[https://en.wikipedia.com/wiki/Swordfish][Swordfish]],
-[[https://en.wikipedia.com/wiki/Trout][Trout]] &
-[[https://en.wikipedia.com/wiki/Tuna][Tuna]] produce *... Meals boosting ++*.
-
-**** Tree-Seeds
-
-[[https://en.wikipedia.com/wiki/Alder][Alder]], 
-[[https://en.wikipedia.com/wiki/Ash][Ash]], 
-[[https://en.wikipedia.com/wiki/Aspen][Aspen]], 
-[[https://en.wikipedia.com/wiki/Birch][Birch]], 
-[[https://en.wikipedia.com/wiki/Buckeye][Buckeye]], 
-[[https://en.wikipedia.com/wiki/Buckthorn][Buckthorn]], 
-[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
-[[https://en.wikipedia.com/wiki/Catalpa][Catalpa]], 
-[[https://en.wikipedia.com/wiki/Cedar][Cedar]], 
-[[https://en.wikipedia.com/wiki/Chestnut][Chestnut]], 
-[[https://en.wikipedia.com/wiki/Chinkapin][Chinkapin]], 
-[[https://en.wikipedia.com/wiki/Cottonwood][Cottonwood]], 
-[[https://en.wikipedia.com/wiki/Cypress][Cypress]], 
-[[https://en.wikipedia.com/wiki/Dogwood][Dogwood]], 
-[[https://en.wikipedia.com/wiki/Elm][Elm]], 
-[[https://en.wikipedia.com/wiki/Fir][Fir]], 
-[[https://en.wikipedia.com/wiki/Holly][Holly]], 
-[[https://en.wikipedia.com/wiki/Juniper][Juniper]], 
-[[https://en.wikipedia.com/wiki/Maple][Maple]], 
-[[https://en.wikipedia.com/wiki/Oak][Oak]], 
-[[https://en.wikipedia.com/wiki/Pine][Pine]], 
-[[https://en.wikipedia.com/wiki/Poplar][Poplar]], 
-[[https://en.wikipedia.com/wiki/Redwood][Redwood]], 
-[[https://en.wikipedia.com/wiki/Spruce][Spruce]], 
-[[https://en.wikipedia.com/wiki/Sycamore][Sycamore]] &
-[[https://en.wikipedia.com/wiki/Willow][Willow]] seeds produce *Robust ++Strength Meals*
-
-- Fruit Trees (Apple, Pear) yield logs less than half the time.
-  - seen ~20%ish for pear
-
-
-**** Fruits
-
-[[https://en.wikipedia.com/wiki/Apple][Apple]], 
-[[https://en.wikipedia.com/wiki/Avocado][Avocado]], 
-[[https://en.wikipedia.com/wiki/Banana][Banana]], 
-[[https://en.wikipedia.com/wiki/Blackberry][Blackberry]], 
-[[https://en.wikipedia.com/wiki/Blueberry][Blueberry]], 
-[[https://en.wikipedia.com/wiki/Cherry][Cherry]], 
-[[https://en.wikipedia.com/wiki/Coconut][Coconut]], 
-[[https://en.wikipedia.com/wiki/Grape][Grape]], 
-[[https://en.wikipedia.com/wiki/Kiwi][Kiwi]], 
-[[https://en.wikipedia.com/wiki/Lemon][Lemon]], 
-[[https://en.wikipedia.com/wiki/Lime][Lime]], 
-[[https://en.wikipedia.com/wiki/Mango][Mango]], 
-[[https://en.wikipedia.com/wiki/Orange][Orange]], 
-[[https://en.wikipedia.com/wiki/Peach][Peach]], 
-[[https://en.wikipedia.com/wiki/Pear][Pear]], 
-[[https://en.wikipedia.com/wiki/Pineapple][Pineapple]], 
-[[https://en.wikipedia.com/wiki/Raspberry][Raspberry]], 
-[[https://en.wikipedia.com/wiki/Strawberry][Strawberry]] &
-[[https://en.wikipedia.com/wiki/Watermelon][Watermelon]] produce *Zesty ++Finesse Meals*.
-
-**** Vegetables
-
-[[https://en.wikipedia.com/wiki/Artichoke][Artichoke]], 
-[[https://en.wikipedia.com/wiki/Cabbage][Cabbage]], 
-[[https://en.wikipedia.com/wiki/Carrot][Carrot]], 
-[[https://en.wikipedia.com/wiki/Cauliflour][Cauliflour]], 
-[[https://en.wikipedia.com/wiki/Chili][Chili Pepper]], 
-[[https://en.wikipedia.com/wiki/Corn][Corn]], 
-[[https://en.wikipedia.com/wiki/Cucumber][Cucumber]], 
-[[https://en.wikipedia.com/wiki/Eggplant][Eggplant]], 
-[[https://en.wikipedia.com/wiki/Garlic][Garlic]], 
-[[https://en.wikipedia.com/wiki/Kale][Kale]], 
-[[https://en.wikipedia.com/wiki/Lettuce][Lettuce]], 
-[[https://en.wikipedia.com/wiki/Okra][Okra]], 
-[[https://en.wikipedia.com/wiki/Onion][Onion]], 
-[[https://en.wikipedia.com/wiki/Peas][Peas]], 
-[[https://en.wikipedia.com/wiki/Potato][Potato]], 
-[[https://en.wikipedia.com/wiki/Pumpkin][Pumpkin]], 
-[[https://en.wikipedia.com/wiki/Radish][Radish]], 
-[[https://en.wikipedia.com/wiki/Red][Red Pepper]], 
-[[https://en.wikipedia.com/wiki/Spinach][Spinach]], 
-[[https://en.wikipedia.com/wiki/Tomato][Tomato]] & 
-[[https://en.wikipedia.com/wiki/Turnip][Turnip]] produce *Robust ++Strength Meals*.
-
-**** Flowers
-
-Rose & Chrysanthemum Salad!
-
-[[https://en.wikipedia.com/wiki/Amaryllis][Amaryllis]], 
-[[https://en.wikipedia.com/wiki/Anemone][Anemone]], 
-[[https://en.wikipedia.com/wiki/Begonina][Begonina]], 
-[[https://en.wikipedia.com/wiki/Bergamot][Bergamot]], 
-[[https://en.wikipedia.com/wiki/Bluebell][Bluebell]], 
-[[https://en.wikipedia.com/wiki/Buttercups][Buttercups]], 
-[[https://en.wikipedia.com/wiki/Carnation][Carnation]], 
-[[https://en.wikipedia.com/wiki/Chrysanthemum][Chrysanthemum]], 
-[[https://en.wikipedia.com/wiki/Daffodil][Daffodil]], 
-[[https://en.wikipedia.com/wiki/Foxglove][Foxglove]], 
-[[https://en.wikipedia.com/wiki/Holly][Holly]], 
-[[https://en.wikipedia.com/wiki/Hyacinth][Hyacinth]], 
-[[https://en.wikipedia.com/wiki/Lavender][Lavender]], 
-[[https://en.wikipedia.com/wiki/Orchid][Orchid]], 
-[[https://en.wikipedia.com/wiki/Primrose][Primrose]], 
-[[https://en.wikipedia.com/wiki/Rose][Rose]], 
-[[https://en.wikipedia.com/wiki/Sunflower][Sunflower]], 
-[[https://en.wikipedia.com/wiki/Thistle][Thistle]], 
-[[https://en.wikipedia.com/wiki/Tulip][Tulip]] &
-[[https://en.wikipedia.com/wiki/Violet][Violet]] produce *Delightful ++Charisma Meals*.
-
-**** Herbs & Spices
-
-[[https://en.wikipedia.com/wiki/Amaranth][Amaranth]], 
-[[https://en.wikipedia.com/wiki/Chives][Chives]], 
-[[https://en.wikipedia.com/wiki/Parsley][Parsley]], 
-[[https://en.wikipedia.com/wiki/Basil][Basil]], 
-[[https://en.wikipedia.com/wiki/Rosemary][Rosemary]], 
-[[https://en.wikipedia.com/wiki/Thyme][Thyme]], 
-[[https://en.wikipedia.com/wiki/Oregano][Oregano]], 
-[[https://runesofmagic.fandom.com/wiki/Goblin_Grass][Goblingrass]], 
-[[https://en.wikipedia.com/wiki/Marjoram][Marjoram]], 
-[[https://en.wikipedia.com/wiki/Mint][Mint]], 
-[[https://en.wikipedia.com/wiki/Dill][Dill]], 
-[[https://en.wikipedia.com/wiki/Ginger][Ginger]], 
-[[https://marvel.fandom.com/wiki/Heart-Shaped_Herb][Heartshaped Herb]], 
-[[https://en.wikipedia.com/wiki/Fennel][Fennel]], 
-[[https://en.wikipedia.com/wiki/Mustard][Mustard]], 
-[[https://en.wikipedia.com/wiki/Peppermint][Peppermint]], 
-[[https://en.wikipedia.com/wiki/Saffron][Saffron]], 
-[[https://en.wikipedia.com/wiki/Paprika][Paprika]] &
-[[https://en.wikipedia.com/wiki/Hemp][Hemp]] produce *xx Meals*.
-
-*** Specialty Foods
-|---------------+------+------+-----------+------|
-| Item          | Meal | Buff | Attribute | Size |
-|---------------+------+------+-----------+------|
-| Eggs          |      |      |           |  0.1 |
-| Honey         |      |      |           |  0.1 |
-|---------------+------+------+-----------+------|
-
-More research needed.
-
-|---------------+-----------------------------------------------|
-| Related       | Note                                          |
-|---------------+-----------------------------------------------|
-| Venom Sacks   | Not sure that these are cookable ingredients. |
-| Salted Meat   | Exists as well, not sure that its cookable.   |
-| Load of Bread | Instant Satiation without nourishment. Right. |
-|---------------+-----------------------------------------------|
-
-*** Elementally Flamed
-
-As you're hanging out surrounded by half a dozen camp-fires plus one, cooking
-up a storm, why not try frying up some runes? What's the worst that could
-happen?
-
-
-By the power of magic..
-|---------+---------|
-| Element | Meal    |
-|---------+---------|
-| [[https://www.thewonderingalchemist.com/blog/base-elements-air][Air]]     | Light   |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-earth][Earth]]   | Rich    |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-fire][Fire]]    | Spicy   |
-| [[https://www.thewonderingalchemist.com/blog/base-elements-water][Water]]   | Tender  |
-| [[https://www.startpage.com/sp/search?query=light+alchemy][Light]]   | Vibrant |
-| [[https://www.startpage.com/sp/search?query=dark+alchemy][Dark]]    | Heavy   |
-|---------+---------|
-
-When you infuse multiple runes into a firepit you'll get the wonderful combo names
-used for [[Elements][Elemental Combos]] applied to your Meals, with the last infused element
-determining the elemental attunement your food will provide.
-*** Stamina
-
-You know that there's sugar in fruit, right?
-
-So why don't you wear yourself out, then try what fruits or other food you might
-like to take along your raiding missions. Find a way to determine just how long
-it might take to eat or drink and just which of these options of replenishing
-your stamina are open to you in combat!
-** Items
-*** Curios
-:PROPERTIES:
-:ID:       c837a2d5-bf82-4b42-ba0d-5bbeab6eda64
-:END:
-(wip)
-
-Gizmos, dodads, mods, infusions.. call them what you want, once you've applied
-them to a piece of equipment, you can't get rid of them again. Some of these are
-really rare and I can't quite judge which those are, so .. Please don't cry if
-you misapply!
-
-Curios can be found and some of the curios, perhaps all of them are
-craftable once you've discovered or obtained their recipes.
-
-**** Never Craftable?
-|------------------+----------------------------------+--------|
-| Curio            | Effect                           | Rarity |
-|------------------+----------------------------------+--------|
-| Athletic Band    | Increase Jump distance           |        |
-| Balanced Weight  | Lessen chance to stumble (drunk) |        |
-| Hardened Tack    | Increase critial damage          |        |
-| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
-|------------------+----------------------------------+--------|
-| Hilt Chain       | Thrown Item returns              |        |
-| Metalic Bullseye | Increase throwing distance       |        |
-|------------------+----------------------------------+--------|
-
-**** Definitely craftable.
-|---------------+----------------------------+-----------------|
-| Curio         | Effect                     | Needs           |
-|---------------+----------------------------+-----------------|
-| Durable Patch | Less wear and tear on item |                 |
-| Hidden Pocket | +5 Inventory capacity      | 3 Burlap        |
-|---------------+----------------------------+-----------------|
-| Heavy Clasp   | +STR                       | 5 Copper Ingots |
-| Shiny Charm   | +CHA                       | 5 Rolls Silk    |
-| Sturdy Plates | +RES                       | 5 Animal Bones  |
-| Clever Widget | +INS                       | 5 Glass Ingots  |
-| Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
-|---------------+----------------------------+-----------------|
-*** Furniture
-:PROPERTIES:
-:ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
-:END:
-
-How to arrange
-Bar Stool,
-Bed,
-Bedding,
-Bench,
-Bookcase,
-Bookshelf,
-Cabinet,
-Carpet,
-Chair?,
-Chamber Pot,
-Chandelier,
-Desk,
-Dresser,
-Mattress,
-Nightstand,
-Rocking Chair,
-Rug,
-Stool,
-Table,
-Throne &
-Wardrobe
-into a sensible homesteader's base eludes me still!
-
-- Some of these I only know by hearsay, having their sizes and to learn
-  something about their utility, if any, would be cool too.
-
-- Does anyone feel like making up a color-scheme for a living space?
-
-and what about Cages? do they have a use?
-
-*** Musical Instruments
-Drum,
-Flute,
-Guitar,
-Harp,
-Lute,
-Organ,
-Piano,
-Tambourine,
-Triangle &
-Violin 
-demand that an unopened stables in a good location be made into an orchestra pit!
-
-- Forgot to note their sizes. 
-
-*** Other
-:PROPERTIES:
-:ID:       8102e531-8c10-4982-ac30-cd1893ccadb8
-:END:
-Beaks and claws and..
-
-*** Storage
-
-All these have the capacity to hold 300 items of arbitrary size.
-
-- Carts, draggable on the local map
-- Storage Bins, installable
-- Storage Bins, upgraded.
-
-See [[Bags][Bags]] and consider using your party as loot mules!
-
-*** Utensils
-:PROPERTIES:
-:ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
-:END:
-Rarer than hell it seems!
-
-Pipes, 
-Combs, 
-Spoons,
-Forks,
-Inkwells,
-Jars still in the game?
-
-.. there used to be Pens and writable Signs, right?
-
-- Unusable Rings, Earrings
+Later on, finding and grinding Labyrinths is a thing more rewarding for the loot
+than the trait manuals. But it's sure cool to find something like "Defuser" and
+be able to start your own collection of Traps. Whatever you find will let you
+game the game in interresting ways!
+
+Once you game your relations with the factions, you'll be able to swap any and
+all of the traits.
 
 ** Locations
 *** Location List
@@ -2578,8 +3419,10 @@ salvaged, giving me runic shards.  Basically, the farmer is a safe and infinite
 There's a lot of tombstones in this place. It's been said that there's more to
 this place that hasn't been discovered yet.
 
-- digging up and smashing all the tombstones hasnt revealed anything to me yet.
 - good place to collect soil (for pottery?) :)
+- digging up and smashing all the tombstones hasnt revealed anything to me yet.
+  - but i can't stop looking at who they buried there in hopes of solving the
+    puzzle.
 
 **** Scouts
 What are these locations called again?
@@ -2891,113 +3734,6 @@ Awakening as from a dream, he recalls the moment his memories began. There he
 had seen that figure loitering over one of the bandits that keep coming after
 him and his cow. Did that figure save him from a certain death? Is he somehow
 connected to that society of researchers only elders seem to know about?
-** Materials
-Trying to pack all the info and stats about the things you craft with in here.
-
-*** Wiki preamble
-I sooo hope that the wiki/source is more than mostly right on this info
-- source: https://fara.fandom.com/wiki/Crafting_Materials
-
-There is an abundance of different materials and most of them seem to be
-associated with some kind of stat altering capabilities, that you can gain by
-wearing or holding the item. In addition to the material you use when crafting,
-the item you are crafting itself may have some base properties making up the
-total attribute impact.
-
-Weaponry, jewellery, and armour is made from wood, bone, scale, glass, and
-minerals, while clothing items are made from cloths and furs - with a few
-overlaps such as boots.
-
-Note that at this time the precise number of stat pluses given by each material
-is unknown, as it is not equivalent to the number of arrows a piece of equipment
-has.
-
-- (stat)> gives +1
-- (stat)>> gives +2 or +3
-- (stat)>>> gives +4, +5, or +6
-
-Each additional nth arrow gives an additional n possible boosts (4 arrows giving
-between +7 and +10, etc.)
-
-*** Notes
-- Crafting appears to take 100 (105?) moments. fwiw.
-- Steel, Obsidian, Velvet, Diamond items appear to be dropped from crates promising
-  items of 'normal' quality. Makes you think, doesn't it?
-
-*** Everyday materials
-
-Useful *Very common* Materials without effects on your stats.
-
-|------------------+-----------------+---------------|
-| Material         | Components      | Source        |
-|------------------+-----------------+---------------|
-| Ceramic Plates   | 2 Mound of Clay | Craft,drops   |
-| Burlap           | 2 Plant Fibers  | Craft,drops   |
-|------------------+-----------------+---------------|
-| Mound of Clay    |                 | /dig          |
-| Sand             |                 | /dig          |
-| Soil             |                 | /dig          |
-|------------------+-----------------+---------------|
-| Plant Fibers     |                 | Trees, Bushes |
-| Stone            |                 | Ground, drops |
-| Tuft of Feathers |                 | Birds drop    |
-|------------------+-----------------+---------------|
-
-
-*** Natural Resources
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
-| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
-| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
-| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
-| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
-| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
-| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
-| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 3 Ore           |
-| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
-| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
-| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
-| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
-| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
-| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-
-
-*** Cloths and Furs
-Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
-| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
-| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
-| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
-| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
-| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
-| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-
-- Wool becomes Pelts when /salvaged.
-- Pelts are Fur as far as ikatm
-
 ** NPCs
 
 As elsewhere the stories I tell about the different characters and their
@@ -3043,9 +3779,9 @@ small differences between weapons and styles that don't show up when you look at
 only item stats.
 
 That experiment might be quite a geeky thing, but we should have a table here to
-demonstrate the power hiding in different [[Skill Brackets][Skill Brackets]].
+demonstrate the power hiding in different [[Stat Brackets][Stat Brackets]].
 
-*** Elder
+*** Elders
 The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
 *** Escortees
@@ -3162,7 +3898,7 @@ A bug was fixed. TBD.
 
 *** Mercenaries
 In general these appear to be much stronger
-than you would suspect them to be from their listed skill bracket.
+than you would suspect them to be from their listed attributes.
 
 - have a nice clickety screen to equip them through
 - can't learn spells from tombs
@@ -3190,21 +3926,9 @@ to rejoin you later you'll wish you had already dropped some food to bribe them
 with right where you left them!
 
 *** Mounts
-- Saddles
-- Enemy mounts, /inspect, not hostile, not tameable. attract new hostiles
-  overnight!?
-
-** Qualities
-|--------------+------------+-------------------------------------|
-| Quality      | Durability | Note                                |
-|--------------+------------+-------------------------------------|
-| Pedestrian   | 1x         | Normal [[Materials][Material]] Boni                |
-| (Refined)    | 2x         | Material/stat bonus %+              |
-| <Artisan>    | 3x?        | Material/stat bonus %++             |
-| {Masterwork} | 4x?        | Material/stat bonus %+++            |
-| ?Legendary?  | ?x         | Guessing                            |
-| "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
-|--------------+------------+-------------------------------------|
+- Saddles (as saddle-bags?)
+- Enemy mounts, /inspect, not hostile, not tameable.
+  - do they seem to attract new hostiles overnight!?
 
 ** Quests
 You can figure these out by your self, don't sweat them. If there's trouble you
@@ -3307,331 +4031,6 @@ or something close to that. Or wait until you are already thriving at a place
 even further from Relica than where you first got the suicide invitations.
 
 If you rush yourself, [[Blights][you'll die]]. Farawella!
-
-** Runes
-
-The section on [[Spells][Spells]] explains how to think about and create them from the Runes
-listed and detailed here.
-
-I dug, fished and purchased a lot of runes in order to compile these lists and
-believe them to be complete and accurate, at least for the time. Although not
-sortable in the way of the [[https://fara.fandom.com/wiki/Spellcrafting][wiki]], this should now be your goto-reference for
-Spellcrafting.
-
-*** Effector Runes
-
-If they are suffering from an effect, the caster is cleansed from these effects
-when they cast the spell causing it. To make this work, casting Silencing is
-possible even when you are silenced.
-
-
-In this section you find the 
-Bleeding, 
-Blinding, 
-Burning, 
-Charm,
-Enlightenment,
-Fortification,
-Fury, 
-Illumination, 
-Intoxication, 
-Poison, 
-Quickness,
-Rage,
-Rejuvenation, 
-Sickness, 
-Silencing, 
-Slowness,
-Stupidity,
-Uglyness,
-Vulnerability &
-Weakness Runes
-
-**** Conditions
-|--------------+------------------------------------------|
-| Rune of      | Effect                                   |
-|--------------+------------------------------------------|
-| [[Status][Blinding]]     | targets see nothing and appear stealthed |
-| [[Status][Burning]]      | targets get Fire Damage over Time        |
-| [[Status][Fury]]         | raises Critical Damage dished out        |
-| [[Status][Illumination]] | receive more% Crit Hits, Stealth denied  |
-| [[Status][Silencing]]    | prevents casting anything by silence     |
-|--------------+------------------------------------------|
-
-**** Affecting Health & Stamina
-|--------------+--------------------------------------------------|
-| Rune of      | Effect                                           |
-|--------------+--------------------------------------------------|
-| [[Status][Rejuvenation]] | Supplies %s Health per Insight/Attunement        |
-| [[Status][Bleeding]]     | Drain %s Health each turn                        |
-| [[Status][Poison]]       | Stops/prevents Healing while it Drains %s Health |
-| [[Status][Sickness]]     | Drain Stamina                                    |
-|--------------+--------------------------------------------------|
-
-**** Affecting Attributes
-|------------------------+---------------+---------------|
-| Attribute              | Raise         | Lower         |
-|------------------------+---------------+---------------|
-| [[Charm][Charisma]]               | Charm         | Uglyness      |
-| [[Finesse][Finesse]], dash distance | Quickness     | Slowness      |
-| [[Insight][Insight]]                | Enlightenment | Stupidity     |
-| [[Resilience][Resilience]]             | Fortification | Vulnerability |
-| [[Strength][Strength]]               | Rage          | Weakness      |
-|------------------------+---------------+---------------|
-
-Additionally,
-
-|--------------+--------------------------------------------|
-| Rune of      | Effect                                     |
-|--------------+--------------------------------------------|
-| [[Status][Intoxication]] | Lowers [[Finesse][Finesse]], Raises chance of stumbling |
-|--------------+--------------------------------------------|
-
-**** Notes
-
-- Forces are hugely useful, especially compared to other spells
-  - I had a Thunder Force of Quickness in one run from a labyrinth
-  - knocking people back 3 tiles for a relatively small stamina cost
-    If you get rejuve on that, you're VERY good off
-
-
-*** Stabilizer Runes
-
-In this section you find the
-Arrows, 
-Auras, 
-Barrages, 
-Barriers, 
-Beams, 
-Blades, 
-Blasts, 
-Blessings, 
-Chains, 
-Curses, 
-Elementals, 
-Fields, 
-Fonts, 
-Forces, 
-Gales, 
-Hammers, 
-Meteors, 
-Plagues, 
-Shields, 
-Shockwaves, 
-Spears, 
-Wards &
-Whips Runes
-
-
-
-|------------+---------------+------------------------------------------------------------|
-| Rune of    | Type          | Effect                                                     |
-|------------+---------------+------------------------------------------------------------|
-| Barriers   | Buff Area     | Moderate [[Effects][Elemental]] resistance for those near               |
-| Shields    | Buff Target   | High [[Effects][Elemental]] resistance                                  |
-| Wards      | Retaliation   | Damages anyone that attacks the affected target            |
-|------------+---------------+------------------------------------------------------------|
-| Blessings  | Amplify       | Ups damage output of spell's element                       |
-| Curses     | Amplify       | Ups target vulnerability to spell's element                |
-| Fields     | Amplify       | Ups all [[Effects][Elemental]] dmg taken?/made? in an area              |
-|------------+---------------+------------------------------------------------------------|
-| Auras      | Buff Area     | Add [[Effects][Elemental]] component to target                          |
-| Fonts      | Buff Area     | Add [[Effects][Elemental]] component to attacks of those near           |
-|------------+---------------+------------------------------------------------------------|
-| Chains     | Single Status | [[Status][Immobilizes]] the target                                     |
-| Forces     | Single Status | Pushes target away, [[Status][Stuns]] them if they hit a wall          |
-| Gales      | Single Target | Target becomes [[Status][Prone]], Actions interrupted, Stamina drained  |
-| Hammers    | Single status | [[Status][Dazes]] the target                                           |
-|------------+---------------+------------------------------------------------------------|
-| Barrages   | DOT Area      | Damages all targets in the area                            |
-| Blades     | Direct Damage | Greater chace for Critical Hits                            |
-| Elementals | Summons       | Summons [[Imps][Elementals]] to aid the caster                       |
-| Plagues    | DOT Target    | Damages the target over time                               |
-| Whips      | Direct Damage | Damages the target and their armor                         |
-|------------+---------------+------------------------------------------------------------|
-| Arrows     | Direct Damage | Bypass [[Effects][Elemental]] Resistances                               |
-| Beams      | Direct Damage | Hits all targets in a straight line                        |
-| Spears     | Direct Damage | Damage goes up as with distance to target                  |
-|------------+---------------+------------------------------------------------------------|
-| Blasts     | AOE           | Damages the target and nearby hostiles.                    |
-| Meteors    | AOE           | Impacts all targets in an area after short delay           |
-| Shockwaves | AOE Status    | Inflicts '[[Status][Slow]]' on targets in area                         |
-|------------+---------------+------------------------------------------------------------|
-
-- AOE Spells apply their elemental debuffs against all targets in range
-
-- *Meteor* spells are delayed by 8 moments/turns at all levels
-
-- *Blasts* only work against hostiles, not your party members.
-
-- *Retaliation* hits Melee, Magical and Ranged attacker with a portion of the
-  damage they threw at you, not the damage you took. E.g., in the extreme, they
-  will kill themselves without you taking any damage. Still, the damage
-  reflection isn't all that great even at high stats but if you can spare the
-  spell slot, try an Arcane Ward (no elemental runes,) combined with Fury,
-  Rejuvenation or any other effector rune.
-
-**** All spells are created equal...
-...Except beam, meteor, and barrage spells
-
-*** Elemental Runes
-
-Pick a number for the elemental runes you want to keep today and */salvage* the
-rest to turn them into shards/dust. Rune shards and Medals are 'currency' in
-this game. What you do with the "named runes" above is up to you. Salvage them I
-would not.
-
-|---------+-------------------------------------------------|
-| Element | Heavy Attacks with Infused Weapons              |
-|---------+-------------------------------------------------|
-| Air     | Quickens Attacker/ +Finesse                     |
-| Dark    | Darkens Target Mood/ -Stats                     |
-| Earth   | Poison DOT, denies Healing, applies slowness ^1 |
-| Fire    | Armor Damage                                    |
-| Light   | Illumes Target/ +Crits                          |
-| Water   | Heal Attacker                                   |
-|---------+-------------------------------------------------|
-
-- ^1 can/might/does also inflict bleeding.
-
-If you infuse 2 runes into your weapon the effects alternate, halving your
-healing potential.
-
-See [[Damage Types][Damage Types]], Elemental, Attunement
-
-
-*** Farming Runes
-
-| /setkey 0 dig
-| /setkey 9 takeall
-| /setkey 8 craft crystal ingot
-
-- at a beach. easy.
-  - grants lot of crystal with the above keybinds
-- setup a building to rest for buffs
-  - because you will want to probably do this for a while
-    and are likely to make several trips to Relica unless
-    your inventory space is huge 
-- what would be the ideal food/drink to take?
-- enhanced iron shovel and workbench in inventory
-- should be possible once you get the tool recipes from the first other settlement you visit.
-- oh, have a rope on you while getting used to digging, just in case you slip and fall.
-- must-read: [[Degritone's Guide to 100k Points][Degritone's Guide to 100k Points]]
-- see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
-
-**** Dig and or Fish.. rather alike, no?
-- haven't fished yet, so i can't quite compare
-
-- Fishing with an iron fishing rod used to be viable for Fishmonger, but I spent
-  an entire artisan iron fishing rod with Fishmonger and didn't get a single
-  rune
-
-**** Experiments
-As a reality check on digging, I performed these experiments at a nice looking
-beach 25km from home. The shack came in really handy during my travels since I
-wound up with quite a few ingots and wound up sleeping there several times.
-
-The results of my first/only two test runs are shown below.
-The results surprised badly!
-
-
-- counter-intuitive
-- this trashes my understanding of the defintion of the stats
-  - ought to determine the role of finesse in this if there is to be any hope of
-    salvaging it
-
-|------------+---------------+------------------|
-| Both Digs  | <Iron Shovel> | <Crystal Shovel> |
-|------------+---------------+------------------|
-| Strength   | Good+         |                  |
-| Finesse    | Good          | Average          |
-| Resilience | Legendary+    |                  |
-| Insight    | Good+         | Great            |
-| Charm      | Good+         | Great            |
-| Repairs    | 1             | 1                |
-|------------+---------------+------------------|
-
-The rejuv/arrow rune numbers.. meaningless, let someone who knows their stuff
-and can rebalance their stats or keep them godlike rerun this.
-
-|---------------------+---------------+------------------|
-| DIG #1              | <Iron Shovel> | <Crystal Shovel> |
-|---------------------+---------------+------------------|
-| Crystal Ingots Made |            83 |               83 |
-| *Total Runes*       |            50 |               26 |
-| Elemental Runes     |             4 |                0 |
-| Rejuvenation Runes  |             1 |                4 |
-| Arrow Runes         |             0 |                2 |
-|---------------------+---------------+------------------|
-| DIG #2              | <Iron Shovel> | <Crystal Shovel> |
-|---------------------+---------------+------------------|
-| Crystal Ingots Made |            83 |               83 |
-| *Total Runes*       |            26 |               33 |
-| Elemental Runes     |             4 |                6 |
-| Rejuvenation Runes  |             0 |                0 |
-| Arrow Runes         |             0 |                0 |
-|---------------------+---------------+------------------|
-
-- 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
-- without notes and interruptions these numbers might take ~90mins?
-** Shields
-|---------------+-----------+-----------+------|
-| Shield        | Defense   | Materials | Size |
-|---------------+-----------+-----------+------|
-| Shield        | Low       | 3 hard    |    2 |
-| Heater Shield | Average   | 4 hard    |    3 |
-| Kite Shield   | High      | 5 hard    |    4 |
-| Tower Shield  | Very High | 6 hard    |    5 |
-|---------------+-----------+-----------+------|
-
-- Carrying a shield makes all stamina based actions more expensive.
-- Shields do blunt-damage and there's nothing wrong with holding two of them.
-
-** Skill Brackets
-
-Stats are reported in the character screen "*c*" where you can see your relative
-skill as determined by a skill bracket. The brackets are made up of several
-levels of individual *+* or *-* gained from gear and/or buffs.
-
-I have this notion that it might be possible to make a table that roughly
-presents the words indicating enemy strength..
-
-*** 22 steps from Baby to GODLIKE
-
-|----------+----------------------+---------------+-------------+-----------|
-| Low#     | Player/Allied Humans | NPC's/Dummies | Animals     | Plants    |
-|----------+----------------------+---------------+-------------+-----------|
-| *20*     | *GODLIKE*            | Eternal       | Timeless    |           |
-| *16*..19 | *Legendary+*         | Legendary     | Ancient     |           |
-| *12*..15 | *Legendary*          | Mythic        | Fabled      |           |
-|----------+----------------------+---------------+-------------+-----------|
-| *10*..11 | *Excellent+*         | Heroic        | Elder       | Beasts?   |
-| *8*..9   | *Excellent*          | Elite         | Alpha       | Behemoth? |
-|----------+----------------------+---------------+-------------+-----------|
-| *6*..7   | *Good+*              | Veteran       | Deadly      | Beast?    |
-| *4*..5   | *Good*               | Tough         | Stout       | Kid?      |
-|----------+----------------------+---------------+-------------+-----------|
-| *1*..3   | *Above Average*      | Skilled       | Mature      |           |
-| *0*      | *Average*            | (no prefix)   | (no prefix) |           |
-| *-1*..-3 | *Below Average*      | Amateur       | Young       | Baby?     |
-|----------+----------------------+---------------+-------------+-----------|
-
-- Starting stats are in ±2 increments from average.
-  (said to be. seen no 'science' yet.)
-
-- Does Godlike always blink or only when you tried to push past 20?
-
-*** 19 stages of horribleness.
-
-|------+-----------------------------------|
-| Stat | Inspecting Self and Allied Humans |
-|------+-----------------------------------|
-|   -4 | Poor (4 steps)                    |
-|   -8 | Awful (4 steps)                   |
-|  -12 | Terrible (4 steps)                |
-|  -16 | Dreadful (4 steps)                |
-|  -20 | TRAGIC                            |
-|------+-----------------------------------|
 
 ** Spells
 (expert info is on the way)
@@ -3738,292 +4137,8 @@ Ok, this may not be conclusive, but an obsidian mace with a |hardened tack|
 takes about 4 hits to kill a combat dummy. If you have the Fury condition it
 takes only 3 hits
 
-** Status
-
-Needs a lot more work..
-
-- Positive
-
-|-------------+------------------------------------|
-| Status      | Effect                             |
-|-------------+------------------------------------|
-| Ecstatic    | adds a flat +3 steps to all stats. |
-| Well Rested |                                    |
-|             |                                    |
-
-- Neutral
-
-| Healthy
-| Satiated  |
-| Stealthed |
-| Wet       |
-
-| etc.      |
-|           |
-
-- Negative
-
-See [[Effector Runes][Effector Runes]] for now.
-
-| Immobilized |
-| Intoxicated |
-| Burning     |
-| Stunned     |
-| etc.        |
-|             |
-
-| Sleepy    |
-| Exhausted |
-| Winded    |
-|           |
-
-** Weaponry
-
-Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
-
-- Armors are listed under Equipment.
-
-- The main difference between weapons is only in their heavy attack and the stat
-  they scale with. *Size does not matter*, here at least.
-
-- Most combat RNG was removed (anything that says "chance to..." is probably no
-  longer a thing).
-
-- I've seen some talk about stats that track well-used and newly-used weapons
-  being different somehow somewhere, the info being in a hidden stat. Please write
-  if you can fill in the details!
-
-*NOTE: ALL THESE DO EITHER BASHING, CUTTING OR STABBING DAMAGE. AND I HAVE NOT
-LOOKED INTO HOW TO BEGIN TO DO MORE THAN OFFER GUESSES FOR WHICH DOES WHAT!*
-
-*** Melee
-
-Melee Weapon are usually used by [[Strength][Strength based]] characters in close combat, but
-several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] has 5!
-
-I suppose that all of these weapons can be thrown at opponents to damage them.
-
-**** Types
-
-The lists below still want to get arranged by these weapon types:
-
-|----------------+-----------------------------------------+-------------|
-| Weapon         | Note                                    | Dmg.        |
-|----------------+-----------------------------------------+-------------|
-| Axes           | may cleave                              | Cutting?    |
-| Bladed weapons | may cause bleeding                      | Piercing?   |
-| Blunt weapons  | may cause dazed                         | Bludgeoning |
-|----------------+-----------------------------------------+-------------|
-| Spears         | increased range & higher chance to crit | Piercing?   |
-| Chains         | increased range                         | Bludgeoning |
-| Pikes          | higher chance to crit                   | Cutting?    |
-|----------------+-----------------------------------------+-------------|
-
-**** Crafted Melee Weapons for Strength
-
-These are only usable in Melee Range:
-
-|----------------+---------------------------------------------------+------+------|
-| Strength Based | Heavy Effect                                      | Size | Dmg. |
-|----------------+---------------------------------------------------+------+------|
-| Axe            | Deals increased damage                            |    3 |      |
-| Battleaxe      | Cleaves adjacent targets                          |    4 |      |
-| Bo Staff       | Shoves target away                                |    3 |      |
-| Broadsword     | Deflects weapon projectiles                       |    3 |      |
-| Chain          | Immobilizes the target                            |    3 |      |
-| Claymore       | Deals bonus damage for every enemy in melee range |    4 |      |
-| Club           | Dazes the target                                  |    3 |      |
-| Cutlass        | Deflects weapon projectiles                       |    3 |      |
-| Falchion       | Deflects weapon projectiles                       |    3 |      |
-| Flamberge      | Deflects incoming heavy attacks                   |    4 |      |
-| Hammer         | Dazes the target                                  |    3 |      |
-| Javelin        | Deals increased damage                            |    3 |      |
-| Kama           | Deflects weapon projectiles                       |    3 |      |
-| Katana         | Deflects weapon projectiles                       |    3 |      |
-| Kukri          | Causes the wielder and target to change places    |    3 |      |
-| Kunai          | Deals bonus damage when stealthed                 |    3 |      |
-| Longsword      | Causes bleeding                                   |    4 |      |
-| Mace           | Dazes the target                                  |    3 |      |
-| Machete        | Deals critical damage if struck by a heavy attack |    3 |      |
-| Morningstar    | Dazes the target                                  |    3 |      |
-| Nunchaku       | Dazes the target                                  |    3 |      |
-| Odachi         | Causes bleeding                                   |    4 |      |
-| Quarterstaff   | Dazes the target                                  |    3 |      |
-| Rapier         | Causes the wielder to lunge forward               |    3 |      |
-| Saber          | Deflects weapon projectiles                       |    3 |      |
-| Scythe         | Deals increased damage                            |    4 |      |
-| Shortsword     | Deflects weapon projectiles                       |    3 |      |
-| Spear          | Shoves target away                                |    3 |      |
-| Warhammer      | Deals bonus damage based on resilience            |    4 |      |
-| Zweihander     | Reduces direct damage taken during the attack     |    4 |      |
-|----------------+---------------------------------------------------+------+------|
-
-These have a range of 2 steps:
-
-|----------------+----------------------------------------+------+------|
-| Strength Based | Heavy Effect                           | Size | Dmg. |
-|----------------+----------------------------------------+------+------|
-| Glaive         | Shoves targets away                    |    4 |      |
-| Halberd        | Shoves targets away                    |    3 |      |
-| Lance          | Shoves target away                     |    4 |      |
-| Meteor Hammer  | Dazes the target                       |    3 |      |
-| Naginata       | Shoves target away                     |    4 |      |
-| Net            | Immobilizes the target                 |    3 |      |
-| Whip           | Pulls the attacker and target together |    3 |      |
-|----------------+----------------------------------------+------+------|
-
-- Kris inflict poison and khopeshes disarm attackers if THEY try to do a heavy
-
-- I'm not sure why I'm not using Melee weapons with a range.
-  - Probably because as a Gatekeeper with a nasty arcane ward and a protect-spell i can survive almost anything
-    by wielding two tower shields. Still..
-
-- Nets may be thrown (from inventory?) to immobilize a target at range.
-  - Since they have a range of 2 in Melee, they are listed here.
-
-
-**** Crafted Melee Weapons for Finesse or Strength
-|---------------------+-------------------------------------------+------+------|
-| Strength or Finesse | Heavy Effect                              | Size | Dmg. |
-|---------------------+-------------------------------------------+------+------|
-| Boxing gloves       | Dazes the target                          |    2 |      |
-| Dagger              | Causes the wielder to step backwards      |    2 |      |
-| Grappling Hook*     | Pulls attacker and target together        |    2 |      |
-| Handwraps           | Deals increased damage                    |    2 |      |
-| Khopesh             | Disarms targets performing heavy attacks  |    2 |      |
-| Knuckles            | Dazes the target                          |    2 |      |
-| Kris                | Inflicts poison                           |    2 |      |
-| Lasso               | Immobilizes the target                    |    2 |      |
-| Sickle              | Restores a bit of health based on insight |    2 |      |
-|---------------------+-------------------------------------------+------+------|
-
-- The *Grappling Hook has a range of 5*. The other weapons are for
-  close-quarters and have a range of 1.
-  - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
-
-**** Composite Melee Weapons
-The compenents for these weapons are other weapons that you craft and then assemble.
-Enhance the final product, not the individual pieces.
-***** Composite Melee Weapons for Strength 
-|-----------------+---------+-----------------------------------------+---------------------------+------+------|
-| Strength Based  | Range   | Heavy Effect                            | Components                | Size | Dmg. |
-|-----------------+---------+-----------------------------------------+---------------------------+------+------|
-| Ball and chain  | Melee   | Immobilizes the target                  | 1 Chain, 1 Ball           |    3 |      |
-| Kunai and Chain | 3 steps | Hits target at range                    | 1 Chain, 1 Kunai          |    3 |      |
-| Swordchucks     | 2 steps | Selfdamage to critically hit the target | 1 Nunchaku, 2 Shortswords |    3 |      |
-|-----------------+---------+-----------------------------------------+---------------------------+------+------|
-
-- I suspect the last two weapons-effects are the worst way you can spend your stamina.
-
-***** Composite Melee Weapons for Finesse or Strength
-|---------------------+-------+-------------------------------------+------------+------+------|
-| Strength or Finesse | Range | Heavy Effect                        | Components | Size | Dmg. |
-|---------------------+-------+-------------------------------------+------------+------+------|
-| Shank Knuckle       | Melee | Causes the wielder to step backward | 2 Daggers  |    2 |      |
-|---------------------+-------+-------------------------------------+------------+------+------|
-
-- Could this be the Pugilist's dream weapon?
-
-*** Magical
-
-Magical Weapons are usually used by [[Insight][Insight based]] characters in ranged combat,
-but there's no downside to [[Bludgeoning][bashing]] your opponents with them either, you just
-won't have any useful heavy-attack effects available to you in that situation.
-
-|----------------------------+--------------------|
-| Foci/wands/staffs/scepters | halve casting time |
-|----------------------------+--------------------|
-
-- Focus HeavyAttack? causes the wielder to phase backwards
-- Foci/wands/staffs/scepters are ranged weapons with 6 range. In addition to
-  reducing stamina costs of spells, their heavy attacks all have unique effects
-- Scepter reduces direct spell damage taken during the attack
-- Staff reduces target's attunement
-- Wand causes the weapon to inherit elements from incoming spells
-
-|----------------+------+---------+------------------------------------------------------------+------|
-| Magical Weapon | Stat | Range   | Heavy Effect                                               | Size |
-|----------------+------+---------+------------------------------------------------------------+------|
-| Focus          | INS  | 6 steps | Causes the wielder to phase backwards                      |    2 |
-| Scepter        | INS  | 6 steps | Reduces direct spell damage taken during the attack        |    3 |
-| Staff          | INS  | 6 steps | Reduces the elemental attunement of the target             |    3 |
-| Wand           | INS  | 6 steps | Causes the weapon to inherit elements from incoming spells |    3 |
-|----------------+------+---------+------------------------------------------------------------+------|
-
-- All Magical Weapons are based on Insight.
-
-*** Ranged
-
-Ranged Weapon are usually used by [[Finesse][Finesse based]] characters in ranged combat, but
-there's no downside to bashing your opponents with your ranged weapon, you're
-just switching from a [[Piercing][piercing]] (Chakram/[[Cutting][cutting?]]) to a [[Bludgeoning][bludgeoning]] attack while
-giving up the heavy-attack effects so useful with [[Melee][Melee Weaponry]].
-
-
-The material used for ammo contributes to damage and the chance for it to break
-on impact. I've not tried that; Is this old info? Can one retrieve stones and
-darts or arrow? or just weapons/objects you've thrown? (throw a size 9 [[Musical Instruments][Organ]]?)
-
-|----------------+------------------------------------------------------------------|
-| Bows           | Have a chance to not break stealth                               |
-| Crossbows      | Bolts pass through targets, potentially hitting several targets. |
-| Firearms       | Possibly interrupts casters; indoors less than outdoors.         |
-| Thrown weapons | Do extra damage, may get damaged on use.                         |
-|----------------+------------------------------------------------------------------|
-
-Here are the details:
-
-Uses Arrows:
-|---------------+---------+-----------------------------------------+------|
-| Ranged Weapon | Range   | Heavy Effect                            | Size |
-|---------------+---------+-----------------------------------------+------|
-| Crossbow      | 8 steps | Pierces all targets in a line           |    4 |
-| Shortbow      | 7 steps | Leap backward after firing              |    4 |
-| Longbow       | 9 steps | Grants Quickness attacking from stealth |    4 |
-|---------------+---------+-----------------------------------------+------|
-
-Uses Bullets:
-|-------------+---------+--------------------------------------------+------|
-| Firearms    | Range   | Heavy Effect                               | Size |
-|-------------+---------+--------------------------------------------+------|
-| Blunderbuss | 6 steps | Damages all of the target's armor          |    4 |
-| Rifle       | 8 steps | Deals more damage to further targets       |    4 |
-| Pistol      | 7 steps | Hits two Targets once, or one Target twice |    3 |
-|-------------+---------+--------------------------------------------+------|
-
-Other Ammo:
-|--------------+---------+-----------------------+------+--------|
-| Other Ranged | Range   | Heavy Effect          | Size | Ammo   |
-|--------------+---------+-----------------------+------+--------|
-| Blowgun      | 8 steps | Inflicts poison       |    3 | Darts  |
-| Sling        | 6 steps | Hits targets at range |    2 | Stones |
-|--------------+---------+-----------------------+------+--------|
-
-Thrown Weapons:
-|---------------+-------+--------------------------------------+------|
-| Thrown Weapon | Range | Heavy Effect                         | Size |
-|---------------+-------+--------------------------------------+------|
-| Chakram       | ?     | Causes the wielder to step backwards |    2 |
-|---------------+-------+--------------------------------------+------|
-
-All Ranged Weapons, are based on Finesse.
-
-The Sling and likely all thrown weapons, can also use Strength.
-
-- Throw Darts/Arrows/Stones? Are these the goto thrown weapons?
-
-Attack speed was removed, now each attack takes one turn regardless of
-weapon - likely making quivers and bandoliers (which gave the speed boni)
-largely cosmetic/flair items. (I saw something about that. need to check!)
-
-**** Throwing
-Needs research, but could be it own section.
-
-*** Astral
-These exist. Noone will talk about them except to tell you that their bonuses
-are incredible. So go and complete the key to learn more about them!
-
 * Pug's Notes
+#+TOC: headlines 1 local
 Look, I wrote this!
 
 ** The Ages
@@ -4391,9 +4506,6 @@ And hey, if "*X*" fails, it will have moved you to the action without you having
 to look for it. This is really helpful if you cast a shield on yourself before
 doing do, esp. if your're traveling at night, yet again without a light.
 
-As you're travelling you'll find more info about [[Skill Brackets][Skill Brackets]]. Please
-share.
-
 
 ** Exploring
 
@@ -4496,7 +4608,10 @@ its quicker to drink and hide thant to dash and walk. There's are always [[Burni
 
 ** Finding things in daylight vision
 
-Update: The magic# for small items is *four* spaces in-between you and it.
+- Update: The magic# for small items is *four* spaces in-between you and it.
+
+- Don't be shy about using your pick-axes to making paths through town. It
+  makes finding new NPCs ever so much simpler.
 
 Also zipping around the map with the mouse is really fun now. Please keep these
 things in mind if/as you mark up your map to insure that you really find
@@ -4544,6 +4659,7 @@ waypoints, instead of only grabbing all the loot, place 4 markers inside the
 houses that leave 3 spaces between them and the walls. this makes it easy to
 remember that you only have to step on each of them once to have scanned
 everything. (you can can optimize that a bit, but this is good enough.)
+
 ** Climbing
 I'm pre-repeating myself here so we are clear that */climb* lets you */dance/*
 on that table you just dragged to the middle of town. It's a good thing you
@@ -4552,14 +4668,11 @@ see a little further. But I don't think it helps you find small lost objects or
 those hard to find small rare species you'll inevitably be tasked with
 researching. Then again I'd not thought about planting trees in strategic
 locations around town.. until now :)
-** Combat
 
-Seven7Eleven the Great, seemingly sole maintainer of the Wiki, recently has made
-a good page on combat which i want to annotate some more:
-https://fara.fandom.com/wiki/Combat_and_Tactics
 ** Laundry List
-Thinking that the game's going to improve quite a lot more this year these are my little notes
-about things i'll suggest or do something else with later on.
+Thinking that the game's going to *improve quite a lot*
+more this year these are my own little notes 
+about things I'm thinking about suggesting later on.
 
 Random suggestions/notes/brainstorms/observations.
 
@@ -4627,6 +4740,11 @@ Random suggestions/notes/brainstorms/observations.
 
 
 * Playing
+#+TOC: headlines 1 local
+
+This entire section needs to be rewritten and populated with the play notes now
+scattered throughout the rest of these notes. But alas, this is what it is now:
+
 ** /COMMANDS
 
 *If you find that your game slows down when moving around, issue /clearlog* 
@@ -4718,28 +4836,42 @@ Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercas
 
 ** Resting
 ** Stealth
-* Stories
-** Well, here is short story about my cat.
+** Resting
+:PROPERTIES:
+:ID:       71596cfe-01ee-48b0-bb49-3a6a0ea27d87
+:END:
+I read that you can rest on mats. that's not true.
 
-My adventurer Lalli was attacked by some strange lizard quite near Relica. Fight
-started. With just few attacks i was already dying.
+You need/want
+- a whatever bed, unsure that materials provide boni to sleep
+- to be within the glow of a brazier (what else works?)
+- to be behind any kind of *closed* door.
 
-Miracle happened. My cat dashed in! She started to scratch the lizard. Lizard
-attacked the cat and i was able to dash out to try my strange new spell which i
-do not remember anymore. Cat scratched lizard again and i was surprised to
-read - lizard had troubles. I put my weapon to my inventory and started to hold
-a mysterious scroll on my shaking hands. Cat and lizard were fighting.
+Now... if you find a mattress, blanket or a pillow count yourself lucky!
 
-Cat could dodge all attacks. Soon lizard was dying. Finally i managed to start
-cast my strange energy attack scroll. AKRAKADABRA! When bolt finally landed to
-the lizard it was already dead due to my cat scratching it. So, i was happily
-saved by my cat :slight_smile:    -- /joni75/
+Pillows need feathers.. and the only way i can imagine getting any feathers is
+from a bird joining battle, angered by my taking their nest of of their tree.
 
-* Supplemental
+- Castles, Fortresses, Labyrinths, Random and even delapidated ruins all count
+  as safe indoor sleeping places even if undiscovered enemies remain.
 
-** Random Q&A
+- Got woken up after building a shack on a map with an undiscovered species I
+  was looking for. Once. So far I've never been attacked at night even sleeping
+  in ruins.
 
-*** I'm looking for a guide on the game - any places I should be looking?
+Its a good idea to keep two wooden log in your inventory so you don't have to
+scrounge for one in the middle of the night while traveling!
+
+You want to make a shelter and a install a door before you sleep, because
+[[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
+thought of having to cross deserts at night without 2 logs. one for a shelter,
+one for a door.
+* Q&A
+#+TOC: headlines 1 local
+Random exchanges from around discord and the web applicable to the '21
+versions.
+
+** I'm looking for a guide on the game - any places I should be looking?
 
 @Q if you check the :pushpin: there should be some resources to look at
 
@@ -4780,7 +4912,7 @@ but they make jumping and dodging cost more stamina
 
 Ahhh
 
-*** Screen size frustration
+** Screen size frustration
 https://itch.io/t/645187/screen-size-frustration
 
 How do I scroll text?  For example, I can't see most of the classes in the
@@ -4824,7 +4956,7 @@ shape already to help you understand what's going on in this cool game.
 
 Cheers!
 
-*** How Long is a day
+** How Long is a day
 https://itch.io/t/832383/how-long-is-a-day
 
 I'm in a hut at night waiting for morning to come but after well more than 100
@@ -4841,7 +4973,7 @@ Other than that, one day seems to equal about 120 steps on the overland map.
 
 Cheers. Pug out.
 
-*** I'm wearing a weapon!
+** I'm wearing a weapon!
 
 LOL not sure if this is a bug or just an odd choice when you type /wearall. I
 just started a game and I'm carrying a cotton coat, a tin staff, and a burlap
@@ -4857,7 +4989,7 @@ trips to make this work. its the good kind of unusual and surprising you find in
 the game :slight_smile:
 
 
-*** what are good ways to dump inventory contents to a storage chest?
+** what are good ways to dump inventory contents to a storage chest?
 ( i have food chest, item chest, craft chest and magic chest ?)
 
 - first you can make piles and use /ds to drop more of the same on those piles
@@ -4881,15 +5013,17 @@ the game :slight_smile:
 - p.s. if you dont like the lay of the land, make a bag, collect wood, craft a
   pick-axe and /build new walls and doors where you want them. :slight_smile:
 
-*** Is there an auto-updater?
+** Is there an auto-updater?
 No.
 
-*** Multiplayer?
+** Multiplayer?
 No. 
 
 ** Random Notes from Discord
 
--> PASTE NEW THINGS HERE
+-> PASTING NEW THINGS INTO THIS MESS IN ORDER TO MAKE SENSE OF IT LATER
+
+--
 
 The first batch swiped 2021.04.06ish by scrolling backward in time a few months
 is mostly distributed into this document already.
@@ -5006,6 +5140,27 @@ the only danger would be if you destroyed the key to the door
 
 and /Pug/ survives
   - as a Gatekeeper.
+
+* Supplemental
+#+TOC: headlines 1 local
+
+** Stories
+*** Well, here is short story about my cat.
+
+My adventurer Lalli was attacked by some strange lizard quite near Relica. Fight
+started. With just few attacks i was already dying.
+
+Miracle happened. My cat dashed in! She started to scratch the lizard. Lizard
+attacked the cat and i was able to dash out to try my strange new spell which i
+do not remember anymore. Cat scratched lizard again and i was surprised to
+read - lizard had troubles. I put my weapon to my inventory and started to hold
+a mysterious scroll on my shaking hands. Cat and lizard were fighting.
+
+Cat could dodge all attacks. Soon lizard was dying. Finally i managed to start
+cast my strange energy attack scroll. AKRAKADABRA! When bolt finally landed to
+the lizard it was already dead due to my cat scratching it. So, i was happily
+saved by my cat :slight_smile:    -- /joni75/
+
 ** Obsolete/Guides
 *** Degritone's Guide to 100k Points
 Written by a master of the game for an old version, some relevancy remains
@@ -7061,6 +7216,11 @@ The real key to good performance appears to be the size of your [[https://www.ma
 
 ** Technical
 
+*** Playing on Notebooks
+This is good to know for the two people in the world with a machine good enought
+to run fara which doesn't have a full-size keyboard. [[https://www.dummies.com/computers/pcs/the-hidden-numeric-keypad-on-your-laptop/][The Hidden Numeric Keypad
+on Your Laptop]].
+
 *** Resizing & Positioning the FARA Window
 
 I play on an upright external monitor. Since changes to /bigmap make it scale
@@ -7092,9 +7252,6 @@ If you want to adapt your browser's window instead, you'll find some more ideas
 at these links:
 - [[https://unix.stackexchange.com/questions/14159/how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration][how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration]]
 - [[https://unix.stackexchange.com/questions/43106/how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line/359311][how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line]]
-
-
-
 
 
 *** Fixing crashes
@@ -7139,11 +7296,23 @@ to a close.
 - but maybe some simple scripts with an adjustable data section in an svg would
   empower players smart and geeky enough to keep notes about their world.
 
----
+* Full Index
+#+TOC: headlines 4
 
-Thanks for scrolling to the bottom of this text. There's a [[Hot Links][Hot Links]] section at
-the very top, a section on [[Finding][this document]], and links to sources throughout.  For
-more, join the Discord, and scan the [[https://www.reddit.com/r/fara/][Reddit]], Twitter, [[https://fara.fandom.com/wiki/Special:Categories][Wiki]], [[https://www.startpage.com/sp/search?query=FARA+Roguelike+youtube&cat=video][Youtube]] links, and,
-of course the [[https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web][Web]]. 
+* Links
+Thanks for scrolling to the bottom of this text.
 
-cu ingame!
+For more, join the [[https://discord.gg/FEp52yj][Discord]], and scan the
+[[https://www.reddit.com/r/fara/][Reddit]],
+[[https://twitter.com/PlayFARA][Twitter]],
+[[https://www.patreon.com/playfaraPatreon][Patreon]],
+[[https://fara.fandom.com/wiki/Special:Categories][Wiki]],
+[[https://www.startpage.com/sp/search?query=FARA+Roguelike+youtube&cat=video][Youtube]]
+links, and, of course the
+[[https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web][Web]].
+
+Also see [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
+and [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][Mantecarl's Tourist’s guide to FARA]]!
+
+Enjoy!
+
