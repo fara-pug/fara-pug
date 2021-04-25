@@ -5139,6 +5139,11 @@ and /Pug/ survives
 This entire section needs to be rewritten and populated with the play notes now
 scattered throughout the rest of these notes. But alas, this is what it is now:
 
+Don't forget, these are just my notes.
+There are better people writing actual guides for your reading pleasure.
+Go read them!
+[[Guides to the current version][Guides to this and older versions]].
+
 ** /COMMANDS
 
 *If you find that your game slows down when moving around, issue /clearlog* 
