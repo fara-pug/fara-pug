@@ -2141,6 +2141,7 @@ Jars still in the game?
 :END:
 #+TOC: headlines 1 local
 
+*** Intro
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
 
 - Armors are listed under Equipment.
@@ -2159,7 +2160,7 @@ Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1
 LOOKED INTO HOW TO BEGIN TO DO MORE THAN OFFER GUESSES FOR WHICH DOES WHAT!*
 
 *** Melee
-
+#+TOC: headlines 1 local
 Melee Weapon are usually used by [[Strength][Strength based]] characters in close combat, but
 several of them have a range of 2 and the [[Crafted Melee Weapons for Finesse or Strength][Grappling Hook]] has 5!
 
@@ -2182,8 +2183,8 @@ The lists below still want to get arranged by these weapon types:
 |----------------+-----------------------------------------+-------------|
 
 **** Crafted Melee Weapons for Strength
-
-These are only usable in Melee Range:
+#+TOC: headlines 1 local
+***** These are only usable in Melee Range:
 
 |----------------+---------------------------------------------------+------+------|
 | Strength Based | Heavy Effect                                      | Size | Dmg. |
@@ -2220,7 +2221,7 @@ These are only usable in Melee Range:
 | Zweihander     | Reduces direct damage taken during the attack     |    4 |      |
 |----------------+---------------------------------------------------+------+------|
 
-These have a range of 2 steps:
+***** These have a range of 2 steps:
 
 |----------------+----------------------------------------+------+------|
 | Strength Based | Heavy Effect                           | Size | Dmg. |
@@ -2264,6 +2265,7 @@ These have a range of 2 steps:
   - I keep meaning to try smashing people with a doped-up grappling hook as they approach.
 
 **** Composite Melee Weapons
+#+TOC: headlines 1 local
 The compenents for these weapons are other weapons that you craft and then assemble.
 Enhance the final product, not the individual pieces.
 ***** Composite Melee Weapons for Strength 
@@ -2315,6 +2317,7 @@ won't have any useful heavy-attack effects available to you in that situation.
 - All Magical Weapons are based on Insight.
 
 *** Ranged
+#+TOC: headlines 1 local
 
 Ranged Weapon are usually used by [[Finesse][Finesse based]] characters in ranged combat, but
 there's no downside to bashing your opponents with your ranged weapon, you're
@@ -2335,7 +2338,7 @@ darts or arrow? or just weapons/objects you've thrown? (throw a size 9 [[Musical
 
 Here are the details:
 
-Uses Arrows:
+**** Uses Arrows:
 |---------------+---------+-----------------------------------------+------|
 | Ranged Weapon | Range   | Heavy Effect                            | Size |
 |---------------+---------+-----------------------------------------+------|
@@ -2344,7 +2347,7 @@ Uses Arrows:
 | Longbow       | 9 steps | Grants Quickness attacking from stealth |    4 |
 |---------------+---------+-----------------------------------------+------|
 
-Uses Bullets:
+**** Uses Bullets:
 |-------------+---------+--------------------------------------------+------|
 | Firearms    | Range   | Heavy Effect                               | Size |
 |-------------+---------+--------------------------------------------+------|
@@ -2353,7 +2356,7 @@ Uses Bullets:
 | Pistol      | 7 steps | Hits two Targets once, or one Target twice |    3 |
 |-------------+---------+--------------------------------------------+------|
 
-Other Ammo:
+**** Other Ammo:
 |--------------+---------+-----------------------+------+--------|
 | Other Ranged | Range   | Heavy Effect          | Size | Ammo   |
 |--------------+---------+-----------------------+------+--------|
@@ -2361,13 +2364,14 @@ Other Ammo:
 | Sling        | 6 steps | Hits targets at range |    2 | Stones |
 |--------------+---------+-----------------------+------+--------|
 
-Thrown Weapons:
+**** Thrown Weapons:
 |---------------+-------+--------------------------------------+------|
 | Thrown Weapon | Range | Heavy Effect                         | Size |
 |---------------+-------+--------------------------------------+------|
 | Chakram       | ?     | Causes the wielder to step backwards |    2 |
 |---------------+-------+--------------------------------------+------|
 
+**** Summary
 All Ranged Weapons, are based on Finesse.
 
 The Sling and likely all thrown weapons, can also use Strength.
@@ -2378,7 +2382,7 @@ Attack speed was removed, now each attack takes one turn regardless of
 weapon - likely making quivers and bandoliers (which gave the speed boni)
 largely cosmetic/flair items. (I saw something about that. need to check!)
 
-**** Throwing
+***** Throwing
 Needs research, but could be it own section.
 
 *** Astral
@@ -2675,7 +2679,7 @@ Rose & Chrysanthemum Salad!
 | Honey         |      |      |           |  0.1 |
 |---------------+------+------+-----------+------|
 
-More research needed.
+** More research needed.
 
 |---------------+-----------------------------------------------|
 | Related       | Note                                          |
@@ -2811,7 +2815,7 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 | Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
 | Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
 |------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Diamond    | >>  |     | >>  |     |     | Very Rare   |        |                 |
+| Diamond    | >>  |     | >>  |     |     | Very Rare   | Ores   |                 |
 | Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        |                 |
 | Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
 | Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
@@ -2991,6 +2995,7 @@ conducting his private business without bothering you with extra tasks.
 tbd
 
 *** Refinery
+#+TOC: headlines 1 local
 A smith that makes a lot of (refineried) items.
 
 **** Cost
@@ -3253,8 +3258,9 @@ have to figure out which one it is, one medal at a time for this table:
 | Legend        | 1q,19m             | 1 Major |         35 | Scourge   |
 |---------------+--------------------+---------+------------+-----------|
 
-After reloading and doing it a second time, I took the Jade Circle's diplomat
-trait right after giving the man just one medal to add to my reputation.
+**** The Diplomat trait in action 
+After reloading and doing it a second time, I took the Jade Circle's Diplomat
+trait right after giving the man just one Medal to add to my reputation.
 
 This resulted in me becoming a "Legend of the Jade Circle" while being
 'merely' hated insted of despised. Which is cool.
@@ -3266,19 +3272,20 @@ This resulted in me becoming a "Legend of the Jade Circle" while being
 |---------------+--------------------+---------+------------+-----------|
 
 See the */factions* (aka "*F*") window for a full list of Traits and the
-rank required to purchase them.
+ranks required to purchase them.
 
-- Trait Cost: shards per trait purchased at that level.
+- Trait Cost: Shards per trait purchased at that level.
 
-- Don’t enter castles of the factions that hunt you unless you want a fight.
-  - Fortresses are ok, just not castles
+- Don’t enter Castles of the Factions that hunt you unless you want a fight.
+  - Fortresses are ok, just not Castles
 
-Even as a momentary diplomat I at best hope to neutralize my relations with
+Even as a momentary Diplomat I at best hope to neutralize my relations with
 the different factions. Achieving world-peace and good relations with everyone
-appears to be an imposibility to me atm. 
+appears to be an imposibility to me atm. Perhaps one day close to never,
+I'll overcome my usual Avg- Charisma and try as a [[POLITICIAN][Politician]].
 
 *** Wanted
-Don't think that it goes unobserved when your thieving fails or you start
+Don't think that it goes unobserved when your Thieving fails or you start
 murdering random people -- who are mostly/all? aligned with a faction.
 
 I've experimented and see it go from Unknown to
@@ -3352,7 +3359,8 @@ tl;dr? Peek into the 8 immediate neighbors of the bookmarks you're given and
 possibly walk through the 16 surrounding squares to see what's out there!
 
 Indoor locations such as Castles and Fortresses offer free and secure overnight
-lodgings.
+lodgings (secure in the sense that noone will attack you even after you have
+won.. if they had't before anyhow.).
 
 - need more data! and stories from others!
 
@@ -3363,11 +3371,16 @@ Cleared location where you might have a non hostile but unfriendly enemy mount
 appear to attrack scoundrel after a night or two spent there. So don't be
 surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
+
 *** Encounters
 #+TOC: headlines 1 local
+
 **** Abandoned Shack
-Single Building in the woods, no hostiles, tool-chest .. and a single powerful trap.
+Single Building in the woods, no hostiles, tool-chest .. 
+and a single powerful trap.
+
 - need more data
+
 **** Ambushes
 Going somewhere new, you spy a Big Chest out in the open.. just a dash away and
 noone's here.. you search, and seing nothing you dash.. into your doom.
@@ -3398,9 +3411,12 @@ Obelisk building let's you upgrade spells
   the last upgrade or two to save 20 or 35 shard, paying for it with the risk
   you're taking on. Just be clear about what you're getting into and read the
   intro notes for the [[Locations][locations]] to tweak the ruin's [[Difficulty][Difficulty]].
+
 **** Arcane Researcher
-An [[Arcane Researcher][Arcane Researcher]] can sometimes be found, just like your self, stumbling
-through the wilderness, his prices and dealings fair as always.
+An [[Arcane Researcher][Arcane Researcher]] can sometimes be found, 
+just like your self, stumbling through the wilderness,
+his prices and dealings fair as always.
+
 **** Burning House
 *Danger Will Robinson*
 
@@ -3414,15 +3430,20 @@ malicious, simply driven to madness by the guy making horrible music. I mean,
 wouldn't he live in town with his <random instrument> if people appreciated his
 music?
 
-
+***** Dragging the guy
 I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
 of the map to get him looked after. Which makes me think of something! Do you
 know that if you're dragging something or someone, all you need to do to let go,
 is to hold something else in that hand. Say you happen to get attacked, just
 draw your weapon and you'll let go what you were pulling.
 
-And hey, and hey, most people dont mind if you drag them around. The ingame
-message about 'attacking' is just worded a bit strongly for most circumstances.
+But hey, most people seem to mind if you drag them around. The ingame message
+about 'attacking' might actually mean something, even when you're all alone,
+dragging an unconscious person away from a burning house.
+
+Not sure what I'm to do with the guy. He used to drop some loot for saving him
+in that old version I played; See if you can figure him out!
+
 **** The Farmer
 A real *<Gem>* from Discord!
 
@@ -3461,11 +3482,14 @@ statues is probably in disrepair.
 
 **** Summoning Circle (on the map?)
 - Rift beasts
-- Maybe take 3 CRPs to a Summoning Circle?
-**** Trader
-Also another random encounter is a trader.
-- Though AFAIK no one actually knows what to do with them.
+- Maybe take 3 CRPs to a Summoning Circle? (huh?)
 
+**** Trader
+Another Random Encounter.. is a trader who atm no one actually knows what to do
+with them. A bug was fixed after I reported my story. To be seen what he does
+now. Share if you find one!
+
+***** My Story (from before the bug-fix)
 TRADER... He said he had nothing to trade, so i gave him some loot, left the map
 to get some more, came back, he was gone .. but had left me a BigChest.  Please
 try that if you see one and confirm!
@@ -3530,9 +3554,11 @@ one moment while i get him one..
 
 wait! one body is missing. ah! one more survivor after all. he freaked out and
 ran away.  good for him.
+
 **** Unconscious Adventurer
-- some are fakers,
-- the others..
+Some are fakers, the others, well, unconscious just like that musician we found
+in that burning house last week. In FARA it seems all musicians are failures
+living in the woods, annoying even the imps! But I digressed..
 
 
 *** Locations
@@ -3794,6 +3820,7 @@ feedback to get clear on that, or try it again in the next game. Respect!
 *** Champions 
 Challenge them once you're past the "Age of Steel", even then you might regret it!
 Remember they are Faction Leaders.
+
 *** Dummy
 The combat dummies you'll find in all settlements give you a taste of the damage
 put out by attackers of different ranks. By going between towns and challenging
@@ -3807,12 +3834,14 @@ demonstrate the power hiding in different [[Stat Brackets][Stat Brackets]].
 *** Elders
 The real power in fara; Colludes with the Researchers and likely with that hostile shaded
 figure that saved your life when your memories first began.
+
 *** Escortees
 Source of infinite unique items of middling power .. which .. when you have
 collected way to many, might allow you to think yourself as well equipped as
 someone solidly in 'The Age of Steel'. Perhaps a little better than that; But
 as the quality of their Thank you's vary quite a bit, its not unheard of to find
 their dead bodies in Dungeons and Monster Dens.
+
 *** Gambler
 The Gambler/ "Shady Gamer" is actually really useful!
 
@@ -3836,9 +3865,11 @@ permanently.
 Also appear to colludes with the researchers, but their power and influence in
 the realm is nowhere near to that of the Elders. Not much is known about the
 transformation of Nobles to Elders, nor do all that many survive into old age.
+
 *** Riddler
 Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
+
 *** Smuggler
 Insight Good+, Charm Average:
 #+begin_example
@@ -3854,6 +3885,7 @@ Insight Good+, Charm Good+:
 Iron and Crystal are both uncommon. He gave back half of the same rarity,
 rounded down, Charm doesnt matter to him it seems, would have seen it round
 differently..
+
 *** Thief
 You forgot to close the door one night and now there's that shifty looking
 fellow standing right next to you, decked out in your newly upgraded gear,
@@ -3892,9 +3924,10 @@ but also upto two pieces of armor. That's going from never to always, making me
 think that *winning was a bad idea!*  Lets hope I've run into a bug here.
 
 *** Townies
-See Desperate Times. 
-*** Trader
-A bug was fixed. TBD.
+See [[Desperate Times][Desperate Times]]. 
+
+*** Traders
+See [[Trader][Trader]].
 
 ** Party
 #+TOC: headlines 1 local
