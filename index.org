@@ -25,7 +25,7 @@ Brian!
 - [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
 - [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
   - [[Release Notes][see if its already searchable in these notes]].
-
+- [[Guides to the current version][Guides to this and older versions]].
 
 * Intro
 #+TOC: headlines 1 local
@@ -147,39 +147,40 @@ which brought you into the game supports you again by giving you get a chance to
 come back to solve the real mysteries of FARA.
 
 That's to say, you somehow come back to life, just a little shaken and just a
-little bit worse. When you come back, you might suffer or notice one of these
-effects (A lot of people died researching this; A moment of silence please!):
+little bit worse. When you come back, you might suffer or notice *one* of these
+effects randomly applied to you. A lot of people died researching this; A
+moment of silence please!
 
-- Stronger Enemies
-- Increased Encounter Rate
 - Increased Damage Taken
-- Reduced Damage Dealt
+- Increased Encounter Rate
 - Increased Stamina Use
-- Reduced Food Effects
-- Reduced Inventory Capacity (-5 per blight)
-- Reduced Strength
-- Reduced Finesse
-- Reduced Resilienc
-- Reduced Insight
 - Reduced Charm
+- Reduced Damage Dealt
+- Reduced Finesse
+- Reduced Food Effects
+- Reduced Insight
+- Reduced Inventory Capacity (-5 per blight)
+- Reduced Resilience
+- Reduced Strength
+- Stronger Enemies
 
 
 Each of these Blights decreases your chances of resurrecting again. Exactly what
 that means is unclear.. except that it will prevent you from cultivating your follies.
 
-Feedback:
-- I got 4 Blights once. I never got more than 4, though this doesn't necessarily
-  mean its impossible. It would require a lot of testing to be sure.
+From Discord:
+
 - Taking the first blight is a guaranteed success I think? I never had it fail,
   and it does make sense.
+- I got 4 Blights once. I never got more than 4, though this doesn't necessarily
+  mean its impossible. It would require a lot more testing to be sure.
 - Do not attack Relica's elder. He will end your run, and no amount of blights
   will ever save you from his unending wrath.
 - I think you might have an increased chance of levelling up a blight instead of
   getting a new one if you already have it.
 
 My testing was not extensive, I only kept going until I was pretty sure I'd seen
-all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
-sure.
+all the blights. 
 
 ** Classes
 #+TOC: headlines 1 local
@@ -1379,12 +1380,13 @@ It needs a lot more work.. [[Health][Health]] is covered earlier.
 
 *** Positive
 
-|-------------+------------------------------------|
-| Status      | Effect                             |
-|-------------+------------------------------------|
-| Ecstatic    | adds a flat +3 steps to all stats. |
-| Well Rested |                                    |
-|             |                                    |
+|--------------+------------------------------------|
+| Status       | Effect                             |
+|--------------+------------------------------------|
+| Ecstatic     | adds a flat +3 steps to all stats. |
+| Well Rested  |                                    |
+| Protected    |                                    |
+| Rejuvenating |                                    |
 
 *** Neutral
 
@@ -1399,23 +1401,26 @@ It needs a lot more work.. [[Health][Health]] is covered earlier.
 
 *** Negative
 
-|-------------+--------|
-| Status      | Effect |
-|-------------+--------|
-| Immobilized |        |
-| Intoxicated |        |
-| Burning     |        |
-| Stunned     |        |
-| etc.        |        |
-|             |        |
-
-|-----------+--------|
-| Status    | Effect |
-|-----------+--------|
-| Sleepy    |        |
-| Exhausted |        |
-| Winded    |        |
-|           |        |
+|-------------+------------------------------------------------------------------------------------|
+| Status      | Effect                                                                             |
+|-------------+------------------------------------------------------------------------------------|
+| Immobilized |                                                                                    |
+| Intoxicated | Intoxication does decrease FIN from +5 to Terrible, increases CHA and RES normally |
+| Burning     |                                                                                    |
+| Stunned     |                                                                                    |
+| Poisoned    |                                                                                    |
+| Dazed       | Dazed doesn't decrease FIN, just STR and INS                                       |
+| Exhausted   |                                                                                    |
+| Miserable   |                                                                                    |
+| Sleepy      |                                                                                    |
+| Sleepy      |                                                                                    |
+| Slow        | Slowness does decrease FIN from +5 to Bad                                          |
+| Uneasy      |                                                                                    |
+| Vulnerable  |                                                                                    |
+| Winded      |                                                                                    |
+| Illuminated |                                                                                    |
+| Miserable   |                                                                                    |
+| Dying       |                                                                                    |
 
 ** Titles
 You obtain these by:
@@ -3181,10 +3186,11 @@ names - which show up in the spell name.
 Add the Source (1) and the number of its children (6) to the 15 and you wind up
 dealing with 22 magial means to confuse your self with while learning to play!
 
-*** Rankings
+*** What hurts what more
 
 If its not like this.. perhaps it should be.
 - do your own experiments and let me know!
+- not a ranking, but a rock/paper/scissors list.
 
 |-----------------------------------+----------------------------|
 | In Combat                         | Note,                      |
@@ -3193,6 +3199,16 @@ If its not like this.. perhaps it should be.
 |-----------------------------------+----------------------------|
 | Fire > Air > Water > Earth > Fire | and yet, the wheel turns.  |
 |-----------------------------------+----------------------------|
+
+*** Using in combat
+Discord voices
+|-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Element ranking                                 | Opions converge                                                                                                                                                                          |
+|-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Water>Darkness>Light>Fire>Earth>Air             | Put air higher if you don't have a spell that grants quickness...                                                                                                                        |
+| Air>Earth>Light>Darkness>Fire>Water             | Air grants quickness an amazing amount of the time which is soo nice, Earth's poison prevents healing/slowness, Light illuminates targets, for more crits and they become a light source |
+| Water > Light > Earth > Darkness > Air >Fire |                                                                                                                                                                                          |
+|-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ** Enemies
 Have not cared to keep better track of these yet.
@@ -3443,6 +3459,16 @@ dragging an unconscious person away from a burning house.
 
 Not sure what I'm to do with the guy. He used to drop some loot for saving him
 in that old version I played; See if you can figure him out!
+
+**** Cultists
+"You hear rythmic chanting in the distancs"
+
+Meet a groups of Magic using Fiends that don't like you being in their space.
+
+And listen, even if these guys are Amateurs at whatever it is they are doing,
+you will be happy to be carrying your finest cuisine for buffs and restauration
+since it's surely going to hurt to run into them! You may get lucky and grab 
+their food if you win, but don't count on it.
 
 **** The Farmer
 A real *<Gem>* from Discord!
@@ -4201,6 +4227,13 @@ Ok, this may not be conclusive, but an obsidian mace with a |hardened tack|
 takes about 4 hits to kill a combat dummy. If you have the Fury condition it
 takes only 3 hits
 
+--
+
+- Any finesse weapon of size 2 or more benefits a lot from quickness
+- still, air quickness is terrible compared to the spell alternative
+- I'd prefer going through the 2 steps of effort to add an air rune to my weapon, which gives me quickness extremely often, than having to max out water attunement for decent healing
+
+
 * Pug's Notes
 #+TOC: headlines 1 local
 Look, I wrote this!
@@ -4801,6 +4834,10 @@ Random suggestions/notes/brainstorms/observations.
   of runed equipment at once?
 - if right-click in inventory always dropped the item, and 'm' always moved to
   where the reticule was, the interface would be kinda perfect for now.
+- asking not-selected npc to drop something via the p-items-menu does not select them.
+  - if they are out of visible range, please dont let me ask them to drop things.
+  - the drop the first item of the type, not the specified item
+
 * Q&A
 #+TOC: headlines 1 local
 Random exchanges from around discord and the web applicable to the '21
@@ -5245,20 +5282,25 @@ cast my strange energy attack scroll. AKRAKADABRA! When bolt finally landed to
 the lizard it was already dead due to my cat scratching it. So, i was happily
 saved by my cat :slight_smile:    -- /joni75/
 
-** Obsolete/Guides
-*** Degritone's Guide to 100k Points
-Written by a master of the game for an old version, some relevancy remains: 
-[[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Degritone's Guide to 100k Points]]
+** Guides to the current version
 *** Mantecarl's tourist guide
 Written by a master of the game for an old version, still sensible in its way
 https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit
+
+** Guides and info for earlier versions
+*** Degritone's Guide to 100k Points
+Written by a master of the game for an old version, some relevancy remains: 
+[[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Degritone's Guide to 100k Points]]
+
 *** From Reddit
 Might have been the best overall texts for the old versions
 - https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/
 - https://www.reddit.com/r/fara/comments/aoizn2/beginners_guide/
+
 *** From Wiki
-What useful info there for 2021 has been incorporated above.
-Its most function page: https://fara.fandom.com/wiki/Special:Categories
+Still mostly about old versions. 
+What useful info for 2021 I found there has been incorporated here.
+Its most functional page: https://fara.fandom.com/wiki/Special:Categories
 
 ** Release Notes
 Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2021.04.25.
@@ -7301,7 +7343,9 @@ links, and, of course the
 
 Also see /Mishaal/'s [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Item Compendium]],
 and /Mantecarl/'s [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][Tourist’s Guide to FARA]],
-and maybe /Degritone/'s [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]].
+and maybe /Degritone/'s [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
+though that one still need updating for 2021. The first two docs are already up to date!
+
 
 
 Enjoy!
