@@ -1727,6 +1727,8 @@ damage? and resist arcane spells.
 
 ** Elements
 
+Facts meet fiction & fantasy in some superfluous tables.
+
 *** Effects
 
 The Notes on [[Elemental Runes][Elemental Runes]] are ok, but in combat - more happens. I need to
@@ -1983,9 +1985,15 @@ Traits will give you options in crafting such as:
 
 See the */factions* (aka "*F*") window for a list of Traits and the rank requirements
 
-- Don’t enter castles of the factions that don’t like you.
+- Trait Cost: shards per trait purchased at that level.
+  - Don’t enter castles of the factions that hunt you.
 - Fortresses are ok, just not castles
 - Takes a huge amount of medals to become a Legend. Balance with smithing!
+
+--
+1q1m squire, take diplomat
+1q13m commander, take tu
+
 
 *** Wanted
 Don't think that it goes unobserver when your thieving fails or you start
@@ -3208,6 +3216,8 @@ Here are some really dumb observations about quests:
 
 There are more types tied to specific locations. I need to add more info here.
 
+Elder Assassination, Bounty
+
 *** Beastslayer you!
 Listen man, I know you want to make a name for yourself, impress the Elder and
 all that; Don't deny it, we've all been there. But let me give me you a hint
@@ -3743,21 +3753,29 @@ Needs a lot more work..
 
 - Neutral
 
-| Satiated |
-| Wet      |
-| etc.     |
-|          |
+| Healthy
+| Satiated  |
+| Stealthed |
+| Wet       |
+
+| etc.      |
+|           |
 
 - Negative
 
 See [[Effector Runes][Effector Runes]] for now.
 
+| Immobilized |
 | Intoxicated |
 | Burning     |
 | Stunned     |
 | etc.        |
 |             |
 
+| Sleepy    |
+| Exhausted |
+| Winded    |
+|           |
 
 ** Weaponry
 
@@ -4383,6 +4401,9 @@ Soft Leather, Thick Padding Traveling Boots of Stealth?
 
 *** New Location?
 
+The Quick Version? "*-*" to get the mini-map, "*X*" to get back to overland.
+
+
 I use this ~38 step pattern to explore new locations so that i see almost all
 the map with little effort. Mobs and trees will change this a little bit, but
 its good enough:
@@ -4446,16 +4467,10 @@ Starting from in the Morning, fully buffed after sleep with bed/heat/door.
 | E/W | Morning   | Afternoon |    30 |   30 |                                   |
 | E/W | Afternoon | Evening   |    30 |   30 |                                   |
 | E/W | Morning   | Evening   |    60 |   60 | Ambushes start eves. quiet shoes? |
-| E/W | Morning   | Night     |   90? |  90? |                                   |
-| E/W | Morning   | Morning   |  120? | 120? | no. would be endangered by sleepy |
+| E/W | Morning   | Night     |    90 |  90? |                                   |
+| E/W | Morning   | Morning   |   120 | 120? | no. would be endangered by sleepy |
 |-----+-----------+-----------+-------+------+-----------------------------------|
-68   darkness begins via screen-edges
-
---
-logging some things for my char. surely your #s would differ.
-
-- 77 stealth back, np
-- to 88 km dist wp stealthed, np, arrives afternoon sleepy & tired
+- 68   darkness begins via screen-edges
 
 
 ** Difficulty
@@ -4481,12 +4496,14 @@ its quicker to drink and hide thant to dash and walk. There's are always [[Burni
 
 ** Finding things in daylight vision
 
-Update: The magic# for small items is four. Also zipping around the map with the
-mouse is really fun now. Please keep these things in mind if/as you mark up your
-map to insure that you really find everything like this. If you see that NPC's 
-have moved about from where you last had them */slw* waypointed, use the next item
-find quest to update your waypoints and you'll not just find the balls of wax, but
-the guy you need to give that nose-ring too with ease.
+Update: The magic# for small items is *four* spaces in-between you and it.
+
+Also zipping around the map with the mouse is really fun now. Please keep these
+things in mind if/as you mark up your map to insure that you really find
+everything like this. If you see that NPC's have moved about from where you last
+had them */slw* waypointed, use the next item find quest to update your
+waypoints and you'll not just find the balls of wax, but the guy you need to
+give that nose-ring too with ease.
 
 check how many spaces you can move without stopping when zipping around the map by 
 placing a small item somewhere and counting. use one color for that.
@@ -4597,6 +4614,14 @@ Random suggestions/notes/brainstorms/observations.
 - Pickup shields into offhand, at least if i just dropped it from there?
 - Refining items: candidates exclude the things meant held in inventory for my npcs
 - Manipulating party/npc items spells/items should not exit; also reenter with 'p'.
+- Empty Storage can be open/closed also.
+- Setting a trap inside of a storage chest?
+- /cast 3 without a target means self-cast!
+- salvageall with non-craftable ingots on the ground destroys them, why? is that
+  why part of why sometimes you dont get any runes from salvaging several pieces
+  of runed equipment at once?
+- if right-click in inventory always dropped the item, and 'm' always moved to
+  where the reticule was, the interface would be kinda perfect for now.
 
 
 
@@ -4713,6 +4738,47 @@ saved by my cat :slight_smile:    -- /joni75/
 * Supplemental
 
 ** Random Q&A
+
+*** I'm looking for a guide on the game - any places I should be looking?
+
+@Q if you check the :pushpin: there should be some resources to look at
+
+@Pug Unleash your nerd, Pug
+
+Q: I'm mainly interested on how to get started with crafting, & what to do once
+you complete the quests in the starting town (assuming they don't come back
+naturally? Haven't lived that long yet)
+
+D: Hm, what questions do you have about crafting?  There's a lot to do out there
+haha it's very open ended The main goal is to complete the astral key, but the
+game doesn't end when you do so
+
+Q: Getting started I guess. I read on the guide on Reddit that you can make a
+set of burlap clothing by hunting animals or something?
+
+A: oh yeah, that guide is a little outdated now I have a little section about
+crafting on the guide I'm working on right now, but it still needs some work [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A
+tourist’s guide to FARA]]
+
+Q: Ah, I'm reading that right now
+
+A: in short, after finding a new object you will unlock its recipe, and the
+recipe for that item in other types of materials
+
+Q: What should I set my sights on for the early game, while I still have very
+little gear? Turning animal hide to leather?
+
+A: hm, depends on the class you are playing I would try to focus on increasing
+Resilience Metal gear often boosts resilience Some cloth items do that too, but
+they are a little harder to find
+
+Q: Ouch, but metal armor don't come easy do they?
+
+A: Depends how lucky you are haha You can also /salvage stuff that you don't
+need to get some extra resources Shields are also good to have your first runs,
+but they make jumping and dodging cost more stamina
+
+Ahhh
 
 *** Screen size frustration
 https://itch.io/t/645187/screen-size-frustration
