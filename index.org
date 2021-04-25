@@ -18,8 +18,8 @@ Created during April 2021. No [[Copyright/Disclaimer][Copyright]], just link bac
 
 Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5]] there are new quests, right-clicking on the map moves
 you, the sizes of many consumables have been perfected, inventory and storages
-can be sorted, the big map became much nicer and overall - there a ton of nice
-little tweaks! - *the game has become much nicer to play*. so cool! Thanks
+can be sorted, the big map became much nicer and overall - there's a ton of nice
+little tweaks! - *the game has become much nicer to play*. So cool! Thanks
 Brian!
 
 - [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
@@ -131,7 +131,7 @@ Email will reach me most weeks.
 Many voices in this document speak with I. These come from the Discord, Reddit
 and Wiki, and they may be your voice, your voices, and not mine. If you read
 something brilliant and insightful in this guide, it might well have been you
-that said it, so, *THANK YOU!*
+that said it, if so, *THANK YOU!*
 
 /Mantecarl/ helped fill in several blanks and several tips in started with him,
 /Mishaal/ too contributed insights and tips and maintains a spreadsheet full of
@@ -252,11 +252,14 @@ Alphabetical Index to Fara's 54 classes:
 [[WITCH][Witch]] &
 [[WRESTLER][Wrestler]]
 
-There are 54 Classes, all are listed here with their *unchangeable* class trait
-and some stat info. *The attribute names are being updated to Alpha15*.
+There are 54 Classes.
+All are listed here with their *unchangeable* class trait and some stat info.
+ *The attribute names are being updated to 2021's Alpha15*.
 
-More info can be found in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]; For traits obtainable
-through [[Factions][Factions]] check the */factions* menu.
+More info can be found in the
+[[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]];
+For up to three traits obtainable through [[Factions][Factions]],
+check the menu that appears then you type */factions*.
 
 *** Details and Player Notes
 **** ADVENTURER
