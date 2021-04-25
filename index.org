@@ -75,6 +75,7 @@ Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
 but they are not harmful if you're just starting out. 
 
 ** Finding out more about the notes
+#+TOC: headlines 1 local
 #+begin_quote
 One day these notes will be well styled and modern looking.
 That day has not yet come.
@@ -173,6 +174,7 @@ all the blights. tbh 1, 2, and 4 would require some very rigorous testing to be
 sure.
 
 ** Classes
+#+TOC: headlines 1 local
 
 You can break down these classes into three primary approaches at the start of
 the game.  FARA is very classic in this way and you can think about the
@@ -248,7 +250,6 @@ More info can be found in the [[2020.12.11 After 568 Days, Public Alpha 15 is LI
 through [[Factions][Factions]] check the */factions* menu.
 
 *** Details and Player Notes
-
 **** ADVENTURER
 :PROPERTIES:
 :ID:       decc8ec4-1953-4d9f-beb9-a285f39dcd17
@@ -1461,6 +1462,7 @@ example: "Ÿou, Director of .."
 :PROPERTIES:
 :ID:       fde2b30c-c0c3-47e2-9312-380e48a04017
 :END:
+#+TOC: headlines 1 local
 
 Mishaal's research on the stat bonuses of armor is awesome!
 - We still need that for Weapons!
@@ -1610,6 +1612,7 @@ craftable once you've discovered or obtained their recipes.
 :PROPERTIES:
 :ID:       3dc18f43-b2f9-4fb6-980e-06a576864ee7
 :END:
+#+TOC: headlines 1 local
 *** Bags 
 
 The material determines your attribute bonuses and might have an effect on
@@ -1800,6 +1803,7 @@ Beaks and claws and..
 :PROPERTIES:
 :ID:       170aaf35-364d-4859-82be-af5384de465d
 :END:
+#+TOC: headlines 1 local
 
 The section on [[Spells][Spells]] explains how to think about and create them from the Runes
 listed and detailed here.
@@ -2008,7 +2012,7 @@ See [[Attack Types][Attack Types]], Elemental, Attunement
 - should be possible once you get the tool recipes from the first other settlement you visit.
 - oh, have a rope on you while getting used to digging, just in case you slip and fall.
 - must-read: [[Degritone's Guide to 100k Points][Degritone's Guide to 100k Points]]
-- see also [[If you're totally nuts, enhance you shovel.][If you're totally nuts, enhance your shovel]].
+- see also [[Enhance you Shovel!][Enhance your Shovel!]]
 
 **** Dig and or Fish.. rather alike, no?
 - haven't fished yet, so i can't quite compare
@@ -2127,6 +2131,7 @@ Jars still in the game?
 :PROPERTIES:
 :ID:       5b7c853e-de6b-4dcd-a1fd-e691c7fe4200
 :END:
+#+TOC: headlines 1 local
 
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
 
@@ -2497,6 +2502,7 @@ Makes total sense to me. Only [[FISHMONGER][Fishmongers]] will benefit from bein
 even they will probably want to wield something to [[Curios][aid their balance]].
 
 ** Solid Foods
+#+TOC: headlines 1 local
 
 *** Meat
 |----------+---------+------+-----------+------|
@@ -2809,6 +2815,7 @@ Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
 
 ** Attack Types
 
+*** Intro
 There are *four kinds of attack* in FARA. These come as *two classes* and are
 listed here.
 
@@ -2829,6 +2836,7 @@ loose (~?) 6 stat points in all your attributes from such an combo when you go o
 and party in such a condition. 
 
 *** Physical
+#+TOC: headlines 1 local
 
 Physical damage scales with [[Strength][Strength]]/[[Finesse][Finesse]].
 
@@ -2871,6 +2879,7 @@ If you use an Arcane Shield (or other arcane infused items) you do more
 damage? and resist arcane spells.
 
 ** Buildings
+#+TOC: headlines 1 local
 
 This section is about the unlockable building you can find in every settlement.
 Completing all of them makes you a Settlement Hero, which is a Title that can
@@ -2935,7 +2944,7 @@ Have to check up on the patrons there again.
 If all that got me was a gambling chance at BPs, fine!
 
 *** Obelisk
-
+#+TOC: headlines 1 local
 **** Cost
 - 2 medals
 - 10 stones
@@ -3049,6 +3058,7 @@ of his more sensible items. neat!
 a good page on combat which i want to annotate some more: [[https://fara.fandom.com/wiki/Combat_and_Tactics][Combat and Tactics]]
 
 ** Elements
+#+TOC: headlines 1 local
 
 Facts meet fiction & fantasy in some superfluous tables.
 
@@ -3192,6 +3202,7 @@ Imps seem humanoid and seem to pop out of nowhere, ready to dish out elemental d
 - Going through a lot of ruins, i've yet to see the last kind'
 
 ** Factions
+#+TOC: headlines 1 local
 
 When you rank up in a faction, by doing quests for them or bribing one of their
 officers with 10..100(200?) medals, you get access to their traits, which give some
@@ -3310,7 +3321,8 @@ Once you game your relations with the factions, you'll be able to swap any and
 all of the traits.
 
 ** Locations
-*** Location List
+#+TOC: headlines 1 local
+*** Intro
 Due to the presence of rift-energies in the land, its important that you
 bookmark locations your're engaged with. Leaving them unobserved will not be
 enough to keep them from drifting away from where you thought they were.
@@ -3344,6 +3356,7 @@ appear to attrack scoundrel after a night or two spent there. So don't be
 surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
 *** Encounters
+#+TOC: headlines 1 local
 **** Abandoned Shack
 Single Building in the woods, no hostiles, tool-chest .. and a single powerful trap.
 - need more data
@@ -3376,7 +3389,7 @@ Obelisk building let's you upgrade spells
   A shards is just large enough power a single upgrades so perhaps save it for
   the last upgrade or two to save 20 or 35 shard, paying for it with the risk
   you're taking on. Just be clear about what you're getting into and read the
-  notes for the [[Location List][Location List]] to tweak the ruin's [[Difficulty][Difficulty]].
+  intro notes for the [[Locations][locations]] to tweak the ruin's [[Difficulty][Difficulty]].
 **** Arcane Researcher
 An [[Arcane Researcher][Arcane Researcher]] can sometimes be found, just like your self, stumbling
 through the wilderness, his prices and dealings fair as always.
@@ -3515,6 +3528,7 @@ ran away.  good for him.
 
 
 *** Locations
+#+TOC: headlines 1 local
 **** Campsite
 Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
 other. Some are trying to leave their prior associates behind and change their
@@ -3735,6 +3749,7 @@ had seen that figure loitering over one of the bandits that keep coming after
 him and his cow. Did that figure save him from a certain death? Is he somehow
 connected to that society of researchers only elders seem to know about?
 ** NPCs
+#+TOC: headlines 1 local
 
 As elsewhere the stories I tell about the different characters and their
 fantastic schemes and relations are entirely fantastic and straight from my
@@ -3874,6 +3889,8 @@ See Desperate Times.
 A bug was fixed. TBD.
 
 ** Party
+#+TOC: headlines 1 local
+*** Intro
 
 - Press "*p*" for party details.
 
@@ -3931,6 +3948,9 @@ with right where you left them!
   - do they seem to attract new hostiles overnight!?
 
 ** Quests
+#+TOC: headlines 1 local
+
+*** Intro
 You can figure these out by your self, don't sweat them. If there's trouble you
 had to run from, kids or monsters or items and belongings you can't find, drop
 the damn quest without penalty and get a new batch from the elder, the always
@@ -4033,9 +4053,12 @@ even further from Relica than where you first got the suicide invitations.
 If you rush yourself, [[Blights][you'll die]]. Farawella!
 
 ** Spells
+#+TOC: headlines 1 local
+
+*** Intro
 (expert info is on the way)
 
-- See [[Obelisk][Obelisk]] for Spell-levels and leveling
+- See [[Obelisk][Obelisk]] for Spell-levels and leveling, and [[Runes][Runes]], of course.
 
 Basically, you
 - chose an elemental rune to determine what type of damage and what elemental
@@ -4210,6 +4233,7 @@ there are doors, pets, npc, or even the well along the path. Its not perfect yet
 but "*W*" is a huge help. Use */slw* until it becomes a habit.
 
 ** Item Management
+#+TOC: headlines 1 local
 
 Where you keep your stuff is up to you!
 
@@ -4449,7 +4473,7 @@ alive, getting a unique item and finding the tools, make sure to /inspect, not
 You can enhance the equipment of the proper type for your class which
 you will have discovered, equipped and understood by now, or ..
 
-*** If you're totally nuts, enhance you shovel.
+*** Enhance you Shovel!
 
 After settling into the the new place, find a beach and grind runes in style.
 
@@ -4508,6 +4532,7 @@ doing do, esp. if your're traveling at night, yet again without a light.
 
 
 ** Exploring
+#+TOC: headlines 1 local
 
 Soft Leather, Thick Padding Traveling Boots of Stealth?
 
@@ -5284,6 +5309,7 @@ Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
 - compiled by pug since facts are not subject to copyright
 
 *** Alpha 16 Mar'21..
+#+TOC: headlines 1 local
 
 **** 2021.04.25 0.0.16.5d Patch Notes
 - Fixed an issue with unresponsive mouse menu options on the /spells and /waypoints windows
@@ -5503,6 +5529,7 @@ Good luck out there, travelers!
 
 
 *** Alpha 15 Dec'20..
+#+TOC: headlines 1 local
 
 Don't miss the Author's [[http://playfara.com/2020changelog.txt][addtl notes for this version]]!
 
@@ -6029,6 +6056,7 @@ Tomorrow, FARA will get its first update since May 22, 2019! The official change
 - Brian persevered.
 
 *** Alpha 14 May'19..
+#+TOC: headlines 1 local
 **** 2019.05.22 Patch Notes
 - Made some adjustments to the starting area
 - Moved the first settlement further away from the starting area
@@ -6407,6 +6435,7 @@ drop by and make some friends! https://discordapp.com/invite/TxECEtn
 
 
 *** Alpha 13 Apr'19..
+#+TOC: headlines 1 local
 **** 2019.04.11 Patch Notes
 - Added different heavy attack effects for the various firearms:
   - Hand Cannons retain the old trait of interrupting targets
@@ -6513,6 +6542,7 @@ drop by and make some friends! https://discordapp.com/invite/TxECEtn
 
 
 *** Alpha 12 Mar'19..
+#+TOC: headlines 1 local
 **** 2019.03.23 Patch Notes
 - Added 2 new landmarks/scenarios
 - Added rarity values to the different landmarks. In practice, this means that landmarks like Shrines aren't as likely to show up as, say, Encampments.
@@ -6669,6 +6699,7 @@ This patch also has a temporary feature to migrate what would otherwise be broke
 
 
 *** Alpha 11 Feb'19..
+#+TOC: headlines 1 local
 **** 2019.02.16 Patch Notes
 
 
@@ -7047,6 +7078,7 @@ more related patches next week that address new issues like movement speed.
 
 
 *** Alpha 10 May'18..
+#+TOC: headlines 1 local
 **** HIGHLIGHTS SINCE PUBLIC ALPHA 0.0.10.0:
 
 - Added ~50 new items
@@ -7088,8 +7120,8 @@ quite right, be sure to let me know!
 ** Caution!
 
 The game, in alpha for many years now, and while holding the attention of a
-loyal playerbase, has a developer's that stated expressly that he has no
-interrest in maintaining save-game compatibility.
+loyal playerbase, has a developer's that stated expressly that 
+maintaining save-game compatibility is not a priority at the moment.
 
 Thus you are advised to go through the trouble of downloading and
 installing the game locally so that you will be able to finish games
@@ -7215,7 +7247,7 @@ What's optimal? Anything Quad-core with DDR-4 RAM but DDR-3 will do.
 The real key to good performance appears to be the size of your [[https://www.makeuseof.com/tag/what-is-cpu-cache/][CPU cache]].
 
 ** Technical
-
+#+TOC: headlines 1 local
 *** Playing on Notebooks
 This is good to know for the two people in the world with a machine good enought
 to run fara which doesn't have a full-size keyboard. [[https://www.dummies.com/computers/pcs/the-hidden-numeric-keypad-on-your-laptop/][The Hidden Numeric Keypad
@@ -7283,18 +7315,6 @@ acquiring some of the [[https://www.jetbrains.com/webstorm/][basic technical ski
 Anyway, if you want to mess with things, make sure to use */stopreports*!  And
 do yourself a favor, never use this approach to cheat or learn game secrets or
 you will ruin your own fun. Let playing continue to be an enjoyable sandbox!
-
-** Visualizing Waypoints
-
-Just some unrealistic ideas for visualizing the world-map as this document comes
-to a close.
-
-- Watercolor paper and a pair of compasses :-)
-- or disembody and hack up something ;-)
-  https://www.startpage.com/sp/search?query=visualize+relative+location+edge+distance
-- graphvis doesn't do edge-lengths, at least i dont think so,
-- but maybe some simple scripts with an adjustable data section in an svg would
-  empower players smart and geeky enough to keep notes about their world.
 
 * Full Index
 #+TOC: headlines 4
