@@ -4892,7 +4892,7 @@ shape already to help you understand what's going on in this cool game.
 Cheers!
 
 ** How Long is a day
-https://itch.io/t/832383/how-long-is-a-day
+[[https://itch.io/t/832383/how-long-is-a-day][from itch.io]]
 
 I'm in a hut at night waiting for morning to come but after well more than 100
 turns of waiting for moments, nothing. Exactly how long is a day and can you
@@ -4947,6 +4947,23 @@ the game :slight_smile:
 
 - p.s. if you dont like the lay of the land, make a bag, collect wood, craft a
   pick-axe and /build new walls and doors where you want them. :slight_smile:
+
+** Anybody got a 5th essential tip, to round out an even Top 5?
+
+FARA’s Top Four Tips for Beginners
+[[https://discord.com/channels/448497182392451073/448497182392451075/808868280303091764][from discord]]
+
+Get in the habit of doing these things, at least at the beginning:
+
+1. */Climb* every tree – this is how you find cloths like cotton, silk, and starcloth
+2. */Inspect* every item – this is how you learn recipes, so you can craft items
+3. */Inspect* every animal that has a purple “?” next to its name – this is how you get Key Fragments
+4. */Salvage* items you don’t need – this is how you learn more crafting recipes, and get materials
+
+Reply: .. And then die after getting a few materials because you didn't include the most
+important rule: Don't fight until you have at least copper-tier gear. Preferably
+iron, but that can take a few fortresses and grinding for glass versions of what
+you want.
 
 ** Is there an auto-updater?
 No.
@@ -7207,7 +7224,7 @@ by taking a look at what's being shipped.
 **** More
 Compacted as the code is, you can't expect to do much but make whatever crashes
 between minor release go away, but since you can do these things inside an hour,
-learning a little bit about the way modern software shipps
+learning a little bit about the way modern software ships
 will let you glide past otherwise game-ending troubles that
 sometimes still slip in on point releases.
 
@@ -7245,7 +7262,7 @@ Pug's experiments suggest:
 
 - FARA needs at least three concurrent threads to be performant
   - Anything better than a Dual-core CPU will do!
-    With a Dual-core you'll see the game slow to ~half speed after ~24hrs play.
+  - With a Dual-core you'll see the game slow to ~half speed after ~24hrs play.
 - 2.2+ GHZ will be tolerable through a long game.
 - 4ish GB RAM for Chrome/Electron/FARA
   (at most! usuall much less, no problem.)
