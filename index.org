@@ -46,7 +46,7 @@ Its brilliant and innovative like a rogue done right!
 FARA is an open world sandbox that never rushes you to advance, while seeming to
 adapt to your powers to keep even low difficulty zones full of surprises. You
 will enjoy the turn-based combat, the ability to explore dangerous places with
-capable and fearless mercenaries to help. There are 52 classes with unique
+capable and fearless mercenaries to help. There are 54 classes with unique
 traits that simply make sense. The RPG steretypes and classes you know will 
 begin to look primitive as you learn to play different classes and explore
 FARA's many mysteries.
@@ -71,8 +71,16 @@ Winning, for me meant 'Completing the Astral Key'. It also marks the beginning
 of what puts my Character into the 'Age of Steel', sees me Mining and Fishing
 more, and at last! has me manage inventory and items the way the Elders intended.
 
-Pug's Notes below don't reflect all I've learned by reaching my milestone yet,
-but they are not harmful if you're just starting out. 
+Pug's Notes don't reflect all I've learned by reaching my milestone yet,
+but they are certainly not harmful if you're just starting out.
+
+At 7300+ Lines the html page is 540,000 bytes long, and that's just about as
+much as I want to put into a single searchable page. The release notes will
+likely move into their own file once I've gone through them some more to make
+sure that I've not overlooked to many things you would only find by searching
+this one place here, where they are all collected. This will make room to allow
+for more text/stories/guides/Q&A and perhaps the occasional image. TBD.
+
 
 ** Finding out more about the notes
 #+TOC: headlines 1 local
@@ -90,7 +98,7 @@ hosted at github]]. The HTML version I link to has a style-sheet optimized for
 readability. I keep meaning to use that for proof-reading.
 
 The source version renderes in a [[https://github.com/fara-pug/fara-pug/blob/main/index.org][crisper more technical style]] that makes
-the notes and tables look quite nice also but lacks indicies.
+the notes and tables look exquisite -- but lacks indicies.
 
 *** Production
 The writing and production of these docs takes place in Emacs/org-mode since
@@ -186,7 +194,7 @@ and everyone has the potential to reach GODLIKE in all the stats -- by which
 point you'll be able be effective in at least two, if not all three of these
 approaches.
 
-Alphabetical Index to Fara's 52 classes:
+Alphabetical Index to Fara's 54 classes:
 
 [[ADVENTURER][Adventurer]],
 [[ALCHEMIST][Alchemist]],
@@ -243,7 +251,7 @@ Alphabetical Index to Fara's 52 classes:
 [[WITCH][Witch]] &
 [[WRESTLER][Wrestler]]
 
-There are 52 Classes, all are listed here with their *unchangeable* class trait
+There are 54 Classes, all are listed here with their *unchangeable* class trait
 and some stat info. *The attribute names are being updated to Alpha15*.
 
 More info can be found in the [[2020.12.11 After 568 Days, Public Alpha 15 is LIVE!][Alpha15 release notes]]; For traits obtainable
@@ -4628,15 +4636,15 @@ did in (what to me were) 'the nightmare versions' released some years ago.
 
 Combat in FARA can be freaky cool, and as long as you prioritize survival over
 your macho, you'll manage to escape and appreciate the insurance that having a
-piece of [[Fruits][fruit]], or a gulp of [[Bottles][water] with you for that one time where
+piece of [[Fruits][fruit]], or a gulp of [[Bottles][water]] with you for that one time where
 its quicker to drink and hide thant to dash and walk. There's are always [[Burning House][surprises]]!
 
 ** Finding things in daylight vision
 
 - Update: The magic# for small items is *four* spaces in-between you and it.
 
-- Don't be shy about using your pick-axes to making paths through town. It
-  makes finding new NPCs ever so much simpler.
+- Don't be shy about using your pick-axes to make paths through town.
+  It makes finding new NPCs ever so much simpler.
 
 Also zipping around the map with the mouse is really fun now. Please keep these
 things in mind if/as you mark up your map to insure that you really find
@@ -4760,137 +4768,6 @@ Random suggestions/notes/brainstorms/observations.
   of runed equipment at once?
 - if right-click in inventory always dropped the item, and 'm' always moved to
   where the reticule was, the interface would be kinda perfect for now.
-
-
-
-
-* Playing
-#+TOC: headlines 1 local
-
-This entire section needs to be rewritten and populated with the play notes now
-scattered throughout the rest of these notes. But alas, this is what it is now:
-
-** /COMMANDS
-
-*If you find that your game slows down when moving around, issue /clearlog* 
-
-- */help* gives most of them
-- */settings* gives more of them
-- The [[Release Notes][Release Notes]] give insights into and context for additional commands.
-  Click the link and search for "*/*"
-
-The discord's spoiler channel denizens often refer to 'creative mode' and yet
-more */commands* but i haven't had the patience or desire to slug through the
-jargon there. One seems to need to tap into the voice channel and speak to
-people in order to obtain basic information about much of the game still.
-
-If this bothers you as it does me .. because it keep out new players that will
-give brian love and some money .. then *use this month of april'21* to send me
-even just a single fact on the discord channel to add to this text before I'm
-likely to fade into the void again!
-
-- */split* operates on the selected item, give it a parm for how many items you
-  want in a new pile
-
-- *If you happen to be on fire, (stop, drop and) /roll*
-
-** KEYS!
-- read the bottom of */keybinds* aka "*K*"
-- use *Home/End* to scroll through help and other popup windows!
-- remember */exit* aka "*X*" to leave a map.
-
-suggestions:
-
-| /setkey ; layout{1,2} |
-| /setkey : layout3     |
-| /setkey , autoloot    |
-| /setkey < climb       |
-| /setkey k clearlog    |
-
-- layout3 is like turbo mode for moving in the game; i love it. switch back to
-  layout1 or layout2, whatever you like best, as needed using the non-shifted
-  key.
-- you want autoloot off at home, so keep it off and use situationally.
-- climbing a tree before bumping into it occasionally gives kites, beehives,
-  birds nests, maybe even a lost toy sword; all things you can drag home
-  and exhibit to impress your npc buddies.
-
-
-- *z* is really cool for */place* ing items into containers */give* ing items and
-  many more things. you can press it multiple times before the game reacts and
-  it will do the right thing.
-
-But, *be careful when using the /z shortcut!!!*
-
-It repeats only most 'last typed (not shortcut) commands' which gives it the
-ability to surprise you in unexpected ways!. If you're not sure what you typed
-last, type / then press "up arrow". Not that that would save you from surprises
-though.
-
-** Talking
-
-Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
-it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
-and have managed to recruit one of these marvels.
-
-Normal people however can only talk to other people, and it's only the Mercs 
-you've recruited into your party that will listen to and obey you.
-
-- use */say wait here* and */say follow me* to control your party members. you
-  don't have to ask them to come along when you leave the map, they will do that
-  by themselves.
-
-- Also:
-  - /say stow your X
-  - /say draw your X
-  - /say take that X
-  - /say stand by that X
-
-- An exclamation mark turns /say into /shout,
-  - example /say thief!
-
-- use */shout come here* when searching for people.
-  (repeat with "*z*" as you walk around.)
-
-There's probably some (much?) more to say and other banter to be had. Many of
-the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
-
-Weird fact: Mercs and other NPC's sometimes say random things to one another!
-
-Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
-
-** Resting
-** Stealth
-** Resting
-:PROPERTIES:
-:ID:       71596cfe-01ee-48b0-bb49-3a6a0ea27d87
-:END:
-I read that you can rest on mats. that's not true.
-
-You need/want
-- a whatever bed, unsure that materials provide boni to sleep
-- to be within the glow of a brazier (what else works?)
-- to be behind any kind of *closed* door.
-
-Now... if you find a mattress, blanket or a pillow count yourself lucky!
-
-Pillows need feathers.. and the only way i can imagine getting any feathers is
-from a bird joining battle, angered by my taking their nest of of their tree.
-
-- Castles, Fortresses, Labyrinths, Random and even delapidated ruins all count
-  as safe indoor sleeping places even if undiscovered enemies remain.
-
-- Got woken up after building a shack on a map with an undiscovered species I
-  was looking for. Once. So far I've never been attacked at night even sleeping
-  in ruins.
-
-Its a good idea to keep two wooden log in your inventory so you don't have to
-scrounge for one in the middle of the night while traveling!
-
-You want to make a shelter and a install a door before you sleep, because
-[[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
-thought of having to cross deserts at night without 2 logs. one for a shelter,
-one for a door.
 * Q&A
 #+TOC: headlines 1 local
 Random exchanges from around discord and the web applicable to the '21
@@ -4915,7 +4792,7 @@ set of burlap clothing by hunting animals or something?
 
 A: oh yeah, that guide is a little outdated now I have a little section about
 crafting on the guide I'm working on right now, but it still needs some work [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A
-tourist’s guide to FARA]]
+Tourist’s Guide to FARA]]
 
 Q: Ah, I'm reading that right now
 
@@ -5014,7 +4891,7 @@ trips to make this work. its the good kind of unusual and surprising you find in
 the game :slight_smile:
 
 
-** what are good ways to dump inventory contents to a storage chest?
+** What are good ways to dump inventory contents to a storage chest?
 ( i have food chest, item chest, craft chest and magic chest ?)
 
 - first you can make piles and use /ds to drop more of the same on those piles
@@ -5166,8 +5043,140 @@ the only danger would be if you destroyed the key to the door
 and /Pug/ survives
   - as a Gatekeeper.
 
+
+
+
+* Playing
+#+TOC: headlines 1 local
+
+This entire section needs to be rewritten and populated with the play notes now
+scattered throughout the rest of these notes. But alas, this is what it is now:
+
+** /COMMANDS
+
+*If you find that your game slows down when moving around, issue /clearlog* 
+
+- */help* gives most of them
+- */settings* gives more of them
+- The [[Release Notes][Release Notes]] give insights into and context for additional commands.
+  Click the link and search for "*/*"
+
+The discord's spoiler channel denizens often refer to 'creative mode' and yet
+more */commands* but i haven't had the patience or desire to slug through the
+jargon there. One seems to need to tap into the voice channel and speak to
+people in order to obtain basic information about much of the game still.
+
+If this bothers you as it does me .. because it keep out new players that will
+give brian love and some money .. then *use this month of april'21* to send me
+even just a single fact on the discord channel to add to this text before I'm
+likely to fade into the void again!
+
+- */split* operates on the selected item, give it a parm for how many items you
+  want in a new pile
+
+- *If you happen to be on fire, (stop, drop and) /roll*
+
+** KEYS!
+- read the bottom of */keybinds* aka "*K*"
+- use *Home/End* to scroll through help and other popup windows!
+- remember */exit* aka "*X*" to leave a map.
+
+suggestions:
+
+| /setkey ; layout{1,2} |
+| /setkey : layout3     |
+| /setkey , autoloot    |
+| /setkey < climb       |
+| /setkey k clearlog    |
+
+- layout3 is like turbo mode for moving in the game; i love it. switch back to
+  layout1 or layout2, whatever you like best, as needed using the non-shifted
+  key.
+- you want autoloot off at home, so keep it off and use situationally.
+- climbing a tree before bumping into it occasionally gives kites, beehives,
+  birds nests, maybe even a lost toy sword; all things you can drag home
+  and exhibit to impress your npc buddies.
+
+
+- *z* is really cool for */place* ing items into containers */give* ing items and
+  many more things. you can press it multiple times before the game reacts and
+  it will do the right thing.
+
+But, *be careful when using the /z shortcut!!!*
+
+It repeats only most 'last typed (not shortcut) commands' which gives it the
+ability to surprise you in unexpected ways!. If you're not sure what you typed
+last, type / then press "up arrow". Not that that would save you from surprises
+though.
+
+** Talking
+
+Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
+it is you want, and they won't listen. That is unless you are a [[CAT WHISPERER][Cat Whisperer]] 
+and have managed to recruit one of these marvels.
+
+Normal people however can only talk to other people, and it's only the Mercs 
+you've recruited into your party that will listen to and obey you.
+
+- use */say wait here* and */say follow me* to control your party members. you
+  don't have to ask them to come along when you leave the map, they will do that
+  by themselves.
+
+- Also:
+  - /say stow your X
+  - /say draw your X
+  - /say take that X
+  - /say stand by that X
+
+- An exclamation mark turns /say into /shout,
+  - example /say thief!
+
+- use */shout come here* when searching for people.
+  (repeat with "*z*" as you walk around.)
+
+There's probably some (much?) more to say and other banter to be had. Many of
+the options seem to make the most sense for a [[POLITICIAN][Politician]] however.
+
+Weird fact: Mercs and other NPC's sometimes say random things to one another!
+
+Weirder link about upperercase for extra loud shouting! http://tom7.org/lowercase/
+
+** Resting
+:PROPERTIES:
+:ID:       71596cfe-01ee-48b0-bb49-3a6a0ea27d87
+:END:
+I read that you can rest on mats. that's not true.
+
+You need/want
+- a whatever bed, unsure that materials provide boni to sleep
+- to be within the glow of a brazier (what else works?)
+- to be behind any kind of *closed* door.
+
+Now... if you find a mattress, blanket or a pillow count yourself lucky!
+
+Pillows need feathers.. and the only way i can imagine getting any feathers is
+from a bird joining battle, angered by my taking their nest of of their tree.
+
+- Castles, Fortresses, Labyrinths, Random and even delapidated ruins all count
+  as safe indoor sleeping places even if undiscovered enemies remain.
+
+- Got woken up after building a shack on a map with an undiscovered species I
+  was looking for. Once. So far I've never been attacked at night even sleeping
+  in ruins.
+
+Its a good idea to keep two wooden log in your inventory so you don't have to
+scrounge for one in the middle of the night while traveling!
+
+You want to make a shelter and a install a door before you sleep, because
+[[Thief][thievery]] is a thing and can become a real problem. /me learns to tremble at the
+thought of having to cross deserts at night without 2 logs. one for a shelter,
+one for a door.
+
+** Stealth
+
 * Supplemental
 #+TOC: headlines 1 local
+
 
 ** Stories
 *** Well, here is short story about my cat.
@@ -5188,109 +5197,8 @@ saved by my cat :slight_smile:    -- /joni75/
 
 ** Obsolete/Guides
 *** Degritone's Guide to 100k Points
-Written by a master of the game for an old version, some relevancy remains
-from: https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points
-**** Note
-This works best with *Pugilist*, *Viking*, or *Soldier*.
-
-Results may vary with other classes, and would not work for spell-based builds
-or Artificer. Additionally, this guide assumes you already know a little bit
-about FARA.
-**** Guide
-Get the quest to go to Relica and go, then immediately abandon any kill
-quests. Inspect then salvage every wooden object in Relica except the closest
-door to the elder. Take the glass mug. That house will be your home base. /craft
-workbench and drop it and all of your wooden blocks and hero medals in a corner
-of your house.
-
-Fill up your glass mug, sleep in your house (remember to close the door,) then
-do easy quests and waypoint anything you come across while traveling to look at
-monsters or find children. Also, salvage any equipment and runes you don’t care
-about and put the resources on your workbench pile. Repeat this until you find
-at least 2 fortresses.
-
-When you come across a *Will of the Wild Fortress*, interact with the officer and
-give them at least 10 medals. Interact with the Tactician and take the first 2
-minor traits on the list.
-
-Salvage all iron doors in every fortress you know of and hoard them on top of
-your workbench. Continue doing easy quests until you have some copper or better
-equipment, including a tower shield, and enough medals to make the total medals
-given to Will of the Wild 100.
-
-Go to the WotW Fortress with your medals and give them medals so you have max
-rep with them in the /factions screen. This should take 100 total medals,
-including the initial few you gave, though it will take more if you killed any
-WotW staff.
-
-Once you do that, take Analyzer (replacing the trait other than Plunderer) and
-inspect all your copper (or better) equipment. You can now make iron versions of
-that equipment. Do so.
-
-How many runic shards do you have right now? Is it less than 266? /craft
-dowel. /craft wooden shovel. /craft wooden repair kit. Find a beach. Dig (/dig)
-once on each tile, picking up every rune that spawns. With a wooden shovel, you
-can dig 16 times before you need to use your repair kit to fix your shovel. This
-number will be lower if you use a non-wooden repair kit to repair the shovel.
-
-If your shovel is orange, don’t dig again. If your wooden repair kit is broken,
-find a pile of clay and /craft clay repair kit. A clay repair kit will give you
-less digs per use, but is easy to produce.
-
-Repeat this until you have enough runes to salvage to get you to 266 runic
-shards, plus an additional Rune of Rejuvenation and Rune of Shields. Drop all
-the other runes in your inventory and use the salvage all command (usually the 7
-key, but may be a different key if you’re targeting something) until all the
-runes are shards. Take those shards back home to your huge pile of stuff.
-
-Make a Shield of Rejuvenation of a dual element of your choice (I recommend at
-least using water in the shield, however) by dropping the Rune of Shields, the
-Rune of Rejuvenation, and 2 elemental runes of your choice (and no other runes)
-on the same tile, then doing /makespell. Learn this spell.
-
-Go to the WotW Fortress and take the Fabricator trait, replacing Analyzer. Go
-back home and craft 7 Reinforced Tools and 7 Artisan tools. Use the Reinforced
-tools on your equipment, then go to the WotW Fortress once more and take the
-Forgemaster trait.
-
-Use your Artisan Tools on your equipment. Put water runes on three of your
-equipment and 2 of everything else on your equipment, excluding your weapon. You
-only put water on your weapon because it's healing every heavy attack. Putting
-any extra runes on the weapon would cause the healing to be every other heavy
-attack, effectively halving your healing.
-
-Finally, craft enough Sturdy Plates to get you to Godlike RES and slap those on
-pieces of your equipment that aren’t your weapon. Your weapon should have an
-Arcane Sigil, which must be found (Tool Chests are useful for this.) The
-remaining slots are your choice. FIN is useful for stealth, INS for lowering
-your Ward’s cost, STR for getting it to godlike, and CHA for increasing your
-Ward’s and Rejuvenation’s duration.
-
-Congratulations, you’re pretty close to immortal. Remember to use your Ward of
-Rejuvenation before starting a fight, rather than after, and to heavy attack
-twice when you’re able in order to heal. If you’re low on health, enter a safe
-location, use your Ward of Rejuvenation, and walk around until the rejuvenation
-wears off, then cast it again. Repeat until full health.
-
-The only things that can realistically threaten you are your own stupidity,
-Ruins if you aren’t careful, and potentially some spoiler monster. Though, this
-assumes you don’t walk too far from Relica. I haven’t seen what kind of damage
-output exists thousands of km away from Relica.
-
-So, go crazy (except around Ruins. Be careful there.) Kill whatever. You’ll get
-significantly more points if you get key fragments, so go get them. Castles are
-easy sources, since you can just kill all the guards in the noble’s room, then
-kill the noble for a fragment, then stealth away.
-
-Be sure to use any Obelisk Shards you get to upgrade your Shield of Rejuvenation
-to Flawless.
-
-Once you get the key, start eating fragments with /cast conversion. Only eat one
-at a time, and only after you get your 10th fragment. This maximizes points per
-fragment by making you get key completion points every time you get a
-fragment. Using conversions on godlike stats is wasteful, but otherwise, use
-them on whatever you want. It’s just a matter of time until you have 100k+
-points.
+Written by a master of the game for an old version, some relevancy remains: 
+[[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Degritone's Guide to 100k Points]]
 *** Mantecarl's tourist guide
 Written by a master of the game for an old version, still sensible in its way
 https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit
@@ -5303,7 +5211,7 @@ What useful info there for 2021 has been incorporated above.
 Its most function page: https://fara.fandom.com/wiki/Special:Categories
 
 ** Release Notes
-Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2019.04.12.
+Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2021.04.25.
 
 - source: https://brianiscreative.itch.io/fara/devlog
 - compiled by pug since facts are not subject to copyright
@@ -7117,78 +7025,74 @@ feedback and encouragement, so thanks for taking the time to provide some top
 notch insights. There is still plenty of in-game text that needs updating and
 bugs that need squashing, so if you come across something that doesn't seem
 quite right, be sure to let me know!
-** Caution!
+** Small Caution!
+
+/What little insight into this I have tells me that the danger/
+/of this happening to you is diminishing with each new day./
+
+Still..
 
 The game, in alpha for many years now, and while holding the attention of a
 loyal playerbase, has a developer's that stated expressly that 
 maintaining save-game compatibility is not a priority at the moment.
 
-Thus you are advised to go through the trouble of downloading and
+Thus you are advised to go through the notrouble of downloading and
 installing the game locally so that you will be able to finish games
 in progress since using the web-version risks obliteration of your
 save at any time!
 
-Still..
+** Technical
+#+TOC: headlines 1 local
 
-/What little insight into this I have tells me that the danger/
-/of this happening to you is diminishing with each new day./
+*** Playing on Notebooks
+This is good to know, even if silly, article for the two people in the world
+with a machine good enought to run fara which doesn't have a full-size keyboard.
 
+[[https://www.dummies.com/computers/pcs/the-hidden-numeric-keypad-on-your-laptop/][The Hidden Numeric Keypad
+on Your Laptop]].
 
-** Copyright/Disclaimer
-This document is hereby released without any claim of ownership on other
-people's content and without claims of copyright by compilation or any or other
-claims I could make to keep you from contributing to the game.
+*** Resizing & Positioning the FARA Window
+#+TOC: headlines 1 local
 
-The one thing I'd ask you to do is link back to these notes if you're taking
-anything I've added value to by creating this original assemblage of facts.
+I play on an upright external monitor. Since changes to /bigmap make it scale
+with the height of the window FARA runs in without considering the width, I
+need to change the FARA window size to make the most of /bigmap.
 
-Thus, if you want to populate the wiki by cribbing from here .. link back.
-I link back to the wiki and every source I've cited. So should you. Thanks!
+**** Windows
+Using Windows you'd want to look at these links
+- [[https://superuser.com/questions/240362/save-window-locations-of-applications][save-window-locations-of-applications]]
+- [[https://appuals.com/fix-windows-not-remembering-window-positions-and-sizes/][fix-windows-not-remembering-window-positions-and-sizes]]
 
-** Linux
+**** Linux
+In Linux, grab a hold of [[https://www.startpage.com/sp/search?query=obtaining+xdotool][*xdotool*]], then save and adapt this script to your needs.
 
-To run this game in linux, this is what you need to know.
+#+begin_example
+#!/bin/bash
 
-- you need sudo access/rights
+setfarawin(){
+  local a=$(xdotool search --onlyvisible --name "FARA")
+  xdotool getwindowgeometry $a
+  xdotool windowmove $a 1372 641
+  xdotool windowsize $a 1074 1100
+}
 
-  once you unpack the distribution, change to the game directory and issue
-#+begin_src sh
-sudo chmod +x ./FARA
-sudo chmod 4755 chrome-sandbox
-sudo chown root:root chrome-sandbox
-#+end_src
+<pathtoyourlocalinstall>/FARA &
+sleep 0.1
+setfarawin
+#+end_example
 
-you likely wont be able to run the game from your file-manager since FARA is technically
-a shared library, so, from the shell type *./FARA* to get it going from its dir.
+**** More
+If you want to adapt your browser's window instead, you'll find some more ideas
+at these links:
+- [[https://unix.stackexchange.com/questions/14159/how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration][how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration]]
+- [[https://unix.stackexchange.com/questions/43106/how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line/359311][how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line]]
 
-if you want a thing to right-click to start the game, issue:
+*** Linux
+To run this game in linux you need *sudo rights*. You probably have them.
 
-#+begin_src sh
-echo ./FARA >./fara
-sudo chmod +x ./fara
-#+end_src
+[[https://itch.io/t/1037279/i-cannot-run-it-on-sparky-linux][also posted on itch.io]]
 
-- save-games go into *~/.config/FARA*
-
-that's chrome's doing and because the save-files are pretty large consider
-symlinking that path to a place thats backed-up once a day, not hourly.
-
-- the game plays well under X
-
- and since the only time it really needs the disk is
-  for saving, you can run it from a NAS or server without troubles.
-
- /uianimation and screen-shaking should be disabled under X
-
-- the actual thing you would appear to need to update between versions,
-  as long as the runtime does not change is 'resources/app.asar'.
-  its amazing that its just 2.8mb.
-
-
-*** TBD/Update with 
-https://itch.io/t/1037279/i-cannot-run-it-on-sparky-linux
-
-go to the directory where you unpacked the game, then type
+Go to the directory where you unpacked the game, then type
 
 #+begin_example
 sudo chmod +x FARA 
@@ -7228,11 +7132,81 @@ Categories=Games
 #+end_example
 
 I just just bookmarked the path with my file-manager to make it work from there
-through the little script above and didn't actually test the .desktop file i
+through the little script above and didn't actually test the .desktop file I
 conjured up for you.
 
 
-** Requirements
+Savegames will likely be found in *~/.config/FARA* where you can put them
+under version control to experiment at will. The files are pretty large
+so consider symlinking them to a place thats backed-up daily, not hourly.
+
+The game plays well under X and if you have more CPU cores on your server than
+on your workstation, give that a try. It complicated adjusting the window
+position through a startup script, but you'll be fine. Disable */uianimation*
+and screen-shaking so you don't even notice that you're playing remotely.
+
+If you're lazy like me, write a script to unzip the release and copy the
+~2.8mb large 'resources/app.asar' from there to where you've installed the
+runtime with the proper rights. 
+
+
+*** Fixing crashes
+#+TOC: headlines 1 local
+
+**** About
+While not an open source application per se, with an
+[[https://www.electronjs.org/][Electron]] application such as FARA one can
+[[https://github.com/WebAssembly/design/issues/219][always]] count on having
+[[https://medium.com/hackernoon/javascript-compilation-epoch-ebfb7b5bb664][access]]
+to the code for personal perusal even under its 'All rights reserved' license.
+
+Much like with [[https://en.wikipedia.org/wiki/Adobe_Flash][Flash]], you can easily
+[[https://www.startpage.com/do/search?query=app.asar][unpack]]
+the program, change the fonts and user interface to please you without any loss in performance.
+
+Additionally with a
+[[https://eslint.org/][little]]
+[[https://www.thaoh.net/prettyjs/][extra]]
+[[https://lelinhtinh.github.io/de4js/][effort]] 
+you can learn to appreciate Brian's work a whole lot more
+by taking a look at what's being shipped.
+
+**** More
+Compacted as the code is, you can't expect to do much but make whatever crashes
+between minor release go away, but since you can do these things inside an hour,
+learning a little bit about the way modern software shipps
+will let you glide past otherwise game-ending troubles that
+sometimes still slip in on point releases.
+
+In this sense, and within these limits I can tolerate dealing
+with software that isn't really free and open. Besides, there's no game like
+[[https://www.startpage.com/sp/search?query=developing+electron+apps+jetbrains][learning]]
+by [[https://www.jetbrains.com/webstorm/][doing]].
+
+This will make more sense to you once you've had your system and your data
+destroyed and obsoleted by proprietary code a few times. Then you too might
+appreciate the importance of free and open software and see the value of
+acquiring [[https://eslint.org/][some]] of the
+[[https://www.jetbrains.com/webstorm/][basic technical skills]].
+
+**** How-to
+Anyway, if you want to mess with things, make sure to use */stopreports*,
+and do yourself the favor of never using this approach to cheat or to 
+learn game secrets or you will ruin your own fun in this sweet sandbox.
+
+So, if you have a problem, unpack, drag the index.html into chrome
+and have a look at the *F12*
+[[https://developer.chrome.com/docs/devtools/console/][developer console]] 
+-- if you see a hang, crash or something that's really slow,
+[[mailto://support@playfara.com][email your findings]]!
+
+**** Remain Calm
+None of this stuff here tells anyone how to cheat, mess with save-games or
+otherwise ruin their or other people's fun. Its just hacker talk, to enable
+someone to keep playing their game or swap in fonts more suitable for their
+display. Please chill, ty!
+
+*** Requirements
 
 Pug's experiments suggest:
 
@@ -7240,81 +7214,24 @@ Pug's experiments suggest:
   - Anything better than a Dual-core CPU will do!
     With a Dual-core you'll see the game slow to ~half speed after ~24hrs play.
 - 2.2+ GHZ will be tolerable through a long game.
-- 4ish GB RAM for Chrome/Electron/FARA (at most! usuall much less, no problem.)
-- Disk seems not important.
+- 4ish GB RAM for Chrome/Electron/FARA
+  (at most! usuall much less, no problem.)
+- Disk seems not important although running from ram helps a bit atm.
 
 What's optimal? Anything Quad-core with DDR-4 RAM but DDR-3 will do.
-The real key to good performance appears to be the size of your [[https://www.makeuseof.com/tag/what-is-cpu-cache/][CPU cache]].
+The real key to good performance appears to be the size of your
+[[https://www.makeuseof.com/tag/what-is-cpu-cache/][CPU cache]].
 
-** Technical
-#+TOC: headlines 1 local
-*** Playing on Notebooks
-This is good to know for the two people in the world with a machine good enought
-to run fara which doesn't have a full-size keyboard. [[https://www.dummies.com/computers/pcs/the-hidden-numeric-keypad-on-your-laptop/][The Hidden Numeric Keypad
-on Your Laptop]].
+** Copyright/Disclaimer
+This document is hereby released without any claim of ownership on other
+people's content and without claims of copyright by compilation or any or other
+claims I could make to keep you from contributing to the game.
 
-*** Resizing & Positioning the FARA Window
+The one thing I'd ask you to do is link back to these notes if you're taking
+anything I've added value to by creating this original assemblage of facts.
 
-I play on an upright external monitor. Since changes to /bigmap make it scale
-with the height of the window FARA runs in without considering the width, I
-need to change the FARA window size to make the most of /bigmap.
-
-Using Windows you'd want to look at these links
-- [[https://superuser.com/questions/240362/save-window-locations-of-applications][save-window-locations-of-applications]]
-- [[https://appuals.com/fix-windows-not-remembering-window-positions-and-sizes/][fix-windows-not-remembering-window-positions-and-sizes]]
-
-In Linux, grab a hold of [[https://www.startpage.com/sp/search?query=obtaining+xdotool][*xdotool*]], then save and adapt this script to your needs.
-
-#+begin_example
-#!/bin/bash
-
-setfarawin(){
-  local a=$(xdotool search --onlyvisible --name "FARA")
-  xdotool getwindowgeometry $a
-  xdotool windowmove $a 1372 641
-  xdotool windowsize $a 1074 1100
-}
-
-<pathtoyourlocalinstall>/FARA &
-sleep 0.1
-setfarawin
-#+end_example
-
-If you want to adapt your browser's window instead, you'll find some more ideas
-at these links:
-- [[https://unix.stackexchange.com/questions/14159/how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration][how-do-i-find-the-window-dimensions-and-position-accurately-including-decoration]]
-- [[https://unix.stackexchange.com/questions/43106/how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line/359311][how-to-set-window-size-and-location-of-an-application-on-screen-via-command-line]]
-
-
-*** Fixing crashes
-
-While not an open source application per se, with an [[https://www.electronjs.org/][Electron]] application such
-as FARA one can [[https://github.com/WebAssembly/design/issues/219][always]] count on having [[https://medium.com/hackernoon/javascript-compilation-epoch-ebfb7b5bb664][access]] to the code for personal use even
-though one is dealing with an 'All rights reserved' kind of license.
-
-Much like with [[https://en.wikipedia.org/wiki/Adobe_Flash][Flash]], you can easily [[https://www.startpage.com/do/search?query=app.asar][unpack]] the program, change the fonts and
-user interface to please you without any loss in performance. Additionally with
-a little [[https://www.thaoh.net/prettyjs/][extra]] [[https://lelinhtinh.github.io/de4js/][effort]] you can learn to appreciate Brian's work a whole lot more
-by taking a look at what's being shipped.
-
-Obfuscated and linearized as the code is, you can't expect to do much but make
-whatever crashes between minor release go away, but since you can do these
-things inside an hour or less, learning a little bit about the way modern
-software ticks and how it is shipped will let you glide past the otherwise
-game-ending troubles that sometimes slip in between major release.
-
-
-In this sense, and within these limits I can tolerate dealing with software that
-isn't really free and open. Besides, there's no game like [[https://www.startpage.com/sp/search?query=developing+electron+apps+jetbrains][learning]] by doing
-
-This will make more sense to you once you've had your system and your data
-destroyed and obsoleted by proprietary code a few times. Then you too might
-appreciate the importance of free and open software and see the value of
-acquiring some of the [[https://www.jetbrains.com/webstorm/][basic technical skills]] hinted at here.
-
-Anyway, if you want to mess with things, make sure to use */stopreports*!  And
-do yourself a favor, never use this approach to cheat or learn game secrets or
-you will ruin your own fun. Let playing continue to be an enjoyable sandbox!
+Thus, if you want to populate the wiki by cribbing from here .. link back.
+I link back to the wiki and every source I've cited. So should you. Thanks!
 
 * Full Index
 #+TOC: headlines 4
@@ -7322,7 +7239,8 @@ you will ruin your own fun. Let playing continue to be an enjoyable sandbox!
 * Links
 Thanks for scrolling to the bottom of this text.
 
-For more, join the [[https://discord.gg/FEp52yj][Discord]], and scan the
+For more, join the
+[[https://discord.gg/FEp52yj][Discord]], and scan the
 [[https://www.reddit.com/r/fara/][Reddit]],
 [[https://twitter.com/PlayFARA][Twitter]],
 [[https://www.patreon.com/playfaraPatreon][Patreon]],
@@ -7331,8 +7249,10 @@ For more, join the [[https://discord.gg/FEp52yj][Discord]], and scan the
 links, and, of course the
 [[https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web][Web]].
 
-Also see [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Mishaal's Item Compendium]]
-and [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][Mantecarl's Tourist’s guide to FARA]]!
+Also see /Mishaal/'s [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][Item Compendium]],
+and /Mantecarl/'s [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][Tourist’s Guide to FARA]],
+and maybe /Degritone/'s [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]].
+
 
 Enjoy!
 
