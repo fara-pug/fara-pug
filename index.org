@@ -22,10 +22,8 @@ can be sorted, the big map became much nicer and overall - there's a ton of nice
 little tweaks! - *the game has become much nicer to play*. So cool! Thanks
 Brian!
 
-- [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Latest Changes on the Wiki]]
-- [[https://brianiscreative.itch.io/fara/devlog][Latest Devlog from the Brian]],
-  - [[Release Notes][see if its already searchable in these notes]].
-- [[Guides to the current version][Guides to this and older versions]].
+- Latest [[https://brianiscreative.itch.io/fara/devlog][Devlog]], [[https://discord.gg/FEp52yj][Discord]], [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Wiki-Updates]], [[https://brianiscreative.itch.io/fara/community][Itch-Posts]].
+- Goto [[Guides to the current version][Guides to this and older versions]].
 
 * Intro
 #+TOC: headlines 1 local
@@ -316,6 +314,73 @@ health from eating honey.
 Average Health, Good Resilience, Above Average Insight, Below Average Strength, and 2 Spell Slots.
 
 Points required: 10,000
+
+***** BEE TYPES
+[[https://blankslate.io/?note=420324][(via www)]]
+
+|------------+------------------------------------------|
+| Beautiful  | Lifts mood of beekeepers                 |
+| Disruptive | Interrupts the actions of non-beekeepers |
+| Furious    | Does more damage/sting                   |
+| Harvester  | Creates honey while swarming things      |
+| Nurturing  | Heals swarmed entities                   |
+| Scouting   | UNKNOWN/Explore the surrounding overland |
+|------------+------------------------------------------|
+
+***** HIVES
+[[https://blankslate.io/?note=420324][(via www)]]
+
+|------------+---------------------------------------------------------|
+| Beautiful  | Arcanium (VR) Adamantine (VR) Fortrium (VR) Jade (VR)   |
+| Disruptive | Ivory (C) Copper (C) Glass (C) Silver (C)               |
+| Furious    | Natural (C/VC) Wooden (VC) Tin (VC) Bone (VC) Clay (VC) |
+| Harvester  | Titanium (R) Diamond (R) Steel (R) Obsidian (R)         |
+| Nurturing  | N/A                                                     |
+| Scouting   | Brass (UC) Iron (UC) Crystal (UC) Ceramic (UC)          |
+|------------+---------------------------------------------------------|
+
+Every Hard material in the game is involved in Hives in one way or the other!
+
+Adamantine (VR),
+Arcanium (VR),
+Bone (VC),
+Brass (UC),
+Ceramic (UC),
+Clay (VC),
+Copper (C),
+Crystal (UC),
+Diamond (R),
+Fortrium (VR),
+Glass (C),
+Iron (UC),
+Ivory (C),
+Jade (VR),
+Natural (C/VC),
+Obsidian (R),
+Silver (C),
+Steel (R),
+Tin (VC),
+Titanium (R) &
+Wooden (VC) 
+
+***** Notes
+#+begin_example
+I think nurturing bees are obtainable from Arcanium Beehives??
+i mean i got them from wooden
+You got NURTURING BEES from a wooden beehive?
+yeah
+
+I remember a time when my first outlaw quest was to kill
+ a beekeeper that had nurturing bees and a rejuvenation spell
+pain
+really no way to kill that guy with a tin sword haha
+lul
+Poison. Be Witch or leave for a poison effector for poison spell
+or earth rune for earth element heavy.
+Unless Nurturing Bees also cleanse poison and I didn't know that
+
+#+end_example
+
 **** BLOODWEAVER
 :PROPERTIES:
 :ID:       2eadac90-fea9-4b15-a644-2796414d3889
@@ -453,6 +518,26 @@ bonus for every party member they can see.
 Low Health, Good Charisma, Above Average Intelligence, Below Average Dexterity, and 3 Spell Slots.
 
 Points required: 75,000
+***** Notes
+#+begin_example
+Is commander any good never tryed it
+I mean, You can have 3 bears instead of 2
+
+true might have to consider that.
+
+3 inspired bears, 3 handpicked Mortician mercs
+
+Commander is really good with any summoning class, honestly
+Don't know if elementals also get the buff from commander?
+
+no u need bears
+
+summoning bears?
+yes
+no, grizzlies
+lol
+#+end_example
+
 **** DEMON SLAYER
 :PROPERTIES:
 :ID:       2b375096-6f27-48d8-a6e0-16250aef963f
@@ -621,6 +706,9 @@ Points required: 0
 - Fishmonger has 2 spell slots, so you can make a second spell too
 - the intox debuff gives you +RES and +CHA
 - But once you have a bunch of booze and a tower shield then you are practically unkillable
+
+Fishmonger + Warhammer; 
+it one shot every type of training dummy
 
 **** FORTUNE TELLER
 :PROPERTIES:
@@ -914,6 +1002,20 @@ Points required: 65,000
   - Gets you maxed FIN, RES, and STR, as well as Good CHA and Great INS, if I
     remember those last two correctly, as well as High DR and as good Attunements
     as you'll get without being an Elemancer and max inventory size
+
+***** Notes
+Honestly might try things other than Pugilist when I start playing again. With
+Pugilist's main advantage gone (no longer does better than other classes simply
+by having bonuses for using the highest attack speed weapons, since attack speed
+is gone,) I might try a Nurturing Bees Beekeeper run, maybe a Fishmonger or go
+back to Viking or something.
+
+Basically just the tanky classes still, but blah. Don't have to think for early
+game on tankibois. rip attack speed
+
+Pugilist's interrupting heavies are still a huge boon, but I won't be 100% that
+it's better than other class bonuses until I try other classes.
+
 **** RAGAMUFFIN
 :PROPERTIES:
 :ID:       862790b8-b77b-4b52-b030-6c74751c373b
@@ -1057,6 +1159,9 @@ and gain stamina when damaged by magic.
 Below Average Health, Good Wisdom, Above Average Dexterity, Below Average Strength, and 3 Spell Slots.
 
 Points required: 100,000
+***** Notes
+I'm trying spellthief right now, will try getting into ruins to steal some powerful spells early
+
 **** TOURIST
 :PROPERTIES:
 :ID:       d7b44fc1-80bf-4465-b242-f3d66b39d4b6
@@ -1390,6 +1495,7 @@ It needs a lot more work.. [[Health][Health]] is covered earlier.
 | Well Rested  |                                    |
 | Protected    |                                    |
 | Rejuvenating |                                    |
+| Quickness | extra finesse, and boosts your dash action
 
 *** Neutral
 
@@ -1815,6 +1921,11 @@ Beaks and claws and..
 | "Unique"     | ?x         | Can not be upgraded, Unknown? Bonus |
 |--------------+------------+-------------------------------------|
 
+With the Forgemaster trait: Upgrade your (Refined) items with <Artisan> Tools 
+to upgrade them to Masterwork. The catch? you can make (Refined) items with
+that trait, they become of <Artisan> quality instead. Swapping [[Factions][Faction]] traits
+is an option, as is buying manuals in advance!
+
 ** Runes
 :PROPERTIES:
 :ID:       170aaf35-364d-4859-82be-af5384de465d
@@ -2086,6 +2197,25 @@ and can rebalance their stats or keep them godlike rerun this.
 - 332 Crystal Ingots and 135 Runes richer, I'm not complaining.
 - without notes and interruptions these numbers might take ~90mins?
 
+
+*** Notes
+#+begin_example
+So would you all save those runes or make something from them?
+Not sure what the best option here is.
+
+Hm, I think it depends on what is your highest stat
+
+If you have high insight, and a bunch of spell slots 
+it could be better to craft the runes into spells
+
+If you have bad insight then casting spells isn't that good,
+ because you burn a lot of your stamina doing so
+Selfcast spells are good in that case
+Like wards, shields or blessings
+
+Those take less stamina to use, and you can couple them
+ with good effector runes (like rejuvenation) to support your run
+#+end_example
 ** Shields
 :PROPERTIES:
 :ID:       57d489c6-1bd3-4b14-a2be-39b6dc549ae2
@@ -2126,6 +2256,17 @@ For On-Person Storage, see [[Bags][Bags]]
 - also, consider using your [[Mercenaries][party]] as loot mules!
 - still have to see if saddles give carry capacity to your [[Pets][pets]].
 
+** Traps
+- Classes that love them Engineer, Scoundrel.
+
+|Types
+
+any hard material.
+
+- "Defuser" Trait from Jade Faction makes them much easier to disarm
+- Search should find them all, yet sometimes you miss one.
+
+
 ** Utensils
 :PROPERTIES:
 :ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
@@ -2163,6 +2304,9 @@ Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1
 - I've seen some talk about stats that track well-used and newly-used weapons
   being different somehow somewhere, the info being in a hidden stat. Please write
   if you can fill in the details!
+
+- You main hand-weapon contributes to your elemental attunement, the off-hand
+  apparently not.
 
 *NOTE: ALL THESE DO EITHER BASHING, CUTTING OR STABBING DAMAGE. AND I HAVE NOT
 LOOKED INTO HOW TO BEGIN TO DO MORE THAN OFFER GUESSES FOR WHICH DOES WHAT!*
@@ -2498,8 +2642,13 @@ Capacities all seem to be around 10.
 
 ** Drinks
 
+
+
 *** Drinkable
-Strange when you state the obvious, isn't it?
+
+You can /drink Water from a well or a running water source,
+and from several types of [[Bottles][containers]].
+
 |-------+----------------------------------|
 | Name  | Note                             |
 |-------+----------------------------------|
@@ -2898,177 +3047,6 @@ If you feel like doing without the elemental effects, think 'Arcane'.
 If you use an Arcane Shield (or other arcane infused items) you do more
 damage? and resist arcane spells.
 
-** Buildings
-#+TOC: headlines 1 local
-
-This section is about the unlockable building you can find in every settlement.
-Completing all of them makes you a Settlement Hero, which is a Title that can
-be useful when you want to talk to or hire NPC's for your travels.
-
-The costs were transcribed from Relica by Pug.
-
-Don't compromise on gear to invest in buildings,
-You only *need* the Warehouse at the start.
-
-*** Warehouse
-"Gives access to a thing that helps you move to other settlements."
-
-**** Cost
-- 2 medals
-- 20 wooden planks
-- 10 ropes
-
-**** Benefits
-- Crucible that gives shared access to your stash of buffs, situational uniques,
-  and supplies for expanding elsewhere.
-
-- 6 Storage bins, probably best when only used in Relica, that let you get rid of
-  things you dont want to see but dont want to loose. See [[Item Management]]
-
-*** Stables
-How!?@?#
-
-**** Cost
-- 2 medals
-- 10 copper ingots
-- 5 wooden buckets (got recipe after opening refinery)
-
-**** Benefit
-Aha's from looking at my first Stables.
-Yours will be similar I'd think. So.. Oh!
-
-- its a farm with spice and tree plots! 
-  - a garlic and a fennel plot
-  - a lemon and a maple tree plot
-- farmer and stablemaster work here
-  - there's also a young deer. should i bring the cow?
-- also dropped a Starcloth and a Velvet Saddle
-  - these materials i'd not seen before i opened the building
-
-
-*** Tavern
-
-**** Cost
-- 2 medals
-- 5 wooden stools
-- 5 glass mugs
-
-**** Benefit
-- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
-  - blue prints and rare materials
-- A High level merc that wont talk to you until a title or two
-- A Well skilled merc that can hold his own
-- A Damsel in distress NPC i escorted elsewhere
-
-Have to check up on the patrons there again.
-If all that got me was a gambling chance at BPs, fine!
-
-*** Obelisk
-#+TOC: headlines 1 local
-**** Cost
-- 2 medals
-- 10 stones
-- 25 runic shards
-
-**** Benefit
-The same damn obelisk you keep finding in the wilderness, but with a researcher
-that offer runes for sale and who keeps the rock polished.
-
-- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
-
-- Single level upgrade obtained by beating the Bosses at Ruins become less
-  attractice once you have this, but its hard to beat 'free and scary'.
-
-**** Staff
-An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
-conducting his private business without bothering you with extra tasks.
-
-**** Prices
-
-***** Spell upgrades
-|--------+------------|
-| Shards | upgrade to |
-|--------+------------|
-|      5 | Improved   |
-|     10 | Greater    |
-|     15 | Superior   |
-|     20 | Flawless   |
-|--------+------------|
-|     50 | new > max  |
-|--------+------------|
-
-
-***** Custom Runes
-
-tbd
-
-*** Refinery
-#+TOC: headlines 1 local
-A smith that makes a lot of (refineried) items.
-
-**** Cost
-- 4 medals
-- 15 iron ingots
-- 5 iron hammers
-- 5 wooden benches
-- 5 wooden tables
-
-**** Benefit
-
-Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
-you. He has manic inspiratitions, you bring him what he asks for, he levels up
-and crafts whatever he damn well pleases.
-
-- Does away with your excess Medals.
-- Consumes your excess resources.
-- "Discovers" Recipes for Items you've been dying to find.
-
-**** Notes
-After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
-stables. That was nice. I also got a nice everburning? lantern that helps to
-attract even more encounters at night
-
-Here's a log of what he did for me in the beginning:
-
-- each item cost 1 Medal
-- all but the first item were of (Refined) Quality.
-
-| Mat  | Qty | Result         |
-|------+-----+----------------|
-| bone |   1 | ball           |
-| tin  |  20 | organ          |
-| tin  |   5 | spear          |
-| tin  |   2 | clip           |
-| bone |   2 | bucket         |
-| bone |   2 | grappling hook |
-| bone |   2 | sign           |
-| bone |   1 | goggles        |
-| tin  |   1 | box            |
-| tin  |   1 | lantern        |
-| bone |     | lantern        |
-| bone |     | violin         |
-
-I might have missed an item there, but suddenly he asked for a crafted input,
-turning *bone nunchucks > swordchucks*.
-
-After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
-coming close to a new materials tier after 12..13 runs.. Verry nice, very
-grindy, very medal-expensive!
-
-*3 wooden blocks > wooden anvil*
-
-Afterwards he wanted bones again..
-
-Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
-of his more sensible items. neat!
-
-- Keeping these prototypes makes sense to me right now.
-
-- Signs.. used to be terribly important in the old version i played. Perhaps
-  they have a discoverable function..
-
-- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
-
 
 ** Combat
 :PROPERTIES:
@@ -3131,7 +3109,7 @@ We know these by their effects:
 | Water & Earth | Relization | 5      | Plants and Forms   |
 |---------------+------------+--------+--------------------|
 
-*** Applications
+*** Applied
 
 An Alphabetical List of the 15 Elemental Combinations 
 showing the exact form of their names applied to spells and gear:
@@ -3157,6 +3135,8 @@ showing the exact form of their names applied to spells and gear:
 |            |                      |                   |         | Water  | Earth   |
 |------------+----------------------+-------------------+---------+--------+---------|
 
+- needs to be; frigid/ice == Quickness + healing
+
 - Your input, appreciated.
 
 *** Combinations
@@ -3176,6 +3156,8 @@ names - which show up in the spell name.
 | *Dark*     | Dusk    | Brutal    | Night     | Abyssal | Moon    | /na     |
 |------------+---------+-----------+-----------+---------+---------+---------|
 [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=1732619557][(original link)]]
+
+Combos 
 
 *** Summary
 
@@ -3212,6 +3194,181 @@ Discord voices
 | Air>Earth>Light>Darkness>Fire>Water             | Air grants quickness an amazing amount of the time which is soo nice, Earth's poison prevents healing/slowness, Light illuminates targets, for more crits and they become a light source |
 | Water > Light > Earth > Darkness > Air >Fire |                                                                                                                                                                                          |
 |-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+** Encounters
+#+TOC: headlines 1 local
+
+*** Abandoned Shack
+Single Building in the woods, no hostiles, tool-chest .. 
+and a single powerful trap.
+
+- need more data
+
+*** Ambushes
+Going somewhere new, you spy a Big Chest out in the open.. just a dash away and
+noone's here.. you search, and seing nothing you dash.. into your doom.
+
+Careful with the greed man, if it looks to good to be true, it is.
+
+You've been warned, not that it matters. Good luck getting out ouf there!
+
+Note: I've had a BigChest appear out of the blue the moment i found my first
+young cat while on a woodcutting trip in the nearby woods. I wonder if that was
+some kind of nod to potential cat-lovers, but i definitely made sure to search
+on almost every step on the way to pick up that loot.
+
+There were no hostiles on the map, and the cat and cow seem to have become fast
+friends down at the stables. (file under 'ambushed by cats')
+
+*** Arcane Obelisk
+
+"Powerful Magic"
+
+Obelisk building let's you upgrade spells
+
+- Upgrades for spells you've learned.
+- Costs the same as if you had unlocked an Obelisk in your settlement!
+- The cheapest and most thrilling way to upgrade your spells is to hunt for
+  [[Ruins][ruinous ruins]] since you'll always? find an obelisk shard among the loot there.
+  A shards is just large enough power a single upgrades so perhaps save it for
+  the last upgrade or two to save 20 or 35 shard, paying for it with the risk
+  you're taking on. Just be clear about what you're getting into and read the
+  intro notes for the [[Locations][locations]] to tweak the ruin's [[Difficulty][Difficulty]].
+
+*** Burning House
+*Danger Will Robinson*
+
+The Burning House can be a real oh-sh*t experience. It could be on any tile that
+you stumble on pyromanic imps that shoot you with magma right when you land. I
+didn't find any until I had complete all the buildings in Relica and it may be
+ok to save your paranoia until then.
+
+Extrapolating from my random encouter I suspect the imps were not really
+malicious, simply driven to madness by the guy making horrible music. I mean,
+wouldn't he live in town with his <random instrument> if people appreciated his
+music?
+
+**** Dragging the guy
+I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
+of the map to get him looked after. Which makes me think of something! Do you
+know that if you're dragging something or someone, all you need to do to let go,
+is to hold something else in that hand. Say you happen to get attacked, just
+draw your weapon and you'll let go what you were pulling.
+
+But hey, most people seem to mind if you drag them around. The ingame message
+about 'attacking' might actually mean something, even when you're all alone,
+dragging an unconscious person away from a burning house.
+
+Not sure what I'm to do with the guy. He used to drop some loot for saving him
+in that old version I played; See if you can figure out what you need to do to
+[[Unconscious Adventurer][wake]] him up again!
+
+*** Cultists
+"You hear rythmic chanting in the distancs"
+
+Meet a groups of Magic using Fiends that don't like you being in their space.
+
+And listen, even if these guys are Amateurs at whatever it is they are doing,
+you will be happy to be carrying your finest cuisine for buffs and restauration
+since it's surely going to hurt to run into them! You may get lucky and grab 
+their food if you win, but don't count on it.
+
+*** Graveyard
+There's a lot of tombstones in this place. It's been said that there's more to
+this place that hasn't been discovered yet.
+
+- good place to collect soil (for pottery?) :)
+- digging up and smashing all the tombstones hasnt revealed anything to me yet.
+  - but i can't stop looking at who they buried there in hopes of solving the
+    puzzle.
+
+*** Shrines (on the map?)
+A powerful artifact of one of the gods rests behind the locked door which you
+can /inspect to know what you need to do to open it. On each side of the shrine
+there are statues, which have had a runestone pried out of them. One of the
+statues is probably in disrepair.
+
+*** Summoning Circle (on the map?)
+- Rift beasts
+- Maybe take 3 CRPs to a Summoning Circle? (huh?)
+
+*** Travelers/Caravan
+(old info)
+
+These travelers seem to have a traitor between them.
+- Talk to them to figure out who it is!
+
+As you traverse the world of FARA you might come upon caravans along your way. A
+caravan consist of 5 travellers and talking to any of them you'll find out that
+they have recently been attacked. They suspect one of their own, and this gives
+you the chance to play detective.
+
+Each person will list how long they've been with the group, their personal
+reason for travelling, as well as a good and bad thing to do at their
+destination. These are the clues to identify the odd one out.
+
+As a reward for solving the mystery you gain the following:
+
+- 1x big chest,
+- 1x artisan tool kit,
+- 2x randomized tools,
+- 1x iron shiv,
+- 1x lockpick
+
+**** Tips for solving the mystery
+Typically the activities mentioned fall into the following categories [study],
+[trade], [relaxing], [family], and [entertainment]. You will need to talk to all
+the travellers and figure out which one they report as the absolute worst to do
+at the destination. If two activities are tied, one of them is unlikely to be
+used as an alibi by anyone. Confronting and accusing the traveller who says
+they're going there for this purpose will unlock a fight. The culprit will turn
+hostile and try to kill you. Two ambushers will show up and assault the culprit
+first, and you second. After winning the fight you can peacefully collect the
+rewards.
+
+At the type of writing, it is unclear if telling on the culprit will just fail
+the event.
+
+Once the event is over all travellers that have not been accused (you could
+accuse the wrong one and fail the event) will offer a quest, similar to
+commoners in towns.
+
+**** Dude!
+
+I wound up accusing someone based on nothing more than them saying they
+wanted peace and quiet and were going to a place for the entertainment.
+
+Mayhem ensued, loot dropped and in the end only the guy sitting the furthest
+away from the action survived the assault by the accused's pals. three dead
+to solve a robbery. wth! 
+
+now the shivering sole survivor and inheritor of all the trashy loot i can't
+haul away want to make funeral music with a clay triangle. a clay triangle!
+one moment while i get him one..
+
+wait! one body is missing. ah! one more survivor after all. he freaked out and
+ran away.  good for him.
+
+*** Just plain cool
+Random things and places one might never see again..
+- An Equestrian NPC riding a Gryphon
+- An Island in the middle of a deep lake
+- Rivers running through a map
+
+**** Cow pasture
+Found a serene pasture with a cow, a little lake, lots of flowers, and a
+BigChest. I petted the cow a zillion times, fed her a flower and took her to
+the nearest settlement.
+**** A shrouded figure
+Just that. Empty woods, Orange Square. Hollow eyes look at me and the figure
+vanishes before I can inspect them. Spooky. Is he the guy taking all the kids I
+can't find? Was he in one of the graves I dug up? What did I stumble on? I just
+needed a wooden log! Should I dig there? /pug wonders on, then, wait! ..
+
+Awakening as from a dream, he recalls the moment his memories began. There he
+had seen that figure loitering over one of the bandits that keep coming after
+him and his cow. Did that figure save him from a certain death? Is he somehow
+connected to that society of researchers only elders seem to know about?
 
 ** Enemies
 Have not cared to keep better track of these yet.
@@ -3391,208 +3548,9 @@ appear to attrack scoundrel after a night or two spent there. So don't be
 surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
 
-*** Encounters
-#+TOC: headlines 1 local
-
-**** Abandoned Shack
-Single Building in the woods, no hostiles, tool-chest .. 
-and a single powerful trap.
-
-- need more data
-
-**** Ambushes
-Going somewhere new, you spy a Big Chest out in the open.. just a dash away and
-noone's here.. you search, and seing nothing you dash.. into your doom.
-
-Careful with the greed man, if it looks to good to be true, it is.
-
-You've been warned, not that it matters. Good luck getting out ouf there!
-
-Note: I've had a BigChest appear out of the blue the moment i found my first
-young cat while on a woodcutting trip in the nearby woods. I wonder if that was
-some kind of nod to potential cat-lovers, but i definitely made sure to search
-on almost every step on the way to pick up that loot.
-
-There were no hostiles on the map, and the cat and cow seem to have become fast
-friends down at the stables. (file under 'ambushed by cats')
-
-**** Arcane Obelisk
-
-"Powerful Magic"
-
-Obelisk building let's you upgrade spells
-
-- Upgrades for spells you've learned.
-- Costs the same as if you had unlocked an Obelisk in your settlement!
-- The cheapest and most thrilling way to upgrade your spells is to hunt for
-  [[Ruins][ruinous ruins]] since you'll always? find an obelisk shard among the loot there.
-  A shards is just large enough power a single upgrades so perhaps save it for
-  the last upgrade or two to save 20 or 35 shard, paying for it with the risk
-  you're taking on. Just be clear about what you're getting into and read the
-  intro notes for the [[Locations][locations]] to tweak the ruin's [[Difficulty][Difficulty]].
-
-**** Arcane Researcher
-An [[Arcane Researcher][Arcane Researcher]] can sometimes be found, 
-just like your self, stumbling through the wilderness,
-his prices and dealings fair as always.
-
-**** Burning House
-*Danger Will Robinson*
-
-The Burning House can be a real oh-sh*t experience. It could be on any tile that
-you stumble on pyromanic imps that shoot you with magma right when you land. I
-didn't find any until I had complete all the buildings in Relica and it may be
-ok to save your paranoia until then.
-
-Extrapolating from my random encouter I suspect the imps were not really
-malicious, simply driven to madness by the guy making horrible music. I mean,
-wouldn't he live in town with his <random instrument> if people appreciated his
-music?
-
-***** Dragging the guy
-I wish I had not forgotten to */grab* and drag the unconscious SOB off the edge
-of the map to get him looked after. Which makes me think of something! Do you
-know that if you're dragging something or someone, all you need to do to let go,
-is to hold something else in that hand. Say you happen to get attacked, just
-draw your weapon and you'll let go what you were pulling.
-
-But hey, most people seem to mind if you drag them around. The ingame message
-about 'attacking' might actually mean something, even when you're all alone,
-dragging an unconscious person away from a burning house.
-
-Not sure what I'm to do with the guy. He used to drop some loot for saving him
-in that old version I played; See if you can figure him out!
-
-**** Cultists
-"You hear rythmic chanting in the distancs"
-
-Meet a groups of Magic using Fiends that don't like you being in their space.
-
-And listen, even if these guys are Amateurs at whatever it is they are doing,
-you will be happy to be carrying your finest cuisine for buffs and restauration
-since it's surely going to hurt to run into them! You may get lucky and grab 
-their food if you win, but don't count on it.
-
-**** The Farmer
-A real *<Gem>* from Discord!
-
-"It was a random encounter, there was 1 small building, 2 commoners, and 1 farmer
-NPC. The farmer NPC only gave quests to collect and return 2-3 crops (items)
-from around the map, rewarding a tool chest or small check for each completed
-quest.
-
-I could repeat these indefinitely, and after a while, the chests became refined,
-and then artisan. The artisan small chests gave artisan items, which I mostly
-salvaged, giving me runic shards.  Basically, the farmer is a safe and infinite
-(albeit a little tedious) source of runic shards."
-
-**** Graveyard
-There's a lot of tombstones in this place. It's been said that there's more to
-this place that hasn't been discovered yet.
-
-- good place to collect soil (for pottery?) :)
-- digging up and smashing all the tombstones hasnt revealed anything to me yet.
-  - but i can't stop looking at who they buried there in hopes of solving the
-    puzzle.
-
-**** Scouts
-What are these locations called again?
-- Found in the wilderness.
-- Belong to a faction. Are they all Will of the Wild?
-- Scouts give waypoints to settlements
-  within a range they know about
-  All scouts within, say, 50km? 75..100km? around Relica seem to know the same thing.
-
-**** Shrines (on the map?)
-A powerful artifact of one of the gods rests behind the locked door which you
-can /inspect to know what you need to do to open it. On each side of the shrine
-there are statues, which have had a runestone pried out of them. One of the
-statues is probably in disrepair.
-
-**** Summoning Circle (on the map?)
-- Rift beasts
-- Maybe take 3 CRPs to a Summoning Circle? (huh?)
-
-**** Trader
-Another Random Encounter.. is a trader who atm no one actually knows what to do
-with them. A bug was fixed after I reported my story. To be seen what he does
-now. Share if you find one!
-
-***** My Story (from before the bug-fix)
-TRADER... He said he had nothing to trade, so i gave him some loot, left the map
-to get some more, came back, he was gone .. but had left me a BigChest.  Please
-try that if you see one and confirm!
-
-(This seeming discover appears to have surfaced a bug and atm, an upcoming update
-will reset the game of figuring out what traders do. Perhaps they'll soon trade?
-Stay tuned!)
-
-**** Travelers/Caravan
-(old info)
-
-These travelers seem to have a traitor between them.
-- Talk to them to figure out who it is!
-
-As you traverse the world of FARA you might come upon caravans along your way. A
-caravan consist of 5 travellers and talking to any of them you'll find out that
-they have recently been attacked. They suspect one of their own, and this gives
-you the chance to play detective.
-
-Each person will list how long they've been with the group, their personal
-reason for travelling, as well as a good and bad thing to do at their
-destination. These are the clues to identify the odd one out.
-
-As a reward for solving the mystery you gain the following:
-
-- 1x big chest,
-- 1x artisan tool kit,
-- 2x randomized tools,
-- 1x iron shiv,
-- 1x lockpick
-
-***** Tips for solving the mystery
-Typically the activities mentioned fall into the following categories [study],
-[trade], [relaxing], [family], and [entertainment]. You will need to talk to all
-the travellers and figure out which one they report as the absolute worst to do
-at the destination. If two activities are tied, one of them is unlikely to be
-used as an alibi by anyone. Confronting and accusing the traveller who says
-they're going there for this purpose will unlock a fight. The culprit will turn
-hostile and try to kill you. Two ambushers will show up and assault the culprit
-first, and you second. After winning the fight you can peacefully collect the
-rewards.
-
-At the type of writing, it is unclear if telling on the culprit will just fail
-the event.
-
-Once the event is over all travellers that have not been accused (you could
-accuse the wrong one and fail the event) will offer a quest, similar to
-commoners in towns.
-
-***** Dude!
-
-I wound up accusing someone based on nothing more than them saying they
-wanted peace and quiet and were going to a place for the entertainment.
-
-Mayhem ensued, loot dropped and in the end only the guy sitting the furthest
-away from the action survived the assault by the accused's pals. three dead
-to solve a robbery. wth! 
-
-now the shivering sole survivor and inheritor of all the trashy loot i can't
-haul away want to make funeral music with a clay triangle. a clay triangle!
-one moment while i get him one..
-
-wait! one body is missing. ah! one more survivor after all. he freaked out and
-ran away.  good for him.
-
-**** Unconscious Adventurer
-Some are fakers, the others, well, unconscious just like that musician we found
-in that burning house last week. In FARA it seems all musicians are failures
-living in the woods, annoying even the imps! But I digressed..
 
 
-*** Locations
-#+TOC: headlines 1 local
-**** Campsite
+*** Campsite
 Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
 other. Some are trying to leave their prior associates behind and change their
 ways, others are just looking to hole up until the heat passes down. Too bad for
@@ -3600,7 +3558,7 @@ them that they see you as the threat to their lives that you are. I mean, you
 would have talked to them first if they hadn't gone all hostile on you, right?
 
 Poor Sobs, usually don't even have furniture where they sleep.
-**** Castle
+*** Castle
 A noble of one of the factions lives inside here, protected by many guards and
 assassins. You can /interact with the noble and complete missions to earn you
 reputation with the faction they belong to. Rumour has it there might be
@@ -3611,12 +3569,13 @@ valuables if you should dare fight the whole castle.
   - seems like one wants to turn off the lights in there, perhaps even
     dismanteling the braziers and go in with dark-vision companions before
     killing everyone
-**** Colliseum
-Inside here you can find a champion to challenge. You have to enter alone, and
-earn reputation and a lot of treasure if you can defeat the champion.
+*** Colliseum
+Inside here you can find a High level Faction Champion to challenge. You have to
+enter alone, and earn reputation and a lot of treasure if you can defeat the
+champion.
 
-probably requires several pieces of masterwork equipment and some godlike stats
-**** Dens
+Requires several pieces of masterwork equipment and some godlike stats.
+*** Dens
 Inside you can find a legendary beast to fight.
 
 - Unlit.
@@ -3624,7 +3583,7 @@ Inside you can find a legendary beast to fight.
 - Crazy scout by 'move forward, throw lit torch and retreat' might let you
   trade a blight for a newly scouted monster. is that worth it?
 
-**** Dungeon
+*** Dungeon
 A series of corridors and rooms, guarded by traps, ancient guardians and many
 horrors lurking in the dark. In the first room there's an altar with a rune of
 some element. You can find a lot of treasure inside. Remember to bring something
@@ -3640,7 +3599,7 @@ I used to do /mark in dungeons before we had a local map, and before local
 waypoints were a thing It was very very easy to get lost in there, and no way to
 quickly exit
 
-**** Encampment/ Unknown Camp
+*** Encampment/ Unknown Camp
 - single building
 
 or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
@@ -3672,7 +3631,7 @@ have a good variety of booze on hand too, those louts.
 - 5ish buildings offer 3+ random pieces of furniture
 - its probably where you'll find your first benches
 
-**** Fortress
+*** Fortress
 - safe to salvage the doors for 6? ot 8? iron until you have picked a faction
 - this is where you donate medals in exchange for reputation and access to traits
 - dropping some walls/maybe buildings as one enters a hostile fortress and going
@@ -3680,7 +3639,7 @@ have a good variety of booze on hand too, those louts.
   faction' endgame. but idk. i will find out.
 - word is that its ok to enter hostile faction fortresses.
 
-**** Hunting grounds
+*** Hunting grounds
 Starts to spawn after completing certain amount of quests in one of the
 villages. In other words, You can get hunting ground quests once you've become a
 hero of a settlement.
@@ -3701,7 +3660,7 @@ They are a challenge for any type of character, so being prepared is very import
 - found my first camp randomly in the wild ~320km from relica.
   - had never taken the quest offered me in relica.
 
-**** Labyrinth
+*** Labyrinth
 
 Dont go exploring them in the dead of night without a [[Lights][light]]!
 
@@ -3709,7 +3668,7 @@ Safe and super high rewards and likely to confuse the hell out out of you for
 longer than you might have patience for. Be prepared for {Masterwork} items and
 other items of awe .. in 90..120 minutes.
 
-***** Leaving a trail
+**** Leaving a trail
 These scribbles might help you to mark up the laby while you're doing so that
 you can leave and come back without loosing the place you were last exploring!
 
@@ -3736,7 +3695,7 @@ to say back when books were a thing.. "left as an exercise for the reader."
 
 -- the Mintaur
 
-***** Using Waypoints
+**** Using Waypoints
 
 Mantecarl chimes in with this incredible paint saving measure:
 - I've been doing this thing in labyrinths were I set a local waypoint in all 4
@@ -3754,12 +3713,12 @@ the elder and others, but it gave me the ability and motivation to go from
 exploring a distance of up to 200km to setting up a little outpost 380km from
 Relica.
 
-**** Masterwork forge
+*** Masterwork forge
 
 - These let you upgrade a (refined) and <artisan>'d item once more.
 - I remember hunting for these in the nightmare versions of 2019.
 
-**** Ruins
+*** Ruins
 You come across 6/7? to 9 delapidated buildings in this frequent, somewhat hard
 yet doable encounter.
 
@@ -3790,36 +3749,13 @@ way.
 
 - Usually lots of Great Food from Chefs and Alchemists who must have once had a
   colony here.
-
-*** Just plain cool
-Random things and places one might never see again..
-- An Equestrian NPC riding a Gryphon
-- An Island in the middle of a deep lake
-- Rivers running through a map
-
-**** Cow pasture
-Found a serene pasture with a cow, a little lake, lots of flowers, and a
-BigChest. I petted the cow a zillion times, fed her a flower and took her to
-the nearest settlement.
-**** A shrouded figure
-Just that. Empty woods, Orange Square. Hollow eyes look at me and the figure
-vanishes before I can inspect them. Spooky. Is he the guy taking all the kids I
-can't find? Was he in one of the graves I dug up? What did I stumble on? I just
-needed a wooden log! Should I dig there? /pug wonders on, then, wait! ..
-
-Awakening as from a dream, he recalls the moment his memories began. There he
-had seen that figure loitering over one of the bandits that keep coming after
-him and his cow. Did that figure save him from a certain death? Is he somehow
-connected to that society of researchers only elders seem to know about?
 ** NPCs
 #+TOC: headlines 1 local
 
-As elsewhere the stories I tell about the different characters and their
-fantastic schemes and relations are entirely fantastic and straight from my
-imagination.
-
-I write them for the same reason that I don't cheat: Even a little bit of
-storytelling keeps the fantasy alive and prevents play from becoming a grind.
+How and how often you interact with an NPC affects your relationship
+with them. You will quickly become Best Friends with Relica's Elder
+and other quest-givers you help .. leveling up your rewards in the
+process.
 
 *** Arcane Researcher
 Though often found muttering to themselves, the Arcane Researcher, psychic and
@@ -3846,9 +3782,7 @@ So I don't know. Did his psychic let him give me one kind of rune that I had nev
 before then picking something destructive randomly? I'll have to solicit and wait for
 feedback to get clear on that, or try it again in the next game. Respect!
 
-*** Champions 
-Challenge them once you're past the "Age of Steel", even then you might regret it!
-Remember they are Faction Leaders.
+Can sometimes be found randomly as you're stumbling through the wilderness.
 
 *** Dummy
 The combat dummies you'll find in all settlements give you a taste of the damage
@@ -3890,6 +3824,19 @@ These will gang up on you and you'll want to be really careful to not get the El
 involved in a fight because he will end your game by kicking you out of 'his' world
 permanently.
 
+*** Farmers
+A real *<Gem>* from Discord!
+
+"It was a random encounter, there was 1 small building, 2 commoners, and 1 farmer
+NPC. The farmer NPC only gave quests to collect and return 2-3 crops (items)
+from around the map, rewarding a tool chest or small check for each completed
+quest.
+
+I could repeat these indefinitely, and after a while, the chests became refined,
+and then artisan. The artisan small chests gave artisan items, which I mostly
+salvaged, giving me runic shards.  Basically, the farmer is a safe and infinite
+(albeit a little tedious) source of runic shards."
+
 *** Nobles
 Also appear to colludes with the researchers, but their power and influence in
 the realm is nowhere near to that of the Elders. Not much is known about the
@@ -3898,6 +3845,13 @@ transformation of Nobles to Elders, nor do all that many survive into old age.
 *** Riddler
 Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
+
+*** Scouts
+- Scouts give waypoints to settlements
+  within a range they know about
+- All scouts within, say, 50km? 75..100km? around Relica seem to know the same thing.
+- Belong to a faction. Are they all Will of the Wild?
+- Found in the wilderness, woods usually.
 
 *** Smuggler
 Insight Good+, Charm Average:
@@ -3955,8 +3909,29 @@ think that *winning was a bad idea!*  Lets hope I've run into a bug here.
 *** Townies
 See [[Desperate Times][Desperate Times]]. 
 
+Commoners can also be stumbled upon while traveling.
+
 *** Traders
-See [[Trader][Trader]].
+Found randomly on the map.. is a trader who atm no one actually knows what to do
+with them. A bug was fixed after I reported my story. To be seen what he does
+now. Share if you find one!
+
+**** My Story (from before the bug-fix)
+TRADER... He said he had nothing to trade, so i gave him some loot, left the map
+to get some more, came back, he was gone .. but had left me a BigChest.  Please
+try that if you see one and confirm!
+
+(This seeming discover appears to have surfaced a bug and atm, an upcoming update
+will reset the game of figuring out what traders do. Perhaps they'll soon trade?
+Stay tuned!)
+
+*** Unconscious Adventurer
+Some are fakers, the others, well, unconscious just like that musician we found
+in that burning house last week. In FARA it seems all musicians are failures
+living in the woods, annoying even the imps! But I digressed..
+
+Mine didn't like fruit or drink, but I finally figured out something I could
+feed them to get them back on their feet.
 
 ** Party
 #+TOC: headlines 1 local
@@ -4122,6 +4097,183 @@ even further from Relica than where you first got the suicide invitations.
 
 If you rush yourself, [[Blights][you'll die]]. Farawella!
 
+** Settlements
+#+TOC: headlines 1 local
+#+begin_quote
+You know, if you wall off a city then you can sleep were ever you want.
+#+end_quote
+
+*** Buildings
+#+TOC: headlines 1 local
+
+This section is about the unlockable building you can find in every settlement.
+Completing all of them makes you a Settlement Hero, which is a Title that can
+be useful when you want to talk to or hire NPC's for your travels.
+
+The costs were transcribed from Relica by Pug.
+
+Don't compromise on gear to invest in buildings,
+You only *need* the Warehouse at the start.
+
+**** Warehouse
+"Gives access to a thing that helps you move to other settlements."
+
+***** Cost
+- 2 medals
+- 20 wooden planks
+- 10 ropes
+
+***** Benefits
+- Crucible that gives shared access to your stash of buffs, situational uniques,
+  and supplies for expanding elsewhere.
+
+- 6 Storage bins, probably best when only used in Relica, that let you get rid of
+  things you dont want to see but dont want to loose. See [[Item Management]]
+
+**** Stables
+How!?@?#
+
+***** Cost
+- 2 medals
+- 10 copper ingots
+- 5 wooden buckets (got recipe after opening refinery)
+
+***** Benefit
+Aha's from looking at my first Stables.
+Yours will be similar I'd think. So.. Oh!
+
+- its a farm with spice and tree plots! 
+  - a garlic and a fennel plot
+  - a lemon and a maple tree plot
+- farmer and stablemaster work here
+  - there's also a young deer. should i bring the cow?
+- also dropped a Starcloth and a Velvet Saddle
+  - these materials i'd not seen before i opened the building
+
+
+**** Tavern
+
+***** Cost
+- 2 medals
+- 5 wooden stools
+- 5 glass mugs
+
+***** Benefit
+- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
+  - blue prints and rare materials
+- A High level merc that wont talk to you until a title or two
+- A Well skilled merc that can hold his own
+- A Damsel in distress NPC i escorted elsewhere
+
+Have to check up on the patrons there again.
+If all that got me was a gambling chance at BPs, fine!
+
+**** Obelisk
+#+TOC: headlines 1 local
+***** Cost
+- 2 medals
+- 10 stones
+- 25 runic shards
+
+***** Benefit
+The same damn obelisk you keep finding in the wilderness, but with a researcher
+that offer runes for sale and who keeps the rock polished.
+
+- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
+
+- Single level upgrade obtained by beating the Bosses at Ruins become less
+  attractice once you have this, but its hard to beat 'free and scary'.
+
+***** Staff
+An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
+conducting his private business without bothering you with extra tasks.
+
+***** Prices
+
+****** Spell upgrades
+|--------+------------|
+| Shards | upgrade to |
+|--------+------------|
+|      5 | Improved   |
+|     10 | Greater    |
+|     15 | Superior   |
+|     20 | Flawless   |
+|--------+------------|
+|     50 | new > max  |
+|--------+------------|
+
+
+****** Custom Runes
+
+tbd
+
+**** Refinery
+#+TOC: headlines 1 local
+A smith that makes a lot of (refineried) items.
+
+***** Cost
+- 4 medals
+- 15 iron ingots
+- 5 iron hammers
+- 5 wooden benches
+- 5 wooden tables
+
+***** Benefit
+
+Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
+you. He has manic inspiratitions, you bring him what he asks for, he levels up
+and crafts whatever he damn well pleases.
+
+- Does away with your excess Medals.
+- Consumes your excess resources.
+- "Discovers" Recipes for Items you've been dying to find.
+
+***** Notes
+After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
+stables. That was nice. I also got a nice everburning? lantern that helps to
+attract even more encounters at night
+
+Here's a log of what he did for me in the beginning:
+
+- each item cost 1 Medal
+- all but the first item were of (Refined) Quality.
+
+| Mat  | Qty | Result         |
+|------+-----+----------------|
+| bone |   1 | ball           |
+| tin  |  20 | organ          |
+| tin  |   5 | spear          |
+| tin  |   2 | clip           |
+| bone |   2 | bucket         |
+| bone |   2 | grappling hook |
+| bone |   2 | sign           |
+| bone |   1 | goggles        |
+| tin  |   1 | box            |
+| tin  |   1 | lantern        |
+| bone |     | lantern        |
+| bone |     | violin         |
+
+I might have missed an item there, but suddenly he asked for a crafted input,
+turning *bone nunchucks > swordchucks*.
+
+After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
+coming close to a new materials tier after 12..13 runs.. Verry nice, very
+grindy, very medal-expensive!
+
+*3 wooden blocks > wooden anvil*
+
+Afterwards he wanted bones again..
+
+Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
+of his more sensible items. neat!
+
+- Keeping these prototypes makes sense to me right now.
+
+- Signs.. used to be terribly important in the old version i played. Perhaps
+  they have a discoverable function..
+
+- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
+
 ** Spells
 #+TOC: headlines 1 local
 
@@ -4236,7 +4388,27 @@ takes only 3 hits
 - still, air quickness is terrible compared to the spell alternative
 - I'd prefer going through the 2 steps of effort to add an air rune to my weapon, which gives me quickness extremely often, than having to max out water attunement for decent healing
 
+*** Random Notes
 
+#+begin_example
+Something very good to have if you have 2 or more spell slot 
+is a curse spell + another damaging spell.
+Probably better if you have 3 spell slots, 
+so you have some utility in your last one
+
+yeah fire spear adn curse is brutal
+lol, Spear of brutality:
+
+and have like a ward of healing for a 3rd spell
+shields is also good as an option, because it boosts your attunement:)
+
+I saw one of my mercs had casted a shield
+And I looked at the stats on my reanimated corpse the shield was casted on
+And it had attunement in the shield's element
+
+Earth + Fire means slow + poison + burning (maybe?) and extra damage
+
+#+end_example
 * Pug's Notes
 #+TOC: headlines 1 local
 Look, I wrote this!
@@ -4616,6 +4788,7 @@ Soft Leather, Thick Padding Traveling Boots of Stealth?
 *** New Location?
 
 The Quick Version? "*-*" to get the mini-map, "*X*" to get back to overland.
+- You can use the "*-*" on your numpad, goes well with "*Esc*" to close the mini-map.
 
 
 I use this ~38 step pattern to explore new locations so that i see almost all
@@ -4887,6 +5060,152 @@ but they make jumping and dodging cost more stamina
 
 Ahhh
 
+** Thoughts and Impressions / [[https://itch.io/t/1346537/thoughts-and-impressions][Itch Question, my answers]]
+#+TOC: headlines 1 local
+(unedited as is. a bit long, might edit this down into a dialogue or break it up
+into individual questions)
+
+*** Q:
+- Can't figure out how to complete the "missing child" quests?  I can never find
+  the child in the specified location, and usually abandon those quests. Are you
+  meant to search (search command) the last known location of the child, or is
+  the child simply not guaranteed to be in the targeted location, and may be in
+  the surrounding area instead? Or a combination of the two?
+
+- Escort quests seem very profitable, with a guaranteed artifact as reward, if a
+  bit dangerous, as well as requiring you not to hire more than one mercenary,
+  which is a significant hit to your overall power. It also appears to be a good
+  idea to escort them directly to the desired location, without detours, as
+  they're likely to die otherwise , particularly in dangerous quest
+  locations. You could give them a weapon , of course, but then you'll lose it
+  when you complete the quest.
+
+- Certain pieces of equipment seem to be extremely fragile, especially anything
+  made out of cloth- masks, kilts, etc. I've looted a full set of rune-infused
+  cloth clothing in between towns and had them destroyed before I arrived. I've
+  concluded that the best approach with such equipment is to immediately salvage
+  them for the runes.
+
+- Blights are an interesting and flavorful part of the game, and I appreciate
+  the wide array available, but it's quite punishing to not only receive a
+  permanent negative condition but lose all of your equipped items, which are
+  usually the best equipment you have available, and your party members, who
+  usually also have the second-best equipment you have available. Invariably, I
+  take a look at the blight I received, the equipment I have left in my
+  inventory, and commit suicide anyway- there's a certain point where it's
+  painful to continue, and I'd rather just start a new game. This also leads to
+  a strange strategy of unequipping all of your items if you think you're going
+  to die, although I can't tell if that's intended or not. The only thing I can
+  say is that, perhaps, the owner of a character with nine key fragments might
+  look at things differently...
+
+- How do you tame animals? The only information I've found is that you need to
+  give food to creatures to tame them- what counts as suitable food? I've found
+  dishes in supply crates, but the Chef and Alchemist class flavor texts also
+  seems to suggest that you can cook meals as well- how is this possible?
+  Finally, I'm assuming that you can only tame certain animals- I've seen NPCs
+  riding Moose and Horses, and Pug the Mage in their reply to my Spellthief Bug
+  post mentioned Grizzlies as well. Are tamable animals found in the wild?
+
+Well, I think that's it; I'll add some more comments if I think of them.  All
+ replies appreciated!
+
+Edit: I see hunger and thirst were removed; I was wondering about that.
+
+Edit #2: I upgraded my Crystal Wand to Refined quality, and the attribute
+bonuses didn't increase? What's up with that? Also, I see that different items
+require more or less material depending on their size which makes
+sense. However, for example in this hierarchy: Staves -> Sceptres -> Wands, are
+the heavy-attack effects of Staves actually objectively better than of Wands? I
+haven't played long enough to know how useful the different effects are
+objectively, though it seems like the elemental attunement reduction of Staves
+would be more useful than the elemental absorption effect of Wands, if you've
+already infused your weapon (for this reason I'm slightly regretting upgrading
+my wand, but I'll probably upgrade it to Artisan anyway since I've already used
+up a toolset). This, of course, applies to other equipment as well. Thanks!
+
+Edit #3: My mercenary, Joniqua, keeps entering "droping" status right now, where
+they drop anything they're holding. I can't get them to wield anything. How do I
+fix this? I'm considering just firing them, given that they're only an amateur
+mercenary...
+
+Edit #4: Apparent bug, my water-infused Crystal Wand doesn't heal me at all when
+I heavy attack, even though I get the message.  Haven't been able to test it
+with melee weapons.
+
+*** A:
+
+Alright..
+
+/say follow me! or /shout come here will get the attention of any freaked out
+and therefore stealthed child within earshot. You might need to move around and
+look into different corners of the map for them them to hear you. not too far
+when you shout or use a "!" when you say something.
+
+escorting people gets a whole lot easier when you /stealth travel from here to
+there. of course you'll likely wind up almost drowning in the middle of a lake
+when you're only halfway to your destination, and likely at night and in the
+middle of a desert where there's no wood to be found to build an overnight
+shelter. So take two wooden logs, one for planks for a shelter, and one for a
+door to install there. do /stealth again to unstealth the moment you wind up in
+that lake i mentioned or you might really drown and die.
+
+the rewards vary a lot in quality and can be rather silly bad if you've not done
+other quests with that person before. so keep than in mind and take another
+quest or two from them so the rewards get better. sometimes you get someone who
+has to do a lot of travel for spoilery reasons and you might get lucky with
+something really great that you can use for a while. but hey.. none of their
+goodies can take runes which makes them useful only within a few 100 km from
+home.
+
+Fragile stuff? yes. totally. that will make sense -- and yes, /salvage and /drop
+things into your stash house with /ds when you get home traveling in /stealth
+while /wearing your equally fragile at first bags!
+
+Avoid Blights and deaths with "the strategy of running away" and hoping that the
+next map you drop into to heal won't have some imp nuking the last bit of life
+out of you. And simply .. never enter dungeons, dens or coliseums. simply don't.
+Always upgrade to the best stuff you can find and consider holding a shield or
+two for their damage reduction ..
+
+.. and getting at least a grizzly to accompany you. or a lake-monster, or an elk
+or something bigger than you!  /pet them until they are happy and /give them a
+treat. if they like you well enough you'll have their loyalty for life. that
+means you can leave them somewhere and they will rejoin you later when you
+remind them of your friendship with another treat!  Pets are FARA's better
+people. At least until you find a merc that's not simply a stuff-dropping idiot
+without any spells or buff-giving abilities that help instead of hinder you.
+
+Once you have a few bags you can swap a grizzlies for a merc to help you carry
+things. In combat though, they might cost you more in equipment repair than
+you're willing to pay at first! So, /inspect and /salvage everything so you
+collect /recipes right from the start, make some big shields and troll the woods
+around the farthest away from home place you've ever been - in hopes for a bear
+that's not a young bear. mind you, a young grizzly will totally rock for a long
+time, but look for the strongest you can find and take them back into the easier
+zones around Relica to make it easy on yourself.
+
+Once you used a tool you'll have its recipe available. Click on a runic shard
+from a salvaged rune for the details. And yes, the upgrade do make the equipment
+stronger and more durable. Its hard to see sometimes. But you want
+that. Consider also a workbench for all your repairs .. and repair that with a
+repair kit. keeps costs down.  -- don't upgrade too much stuff, look instead to
+improve your relation with any npc in the next town you find by doing quests for
+them. This will give you better stuff without you needing to upgrade things
+you'll only need until you for a transition to iron or steel or whatever the
+better cloths are for mages.  idk, i'm playing melee, not a mage.
+
+And hey, heavy attacks with your wand will heal you a little bit. normal attacks
+dont do that. the more water runes you have in your gear, the more that healing
+will be, but you want to find and treasure any rejuvenation rune you find and
+then upgrade to the hilt any spell you make with that. That's what you want to
+keep some of the shards you're making for!
+
+Two more things.. unlock the warehouse!  and read my notes. they have a pretty
+good index and a whole bunch of tables full of detailed info for my next run at
+the game. They should help you too.. and if something's missing, send me your
+notes via DM on the discord or a comment on the github or perhaps even here.
+
 ** Screen size frustration
 https://itch.io/t/645187/screen-size-frustration
 
@@ -5116,6 +5435,27 @@ you can cast it 8 times and then stealth, and the guards won't have time to reac
 the only danger would be if you destroyed the key to the door
 
 --
+Find a smoking pipe and some goblingrass, hold them both
+/s m o k e
+
+--
+there's other ways of getting keys though haha
+Not only by killing the noble you can get their key
+
+--
+once you get enough gear it should be possible
+Probably better if you have some AoE spells to clear the guards quickly
+
+the other way would be to get insanely lucky and fish 10 key fragments in a row
+
+dont arcane obelisk and hollow forges spawn like 13 map blocks away from Relic
+
+That's why I asked if the speedrun route would be possible. It was literally just weapon > noble > noble > noble > noble > noble > noble > noble > noble > noble > noble > done
+
+oh right It's much slower than before, that's for sure
+
+
+B.J.W are my fiancee's initials, and T.L.C is one of my best friends and FARA's first alpha tester.
 
 
 *** what classes do yall like the most
@@ -5204,6 +5544,9 @@ ability to surprise you in unexpected ways!. If you're not sure what you typed
 last, type / then press "up arrow". Not that that would save you from surprises
 though.
 
+- *[* and *]* allow you to change the size of the structure you're building.
+- *{* and *}* allow you to rotate the entrance location. 
+
 ** Talking
 
 Unless you are a [[WILDHEART][Wildheart]] you can talk to your pets and /say or /shout whatever
@@ -5267,6 +5610,9 @@ You want to make a shelter and a install a door before you sleep, because
 thought of having to cross deserts at night without 2 logs. one for a shelter,
 one for a door.
 
+Outdoors; sleeping next to a firepit/campfire/torch on your cloak; climb and 
+sleep atop a tree.
+
 ** Stealth
 
 * Supplemental
@@ -5291,25 +5637,30 @@ the lizard it was already dead due to my cat scratching it. So, i was happily
 saved by my cat :slight_smile:    -- /joni75/
 
 ** Guides to the current version
-*** /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A Tourist's Guide to FARA]]
-Written by a master of the game to show you how the game is played.
-*** /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][FARA Item Compendium]]
-A spreadsheet focused on Weapon and Armor details with Recipe Information.
+*** /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8][A Tourist's Guide to FARA]]
+Written by a master of the game to show you how the game is played:
+- /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8][A Tourist's Guide to FARA]]
+
+*** /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg][FARA Item Compendium]]
+A spreadsheet focused on Weapon and Armor details with Recipe Information:
+- /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg][FARA Item Compendium]]
 
 ** Guides and info for earlier versions
 *** /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
 Written by a master of the game for an old version,
-the spirit of Über, some relevancy remains.
+the spirit of Über, some relevancy remains:
+- /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
 
 *** From Reddit
-Might have been the best overall texts for the old versions
-- https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/
-- https://www.reddit.com/r/fara/comments/aoizn2/beginners_guide/
+These might have been the best overall texts for the old versions:
+- /Reddit's/ [[https://www.reddit.com/r/fara/comments/ap4f50/hints_and_tips/][ap4f50/hints_and_tips]]
+- /Reddit's/ [[https://www.reddit.com/r/fara/comments/aoizn2/beginners_guide/][aoizn2/beginners_guide]]
 
 *** From Wiki
-Still mostly about old versions. 
-What useful info for 2021 I found there has been incorporated here.
-Its most functional page: [[https://fara.fandom.com/wiki/Special:Categories][Wiki/Categories]].
+Info for the version current in 2021 has been incorporated here.
+Its most functional page:
+- /Wiki's/ [[https://fara.fandom.com/wiki/Special:Categories][Categories]]
+- /Wiki's/ [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Updates]]
 
 ** Release Notes
 Here are *ALL* of Brian's FARA Patch and Release Notes public as of 2021.04.25.
@@ -7350,11 +7701,12 @@ For more, join the
 links, and, of course the
 [[https://www.startpage.com/sp/search?query=FARA+Roguelike&cat=web][Web]].
 
-Also see /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit#gid=189988102][FARA Item Compendium]],
-and /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8/edit][A Tourist’s Guide to FARA]],
+Also see /Mishaal's/ [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg][FARA Item Compendium]],
+and /Mantecarl's/ [[https://docs.google.com/document/d/1ZDaeNMFL8keWJFjHb4RbtJWHLHMpzdWgaabcnTl_5D8][A Tourist’s Guide to FARA]],
 and maybe /Degritone's/ [[https://fara.fandom.com/wiki/Degritone%27s_Guide_to_100k_Points][Guide to 100k Points]]
 though that one still need updating for 2021.
 The first two docs are already up to date!
 
 Enjoy!
+
 
