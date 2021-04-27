@@ -22,8 +22,9 @@ can be sorted, the big map became much nicer and overall - there's a ton of nice
 little tweaks! - *the game has become much nicer to play*. So cool! Thanks
 Brian!
 
-- Latest [[https://brianiscreative.itch.io/fara/devlog][Devlog]], [[https://discord.gg/FEp52yj][Discord]], [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Wiki-Updates]], [[https://brianiscreative.itch.io/fara/community][Itch-Posts]].
-- Goto [[Guides to the current version][Guides to this and older versions]].
+- FARA [[https://brianiscreative.itch.io/fara][Homepage]], [[https://brianiscreative.itch.io/fara/devlog][Devlog]], [[https://brianiscreative.itch.io/fara/purchase][Download]].
+- Latest [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Wiki-Updates]], [[https://brianiscreative.itch.io/fara/community][Itch-Posts]].
+- Goto [[https://discord.gg/FEp52yj][Discord]], [[Guides to the current version][Guides]].
 
 * Intro
 #+TOC: headlines 1 local
@@ -1233,6 +1234,8 @@ and do not receive any penalties while prone.
 Above Average Health, Good Strength, Above Average Charisma, Below Average Intelligence, and 1 Spell Slot.
 
 Points required: 50,000
+***** Note
+that'd be 40 inventory to start with!
 *** Summary by # Spells
 
 *WORK IN PROGRESS -- Updating 
@@ -1689,6 +1692,47 @@ Head Armor Items; all crafted from 1 soft material.
 - Yes, Boots made from soft materials provide a bonus to Finesse while those
   made from hard materials do not.
 
+** Bags 
+
+The material determines your attribute bonuses and might have an effect on
+durability.
+
+|----------+-----------+----------+---------+---------+------------|
+| Bag      | Materials | Capacity | Refined | Artisan | Masterwork |
+|----------+-----------+----------+---------+---------+------------|
+| Satchel  | 2 soft    |       10 |      15 |      20 |         25 |
+| Bag      | 3 soft    |       15 |      20 |      25 |         30 |
+| Backpack | 4 soft    |       20 |      25 |      30 |         35 |
+| Sack     | 5 soft    |       25 |      30 |      35 |         40 |
+|----------+-----------+----------+---------+---------+------------|
+
+- The [[MERCHANT][Merchant]] class has *twice* the usual inventory capacity from the beginning.
+- And the Hauler trait increases your inventory capacity passively
+- If you've seen a legendary bag, I'd like to know!
+- Consider using at least one [[Definitely craftable.][Hidden Pocket]] curio.
+
+** Bottles
+
+Are
+Bottle,
+Bowl,
+Bucket,
+Cauldron,
+Cup,
+Flask,
+Keg,
+Jug,
+Mug,
+Stein,
+Teapot,
+Urn,
+Vial &
+Waterskin
+all of them?
+
+These provide the ability to carry water on your trips. I find I'd rather carry
+a piece of fruit to regain stamina, but tastes vary oc.
+
 ** Curios
 :PROPERTIES:
 :ID:       c837a2d5-bf82-4b42-ba0d-5bbeab6eda64
@@ -1730,53 +1774,7 @@ craftable once you've discovered or obtained their recipes.
 | Nimble Wrap   | +FIN                       | 5 Animal Pelts  |
 |---------------+----------------------------+-----------------|
 
-** Equipment
-:PROPERTIES:
-:ID:       3dc18f43-b2f9-4fb6-980e-06a576864ee7
-:END:
-#+TOC: headlines 1 local
-*** Bags 
-
-The material determines your attribute bonuses and might have an effect on
-durability.
-
-|----------+-----------+----------+---------+---------+------------|
-| Bag      | Materials | Capacity | Refined | Artisan | Masterwork |
-|----------+-----------+----------+---------+---------+------------|
-| Satchel  | 2 soft    |       10 |      15 |      20 |         25 |
-| Bag      | 3 soft    |       15 |      20 |      25 |         30 |
-| Backpack | 4 soft    |       20 |      25 |      30 |         35 |
-| Sack     | 5 soft    |       25 |      30 |      35 |         40 |
-|----------+-----------+----------+---------+---------+------------|
-
-- The [[MERCHANT][Merchant]] class has *twice* the usual inventory capacity from the beginning.
-- And the Hauler trait increases your inventory capacity passively
-- If you've seen a legendary bag, I'd like to know!
-- Consider using at least one [[Definitely craftable.][Hidden Pocket]] curio.
-
-*** Bottles
-
-Are
-Bottle,
-Bowl,
-Bucket,
-Cauldron,
-Cup,
-Flask,
-Keg,
-Jug,
-Mug,
-Stein,
-Teapot,
-Urn,
-Vial &
-Waterskin
-all of them?
-
-These provide the ability to carry water on your trips. I find I'd rather carry
-a piece of fruit to regain stamina, but tastes vary oc.
-
-*** Lights
+** Lights
 
 |---------+--------+--------------------------------------------------------|
 | Light   | Burns  | Note                                                   |
@@ -1797,21 +1795,6 @@ a piece of fruit to regain stamina, but tastes vary oc.
 |--------------+----------|
 
 - Climbing does not extend the light's circle. 
-
-*** Riding, Fishing, Digging, Mining
-|-------------+--------------------------------------------|
-| Saddle      | Can be used to ride a mount                |
-| Shovel      | To dig with                                |
-| Pickaxe     | For digging and mining                     |
-| Fishing Rod | Still looking for what to do with those ;) |
-|-------------+--------------------------------------------|
-*** Repairing
-|-------------+------------------------------------------------|
-| Item        | Note                                           |
-|-------------+------------------------------------------------|
-| Repair Kits | very light and cheap; single use               |
-| Workbenches | repairs party equipment! repairable with a kit |
-|-------------+------------------------------------------------|
 ** Furniture
 :PROPERTIES:
 :ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
@@ -1904,7 +1887,7 @@ demand that an unopened stables in a good location be made into an orchestra pit
 :PROPERTIES:
 :ID:       8102e531-8c10-4982-ac30-cd1893ccadb8
 :END:
-Beaks and claws and..
+Bee-hives, Beaks and claws and combs, nose- and ear-rings..
 
 ** Qualities
 :PROPERTIES:
@@ -2093,6 +2076,14 @@ Whips Runes
   spell slot, try an Arcane Ward (no elemental runes,) combined with Fury,
   Rejuvenation or any other effector rune.
 
+- *Elementals* summons an allied elemental in the targeted location, of the
+  infused element(s?). This can be quite powerful, as it's possible to prevent
+  enemies from ever reaching you as more and more elementals join the fight.  As
+  far as I can tell, normally when you cast an Elemental spell you target a 3x3
+  square, centered on the elemental. The elemental will only attack targets
+  affected by the area, and will dissipate after they (moved out? or?) are dead.
+
+
 **** All spells are created equal...
 ...Except beam, meteor, and barrage spells
 
@@ -2255,6 +2246,33 @@ so keep experimenting with the ever improving ui.
 For On-Person Storage, see [[Bags][Bags]] 
 - also, consider using your [[Mercenaries][party]] as loot mules!
 - still have to see if saddles give carry capacity to your [[Pets][pets]].
+
+** Tools
+#+TOC: headlines 1 local
+
+*** Crafting
+|---------------+----------------------------------------|
+| Item          | Note                                   |
+|---------------+----------------------------------------|
+| Forge         | Unusable (returns items when salvaged) |
+| Pottery Wheel | does nothing?                          |
+|---------------+----------------------------------------|
+
+*** Repairing
+|-------------+------------------------------------------------|
+| Item        | Note                                           |
+|-------------+------------------------------------------------|
+| Repair Kits | very light and cheap; single use               |
+| Workbenches | repairs party equipment! repairable with a kit |
+|-------------+------------------------------------------------|
+
+*** Riding, Fishing, Digging, Mining
+|-------------+--------------------------------------------|
+| Saddle      | Can be used to ride a mount                |
+| Shovel      | To dig with                                |
+| Pickaxe     | For digging and mining                     |
+| Fishing Rod | Still looking for what to do with those ;) |
+|-------------+--------------------------------------------|
 
 ** Traps
 - Classes that love them Engineer, Scoundrel.
@@ -3197,7 +3215,7 @@ Discord voices
 
 ** Encounters
 #+TOC: headlines 1 local
-
+Ambushes and things you'll find on maps
 *** Abandoned Shack
 Single Building in the woods, no hostiles, tool-chest .. 
 and a single powerful trap.
@@ -3348,6 +3366,9 @@ one moment while i get him one..
 
 wait! one body is missing. ah! one more survivor after all. he freaked out and
 ran away.  good for him.
+
+*** Wishing Well
+You'll know what you'll get, just not when. cool.
 
 *** Just plain cool
 Random things and places one might never see again..
@@ -3569,6 +3590,10 @@ valuables if you should dare fight the whole castle.
   - seems like one wants to turn off the lights in there, perhaps even
     dismanteling the braziers and go in with dark-vision companions before
     killing everyone
+
+Ask your self ... how many planks do i need to build a 5x5 around the noble and
+my team? just in case you want to kill nobles of your own faction, that is.
+
 *** Colliseum
 Inside here you can find a High level Faction Champion to challenge. You have to
 enter alone, and earn reputation and a lot of treasure if you can defeat the
@@ -4315,6 +4340,7 @@ New:
   - Two earth gave me a tome of earth shield, then an earth chain
 
 
+
 *** Scrolls
 
 If I was an [[ARTIFICER][Artificer]] I might know something about them. But I'm not. At this
@@ -5013,6 +5039,7 @@ Random suggestions/notes/brainstorms/observations.
 - asking not-selected npc to drop something via the p-items-menu does not select them.
   - if they are out of visible range, please dont let me ask them to drop things.
   - the drop the first item of the type, not the specified item
+- drinking from the wishing-well! would, uh, make it a well.
 
 * Q&A
 #+TOC: headlines 1 local
@@ -5509,7 +5536,13 @@ likely to fade into the void again!
 - */split* operates on the selected item, give it a parm for how many items you
   want in a new pile
 
-- *If you happen to be on fire, (stop, drop and) /roll*
+- */name <name>* while targeting a thing names it.
+  Useful with Storage Chests, somewhat useful with npc questgivers you dont want 
+  to work for atm.
+
+- */note <text>* adds a reminder to see with */notes*. Useful for reminders when
+  you take a break and forget what you were going to do.
+
 
 ** KEYS!
 - read the bottom of */keybinds* aka "*K*"
