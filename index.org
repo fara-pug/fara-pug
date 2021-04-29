@@ -24,7 +24,7 @@ Brian!
 
 - FARA [[https://brianiscreative.itch.io/fara][Homepage]], [[https://brianiscreative.itch.io/fara/devlog][Devlog]], [[https://brianiscreative.itch.io/fara/purchase][Download]].
 - Latest [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Wiki-Updates]], [[https://brianiscreative.itch.io/fara/community][Itch-Posts]].
-- Goto [[https://discord.gg/FEp52yj][Discord]], [[Guides to the current version][Guides]].
+- Goto [[Release Notes][Release Notes]], [[https://discord.gg/FEp52yj][Discord]], [[Guides to the current version][Guides]].
 
 * Intro
 #+TOC: headlines 1 local
@@ -1592,6 +1592,7 @@ example: "Ÿou, Director of .."
 :END:
 #+TOC: headlines 1 local
 Trying to pack all the info and stats about the things you craft with in here.
+Use the [[Smuggler][Cheeky Smuggler]] to exchange resources for 1/2 of another at the same rarity.
 
 *** Wiki preamble
 I sooo hope that the wiki/source is more than mostly right on this info
@@ -1630,8 +1631,8 @@ Useful *Very common* Materials without effects on your stats.
 |------------------+-----------------+---------------|
 | Material         | Components      | Source        |
 |------------------+-----------------+---------------|
-| Ceramic Plates   | 2 Mound of Clay | Craft,drops   |
 | Burlap           | 2 Plant Fibers  | Craft,drops   |
+| Ceramic Plates   | 2 Mound of Clay | Craft,drops   |
 |------------------+-----------------+---------------|
 | Mound of Clay    |                 | /dig          |
 | Sand             |                 | /dig          |
@@ -1648,18 +1649,18 @@ Useful *Very common* Materials without effects on your stats.
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 | Name         | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Animal Skins |     | >>  |     |     |     | Very Common | Skin    |                |
+| Animal Skins |     | >>  |     |     |     | Very Common | Skin    | Animals        |
 | Cotton       |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
 | Linen        |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Animal Pelts | >>  | >>  |     |     |     | Common      | Pelt    | Animals        |
 | Silk         |     | >>  |     |     | >>  | Common      | Roll of |                |
-| Animal Pelts | >>  | >>  |     |     |     | Common      | Pelt    |                |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Fine Pelts   | >>  | >>> |     |     |     | Uncommon    | Pelt    |                |
+| Fine Pelts   | >>  | >>> |     |     |     | Uncommon    | Pelt    | Animals        |
 | Lace         |     | >>  |     |     | >>> | Uncommon    | Roll of |                |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Tough Hide   | >>  | >>  |     |     |     | Rare        | Hide    |                |
 | Starcloth    |     | >>> |     | >>  | >>> | Rare        | Roll of |                |
+| Tough Hide   | >>  | >>  |     |     |     | Rare        | Hide    | Animals        |
 | Velvet       |     | >>> |     |     | >>> | Rare        | Roll of |                |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 | Ghostfibers  | >>> | >>> | >>  |     |     | Very Rare   | none    |                |
@@ -1863,17 +1864,18 @@ Curios can be found and some of the curios, perhaps all of them are
 craftable once you've discovered or obtained their recipes.
 
 *** Never Craftable?
-|------------------+----------------------------------+--------|
-| Curio            | Effect                           | Rarity |
-|------------------+----------------------------------+--------|
-| Athletic Band    | Increase Jump distance           |        |
-| Balanced Weight  | Lessen chance to stumble (drunk) |        |
-| Hardened Tack    | Increase critial damage          |        |
-| Thick Padding    | Reduce Noise, enhances Stealth?  |        |
-|------------------+----------------------------------+--------|
-| Hilt Chain       | Thrown Item returns              |        |
-| Metalic Bullseye | Increase throwing distance       |        |
-|------------------+----------------------------------+--------|
+|------------------+--------------------------------------+--------|
+| Curio            | Effect                               | Rarity |
+|------------------+--------------------------------------+--------|
+| Athletic Band    | Increase Jump distance               |        |
+| Balanced Weight  | Lessen chance to stumble (drunk)     |        |
+| Charged Sigil    | Enhances an Object's Elemental Power |        |
+| Hardened Tack    | Increase critial damage              |        |
+| Thick Padding    | Reduce Noise, enhances Stealth?      |        |
+|------------------+--------------------------------------+--------|
+| Hilt Chain       | Thrown Item returns                  |        |
+| Metalic Bullseye | Increase throwing distance           |        |
+|------------------+--------------------------------------+--------|
 
 *** Definitely craftable.
 |---------------+----------------------------+-----------------|
@@ -2392,128 +2394,6 @@ Violin
 demand that an unopened stables in a good location be made into an orchestra pit!
 
 - Forgot to note their sizes. Remember music-class.
-
-
-* Items
-#+TOC: headlines 1 local
-
-This section mixes the useful and important with the useless and trivial.
-It's a bit confused about wanting to be a list, explainer or crafting guide.
-
-** Craftable
-|----------+---------------------+------|
-| Item     | Materials           | Size |
-|----------+---------------------+------|
-| Belt     | 1 soft              |    2 |
-| Cape     | 3 soft              |    2 |
-| Scarf    | 2 soft              |    1 |
-|----------+---------------------+------|
-| Pillow   | 3 Tufts of Feathers |    2 |
-| Towel    | 1 soft              |    1 |
-|----------+---------------------+------|
-| Carpet   | 4 soft              |    6 |
-| Rug      | 3 soft              |    4 |
-| Mat      | 2 soft              |    4 |
-|----------+---------------------+------|
-
-** Furniture
-:PROPERTIES:
-:ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
-:END:
-
-Recipes for all of these items can be found. All these are craftable. 
-Potentially equally useless except those that you need to get the 
-recipes for in order to unlock [[Buildings][Buildings]].
-
-How to arrange
-Bar Stool,
-Bed,
-Bedding,
-Bench,
-Bookcase,
-Bookshelf,
-Cabinet,
-Cage,
-Carpet,
-Chair?,
-Chamber Pot,
-Chandelier,
-Crate,
-Desk,
-Dresser,
-Mattress,
-Nightstand,
-Rocking Chair,
-Rug,
-Stool,
-Table,
-Throne &
-Wardrobe
-into a sensible homesteader's base eludes me still!
-
-- I have collected all but the recipes for Bedding, Chandelier and Mattress
-  which I only know by hearsay.
-- Crates, Cages? do they have a use? Do any of the besides the bed?
-  - and why not store tomes/manuals/scrolls in bookcases and desks etc pp.
-
-Also Statues.. not really furniture, but you can find and learn to build them.
-
-- Does anyone feel like making up a color-scheme for a living space, pretend
-  that items were /colorable, and /installable. I mean, castles look nice..
-
-** Storage
-
-In the beginning simply find an empty house, make a waypoint to take you there
-with "*/slw stuff*", and start making piles for the different types of items.
-
-Do it so that the list of items in that pile does not scroll of your screen.
-When you enter, stop at the first pile and use "*/ds*" to add alike items from
-your inventory at that spot. Then walk to the next pile and use "*z*" to repeat.
-
-When you want to get organized, make "*g*" act as "*/setkey g giveall*" would,
-put yourself onto a storage, "*h*" hold the item you want to put there and press
-"*g*". There are a lot more ways to go about this, including some drag and drop,
-so keep experimenting with the ever improving ui.
-
-|--------------+----------------------------+------------|
-| Carts        | draggable on the local map | 300u       |
-| Storage Bins | upgraded                   | 300u       |
-| Storage Bins | installable                | unlimited? |
-|--------------+----------------------------+------------|
-
-For On-Person Storage, see [[Inventory-expanding][Bags]].
-
-** Utensils
-:PROPERTIES:
-:ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
-:END:
-
-Trophies:
-- Beaks,
-  Claws,
-  Skulls
-
-Vanity/Hygene:
-- Combs,
-  Pipes,
-  Towels
-- Ear & Nose-Rings
-- Rings, Clips
-- some [[Craftable][craftable]].
-
-Eating Utensils:
-- Forks & Spoons
-- Bowls & Plates
-- plenty of [[Liquids][containers]] for [[Alcohol][drinking]] too.
-
-Home-Office:
-- Inkwells & Quilts/Pens?
-
-The further out you go, the rarer the things you find;
-*Skulls* and other items might seem useless 
-but might actually give a buff or provoke/enable encounters.
-tbd.
-
 * Food
 :PROPERTIES:
 :ID:       a46d5428-71b1-4ce2-bf77-b85e8568b8c1
@@ -2601,7 +2481,6 @@ Cook sites:
 
 - Campfires
   - are destroyed by immolation more quickly
-  - add a log to get a Bonfire. unsure about effects on cooking
 
 - Firepits
   - last forever?
@@ -2610,7 +2489,7 @@ Cook sites:
 - Stoves and Furncaes are a thing as well.
   They are robust, not too expensive and look good in the home.
 
-Capacities all seem to be around 10.
+Durability is never a problem, capacities all seem to be around 10.
 
 
 ** Drinks
@@ -2838,6 +2717,610 @@ By the power of magic..
 When you infuse multiple runes into a firepit you'll get the wonderful combo names
 used for [[Elements][Elemental Combos]] applied to your Meals, with the last infused element
 determining the elemental attunement your food will provide.
+
+
+* Items
+#+TOC: headlines 1 local
+
+This section mixes the useful and important with the useless and trivial.
+It's a bit confused about wanting to be a list, explainer or crafting guide.
+
+** Craftable
+|----------+---------------------+------|
+| Item     | Materials           | Size |
+|----------+---------------------+------|
+| Belt     | 1 soft              |    2 |
+| Cape     | 3 soft              |    2 |
+| Scarf    | 2 soft              |    1 |
+|----------+---------------------+------|
+| Pillow   | 3 Tufts of Feathers |    2 |
+| Towel    | 1 soft              |    1 |
+|----------+---------------------+------|
+| Carpet   | 4 soft              |    6 |
+| Rug      | 3 soft              |    4 |
+| Mat      | 2 soft              |    4 |
+|----------+---------------------+------|
+
+** Furniture
+:PROPERTIES:
+:ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
+:END:
+
+Recipes for all of these items can be found. All these are craftable. 
+Potentially equally useless except those that you need to get the 
+recipes for in order to unlock [[Buildings][Buildings]].
+
+How to arrange
+Bar Stool,
+Bed,
+Bedding,
+Bench,
+Bookcase,
+Bookshelf,
+Cabinet,
+Cage,
+Carpet,
+Chair?,
+Chamber Pot,
+Chandelier,
+Crate,
+Desk,
+Dresser,
+Mattress,
+Mat,
+Nightstand,
+Rocking Chair,
+Rug,
+Stool,
+Table,
+Throne &
+Wardrobe
+into a sensible homesteader's base eludes me still!
+
+- I have collected all but the recipes for Bedding, Chandelier and Mattress
+  which I only know by hearsay.
+- Crates, Cages? do they have a use? Do any of the besides the bed?
+  - and why not store tomes/manuals/scrolls in bookcases and desks etc pp.
+
+Also Statues.. not really furniture, but you can find and learn to build them.
+
+- Does anyone feel like making up a color-scheme for a living space, pretend
+  that items were /colorable, and /installable. I mean, castles look nice..
+
+** Storage
+
+In the beginning simply find an empty house, make a waypoint to take you there
+with "*/slw stuff*", and start making piles for the different types of items.
+
+Do it so that the list of items in that pile does not scroll of your screen.
+When you enter, stop at the first pile and use "*/ds*" to add alike items from
+your inventory at that spot. Then walk to the next pile and use "*z*" to repeat.
+
+When you want to get organized, make "*g*" act as "*/setkey g giveall*" would,
+put yourself onto a storage, "*h*" hold the item you want to put there and press
+"*g*". There are a lot more ways to go about this, including some drag and drop,
+so keep experimenting with the ever improving ui.
+
+|--------------+----------------------------+------------|
+| Carts        | draggable on the local map | 300u       |
+| Storage Bins | upgraded                   | 300u       |
+| Storage Bins | installable                | unlimited? |
+|--------------+----------------------------+------------|
+
+For On-Person Storage, see [[Inventory-expanding][Bags]].
+
+** Utensils
+:PROPERTIES:
+:ID:       826250e9-7ab2-47e4-a7f6-b13988707d03
+:END:
+
+Trophies:
+- Beaks,
+  Claws,
+  Skulls
+
+Vanity/Hygene:
+- Combs,
+  Pipes,
+  Towels
+- Ear & Nose-Rings
+- Rings, Clips
+- some [[Craftable][craftable]].
+
+Eating Utensils:
+- Forks & Spoons
+- Bowls & Plates
+- plenty of [[Liquids][containers]] for [[Alcohol][drinking]] too.
+
+Home-Office:
+- Inkwells & Quilts/Pens?
+
+The further out you go, the rarer the things you find;
+*Skulls* and other items might seem useless 
+but might actually give a buff or provoke/enable encounters.
+tbd.
+
+* Locations
+#+TOC: headlines 1 local
+The topic for everything that can be found/seen from the overland map.
+[[Encounters][Encounters]] and things you can find on local maps have their own topic.
+
+** Intro
+Due to the presence of rift-energies in the land, its important that you
+bookmark locations your're engaged with. Leaving them unobserved will not be
+enough to keep them from drifting away from where you thought they were.
+
+The attention bound by personal and quest bookmarks appears to attract these
+drifters while the content of the world around you reorganizes itself when you
+sleep. None of the citizens in your world, except perhaps elder and nobles would
+appear to be aware of this.
+
+Practically this means that special location like the ones listed here can
+*often* be found in areas adjecent to or in the immediate vicinity of the sites
+you have bookmarked. Settlements with their histories and many minds appear less
+volatile.
+
+All said, a good observer will often find fascinating places, as if by accident,
+when they wake up after resting (well sheltered one hopes) in the woods!
+
+tl;dr? Peek into the 8 immediate neighbors of the bookmarks you're given and
+possibly walk through the 16 surrounding squares to see what's out there!
+
+Indoor locations such as Castles and Fortresses offer free and secure overnight
+lodgings (secure in the sense that noone will attack you even after you have
+won.. if they had't before anyhow.).
+
+- need more data! and stories from others!
+
+- inital text stolen, probably from the outdated wiki
+- ty discord denizens for your insights and feedback!
+
+Cleared location where you might have a non hostile but unfriendly enemy mount
+appear to attrack scoundrel after a night or two spent there. So don't be
+surprised if you find yourself suddenly blinded after having stepped on a trap
+while getting shot at if you tolerate these untamable collaborators!
+
+** Campsite
+Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
+other. Some are trying to leave their prior associates behind and change their
+ways, others are just looking to hole up until the heat passes down. Too bad for
+them that they see you as the threat to their lives that you are. I mean, you
+would have talked to them first if they hadn't gone all hostile on you, right?
+
+Poor Sobs, usually don't even have furniture where they sleep.
+** Castle
+A noble of one of the factions lives inside here, protected by many guards and
+assassins. You can /interact with the noble and complete missions to earn you
+reputation with the faction they belong to. Rumour has it there might be
+valuables if you should dare fight the whole castle.
+
+- So far its been safe to salvage the throne for 1 iron.
+- Don’t enter castles of the factions that don’t like you
+  - seems like one wants to turn off the lights in there, perhaps even
+    dismanteling the braziers and go in with dark-vision companions before
+    killing everyone
+
+Ask your self ... how many planks do i need to build a 5x5 around the noble and
+my team? just in case you want to kill nobles of your own faction, that is.
+
+** Colliseum
+Inside here you can find a High level Faction Champion to challenge. You have to
+enter alone, and earn reputation and a lot of treasure if you can defeat the
+champion.
+
+Requires several pieces of masterwork equipment and some godlike stats.
+** Dens
+Inside you can find a legendary beast to fight.
+
+- Unlit.
+- Denizens have darkvision and, likely posess means to immobilize you.
+- Crazy scout by 'move forward, throw lit torch and retreat' might let you
+  trade a blight for a newly scouted monster. is that worth it?
+
+** Dungeon
+A series of corridors and rooms, guarded by traps, ancient guardians and many
+horrors lurking in the dark. In the first room there's an altar with a rune of
+some element. You can find a lot of treasure inside. Remember to bring something
+to light the way ahead and /mark the ground to not get lost.
+
+- the ultimate adventure experience. these are why you invest time into the game
+- waypoint outside and make camp there, bring foods, buffs, companions and rest well.
+
+- You can peek into dungeons in relative safety!
+  - but remember what killed the cat!
+- Good help is hard to find!
+  - so don't judge the boss by his minions
+  - or do. because manytimes you will be surprised by how hard they hit
+    - stay back and come back if your spells and equipment isnt right.
+    - going in is easy.. getting out, not so much.
+
+I used to do /mark in dungeons before we had a local map, and before local
+waypoints were a thing It was very very easy to get lost in there, and no way to
+quickly exit
+
+Make torches to throw ahead of you so you can see wtf the place looks like
+before you wall up some things to control where you're getting ambushed in
+there.
+
+
+** Encampment/ Unknown Camp
+- single building
+
+or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
+battle with you before you even knew what happened.
+
+if that's the case count yourself lucky! these guys have furniture galore and
+since you were short some 20 wooden blocks you could not have come to a better place.
+
+just be careful entering the buildings since not everyone who lives there had a
+chance to greet you earlier. you never know what these higher level guys were
+thinking leaving the fighting to their minions and all that.
+
+an unusual crew with their own agenda, you overheard their leader talking about
+ambushing a guy that happened to actually not be you. The wanted poster you
+found, you better take that with you to an actually dangerous place before
+looking at it more closely. You know.. higher risk, higher rewards mean you 
+know that you don't want to read it back in Relica, right?
+
+Bring some pals. Makes it easier to checkmate the whole site at once. Plus you
+might need someone to help you carry all that wood back home. They usually
+have a good variety of booze on hand too, those louts.
+
+- Faction camps with
+  - 5ish assorted opponents of the same level in the open
+  - 3ish leader types, same lvl in a house
+  - wanted postet, big-chest
+- clearing them seems to not hurt your rep with anyone.
+  maybe once you have rep that changes.
+- 5ish buildings offer 3+ random pieces of furniture
+- its probably where you'll find your first benches
+
+** Fortress
+- safe to salvage the doors for 6? ot 8? iron until you have picked a faction
+- this is where you donate medals in exchange for reputation and access to traits
+- dropping some walls/maybe buildings as one enters a hostile fortress and going
+  with some meat-shields might work to get started on what may be the 'help thy
+  faction' endgame. but idk. i will find out.
+- word is that its ok to enter hostile faction fortresses.
+
+** Hunting grounds
+Starts to spawn after completing certain amount of quests in one of the
+villages. In other words, You can get hunting ground quests once you've become a
+hero of a settlement.
+
+On entering the hunting grounds you can find a group of hunters heavily injured,
+and a lot of corpses around the place. After talking to one of them you can
+accept a mission to help them against the Rift Beast that left them in that
+condition.
+
+Rift beasts are one of the toughest opponents in FARA, one of them comes to
+fight you after accepting to help the hunters that show up in the hunting
+grounds.
+
+They are a challenge for any type of character, so being prepared is very important.
+
+- in other words, forget about it for a while.
+- found a random young rift beast maybe 100km from relica.
+- found my first camp randomly in the wild ~320km from relica.
+  - had never taken the quest offered me in relica.
+
+** Labyrinth
+
+Dont go exploring them in the dead of night without a [[Lights][light]]!
+
+Safe and super high rewards and likely to confuse the hell out out of you for
+longer than you might have patience for. Be prepared for {Masterwork} items and
+other items of awe .. in 90..120 minutes.
+
+*** Leaving a trail
+These scribbles might help you to mark up the laby while you're doing so that
+you can leave and come back without loosing the place you were last exploring!
+
+|---------------------|
+| setkey 1 mark red   |
+| setkey 2 mark green |
+| setkey 3 mark blue  |
+| setkey 4 clearmark  |
+|---------------------|
+
+- There is a labyrinth, i go in
+- at a junction, i mark
+- green from whence i came
+- blue everywhere i'm not going yet
+- i reach a dead-end and retrace my step
+- at the junction from whence i came
+- i mark the dead-end path red, and clear a blue
+- and on i go.
+- when i reach a blue, i mark it red & *retrace my step.*
+- when i reach i a green and blue i red my step and clear a blue.
+
+And working out the little nuances that make this actually work is, as they used
+to say back when books were a thing.. "left as an exercise for the reader."
+
+-- the Mintaur
+
+*** Using Waypoints
+
+Mantecarl chimes in with this incredible paint saving measure:
+- I've been doing this thing in labyrinths were I set a local waypoint in all 4
+  clearings, so that I can get to them if I ever ran into a corridor with no
+  exits -- saves a lot of time!
+
+I tried this method, with a */setkey* for */slw* and */clearlocalwaypoint*,
+leaving local waypoints at junctions i was not sure about, then zooming right
+back to them. Works brilliantly this way and allowed me to clear a lab in record
+time.
+
+Leveling up my character and gear via the legendaries you can find here won't
+absolve me from the need to quest for tools and medals by continuing to assist
+the elder and others, but it gave me the ability and motivation to go from
+exploring a distance of up to 200km to setting up a little outpost 380km from
+Relica.
+
+** Masterwork forge
+
+- These let you upgrade a (refined) and <artisan>'d item once more.
+- I remember hunting for these in the nightmare versions of 2019.
+
+** Ruins
+You come across 6/7? to 9 delapidated buildings in this frequent, somewhat hard
+yet doable encounter.
+
+In the beginning count yourself lucky if you manage to dash to the egde
+undetected. If you have some wood on hand keep in mind that you can get out if
+you're near the edge and that you can place the occasional extra wall or
+building to beef up your position -- especially if you're playing melee -- to
+break the line of sight against what will inevitably be small groups of often stealthy
+casters coming after you here.
+
+- stealth-clustered magic attackers and friends all appear to use the same element!
+- bring some [[Elementally Flamed][elemental foods]] for yourself and your team, and of course a beverage!
+- getting the Big Chest from the local mini boss doesnt mean you're safe!
+- move to the edge if dashing to the next blg will leave you exhausted!
+- use stealth, enter, drop building, move to cover!
+- sevral ruined storage chest. one obsidean shard always drops here.
+
+Sometimes though it seems as if the crew guarding the ruins has been tipped of
+about your plans to attack them, and they will all be standing by your spawn point.
+
+In these circumstances being a Gatekeeper allows you to put on your second big
+shield, cast protect, a ward of fury for maximum retaliation while you attempt
+to get out of that mess. If you're lucky, almost all the spellcaster will kill
+themselves trying to hurt as you're making your exit.
+
+I'm not sure that I could have managed half the research in this guide any other
+way.
+
+- Initially lots of Great Food from Chefs and Alchemists who must have once had a
+  colony here. I wound up with great stacks of *+++* foods from raiding these sites.
+  After traveling further and further in my search for new Mercs and Beasts I started
+  noticing the loot change.
+
+** Shrines (on the map?)
+A powerful artifact of one of the gods rests behind the locked door which you
+can /inspect to know what you need to do to open it. On each side of the shrine
+there are statues, which have had a runestone pried out of them. One of the
+statues is probably in disrepair.
+** Settlements
+#+TOC: headlines 1 local
+#+begin_quote
+You know, if you wall off a city then you can sleep were ever you want.
+#+end_quote
+
+I've not verified this quote, but I'm tempted to, a bit worried about
+not getting new NPC's afterwards, but I'll try it one day.
+
+[[Escortees][Escortees]], [[Scouts][Scouts]] and Delivery Quests will give you waypoints.
+
+*** Buildings
+#+TOC: headlines 1 local
+
+This section is about the unlockable building you can find in every settlement.
+Completing all of them makes you a Settlement Hero, which is a Title that can
+be useful when you want to talk to or hire NPC's for your travels.
+
+The costs were transcribed from Relica by Pug.
+
+Don't compromise on gear to invest in buildings,
+You only *need* the Warehouse at the start.
+
+**** Warehouse
+"Gives access to a thing that helps you move to other settlements."
+
+***** Cost
+- 2 medals
+- 20 wooden planks
+- 10 ropes
+
+***** Benefits
+- Crucible that gives shared access to your stash of buffs, situational uniques,
+  and supplies for expanding elsewhere.
+
+- 6 Storage bins, probably best when only used in Relica, that let you get rid of
+  things you dont want to see but dont want to loose. See [[Item Management]]
+
+**** Stables
+How!?@?#
+
+***** Cost
+- 2 medals
+- 10 copper ingots
+- 5 wooden buckets (got recipe after opening refinery)
+
+***** Benefit
+Aha's from looking at my first Stables.
+Yours will be similar I'd think. So.. Oh!
+
+- its a farm with spice and tree plots! 
+  - a garlic and a fennel plot
+  - a lemon and a maple tree plot
+- farmer and stablemaster work here
+  - there's also a young deer. should i bring the cow?
+- also dropped a Starcloth and a Velvet Saddle
+  - these materials i'd not seen before i opened the building
+
+
+**** Tavern
+
+***** Cost
+- 2 medals
+- 5 wooden stools
+- 5 glass mugs
+
+***** Benefit
+- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
+  - blue prints and rare materials
+- A High level merc that wont talk to you until a title or two
+- A Well skilled merc that can hold his own
+- A Damsel in distress NPC i escorted elsewhere
+
+Have to check up on the patrons there again.
+If all that got me was a gambling chance at BPs, fine!
+
+**** Obelisk
+#+TOC: headlines 1 local
+***** Cost
+- 2 medals
+- 10 stones
+- 25 runic shards
+
+***** Benefit
+The same damn obelisk you keep finding in the wilderness, but with a researcher
+that offer runes for sale and who keeps the rock polished.
+
+- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
+
+- Single level upgrade obtained by beating the Bosses at Ruins become less
+  attractice once you have this, but its hard to beat 'free and scary'.
+
+***** Staff
+An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
+conducting his private business without bothering you with extra tasks.
+
+***** Prices
+
+****** Spell upgrades
+|--------+------------|
+| Shards | upgrade to |
+|--------+------------|
+|      5 | Improved   |
+|     10 | Greater    |
+|     15 | Superior   |
+|     20 | Flawless   |
+|--------+------------|
+|     50 | new > max  |
+|--------+------------|
+
+
+****** Custom Runes
+
+tbd
+
+**** Refinery
+#+TOC: headlines 1 local
+A smith that makes a lot of (refineried) items.
+
+***** Cost
+- 4 medals
+- 15 iron ingots
+- 5 iron hammers
+- 5 wooden benches
+- 5 wooden tables
+
+***** Benefit
+
+Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
+you. He has manic inspiratitions, you bring him what he asks for, he levels up
+and crafts whatever he damn well pleases.
+
+- Does away with your excess Medals.
+- Consumes your excess resources.
+- "Discovers" Recipes for Items you've been dying to find.
+
+***** Notes
+After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
+stables. That was nice. I also got a nice everburning? lantern that helps to
+attract even more encounters at night
+
+Here's a log of what he did for me in the beginning:
+
+- each item cost 1 Medal
+- all but the first item were of (Refined) Quality.
+
+| Mat  | Qty | Result         |
+|------+-----+----------------|
+| bone |   1 | ball           |
+| tin  |  20 | organ          |
+| tin  |   5 | spear          |
+| tin  |   2 | clip           |
+| bone |   2 | bucket         |
+| bone |   2 | grappling hook |
+| bone |   2 | sign           |
+| bone |   1 | goggles        |
+| tin  |   1 | box            |
+| tin  |   1 | lantern        |
+| bone |     | lantern        |
+| bone |     | violin         |
+
+I might have missed an item there, but suddenly he asked for a crafted input,
+turning *bone nunchucks > swordchucks*.
+
+After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
+coming close to a new materials tier after 12..13 runs.. Verry nice, very
+grindy, very medal-expensive!
+
+*3 wooden blocks > wooden anvil*
+
+Afterwards he wanted bones again..
+
+Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
+of his more sensible items. neat!
+
+- Keeping these prototypes makes sense to me right now.
+
+- Signs.. used to be terribly important in the old version i played. Perhaps
+  they have a discoverable function..
+
+- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
+
+*** Unlock'em all
+Here's your check-list for the 2nd+ settlements you'd like to unlock
+after moving all your stuff to someplace more in line with your much
+improved character. That will get you to be a hero to the people there,
+access to new quests, and keep you out of trouble.
+
+Recipes for Buckets and Benches are findable.
+- Search these notes for how i found mine.
+
+Precious:
+- 12 medals
+- 25 runic shards
+
+Fibrous:
+- 10 ropes
+
+Collected
+- 10 stones
+
+Glass:
+- 5 glass mugs
+
+Copper:
+- 10 copper ingots
+
+Iron:
+- 15 iron ingots
+- 5 iron hammers
+
+Wooden:
+- 20 wooden planks
+- 5 wooden benches
+- 5 wooden buckets
+- 5 wooden stools
+- 5 wooden tables
+** Summoning Circle (on the map?)
+- Rift beasts
+- Maybe take 3 CRPs to a Summoning Circle? (huh?)
 
 * Magic
 #+TOC: headlines 1 local
@@ -3921,12 +4404,12 @@ Random guy who found and ate the only mushrooms ever seen in FARA, blowing out
 his brains, asks you a single question before falling into some kind of stupor.
 
 *** Scouts
-- Do they all belong to Will of the Wild Faction?
 - Scouts give waypoints to settlements within a range they know about
   - you might not get more distant destinations unless you quest from
   - either the last visited settlement, or the furthest one they knew.
 - All scouts within, some bubble around Relica know the same things,
   your discoveries elsewhere don't change that.
+- They do not all belong to Will of the Wild Faction.
 
 *** Smuggler
 Insight Good+, Charm Average:
@@ -3971,7 +4454,7 @@ items and ran off. Guards just sat there.
 
 */say thief* gets them to drop everything they stole and act embarrassed.
 
-That does not appear to work in the wilderness where there are no guards around.
+Does not appear to work in the wilderness where there are no guards around.
 
 pug/more:
 
@@ -4169,488 +4652,6 @@ or something close to that. Or wait until you are already thriving at a place
 even further from Relica than where you first got the suicide invitations.
 
 If you rush yourself, [[Blights][you'll die]]. Farawella!
-
-* Locations
-#+TOC: headlines 1 local
-The topic for everything that can be found/seen from the overland map.
-[[Encounters][Encounters]] and things you can find on local maps have their own topic.
-
-** Intro
-Due to the presence of rift-energies in the land, its important that you
-bookmark locations your're engaged with. Leaving them unobserved will not be
-enough to keep them from drifting away from where you thought they were.
-
-The attention bound by personal and quest bookmarks appears to attract these
-drifters while the content of the world around you reorganizes itself when you
-sleep. None of the citizens in your world, except perhaps elder and nobles would
-appear to be aware of this.
-
-Practically this means that special location like the ones listed here can
-*often* be found in areas adjecent to or in the immediate vicinity of the sites
-you have bookmarked. Settlements with their histories and many minds appear less
-volatile.
-
-All said, a good observer will often find fascinating places, as if by accident,
-when they wake up after resting (well sheltered one hopes) in the woods!
-
-tl;dr? Peek into the 8 immediate neighbors of the bookmarks you're given and
-possibly walk through the 16 surrounding squares to see what's out there!
-
-Indoor locations such as Castles and Fortresses offer free and secure overnight
-lodgings (secure in the sense that noone will attack you even after you have
-won.. if they had't before anyhow.).
-
-- need more data! and stories from others!
-
-- inital text stolen, probably from the outdated wiki
-- ty discord denizens for your insights and feedback!
-
-Cleared location where you might have a non hostile but unfriendly enemy mount
-appear to attrack scoundrel after a night or two spent there. So don't be
-surprised if you find yourself suddenly blinded after having stepped on a trap
-while getting shot at if you tolerate these untamable collaborators!
-
-** Campsite
-Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
-other. Some are trying to leave their prior associates behind and change their
-ways, others are just looking to hole up until the heat passes down. Too bad for
-them that they see you as the threat to their lives that you are. I mean, you
-would have talked to them first if they hadn't gone all hostile on you, right?
-
-Poor Sobs, usually don't even have furniture where they sleep.
-** Castle
-A noble of one of the factions lives inside here, protected by many guards and
-assassins. You can /interact with the noble and complete missions to earn you
-reputation with the faction they belong to. Rumour has it there might be
-valuables if you should dare fight the whole castle.
-
-- So far its been safe to salvage the throne for 1 iron.
-- Don’t enter castles of the factions that don’t like you
-  - seems like one wants to turn off the lights in there, perhaps even
-    dismanteling the braziers and go in with dark-vision companions before
-    killing everyone
-
-Ask your self ... how many planks do i need to build a 5x5 around the noble and
-my team? just in case you want to kill nobles of your own faction, that is.
-
-** Colliseum
-Inside here you can find a High level Faction Champion to challenge. You have to
-enter alone, and earn reputation and a lot of treasure if you can defeat the
-champion.
-
-Requires several pieces of masterwork equipment and some godlike stats.
-** Dens
-Inside you can find a legendary beast to fight.
-
-- Unlit.
-- Denizens have darkvision and, likely posess means to immobilize you.
-- Crazy scout by 'move forward, throw lit torch and retreat' might let you
-  trade a blight for a newly scouted monster. is that worth it?
-
-** Dungeon
-A series of corridors and rooms, guarded by traps, ancient guardians and many
-horrors lurking in the dark. In the first room there's an altar with a rune of
-some element. You can find a lot of treasure inside. Remember to bring something
-to light the way ahead and /mark the ground to not get lost.
-
-- the ultimate adventure experience. these are why you invest time into the game
-- waypoint outside and make camp there, bring foods, buffs, companions and rest well.
-
-- You can peek into dungeons in relative safety!
-  - but remember what killed the cat!
-- Good help is hard to find!
-  - so don't judge the boss by his minions
-  - or do. because manytimes you will be surprised by how hard they hit
-    - stay back and come back if your spells and equipment isnt right.
-    - going in is easy.. getting out, not so much.
-
-I used to do /mark in dungeons before we had a local map, and before local
-waypoints were a thing It was very very easy to get lost in there, and no way to
-quickly exit
-
-Make torches to throw ahead of you so you can see wtf the place looks like
-before you wall up some things to control where you're getting ambushed in
-there.
-
-
-** Encampment/ Unknown Camp
-- single building
-
-or perhaps 3..5 of them with a batch of inhabitants greeting you and joining
-battle with you before you even knew what happened.
-
-if that's the case count yourself lucky! these guys have furniture galore and
-since you were short some 20 wooden blocks you could not have come to a better place.
-
-just be careful entering the buildings since not everyone who lives there had a
-chance to greet you earlier. you never know what these higher level guys were
-thinking leaving the fighting to their minions and all that.
-
-an unusual crew with their own agenda, you overheard their leader talking about
-ambushing a guy that happened to actually not be you. The wanted poster you
-found, you better take that with you to an actually dangerous place before
-looking at it more closely. You know.. higher risk, higher rewards mean you 
-know that you don't want to read it back in Relica, right?
-
-Bring some pals. Makes it easier to checkmate the whole site at once. Plus you
-might need someone to help you carry all that wood back home. They usually
-have a good variety of booze on hand too, those louts.
-
-- Faction camps with
-  - 5ish assorted opponents of the same level in the open
-  - 3ish leader types, same lvl in a house
-  - wanted postet, big-chest
-- clearing them seems to not hurt your rep with anyone.
-  maybe once you have rep that changes.
-- 5ish buildings offer 3+ random pieces of furniture
-- its probably where you'll find your first benches
-
-** Fortress
-- safe to salvage the doors for 6? ot 8? iron until you have picked a faction
-- this is where you donate medals in exchange for reputation and access to traits
-- dropping some walls/maybe buildings as one enters a hostile fortress and going
-  with some meat-shields might work to get started on what may be the 'help thy
-  faction' endgame. but idk. i will find out.
-- word is that its ok to enter hostile faction fortresses.
-
-** Hunting grounds
-Starts to spawn after completing certain amount of quests in one of the
-villages. In other words, You can get hunting ground quests once you've become a
-hero of a settlement.
-
-On entering the hunting grounds you can find a group of hunters heavily injured,
-and a lot of corpses around the place. After talking to one of them you can
-accept a mission to help them against the Rift Beast that left them in that
-condition.
-
-Rift beasts are one of the toughest opponents in FARA, one of them comes to
-fight you after accepting to help the hunters that show up in the hunting
-grounds.
-
-They are a challenge for any type of character, so being prepared is very important.
-
-- in other words, forget about it for a while.
-- found a random young rift beast maybe 100km from relica.
-- found my first camp randomly in the wild ~320km from relica.
-  - had never taken the quest offered me in relica.
-
-** Labyrinth
-
-Dont go exploring them in the dead of night without a [[Lights][light]]!
-
-Safe and super high rewards and likely to confuse the hell out out of you for
-longer than you might have patience for. Be prepared for {Masterwork} items and
-other items of awe .. in 90..120 minutes.
-
-*** Leaving a trail
-These scribbles might help you to mark up the laby while you're doing so that
-you can leave and come back without loosing the place you were last exploring!
-
-|---------------------|
-| setkey 1 mark red   |
-| setkey 2 mark green |
-| setkey 3 mark blue  |
-| setkey 4 clearmark  |
-|---------------------|
-
-- There is a labyrinth, i go in
-- at a junction, i mark
-- green from whence i came
-- blue everywhere i'm not going yet
-- i reach a dead-end and retrace my step
-- at the junction from whence i came
-- i mark the dead-end path red, and clear a blue
-- and on i go.
-- when i reach a blue, i mark it red & *retrace my step.*
-- when i reach i a green and blue i red my step and clear a blue.
-
-And working out the little nuances that make this actually work is, as they used
-to say back when books were a thing.. "left as an exercise for the reader."
-
--- the Mintaur
-
-*** Using Waypoints
-
-Mantecarl chimes in with this incredible paint saving measure:
-- I've been doing this thing in labyrinths were I set a local waypoint in all 4
-  clearings, so that I can get to them if I ever ran into a corridor with no
-  exits -- saves a lot of time!
-
-I tried this method, with a */setkey* for */slw* and */clearlocalwaypoint*,
-leaving local waypoints at junctions i was not sure about, then zooming right
-back to them. Works brilliantly this way and allowed me to clear a lab in record
-time.
-
-Leveling up my character and gear via the legendaries you can find here won't
-absolve me from the need to quest for tools and medals by continuing to assist
-the elder and others, but it gave me the ability and motivation to go from
-exploring a distance of up to 200km to setting up a little outpost 380km from
-Relica.
-
-** Masterwork forge
-
-- These let you upgrade a (refined) and <artisan>'d item once more.
-- I remember hunting for these in the nightmare versions of 2019.
-
-** Ruins
-You come across 6/7? to 9 delapidated buildings in this frequent, somewhat hard
-yet doable encounter.
-
-In the beginning count yourself lucky if you manage to dash to the egde
-undetected. If you have some wood on hand keep in mind that you can get out if
-you're near the edge and that you can place the occasional extra wall or
-building to beef up your position -- especially if you're playing melee -- to
-break the line of sight against what will inevitably be small groups of often stealthy
-casters coming after you here.
-
-- stealth-clustered magic attackers and friends all appear to use the same element!
-- bring some [[Elementally Flamed][elemental foods]] for yourself and your team, and of course a beverage!
-- getting the Big Chest from the local mini boss doesnt mean you're safe!
-- move to the edge if dashing to the next blg will leave you exhausted!
-- use stealth, enter, drop building, move to cover!
-- sevral ruined storage chest. one obsidean shard always drops here.
-
-Sometimes though it seems as if the crew guarding the ruins has been tipped of
-about your plans to attack them, and they will all be standing by your spawn point.
-
-In these circumstances being a Gatekeeper allows you to put on your second big
-shield, cast protect, a ward of fury for maximum retaliation while you attempt
-to get out of that mess. If you're lucky, almost all the spellcaster will kill
-themselves trying to hurt as you're making your exit.
-
-I'm not sure that I could have managed half the research in this guide any other
-way.
-
-- Initially lots of Great Food from Chefs and Alchemists who must have once had a
-  colony here. I wound up with great stacks of *+++* foods from raiding these sites.
-  After traveling further and further in my search for new Mercs and Beasts I started
-  noticing the loot change.
-
-** Shrines (on the map?)
-A powerful artifact of one of the gods rests behind the locked door which you
-can /inspect to know what you need to do to open it. On each side of the shrine
-there are statues, which have had a runestone pried out of them. One of the
-statues is probably in disrepair.
-** Settlements
-#+TOC: headlines 1 local
-#+begin_quote
-You know, if you wall off a city then you can sleep were ever you want.
-#+end_quote
-
-I've not verified this quote, but I'm tempted to, a bit worried about
-not getting new NPC's afterwards, but I'll try it one day.
-
-[[Escortees][Escortees]], [[Scouts][Scouts]] and Delivery Quests will give you waypoints.
-
-*** Buildings
-#+TOC: headlines 1 local
-
-This section is about the unlockable building you can find in every settlement.
-Completing all of them makes you a Settlement Hero, which is a Title that can
-be useful when you want to talk to or hire NPC's for your travels.
-
-The costs were transcribed from Relica by Pug.
-
-Don't compromise on gear to invest in buildings,
-You only *need* the Warehouse at the start.
-
-**** Warehouse
-"Gives access to a thing that helps you move to other settlements."
-
-***** Cost
-- 2 medals
-- 20 wooden planks
-- 10 ropes
-
-***** Benefits
-- Crucible that gives shared access to your stash of buffs, situational uniques,
-  and supplies for expanding elsewhere.
-
-- 6 Storage bins, probably best when only used in Relica, that let you get rid of
-  things you dont want to see but dont want to loose. See [[Item Management]]
-
-**** Stables
-How!?@?#
-
-***** Cost
-- 2 medals
-- 10 copper ingots
-- 5 wooden buckets (got recipe after opening refinery)
-
-***** Benefit
-Aha's from looking at my first Stables.
-Yours will be similar I'd think. So.. Oh!
-
-- its a farm with spice and tree plots! 
-  - a garlic and a fennel plot
-  - a lemon and a maple tree plot
-- farmer and stablemaster work here
-  - there's also a young deer. should i bring the cow?
-- also dropped a Starcloth and a Velvet Saddle
-  - these materials i'd not seen before i opened the building
-
-
-**** Tavern
-
-***** Cost
-- 2 medals
-- 5 wooden stools
-- 5 glass mugs
-
-***** Benefit
-- A [[Gambler][Gambler]] that gives you 25% odds of scoring..
-  - blue prints and rare materials
-- A High level merc that wont talk to you until a title or two
-- A Well skilled merc that can hold his own
-- A Damsel in distress NPC i escorted elsewhere
-
-Have to check up on the patrons there again.
-If all that got me was a gambling chance at BPs, fine!
-
-**** Obelisk
-#+TOC: headlines 1 local
-***** Cost
-- 2 medals
-- 10 stones
-- 25 runic shards
-
-***** Benefit
-The same damn obelisk you keep finding in the wilderness, but with a researcher
-that offer runes for sale and who keeps the rock polished.
-
-- Infinite uses for the same price you'd pay at single use obelisks found in the wilderness.
-
-- Single level upgrade obtained by beating the Bosses at Ruins become less
-  attractice once you have this, but its hard to beat 'free and scary'.
-
-***** Staff
-An [[Arcane Researcher][Arcane Researcher]] will be emplyed here, tending to the obelisk while
-conducting his private business without bothering you with extra tasks.
-
-***** Prices
-
-****** Spell upgrades
-|--------+------------|
-| Shards | upgrade to |
-|--------+------------|
-|      5 | Improved   |
-|     10 | Greater    |
-|     15 | Superior   |
-|     20 | Flawless   |
-|--------+------------|
-|     50 | new > max  |
-|--------+------------|
-
-
-****** Custom Runes
-
-tbd
-
-**** Refinery
-#+TOC: headlines 1 local
-A smith that makes a lot of (refineried) items.
-
-***** Cost
-- 4 medals
-- 15 iron ingots
-- 5 iron hammers
-- 5 wooden benches
-- 5 wooden tables
-
-***** Benefit
-
-Entitled Genius Child Artisan Blacksmith rearing at the bit to make stuff for
-you. He has manic inspiratitions, you bring him what he asks for, he levels up
-and crafts whatever he damn well pleases.
-
-- Does away with your excess Medals.
-- Consumes your excess resources.
-- "Discovers" Recipes for Items you've been dying to find.
-
-***** Notes
-After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
-stables. That was nice. I also got a nice everburning? lantern that helps to
-attract even more encounters at night
-
-Here's a log of what he did for me in the beginning:
-
-- each item cost 1 Medal
-- all but the first item were of (Refined) Quality.
-
-| Mat  | Qty | Result         |
-|------+-----+----------------|
-| bone |   1 | ball           |
-| tin  |  20 | organ          |
-| tin  |   5 | spear          |
-| tin  |   2 | clip           |
-| bone |   2 | bucket         |
-| bone |   2 | grappling hook |
-| bone |   2 | sign           |
-| bone |   1 | goggles        |
-| tin  |   1 | box            |
-| tin  |   1 | lantern        |
-| bone |     | lantern        |
-| bone |     | violin         |
-
-I might have missed an item there, but suddenly he asked for a crafted input,
-turning *bone nunchucks > swordchucks*.
-
-After he wanted the nunchucks he started asking for wooden blocks. Perhaps we're
-coming close to a new materials tier after 12..13 runs.. Verry nice, very
-grindy, very medal-expensive!
-
-*3 wooden blocks > wooden anvil*
-
-Afterwards he wanted bones again..
-
-Anyway, now i can consult the [[Materials][Materials Tables]] and better versions
-of his more sensible items. neat!
-
-- Keeping these prototypes makes sense to me right now.
-
-- Signs.. used to be terribly important in the old version i played. Perhaps
-  they have a discoverable function..
-
-- I guess I have to keep feeding him till he comes up with a pickaxe for mining!
-
-*** Unlock'em all
-Here's your check-list for the 2nd+ settlements you'd like to unlock
-after moving all your stuff to someplace more in line with your much
-improved character. That will get you to be a hero to the people there,
-access to new quests, and keep you out of trouble.
-
-Recipes for Buckets and Benches are findable.
-- Search these notes for how i found mine.
-
-Precious:
-- 12 medals
-- 25 runic shards
-
-Fibrous:
-- 10 ropes
-
-Collected
-- 10 stones
-
-Glass:
-- 5 glass mugs
-
-Copper:
-- 10 copper ingots
-
-Iron:
-- 15 iron ingots
-- 5 iron hammers
-
-Wooden:
-- 20 wooden planks
-- 5 wooden benches
-- 5 wooden buckets
-- 5 wooden stools
-- 5 wooden tables
-** Summoning Circle (on the map?)
-- Rift beasts
-- Maybe take 3 CRPs to a Summoning Circle? (huh?)
 
 * Pug's Notes
 #+TOC: headlines 1 local
@@ -5863,8 +5864,24 @@ You want to make a shelter and a install a door before you sleep, because
 thought of having to cross deserts at night without 2 logs. one for a shelter,
 one for a door.
 
-Outdoors; sleeping next to a firepit/campfire/torch on your cloak; climb and 
-sleep atop a tree.
+Outdoors
+- sleep next to a firepit/campfire/torch on your cloak for buffs
+  if your party is full and you're not worried.
+- climb and sleep atop a tree if you're just a little worried.
+- the closer to the edge you sleep, the more worried you want to be.
+
+Doors
+- sleeping next to a wall and a closed door is enough to get you the buff,
+  even though your house might have several other open doors.
+
+Post-win
+- If you've been farming shards, beware the shades. They come in search of
+  the fragments and, if, say, you sleep atop a tree near the edge of a map,
+  might seriously hurt you. Don't go to sleep again in that same spot after
+  the fight, or you risk getting attacked by another one right there. You 
+  might like to farm them this way.. just don't do it when you're trying
+  to catch on up sleep after traveling for days.
+  
 
 ** Stealth
 
@@ -7800,9 +7817,9 @@ To run this game in linux you need *sudo rights*. You probably have them.
 Go to the directory where you unpacked the game, then type
 
 #+begin_example
-sudo chmod +x FARA 
-sudo chmod 4755 chrome-sandbox 
 sudo chown root:root chrome-sandbox
+sudo chmod 4755 chrome-sandbox 
+sudo chmod +x FARA 
 #+end_example
 
 after that you can start the game using 
