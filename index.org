@@ -1644,57 +1644,59 @@ Useful *Very common* Materials without effects on your stats.
 
 
 *** Cloth and Furs
-Animal Skins, Animal Pelts, Fine Pelts +? ..  sort this out.
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Leather    |     | >>  |     |     |     | Very Common |         | Animals        |
-| Cotton     |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
-| Linen      |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Silk       |     | >>  |     |     | >>  | Common      | Roll of | Imported?      |
-| Wool       | >>  | >>  |     |     |     | Common      |         | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Fur        | >>  | >>> |     |     |     | Uncommon    |         | Which Animals? |
-| Lace       |     | >>  |     |     | >>> | Uncommon    | Roll of | Imported?      |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Hide       | >>  | >>  |     |     |     | Rare        |         | Which Animals? |
-| Starcloth  |     | >>> |     | >>  | >>> | Rare        |         |                |
-| Velvet     |     | >>> |     |     | >>> | Rare        |         |                |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
-| Ghostweave | >>> | >>> | >>  |     |     | Very Rare   |         | Ghostfibers    |
-|------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
-- Wool becomes Pelts when /salvaged.
-- Pelts are Fur as far as ikatm
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Name         | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Animal Skins |     | >>  |     |     |     | Very Common | Skin    |                |
+| Cotton       |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
+| Linen        |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Silk         |     | >>  |     |     | >>  | Common      | Roll of |                |
+| Animal Pelts | >>  | >>  |     |     |     | Common      | Pelt    |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Fine Pelts   | >>  | >>> |     |     |     | Uncommon    | Pelt    |                |
+| Lace         |     | >>  |     |     | >>> | Uncommon    | Roll of |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Tough Hide   | >>  | >>  |     |     |     | Rare        | Hide    |                |
+| Starcloth    |     | >>> |     | >>  | >>> | Rare        | Roll of |                |
+| Velvet       |     | >>> |     |     | >>> | Rare        | Roll of |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Ghostfibers  | >>> | >>> | >>  |     |     | Very Rare   | none    |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+
+- Animal Pelts make Wool Items.
+- Fine Pelts make Fur Items.
+- Animal Skins make Leather Items.
+- Ghostfibers make  Ghostweave Items.
 
 *** Metals etc
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit   | Ingredients     |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Bone       |     |     | >>  |     |     | Very Common | Bones  | Animals         |
-| Wood       | >>  |     |     |     |     | Very Common | Logs   | Tree            |
-| Tin        | >   |     | >   |     |     | Very Common | Ingots | 2 Ore           |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Glass      |     |     |     | >>  | >>  | Common      | Ingots | 3 Sand          |
-| Copper     | >>  |     | >>  |     |     | Common      | Ingots | 2 Ore           |
-| Silver     | >   |     | >   |     |     | Common      | Ingots | 2 Ore           |
-| Ivory      |     |     | >>  | >>  |     | Common      | Chunk  | Animals         |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots | 2 Copper,1 Zinc |
-| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots | 2 Ore           |
-| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots | 3 Sand          |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots | 3 Ore           |
-| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots | ? Ore           |
-| Steel      | >>> |     | >>> |     |     | Rare        | Ingots | Imported?       |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
-| Diamond    | >>  |     | >>  |     |     | Very Rare   | Ores   |                 |
-| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |        | Ancient Bones   |
-| Jade       | >>> |     | >>> |     |     | Very Rare   |        |                 |
-| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots | 5 Ore           |
-| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   |        |                 |
-|------------+-----+-----+-----+-----+-----+-------------+--------+-----------------|
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients     |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Bone       |     |     | >>  |     |     | Very Common | Bones   | Animals         |
+| Wood       | >>  |     |     |     |     | Very Common | Logs    | Tree            |
+| Tin        | >   |     | >   |     |     | Very Common | Ingots  | 2 Ore           |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Glass      |     |     |     | >>  | >>  | Common      | Ingots  | 3 Sand          |
+| Copper     | >>  |     | >>  |     |     | Common      | Ingots  | 2 Ore           |
+| Silver     | >   |     | >   |     |     | Common      | Ingots  | 2 Ore           |
+| Ivory      |     |     | >>  | >>  |     | Common      | Chunk   | Animals         |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots  | 2 Copper,1 Zinc |
+| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots  | 2 Ore           |
+| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots  | 3 Sand          |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots  | 3 Ore           |
+| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots  | ? Ore           |
+| Steel      | >>> |     | >>> |     |     | Rare        | Ingots  | Imported?       |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Diamond    | >>  |     | >>  |     |     | Very Rare   | Ores    |                 |
+| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |         | Ancient Bones   |
+| Jade       | >>> |     | >>> |     |     | Very Rare   |         |                 |
+| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots  | 5 Ore           |
+| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   | Deposit |                 |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
 
 ** Qualities
 :PROPERTIES:
@@ -1907,6 +1909,11 @@ craftable once you've discovered or obtained their recipes.
 :ID:       5b7c853e-de6b-4dcd-a1fd-e691c7fe4200
 :END:
 #+TOC: headlines 1 local
+
+Anyone can use any weapon. Results vary by stats alone. Swapping weapons during
+combat takes a while and is easily interrupted, so experiment. Shields are
+Weapons too. Offhand stats contribute to your character's total. Change out your
+runes to suit the fight. See what interrupts you, and what you can interrupt.
 
 *** Intro
 Derived from [[https://docs.google.com/spreadsheets/d/1TK8xF1WbIa_C2U8MkLYVoELI1V3aNUsllLEzgZfX5vg/edit?usp=sharing][Mishaal's Compendium]].
@@ -2157,6 +2164,66 @@ largely cosmetic/flair items. (I saw something about that. need to check!)
 ***** Throwing
 Needs research, but could be it own section.
 
+*** Traps
+#+TOC: headlines 1 local
+
+Their Danger not yet rated.
+
+- Can be thrown!
+- Make from any hard material.
+- Better materials make them more powerful, debuffs last longer?.
+- Engineer & love them;
+- And you'll learn to know where to */search* for them soon.
+- Beware though, the search does not always always find them.
+- Jade Faction's "Defuser" Trait makes them *much* easier to disarm
+
+Perhaps seeing them as [[Thrown Weapons][Thrown Weapons]] opens up their coolest uses.  [[ENGINEER][Engineers]]
+and [[SCOUNDREL][Scoundrels]] demo them well, but they might just be why the [[MERCHANT][Merchant]] class has
+sooo much inventory space. Now if we could only throw them a little less far, but
+from inventory..
+
+**** Constructed Traps
+
+These types of trap require you to use a workbench in order to work with the
+hard base material determining the trap's power. That can be anything measured
+in Chunks, Ingots, Ores, Deposits etc.
+
+BUT, you can craft any of these traps from Bone without using a workbench.
+
+***** Gunpowder Traps
+|-------+-----------+-----------------------+---------------------|
+| Types | Base Mat. | Additionally          | Effect              |
+|-------+-----------+-----------------------+---------------------|
+| Bomb  |         2 | 2 Gunpowder           | Damage (Armor too?) |
+| Flame |         1 | 1 Gunpowder, 1 String | Burn                |
+| Flash |         1 | 1 Gunpowder, 1 String | Blind               |
+|-------+-----------+-----------------------+---------------------|
+- Bomb traps might set off adjecent traps.
+
+***** No Explosives
+
+These require: 
+- One piece of the Trap's base Material,
+- A piece of Plant Fiber for use as string.
+
+|--------+-----------------------+------------|
+| Types  | Additionally          | Effect     |
+|--------+-----------------------+------------|
+| Bear   | Just Ingot and String | Immobilize |
+| Poison | Add 1 Venom Sack      | Poison     |
+| Smoke  | Add 1 Torch           | Blind      |
+|--------+-----------------------+------------|
+- fwiw, Torches are made from Wooden Blocks.
+
+**** Simple Traps
+
+|-------+------------------------+------------|
+| Types | Ingredients            | Effect     |
+|-------+------------------------+------------|
+| Thorn | 2 Sticks               | Pierce     |
+| Snare | 1 Stick, 1 Plant-Fiber | Immobilize |
+|-------+------------------------+------------|
+
 *** Astral
 These exist. Noone will talk about them except to tell you that their bonuses
 are incredible. And they are.
@@ -2172,7 +2239,10 @@ the most points for unlocking the next class. Decisions, decisions..
 #+TOC: headlines 1 local
 *** Stat-boosting
 
-Almost any Weapon can be worn as an accessory for seriously more powerful stat boosts!
+Almost any Weapon can be worn as an accessory for seriously more powerful stat
+boosts!  You can sleep on the cloak instead of a bed, saving you some effort;
+The Bandolier and quiver might give more than just the extra stats - but the
+judgment is out on that.
 
 |-----------+-------------+-----------+------|
 | Accessory | Stat        | Materials | Size |
@@ -2192,6 +2262,9 @@ Almost any Weapon can be worn as an accessory for seriously more powerful stat b
 | Quiver    | FIN, -1 RES | 2 soft    |    2 |
 |-----------+-------------+-----------+------|
 
+The rest of the items might make some role-playing sense. Oh, and there is the kite.
+It may slow your fall, as a rope would do should you have it in inventory if you
+happen to tripple dig yourself into a hole somewhere.
 
 *** Inventory-expanding
 
@@ -2247,6 +2320,11 @@ double as rune-carriers.
 |---------------+----------------------------------------|
 
 *** Lights
+
+There's no difference in range, torches last long enough for a den-fight or two,
+so don't waste your inventory space by carrying lights when you can just make
+2 torches from a log as you might need them. Mining's different.
+
 |---------+--------+--------------------------------------------------------|
 | Light   | Burns  | Note                                                   |
 |---------+--------+--------------------------------------------------------|
@@ -2292,33 +2370,7 @@ Waterskin
 all of them?
 
 - Do they all hold only 2 drinks?
-
-*** Traps
-Their Danger not yet rated.
-
-|--------|
-| Types  |
-|--------|
-| Bear   |
-| Bomb   |
-| Flame  |
-| Flash  |
-| Poison |
-| Smoke  |
-| Snare  |
-|--------|
-
-- Can be thrown!
-- Make from any hard material.
-- Better materials make them more powerful.
-- Engineer & love them;
-- And you'll learn to know where to */search* for them soon.
-- Beware though, the search does not always always find them.
-- Jade Faction's "Defuser" Trait makes them *much* easier to disarm
-
-Perhaps seeing them as [[Thrown Weapons][Thrown Weapons]] opens up their coolest uses.  [[ENGINEER][Engineers]]
-and [[SCOUNDREL][Scoundrels]] demo them well, but they might just be why the [[MERCHANT][Merchant]] class has
-sooo much inventory space.
+- Some rare, some very rare. 
 
 *** Musical Instruments
 These are everyone's effective Mood boosters,
@@ -2369,7 +2421,7 @@ It's a bit confused about wanting to be a list, explainer or crafting guide.
 :ID:       ee77d544-5336-47ce-9bf3-2a70ad43c396
 :END:
 
-Recipes for all of these items can be found, they are all craftable. 
+Recipes for all of these items can be found. All these are craftable. 
 Potentially equally useless except those that you need to get the 
 recipes for in order to unlock [[Buildings][Buildings]].
 
@@ -2386,6 +2438,7 @@ Carpet,
 Chair?,
 Chamber Pot,
 Chandelier,
+Crate,
 Desk,
 Dresser,
 Mattress,
@@ -2398,14 +2451,15 @@ Throne &
 Wardrobe
 into a sensible homesteader's base eludes me still!
 
-- Some of these I only know by hearsay, having their sizes and to learn
-  something about their utility, if any, would be cool too.
-
-- Does anyone feel like making up a color-scheme for a living space?
-
-- Cages? do they have a use?
+- I have collected all but the recipes for Bedding, Chandelier and Mattress
+  which I only know by hearsay.
+- Crates, Cages? do they have a use? Do any of the besides the bed?
+  - and why not store tomes/manuals/scrolls in bookcases and desks etc pp.
 
 Also Statues.. not really furniture, but you can find and learn to build them.
+
+- Does anyone feel like making up a color-scheme for a living space, pretend
+  that items were /colorable, and /installable. I mean, castles look nice..
 
 ** Storage
 
@@ -2445,15 +2499,20 @@ Vanity/Hygene:
   Towels
 - Ear & Nose-Rings
 - Rings, Clips
+- some [[Craftable][craftable]].
 
 Eating Utensils:
 - Forks & Spoons
 - Bowls & Plates
+- plenty of [[Liquids][containers]] for [[Alcohol][drinking]] too.
 
 Home-Office:
 - Inkwells & Quilts/Pens?
 
-*Skulls* (other?) seem useless but might actually give a buff. tbd.
+The further out you go, the rarer the things you find;
+*Skulls* and other items might seem useless 
+but might actually give a buff or provoke/enable encounters.
+tbd.
 
 * Food
 :PROPERTIES:
@@ -2555,9 +2614,6 @@ Capacities all seem to be around 10.
 
 
 ** Drinks
-
-
-
 *** Drinkable
 
 You can /drink Water from a well or a running water source,
@@ -4212,6 +4268,9 @@ I used to do /mark in dungeons before we had a local map, and before local
 waypoints were a thing It was very very easy to get lost in there, and no way to
 quickly exit
 
+Make torches to throw ahead of you so you can see wtf the place looks like
+before you wall up some things to control where you're getting ambushed in
+there.
 
 
 ** Encampment/ Unknown Camp
