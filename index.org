@@ -16,11 +16,13 @@
 
 Created during April 2021. No [[Copyright/Disclaimer][Copyright]], just link back to here.
 
-Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5]] there are new quests, right-clicking on the map moves
-you, the sizes of many consumables have been perfected, inventory and storages
-can be sorted, the big map became much nicer and overall - there's a ton of nice
-little tweaks! - *the game has become much nicer to play*. So cool! Thanks
-Brian!
+Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5d]] FARA become faster than ever!
+
+Gone are stuck popup, slow keys, its very responsive even on slow machines
+now. New quests, right-clicking on the map moves you, the sizes of many
+consumables have been perfected, inventory and storages can be sorted, the big
+map became much nicer and overall - there's a ton of nice little tweaks!
+So cool! Thanks Brian!
 
 - FARA [[https://brianiscreative.itch.io/fara][Homepage]], [[https://brianiscreative.itch.io/fara/devlog][Devlog]], [[https://brianiscreative.itch.io/fara/purchase][Download]].
 - Latest [[https://fara.fandom.com/wiki/Special:RecentChanges?hidebots=1&limit=100&days=90&enhanced=1&urlversion=2][Wiki-Updates]], [[https://brianiscreative.itch.io/fara/community][Itch-Posts]].
@@ -2846,6 +2848,11 @@ The topic for everything that can be found/seen from the overland map.
 [[Encounters][Encounters]] and things you can find on local maps have their own topic.
 
 ** Intro
+
+#+begin_quote
+The Location might usually be safe, but you never know..
+#+end_quote
+
 Due to the presence of rift-energies in the land, its important that you
 bookmark locations your're engaged with. Leaving them unobserved will not be
 enough to keep them from drifting away from where you thought they were.
@@ -5764,6 +5771,9 @@ likely to fade into the void again!
 - */note <text>* adds a reminder to see with */notes*. Useful for reminders when
   you take a break and forget what you were going to do.
 
+- */objectiveswindow*
+- */quickactions*
+- */animations*
 
 ** KEYS!
 - read the bottom of */keybinds* aka "*K*"
