@@ -2727,6 +2727,11 @@ determining the elemental attunement your food will provide.
 This section mixes the useful and important with the useless and trivial.
 It's a bit confused about wanting to be a list, explainer or crafting guide.
 
+
+#+begin_quote
+Today I found a Button. Onwards to find the thing it wants to be connected to!
+#+end_quote
+
 ** Craftable
 |----------+---------------------+------|
 | Item     | Materials           | Size |
@@ -3149,6 +3154,8 @@ You only *need* the Warehouse at the start.
 **** Stables
 How!?@?#
 
+A Stables and a Nursery.
+
 ***** Cost
 - 2 medals
 - 10 copper ingots
@@ -3245,6 +3252,12 @@ and crafts whatever he damn well pleases.
 - "Discovers" Recipes for Items you've been dying to find.
 
 ***** Notes
+
+#+begin_quote
+Sooner or later he'll want a Pumpkin. Be prepared!
+#+end_quote
+
+
 After, hmm, a little grinding, I got a bucket recipe allowing me to complete the
 stables. That was nice. I also got a nice everburning? lantern that helps to
 attract even more encounters at night
@@ -5774,6 +5787,286 @@ likely to fade into the void again!
 - */objectiveswindow*
 - */quickactions*
 - */animations*
+
+*** Alphabetical
+This was a challenge!
+
+/abandonallquests;
+/abandonquest;
+/about;
+/activatemousemenu;
+/allowreports;
+/anim;
+/animations;
+/approach;
+/assure;
+/attack, /lightattack, /attacklight, /a;
+/attunements;
+/autocomplete;
+/autoequip;
+/autoloot;
+/autosave;
+/bigmap, /bm, /layout2, /l2;
+/borderlesstiles, /bt;
+/brandish;
+/build;
+/butcher;
+/capslock;
+/cast, /c;
+/changelog;
+/character, /char, /me, /status;
+/chat;
+/choke;
+/class;
+/classes;
+/clearallwaypoints, /cawp;
+/clearleaderboard;
+/clearlocalwaypoint, /clearlocal, /clw;
+/clearmark;
+/clearnote;
+/clearscore;
+/cleartext, /clearlog;
+/cleartitle;
+/cleartrackedwaypoint, /ctwp;
+/clearwaypoint, /cwp;
+/climb;
+/close, /x;
+/colors],
+/compare;
+/compass;
+/complain;
+/compliment;
+/condition;
+/cook;
+/copyseed;
+/craft', make],
+/credits;
+/dance;
+/dash;
+/decreasefont, /df;
+/define, /glossary;
+/deletepreset;
+/descend;
+/descriptions;
+/destroy;
+/detarget, /dt;
+/dice;
+/dig;
+/disavowtitle, /deletetitle;
+/disconnect;
+/discord;
+/dismiss;
+/dismount, /dm;
+/dodge;
+/drink;
+/drop, /d;
+/dropall;
+/dropsame, /ds, /dropalike;
+/eat;
+/editdescription;
+/emote, /em;
+/engrave;
+/enter, /exp, /explore;
+/equip, /eq;
+/eventsharing, /toggingsharing;
+/exit','leave;
+/exitgame, /eg;
+/facing;
+/factions;
+/factiontraits;
+/factoryreset;
+/fadehistory;
+/fish;
+/font;
+/forgetspell;
+/forgettrait, /unlearntrait;
+/fullscreen, /fs;
+/game, /showlog;
+/give, /g, /place, /put;
+/giveall;
+/giveamount;
+/gossip;
+/goto, /mt, /moveto;
+/grab, /grapple, /pull;
+/greet;
+/hardgamerestart;
+/harvest;
+/heal;
+/heavyattack, /attackheavy, /ha, /ah;
+/help;
+/hide, /stealth;
+/hidelog;
+/highdetail, /hd;
+/hints;
+/hold, /h;
+/ignorecontrollers, /ic;
+/increasefont, /if;
+/inspect, /i;
+/inspectall;
+/interact;
+/interface, /ui, /toggleui;
+/items, /inv, /inventory;
+/joke;
+/journal;
+/jump, /dive, /j;
+/keybindings, /kb, /keys;
+/keyfragments, /fragments;
+/kill;
+/largeanimations, /biganimations, /lan;
+/layout1, /l1;
+/layout3, /l3, /justmap, /jm;
+/layout4, /l4, /fulldata;
+/leaderboard;
+/leftpanel, /lp;
+/lines;
+/listexits, /le;
+/listholding, /lh;
+/listinventory, /listitems, /li;
+/listtargets, /lt;
+/listwearing, /lw;
+/lockedtargeting;
+/logging;
+/loglength, /loglimit, /ll;
+/look, /l;
+/makescroll, /msc;
+/makespell, /ms, /maketome;
+/map;
+/mark, /paint, /color;
+/messagegrouping, /groupmesseges;
+/milestones;
+/mobile;
+/monsters;
+/mount;
+/move, /m, /go;
+/moveinterval','mi;
+/mspawn;
+/name;
+/nameplate, /np;
+/nexttarget;
+/note;
+/notes;
+/objectivewindow, /ow;
+/offhand;
+/open, /dumpout, /dump, /empty;
+/opencommandprompt;
+/party;
+/partymemberdetails, /pmd;
+/partymemberitems, /pmi;
+/partymemberspells, /partymemberskills, /pms;
+/pet;
+/play;
+/preset, /loadpreset;
+/presets;
+/previoustarget;
+/quests;
+/quickactions, /qa;
+/quicklog, /ql;
+/quicktravel, /qt;
+/random;
+/realtime, /rtm;
+/recipe, /rcp;
+/recipes;
+/relica, /distance, /relicadistance, /rd;
+/reload, /restart;
+/removeall;
+/repair;
+/repairall;
+/repeat;
+/resetfontsize, /rf;
+/resetkeybindings','resetkeys, /rk;
+/resetsettings;
+/rest, /sleep;
+/retire;
+/reverselog, /rl;
+/rightclickmenu, /rcm;
+/rolldice;
+/rp;
+/safetravel, /st;
+/salvage;
+/salvageall, /butcherall;
+/save;
+/savelog;
+/savepreset;
+/say, /s;
+/screenshake;
+/screenwidth, /sw;
+/scrollbars;
+/scrolldown;
+/scrollleftdown;
+/scrollleftup;
+/scrollrightdown;
+/scrollrightup;
+/scrollup;
+/search;
+/selfcast, /sc;
+/setclass, /stc;
+/setdescription','std, /setdesc;
+/setkey, /sk;
+/setlocalwaypoint, /localwaypoint, /slw;
+/setname, /stn;
+/settings, /set;
+/settitle;
+/setwaypoint, /swp;
+/shout, /sh;
+/showinput;
+/showslotequipment;
+/showsubmenuoptions;
+/showtooltips, /hidetooltips;
+/smarttargeting;
+/smoke;
+/sort;
+/sortall;
+/sortcontainer, /sortcontainer, /sortbox, /sortchest;
+/sortcontainers;
+/sorthere;
+/sorttargets;
+/sp;
+/spawn;
+/spawn;
+/spawnr;
+/speechinterruption, /si;
+/speechrate, /voicespeed, /sr;
+/spells, /skills;
+/split;
+/stand;
+/startsharing;
+/stats;
+/steal;
+/stopreports;
+/stopsharing;
+/stow, /remove;
+/strafe;
+/struggle;
+/swap;
+/swapcolumns;
+/t;
+/takeall, /ta;
+/target, /z;
+/targetcondition, /tc;
+/targetfilter, /tf;
+/targets;
+/test;
+/threaten;
+/throw;
+/time, /days, /day;
+/titles;
+/tooltip, /tt;
+/trackwaypoint, /twp;
+/travel, /ft;
+/turn','face;
+/uianimations;
+/unlockclasses;
+/use, /u, /e;
+/username, /setusername;
+/voice, /audiolog;
+/wait;
+/waypoints, /wp;
+/wear, /w;
+/wearall;
+/widescreen, /ws;
+/windowlock, /wl;
+/windowtabs;
+
 
 ** KEYS!
 - read the bottom of */keybinds* aka "*K*"
