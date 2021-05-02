@@ -5841,12 +5841,12 @@ This was a challenge!
 /approach;
 /assure;
 /attack, /lightattack, /attacklight, /a;
+/attackheavy, /heavyattack, /ha, /ah;
 /attunements;
 /autocomplete;
 /autoequip;
 /autoloot;
 /autosave;
-/bigmap, /bm, /layout2, /l2;
 /borderlesstiles, /bt;
 /brandish;
 /build;
@@ -5871,7 +5871,7 @@ This was a challenge!
 /clearwaypoint, /cwp;
 /climb;
 /close, /x;
-/colors],
+/colors;
 /compare;
 /compass;
 /complain;
@@ -5879,7 +5879,7 @@ This was a challenge!
 /condition;
 /cook;
 /copyseed;
-/craft', make],
+/craft, /make;
 /credits;
 /dance;
 /dash;
@@ -5909,7 +5909,7 @@ This was a challenge!
 /enter, /exp, /explore;
 /equip, /eq;
 /eventsharing, /toggingsharing;
-/exit','leave;
+/exit, /leave;
 /exitgame, /eg;
 /facing;
 /factions;
@@ -5932,7 +5932,6 @@ This was a challenge!
 /hardgamerestart;
 /harvest;
 /heal;
-/heavyattack, /attackheavy, /ha, /ah;
 /help;
 /hide, /stealth;
 /hidelog;
@@ -5954,6 +5953,7 @@ This was a challenge!
 /kill;
 /largeanimations, /biganimations, /lan;
 /layout1, /l1;
+/layout2, /l2, /bigmap, /bm;
 /layout3, /l3, /justmap, /jm;
 /layout4, /l4, /fulldata;
 /leaderboard;
@@ -5978,7 +5978,7 @@ This was a challenge!
 /monsters;
 /mount;
 /move, /m, /go;
-/moveinterval','mi;
+/moveinterval, /mi;
 /mspawn;
 /name;
 /nameplate, /np;
@@ -6013,7 +6013,7 @@ This was a challenge!
 /repairall;
 /repeat;
 /resetfontsize, /rf;
-/resetkeybindings','resetkeys, /rk;
+/resetkeybindings, resetkeys, /rk;
 /resetsettings;
 /rest, /sleep;
 /retire;
@@ -6040,7 +6040,7 @@ This was a challenge!
 /search;
 /selfcast, /sc;
 /setclass, /stc;
-/setdescription','std, /setdesc;
+/setdescription, std, /setdesc;
 /setkey, /sk;
 /setlocalwaypoint, /localwaypoint, /slw;
 /setname, /stn;
@@ -6093,7 +6093,7 @@ This was a challenge!
 /tooltip, /tt;
 /trackwaypoint, /twp;
 /travel, /ft;
-/turn','face;
+/turn, face;
 /uianimations;
 /unlockclasses;
 /use, /u, /e;
@@ -6104,7 +6104,7 @@ This was a challenge!
 /wear, /w;
 /wearall;
 /widescreen, /ws;
-/windowlock, /wl;
+/windowlock, /wl; & 
 /windowtabs;
 
 
