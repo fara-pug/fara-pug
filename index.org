@@ -6013,7 +6013,7 @@ This was a challenge!
 /repairall;
 /repeat;
 /resetfontsize, /rf;
-/resetkeybindings, resetkeys, /rk;
+/resetkeybindings, /resetkeys, /rk;
 /resetsettings;
 /rest, /sleep;
 /retire;
@@ -6040,7 +6040,7 @@ This was a challenge!
 /search;
 /selfcast, /sc;
 /setclass, /stc;
-/setdescription, std, /setdesc;
+/setdescription, /std, /setdesc;
 /setkey, /sk;
 /setlocalwaypoint, /localwaypoint, /slw;
 /setname, /stn;
@@ -6104,7 +6104,7 @@ This was a challenge!
 /wear, /w;
 /wearall;
 /widescreen, /ws;
-/windowlock, /wl; & 
+/windowlock, /wl & 
 /windowtabs;
 
 
