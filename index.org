@@ -2858,6 +2858,7 @@ The topic for everything that can be found/seen from the overland map.
 The Location might usually be safe, but you never know..
 #+end_quote
 
+*** Notes
 Due to the presence of rift-energies in the land, its important that you
 bookmark locations your're engaged with. Leaving them unobserved will not be
 enough to keep them from drifting away from where you thought they were.
@@ -2891,6 +2892,37 @@ Cleared location where you might have a non hostile but unfriendly enemy mount
 appear to attrack scoundrel after a night or two spent there. So don't be
 surprised if you find yourself suddenly blinded after having stepped on a trap
 while getting shot at if you tolerate these untamable collaborators!
+
+*** Try [[https://discord.com/channels/448497182392451073/448497182392451075/836782655819087880][/HBar/'s Landmark search pattern]]  
+(pix on the discord)
+
+I've been thinking about the best search patterns to use if you want to look
+around for landmarks.  You'll want to be moving diagonally as much as possible,
+because then you'll be neighboring 5 new tiles with every step.  The most
+foolproof search pattern, and the one I'll probably be using the most, is a
+series of concentric diamonds spaced 5 tiles apart.  So you'd go 5 steps N, 5
+SW, 5 SE, 5 NE, 5 NW to complete the first diamond, then 5N, 10SW, 10SE, 10NE,
+10NW for the second diamond, etc.  You'll be missing 3 tiles in each diamond, if
+that bothers you then you can take a non-diagonal step when you're 2 steps away
+from those three corners before returning to the diagonal.  But that's a little
+less efficient and also makes the pattern more complicated, I think it makes
+more sense not to worry about them and just stick to the diamond.
+
+If you want to get a little more fancy and slightly more efficient, you can also
+do a spiral pattern.  In this one you start out going northwest, and whenever
+you go northwest you need to add two steps to the diagonal length, so go two
+steps northwest.  Then go one step west before going two steps southwest,
+because the diagonal length is still two.  Then when you go southeast, add three
+to the diagonal length, so it's 5 steps southeast. Then 5 NE, 7 NW (because you
+add two going NW), one W (you'll always need to go one west after going
+northwest and before going southwest), 7 SW, 10 SE (because you add three going
+SE), etc.  This one misses 5 tiles per turn of the spiral, if that really
+bothers you there are 4 non-diagonal steps you can add to each turn to reach
+them, but I recommend not adding any complexity because this is already a more
+complex pattern.  The western, eastern, and southern corners of the spiral are
+in the same positions as in the diamond pattern, every 5 steps in a straight
+line from the starting point.  But the northern corners start at two steps
+northwest of where they would be on the diamond pattern (5N+2NW, 10N+2NW, etc.).
 
 ** Campsite
 Just a wilderness shack. Usually houses a recalcitrant Outlaw of one sort or the
@@ -3109,10 +3141,18 @@ way.
   noticing the loot change.
 
 ** Shrines (on the map?)
+#+begin_quote
+You'd have to be out at least 500 km to find a shrine.
+#+end_quote
+
 A powerful artifact of one of the gods rests behind the locked door which you
 can /inspect to know what you need to do to open it. On each side of the shrine
 there are statues, which have had a runestone pried out of them. One of the
 statues is probably in disrepair.
+
+Are shrines still a thing? like the ones with the artificers behind a
+stone that needs elemntal runes and frags
+
 ** Settlements
 #+TOC: headlines 1 local
 #+begin_quote
