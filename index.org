@@ -2349,33 +2349,6 @@ so don't waste your inventory space by carrying lights when you can just make
 
 - Climbing does not extend the light's circle. 
 
-*** Liquids
-:PROPERTIES:
-:ID:       3b508dec-845a-48c5-972c-7f33af94250b
-:END:
-These liquid containers provide the ability to carry water on your trips. I find
-I'd rather carry a piece of fruit to regain stamina, but tastes vary oc.
-
-Are
-Bottle,
-Bucket,
-Cauldron,
-Cup,
-Flask,
-Keg,
-Jar,
-Jug,
-Mug,
-Stein,
-Teapot,
-Urn,
-Vial &
-Waterskin
-all of them?
-
-- Do they all hold only 2 drinks?
-- Some rare, some very rare. 
-
 *** Musical Instruments
 These are everyone's effective Mood boosters,
 which become weaponry amplifying the power of a [[RHAPSODIST][Rhapsodist]].
@@ -2795,6 +2768,9 @@ Also Statues.. not really furniture, but you can find and learn to build them.
   that items were /colorable, and /installable. I mean, castles look nice..
 
 ** Storage
+#+TOC: headlines 1 local
+
+*** Chests and Carts
 
 In the beginning simply find an empty house, make a waypoint to take you there
 with "*/slw stuff*", and start making piles for the different types of items.
@@ -2814,7 +2790,44 @@ so keep experimenting with the ever improving ui.
 | Storage Bins | installable                | unlimited? |
 |--------------+----------------------------+------------|
 
-For On-Person Storage, see [[Inventory-expanding][Bags]].
+- For On-Person Storage, see [[Inventory-expanding][Bags]].
+
+- Also, check your Furniture. I think I wound up putting things into at least
+  a desk once.
+
+*** Liquids
+:PROPERTIES:
+:ID:       3b508dec-845a-48c5-972c-7f33af94250b
+:END:
+
+These liquid containers provide the ability to carry water on your trips. I find
+I'd rather carry a piece of fruit to regain stamina, but tastes vary oc.
+
+Are
+Bottle,
+Bowl,
+Bucket,
+Cauldron,
+Cup,
+Flask,
+Kettle,
+Keg,
+Jar,
+Jug,
+Mug,
+Pitcher,
+Pot,
+Stein,
+Teapot,
+Urn,
+Vase,
+Vial &
+Waterskin
+all of them?
+
+- They are all the same size and hold 2 drinks.
+- Some rare, some very rare. 
+
 
 ** Utensils
 :PROPERTIES:
@@ -3926,6 +3939,11 @@ beach. I will ;)
 
 
 *** Notes on Elemental Damage
+
+- When you're making elemental spells, think about using two elemental runes for
+broader damage & protection.
+
+
 /mantecarl/
 
 I did some testing about the light element, apparently at no attunement the
