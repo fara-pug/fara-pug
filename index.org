@@ -16,7 +16,9 @@
 
 Created during April 2021. No [[Copyright/Disclaimer][Copyright]], just link back to here.
 
-Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5d]] FARA become faster than ever!
+Starting with [[2021.04.16 0.0.16.5 Patch Notes][0.0.16.5d]] FARA become faster than ever - and though there are some
+regressions, I'm calling it "the many more findable items edition!" Go look for
+things!
 
 Gone are stuck popup, slow keys, its very responsive even on slow machines
 now. New quests, right-clicking on the map moves you, the sizes of many
@@ -318,53 +320,8 @@ Average Health, Good Resilience, Above Average Insight, Below Average Strength, 
 
 Points required: 10,000
 
-***** BEE TYPES
-[[https://blankslate.io/?note=420324][(via www)]]
-
-|------------+------------------------------------------|
-| Beautiful  | Lifts mood of beekeepers                 |
-| Disruptive | Interrupts the actions of non-beekeepers |
-| Furious    | Does more damage/sting                   |
-| Harvester  | Creates honey while swarming things      |
-| Nurturing  | Heals swarmed entities                   |
-| Scouting   | UNKNOWN/Explore the surrounding overland |
-|------------+------------------------------------------|
-
-***** HIVES
-[[https://blankslate.io/?note=420324][(via www)]]
-
-|------------+---------------------------------------------------------|
-| Beautiful  | Arcanium (VR) Adamantine (VR) Fortrium (VR) Jade (VR)   |
-| Disruptive | Ivory (C) Copper (C) Glass (C) Silver (C)               |
-| Furious    | Natural (C/VC) Wooden (VC) Tin (VC) Bone (VC) Clay (VC) |
-| Harvester  | Titanium (R) Diamond (R) Steel (R) Obsidian (R)         |
-| Nurturing  | N/A                                                     |
-| Scouting   | Brass (UC) Iron (UC) Crystal (UC) Ceramic (UC)          |
-|------------+---------------------------------------------------------|
-
-Every Hard material in the game is involved in Hives in one way or the other!
-
-Adamantine (VR),
-Arcanium (VR),
-Bone (VC),
-Brass (UC),
-Ceramic (UC),
-Clay (VC),
-Copper (C),
-Crystal (UC),
-Diamond (R),
-Fortrium (VR),
-Glass (C),
-Iron (UC),
-Ivory (C),
-Jade (VR),
-Natural (C/VC),
-Obsidian (R),
-Silver (C),
-Steel (R),
-Tin (VC),
-Titanium (R) &
-Wooden (VC) 
+See [[Bee-Hives][Bee-Hives]] for more info on what I'm guessing must bee a recipe known to
+Beekeepers from the start, [[Bees][Bees]] for a list of their allied critters.
 
 ***** Notes
 #+begin_example
@@ -1588,6 +1545,23 @@ example: "Ÿou, Director of .."
 - many/some/several, not-all? titles come with a key-fragment!
 
 * Crafting
+#+TOC: headlines 1 local
+
+** Intro
+
+Atm, Garon has 3566 recipes. Most were gained by crafting everthing he could not craft in
+the mountains of crystal he had from digging at the beach -- first in copper, then crystal,
+and keeping a storage chest dedicated to the crystal items he'd crafted.
+
+I used screenshots of the recipes i had for copper and compared what I had crafted in crystal
+to twice in Garon's first year in FARA -- just as often as I spent time feeding the smith. If you want 
+new recipes from the smith, you have to do this, else he'll make crystal or iron items which 
+you could have crafted for yourself, had you only gone through the list and made your copper
+items to unlock crystal. (Read copper==common, crystal==uncommon)
+
+(Smithy seems to level up his materials desired when there are no more new recipes. makes me 
+think that recipes have a starting rarity. Example: button, craftable only in uncommon iron.)
+
 ** Materials
 :PROPERTIES:
 :ID:       0bdd3bfd-1c10-4756-8fba-5de3e0ed6435
@@ -1700,6 +1674,14 @@ Useful *Very common* Materials without effects on your stats.
 | Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots  | 5 Ore           |
 | Arcanium   |     | >>  |     | >>> | >>> | Very Rare   | Deposit |                 |
 |------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+
+*** Other Materials
+
+|-------+-----+-----+-----+-----+-----+---------------+---------+-------------|
+| Name  | STR | FIN | RES | INS | CHA | Rarity        | Unit    | Ingredients |
+|-------+-----+-----+-----+-----+-----+---------------+---------+-------------|
+| Horn? | >>> |     |     |     |     | Rare as Moose | Antlers | Moose       |
+|-------+-----+-----+-----+-----+-----+---------------+---------+-------------|
 
 ** Qualities
 :PROPERTIES:
@@ -2303,7 +2285,6 @@ and likely has an effect on durability.
 
 *** Situational
 |-------------+--------------------------------------------|
-| Bee-hives   | See [[BEEKEEPER][Bee-Keeper]]                             |
 | Fishing Rod | For "*f*" */fish*-ing different waters.    |
 | Pickaxe     | Remove walls & mine by walking, or */dig*. |
 | Saddle      | Give to pet to */mount*-ing and ride.      |
@@ -2311,9 +2292,55 @@ and likely has an effect on durability.
 | Shackles    | do they restrain when given?               |
 |-------------+--------------------------------------------|
 
-Saddles provide stat boosts to your [[Pets][pets]],
-with a hidden pocket they could maybe
-double as rune-carriers.
+Saddles must be used when initially taming your [[Pets][compagnion]]. They provide stat
+boosts and could be used with any curio. A hidden pocket would perhaps enable
+them to act as rune-carriers.
+
+*** Bee-Hives
+:PROPERTIES:
+:ID:       f092591b-300d-49cf-8016-f13acd600a67
+:END:
+[[https://blankslate.io/?note=420324][(initially via www, later Garon got the recipe from a Smith.)]] 
+
+Hives are named after the Material. 
+Appear to usable once a day.
+Only natural hives seem to sometimes contain honey.
+See [[Bees][Bees]] for more about [[BEEKEEPER][Bee-Keeper]]'s friends.
+
+|------------+---------------------------------------------------------|
+| [[Bees][Bee Type]]   | Materials used to craft Hives for them.                 |
+|------------+---------------------------------------------------------|
+| Beautiful  | Arcanium (VR) Adamantine (VR) Fortrium (VR) Jade (VR)   |
+| Disruptive | Ivory (C) Copper (C) Glass (C) Silver (C)               |
+| Furious    | Natural (C/VC) Wooden (VC) Tin (VC) Bone (VC) Clay (VC) |
+| Harvester  | Titanium (R) Diamond (R) Steel (R) Obsidian (R)         |
+| Nurturing  | N/A                                                     |
+| Scouting   | Brass (UC) Iron (UC) Crystal (UC) Ceramic (UC)          |
+|------------+---------------------------------------------------------|
+
+Every [[Metals etc][Hard material]] in the game is involved in Hives in one way or the other!
+
+Adamantine (VR),
+Arcanium (VR),
+Bone (VC),
+Brass (UC),
+Ceramic (UC),
+Clay (VC),
+Copper (C),
+Crystal (UC),
+Diamond (R),
+Fortrium (VR),
+Glass (C),
+Iron (UC),
+Ivory (C),
+Jade (VR),
+Natural (C/VC),
+Obsidian (R),
+Silver (C),
+Steel (R),
+Tin (VC),
+Titanium (R) &
+Wooden (VC) 
 
 *** Crafting?
 |---------------+----------------------------------------|
@@ -2349,6 +2376,13 @@ so don't waste your inventory space by carrying lights when you can just make
 
 - Climbing does not extend the light's circle. 
 
+- My Smith might have gone mad, but he gave me a (Crystal Torch) the other day.
+  Garon can now bash people with a lit <Titanium Torch of Magma> and he seems to
+  be enjoying it.
+
+
+
+
 *** Musical Instruments
 These are everyone's effective Mood boosters,
 which become weaponry amplifying the power of a [[RHAPSODIST][Rhapsodist]].
@@ -2369,6 +2403,7 @@ Violin
 demand that an unopened stables in a good location be made into an orchestra pit!
 
 - Forgot to note their sizes. Remember music-class.
+
 * Food
 :PROPERTIES:
 :ID:       a46d5428-71b1-4ce2-bf77-b85e8568b8c1
@@ -2463,6 +2498,8 @@ Cook sites:
 
 - Stoves and Furncaes are a thing as well.
   They are robust, not too expensive and look good in the home.
+
+- Bonfires, 3 logs, are a thing, need to try cooking with them.
 
 Durability is never a problem, capacities all seem to be around 10.
 
@@ -2700,26 +2737,45 @@ determining the elemental attunement your food will provide.
 This section mixes the useful and important with the useless and trivial.
 It's a bit confused about wanting to be a list, explainer or crafting guide.
 
-
 #+begin_quote
 Today I found a Button. Onwards to find the thing it wants to be connected to!
 #+end_quote
 
 ** Craftable
-|----------+---------------------+------|
-| Item     | Materials           | Size |
-|----------+---------------------+------|
-| Belt     | 1 soft              |    2 |
-| Cape     | 3 soft              |    2 |
-| Scarf    | 2 soft              |    1 |
-|----------+---------------------+------|
-| Pillow   | 3 Tufts of Feathers |    2 |
-| Towel    | 1 soft              |    1 |
-|----------+---------------------+------|
-| Carpet   | 4 soft              |    6 |
-| Rug      | 3 soft              |    4 |
-| Mat      | 2 soft              |    4 |
-|----------+---------------------+------|
+#+TOC: headlines 1 local
+|-----------------+---------------------+------|
+| Item            | Materials           | Size |
+|-----------------+---------------------+------|
+| Belt            | 1 soft              |    2 |
+| Cape            | 3 soft              |    2 |
+| Scarf           | 2 soft              |    1 |
+|-----------------+---------------------+------|
+| Pillow          | 3 Tufts of Feathers |    2 |
+| Towel           | 1 soft              |    1 |
+|-----------------+---------------------+------|
+| Carpet          | 4 soft              |    6 |
+| Rug             | 3 soft              |    4 |
+| Mat             | 2 soft              |    4 |
+|-----------------+---------------------+------|
+| Jack O' Lantern | 1 Pumpkin           |    1 |
+|-----------------+---------------------+------|
+
+
+
+*** Wooden Logs Only
+3 logs each:
+
+Bonfire,
+Shelter
+
+** Machinery
+
+Iron Only:
+- Button, Lever, Spring, Switch, Pressure Plate(fixed), Canonball..
+
+Plant-Fiber:
+- Trip-wire.
+
 
 ** Furniture
 :PROPERTIES:
@@ -2766,6 +2822,10 @@ Also Statues.. not really furniture, but you can find and learn to build them.
 
 - Does anyone feel like making up a color-scheme for a living space, pretend
   that items were /colorable, and /installable. I mean, castles look nice..
+
+
+Braziers .. make a little light. Furnaces, quite a lot. And they arn't expensive.
+Build one when you're out there digging.. or to grill a den-izen.
 
 ** Storage
 #+TOC: headlines 1 local
@@ -2844,7 +2904,7 @@ Vanity/Hygene:
   Pipes,
   Towels
 - Ear & Nose-Rings
-- Rings, Clips
+- Rings, Clips, other uncraftable Jewely
 - some [[Craftable][craftable]].
 
 Eating Utensils:
@@ -2853,9 +2913,21 @@ Eating Utensils:
 - plenty of [[Liquids][containers]] for [[Alcohol][drinking]] too.
 
 Home-Office:
-- Inkwells & Quilts/Pens?
+(store in desk :)
+|---------+--------------------+------|
+| Item    | Materials          | Size |
+|---------+--------------------+------|
+| Quilt   | Tufts of Feathers  |      |
+| Inkwell | Any Hard Material? |      |
+| Paper   | Plant-Fiber        |      |
+| Book    | 10 Paper           |      |
+|---------+--------------------+------|
 
-The further out you go, the rarer the things you find;
+Sand-castle.. 
+
+The further out you go, the rarer the things you find
+(perhaps. in 16.5d at least you can find amazing trinkets close to home);
+
 *Skulls* and other items might seem useless 
 but might actually give a buff or provoke/enable encounters.
 tbd.
@@ -3226,6 +3298,11 @@ Yours will be similar I'd think. So.. Oh!
 - also dropped a Starcloth and a Velvet Saddle
   - these materials i'd not seen before i opened the building
 
+2nd Stables/Farm: Opened after 1yr ingame. The gardening plot gave me lettuce
+which i needed for a stuck-quest (16.5d/might be fixed soon) and goblingrass
+which I had never seen before. Waiting for both these things to grow so i can
+try the /smoke command with either one of these -- got the pipe recipe just
+yesterday.
 
 **** Tavern
 
@@ -3285,7 +3362,9 @@ tbd
 
 **** Refinery
 #+TOC: headlines 1 local
-A smith that makes a lot of (refineried) items.
+A world-renowned Blacksmith & Tailor team that make intuit exacly what you need
+a produce any number of (refineried) items you've never seen, or, if you were
+lazy leveling up your recipes, have never seen in that quality!
 
 ***** Cost
 - 4 medals
@@ -3305,6 +3384,12 @@ and crafts whatever he damn well pleases.
 - "Discovers" Recipes for Items you've been dying to find.
 
 ***** Notes
+- If you didn't unlock the prior tier of an item they make for you, you'll have
+  traded a medal for two runic shards.
+- Consult the [[Materials][Materials-Tables]] and screenshots of your recipes lists to figure
+  out what to make from what to unlock recipes by crafting and salvaging.
+- I think I was done with them after I got the gold-ingot recipe from the Tailor
+  and the Smith made the first Item i already knew in crystal, in steel.
 
 #+begin_quote
 Sooner or later he'll want a Pumpkin. Be prepared!
@@ -4246,6 +4331,28 @@ connected to that society of researchers only elders seem to know about?
 
 ** Enemies
 Have not cared to keep better track of these yet.
+
+*** Bees
+:PROPERTIES:
+:ID:       35c47f09-f54d-4d08-adbb-d2d3bc80c40a
+:END:
+[[https://blankslate.io/?note=420324][(via www)]]
+
+Allied with and harmless to [[BEEKEEPER][Beekeepers]].
+
+[[Bee-Hives][Bee-Hives]] are craftable by anyone in posession of the recipe, giving
+all classes the ability to run around swarmed by beneficial swarms!
+
+|------------+-------------------------------------------|
+| Bee Type   | Bonus to anyone / Malus to non Beekeepers |
+|------------+-------------------------------------------|
+| Beautiful  | Lifts mood of beekeepers                  |
+| Disruptive | Interrupts the actions of non-beekeepers  |
+| Furious    | Does more damage/sting                    |
+| Harvester  | Creates honey while swarming things       |
+| Nurturing  | Heals swarmed entities                    |
+| Scouting   | UNKNOWN/Explore the surrounding overland  |
+|------------+-------------------------------------------|
 
 *** Imps
 
