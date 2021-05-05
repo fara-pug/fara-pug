@@ -1448,8 +1448,8 @@ presents the words indicating enemy strength..
 | *16*..19 | *Legendary+*         | Legendary     | Ancient     |           |
 | *12*..15 | *Legendary*          | Mythic        | Fabled      |           |
 |----------+----------------------+---------------+-------------+-----------|
-| *10*..11 | *Excellent+*         | Heroic        | Elder       | Beasts?   |
-| *8*..9   | *Excellent*          | Elite         | Alpha       | Behemoth? |
+| *10*..11 | *Great+*             | Heroic        | Elder       | Beasts?   |
+| *8*..9   | *Grest*              | Elite         | Alpha       | Behemoth? |
 |----------+----------------------+---------------+-------------+-----------|
 | *6*..7   | *Good+*              | Veteran       | Deadly      | Beast?    |
 | *4*..5   | *Good*               | Tough         | Stout       | Kid?      |
@@ -1597,8 +1597,10 @@ between +7 and +10, etc.)
 
 *** Notes
 - Crafting appears to take 100 (105?) moments. fwiw.
-- Steel, Obsidian, Velvet, Diamond items appear to be dropped from crates promising
-  items of 'normal' quality. Makes you think, doesn't it?
+- Don't get too hung up on crafting -- as unless you can make your own Legendary items,
+  and that isn't easy to arrange, traits being what they are, forges being rare as they are,
+  you'll find almost everything you want in labys.
+  - for ex, Garon crafted just a few more bits of <equipment> than he did <tools>.
 
 *** Everyday materials
 
@@ -1621,7 +1623,14 @@ Useful *Very common* Materials without effects on your stats.
 
 
 *** Cloth and Furs
+#+TOC: headlines 1 local
 
+- Animal Pelts make Wool Items.
+- Fine Pelts make Fur Items.
+- Animal Skins make Leather Items.
+- Ghostfibers make  Ghostweave Items.
+
+**** By Rarity
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 | Name         | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
@@ -1642,12 +1651,30 @@ Useful *Very common* Materials without effects on your stats.
 | Ghostfibers  | >>> | >>> | >>  |     |     | Very Rare   | none    |                |
 |--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
-- Animal Pelts make Wool Items.
-- Fine Pelts make Fur Items.
-- Animal Skins make Leather Items.
-- Ghostfibers make  Ghostweave Items.
+**** By Relevance
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Name         | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients    |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Animal Skins |     | >>  |     |     |     | Very Common | Skin    | Animals        |
+| Linen        |     |     |     |     | >>  | Very Common | Roll of | 3 Plant Fibers |
+| Cotton       |     |     |     | >>  | >>  | Very Common | Roll of | 2 Cotton Boll  |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Animal Pelts | >>  | >>  |     |     |     | Common      | Pelt    | Animals        |
+| Tough Hide   | >>  | >>  |     |     |     | Rare        | Hide    | Animals        |
+| Fine Pelts   | >>  | >>> |     |     |     | Uncommon    | Pelt    | Animals        |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Silk         |     | >>  |     |     | >>  | Common      | Roll of |                |
+| Lace         |     | >>  |     |     | >>> | Uncommon    | Roll of |                |
+| Velvet       |     | >>> |     |     | >>> | Rare        | Roll of |                |
+| Starcloth    |     | >>> |     | >>  | >>> | Rare        | Roll of |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
+| Ghostfibers  | >>> | >>> | >>  |     |     | Very Rare   | none    |                |
+|--------------+-----+-----+-----+-----+-----+-------------+---------+----------------|
 
 *** Metals etc
+#+TOC: headlines 1 local
+
+**** By Rarity
 |------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
 | Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients     |
 |------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
@@ -1674,6 +1701,35 @@ Useful *Very common* Materials without effects on your stats.
 | Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots  | 5 Ore           |
 | Arcanium   |     | >>  |     | >>> | >>> | Very Rare   | Deposit |                 |
 |------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+
+**** By Relevance
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Name       | STR | FIN | RES | INS | CHA | Rarity      | Unit    | Ingredients     |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Tin        | >   |     | >   |     |     | Very Common | Ingots  | 2 Ore           |
+| Wood       | >>  |     |     |     |     | Very Common | Logs    | Tree            |
+| Bone       |     |     | >>  |     |     | Very Common | Bones   | Animals         |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Glass      |     |     |     | >>  | >>  | Common      | Ingots  | 3 Sand          |
+| Crystal    |     |     |     | >>> | >>  | UnCommon    | Ingots  | 3 Sand          |
+| Obsidian   |     |     |     | >>> | >>> | Rare        | Ingots  | ? Ore           |
+| Arcanium   |     | >>  |     | >>> | >>> | Very Rare   | Deposit |                 |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Ivory      |     |     | >>  | >>  |     | Common      | Chunk   | Animals         |
+| Brass      |     |     | >>> | >>  |     | UnCommon    | Ingots  | 2 Copper,1 Zinc |
+| Titanium   |     |     | >>> | >>> |     | Rare        | Ingots  | 3 Ore           |
+| Fortrium   | >>  |     | >>> | >>> |     | Very Rare   |         | Ancient Bones   |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Silver     | >   |     | >   |     |     | Common      | Ingots  | 2 Ore           |
+| Copper     | >>  |     | >>  |     |     | Common      | Ingots  | 2 Ore           |
+| Diamond    | >>  |     | >>  |     |     | Very Rare   | Ores    |                 |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+| Iron       | >>  |     | >>> |     |     | UnCommon    | Ingots  | 2 Ore           |
+| Steel      | >>> |     | >>> |     |     | Rare        | Ingots  | Imported?       |
+| Jade       | >>> |     | >>> |     |     | Very Rare   |         |                 |
+| Adamantine | >>> | >>  | >>> |     |     | Very Rare   | Ingots  | 5 Ore           |
+|------------+-----+-----+-----+-----+-----+-------------+---------+-----------------|
+
 
 *** Other Materials
 
@@ -3276,10 +3332,16 @@ You only *need* the Warehouse at the start.
 - 6 Storage bins, probably best when only used in Relica, that let you get rid of
   things you dont want to see but dont want to loose. See [[Item Management]]
 
-**** Stables
+**** Stables and Farm
 How!?@?#
 
-A Stables and a Nursery.
+Dig and plant and multiply anything the Farmer needs before turning it in. You'll
+collect sand to crystal making and leveling up your recipes as you go about this
+while also improving your relations with and rewards given by the farmer.
+
+What to do with the Stablemaster? idk. Does he raise Birds from Eggs? no. Can
+you give him pets? no. Why isnt this called 'Farm'? idk.
+
 
 ***** Cost
 - 2 medals
@@ -3302,7 +3364,7 @@ Yours will be similar I'd think. So.. Oh!
 which i needed for a stuck-quest (16.5d/might be fixed soon) and goblingrass
 which I had never seen before. Waiting for both these things to grow so i can
 try the /smoke command with either one of these -- got the pipe recipe just
-yesterday.
+yesterday.  No animals appeared at 2nd Farm.
 
 **** Tavern
 
